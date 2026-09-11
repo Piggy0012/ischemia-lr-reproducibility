@@ -1,0 +1,39 @@
+Package: CellChat
+Type: Package
+Title: Inference and analysis of cell-cell communication from
+        single-cell and spatially resolved transcriptomics data
+Version: 2.2.0.9001
+Author: Suoqin Jin
+Maintainer: Suoqin Jin <sqjin@whu.edu.cn>
+Description: an open source R tool that infers, visualizes and analyzes
+        the cell-cell communication networks from scRNA-seq and
+        spatially resolved transcriptomics data.
+Depends: R (>= 3.6.0),dplyr,igraph,ggplot2
+License: GPL-3
+Encoding: UTF-8
+LazyData: TRUE
+Imports: future, future.apply, pbapply, irlba, NMF (>= 0.23.0),
+        ggalluvial, stringr, svglite, Matrix, ggrepel, circlize (>=
+        0.4.12), RColorBrewer, cowplot, methods, ComplexHeatmap,
+        RSpectra, Rcpp, reticulate, scales, sna, reshape2, FNN, shape,
+        BiocGenerics, magrittr, patchwork, colorspace, plyr, ggpubr,
+        ggnetwork, BiocNeighbors, plotly,shiny,bslib, collapse
+LinkingTo: Rcpp, RcppEigen
+Suggests: rmarkdown, knitr, roxygen2, Seurat (>= 4.0.0),
+        SingleCellExperiment, SummarizedExperiment,
+        purrr,uwot,gg.gap,wordcloud,bsicons,presto,tidyverse,tidyr,rlang
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr
+Config/pak/sysreqs: cmake libfontconfig1-dev libfreetype6-dev
+        libfribidi-dev libglpk-dev make libharfbuzz-dev libicu-dev
+        libpng-dev libuv1-dev libxml2-dev libssl-dev perl python3
+        zlib1g-dev
+Repository: https://blaserlab.r-universe.dev
+Date/Publication: 2026-03-04 12:08:33 UTC
+RemoteUrl: https://github.com/jinworks/CellChat
+RemoteRef: HEAD
+RemoteSha: 75253cd0c9e68410e6e721a6d3a0419a1d7e358f
+NeedsCompilation: yes
+Packaged: 2026-09-03 13:22:03 UTC; root
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-03 13:38:57 UTC; windows
+Archs: x64

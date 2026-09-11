@@ -1,0 +1,22 @@
+{
+  "status": "full_official_commit_source_asset_verified",
+  "url": "https://codeload.github.com/jinworks/CellChat/tar.gz/75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "remote_url": "https://github.com/jinworks/CellChat",
+  "remote_sha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "local_path": "work/repro_v3_release_assets/CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz",
+  "bytes": 29281894,
+  "sha256": "52a90ce9f121acd58c9e5b2542956de0f3d81ac9b10906454847946f289e0739",
+  "description_identical_to_frozen_probe": true,
+  "core_source_and_DB_identical_to_verified_installed_package_source": {
+    "R/modeling.R": true,
+    "R/utilities.R": true,
+    "R/CellChat_class.R": true,
+    "data/CellChatDB.mouse.rda": true
+  },
+  "tar_members": 184,
+  "R_source_files": 10,
+  "prior_exact_build_source_endpoint": "https://blaserlab.r-universe.dev/src/contrib/CellChat_2.2.0.9001.tar.gz",
+  "prior_endpoint_result": "HTTP 403 from public redirected download; official pinned-commit public GitHub archive used instead",
+  "publication_location": "Separate release/Zenodo source asset; no binary runtime in Git",
+  "license_note": "Full official upstream source from the exact commit recorded in the installed binary. Upstream DESCRIPTION states GPL-3. This is provenance verification, not a legal sufficiency opinion."
+}

@@ -1,0 +1,31 @@
+{
+  "native_all_rows": 3379,
+  "native_protein_rows": 2377,
+  "native_unique_canonical_protein_pairs": 2365,
+  "native_protein_rows_with_cofactor": 577,
+  "native_protein_genes_including_cofactors": 1263,
+  "liana_mouseconsensus_rows": 3989,
+  "liana_mouseconsensus_unique_canonical_pairs": 3989,
+  "native_protein_rows_with_pair_in_mouseconsensus": 1551,
+  "native_unique_protein_pairs_in_mouseconsensus": 1551,
+  "canonical_pairs_with_multiple_native_rows": 12,
+  "all_11_gene_covered_native_protein_rows": 2269,
+  "all_11_gene_covered_unambiguous_shared_rows": 1548,
+  "all_11_gene_covered_unambiguous_shared_no_cofactor_rows": 1011,
+  "largest_allocation_estimate": {
+    "dataset": "GSE245386",
+    "sample": "GSM7841720",
+    "condition": "Sham",
+    "context_cells": 10135,
+    "context_types": 15,
+    "native_protein_signaling_genes_in_matrix": 1226,
+    "covered_native_protein_rows_all_LR_and_cofactor_genes": 2311,
+    "one_double_dense_signal_matrix_bytes": 99404080,
+    "four_dense_copies_plus_boot_array_bytes": 412328320,
+    "two_probability_arrays_bytes": 8557200,
+    "estimate_note": "allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS"
+  },
+  "original_samples": 11,
+  "no_expression_matrices_loaded": true,
+  "scope": "Gene coverage only, not detection eligibility or observed concordance."
+}

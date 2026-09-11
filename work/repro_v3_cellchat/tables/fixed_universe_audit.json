@@ -1,0 +1,57 @@
+{
+  "status": "fixed_network_prepared",
+  "n_samples": 11,
+  "n_shared_resource_pairs": 1548,
+  "n_complete_full_network_keys": 1222,
+  "n_complete_target_keys": 32,
+  "context_types_in_fixed_network": [
+    "Astrocyte",
+    "Endothelial",
+    "Ependymal",
+    "Fibroblast",
+    "Microglia",
+    "Myeloid",
+    "Oligodendrocyte",
+    "Pericyte",
+    "Smooth_muscle"
+  ],
+  "condition_counts": [
+    {
+      "dataset": "GSE174574",
+      "condition": "MCAO",
+      "n": 3
+    },
+    {
+      "dataset": "GSE174574",
+      "condition": "Sham",
+      "n": 3
+    },
+    {
+      "dataset": "GSE245386",
+      "condition": "MCAO",
+      "n": 2
+    },
+    {
+      "dataset": "GSE245386",
+      "condition": "Sham",
+      "n": 3
+    }
+  ],
+  "source_LIANA_full_network_hashes": {
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__full_network.tsv.gz": "723be3d64d9bcf9e4fb3b77770b08bcf8c1b61b5506175ed382e5dece820ff1e",
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__full_network.tsv.gz": "b8b71d7234791122de56e41116d59ae48921d6f1549b79c6a8864f11eecc84bf",
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__full_network.tsv.gz": "c26036fa03d08034a2e3a5ad9bc93d78b85c307867fe2203b1780400c7b9979e",
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__full_network.tsv.gz": "0eda5d9ec80e1330629b476290790bcdc5bea8c78e89395dee57bc2cfa53543c",
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__full_network.tsv.gz": "d586e0eb1e1c6a5eb708c7ea1fc3960819345bdc0727c05a9cda545653d1a3fb",
+    "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__full_network.tsv.gz": "c9d312662f7df8d3b1b056ece53c33065d9a17a68848662f2671424384a7bd81",
+    "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__full_network.tsv.gz": "7f288becc47331011be34d216e06fe1fa31206ff5a325792b6a393081601f383",
+    "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__full_network.tsv.gz": "6e94ffa1f17d28587c9bef97ea0bac83fdf7b107a7f858a4b15b55213ed3f787",
+    "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__full_network.tsv.gz": "8c55a75c103daa22a446ff76569ea93990c29454c9dd355775a84c9e38e52605",
+    "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__full_network.tsv.gz": "5768f3698f8546ae630cdcfceb085d187b3a4e756cc39e27a6042f65001cc359",
+    "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__full_network.tsv.gz": "56ff85ebda9104c7fff73101c707ae54baf78a51997000511c2485b49145c2d1"
+  },
+  "resource_sha256": "023596afec94f1dc06529d3432360d724dc8791ff2ce38b20b05fefaeb52daed",
+  "plan_sha256": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+  "gate_note": "Complete score rows in all 11 LIANA libraries on the controlled resource, before looking at new CellChat scores. Conditions do not determine eligibility.",
+  "no_biological_results_compared_yet": true
+}

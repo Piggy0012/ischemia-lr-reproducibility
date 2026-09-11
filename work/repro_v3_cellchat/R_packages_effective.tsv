@@ -1,0 +1,288 @@
+Package	Version	LibPath	Built	Priority	RemoteSha
+CellChat	2.2.0.9001	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-03 13:38:57 UTC; windows		75253cd0c9e68410e6e721a6d3a0419a1d7e358f
+Deriv	4.3.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-03 23:51:16 UTC; windows		
+Formula	1.2-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:54:00 UTC; windows		
+MatrixModels	0.5-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows		
+NMF	0.28	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:10:05 UTC; windows		
+Rdpack	2.6.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows		
+SparseM	1.84-2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows		
+broom	1.0.13	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:11:56 UTC; windows		
+car	3.1-5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:53:17 UTC; windows		
+carData	3.0-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows		
+coda	0.19-4.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows		
+collapse	2.1.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows		
+corrplot	0.95	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:55:05 UTC; windows		
+doBy	4.7.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:49:26 UTC; windows		
+forecast	9.0.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:40 UTC; windows		
+fracdiff	1.5-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+ggalluvial	0.12.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 03:43:01 UTC; windows		
+ggnetwork	0.5.14	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 03:22:46 UTC; windows		
+ggpubr	1.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:56:39 UTC; windows		
+ggsci	5.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows		
+ggsignif	0.6.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows		
+gridBase	0.4-7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:58:25 UTC; windows		
+lme4	2.0-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:21 UTC; windows		
+minqa	1.2.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows		
+modelr	0.1.11	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:38:15 UTC; windows		
+network	1.20.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:33 UTC; windows		
+nloptr	2.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows		
+pbkrtest	0.5.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:52:36 UTC; windows		
+polynom	1.4-1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:55:03 UTC; windows		
+quantreg	6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:10 UTC; windows		
+rbibutils	2.4.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows		
+reformulas	0.4.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows		
+registry	0.5-1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-08-19 11:48:59 UTC; windows		
+rngtools	1.5.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 00:57:05 UTC; windows		
+rstatix	1.1.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-09-09 04:53:39 UTC; windows		
+sna	2.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:21:04 UTC; windows		
+statnet.common	4.13.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:29 UTC; windows		
+svglite	2.2.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows		
+systemfonts	1.3.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:59 UTC; windows		
+textshaping	1.0.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:26 UTC; windows		
+timeDate	4052.112	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; ; 2026-08-23 00:53:23 UTC; windows		
+urca	1.3-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows		
+BH	1.90.0-1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:54 UTC; windows		
+Biobase	2.72.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:50:27 UTC; windows		65ae7a98395e50568bfb7a6b6367dcd967d89e1a
+BiocGenerics	0.58.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-05-14 10:20:17 UTC; windows		995c7b312290a0776eb7c575b88d6c4d3f8d7524
+BiocManager	1.30.27	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:59:28 UTC; windows		
+BiocNeighbors	2.6.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-10 09:38:36 UTC; windows		221e565acfb3d54d1cf86c69b4cb72a78c9e9cc5
+BiocParallel	1.46.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 15:02:21 UTC; windows		a331dfd2695daec754304505bdbd7358eef009fa
+BiocSingular	1.28.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:02:33 UTC; windows		675ff544b7bab511b17d6b52ef390815b4aa3bc0
+BiocVersion	3.23.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-03-01 08:32:11 UTC; windows		252d7c8f03a39a9b83f6de7e9dbf9a5ee6584365
+ComplexHeatmap	2.28.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-05-01 09:32:49 UTC; windows		ceecd5f835393e97d5902ceaabca6e66bd648263
+DelayedArray	0.38.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-05-26 21:59:34 UTC; windows		63285a4ab9f3b74c894e5f709e9cde408fca78c0
+FNN	1.1.4.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:22 UTC; windows		
+GenomicRanges	1.64.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-04-29 15:12:33 UTC; windows		ac531f1ce56cc9119075d1c6862c68ad33f98536
+GetoptLong	1.1.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:10:17 UTC; windows		
+GlobalOptions	0.1.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:49 UTC; windows		
+IRanges	2.46.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:31:00 UTC; windows		db589cc82f235a7be2d5f2bc6971af1fa2fd03b5
+MCMCprecision	0.4.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:13:14 UTC; windows		
+MatrixGenerics	1.24.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-04-29 11:26:40 UTC; windows		df689091cb9c520a1a0dd205daca647a23bc415b
+QuickJSR	1.11.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:57:27 UTC; windows		
+R6	2.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows		
+RANN	2.6.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:07 UTC; windows		
+RColorBrewer	1.1-3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows		
+ROCR	1.0-12	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:56:44 UTC; windows		
+RSpectra	0.16-2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:22:20 UTC; windows		
+Rcpp	1.1.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows		
+RcppAnnoy	0.0.23	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:56 UTC; windows		
+RcppArmadillo	15.6.0-1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:59 UTC; windows		
+RcppEigen	0.3.4.0.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows		
+RcppHNSW	0.7.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:03 UTC; windows		
+RcppML	0.3.7.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:58:09 UTC; windows		
+RcppParallel	6.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:53 UTC; windows		
+RcppProgress	0.4.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows		
+RcppTOML	0.2.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:36 UTC; windows		
+Rtsne	0.17	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:00 UTC; windows		
+S4Arrays	1.12.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:28:31 UTC; windows		b1246fd0b81ac137623ee1c0d6587a59e8ad1073
+S4Vectors	0.50.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-20 20:13:31 UTC; windows		9bd354f3a5b9fd19f549b472e24518328aa2abf3
+S7	0.2.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+ScaledMatrix	1.20.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-04-29 13:53:54 UTC; windows		94df0ea72694e0403c34536ec15ffb459d70662f
+Seqinfo	1.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-05-04 08:56:19 UTC; windows		345dd61b77c8ff7e90ecc587d7b32c4d7189f690
+Seurat	5.5.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 04:15:51 UTC; windows		
+SeuratObject	5.4.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:24:14 UTC; windows		
+SingleCellExperiment	1.34.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-04-29 15:26:55 UTC; windows		f92b7823acc328c8b65259d38ada6ce401bd80cb
+SparseArray	1.12.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-01 20:55:46 UTC; windows		dd96584c2f1284fe00041e392b5bed5749b4e42d
+StanHeaders	2.39.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:23:03 UTC; windows		
+SummarizedExperiment	1.42.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-04-29 11:30:24 UTC; windows		38d319f79612b5bc873e609cb909f9165345f2b1
+WriteXLS	6.8.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:50:21 UTC; windows		
+XVector	0.52.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:56:17 UTC; windows		fa5f5a6296e984f5cb90b52bff781e710d999111
+abind	1.4-8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows		
+askpass	1.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows		
+assorthead	1.6.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; ; 2026-05-25 11:54:42 UTC; windows		9ee2dd8e2852145d3755b4bebc002b1328bb02e0
+backports	1.5.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:10 UTC; windows		
+base64enc	0.1-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows		
+beachmat	2.28.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-01 09:36:42 UTC; windows		a5ec637c732e3ce1e978036e67f5030253503624
+beeswarm	0.4.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows		
+bitops	1.1-0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:54 UTC; windows		
+bluster	1.22.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 17:58:04 UTC; windows		c564e528da63e928b8a22e01bf80c148ce8042a3
+bslib	0.12.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:27 UTC; windows		
+caTools	1.18.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows		
+cachem	1.1.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows		
+callr	3.8.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows		
+celda	1.28.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 20:50:06 UTC; windows		ac7591c7cd29b140f8ccd4a0c8b9ace33ea8eb79
+checkmate	2.3.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:58 UTC; windows		
+circlize	0.4.18	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows		
+cli	3.6.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+clue	0.3-68	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:42 UTC; windows		
+colorspace	2.1-3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+combinat	0.0-8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:49:03 UTC; windows		
+commonmark	2.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows		
+cowplot	1.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:03:39 UTC; windows		
+cpp11	0.5.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows		
+crayon	1.5.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:16 UTC; windows		
+crosstalk	1.2.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows		
+curl	8.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:15 UTC; windows		
+data.table	1.18.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows		
+dbscan	1.2.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows		
+decontX	1.10.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-01 10:15:47 UTC; windows		ffb4063aff1ced121ab403769911f9cba1b8a0c0
+deldir	2.0-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:39 UTC; windows		
+dendextend	1.19.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:04:42 UTC; windows		
+desc	1.4.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:57 UTC; windows		
+digest	0.6.39	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+distributional	0.9.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:41:28 UTC; windows		
+doParallel	1.0.17	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:21:01 UTC; windows		
+dotCall64	1.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:02 UTC; windows		
+dplyr	1.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 04:00:08 UTC; windows		
+dqrng	0.4.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:57:29 UTC; windows		
+edgeR	4.10.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-04 14:39:38 UTC; windows		c4a54bdaec47e8b170d8164c417461d7f475ceea
+enrichR	3.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:44:48 UTC; windows		
+evaluate	1.0.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:28 UTC; windows		
+farver	2.1.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+fastDummies	1.7.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:06:26 UTC; windows		
+fastmap	1.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+fitdistrplus	1.2-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:21:25 UTC; windows		
+fontawesome	0.5.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:49 UTC; windows		
+foreach	1.5.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows		
+formatR	1.14	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:00:28 UTC; windows		
+fs	2.1.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+futile.logger	1.4.9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:24:27 UTC; windows		
+futile.options	1.0.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:54:24 UTC; windows		
+future	1.75.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows		
+future.apply	1.20.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:21:02 UTC; windows		
+generics	0.1.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows		
+ggbeeswarm	0.7.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:42:30 UTC; windows		
+ggdendro	0.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:41:16 UTC; windows		
+ggplot2	4.0.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows		
+ggrepel	0.9.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows		
+ggridges	0.5.7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:04:05 UTC; windows		
+globals	0.19.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 12:58:27 UTC; windows		
+glue	1.8.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+goftest	1.2-3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:37 UTC; windows		
+gplots	3.3.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:56:08 UTC; windows		
+gridExtra	2.3.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows		
+gtable	0.3.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows		
+gtools	3.9.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows		
+here	1.0.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows		
+highr	0.12	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows		
+htmltools	0.5.9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows		
+htmlwidgets	1.6.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:20:06 UTC; windows		
+httpuv	1.6.17	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:24 UTC; windows		
+httr	1.4.9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows		
+ica	1.0-3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:47:21 UTC; windows		
+igraph	2.3.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:13 UTC; windows		
+inline	0.3.21	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:57:26 UTC; windows		
+irlba	2.3.7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:35 UTC; windows		
+isoband	0.3.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows		
+iterators	1.0.14	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:05 UTC; windows		
+jquerylib	0.1.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows		
+jsonlite	2.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+knitr	1.52	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:57 UTC; windows		
+labeling	0.4.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows		
+lambda.r	1.2.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:57:56 UTC; windows		
+later	1.4.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows		
+lazyeval	0.2.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows		
+lifecycle	1.0.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:53 UTC; windows		
+limma	3.68.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 09:27:06 UTC; windows		825d1c8330d024adb6c54af66d79b0f4ec258530
+listenv	1.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows		
+lmtest	0.9-40	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:47 UTC; windows		
+locfit	1.5-9.12	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows		
+loo	2.10.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:21:39 UTC; windows		
+magrittr	2.0.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+matrixStats	1.5.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:36 UTC; windows		
+memoise	2.0.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:48 UTC; windows		
+metapod	1.20.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:50:48 UTC; windows		fccdc7f39efed41fe3f95a48e2141adb914e74d2
+mime	0.13	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows		
+miniUI	0.1.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:20:08 UTC; windows		
+numDeriv	2016.8-1.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:08 UTC; windows		
+openssl	2.4.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:03 UTC; windows		
+otel	0.2.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows		
+pROC	1.19.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 01:28:32 UTC; windows		
+parallelly	1.48.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:41 UTC; windows		
+patchwork	1.3.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows		
+pbapply	1.7-5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows		
+pheatmap	1.0.13	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:23:58 UTC; windows		
+pillar	1.11.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows		
+pkgbuild	1.4.8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:26 UTC; windows		
+pkgconfig	2.0.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows		
+plotly	4.12.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 04:12:12 UTC; windows		
+plyr	1.8.9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows		
+png	0.1-9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows		
+polyclip	1.10-7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:47:28 UTC; windows		
+posterior	1.7.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:05:08 UTC; windows		
+processx	3.9.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows		
+progressr	1.0.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows		
+promises	1.5.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:50 UTC; windows		
+ps	1.9.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:50 UTC; windows		
+purrr	1.2.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:05 UTC; windows		
+rappdirs	0.3.4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+reshape2	1.4.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:47 UTC; windows		
+reticulate	1.47.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:24 UTC; windows		
+rjson	0.2.23	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:25 UTC; windows		
+rlang	1.3.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+rmarkdown	2.32	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:03:43 UTC; windows		
+rprojroot	2.1.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows		
+rstan	2.32.7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:35 UTC; windows		
+rstantools	2.7.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:56:47 UTC; windows		
+rsvd	1.0.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:59:15 UTC; windows		
+sass	0.4.10	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:49 UTC; windows		
+scales	1.4.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows		
+scater	1.40.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-06-30 13:37:27 UTC; windows		ca4fc15bb520ebbc7dd3a889217209061c68f3af
+scattermore	1.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:11 UTC; windows		
+scran	1.40.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-30 09:16:49 UTC; windows		24a6fe7a83a1b6a0e85c2856c2d39b767b4597fd
+sctransform	0.4.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:22:52 UTC; windows		
+scuttle	1.22.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.0; x86_64-w64-mingw32; 2026-05-02 09:50:48 UTC; windows		d56a81e414939eefecd55ec68712a4be3d6858ab
+shape	1.4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:34 UTC; windows		
+shiny	1.14.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:03:41 UTC; windows		
+sitmo	2.0.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:57 UTC; windows		
+snow	0.4-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows		
+sourcetools	0.1.7-2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows		
+sp	2.2-3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:55 UTC; windows		
+spam	2.11-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:00 UTC; windows		
+spatstat.data	3.1-9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:56:05 UTC; windows		
+spatstat.explore	3.8-2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:39 UTC; windows		
+spatstat.geom	3.8-2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:20 UTC; windows		
+spatstat.random	3.5-1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:33 UTC; windows		
+spatstat.sparse	3.2-0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows		
+spatstat.univar	3.2-0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows		
+spatstat.utils	3.2-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:05 UTC; windows		
+statmod	1.5.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:03 UTC; windows		
+stringi	1.8.9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:22 UTC; windows		
+stringr	1.6.0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows		
+sys	3.4.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows		
+tensor	1.5.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-08-19 11:47:30 UTC; windows		
+tensorA	0.36.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:22 UTC; windows		
+tibble	3.3.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:39 UTC; windows		
+tidyr	1.3.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:19 UTC; windows		
+tidyselect	1.2.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows		
+tinytex	0.60	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows		
+utf8	1.2.6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows		
+uwot	0.2.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:22 UTC; windows		
+vctrs	0.7.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:52:27 UTC; windows		
+vipor	0.4.7	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 01:00:03 UTC; windows		
+viridis	0.6.5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 03:03:57 UTC; windows		
+viridisLite	0.4.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows		
+withr	3.0.3	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows		
+xfun	0.60	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:30 UTC; windows		
+xtable	1.8-8	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows		
+yaml	2.3.12	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:31 UTC; windows		
+zoo	1.9-0	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary	R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows		
+KernSmooth	2.23-26	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:40 UTC; windows	recommended	
+MASS	7.3-65	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:25 UTC; windows	recommended	
+Matrix	1.7-5	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:58 UTC; windows	recommended	
+base	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:20:51 UTC; windows	base	
+boot	1.3-32	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:32:04 UTC; windows	recommended	
+class	7.3-23	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:04 UTC; windows	recommended	
+cluster	2.1.8.2	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:11 UTC; windows	recommended	
+codetools	0.2-20	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:32:25 UTC; windows	recommended	
+compiler	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:14:21 UTC; windows	base	
+datasets	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:19:02 UTC; windows	base	
+foreign	0.8-91	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:28 UTC; windows	recommended	
+grDevices	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:14 UTC; windows	base	
+graphics	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:56 UTC; windows	base	
+grid	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:46 UTC; windows	base	
+lattice	0.22-9	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:40 UTC; windows	recommended	
+methods	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:12 UTC; windows	base	
+mgcv	1.9-4	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:21 UTC; windows	recommended	
+nlme	3.1-169	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:23 UTC; windows	recommended	
+nnet	7.3-20	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:09 UTC; windows	recommended	
+parallel	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:30 UTC; windows	base	
+rpart	4.1.27	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:48 UTC; windows	recommended	
+spatial	7.3-18	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:14 UTC; windows	recommended	
+splines	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:12 UTC; windows	base	
+stats	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:17:23 UTC; windows	base	
+stats4	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; ; 2026-06-24 08:20:17 UTC; windows	base	
+survival	3.8-6	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:55 UTC; windows	recommended	
+tcltk	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:20 UTC; windows	base	
+tools	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:14:19 UTC; windows	base	
+utils	4.6.1	C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:15:23 UTC; windows	base	

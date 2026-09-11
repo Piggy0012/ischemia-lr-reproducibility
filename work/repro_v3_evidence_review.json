@@ -1,0 +1,457 @@
+{
+  "status": "complete",
+  "checked_at_utc": "2026-09-11T07:32:38.857253+00:00",
+  "scope": "Independent source and statistical-evidence verification for the new review; main manuscripts and original calculations were not modified. Latest reviewer requirements were relayed by the parent task; publication handoff was read.",
+  "upstream": {
+    "pr_url": "https://github.com/scverse/liana/pull/261",
+    "merged_at": "2026-09-09T07:06:26Z",
+    "merge_commit_sha": "d4211373692e7b9c10210488ccb1efe06452b097",
+    "commit_url": "https://github.com/scverse/liana/commit/d4211373692e7b9c10210488ccb1efe06452b097",
+    "supported_claim": "The shared-score repeated-ranking correction was already merged before this manuscript revision; the contribution is evaluation of downstream consequences of a known fix.",
+    "priority_limit": "A later preprint or audit cannot retroactively establish priority over an already public merged correction.",
+    "package_scope": "The audited change is the aggregation step only, not a complete newer-package rerun; concurrent threshold-default changes are excluded."
+  },
+  "references": [
+    {
+      "reference": 3,
+      "first_author": "Giulia Cesaro",
+      "title": "Differential cellular communication inference framework for large-scale single-cell RNA-sequencing data",
+      "doi": "10.1093/nargab/lqaf084",
+      "publication_date": "2025-06-19",
+      "journal": "NAR Genomics and Bioinformatics 7(2):lqaf084",
+      "official_fulltext_url": "https://academic.oup.com/nargab/article/7/2/lqaf084/8169143",
+      "official_repository_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12204404/",
+      "access": "Publisher full text read through the web tool, including methods and results; DOI/Crossref metadata alone was not used.",
+      "locator": "Methods: differential communication and multi-sample conditions-aware analyses; Results: prioritized differential interactions versus spatial co-localization in myocardial-infarction data.",
+      "supports_zh": "该文提出scSeqCommDiff/CClens，比较实验条件间通讯并以配套空间数据检查差异候选的空间共定位支持；可支持“既有差异通讯方法及空间支持评价”的背景。",
+      "does_not_support_zh": "不能据此宣称本文首先比较条件效应或首先使用空间支持；该DOI是方法研究，不应误写为综述，也不能替本文原两队列提供机制验证。"
+    },
+    {
+      "reference": 4,
+      "first_author": "Li-Ting Ku",
+      "title": "Benchmarking tools for deciphering cellular crosstalk in spatially-resolved transcriptomics",
+      "doi": "10.1186/s13059-026-04063-5",
+      "publication_date": "2026-04-08",
+      "journal": "Genome Biology 27:163",
+      "official_fulltext_url": "https://link.springer.com/article/10.1186/s13059-026-04063-5",
+      "official_repository_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174004/",
+      "access": "Publisher full text read through the web tool, including common-database design, reproducibility evaluation and limitations.",
+      "locator": "Results: native/common LR databases and cross-sample consistency; Methods: Jaccard index; DLPFC and IPMN data descriptions.",
+      "supports_zh": "九种空间通讯工具的模拟及真实数据评价已采用共同LR资源，并以Jaccard衡量跨样本/切片一致性；可支持本文需限定为具体疾病案例和实现后果评估的定位。",
+      "does_not_support_zh": "DLPFC四张切片来自同一供体，不能写为四个独立生物学重复；重叠、文献通路支持与真实通讯机制是不同证据。"
+    },
+    {
+      "reference": 8,
+      "first_author": "Ruolin Zhang",
+      "title": "Nrsn1–Smarcc1 Coupling Regulates Neural Stem Cell Differentiation and Chronic-phase Recovery After Ischemic Stroke",
+      "doi": "10.1002/advs.77547",
+      "publication_date": "2026-09-03",
+      "journal": "Advanced Science, e77547, online ahead of print",
+      "pmid": "42693582",
+      "pmcid": "PMC13542395",
+      "official_fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13542395/",
+      "official_fulltext_xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/PMC13542395.1.xml",
+      "access": "Fresh official PMC Cloud full-text XML HTTP 200; MD5 matched the official object metadata. Fresh author supplement was also read.",
+      "locator": "Results section 2.1 and Figure 1D–F; MCAO/R surgery method; Data availability; Supplementary Table S1, Sheet1 B2:D4.",
+      "supports_zh": "正文说明同侧纹状体的Sham及再灌注后0h、24h、7d、14d取样；MCAO阻断60分钟；数据获取段对应GSE332910；Table S1中Sham/24h均列3个生物学重复和3个RNA文库。",
+      "does_not_support_zh": "未找到逐RNA文库的独立鼠ID或混样规模映射，不能把每个文库明确写成单鼠；原文的NSC机制不构成本文星形—内皮通讯的功能验证。"
+    }
+  ],
+  "geo": {
+    "accession": "GSE332910",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910",
+    "public_on": "2026-09-09",
+    "last_updated": "2026-09-10",
+    "pmid": "42693582",
+    "selected_RNA_library_count": 6,
+    "samples": [
+      {
+        "gsm": "GSM9755192",
+        "title": "Multiome, MCAO/R, 24h-1, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: MCAO/R"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755192"
+      },
+      {
+        "gsm": "GSM9755194",
+        "title": "Multiome, MCAO/R, 24h-2, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: MCAO/R"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755194"
+      },
+      {
+        "gsm": "GSM9755196",
+        "title": "Multiome, MCAO/R, 24h-3, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: MCAO/R"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755196"
+      },
+      {
+        "gsm": "GSM9755210",
+        "title": "Multiome, MCAO/R, Sham-1, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: Sham surgery"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755210"
+      },
+      {
+        "gsm": "GSM9755212",
+        "title": "Multiome, MCAO/R, Sham-2, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: Sham surgery"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755212"
+      },
+      {
+        "gsm": "GSM9755214",
+        "title": "Multiome, MCAO/R, Sham-3, RNA",
+        "organism": "Mus musculus",
+        "characteristics": [
+          "tissue: Brain",
+          "cell type: mixed brain cells",
+          "genotype: wild-type",
+          "treatment: Sham surgery"
+        ],
+        "instrument_model": [
+          "DNBSEQ-T7"
+        ],
+        "library_strategy": [
+          "RNA-Seq"
+        ],
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755214"
+      }
+    ],
+    "author_reported_biological_replicates_per_group": 3,
+    "author_reported_RNA_libraries_per_group": 3,
+    "mice_or_pool_membership_per_library": null,
+    "metadata_caveats": [
+      "Series overall_design contains generic immunization wording; experimental interpretation is based on actual sample treatment fields and the paper.",
+      "GSM instrument_model reports DNBSEQ-T7 while the RNA extraction protocol says DNBSEQ-Tx; retain MGI/DNBSEQ-level platform wording rather than silently choosing a model."
+    ]
+  },
+  "fresh_remote_provenance": {
+    "pr_api": {
+      "url": "https://api.github.com/repos/scverse/liana/pulls/261",
+      "resolved_url": "https://api.github.com/repos/scverse/liana/pulls/261",
+      "http_status": 200,
+      "retrieved_utc": "2026-09-11T07:32:36.638716+00:00",
+      "bytes": 17975,
+      "sha256": "35151817561813d8d78382d16119238e631c8c443a9b9c01fca1406d17d3c998",
+      "md5": "e0c615f127deebf1be138e802af20601"
+    },
+    "geo_series": {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910&targ=self&form=text&view=full",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910&targ=self&form=text&view=full",
+      "http_status": 200,
+      "retrieved_utc": "2026-09-11T07:32:36.522086+00:00",
+      "bytes": 2960,
+      "sha256": "f6195b4838c6b30344aab1b782bf645e865b6138baf3f58178e1ab4f5807916a",
+      "md5": "45d9169fc11cafb33e820be4405d4662"
+    },
+    "zhang_fulltext": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/PMC13542395.1.xml",
+      "resolved_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/PMC13542395.1.xml",
+      "http_status": 200,
+      "retrieved_utc": "2026-09-11T07:32:36.633951+00:00",
+      "bytes": 191638,
+      "sha256": "759bd2afec0c26f7e775424adf98667a276e1ef25b361ac5f2c76642b66f8a3f",
+      "md5": "6e023c481fb842370ff36b69fc633db2"
+    },
+    "zhang_supplement": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx",
+      "resolved_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx",
+      "http_status": 200,
+      "retrieved_utc": "2026-09-11T07:32:37.923407+00:00",
+      "bytes": 52182,
+      "sha256": "c20ec5d550af876a0490b763cdf1ea5a315a15b46894588da4fe2c09fd6e92f7",
+      "md5": "b9014fa4c5e07479b91ebe5a02909267"
+    },
+    "geo_family": {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910&targ=all&form=text&view=full",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910&targ=all&form=text&view=full",
+      "http_status": 200,
+      "retrieved_utc": "2026-09-11T07:32:38.693968+00:00",
+      "bytes": 437940,
+      "sha256": "ca288c6e0aa52f294216e0bccc8a2addcb24fa0d82c9109e5cdee2cc8b1fbd08",
+      "md5": "f65d0d24666a53bb0dfa09c026ac19ce"
+    }
+  },
+  "family_C": {
+    "source_rows": 400,
+    "tests": 6,
+    "allocations_per_test": 200,
+    "observed_id": 199,
+    "comparison_tolerance": 1e-12,
+    "exact_p_definition": "sum_g I(T_g >= T_observed - 1e-12) / 200, over all 200 admissible joint allocations including the observed assignment; no Monte Carlo +1 correction.",
+    "tail_checks": [
+      {
+        "config": "primary",
+        "statistic": "same_direction_all_fraction",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7987616099071208,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.7807308970099668,
+        "gap_to_second_highest": 0.018030712897153967,
+        "minimum_value": 0.20123839009287925,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      },
+      {
+        "config": "primary",
+        "statistic": "same_direction_nonzero_fraction",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7987616099071208,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.7807308970099668,
+        "gap_to_second_highest": 0.018030712897153967,
+        "minimum_value": 0.20123839009287925,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      },
+      {
+        "config": "primary",
+        "statistic": "spearman_rho",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7427882976103759,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.740173828718505,
+        "gap_to_second_highest": 0.0026144688918708914,
+        "minimum_value": -0.7427882976103759,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      },
+      {
+        "config": "reference_singlet",
+        "statistic": "same_direction_all_fraction",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7576687116564417,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.7392739273927392,
+        "gap_to_second_highest": 0.018394784263702446,
+        "minimum_value": 0.24233128834355827,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      },
+      {
+        "config": "reference_singlet",
+        "statistic": "same_direction_nonzero_fraction",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7576687116564417,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.7392739273927392,
+        "gap_to_second_highest": 0.018394784263702446,
+        "minimum_value": 0.24233128834355827,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      },
+      {
+        "config": "reference_singlet",
+        "statistic": "spearman_rho",
+        "n_allocations": 200,
+        "observed_allocation_id": 199,
+        "observed": 0.7030217132058506,
+        "strictly_greater_than_observed": 0,
+        "exact_ties_including_observed": 1,
+        "tolerance_ties_including_observed": 1,
+        "greater_or_equal_with_tolerance": 1,
+        "second_highest_excluding_observed": 0.6883594370478435,
+        "gap_to_second_highest": 0.014662276158007082,
+        "minimum_value": -0.7030217132058506,
+        "equal_or_greater_absolute_distance_from_null_center": 2,
+        "exact_one_sided_p": 0.005
+      }
+    ],
+    "every_observed_is_unique_upper_tail_maximum": true,
+    "upper_tail_qualifier_required": "The observed allocation is the unique upper-tail maximum. It is not uniquely most extreme under an unplanned absolute-distance/two-sided definition: the sign/complement allocation supplies the other equally distant extreme.",
+    "holm_adjusted_pvalues": [
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03
+    ],
+    "original_family_retained": true,
+    "all_candidate_and_nonzero_denominators_identical_in_all_allocations": true,
+    "allocation_spearman_correlation_matrix": {
+      "primary__same_direction_all_fraction": {
+        "primary__same_direction_all_fraction": 1.0,
+        "primary__same_direction_nonzero_fraction": 1.0,
+        "primary__spearman_rho": 0.9770628577644144,
+        "reference_singlet__same_direction_all_fraction": 0.9692099531427685,
+        "reference_singlet__same_direction_nonzero_fraction": 0.9692099531427685,
+        "reference_singlet__spearman_rho": 0.9616484261602601
+      },
+      "primary__same_direction_nonzero_fraction": {
+        "primary__same_direction_all_fraction": 1.0,
+        "primary__same_direction_nonzero_fraction": 1.0,
+        "primary__spearman_rho": 0.9770628577644144,
+        "reference_singlet__same_direction_all_fraction": 0.9692099531427685,
+        "reference_singlet__same_direction_nonzero_fraction": 0.9692099531427685,
+        "reference_singlet__spearman_rho": 0.9616484261602601
+      },
+      "primary__spearman_rho": {
+        "primary__same_direction_all_fraction": 0.9770628577644144,
+        "primary__same_direction_nonzero_fraction": 0.9770628577644144,
+        "primary__spearman_rho": 1.0,
+        "reference_singlet__same_direction_all_fraction": 0.967216483728406,
+        "reference_singlet__same_direction_nonzero_fraction": 0.967216483728406,
+        "reference_singlet__spearman_rho": 0.9817910447761194
+      },
+      "reference_singlet__same_direction_all_fraction": {
+        "primary__same_direction_all_fraction": 0.9692099531427685,
+        "primary__same_direction_nonzero_fraction": 0.9692099531427685,
+        "primary__spearman_rho": 0.967216483728406,
+        "reference_singlet__same_direction_all_fraction": 1.0,
+        "reference_singlet__same_direction_nonzero_fraction": 1.0,
+        "reference_singlet__spearman_rho": 0.98104091228594
+      },
+      "reference_singlet__same_direction_nonzero_fraction": {
+        "primary__same_direction_all_fraction": 0.9692099531427685,
+        "primary__same_direction_nonzero_fraction": 0.9692099531427685,
+        "primary__spearman_rho": 0.967216483728406,
+        "reference_singlet__same_direction_all_fraction": 1.0,
+        "reference_singlet__same_direction_nonzero_fraction": 1.0,
+        "reference_singlet__spearman_rho": 0.98104091228594
+      },
+      "reference_singlet__spearman_rho": {
+        "primary__same_direction_all_fraction": 0.9616484261602601,
+        "primary__same_direction_nonzero_fraction": 0.9616484261602601,
+        "primary__spearman_rho": 0.9817910447761194,
+        "reference_singlet__same_direction_all_fraction": 0.98104091228594,
+        "reference_singlet__same_direction_nonzero_fraction": 0.98104091228594,
+        "reference_singlet__spearman_rho": 1.0
+      }
+    },
+    "nonduplicate_offdiagonal_spearman_range": [
+      0.9616484261602601,
+      0.9817910447761194
+    ],
+    "correlation_interpretation": "Equal P values alone do not imply correlation. Dependence here is separately documented by identical statistic vectors and by correlations of all 200 aligned allocation vectors; those 200 configurations are not independent biological observations.",
+    "holm_source_url": "https://search.r-project.org/R/refmans/stats/html/p.adjust.html",
+    "holm_validity": "Holm controls strong FWER under arbitrary dependence of valid marginal P values. It may be conservative and does not exploit observed dependence; its adjusted P is not an estimate of the actual joint FWER, nor proof of a stronger latent signal. Validity still requires exchangeability for the component permutation P values.",
+    "suggested_methods_english": "We retained the six-entry exploratory family specified in the revision-stage plan and applied Holm correction, which controls the family-wise error rate under arbitrary dependence when the marginal P values are valid. The identical P values reflected the same attainable tail count and did not by themselves establish dependence. Direct inspection showed two pairs of identical concordance statistics and strongly associated allocation vectors, so the six entries were not six independent confirmations; this did not justify redefining the family after observing the results. This plan followed inspection of earlier manuscript results and was not preregistered."
+  },
+  "families_A_B": {
+    "A": {
+      "tests": 30,
+      "nominal_p_below_005": 24,
+      "minimum_unadjusted_p": 0.005,
+      "minimum_holm_adjusted_p": 0.15,
+      "holm_adjusted_below_005": 0
+    },
+    "B": {
+      "tests": 24,
+      "nominal_p_below_005": 12,
+      "minimum_unadjusted_p": 0.005,
+      "minimum_holm_adjusted_p": 0.12,
+      "holm_adjusted_below_005": 0
+    }
+  },
+  "abstract_english_four_sentences": [
+    "Cross-cohort agreement of ligand–receptor expression effects may differ from agreement of inferred candidate priorities, complicating the selection of reproducible interactions.",
+    "We evaluated astrocyte–endothelial candidates in two mouse cerebral ischemia cohorts comprising 11 animal libraries using matched candidate sets, exhaustive animal-label allocations and controlled aggregation analyses, including an independently reproduced, previously merged upstream correction.",
+    "On 187 common candidates, expression effects agreed for 80.2% versus 56.1% for native LIANA 1.10.0 priorities, and ranking each distinct score column once increased priority correlation to 0.519; dynamic-gate expression concordance was 79.9% versus a 50.0% joint-null median (one-sided exact P=0.005; six-test Holm P=0.030, exploratory family C), whereas fixed-metric and expression-minus-priority families A and B did not reach Holm-adjusted significance (minimum adjusted P=0.15 and 0.12).",
+    "These descriptive and exploratory findings do not establish significant between-method superiority and support separately auditing expression effects, software implementations, eligible candidate sets and directional denominators before selecting candidates for validation."
+  ],
+  "input_sha256": [
+    {
+      "path": "outputs/reproducibility_v2/tables/null_dynamic_gate_all_allocations.tsv.gz",
+      "sha256": "83921e0a61a8054d3d3b912b6027c008a209d4859bc33190902aac44dfefb314"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_dynamic_gate_summary.tsv",
+      "sha256": "00e8fd82d0c7bf3431ad605f463129132b4c1afbed3567af5bd81b8de154b141"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_fixed_common_summary.tsv",
+      "sha256": "3fb8cc1635520a9521981b00f0f40fb4177bded1ffbac77be5d2d80b5b57ed08"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_family_gap_summary.tsv",
+      "sha256": "ed44818d7922489f52d804727bc2a580e1c531409496826013566f40c73c0675"
+    },
+    {
+      "path": "work/repro_null_baseline.py",
+      "sha256": "11673161a7a066e3f03bc56930450de3a81c6e835e15b570bfc023ccca052000"
+    },
+    {
+      "path": "work/repro_publication_handoff.md",
+      "sha256": "104ec5867969946b7e1da258ffa448ab87ef09b7f2fd9a5cb75ae83250b0fd9c"
+    }
+  ],
+  "source_access_note": "Initial DOI and GEO web opens failed and some PMC HTML pages returned challenge pages; usable publisher full text plus fresh official GitHub/GEO/PMC Cloud retrievals are identified above. Challenge responses were not treated as source evidence."
+}

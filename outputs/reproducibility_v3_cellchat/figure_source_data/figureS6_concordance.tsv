@@ -1,0 +1,5 @@
+metric	scope	n_candidates	n_nonzero_both	n_same_direction	same_direction_all_fraction	same_direction_nonzero_fraction	n_zero_discovery	n_zero_external	spearman_rho	disease_inferential_pvalues_computed
+custom_coavailability	all_fixed_targets	32	32	23	0.71875	0.71875	0	0	0.56524926686217	False
+cellchat_probability	all_fixed_targets	32	13	10	0.3125	0.7692307692307693	19	3	0.5491810952969148	False
+cellchat_strength_percentile	all_fixed_targets	32	32	16	0.5	0.5	0	0	0.36405923959998177	False
+LIANA_unique_column_RRA_priority	all_fixed_targets	32	19	13	0.40625	0.6842105263157895	10	12	0.45075188242744174	False

@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "original_primary_target_candidates": 187,
+  "native_all_categories_exact_canonical_matches": 32,
+  "native_protein_exact_canonical_matches": 32,
+  "native_protein_unique_row_matches": 32,
+  "controlled_shared_1548_resource_matches": 32,
+  "after_all_11_full_network_intersection": 32,
+  "additional_target_loss_at_full_network_intersection": 0,
+  "casefold_only_unmatched_pairs": 0,
+  "canonical_complex_order_changes": 0,
+  "reasons": {
+    "no_exact_complete_subunit_pair_in_native_CellChatDB": 155,
+    "retained": 32
+  },
+  "original_candidates_with_all_genes_as_exact_native_official_symbols": 187,
+  "excluded_candidates_with_native_superset_complex_match": 4,
+  "resource_loss_interpretation": "Exact ligand/receptor subunit definitions differ. Do not collapse a native obligate receptor complex to a single component merely to force matches; no alias conversion or orthology mapping was applied.",
+  "old_target_source_sha256": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f",
+  "controlled_resource_sha256": "023596afec94f1dc06529d3432360d724dc8791ff2ce38b20b05fefaeb52daed",
+  "native_resource_snapshot_sha256": "dd59b19646e546b3ed41f394ad2cf64cf44f3d3fcfbb58ac176f0fe1322f9413",
+  "scope": "Resource and coverage audit, not an observed CellChat reproducibility result."
+}

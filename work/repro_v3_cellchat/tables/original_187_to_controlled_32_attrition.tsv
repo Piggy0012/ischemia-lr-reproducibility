@@ -1,0 +1,188 @@
+source	target	original_ligand	original_receptor	canonical_ligand	canonical_receptor	complex_order_changed	n_native_rows_exact_canonical	n_native_protein_rows_exact_canonical	native_interaction_ids	casefold_only_native_match	all_original_subunit_symbols_in_native_geneInfo	native_rows_requiring_additional_subunits	missing_genes_by_sample	in_controlled_1548	in_final_32	reason
+Astrocyte	Endothelial	Adam10	Cadm1	Adam10	Cadm1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Il6ra	Adam10	Il6ra	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Notch1	Adam10	Notch1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Trem2	Adam10	Trem2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Tspan12	Adam10	Tspan12	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Tspan14	Adam10	Tspan14	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Tspan17	Adam10	Tspan17	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam10	Tspan5	Adam10	Tspan5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Adam15	Itgb1	Adam15	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Alcam	Nrp1	Alcam	Nrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Apoe	Lrp8	Apoe	Lrp8	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Apoe	Lsr	Apoe	Lsr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Apoe	Scarb1	Apoe	Scarb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Apoe	Trem2	Apoe	Trem2	False	0	0		False	True	APOE_TREM2_TYROBP	{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	App	Aplp2	App	Aplp2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	App	Lrp10	App	Lrp10	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	App	Ncstn	App	Ncstn	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	App	Rpsa	App	Rpsa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	App	Tspan12	App	Tspan12	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Arf1	Insr	Arf1	Insr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	B2m	Tfrc	B2m	Tfrc	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Bsg	Slc16a1	Bsg	Slc16a1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	C1qa	Cd93	C1qa	Cd93	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	C1qb	C1qbp	C1qb	C1qbp	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Calr	Scarf1	Calr	Scarf1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Gnai2	Cav1	Gnai2	Cav1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Gnai2	Igf1r	Gnai2	Igf1r	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Gnai2	S1pr1	Gnai2	S1pr1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Gpi1	Amfr	Gpi1	Amfr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Grn	Tnfrsf1a	Grn	Tnfrsf1a	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	H2-K1	Aplp2	H2-K1	Aplp2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Hbegf	Cd9	Hbegf	Cd9	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Jam3	Itgb1	Jam3	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Lamb2	Dag1	Lamb2	Dag1	False	1	1	LAMB2_DAG1	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Lamb2	Itga6_Itgb1	Lamb2	Itga6_Itgb1	False	1	1	LAMB2_ITGA6_ITGB1	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Lamb2	Rpsa	Lamb2	Rpsa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Lman1	Mcfd2	Lman1	Mcfd2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Lrpap1	Lrp8	Lrpap1	Lrp8	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Mdk	Itga6_Itgb1	Mdk	Itga6_Itgb1	False	1	1	MDK_ITGA6_ITGB1	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Mdk	Ncl	Mdk	Ncl	False	1	1	MDK_NCL	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Mdk	Sdc3	Mdk	Sdc3	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Nampt	Insr	Nampt	Insr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ncam1	Ptpra	Ncam1	Ptpra	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ncan	Sdc3	Ncan	Sdc3	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ndp	Fzd4	Ndp	Fzd4	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ptdss1	Jmjd6	Ptdss1	Jmjd6	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ptdss1	Scarb1	Ptdss1	Scarb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ptn	Ncl	Ptn	Ncl	False	1	1	PTN_NCL	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Ptn	Ptprb	Ptn	Ptprb	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ptn	Sdc3	Ptn	Sdc3	False	1	1	PTN_SDC3	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Rarres2	Ccrl2	Rarres2	Ccrl2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Rgma	Bmpr2	Rgma	Bmpr2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Rtn4	Tnfrsf19	Rtn4	Tnfrsf19	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Selplg	Esam	Selplg	Esam	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Sema4a	Nrp1_Plxna2	Sema4a	Nrp1_Plxna2	False	1	1	SEMA4A_NRP1_PLXNA2	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Sirpa	Cd47	Sirpa	Cd47	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Sparc	Eng	Sparc	Eng	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Sptan1	Ptpra	Sptan1	Ptpra	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Tgfb2	Eng	Tgfb2	Eng	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Timp2	Itgb1	Timp2	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Timp3	Kdr	Timp3	Kdr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Trf	Tfrc	Trf	Tfrc	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Vegfa	Flt1_Kdr	Vegfa	Flt1_Kdr	False	1	1	VEGFA_VEGFR1R2	False	True		{}	True	True	retained
+Astrocyte	Endothelial	Vegfa	Itgb1	Vegfa	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Vegfa	Nrp1	Vegfa	Nrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Wnt7b	Tmed5	Wnt7b	Tmed5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Astrocyte	Endothelial	Ybx1	Notch1	Ybx1	Notch1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Axl	Adam10	Axl	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Cadm1	Adam10	Cadm1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Notch1	Adam10	Notch1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Notch2	Adam10	Notch2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Nrcam	Adam10	Nrcam	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Trem2	Adam10	Trem2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Tspan12	Adam10	Tspan12	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Tspan14	Adam10	Tspan14	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Tspan15	Adam10	Tspan15	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam10	Tspan5	Adam10	Tspan5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam15	Itgav	Adam15	Itgav	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adam15	Itgb1	Adam15	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adm	Adcyap1r1	Adm	Adcyap1r1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adm	Ramp1	Adm	Ramp1	False	0	0		False	True	ADM_CALCR_RAMP1|ADM_CALCRL_RAMP1	{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Adm	Ramp2	Adm	Ramp2	False	0	0		False	True	ADM_CALCR_RAMP2|ADM_CALCRL_RAMP2	{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Agrn	Dag1	Agrn	Dag1	False	1	1	AGRN_DAG1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Agrn	Itgb1	Agrn	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Agrn	Lrp1	Agrn	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Agrn	Lrp4	Agrn	Lrp4	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Apoe	Abca1	Apoe	Abca1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Apoe	Lrp1	Apoe	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Apoe	Lrp4	Apoe	Lrp4	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Apoe	Sdc2	Apoe	Sdc2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Apoe	Trem2	Apoe	Trem2	False	0	0		False	True	APOE_TREM2_TYROBP	{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Aplp1	App	Aplp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Aplp2	App	Aplp2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Lrp1	App	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Lrp10	App	Lrp10	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Ncstn	App	Ncstn	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Notch2	App	Notch2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Rpsa	App	Rpsa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Tspan12	App	Tspan12	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	App	Tspan15	App	Tspan15	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Arf1	Insr	Arf1	Insr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Arf1	Pld2	Arf1	Pld2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Arf6	Smap1	Arf6	Smap1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	B2m	Tfrc	B2m	Tfrc	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Bsg	Slc16a1	Bsg	Slc16a1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	C1qb	C1qbp	C1qb	C1qbp	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	C1qb	Lrp1	C1qb	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Calr	Itgav	Calr	Itgav	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Calr	Lrp1	Calr	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Cd47	Sirpa	Cd47	Sirpa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Col4a1	Cd47	Col4a1	Cd47	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Col4a1	Itgav_Itgb8	Col4a1	Itgav_Itgb8	False	1	1	COL4A1_ITGAV_ITGB8	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Col4a2	Itgav_Itgb8	Col4a2	Itgav_Itgb8	False	1	1	COL4A2_ITGAV_ITGB8	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Col4a2	Itgb5	Col4a2	Itgb5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Cxcl12	Itgav	Cxcl12	Itgav	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Cxcl12	Itgb1	Cxcl12	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Cxcl12	Sdc4	Cxcl12	Sdc4	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Dll4	Notch1	Dll4	Notch1	False	1	1	DLL4_NOTCH1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Dll4	Notch2	Dll4	Notch2	False	1	1	DLL4_NOTCH2	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Edn1	Ednrb	Edn1	Ednrb	False	1	1	EDN1_EDNRB	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Efna1	Epha5	Efna1	Epha5	False	1	1	EFNA1_EPHA5	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Entpd1	Adora2b	Entpd1	Adora2b	False	1	1	ENTPD1_ADORA2B	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Fam3c	Lamp1	Fam3c	Lamp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Fn1	Itga6	Fn1	Itga6	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Fn1	Itgav_Itgb1	Fn1	Itgav_Itgb1	False	1	1	FN1_ITGAV_ITGB1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Fn1	Itgav_Itgb8	Fn1	Itgav_Itgb8	False	1	1	FN1_ITGAV_ITGB8	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Fn1	Sdc2	Fn1	Sdc2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Gas6	Axl	Gas6	Axl	False	1	1	GAS6_AXL	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Gas6	Mertk	Gas6	Mertk	False	1	1	GAS6_MERTK	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Gnai2	Ednrb	Gnai2	Ednrb	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Gnai2	Igf1r	Gnai2	Igf1r	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Gnai2	S1pr1	Gnai2	S1pr1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Gpi1	Amfr	Gpi1	Amfr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Grn	Tnfrsf1a	Grn	Tnfrsf1a	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	H2-K1	Aplp2	H2-K1	Aplp2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Hbegf	Cd9	Hbegf	Cd9	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Hsp90b1	Lrp1	Hsp90b1	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Jam2	Itgav_Itgb1	Jam2	Itgav_Itgb1	False	1	1	JAM2_ITGAV_ITGB1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Lamb2	Dag1	Lamb2	Dag1	False	1	1	LAMB2_DAG1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Lamb2	Itga6_Itgb1	Lamb2	Itga6_Itgb1	False	1	1	LAMB2_ITGA6_ITGB1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Lamb2	Itgav_Itgb8	Lamb2	Itgav_Itgb8	False	1	1	LAMB2_ITGAV_ITGB8	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Lamb2	Rpsa	Lamb2	Rpsa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Lgals3bp	Itgb1	Lgals3bp	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Lman1	Mcfd2	Lman1	Mcfd2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Lrpap1	Lrp1	Lrpap1	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Mfge8	Itgav	Mfge8	Itgav	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Mfge8	Itgb5	Mfge8	Itgb5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Mfge8	Pdgfrb	Mfge8	Pdgfrb	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Mfng	Notch1	Mfng	Notch1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Mfng	Notch2	Mfng	Notch2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Nampt	Insr	Nampt	Insr	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pdap1	Pdgfrb	Pdap1	Pdgfrb	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pdgfb	Itgav	Pdgfb	Itgav	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pdgfb	Lrp1	Pdgfb	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pdgfb	S1pr1	Pdgfb	S1pr1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Plat	Lrp1	Plat	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pltp	Abca1	Pltp	Abca1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Pros1	Axl	Pros1	Axl	False	1	1	PROS1_AXL	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Pros1	Mertk	Pros1	Mertk	False	1	1	PROS1_MERTK	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Psap	Gpr37	Psap	Gpr37	False	1	1	PSAP_GPR37	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Psap	Gpr37l1	Psap	Gpr37l1	False	1	1	PSAP_GPR37L1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Psap	Lrp1	Psap	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Ptn	Cdh10	Ptn	Cdh10	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Ptn	Ncl	Ptn	Ncl	False	1	1	PTN_NCL	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Ptn	Ptprb	Ptn	Ptprb	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Ptn	Ptprs	Ptn	Ptprs	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Ptn	Ptprz1	Ptn	Ptprz1	False	1	1	PTN_PTPRZ1	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Ptn	Sdc2	Ptn	Sdc2	False	1	1	PTN_SDC2	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Ptn	Sdc4	Ptn	Sdc4	False	1	1	PTN_SDC4	False	True		{}	True	True	retained
+Endothelial	Astrocyte	Rtn4	Tnfrsf19	Rtn4	Tnfrsf19	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Selplg	Esam	Selplg	Esam	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Serpine2	Lrp1	Serpine2	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Sparc	Fgfr1	Sparc	Fgfr1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Sptan1	Ptpra	Sptan1	Ptpra	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgfb1	Itgb1	Tgfb1	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgfb1	Itgb5	Tgfb1	Itgb5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgfb1	Itgb8	Tgfb1	Itgb8	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgfb1	Sdc2	Tgfb1	Sdc2	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgm2	Itgb1	Tgm2	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tgm2	Sdc4	Tgm2	Sdc4	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Timp3	Ddr1	Timp3	Ddr1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Tln1	Itgb5	Tln1	Itgb5	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Trf	Tfrc	Trf	Tfrc	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Vwf	Itgb1	Vwf	Itgb1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Vwf	Lrp1	Vwf	Lrp1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Vwf	Sirpa	Vwf	Sirpa	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB
+Endothelial	Astrocyte	Ybx1	Notch1	Ybx1	Notch1	False	0	0		False	True		{}	False	False	no_exact_complete_subunit_pair_in_native_CellChatDB

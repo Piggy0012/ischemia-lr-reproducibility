@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "archive_tested_sha256": "b4f9150018431a5e02eb3440d57a2d7dd57e033bed6949e59e831b06dd0cb64c",
+  "test_directory": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test",
+  "new_library": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\fresh_rlibrary",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\bundle\\environment\\verify_bundle.py",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\bundle"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"metadata_files\": 308, \"binary_packages\": 42, \"installation_performed\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\r_runtime\\bin\\Rscript.exe",
+        "--vanilla",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\bundle\\environment\\restore_offline_overlay.R",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\bundle",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_decontx\\rlibrary",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment_restore_test\\fresh_rlibrary"
+      ],
+      "returncode": 0,
+      "stdout": "package 'Deriv' successfully unpacked and MD5 sums checked\npackage 'Formula' successfully unpacked and MD5 sums checked\npackage 'MatrixModels' successfully unpacked and MD5 sums checked\npackage 'NMF' successfully unpacked and MD5 sums checked\npackage 'Rdpack' successfully unpacked and MD5 sums checked\npackage 'SparseM' successfully unpacked and MD5 sums checked\npackage 'broom' successfully unpacked and MD5 sums checked\npackage 'car' successfully unpacked and MD5 sums checked\npackage 'carData' successfully unpacked and MD5 sums checked\npackage 'coda' successfully unpacked and MD5 sums checked\npackage 'collapse' successfully unpacked and MD5 sums checked\npackage 'corrplot' successfully unpacked and MD5 sums checked\npackage 'doBy' successfully unpacked and MD5 sums checked\npackage 'forecast' successfully unpacked and MD5 sums checked\npackage 'fracdiff' successfully unpacked and MD5 sums checked\npackage 'ggalluvial' successfully unpacked and MD5 sums checked\npackage 'ggnetwork' successfully unpacked and MD5 sums checked\npackage 'ggpubr' successfully unpacked and MD5 sums checked\npackage 'ggsci' successfully unpacked and MD5 sums checked\npackage 'ggsignif' successfully unpacked and MD5 sums checked\npackage 'gridBase' successfully unpacked and MD5 sums checked\npackage 'lme4' successfully unpacked and MD5 sums checked\npackage 'minqa' successfully unpacked and MD5 sums checked\npackage 'modelr' successfully unpacked and MD5 sums checked\npackage 'network' successfully unpacked and MD5 sums checked\npackage 'nloptr' successfully unpacked and MD5 sums checked\npackage 'pbkrtest' successfully unpacked and MD5 sums checked\npackage 'polynom' successfully unpacked and MD5 sums checked\npackage 'quantreg' successfully unpacked and MD5 sums checked\npackage 'rbibutils' successfully unpacked and MD5 sums checked\npackage 'reformulas' successfully unpacked and MD5 sums checked\npackage 'registry' successfully unpacked and MD5 sums checked\npackage 'rngtools' successfully unpacked and MD5 sums checked\npackage 'rstatix' successfully unpacked and MD5 sums checked\npackage 'sna' successfully unpacked and MD5 sums checked\npackage 'statnet.common' successfully unpacked and MD5 sums checked\npackage 'svglite' successfully unpacked and MD5 sums checked\npackage 'systemfonts' successfully unpacked and MD5 sums checked\npackage 'textshaping' successfully unpacked and MD5 sums checked\npackage 'timeDate' successfully unpacked and MD5 sums checked\npackage 'urca' successfully unpacked and MD5 sums checked\npackage 'CellChat' successfully unpacked and MD5 sums checked\n42-package offline overlay restored; all effective versions agree; native namespace loaded.\n",
+      "stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \n"
+    }
+  ],
+  "scientific_models_fitted": false,
+  "archive_metadata_may_be_rebuilt_to_add_this_audit": true
+}

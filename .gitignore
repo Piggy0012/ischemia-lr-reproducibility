@@ -18,7 +18,10 @@ work/venv/
 work/r_runtime/
 work/repro_decontx/rlibrary/
 work/repro_v3_github_cli/
-work/repro_v3_cellchat*/
+work/repro_v3_cellchat/rlibrary/
+work/repro_v3_cellchat/downloads/
+work/repro_v3_cellchat_environment/renv_tooling/
+work/repro_v3_cellchat_environment/restore_smoke_library/
 work/repro_v3_environment/renv_tooling/
 work/repro_v3_environment/renv_bootstrap/
 work/repro_v3_environment/restore_smoke_library*/

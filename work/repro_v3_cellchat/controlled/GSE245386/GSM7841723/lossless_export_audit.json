@@ -1,0 +1,15 @@
+{
+  "status": "lossless_export_verified",
+  "source_rds_sha256": "bd6c22c70943e8015594e002d19ce1caf8d93909e114679bcf987c68cf7db196",
+  "output_tsv_sha256": "3c7bb1a5b55696ce6fba8ec82fc34d01f937e410935d22c439eb28669d6c03a1",
+  "original_tsv_sha256": "3d660d3522c02d47cdcb34757b73177fbc29cd00dfabebc9dbbf460a5a6fd01e",
+  "n_rows": 303408,
+  "n_original_tsv_probability_values_changed": 5697,
+  "max_original_tsv_probability_absolute_error": 4.9960036108132044e-16,
+  "exact_probability_roundtrip": true,
+  "exact_pvalue_roundtrip": true,
+  "method": "R native double -> sprintf('%.17g') character -> TSV -> R double, with identical assertions",
+  "no_model_rerun": true,
+  "no_row_filter": true,
+  "source_script_sha256": "539001f644a42de96b1c65bbcdc2607df8ad0de9ab1a01586d8c04ebf0841d1e"
+}

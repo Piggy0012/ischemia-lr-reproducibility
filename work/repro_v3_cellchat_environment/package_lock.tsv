@@ -1,0 +1,289 @@
+Package	Version	scope	Priority	Built	Repository	RemoteUrl	RemoteRef	RemoteSha	description_sha256	in_analysis_libpaths	in_renv_lock
+BH	1.90.0-1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:54 UTC; windows	CRAN				fd40109e48cbe92df5496e41f1b86e84c7155352be766333565db691a87e627b	1	1
+Biobase	2.72.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:50:27 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/Biobase	RELEASE_3_23	65ae7a98395e50568bfb7a6b6367dcd967d89e1a	aa59bc27e05e1f82cca87c9dd6468fa5f82f3f3c4b7045512650c4dd490206b6	1	1
+BiocGenerics	0.58.1	baseline_or_R_runtime		R 4.6.0; ; 2026-05-14 10:20:17 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/BiocGenerics	RELEASE_3_23	995c7b312290a0776eb7c575b88d6c4d3f8d7524	b2cedaf2e9b39199b30834bcbf5d7a0d20f412c14bf338df86dd42dada6b49f5	1	1
+BiocManager	1.30.27	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:59:28 UTC; windows	CRAN				7e6d58f99c47f449c02ad4e9748d937c72e10f285a7c7174c4b830dcfb15ab49	1	1
+BiocNeighbors	2.6.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-10 09:38:36 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/BiocNeighbors	RELEASE_3_23	221e565acfb3d54d1cf86c69b4cb72a78c9e9cc5	ef3e62c9b20aa02e9e6a7b5421eb7b38856b7c29db6f0d01e35a7efc3c0b52cc	1	1
+BiocParallel	1.46.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 15:02:21 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/BiocParallel	RELEASE_3_23	a331dfd2695daec754304505bdbd7358eef009fa	9547dedf23832355a850a5d777d4639e312bfa035bb7454cfe4b9187032c200a	1	1
+BiocSingular	1.28.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:02:33 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/BiocSingular	RELEASE_3_23	675ff544b7bab511b17d6b52ef390815b4aa3bc0	215233c657d6891558ba3866617c13c59eaa72a3938694951d97bcccfe4eae47	1	1
+BiocVersion	3.23.1	baseline_or_R_runtime		R 4.6.0; ; 2026-03-01 08:32:11 UTC; windows	https://bioc.r-universe.dev	https://github.com/bioc/BiocVersion	HEAD	252d7c8f03a39a9b83f6de7e9dbf9a5ee6584365	332e50f51e7d5d317f578846407ab0947c9a4f94694c79f78011b2c1a20b080b	1	1
+CellChat	2.2.0.9001	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-03 13:38:57 UTC; windows	https://blaserlab.r-universe.dev	https://github.com/jinworks/CellChat	HEAD	75253cd0c9e68410e6e721a6d3a0419a1d7e358f	459c8218aaa902b3c5bc18c568c7eb9ba255f98c64b4c3543173012367e99de9	1	1
+ComplexHeatmap	2.28.0	baseline_or_R_runtime		R 4.6.0; ; 2026-05-01 09:32:49 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/ComplexHeatmap	RELEASE_3_23	ceecd5f835393e97d5902ceaabca6e66bd648263	23597f06cc247df364b3ae0103778caa7ddc4de555933745a3a664fd173119a0	1	1
+DelayedArray	0.38.2	baseline_or_R_runtime		R 4.6.0; ; 2026-05-26 21:59:34 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/DelayedArray	RELEASE_3_23	63285a4ab9f3b74c894e5f709e9cde408fca78c0	687b5d38991751ff8ddd564e78418729fdb51323aaf681fa99a466995afd2cd8	1	1
+Deriv	4.3.5	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-03 23:51:16 UTC; windows	CRAN				ba6b2370ddaf0257daa8509fd32ab9bbba3b98fa5b09cb90db404b03ca8937f4	1	1
+FNN	1.1.4.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:22 UTC; windows	CRAN				bb91bbbb74b158e8b50a08d06d16d6652d6463277aa01b4f42aae5eebb9d114c	1	1
+Formula	1.2-6	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:54:00 UTC; windows	CRAN				4b4447c399df8fc3eda84883f931544c0ae4aad549bb7422024ffba4906a1aac	1	1
+GenomicRanges	1.64.0	baseline_or_R_runtime		R 4.6.0; ; 2026-04-29 15:12:33 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/GenomicRanges	RELEASE_3_23	ac531f1ce56cc9119075d1c6862c68ad33f98536	102207bbafe1f9c7ddc8ff563cf89e5cb3ad03b1888c5167338d0d7c740f9850	1	1
+GetoptLong	1.1.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:10:17 UTC; windows	CRAN				4a37460cad3952f4885fc45acd3c37ed04fffc68b1727bb1505f26374b1ea2c5	1	1
+GlobalOptions	0.1.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:49 UTC; windows	CRAN				99b82eac59bb344888e0be9b48eb01b6aa18e0c0ceae8ee4047da49c75d16f4e	1	1
+IRanges	2.46.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:31:00 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/IRanges	RELEASE_3_23	db589cc82f235a7be2d5f2bc6971af1fa2fd03b5	b1795acee01896c852ab78794a062c5d261585e02e86d0f3363dfb3487c5c97e	1	1
+KernSmooth	2.23-26	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:40 UTC; windows	CRAN				6df244f6c45378f1ccca8e86e141645799e482934dff3032eb92a0c58f1003ca	1	1
+MASS	7.3-65	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:25 UTC; windows	CRAN				7242cea9aa6945fb011241b3f7a463b9b85fbcfadaa5b5621deb688ae03d3333	1	1
+MCMCprecision	0.4.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:13:14 UTC; windows	CRAN				672b9457baf036cdd51880a5d5035c639280d2eb49efa0294ff5c60c9a259b11	1	1
+Matrix	1.7-5	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:58 UTC; windows	CRAN				b360b822f0baf252c1b065c79769d0de512971b843ede1979ba5305b8fbb494c	1	1
+MatrixGenerics	1.24.0	baseline_or_R_runtime		R 4.6.0; ; 2026-04-29 11:26:40 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/MatrixGenerics	RELEASE_3_23	df689091cb9c520a1a0dd205daca647a23bc415b	d3a53e41e106b6937269a0cd964cdc1edefdf4386be3580c10538bf68320aa3d	1	1
+MatrixModels	0.5-4	cellchat_overlay		R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows	CRAN				a9e1d3aace66115cc977f23a78b9cc01e29d399e415a93b8e1ba515ef6d2db4f	1	1
+NMF	0.28	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:10:05 UTC; windows	CRAN				333797a8364a2ebddedb5587570f3106231408213e7dd69a394584c39364e70d	1	1
+QuickJSR	1.11.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:57:27 UTC; windows	CRAN				6c9e849b4dfcf1d615dfe360ce6c2aecc0c7af766ca7b4e36d28cf0a13310b93	1	1
+R6	2.6.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows	CRAN				7ddd96cd003f2aa4ce49762555687667f920ad8462508f300ba78fb6b5474a58	1	1
+RANN	2.6.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:07 UTC; windows	CRAN				ac6bff18723ef6b03bc3562c70f23dd21b7216c1b559e022f88ee6c52ff19351	1	1
+RColorBrewer	1.1-3	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows	CRAN				c3fcedf3dd21e12f5bd9125e635c6419a45a16402bba5478423b3f6a88aa86bb	1	1
+ROCR	1.0-12	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:56:44 UTC; windows	CRAN				7d3e1a0bbce832883613ea7a3516b2a21168ddeb7674e2af6b18822174f35078	1	1
+RSpectra	0.16-2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:22:20 UTC; windows	CRAN				ced0c678e0fc66aa75560a0813144f86b2df8f229496da6397e3e6cb8b0dfef9	1	1
+Rcpp	1.1.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows	CRAN				bedf65604df85c18dcde74245e2e8411c8cacb6e6e30bd214d1e8b6444cdfaf0	1	1
+RcppAnnoy	0.0.23	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:56 UTC; windows	CRAN				aebd44be2cb595640a56a5ec365eec4ceb378608ecd4b39f549b6e57ac70de2f	1	1
+RcppArmadillo	15.6.0-1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:59 UTC; windows	CRAN				2b025259cb9f87da0d9b80f8b97dcab087260be5a613e6fd98939d0245cb5b35	1	1
+RcppEigen	0.3.4.0.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows	CRAN				13989573b0fe620e5d7c07e96e35bfb28164cf3e931079ca12de7df6b292e305	1	1
+RcppHNSW	0.7.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:03 UTC; windows	CRAN				62d1907a1f3a93cb7f7a695555764ba60142053451ea252f378addd422195268	1	1
+RcppML	0.3.7.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:58:09 UTC; windows	CRAN				6b0d433049680e87f64d8108920c8421bcff1c577248d11c5f4216515c7d1f4b	1	1
+RcppParallel	6.2.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:53 UTC; windows	CRAN				e24f51e2c7bee512ddbcde153220ef19e04b672da084ae30750a40828293f5a3	1	1
+RcppProgress	0.4.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows	CRAN				cd120c7c17484f8d940f423cb2c6ddf95e4858a171094a0de8815ee93f557477	1	1
+RcppTOML	0.2.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:36 UTC; windows	CRAN				4e700244ec3a58a0d9de838001d273e2ed6ef3484548323dbe7bd85192295894	1	1
+Rdpack	2.6.6	cellchat_overlay		R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows	CRAN				c96ad165d05b9b6ea75ee54f745819bc2a27ed2127dea71f6fa7dd4d214ea461	1	1
+Rtsne	0.17	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:00 UTC; windows	CRAN				8578c931e5b44ef18c87e330a3362725c58f7f84e6e27efc13c9ce7e7f865094	1	1
+S4Arrays	1.12.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:28:31 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/S4Arrays	RELEASE_3_23	b1246fd0b81ac137623ee1c0d6587a59e8ad1073	ee3a17f6074633c94d0590c9b2f0745a3e31e912402684b73d1aea4a17425622	1	1
+S4Vectors	0.50.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-20 20:13:31 UTC; windows	Bioconductor 3.23	https://github.com/bioc/S4Vectors	RELEASE_3_23	9bd354f3a5b9fd19f549b472e24518328aa2abf3	23fafba5105bf1c955366b9d1ce68e0b48dba3e56e7bc270ca5e4dd8aafc06d6	1	1
+S7	0.2.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				d3a5dee080ebb5d7f818338f8ea5fdc30881942a47005ac48182a4573e6bd58e	1	1
+ScaledMatrix	1.20.0	baseline_or_R_runtime		R 4.6.0; ; 2026-04-29 13:53:54 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/ScaledMatrix	RELEASE_3_23	94df0ea72694e0403c34536ec15ffb459d70662f	6f3f3b4149f62a1a7eec3aeb0e672147d8ca96fe57993e939b7449c62e7b7fcf	1	1
+Seqinfo	1.2.0	baseline_or_R_runtime		R 4.6.0; ; 2026-05-04 08:56:19 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/Seqinfo	RELEASE_3_23	345dd61b77c8ff7e90ecc587d7b32c4d7189f690	c6a5736ece714a46e44c943ddb0528181f495600752447478afde68b899ed379	1	1
+Seurat	5.5.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 04:15:51 UTC; windows	CRAN				75b5b58c897f26afd6d13c19efeaea9f8ca3254578c944f8066f309fa1445923	1	1
+SeuratObject	5.4.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:24:14 UTC; windows	CRAN				b97e9659d23578625143dc10768965375febb05d44530d87b33536daa61767fe	1	1
+SingleCellExperiment	1.34.0	baseline_or_R_runtime		R 4.6.0; ; 2026-04-29 15:26:55 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/SingleCellExperiment	RELEASE_3_23	f92b7823acc328c8b65259d38ada6ce401bd80cb	e85e668d7d17bd9886dc8be6f59965f301f85d270bc319851a88c721ca67b041	1	1
+SparseArray	1.12.2	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-01 20:55:46 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/SparseArray	RELEASE_3_23	dd96584c2f1284fe00041e392b5bed5749b4e42d	195d67dac22ab605265f57e2f919310840fc05d24205c284987655ea35ad66f2	1	1
+SparseM	1.84-2	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows	CRAN				ea56745c79fd33d8c5eba68b0921b90356a32c24bab852a312e2181ec54dcd1e	1	1
+StanHeaders	2.39.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:23:03 UTC; windows	CRAN				bf52be2d57e4f12552f7c4c0775924c6f72e65adaac79eb4ae4f7befb679100b	1	1
+SummarizedExperiment	1.42.0	baseline_or_R_runtime		R 4.6.0; ; 2026-04-29 11:30:24 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/SummarizedExperiment	RELEASE_3_23	38d319f79612b5bc873e609cb909f9165345f2b1	fda952b0869068dcd89a8d126f022b4b9a1de17ee40d61064c7d831f8dcc1d42	1	1
+WriteXLS	6.8.0	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:50:21 UTC; windows	CRAN				249ebb35865492e4f2abd83ce39d80c1445cc4d91aac56aa52cb3d44d20feeb6	1	1
+XVector	0.52.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:56:17 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/XVector	RELEASE_3_23	fa5f5a6296e984f5cb90b52bff781e710d999111	5b5ed9f87548be56b48cae78869dcb5765ed30f0ed453ae53fa61b4739459632	1	1
+abind	1.4-8	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows	CRAN				23913c13b59903d1332c21a20ad5f0fdb66fb83e8af158c27b6a51b6d6a407f6	1	1
+askpass	1.2.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows	CRAN				75ad462800dfd68723da8dc0ff1b2db80655494dc8e7cd42dcdfa13d9068065a	1	1
+assorthead	1.6.3	baseline_or_R_runtime		R 4.6.0; ; 2026-05-25 11:54:42 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/assorthead	RELEASE_3_23	9ee2dd8e2852145d3755b4bebc002b1328bb02e0	9164993db8761f3ca7299421cdaa62f1c611b864f8b2419647d6afd6cb26d3a6	1	1
+backports	1.5.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:10 UTC; windows	CRAN				9c339cc85b32c234e42d752c3218a41960bd67837b08af26c214739144482545	1	1
+base	4.6.1	baseline_or_R_runtime	base	R 4.6.1; ; 2026-06-24 08:20:51 UTC; windows					fc4bcce46e7480230685ca9673463483c21cc7d81494db39165623da39c4ee4d	1	0
+base64enc	0.1-6	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows	CRAN				cba356a7a36237b26c2ea988c14aaa42f3dbb870e08541ebcd8b5778a61e9ff3	1	1
+beachmat	2.28.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-01 09:36:42 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/beachmat	RELEASE_3_23	a5ec637c732e3ce1e978036e67f5030253503624	0acaa3f2509a30b20f76c098aadd3a1343e89056a6ef98e96d8fc56a86b26918	1	1
+beeswarm	0.4.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows	CRAN				d5e89cc9d4a3dacf626ea9b4757fd66bf47a1485b100da48e96c618441025f41	1	1
+bitops	1.1-0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:54 UTC; windows	CRAN				d11782bbc7d945aab4937e6a838608e30cdb29c77231606e678c32db0fe15d3f	1	1
+bluster	1.22.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 17:58:04 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/bluster	RELEASE_3_23	c564e528da63e928b8a22e01bf80c148ce8042a3	72176e7c706c9a00b413cbbd5e08b29424ad053a17e962802f15c36d34626ba5	1	1
+boot	1.3-32	baseline_or_R_runtime	recommended	R 4.6.1; ; 2026-06-24 08:32:04 UTC; windows	CRAN				0334b07a9e7abc809e2a796c8c6c60c7310266e921e0e715ee4e1bcee9b119ec	1	1
+broom	1.0.13	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:11:56 UTC; windows	CRAN				7a21fff3f737ad391ecedcf9382c9ac5e2faa263ebf3f93024720fa9adfebe03	1	1
+bslib	0.12.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:27 UTC; windows	CRAN				1336ae39df63efba119b65b1cffc9977a307b10a648e72668349c0030447bd75	1	1
+caTools	1.18.4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows	CRAN				885edd3fea148fa5f77ce12af7ef7c84faa091c64e87227a118e6b784242c610	1	1
+cachem	1.1.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows	CRAN				f699a8b8b3add46096aae2a3eeb4bacbad07eca9484fb91ccab54fd769d7d550	1	1
+callr	3.8.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows	CRAN				929b2c09e5b93333108d0a8e4fa1506b7d7bf1c67b292ce54329cd4e91f53b59	1	1
+car	3.1-5	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:53:17 UTC; windows	CRAN				69d69d9ed65081f9e7d46b7ebbbbd6ee0bed8609c5a728eda5ca503f9f73171a	1	1
+carData	3.0-6	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows	CRAN				abecba9642086017dbdac208a14e73ea9afdbcd384e3aea95e2666bb17e71293	1	1
+celda	1.28.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 20:50:06 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/celda	RELEASE_3_23	ac7591c7cd29b140f8ccd4a0c8b9ace33ea8eb79	4efc46ac3a260940ef4e44eac4223f26d8c3034d4d2297ed67b6dd1d95bd48d1	1	1
+checkmate	2.3.4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:58 UTC; windows	CRAN				9fecfcd3f6caea5505b6ada0843eb4f082112da813de4b79d42c17d88dd1a008	1	1
+circlize	0.4.18	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows	CRAN				3947f49028e8e89e7a9def008fc3669d1b536b523b3759d6ecc59cde6eb311cc	1	1
+class	7.3-23	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:04 UTC; windows	CRAN				f0b9ae62dc25b23fe92703b80133c4c3ea6aaa45a63fff6f6de6ef7cffa8abe4	1	1
+cli	3.6.6	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				07cbf60f3456c47c9690503e2a9506999e67bf8177d53ccb5901f7da2b58946f	1	1
+clue	0.3-68	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:42 UTC; windows	CRAN				16bde8e85b4f01e4194fbd4296228e3615b763056e287b7f4825dadb349ed4cc	1	1
+cluster	2.1.8.2	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:11 UTC; windows	CRAN				c60c875b0983e9f33da13dc7d566a08fbb548eaeabe34584a472da601380a4df	1	1
+coda	0.19-4.1	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows	CRAN				17a8d67f9e2e2a93d7f4412aa0b7d434db1cc8ed0185d6186146730ca3e0d74a	1	1
+codetools	0.2-20	baseline_or_R_runtime	recommended	R 4.6.1; ; 2026-06-24 08:32:25 UTC; windows	CRAN				862b0aae2c1610b3d555b07fffa00701b1fbe6e3efa86087f6f217b10ed73f65	1	1
+collapse	2.1.8	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows	CRAN				5048cde356795175a5058d1080972a1bb618f5db27f83be7947702a8a5b9b67b	1	1
+colorspace	2.1-3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				4eb885b0f69d3c94500d797ce6d41dbc79cd1c0e6ab7dc2ea225774af98b0cbb	1	1
+combinat	0.0-8	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:49:03 UTC; windows	CRAN				6299c6aac52ff0101ef4b5597598ce57aabebab003bfb1c15e50a60668cd0be9	1	1
+commonmark	2.0.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows	CRAN				93565370cb6aa0aa87297dee36672034bb6f685933a6ac5559b1e70b014d2c6c	1	1
+compiler	4.6.1	baseline_or_R_runtime	base	R 4.6.1; ; 2026-06-24 08:14:21 UTC; windows					b7ef5ec816e4ac3c2b9eabf5f4c937d93178fa5f06ff9f0f8cad6c92b4ea73aa	1	0
+corrplot	0.95	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:55:05 UTC; windows	CRAN				9559868439a8ee52acd571008dc61c215968cc6f50e6f03db6a81d1e38b40ca9	1	1
+cowplot	1.2.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:03:39 UTC; windows	CRAN				3723f4f04821ca702a2c19e6ccf61d4e0d7312725b2d1d9f16b0f3a41f4c5cb4	1	1
+cpp11	0.5.5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows	CRAN				c43305aade25833d3ce21407478c020cf2300b65e9b8bbd3676074c5d1c39b99	1	1
+crayon	1.5.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:16 UTC; windows	CRAN				7f078943eb9b3041f71d24e37510eb7190c3a8f3fb93e927ba3d2cd401192d8c	1	1
+crosstalk	1.2.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows	CRAN				f6ce7de32b49763cad939cdbbf8c97d9b74c56dcd1d8f6c00127f12ca7d0fa0c	1	1
+curl	8.0.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:15 UTC; windows	CRAN				d126b8ef82ea17483ad70f46ee546b4bcb6221839c11f2f2e9fdcc300a5d5911	1	1
+data.table	1.18.6.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows	CRAN				583ca283e407909b6075f30d8b9d55d48abbf7ceb99f60563784cfb941d99ede	1	1
+datasets	4.6.1	baseline_or_R_runtime	base	R 4.6.1; ; 2026-06-24 08:19:02 UTC; windows					a3c8cde05ca3fbf2f7778920f5a1f5b164fb14154138ef333e75867aaa47c41c	1	0
+dbscan	1.2.6	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows	CRAN				052e635d09afe924bf73f3df9b6bcdd47295191f6ed6ba09deaaa069f26e5cb5	1	1
+decontX	1.10.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-01 10:15:47 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/decontX	RELEASE_3_23	ffb4063aff1ced121ab403769911f9cba1b8a0c0	c59668e60f7184afed393751c99d987520bf1cb1799cd989209f3ff4129fa27f	1	1
+deldir	2.0-4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:39 UTC; windows	CRAN				01527f7e0e3520f2ba051113d42cf64b64773ab9954e0342a43dcc297a5e2793	1	1
+dendextend	1.19.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:04:42 UTC; windows	CRAN				cfb1f6dbbd9bd1945cce8d9f7ef448a1d90ac6b166b5111cc9ecf29e972b52ad	1	1
+desc	1.4.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:57 UTC; windows	CRAN				50d4455d79a9dfdf5ede0b410fcaf6f49c7cefa6badd606df6c23eba21917ad7	1	1
+digest	0.6.39	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				cce613ce72fb43d2148e02b3ed3e4383ca2d1908dfab9a8687e10e9ba26169b4	1	1
+distributional	0.9.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:41:28 UTC; windows	CRAN				7251caeb4f4b796c8f14d7917f072b0e5eb189379e03ba5d9a6f646977946c11	1	1
+doBy	4.7.2	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:49:26 UTC; windows	CRAN				979fb839bf033b78326c3d50f80544816b1d37f8a155adfe58c37915cb0b263c	1	1
+doParallel	1.0.17	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:21:01 UTC; windows	CRAN				6b5cf13177db7d0073e1e8020243050c75ab72828f064530005f19d9eb876190	1	1
+dotCall64	1.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:02 UTC; windows	CRAN				30164369d547123c59443486e7a5fe3cc48bddfcf554abcc790767f2a56ca747	1	1
+dplyr	1.2.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 04:00:08 UTC; windows	CRAN				bb016dd8ada0dbfab2dda9118bbd33562b720cd3245b85ca0f4555135967f734	1	1
+dqrng	0.4.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:57:29 UTC; windows	CRAN				fe3f3dbe24c8ac278d74f4b11a1c0ed3c56c56b3d9f603aaa6fb699e54f56d9c	1	1
+edgeR	4.10.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-04 14:39:38 UTC; windows	Bioconductor 3.23	https://github.com/bioc/edgeR	RELEASE_3_23	c4a54bdaec47e8b170d8164c417461d7f475ceea	6b5bb5491acf293f4ff799f50ce35857a662ad097c7c8c3dd2db7442261ca7de	1	1
+enrichR	3.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:44:48 UTC; windows	CRAN				437143c0643004e4a9cf4d9d21dea3f6b428bfb92c6a1941fccd93f432ae3569	1	1
+evaluate	1.0.5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:28 UTC; windows	CRAN				62d17d0ab4bc5651ba94ea3c5cd95360e38c5504ee19323530c32780cae5aaab	1	1
+farver	2.1.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				e2298e93bda68b6f47c674a7b1c554109eeacc0aa179cd40a17c468e1eb08ea5	1	1
+fastDummies	1.7.6	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:06:26 UTC; windows	CRAN				e08dcb53a63763a2cfd638a4798ec25588ab12bf5bea5ecadcda878faf600c51	1	1
+fastmap	1.2.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				430ff7b345bc8e41192b8d41601592a8d47f1aec163588b406f4bb7a90c17cac	1	1
+fitdistrplus	1.2-6	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:21:25 UTC; windows	CRAN				b9aae890a0dd345011e683ffc3dc4313dadde1d74a67c91432ab32e0a9ba1abc	1	1
+fontawesome	0.5.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:49 UTC; windows	CRAN				2c002bd7d95108b6acbf0e938d417c55cb540923ffc4adf45a17df3437ede938	1	1
+foreach	1.5.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows	CRAN				5f1209a9fd07f5f66d138f195c4eae21a6f77d74c91617103e5177e50bd68e8a	1	1
+forecast	9.0.2	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:40 UTC; windows	CRAN				e3f9bbe59cb82b121c9c89a1847c34cf05bb2fdb80194079cc3ee6e4920a1b85	1	1
+foreign	0.8-91	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:28 UTC; windows	CRAN				843234683d1a98d901577e5be0431f8f9169434c1d0d1baa6b93ad2b1b840e17	1	1
+formatR	1.14	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:00:28 UTC; windows	CRAN				79b1cbadcff35999d5d045c14f02191d9cade4751af4e1007031bde8af7c83fa	1	1
+fracdiff	1.5-4	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				52bddf4284cd16d38b79db8020d8c122f33bbf7a94945a0b01a0cf90f2fb774e	1	1
+fs	2.1.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				04db071e1de839e4dfe350b75d2237a4768ff54b1d83fdc59739fd84e6cc7f44	1	1
+futile.logger	1.4.9	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:24:27 UTC; windows	CRAN				29aa30c7ab6c66ed978c918449c2ea788133465249deb79281072fcf4a7dfdd7	1	1
+futile.options	1.0.1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:54:24 UTC; windows	CRAN				d22b149d6c9f1ea8e9a7597b132e435befce5273002993f989ba8ea2e8ffc638	1	1
+future	1.75.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows	CRAN				f8fc8dbfd21a3e51fa789d640463276e3759a6f423e42031acb988f966b6d564	1	1
+future.apply	1.20.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:21:02 UTC; windows	CRAN				fa04b26701bda0b3b9b1a865420d8730ab17bd38e6bce7ac5263f40784f03cd0	1	1
+generics	0.1.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows	CRAN				3db476828fb377a4c231d722888397cfbbac5020de5cf2f5dd2a4cd3fadba374	1	1
+ggalluvial	0.12.6	cellchat_overlay		R 4.6.1; ; 2026-09-09 03:43:01 UTC; windows	CRAN				4faacf7cb442fd2f6501b1006abb98dbea21d4ac997e2e70547fe112fbd109b6	1	1
+ggbeeswarm	0.7.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:42:30 UTC; windows	CRAN				5511fb641ff7975154c93d0e2aa839f436b0228996034058c75730ef07a47601	1	1
+ggdendro	0.2.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:41:16 UTC; windows	CRAN				8046d2358c0dc91e4b0f9372c1002752d5fdd1d34015b0dd6a42040b16b98ff8	1	1
+ggnetwork	0.5.14	cellchat_overlay		R 4.6.1; ; 2026-09-09 03:22:46 UTC; windows	CRAN				b629141c541ac3e0729ecfc3dd9662f5362c42eb03fa74316b3bec1c411f71e8	1	1
+ggplot2	4.0.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows	CRAN				fbbffddf8c3dcf68456131595c987338b215afd47a491f9b0b990828c4b4f43a	1	1
+ggpubr	1.0.0	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:56:39 UTC; windows	CRAN				db35fb102e4d3f30bf28ebac4ce2c68348fa5e94d68079685493246bed8ec7ef	1	1
+ggrepel	0.9.8	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows	CRAN				5320b32c1251f18e34e8b886869dda2da06b83260bf2e23f157acb3900b06a98	1	1
+ggridges	0.5.7	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:04:05 UTC; windows	CRAN				f2f598e019a305720673542760ef3fd687e23f8e3939c159b90cc441b00bb94e	1	1
+ggsci	5.2.0	cellchat_overlay		R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows	CRAN				156f3508598a585d57f107b5b0c4536e4d4931665d0ba63f62e10e4359290a80	1	1
+ggsignif	0.6.4	cellchat_overlay		R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows	CRAN				316f6a5cceefbacba18c64c20215ed43bb587b77704b734fd960a3aa5d36aa83	1	1
+globals	0.19.1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 12:58:27 UTC; windows	CRAN				bbfffa8322938f9bec68689cd1f1ae115cfb75b7b41cdf24f45936f01e447ed9	1	1
+glue	1.8.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				064f7be33b92df332bbef82ed176e466571c89122b52d93c2fda7f7431074983	1	1
+goftest	1.2-3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:37 UTC; windows	CRAN				67feaf1f90202611ca7cf376782a1587deca5f41b0669e205db234b42adf5bc1	1	1
+gplots	3.3.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:56:08 UTC; windows	CRAN				d59d8602176a694398685da430391496abe10ed878863343fd4c73df486f91d5	1	1
+grDevices	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:14 UTC; windows					4f6592cb3827ea2ee26b1647f222b590c16226adf1689f28cc83950daef3cb41	1	0
+graphics	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:56 UTC; windows					acb1d002aac1c828b22970b854f75792f268eea759b1bc869a1959715124bf73	1	0
+grid	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:46 UTC; windows					fbd2aaf13f459f1f6211576efa250db5b96f28bad4b82dced7b74adae9cf98a1	1	0
+gridBase	0.4-7	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:58:25 UTC; windows	CRAN				72ab3254d432f7ab364bdb7312517204500e0ed7d194a0dc9027159a71ff6f3f	1	1
+gridExtra	2.3.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows	CRAN				dbf37aff062527af30d227a8236b5691650a91c5862e825ee81df999aac63577	1	1
+gtable	0.3.6	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows	CRAN				87b228faf904615f6cc1991375699903d45c55ca0e62de9596d343d899567738	1	1
+gtools	3.9.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows	CRAN				474d61c44d8ea6a045645ebeec23f08dc9c52fbba746c42d6f2b7ebb51e0fba1	1	1
+here	1.0.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows	CRAN				a2e2ce924cddfa84b3b504c6e1dbf3c53173a746822ec3f56f031536d83e2ad0	1	1
+highr	0.12	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows	CRAN				f4be1584db0a3427c4bc83385bad8d4096351d66953160112066a84561b457ba	1	1
+htmltools	0.5.9	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows	CRAN				bf2caaf795421c1466d9c073eaf7e7310cab41c404633c4185fe4a4b396c8aeb	1	1
+htmlwidgets	1.6.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:20:06 UTC; windows	CRAN				775e57a2aa5ae1b32e0d153668c8a110c3a9b82b8a6f81e86de8517e622781e7	1	1
+httpuv	1.6.17	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:24 UTC; windows	CRAN				f951a2073becc9c87258a0cb08b0e10704a99aabd1f7da6ddd297a28f44eb4d9	1	1
+httr	1.4.9	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows	CRAN				1127bd7b60b79d8c73bc49cfa385703f47f875041cc5a8a4515c2ae05915f117	1	1
+ica	1.0-3	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:47:21 UTC; windows	CRAN				43de3929f525658f506e8bf26aa3412c8b9cb6172140d51f5ea451c9bce76342	1	1
+igraph	2.3.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:13 UTC; windows	CRAN				11ac793762ef7a99e6d32e10f2c30bd08cdfcb46d3972f6291449938948b0b44	1	1
+inline	0.3.21	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:57:26 UTC; windows	CRAN				2018c2acdccf9b732a650c532c117dac45cbcaa2635f7a228386fda51ac0805b	1	1
+irlba	2.3.7	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:35 UTC; windows	CRAN				c0450de334f29a58e58770bf21ea3442065951152b4dee64ab906e5d72181e02	1	1
+isoband	0.3.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows	CRAN				3fdfc9ed2d666105d447644c292547d78b0f873f80dd8fddc294c6caca716a03	1	1
+iterators	1.0.14	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:05 UTC; windows	CRAN				bbdfcf3b8d6c9bbdc203d125597e244f30d4d831275b01acf9c792ed27acc929	1	1
+jquerylib	0.1.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows	CRAN				1fa441bf924429db328573ccb87e1f6f85931bfe5a916c2d0fa8118223d1e8fc	1	1
+jsonlite	2.0.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				4609d11fa1de6f98371ac85a14ae516dd0414377c852b23ceb62813ad2121bbe	1	1
+knitr	1.52	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:57 UTC; windows	CRAN				5437bc8b9aec68b4b1dc235477a51057795fea9ffc29f3e8e7618be8b2673257	1	1
+labeling	0.4.3	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows	CRAN				0fd581e08b3becd15153994bf0dc203432b46f4bf358fdd3e866b5c8ec5ebc0c	1	1
+lambda.r	1.2.4	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:57:56 UTC; windows	CRAN				6dacfbd21637b0a965583ea360d4d478de101524fa0f9911c51b4bd0740b67ed	1	1
+later	1.4.8	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows	CRAN				9b0da4c3171df1efb3c55cb39dbbcebb1d8aeb4bf14a847579acdae8f5f7e961	1	1
+lattice	0.22-9	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:40 UTC; windows	CRAN				7ad3a66f4f90f36851ae2f168292333d9a1c7446fc5d6a9e0d35e124a42a3b62	1	1
+lazyeval	0.2.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows	CRAN				c2fae9cdbb724924d183020673715e87e0abcb2b76b365f2944903bc11b2b2e7	1	1
+lifecycle	1.0.5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:53 UTC; windows	CRAN				120b702422269e602af7ffed5be440c7afae3d5db76eaf6efb50314a9d2252f0	1	1
+limma	3.68.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 09:27:06 UTC; windows	Bioconductor 3.23	https://github.com/bioc/limma	RELEASE_3_23	825d1c8330d024adb6c54af66d79b0f4ec258530	741a06b20f30db5a370187a948515fff6d8629931f81d7a5ef6f528733a4f931	1	1
+listenv	1.0.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows	CRAN				ccb1dd039b4b41dbb2e926dde910c321fff2f8d583e20c8abe5e7438d66fc1e3	1	1
+lme4	2.0-6	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:21 UTC; windows	CRAN				4d6836c4c938a3ce4f02fb2d495f47d26143dc347ecd0b7a21a33273c7d20bd2	1	1
+lmtest	0.9-40	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:47 UTC; windows	CRAN				180c81e16d48bc22543a024ec99ba715fbe196e61ba77464f693319c53b7d8a9	1	1
+locfit	1.5-9.12	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows	CRAN				7d502316c87683245cd947db00f4e18cd13869a5c249ca297e56071f509a53e1	1	1
+loo	2.10.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:21:39 UTC; windows	CRAN				a1e0cefb1dc241cb016398c28978836692f694891f44888f238073ee6ceba80f	1	1
+magrittr	2.0.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				b59903ac75e191f615ea4e5f73617be264558b8c8439c1028e9209c80da34af1	1	1
+matrixStats	1.5.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:36 UTC; windows	CRAN				d8fbda0b38d1ea1c458a9e3ac9c9ad5407096ec3a1decd12f672a95281cafe5e	1	1
+memoise	2.0.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:48 UTC; windows	CRAN				f9efce1dcf357ceb62eaa03b3b69e85883699b9d1f0fa77e147f092c3fc11889	1	1
+metapod	1.20.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:50:48 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/metapod	RELEASE_3_23	fccdc7f39efed41fe3f95a48e2141adb914e74d2	d77f7930a330a981c8ae019159818556081b1fb7df056e6cc923339f58310ea8	1	1
+methods	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:12 UTC; windows					c23dafc2037e0aca335d15fdf2f928942e4bac82a866923d489b779c3f236f62	1	0
+mgcv	1.9-4	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:21 UTC; windows	CRAN				277213b29e846b9f62d8a3f5e35482cff2059b34aeb1fc7aa2301c720945b884	1	1
+mime	0.13	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows	CRAN				e2cbdbe93b2c8119a77edc2cfc7662c1611a716bb38ce35356fe9ec064c2a42f	1	1
+miniUI	0.1.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:20:08 UTC; windows	CRAN				e07fbd3664ad615fc00a7a8fab2ac546caafd61bceb6179ce09f57b285de2111	1	1
+minqa	1.2.8	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows	CRAN				02924754ae1afb6b88a9a821421f852010f024d59bb120267235167f0c375919	1	1
+modelr	0.1.11	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:38:15 UTC; windows	CRAN				d557cd3108889dbc21298907ff3fc2e20e1ff50d34eac2f7dddfd9bda89d7d12	1	1
+network	1.20.0	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:33 UTC; windows	CRAN				08e0fa8cbf1c8e3fcdec6a1143741d661eb33185ebcc4d50a034c89b0c19901c	1	1
+nlme	3.1-169	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:23 UTC; windows	CRAN				556d63962566b0bad9863f92c557e2ded3992cf686c9d2a10219258daea9b888	1	1
+nloptr	2.2.1	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows	CRAN				ba55ab56fbb883c130a5ce2b6cfe156b0af4fc43902c99cfbfd97d3babbd73a0	1	1
+nnet	7.3-20	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:09 UTC; windows	CRAN				887c7a20bd2abc842de52419bd048e741c5d48b6ef526d9439922a3dd8c398fa	1	1
+numDeriv	2016.8-1.1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:08 UTC; windows	CRAN				ac381466d7886de076fd1a42dc5ec356e9a291792d1667ebad5613fad3658bbf	1	1
+openssl	2.4.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:03 UTC; windows	CRAN				ad5ba77fab46d55478826e43d4e7ef8924193891f3b4fb84a462220c8dbc8691	1	1
+otel	0.2.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows	CRAN				10a3fb3db1984fedfdb24155657b81e53d3fa9a8d528bff36e5048efcaaccb09	1	1
+pROC	1.19.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 01:28:32 UTC; windows	CRAN				1d79bb4711c994f3e5085ba00056db39b54b5180c8dd9f07567bb965d7748239	1	1
+parallel	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:30 UTC; windows					a4519e8b7a207f8476fa28fe4552b9135ca2a8fb054444ad6db4e8fcfacd050f	1	0
+parallelly	1.48.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:41 UTC; windows	CRAN				43122dbde6fecd68d629b65d98618f93729aa298cfb69498b65b0d4b9f0f0b36	1	1
+patchwork	1.3.2	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows	CRAN				dbebe76c09516660d3070a79cabfe1037a398f02513ff4e88f8693372eee9753	1	1
+pbapply	1.7-5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows	CRAN				bb1d8eb1c4baafe8ffec3f260a70721efab684dae11d5f7bc1910caafd32fd92	1	1
+pbkrtest	0.5.5	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:52:36 UTC; windows	CRAN				e65faa7d6e9db41af8263cb1d82d1b0a49c8b5cef060fbe7085bbb71f4e23a7b	1	1
+pheatmap	1.0.13	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:23:58 UTC; windows	CRAN				ee51195b1c06eb231f1fb22ac7fffbb327218f5fec7b57a80253120842212efd	1	1
+pillar	1.11.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows	CRAN				fc1a811304684e8ada259fbfefc780477dc72d36db84b2073db63e7fd606cd7b	1	1
+pkgbuild	1.4.8	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:26 UTC; windows	CRAN				e0dc4003955de06c43ef89f7b70952e5baa39ab992695abffe775d368793d7d5	1	1
+pkgconfig	2.0.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows	CRAN				9cedf4a1ccc8214253612641238e828164f27abee24712fdb2cd2379dd6f6e8d	1	1
+plotly	4.12.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 04:12:12 UTC; windows	CRAN				92931a03997c9f7e66d5628c046f125ae4ed2c2af561d132e53a5c51b93e759b	1	1
+plyr	1.8.9	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows	CRAN				b7b7f5203c3ada4e398b0536967bca2291e682fa5d2df1ef6646964487ccdda4	1	1
+png	0.1-9	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows	CRAN				2c1531b596f65c158ad6cbfd66728c0ac9c807584857a0d0166a005b1c0c7bd6	1	1
+polyclip	1.10-7	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:47:28 UTC; windows	CRAN				09fae0e5434581f897ea634ffd14c85a80f280ffc6db9abc0b1f15af8654e36d	1	1
+polynom	1.4-1	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:55:03 UTC; windows	CRAN				6a7dbd7e611003b7001158424989e4b0e3a5724d8ea3784c5bec77ab547f5760	1	1
+posterior	1.7.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:05:08 UTC; windows	CRAN				9e707704512fb087ab49758caa6302076ead44be8dc698b5996adf8b66c902cb	1	1
+processx	3.9.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows	CRAN				8aa446e0004a8c7b48e3f657f744f29505849535cd5cf8396e2396d7b4378ad9	1	1
+progressr	1.0.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows	CRAN				76e8016cdd15c2ae411b78928f092ca0935cc5084aaa5a677abf2869caea4dea	1	1
+promises	1.5.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:50 UTC; windows	CRAN				78094d009f5225e75dcaa401d018be755fef074708adbcca1d1a32820e7df63f	1	1
+ps	1.9.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:50 UTC; windows	CRAN				9a683b69d34c186f9c1770eef19aeb2844ff0c1331ab8d8c8df55d1d7aad326f	1	1
+purrr	1.2.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:05 UTC; windows	CRAN				3508d54a0b3765dbdf469c8f0326960eba639c0f471c474ddf2bab8ae020bea2	1	1
+quantreg	6.1	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:10 UTC; windows	CRAN				b0c67495a96a46dbc2b700363d1e9a5cd45728e9e895118389ccbdd7b8fb0b7c	1	1
+rappdirs	0.3.4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				fe0eb38e6f66e93d422a64e1d03e2ae6c2fb197928ed39c6ca4b1db9a2e3d589	1	1
+rbibutils	2.4.1	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows	CRAN				1c6ce2a05e0d04d47c1f2f63caa294ac23d040614efe34b73bdaf628c2d23176	1	1
+reformulas	0.4.4	cellchat_overlay		R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows	CRAN				1bd9051a03801b5480054433fa1a4b6d44f076ff6d25022eff12e34e02fde3c1	1	1
+registry	0.5-1	cellchat_overlay		R 4.6.1; ; 2026-08-19 11:48:59 UTC; windows	CRAN				46ab7d29ce89c5be9f7c0831195ec2af31e2ddfb401a455a4f9387b4d294f878	1	1
+renv	1.2.4	capture_tool_only		R 4.6.1; ; 2026-09-09 00:56:08 UTC; windows	CRAN				b8de59fe2fd642c763fe254d860a37f3d2ba712b72cbb5bb89307faffdbfbf87	0	1
+reshape2	1.4.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:47 UTC; windows	CRAN				df3036bea6d81c38a55b3c085790cbd38dc3a6fd366c6dc5ee99b45dc6784762	1	1
+reticulate	1.47.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:24 UTC; windows	CRAN				6f8d6ff577e757d898a550cb7b5242ef6e22a13a42d938259f5326aad09ed472	1	1
+rjson	0.2.23	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:25 UTC; windows	CRAN				c9d6de45d0e39ae0c57394d0824eb724724af692ca20d9400b451a42820c2dcc	1	1
+rlang	1.3.0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				2bb71f13294ddcb5a2222020febb4a382be9b13ab95db9dece9ad20e7b466ca6	1	1
+rmarkdown	2.32	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:03:43 UTC; windows	CRAN				0032f6c879700a88a2515ec30d551a295fbd40ec95e36004c5a698af34ba8cf2	1	1
+rngtools	1.5.2	cellchat_overlay		R 4.6.1; ; 2026-09-09 00:57:05 UTC; windows	CRAN				935935bf93eb6425bab6f4537825e5049a2417f7642db6084eedeabde87d094c	1	1
+rpart	4.1.27	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:48 UTC; windows	CRAN				d6fc2b456a4394a94a450c96dbf4e235964334484e4e0e0c0b7b3a597177d1be	1	1
+rprojroot	2.1.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows	CRAN				e46392b0615f153d914769ab03d6bb4e32d6edb1d26b7b9a40f8e7f1dbd5ceb3	1	1
+rstan	2.32.7	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:35 UTC; windows	CRAN				f2cf0111f3eafcefa3a07da51a80076a46cd1a220f496c472e8888d283afd942	1	1
+rstantools	2.7.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:56:47 UTC; windows	CRAN				d5936c34ea4e1f5604e808cbe1fc3ac3c18caad7dfab8a2649acceae8160a0c0	1	1
+rstatix	1.1.0	cellchat_overlay		R 4.6.1; ; 2026-09-09 04:53:39 UTC; windows	CRAN				5fa4afded37c1d23f44b293952213748837b92d96d678647ec2d5dd4f609e610	1	1
+rsvd	1.0.5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:59:15 UTC; windows	CRAN				6f7cd186d9f751803035feb6fe7a7bf2eacb08940a9a0a49fa5a032bcdece899	1	1
+sass	0.4.10	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:49 UTC; windows	CRAN				06f1389e8cb210432e8527b78c2c0f3bfe3c99a9bd3239259c7f6f605a88ca2b	1	1
+scales	1.4.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows	CRAN				d936e8d79a92e06f0a78321d439ccfe2d39f99bfcfac3acb14533ea7e369e122	1	1
+scater	1.40.2	baseline_or_R_runtime		R 4.6.1; ; 2026-06-30 13:37:27 UTC; windows	Bioconductor 3.23	https://github.com/bioc/scater	RELEASE_3_23	ca4fc15bb520ebbc7dd3a889217209061c68f3af	5d37aff09cd60defb9c94aace0d1286eb7e1b00dced5db82b1e058addae61c7c	1	1
+scattermore	1.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:11 UTC; windows	CRAN				6e257e777a6a6e7eba684e6ad17e1a5897f1da80fa374ec446461c7454e6f3a0	1	1
+scran	1.40.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-30 09:16:49 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/scran	RELEASE_3_23	24a6fe7a83a1b6a0e85c2856c2d39b767b4597fd	f373b582ff93b60e4a89dfee376052583deedd8ebd0554e1e141832e7a2dae1d	1	1
+sctransform	0.4.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:22:52 UTC; windows	CRAN				09bc619ca70e0bc3e93b614107504ada4d65cc0867a77ad0e1b15e11c9381363	1	1
+scuttle	1.22.0	baseline_or_R_runtime		R 4.6.0; x86_64-w64-mingw32; 2026-05-02 09:50:48 UTC; windows	https://bioc-release.r-universe.dev	https://github.com/bioc/scuttle	RELEASE_3_23	d56a81e414939eefecd55ec68712a4be3d6858ab	47e548a3d6e5fdf3ef7dcdcca99bad21ed0c92c7cb942bc3c9793615ccd420c2	1	1
+shape	1.4.6.1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:34 UTC; windows	CRAN				49143d7aea2fb57acbb96e436150c73f1660726cd61341d4809abb3400928c35	1	1
+shiny	1.14.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:03:41 UTC; windows	CRAN				45d37d8bca008de0974ae31343c74b966bf42e7ffa7d95c8bdb7a929d00b7d50	1	1
+sitmo	2.0.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:57 UTC; windows	CRAN				77f895716f4fc9e21ea673e0c02e2fda6673fe89619ce7776533d8397bcfcb99	1	1
+sna	2.8	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:21:04 UTC; windows	CRAN				fc10b51ba2a499bdca754211bb75aa7fb453d69321cfb5fc2dc447b70268a0f5	1	1
+snow	0.4-4	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows	CRAN				c32c69a3dac541c0413d48a9a341f913f593ea3e21c40b54e5435b0de895748b	1	1
+sourcetools	0.1.7-2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows	CRAN				3a5b249dbd8705a85657336493ab093cbb4d9f866f3fe4c81a1f0f1e3cf76a08	1	1
+sp	2.2-3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:55 UTC; windows	CRAN				0b0270ec6afbe95ccd0b1af4cce2b7edc49623ae4c5a7cc2245d48cfee492c81	1	1
+spam	2.11-4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:00 UTC; windows	CRAN				53eecf30aec89b639fe9d760d2c08b1bad4bbcb01565c2068aeb0b3bcdca0c0b	1	1
+spatial	7.3-18	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:14 UTC; windows	CRAN				d50b2b02b130df7483b7e891956f760b3b8853ae5d60238961573db9cfc5b43b	1	1
+spatstat.data	3.1-9	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:56:05 UTC; windows	CRAN				adc4197fcbaa42aac228d4a0f44ba92730052bd795f324ae7bb6d912df26ddf0	1	1
+spatstat.explore	3.8-2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:39 UTC; windows	CRAN				eaf3cf94486c0263275d5827f7570424b75a69db6ea21992d547dbd039be37c5	1	1
+spatstat.geom	3.8-2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:20 UTC; windows	CRAN				efcdd1460ae58041da4d22e86106fc94564b767990897bce82c945ddcc352b21	1	1
+spatstat.random	3.5-1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:33 UTC; windows	CRAN				6664787d8254a4344418c5ae3be382c227c78674dfb191c4838588c66bf68d7a	1	1
+spatstat.sparse	3.2-0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows	CRAN				236f89012d81cd667937a160c8a2501535f0f9b0b553237178566388a4e77e2c	1	1
+spatstat.univar	3.2-0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows	CRAN				a757cc5b340e9a749e3fade7b473d27cfd4cdb59e80e441791cbc11a06a5f2d0	1	1
+spatstat.utils	3.2-4	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:05 UTC; windows	CRAN				868a979fa75cc63750471e268aa2df437071417d41af6faba3c78a86efd3ca8e	1	1
+splines	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:12 UTC; windows					8006d0b7524384378e596817cce6bc635f6f8ab93a73a4c934b79d210a0699b7	1	0
+statmod	1.5.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:03 UTC; windows	CRAN				4111c62a9e62c3b4671ab2f75db24cb3f4d1ca8006823c7712c68e6ed250b94b	1	1
+statnet.common	4.13.0	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:29 UTC; windows	CRAN				0375d794c5628a7257ef1a62dfea23c43c142fc66fba3dd712782ebe07f6bc3a	1	1
+stats	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:17:23 UTC; windows					695fc4a25755bb5ea4409e76477e67bec2cca46e9bbc393e68372ac1feaa3426	1	0
+stats4	4.6.1	baseline_or_R_runtime	base	R 4.6.1; ; 2026-06-24 08:20:17 UTC; windows					ec0329c568baf03a87c0bea49d891ef595bc2bc423bfd629c50c0c8f9c58e248	1	0
+stringi	1.8.9	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:22 UTC; windows	CRAN				b84f832d2c83a025e5f7d9edd82725978037d08074dca139b9a561c844235cf1	1	1
+stringr	1.6.0	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows	CRAN				6e0374299123462ab529bd36efa50f054b5de859cdc233878a0111263c85282a	1	1
+survival	3.8-6	baseline_or_R_runtime	recommended	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:55 UTC; windows	CRAN				ab4bbdda16b61ccd647272e51b549158be052e2970bbca470fb9d6419b41789a	1	1
+svglite	2.2.2	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows	CRAN				a356b9c9c4af8351c0d616f44f2884ddb1ab303e4a1028402fcc17e61806f4c2	1	1
+sys	3.4.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows	CRAN				b97e49c2b78c78f467c399fe2a36bc91fb7d35d8afc9f886c94bdf353b209f2c	1	1
+systemfonts	1.3.2	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:59 UTC; windows	CRAN				ade0086f1627d68bd7fb47850eddaf70f65163721799a0b65d00e15d54022c98	1	1
+tcltk	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:20 UTC; windows					f1536830e532a2cedadf733c85935909151083275bba992afa244deb74c6f34f	1	0
+tensor	1.5.1	baseline_or_R_runtime		R 4.6.1; ; 2026-08-19 11:47:30 UTC; windows	CRAN				2b007f8c7086092e0ffde52dbcdb0385e0b5fb762c4983939c914c3b94c7f031	1	1
+tensorA	0.36.2.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:22 UTC; windows	CRAN				6d2006e0352c5fde42fa825d7edd17920458ea8fd15d4fb12f9d9eaa0bfe16b5	1	1
+textshaping	1.0.5	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:26 UTC; windows	CRAN				d3586d53f844dd6d26aec5b963e26fd166b3b92e3b362952841e19bb1ba6e406	1	1
+tibble	3.3.1	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:39 UTC; windows	CRAN				2c179dbcc50dfc3d4dea54a0f5e797c5e852199a64ec77dd64794706f1d240cf	1	1
+tidyr	1.3.2	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:19 UTC; windows	CRAN				4882c6b27ea77dc41718ad500bad047bd55d17a08b920a540dbb6d66c0cf395d	1	1
+tidyselect	1.2.1	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows	CRAN				30010c008ee606f3f4dcf18f1cbd481c4bc2489c83c2e392afc9d1e821a7370b	1	1
+timeDate	4052.112	cellchat_overlay		R 4.6.1; ; 2026-08-23 00:53:23 UTC; windows	CRAN				1f45e1d967ad394a30b961f8917caff4426d8dbcd4e676f386f10372872fb3c0	1	1
+tinytex	0.60	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows	CRAN				a3a47477342143f54b50aa20f867854042155fb6c12f29a22f52a902461e2cad	1	1
+tools	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:14:19 UTC; windows					c0b5eb1651309f147bde74cce708979675d505f92ac0e1a8e9554632e5c4fbce	1	0
+urca	1.3-4	cellchat_overlay		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows	CRAN				378187869eff684624339d08559ea522d045510d96c9ddd8f734057954225e25	1	1
+utf8	1.2.6	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows	CRAN				9db237dd724503cbf6ea629cc0c4e64fc8f54423e7f0d2acd3f19d29e6ee138a	1	1
+utils	4.6.1	baseline_or_R_runtime	base	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:15:23 UTC; windows					c2eb5f8f135bec0cba1394b1fdbbe4535a9268843ad3b3465bc090a78b6d96a0	1	0
+uwot	0.2.5	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:22 UTC; windows	CRAN				553be07fb1423c9dec7dee5310dd318e300deab34e31205c616bcb21a19d81a1	1	1
+vctrs	0.7.3	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:52:27 UTC; windows	CRAN				9a5e28afbf43f409be69975e58a76d74bd08efeeb61e741f0da42c8154034d97	1	1
+vipor	0.4.7	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 01:00:03 UTC; windows	CRAN				a3d9d4c4d3c1dd316cfa9808171b0c079f665db291f69ee7b73e44e295aaeb77	1	1
+viridis	0.6.5	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 03:03:57 UTC; windows	CRAN				52b455b149a78f02a86d6080518bc0b4aaf456fe738131b3d74956ba45999461	1	1
+viridisLite	0.4.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows	CRAN				37a80ee094e8840f8fa0e23c306b151c6a806223035d57bd717c956e40404d23	1	1
+withr	3.0.3	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows	CRAN				adccda654f021ddf108aca953d98335a10c7c4d97e7b4019673cbb72602f4f49	1	1
+xfun	0.60	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:30 UTC; windows	CRAN				bd3be09d727307cc73274d3407d6b591bb581dd9ee50c7ea8506eb7737a68f6c	1	1
+xtable	1.8-8	baseline_or_R_runtime		R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows	CRAN				f5ffcabe55930135a9620d2c283408d99564aed6be75f2de22a8b3e19b1db7d2	1	1
+yaml	2.3.12	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:31 UTC; windows	CRAN				554eac45060298ad5068669a738268d984fdbf52da900aeb067714f32f6cde7f	1	1
+zoo	1.9-0	baseline_or_R_runtime		R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows	CRAN				04123dae9ee546ebbfabb81fb40d2d79b2f17f9933100e9b3b4ae02782c2257d	1	1

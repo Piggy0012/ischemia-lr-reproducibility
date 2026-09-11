@@ -1,0 +1,2780 @@
+{
+  "script": "work/repro_v3_cellchat_independent_review.py",
+  "script_sha256": "ff2a67f0108c1f3b7b0e11fe1794cd9ea1fdcf31a183b60f09a4f18198e3d691",
+  "third_party_imports": [
+    "liana",
+    "numpy",
+    "pandas",
+    "rdata",
+    "scipy"
+  ],
+  "packages": {
+    "scipy": {
+      "name": "scipy",
+      "version": "1.18.1",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "numpy<2.8,>=2.0.0",
+        "pytest>=8.0.0; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "pytest-xdist; extra == \"test\"",
+        "asv; extra == \"test\"",
+        "mpmath; extra == \"test\"",
+        "gmpy2; extra == \"test\"",
+        "threadpoolctl; extra == \"test\"",
+        "scikit-umfpack; extra == \"test\"",
+        "pooch; extra == \"test\"",
+        "hypothesis>=6.30; extra == \"test\"",
+        "array-api-strict>=2.3.1; extra == \"test\"",
+        "Cython; extra == \"test\"",
+        "meson; extra == \"test\"",
+        "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+        "scipy-doctest>=2.0.0; extra == \"test\"",
+        "sphinx<8.2.0,>=5.0.0; extra == \"doc\"",
+        "intersphinx_registry; extra == \"doc\"",
+        "pydata-sphinx-theme>=0.15.2; extra == \"doc\"",
+        "sphinx-copybutton; extra == \"doc\"",
+        "sphinx-design>=0.4.0; extra == \"doc\"",
+        "matplotlib>=3.5; extra == \"doc\"",
+        "numpydoc; extra == \"doc\"",
+        "jupytext; extra == \"doc\"",
+        "myst-nb>=1.2.0; extra == \"doc\"",
+        "pooch; extra == \"doc\"",
+        "jupyterlite-sphinx>=0.19.1; extra == \"doc\"",
+        "jupyterlite-pyodide-kernel; extra == \"doc\"",
+        "linkify-it-py; extra == \"doc\"",
+        "tabulate; extra == \"doc\"",
+        "click<8.3.0; extra == \"dev\"",
+        "spin; extra == \"dev\"",
+        "mypy==1.19.1; extra == \"dev\"",
+        "pyrefly==0.63.0; extra == \"dev\"",
+        "typing_extensions; extra == \"dev\"",
+        "types-psutil; extra == \"dev\"",
+        "pycodestyle; extra == \"dev\"",
+        "ruff>=0.12.0; extra == \"dev\"",
+        "cython-lint>=0.12.2; extra == \"dev\""
+      ],
+      "metadata_sha256": "c8313d18ca0168ff291fe0a3b50532f3a18b14547695e9aa7ca1c1ce6eca92dc",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scipy-1.18.1.dist-info"
+    },
+    "numpy": {
+      "name": "numpy",
+      "version": "2.3.5",
+      "requires_python": ">=3.11",
+      "requires_dist": [],
+      "metadata_sha256": "7f8a1bfc2b82fee89e1ceef1038aa174ee814832b54c39b4b1b93028ce3f27b1",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy-2.3.5.dist-info"
+    },
+    "rdata": {
+      "name": "rdata",
+      "version": "1.1.0",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "numpy",
+        "xarray",
+        "pandas",
+        "typing_extensions>4.4",
+        "igraph; extra == \"docs\"",
+        "ipywidgets; extra == \"docs\"",
+        "jupyterlite-sphinx; extra == \"docs\"",
+        "jupyterlite-pyodide-kernel; extra == \"docs\"",
+        "matplotlib; extra == \"docs\"",
+        "myst-parser; extra == \"docs\"",
+        "pydata-sphinx-theme; extra == \"docs\"",
+        "sphinx>=3.1; extra == \"docs\"",
+        "sphinx-codeautolink; extra == \"docs\"",
+        "sphinx-gallery; extra == \"docs\"",
+        "matplotlib>=3.8; extra == \"typing\"",
+        "mypy; extra == \"typing\"",
+        "pandas-stubs; extra == \"typing\"",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "numpy>=1.14; extra == \"test\""
+      ],
+      "metadata_sha256": "223ce008cda355528b70d4aed05263cca4af832d17a7ea89d2b7fd82524d25cb",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://github.com/vnmabus/rdata",
+        "documentation, https://rdata.readthedocs.io",
+        "repository, https://github.com/vnmabus/rdata"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\rdata-1.1.0.dist-info"
+    },
+    "typing-extensions": {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "requires_python": ">=3.9",
+      "requires_dist": [],
+      "metadata_sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46",
+      "home_page": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\typing_extensions-4.16.0.dist-info"
+    },
+    "pandas": {
+      "name": "pandas",
+      "version": "2.3.3",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "numpy>=1.22.4; python_version < \"3.11\"",
+        "numpy>=1.23.2; python_version == \"3.11\"",
+        "numpy>=1.26.0; python_version >= \"3.12\"",
+        "python-dateutil>=2.8.2",
+        "pytz>=2020.1",
+        "tzdata>=2022.7",
+        "hypothesis>=6.46.1; extra == \"test\"",
+        "pytest>=7.3.2; extra == \"test\"",
+        "pytest-xdist>=2.2.0; extra == \"test\"",
+        "pyarrow>=10.0.1; extra == \"pyarrow\"",
+        "bottleneck>=1.3.6; extra == \"performance\"",
+        "numba>=0.56.4; extra == \"performance\"",
+        "numexpr>=2.8.4; extra == \"performance\"",
+        "scipy>=1.10.0; extra == \"computation\"",
+        "xarray>=2022.12.0; extra == \"computation\"",
+        "fsspec>=2022.11.0; extra == \"fss\"",
+        "s3fs>=2022.11.0; extra == \"aws\"",
+        "gcsfs>=2022.11.0; extra == \"gcp\"",
+        "pandas-gbq>=0.19.0; extra == \"gcp\"",
+        "odfpy>=1.4.1; extra == \"excel\"",
+        "openpyxl>=3.1.0; extra == \"excel\"",
+        "python-calamine>=0.1.7; extra == \"excel\"",
+        "pyxlsb>=1.0.10; extra == \"excel\"",
+        "xlrd>=2.0.1; extra == \"excel\"",
+        "xlsxwriter>=3.0.5; extra == \"excel\"",
+        "pyarrow>=10.0.1; extra == \"parquet\"",
+        "pyarrow>=10.0.1; extra == \"feather\"",
+        "tables>=3.8.0; extra == \"hdf5\"",
+        "pyreadstat>=1.2.0; extra == \"spss\"",
+        "SQLAlchemy>=2.0.0; extra == \"postgresql\"",
+        "psycopg2>=2.9.6; extra == \"postgresql\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"postgresql\"",
+        "SQLAlchemy>=2.0.0; extra == \"mysql\"",
+        "pymysql>=1.0.2; extra == \"mysql\"",
+        "SQLAlchemy>=2.0.0; extra == \"sql-other\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"sql-other\"",
+        "adbc-driver-sqlite>=0.8.0; extra == \"sql-other\"",
+        "beautifulsoup4>=4.11.2; extra == \"html\"",
+        "html5lib>=1.1; extra == \"html\"",
+        "lxml>=4.9.2; extra == \"html\"",
+        "lxml>=4.9.2; extra == \"xml\"",
+        "matplotlib>=3.6.3; extra == \"plot\"",
+        "jinja2>=3.1.2; extra == \"output-formatting\"",
+        "tabulate>=0.9.0; extra == \"output-formatting\"",
+        "PyQt5>=5.15.9; extra == \"clipboard\"",
+        "qtpy>=2.3.0; extra == \"clipboard\"",
+        "zstandard>=0.19.0; extra == \"compression\"",
+        "dataframe-api-compat>=0.1.7; extra == \"consortium-standard\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"all\"",
+        "adbc-driver-sqlite>=0.8.0; extra == \"all\"",
+        "beautifulsoup4>=4.11.2; extra == \"all\"",
+        "bottleneck>=1.3.6; extra == \"all\"",
+        "dataframe-api-compat>=0.1.7; extra == \"all\"",
+        "fastparquet>=2022.12.0; extra == \"all\"",
+        "fsspec>=2022.11.0; extra == \"all\"",
+        "gcsfs>=2022.11.0; extra == \"all\"",
+        "html5lib>=1.1; extra == \"all\"",
+        "hypothesis>=6.46.1; extra == \"all\"",
+        "jinja2>=3.1.2; extra == \"all\"",
+        "lxml>=4.9.2; extra == \"all\"",
+        "matplotlib>=3.6.3; extra == \"all\"",
+        "numba>=0.56.4; extra == \"all\"",
+        "numexpr>=2.8.4; extra == \"all\"",
+        "odfpy>=1.4.1; extra == \"all\"",
+        "openpyxl>=3.1.0; extra == \"all\"",
+        "pandas-gbq>=0.19.0; extra == \"all\"",
+        "psycopg2>=2.9.6; extra == \"all\"",
+        "pyarrow>=10.0.1; extra == \"all\"",
+        "pymysql>=1.0.2; extra == \"all\"",
+        "PyQt5>=5.15.9; extra == \"all\"",
+        "pyreadstat>=1.2.0; extra == \"all\"",
+        "pytest>=7.3.2; extra == \"all\"",
+        "pytest-xdist>=2.2.0; extra == \"all\"",
+        "python-calamine>=0.1.7; extra == \"all\"",
+        "pyxlsb>=1.0.10; extra == \"all\"",
+        "qtpy>=2.3.0; extra == \"all\"",
+        "scipy>=1.10.0; extra == \"all\"",
+        "s3fs>=2022.11.0; extra == \"all\"",
+        "SQLAlchemy>=2.0.0; extra == \"all\"",
+        "tables>=3.8.0; extra == \"all\"",
+        "tabulate>=0.9.0; extra == \"all\"",
+        "xarray>=2022.12.0; extra == \"all\"",
+        "xlrd>=2.0.1; extra == \"all\"",
+        "xlsxwriter>=3.0.5; extra == \"all\"",
+        "zstandard>=0.19.0; extra == \"all\""
+      ],
+      "metadata_sha256": "243674e606b51e70e5858596c7bfc9b58875d531d56577927c0a9944693f6c2f",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://pandas.pydata.org",
+        "documentation, https://pandas.pydata.org/docs/",
+        "repository, https://github.com/pandas-dev/pandas"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\pandas-2.3.3.dist-info"
+    },
+    "tzdata": {
+      "name": "tzdata",
+      "version": "2026.3",
+      "requires_python": ">=2",
+      "requires_dist": [],
+      "metadata_sha256": "511c019df477939fe7f4c38e32ad74a570c4ebb05b13fd2fffd0f0f2dbe6f7b1",
+      "home_page": "https://github.com/python/tzdata",
+      "project_urls": [
+        "Bug Reports, https://github.com/python/tzdata/issues",
+        "Source, https://github.com/python/tzdata",
+        "Documentation, https://tzdata.python.org"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tzdata-2026.3.dist-info"
+    },
+    "pytz": {
+      "name": "pytz",
+      "version": "2026.3.post1",
+      "requires_python": null,
+      "requires_dist": [],
+      "metadata_sha256": "25ef8a562377a28d8c6bd8c5c9e80d761d0e22ac4a7bed24e512f589644ed33d",
+      "home_page": "http://pythonhosted.org/pytz",
+      "project_urls": [
+        "Source, https://github.com/stub42/pytz.git",
+        "Issues, https://github.com/stub42/pytz/issues"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\pytz-2026.3.post1.dist-info"
+    },
+    "python-dateutil": {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+      "requires_dist": [
+        "six >=1.5"
+      ],
+      "metadata_sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "home_page": "https://github.com/dateutil/dateutil",
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\python_dateutil-2.9.0.post0.dist-info"
+    },
+    "six": {
+      "name": "six",
+      "version": "1.17.0",
+      "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
+      "requires_dist": [],
+      "metadata_sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "home_page": "https://github.com/benjaminp/six",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\six-1.17.0.dist-info"
+    },
+    "xarray": {
+      "name": "xarray",
+      "version": "2026.7.0",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "numpy>=1.26",
+        "packaging>=24.2",
+        "pandas>=2.2",
+        "scipy>=1.15; extra == \"accel\"",
+        "bottleneck; extra == \"accel\"",
+        "numbagg>=0.9; extra == \"accel\"",
+        "numba>=0.62; extra == \"accel\"",
+        "flox>=0.10; extra == \"accel\"",
+        "opt_einsum; extra == \"accel\"",
+        "xarray[accel,etc,io,parallel,viz]; extra == \"complete\"",
+        "netCDF4>=1.6.0; extra == \"io\"",
+        "h5netcdf[h5py]>=1.5.0; extra == \"io\"",
+        "pydap; extra == \"io\"",
+        "scipy>=1.15; extra == \"io\"",
+        "zarr>=3.0; extra == \"io\"",
+        "fsspec; extra == \"io\"",
+        "cftime; extra == \"io\"",
+        "pooch; extra == \"io\"",
+        "sparse>=0.15; extra == \"etc\"",
+        "dask[complete]; extra == \"parallel\"",
+        "cartopy>=0.24; extra == \"viz\"",
+        "matplotlib>=3.10; extra == \"viz\"",
+        "nc-time-axis; extra == \"viz\"",
+        "seaborn; extra == \"viz\"",
+        "pandas-stubs; extra == \"types\"",
+        "scipy-stubs; extra == \"types\"",
+        "types-colorama; extra == \"types\"",
+        "types-decorator; extra == \"types\"",
+        "types-defusedxml; extra == \"types\"",
+        "types-docutils; extra == \"types\"",
+        "types-networkx; extra == \"types\"",
+        "types-openpyxl; extra == \"types\"",
+        "types-pexpect; extra == \"types\"",
+        "types-psutil; extra == \"types\"",
+        "types-pycurl; extra == \"types\"",
+        "types-Pygments; extra == \"types\"",
+        "types-python-dateutil; extra == \"types\"",
+        "types-pytz; extra == \"types\"",
+        "types-PyYAML; extra == \"types\"",
+        "types-requests; extra == \"types\"",
+        "types-setuptools; extra == \"types\"",
+        "types-xlrd; extra == \"types\""
+      ],
+      "metadata_sha256": "06f60103cbc8f6e962411b40dc9c64eaa2f06d264881bc70e5e0ccb21d318f5d",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://docs.xarray.dev",
+        "SciPy2015-talk, https://www.youtube.com/watch?v=X0pAhJgySxk",
+        "homepage, https://xarray.dev/",
+        "issue-tracker, https://github.com/pydata/xarray/issues",
+        "source-code, https://github.com/pydata/xarray"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\xarray-2026.7.0.dist-info"
+    },
+    "packaging": {
+      "name": "packaging",
+      "version": "26.3",
+      "requires_python": ">=3.9",
+      "requires_dist": [],
+      "metadata_sha256": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\packaging-26.3.dist-info"
+    },
+    "liana": {
+      "name": "liana",
+      "version": "1.10.0",
+      "requires_python": "<3.14,>=3.10",
+      "requires_dist": [
+        "anndata>=0.7.4",
+        "docrep>=0.3.1",
+        "mudata",
+        "numba",
+        "pandas<3",
+        "plotnine>=0.10.1",
+        "scanpy",
+        "session-info2",
+        "tqdm>=4.0",
+        "bumpversion>=0.6.0; extra == 'dev'",
+        "highspy>=1.9.0; extra == 'dev'",
+        "pre-commit>=3.0.0; extra == 'dev'",
+        "pytest>=8.0; extra == 'dev'",
+        "twine>=4.0.2; extra == 'dev'",
+        "docutils!=0.18.*,!=0.19.*,>=0.8; extra == 'doc'",
+        "ipykernel; extra == 'doc'",
+        "ipython; extra == 'doc'",
+        "myst-nb>=1.1; extra == 'doc'",
+        "pre-commit; extra == 'doc'",
+        "setuptools; extra == 'doc'",
+        "sphinx-autodoc-typehints; extra == 'doc'",
+        "sphinx-book-theme>=1; extra == 'doc'",
+        "sphinx-copybutton; extra == 'doc'",
+        "sphinx-tabs>=3.4.5; extra == 'doc'",
+        "sphinx<9,>=8.1; extra == 'doc'",
+        "sphinxcontrib-bibtex>=1; extra == 'doc'",
+        "sphinxcontrib-mermaid>=0.9; extra == 'doc'",
+        "sphinxext-opengraph; extra == 'doc'",
+        "cell2cell; extra == 'extras'",
+        "corneto==0.9.1-alpha.6; extra == 'extras'",
+        "cvxpy-base>=1.6.1; extra == 'extras'",
+        "decoupler>=2.0.0; extra == 'extras'",
+        "gseapy>=1.1.0; extra == 'extras'",
+        "kneed>=0.7.0; extra == 'extras'",
+        "mofapy2>=0.7.0; extra == 'extras'",
+        "mofax; extra == 'extras'",
+        "muon; extra == 'extras'",
+        "omnipath>=1.0.6; extra == 'extras'",
+        "pydeseq2>=0.3.5; extra == 'extras'",
+        "pyscipopt>=5.2.1; extra == 'extras'",
+        "requests>=2.25.1; extra == 'extras'",
+        "coverage; extra == 'test'",
+        "pytest; extra == 'test'"
+      ],
+      "metadata_sha256": "e279a3393ff62f4df0b5967aa4527e8b291653f6cc11c5ba6c6df81071761ae4",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://liana.readthedocs.io/",
+        "Homepage, https://liana-py.readthedocs.io",
+        "Source, https://github.com/saezlab/liana-py"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana-1.10.0.dist-info"
+    },
+    "tqdm": {
+      "name": "tqdm",
+      "version": "4.70.0",
+      "requires_python": ">=3.8",
+      "requires_dist": [
+        "colorama; platform_system == \"Windows\"",
+        "requests; extra == \"discord\"",
+        "envwrap; extra == \"discord\"",
+        "slack-sdk; extra == \"slack\"",
+        "envwrap; extra == \"slack\"",
+        "requests; extra == \"telegram\"",
+        "envwrap; extra == \"telegram\"",
+        "ipywidgets>=6; extra == \"notebook\""
+      ],
+      "metadata_sha256": "0d95b85b90428f8776afc4a92b17c5094f78ee98d150b3255acbcdf4e9d57941",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://tqdm.github.io",
+        "repository, https://github.com/tqdm/tqdm",
+        "changelog, https://tqdm.github.io/releases",
+        "wiki, https://github.com/tqdm/tqdm/wiki"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\tqdm-4.70.0.dist-info"
+    },
+    "colorama": {
+      "name": "colorama",
+      "version": "0.4.6",
+      "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7",
+      "requires_dist": [],
+      "metadata_sha256": "7baed29eb50c3b29bdb33ff84e3177bf1bc05784f7685ecdcaa4471c7dd810cc",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/tartley/colorama"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\colorama-0.4.6.dist-info"
+    },
+    "session-info2": {
+      "name": "session-info2",
+      "version": "0.4.2",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "ipywidgets; extra == 'jupyter'"
+      ],
+      "metadata_sha256": "a77ce81a9a3063de8fa21c3a118627d0bbdfe1c46258c8ca61b6c1869973d477",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://session-info2.readthedocs.io/",
+        "Issues, https://github.com/flying-sheep/session-info2/issues",
+        "Source, https://github.com/flying-sheep/session-info2"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\session_info2-0.4.2.dist-info"
+    },
+    "scanpy": {
+      "name": "scanpy",
+      "version": "1.12.4",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "anndata>=0.10.8",
+        "certifi",
+        "fast-array-utils[accel,sparse]>=1.4",
+        "h5py>=3.11",
+        "joblib",
+        "legacy-api-wrap>=1.5",
+        "matplotlib>=3.10",
+        "natsort",
+        "networkx>=2.8.8",
+        "numba>=0.60",
+        "numpy>=2",
+        "packaging>=25",
+        "pandas>=2.3",
+        "patsy",
+        "pynndescent>=0.5.13",
+        "scikit-learn>=1.6",
+        "scipy>=1.13",
+        "scverse-misc>=0.0.6",
+        "seaborn>=0.13.2",
+        "session-info2",
+        "statsmodels>=0.14.5",
+        "tqdm",
+        "typing-extensions; python_version < '3.13'",
+        "umap-learn>=0.5.12",
+        "bbknn; extra == 'bbknn'",
+        "anndata[dask]; extra == 'dask'",
+        "dask[array]>=2024.5.1; extra == 'dask'",
+        "anndata[dask]; extra == 'dask-ml'",
+        "dask-ml; extra == 'dask-ml'",
+        "dask[array]>=2024.5.1; extra == 'dask-ml'",
+        "harmonypy; extra == 'harmony'",
+        "igraph>=0.10.8; extra == 'leiden'",
+        "leidenalg>=0.10.1; extra == 'leiden'",
+        "igraph; extra == 'louvain'",
+        "louvain>=0.8.2; extra == 'louvain'",
+        "setuptools; extra == 'louvain'",
+        "magic-impute>=2.0.4; extra == 'magic'",
+        "igraph; extra == 'paga'",
+        "colour-science; extra == 'plotting'",
+        "cudf>=0.9; extra == 'rapids'",
+        "cugraph>=0.9; extra == 'rapids'",
+        "cuml>=0.9; extra == 'rapids'",
+        "scanorama; extra == 'scanorama'",
+        "scikit-image>=0.23.1; extra == 'scrublet'",
+        "scikit-misc>=0.5.1; extra == 'skmisc'"
+      ],
+      "metadata_sha256": "7c08e43157e51b554f1968c5839c138e670b908ad9641c468e4d3e48d6cf3f79",
+      "home_page": null,
+      "project_urls": [
+        "Bluesky, https://bsky.app/profile/scverse.bsky.social",
+        "Discourse, https://discourse.scverse.org/c/help/scanpy/37",
+        "Documentation, https://scanpy.readthedocs.io/",
+        "Homepage, https://scanpy.org",
+        "Source, https://github.com/scverse/scanpy",
+        "Twitter, https://x.com/scverse_team"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scanpy-1.12.4.dist-info"
+    },
+    "umap-learn": {
+      "name": "umap-learn",
+      "version": "0.5.12",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "numpy>=1.23",
+        "scipy>=1.3.1",
+        "scikit-learn>=1.6",
+        "numba>=0.51.2",
+        "pynndescent>=0.5",
+        "tqdm",
+        "pandas; extra == \"plot\"",
+        "matplotlib; extra == \"plot\"",
+        "datashader; extra == \"plot\"",
+        "bokeh; extra == \"plot\"",
+        "holoviews; extra == \"plot\"",
+        "colorcet; extra == \"plot\"",
+        "seaborn; extra == \"plot\"",
+        "scikit-image; extra == \"plot\"",
+        "dask; extra == \"plot\"",
+        "tensorflow>=2.1; extra == \"parametric-umap\"",
+        "tbb>=2019.0; extra == \"tbb\"",
+        "pytest; extra == \"test\""
+      ],
+      "metadata_sha256": "54eb60313402be4f3d47e40098e09ba25c1b254dd314bfca44a7318621a67505",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, http://github.com/lmcinnes/umap",
+        "Repository, http://github.com/lmcinnes/umap"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\umap_learn-0.5.12.dist-info"
+    },
+    "pynndescent": {
+      "name": "pynndescent",
+      "version": "0.6.0",
+      "requires_python": null,
+      "requires_dist": [
+        "scikit-learn>=0.18",
+        "scipy>=1.0",
+        "numba>=0.55.0",
+        "llvmlite>=0.38",
+        "joblib>=0.11",
+        "pytest; extra == \"testing\""
+      ],
+      "metadata_sha256": "96dc394d13cbbe38ce637cb52fabe9ed6ebfd1be04f477d182c46abdead50aae",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, http://github.com/lmcinnes/pynndescent"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\pynndescent-0.6.0.dist-info"
+    },
+    "joblib": {
+      "name": "joblib",
+      "version": "1.6.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "cloudpickle>=3.0",
+        "distributed; extra == \"test\"",
+        "lz4; extra == \"test\"",
+        "numpy; extra == \"test\"",
+        "memory_profiler; extra == \"test\"",
+        "pytest; extra == \"test\"",
+        "pytest-asyncio; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pytest-run-parallel; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "threadpoolctl; extra == \"test\"",
+        "distributed; extra == \"docs\"",
+        "lz4; extra == \"docs\"",
+        "numpy; extra == \"docs\"",
+        "numpydoc; extra == \"docs\"",
+        "matplotlib; extra == \"docs\"",
+        "pandas; extra == \"docs\"",
+        "psutil; extra == \"docs\"",
+        "sphinx; extra == \"docs\"",
+        "pydata-sphinx-theme; extra == \"docs\"",
+        "sphinx-gallery; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-design; extra == \"docs\"",
+        "tqdm; extra == \"docs\""
+      ],
+      "metadata_sha256": "c5fd6509906c5795fd6724d97bc1709d1f266b78aff92c0156d6cf5ad7c045e3",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://joblib.readthedocs.io",
+        "Source, https://github.com/joblib/joblib"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\joblib-1.6.0.dist-info"
+    },
+    "cloudpickle": {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "requires_python": ">=3.8",
+      "requires_dist": [],
+      "metadata_sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721",
+      "home_page": "https://github.com/cloudpipe/cloudpickle",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\cloudpickle-3.1.2.dist-info"
+    },
+    "llvmlite": {
+      "name": "llvmlite",
+      "version": "0.49.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [],
+      "metadata_sha256": "981af48e46dfe1da9bc394d690969652721430730785db5f953d0bf2c4dce608",
+      "home_page": "http://llvmlite.readthedocs.io",
+      "project_urls": [
+        "Source, https://github.com/numba/llvmlite"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\llvmlite-0.49.0.dist-info"
+    },
+    "numba": {
+      "name": "numba",
+      "version": "0.67.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "llvmlite<0.50,>=0.49.0dev0",
+        "numpy<2.6,>=1.22"
+      ],
+      "metadata_sha256": "025ba2df60d252a02c4e25a02a3dd8616d0bf5f3159dd7da4e1c9322f7efd580",
+      "home_page": "https://numba.pydata.org",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\numba-0.67.0.dist-info"
+    },
+    "scikit-learn": {
+      "name": "scikit-learn",
+      "version": "1.9.0",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "numpy>=1.24.1",
+        "scipy>=1.10.0",
+        "joblib>=1.4.0",
+        "narwhals>=2.0.1",
+        "threadpoolctl>=3.5.0",
+        "numpy>=1.24.1; extra == \"build\"",
+        "scipy>=1.10.0; extra == \"build\"",
+        "cython>=3.1.2; extra == \"build\"",
+        "meson-python>=0.17.1; extra == \"build\"",
+        "numpy>=1.24.1; extra == \"install\"",
+        "scipy>=1.10.0; extra == \"install\"",
+        "joblib>=1.4.0; extra == \"install\"",
+        "narwhals>=2.0.1; extra == \"install\"",
+        "threadpoolctl>=3.5.0; extra == \"install\"",
+        "matplotlib>=3.6.1; extra == \"benchmark\"",
+        "pandas>=1.5.0; extra == \"benchmark\"",
+        "memory_profiler>=0.57.0; extra == \"benchmark\"",
+        "matplotlib>=3.6.1; extra == \"docs\"",
+        "scikit-image>=0.22.0; extra == \"docs\"",
+        "pandas>=1.5.0; extra == \"docs\"",
+        "rich>=14.1.0; extra == \"docs\"",
+        "seaborn>=0.13.0; extra == \"docs\"",
+        "memory_profiler>=0.57.0; extra == \"docs\"",
+        "sphinx>=7.3.7; extra == \"docs\"",
+        "sphinx-copybutton>=0.5.2; extra == \"docs\"",
+        "sphinx-gallery>=0.17.1; extra == \"docs\"",
+        "numpydoc>=1.2.0; extra == \"docs\"",
+        "Pillow>=12.1.1; extra == \"docs\"",
+        "pooch>=1.8.0; extra == \"docs\"",
+        "sphinx-prompt>=1.4.0; extra == \"docs\"",
+        "sphinxext-opengraph>=0.9.1; extra == \"docs\"",
+        "plotly>=5.22.0; extra == \"docs\"",
+        "polars>=0.20.30; extra == \"docs\"",
+        "sphinx-design>=0.6.0; extra == \"docs\"",
+        "sphinxcontrib-sass>=0.3.4; extra == \"docs\"",
+        "pydata-sphinx-theme>=0.15.3; extra == \"docs\"",
+        "sphinx-remove-toctrees>=1.0.0.post1; extra == \"docs\"",
+        "towncrier>=24.8.0; extra == \"docs\"",
+        "matplotlib>=3.6.1; extra == \"examples\"",
+        "scikit-image>=0.22.0; extra == \"examples\"",
+        "pandas>=1.5.0; extra == \"examples\"",
+        "rich>=14.1.0; extra == \"examples\"",
+        "seaborn>=0.13.0; extra == \"examples\"",
+        "pooch>=1.8.0; extra == \"examples\"",
+        "plotly>=5.22.0; extra == \"examples\"",
+        "matplotlib>=3.6.1; extra == \"tests\"",
+        "pandas>=1.5.0; extra == \"tests\"",
+        "rich>=14.1.0; extra == \"tests\"",
+        "pytest>=7.1.2; extra == \"tests\"",
+        "pytest-cov>=2.9.0; extra == \"tests\"",
+        "ruff>=0.12.2; extra == \"tests\"",
+        "mypy>=1.15; extra == \"tests\"",
+        "pyamg>=5.0.0; extra == \"tests\"",
+        "polars>=0.20.30; extra == \"tests\"",
+        "pyarrow>=13.0.0; extra == \"tests\"",
+        "numpydoc>=1.2.0; extra == \"tests\"",
+        "pooch>=1.8.0; extra == \"tests\"",
+        "conda-lock==3.0.1; extra == \"maintenance\""
+      ],
+      "metadata_sha256": "ee61a579f42d3edabe3e483db483475e33fffec04d7f3e69c539527bd93eaca6",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://scikit-learn.org",
+        "source, https://github.com/scikit-learn/scikit-learn",
+        "download, https://pypi.org/project/scikit-learn/#files",
+        "tracker, https://github.com/scikit-learn/scikit-learn/issues",
+        "release notes, https://scikit-learn.org/stable/whats_new"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scikit_learn-1.9.0.dist-info"
+    },
+    "threadpoolctl": {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "requires_python": ">=3.9",
+      "requires_dist": [],
+      "metadata_sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341",
+      "home_page": "https://github.com/joblib/threadpoolctl",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\threadpoolctl-3.6.0.dist-info"
+    },
+    "narwhals": {
+      "name": "narwhals",
+      "version": "2.26.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "cudf-cu12>=24.10.0 ; sys_platform == 'linux' and extra == 'cudf'",
+        "dask[dataframe]>=2024.8 ; extra == 'dask'",
+        "duckdb>=1.1 ; extra == 'duckdb'",
+        "ibis-framework>=6.0.0 ; extra == 'ibis'",
+        "packaging>=21.3 ; extra == 'ibis'",
+        "pyarrow-hotfix>=0.7 ; extra == 'ibis'",
+        "modin>=0.22.0 ; extra == 'modin'",
+        "pandas>=1.3.4 ; extra == 'pandas'",
+        "polars>=0.20.4 ; extra == 'polars'",
+        "pyarrow>=13.0.0 ; extra == 'pyarrow'",
+        "pyspark>=3.5.0 ; extra == 'pyspark'",
+        "pyspark[connect]>=3.5.0 ; extra == 'pyspark-connect'",
+        "narwhals[duckdb] ; extra == 'sql'",
+        "sqlparse>=0.5.5 ; extra == 'sql'",
+        "sqlframe>=3.22.0,!=3.39.3 ; extra == 'sqlframe'"
+      ],
+      "metadata_sha256": "7e09d821259f98ca6ce639ddf38d5314fca112911dc3ba58d8546381ac1b2861",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/narwhals-dev/narwhals",
+        "Documentation, https://narwhals-dev.github.io/narwhals/",
+        "Repository, https://github.com/narwhals-dev/narwhals",
+        "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\narwhals-2.26.0.dist-info"
+    },
+    "statsmodels": {
+      "name": "statsmodels",
+      "version": "0.15.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "numpy<3,>=1.23.5",
+        "scipy!=1.9.2,>=1.8",
+        "pandas!=2.1.0,>=1.4",
+        "patsy>=0.5.6",
+        "packaging>=21.3",
+        "formulaic>=1.1.0",
+        "pytest<10,>=8.4.1; extra == \"test\"",
+        "pytest-randomly; extra == \"test\"",
+        "pytest-run-parallel; extra == \"test\"",
+        "pytest-xdist; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "coverage[toml]; extra == \"test\"",
+        "meson; extra == \"test\"",
+        "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+        "sphinx; extra == \"doc\"",
+        "pandas!=2.1.0,>=2.2.2; extra == \"doc\"",
+        "pydata-sphinx-theme; extra == \"doc\"",
+        "jupyter; extra == \"doc\"",
+        "notebook; extra == \"doc\"",
+        "nbsphinx; extra == \"doc\"",
+        "nbconvert; extra == \"doc\"",
+        "pyyaml; extra == \"doc\"",
+        "pandas-datareader; extra == \"doc\"",
+        "simplegeneric; extra == \"doc\"",
+        "seaborn; extra == \"doc\"",
+        "numpydoc; extra == \"doc\"",
+        "pymc; os_name != \"nt\" and extra == \"doc\"",
+        "arviz; os_name != \"nt\" and extra == \"doc\"",
+        "jinja2; extra == \"doc\"",
+        "pickleshare; extra == \"doc\"",
+        "pytest<10,>=8.4.1; extra == \"doc\"",
+        "cython<4,>=3.0.10; extra == \"dev\"",
+        "setuptools_scm~=9.0; extra == \"dev\"",
+        "meson-python>=0.18.0; extra == \"dev\"",
+        "meson; extra == \"dev\"",
+        "ninja; extra == \"dev\"",
+        "matplotlib>=3; extra == \"dev\"",
+        "colorama; extra == \"dev\"",
+        "joblib; extra == \"dev\"",
+        "pywinpty; os_name == \"nt\" and extra == \"dev\"",
+        "ruff; extra == \"dev\"",
+        "polars>=1.0.0; extra == \"polars\""
+      ],
+      "metadata_sha256": "5c2b2bc90b451ec1d9d87529d25754011b4436f55f2a2956e0fabda34b82a826",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://www.statsmodels.org",
+        "documentation, https://www.statsmodels.org/stable/index.html",
+        "repository, https://github.com/statsmodels/statsmodels",
+        "changelog, https://bashtage.github.io/arch/changes.html",
+        "bugtracker, https://github.com/statsmodels/statsmodels/issues"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\statsmodels-0.15.0.dist-info"
+    },
+    "formulaic": {
+      "name": "formulaic",
+      "version": "1.2.2",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "interface-meta>=1.2.0",
+        "narwhals>=1.17",
+        "numpy>=1.20.0",
+        "pandas>=1.3",
+        "scipy>=1.6",
+        "typing-extensions>=4.2.0",
+        "wrapt>=1.0; python_version < '3.13'",
+        "wrapt>=1.17.0rc1; python_version >= '3.13'",
+        "pyarrow>=1; extra == 'arrow'",
+        "sympy!=1.10,>=1.3; extra == 'calculus'",
+        "polars>=1; extra == 'polars'"
+      ],
+      "metadata_sha256": "abc2ce34c42d629b55aa1665550d8f1ba50fcacf874db97954f3b9f2890e0643",
+      "home_page": null,
+      "project_urls": [
+        "repository, https://github.com/matthewwardrop/formulaic",
+        "documentation, https://matthewwardrop.github.io/formulaic"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\formulaic-1.2.2.dist-info"
+    },
+    "wrapt": {
+      "name": "wrapt",
+      "version": "2.4.0",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "pytest; extra == \"dev\"",
+        "setuptools; extra == \"dev\""
+      ],
+      "metadata_sha256": "a35e40647099ce141abaf9476c59ffcd58570a56c975ff22d283994d5f2e9afd",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/GrahamDumpleton/wrapt",
+        "Bug Tracker, https://github.com/GrahamDumpleton/wrapt/issues/",
+        "Changelog, https://wrapt.readthedocs.io/en/latest/changes.html",
+        "Documentation, https://wrapt.readthedocs.io/"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\wrapt-2.4.0.dist-info"
+    },
+    "interface-meta": {
+      "name": "interface_meta",
+      "version": "2.0.1",
+      "requires_python": ">=3.10",
+      "requires_dist": [],
+      "metadata_sha256": "e9f0a6845e13e5de8b4ee9419760ca1517ee3cdd2c41b1b205499122117f0222",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/matthewwardrop/interface_meta",
+        "Repository, https://github.com/matthewwardrop/interface_meta"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\interface_meta-2.0.1.dist-info"
+    },
+    "patsy": {
+      "name": "patsy",
+      "version": "1.0.3",
+      "requires_python": ">=3.6",
+      "requires_dist": [
+        "numpy>=1.4",
+        "packaging",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "scipy; extra == \"test\""
+      ],
+      "metadata_sha256": "c9d8d1a6ebfdadd02c21b9f4d15b1c26716f181c4bb6bcccb1006c9d892da31f",
+      "home_page": "https://github.com/pydata/patsy",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\patsy-1.0.3.dist-info"
+    },
+    "seaborn": {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "requires_python": ">=3.8",
+      "requires_dist": [
+        "numpy>=1.20,!=1.24.0",
+        "pandas>=1.2",
+        "matplotlib>=3.4,!=3.6.1",
+        "pytest ; extra == \"dev\"",
+        "pytest-cov ; extra == \"dev\"",
+        "pytest-xdist ; extra == \"dev\"",
+        "flake8 ; extra == \"dev\"",
+        "mypy ; extra == \"dev\"",
+        "pandas-stubs ; extra == \"dev\"",
+        "pre-commit ; extra == \"dev\"",
+        "flit ; extra == \"dev\"",
+        "numpydoc ; extra == \"docs\"",
+        "nbconvert ; extra == \"docs\"",
+        "ipykernel ; extra == \"docs\"",
+        "sphinx<6.0.0 ; extra == \"docs\"",
+        "sphinx-copybutton ; extra == \"docs\"",
+        "sphinx-issues ; extra == \"docs\"",
+        "sphinx-design ; extra == \"docs\"",
+        "pyyaml ; extra == \"docs\"",
+        "pydata_sphinx_theme==0.10.0rc2 ; extra == \"docs\"",
+        "scipy>=1.7 ; extra == \"stats\"",
+        "statsmodels>=0.12 ; extra == \"stats\""
+      ],
+      "metadata_sha256": "98cfe2b7a5004466cdd5c7c8ccf016ebdcfa0337fc177ea7aad27f527c53fc96",
+      "home_page": null,
+      "project_urls": [
+        "Docs, http://seaborn.pydata.org",
+        "Source, https://github.com/mwaskom/seaborn"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\seaborn-0.13.2.dist-info"
+    },
+    "matplotlib": {
+      "name": "matplotlib",
+      "version": "3.11.1",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "contourpy>=1.0.1",
+        "cycler>=0.10",
+        "fonttools>=4.28.2",
+        "kiwisolver>=1.3.1",
+        "numpy>=1.25",
+        "packaging>=20.0",
+        "pillow>=9",
+        "pyparsing>=3",
+        "python-dateutil>=2.7"
+      ],
+      "metadata_sha256": "e42a4867d0c790804bce9ccd38972e1e71e24a81f2dbc9633efc71e63ce69f59",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\matplotlib-3.11.1.dist-info"
+    },
+    "pyparsing": {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "railroad-diagrams ; extra == \"diagrams\"",
+        "jinja2 ; extra == \"diagrams\""
+      ],
+      "metadata_sha256": "3311a8b949d70f71a2b9788a9327f11d9d5a6a8012d6c046ca254ad2de877f45",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\pyparsing-3.3.2.dist-info"
+    },
+    "pillow": {
+      "name": "pillow",
+      "version": "12.3.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "furo; extra == \"docs\"",
+        "olefile; extra == \"docs\"",
+        "sphinx>=8.2; extra == \"docs\"",
+        "sphinx-autobuild; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-inline-tabs; extra == \"docs\"",
+        "sphinxext-opengraph; extra == \"docs\"",
+        "olefile; extra == \"fpx\"",
+        "olefile; extra == \"mic\"",
+        "arro3-compute; extra == \"test-arrow\"",
+        "arro3-core; extra == \"test-arrow\"",
+        "nanoarrow; extra == \"test-arrow\"",
+        "pyarrow; extra == \"test-arrow\"",
+        "coverage>=7.4.2; extra == \"tests\"",
+        "defusedxml; extra == \"tests\"",
+        "markdown2; extra == \"tests\"",
+        "olefile; extra == \"tests\"",
+        "packaging; extra == \"tests\"",
+        "pytest; extra == \"tests\"",
+        "pytest-cov; extra == \"tests\"",
+        "pytest-timeout; extra == \"tests\"",
+        "pytest-xdist; extra == \"tests\"",
+        "setuptools; extra == \"tests\"",
+        "trove-classifiers>=2024.10.12; extra == \"tests\"",
+        "defusedxml; extra == \"xmp\""
+      ],
+      "metadata_sha256": "8fc07146cab33ef7582361dab6eac596d340b03ec648f18217da7894f73838c8",
+      "home_page": null,
+      "project_urls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pillow-12.3.0.dist-info"
+    },
+    "kiwisolver": {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "requires_python": ">=3.10",
+      "requires_dist": [],
+      "metadata_sha256": "f07b7b6c0c9c2a624c8a31f931e16712f2cf3490e7dfd51643d68e9d42d4b2c9",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\kiwisolver-1.5.1.dist-info"
+    },
+    "fonttools": {
+      "name": "fonttools",
+      "version": "4.64.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "lxml>=4.0; extra == \"lxml\"",
+        "brotli>=1.0.1; platform_python_implementation == \"CPython\" and extra == \"woff\"",
+        "brotlicffi>=0.8.0; platform_python_implementation != \"CPython\" and extra == \"woff\"",
+        "zopfli>=0.1.4; extra == \"woff\"",
+        "unicodedata2>=17.0.0; python_version <= \"3.14\" and extra == \"unicode\"",
+        "lz4>=1.7.4.2; extra == \"graphite\"",
+        "scipy; platform_python_implementation != \"PyPy\" and extra == \"interpolatable\"",
+        "munkres; platform_python_implementation == \"PyPy\" and extra == \"interpolatable\"",
+        "pycairo; extra == \"interpolatable\"",
+        "matplotlib; extra == \"plot\"",
+        "sympy; extra == \"symfont\"",
+        "xattr; sys_platform == \"darwin\" and extra == \"type1\"",
+        "skia-pathops>=0.5.0; extra == \"pathops\"",
+        "uharfbuzz>=0.45.0; extra == \"repacker\"",
+        "lxml>=4.0; extra == \"all\"",
+        "brotli>=1.0.1; platform_python_implementation == \"CPython\" and extra == \"all\"",
+        "brotlicffi>=0.8.0; platform_python_implementation != \"CPython\" and extra == \"all\"",
+        "zopfli>=0.1.4; extra == \"all\"",
+        "unicodedata2>=17.0.0; python_version <= \"3.14\" and extra == \"all\"",
+        "lz4>=1.7.4.2; extra == \"all\"",
+        "scipy; platform_python_implementation != \"PyPy\" and extra == \"all\"",
+        "munkres; platform_python_implementation == \"PyPy\" and extra == \"all\"",
+        "pycairo; extra == \"all\"",
+        "matplotlib; extra == \"all\"",
+        "sympy; extra == \"all\"",
+        "xattr; sys_platform == \"darwin\" and extra == \"all\"",
+        "skia-pathops>=0.5.0; extra == \"all\"",
+        "uharfbuzz>=0.45.0; extra == \"all\""
+      ],
+      "metadata_sha256": "39fcfdbbbf0f14887cf15eb17aa86ef1a6486b8bde96345c1f7c861cda2c59b9",
+      "home_page": "http://github.com/fonttools/fonttools",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\fonttools-4.64.0.dist-info"
+    },
+    "cycler": {
+      "name": "cycler",
+      "version": "0.12.1",
+      "requires_python": ">=3.8",
+      "requires_dist": [
+        "ipython ; extra == 'docs'",
+        "matplotlib ; extra == 'docs'",
+        "numpydoc ; extra == 'docs'",
+        "sphinx ; extra == 'docs'",
+        "pytest ; extra == 'tests'",
+        "pytest-cov ; extra == 'tests'",
+        "pytest-xdist ; extra == 'tests'"
+      ],
+      "metadata_sha256": "23289e19b76f1e01394227696e6af2b6cd1ce79e89731209bf9195148b18ed36",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\cycler-0.12.1.dist-info"
+    },
+    "contourpy": {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "numpy>=1.25",
+        "furo; extra == \"docs\"",
+        "sphinx>=7.2; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "bokeh; extra == \"bokeh\"",
+        "selenium; extra == \"bokeh\"",
+        "contourpy[bokeh,docs]; extra == \"mypy\"",
+        "bokeh; extra == \"mypy\"",
+        "docutils-stubs; extra == \"mypy\"",
+        "mypy==1.17.0; extra == \"mypy\"",
+        "types-Pillow; extra == \"mypy\"",
+        "contourpy[test-no-images]; extra == \"test\"",
+        "matplotlib; extra == \"test\"",
+        "Pillow; extra == \"test\"",
+        "pytest; extra == \"test-no-images\"",
+        "pytest-cov; extra == \"test-no-images\"",
+        "pytest-rerunfailures; extra == \"test-no-images\"",
+        "pytest-xdist; extra == \"test-no-images\"",
+        "wurlitzer; extra == \"test-no-images\""
+      ],
+      "metadata_sha256": "c43cef86baef09cff9c77975e578fa8cca0c9454df40dc176938b499a63de54a",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\contourpy-1.3.3.dist-info"
+    },
+    "scverse-misc": {
+      "name": "scverse-misc",
+      "version": "0.1.5",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "session-info2",
+        "typing-extensions; python_version < '3.13'",
+        "anndata; extra == 'datasets'",
+        "pooch; extra == 'datasets'",
+        "pyyaml; extra == 'datasets'",
+        "tqdm; extra == 'datasets'",
+        "pydantic-settings; extra == 'settings'",
+        "python-dotenv; extra == 'settings'",
+        "spatialdata; extra == 'spatialdata'",
+        "jinja2; extra == 'sphinx'",
+        "pydocstring-rs>=0.4.1; extra == 'sphinx'",
+        "sphinx>=9; extra == 'sphinx'"
+      ],
+      "metadata_sha256": "68b0bf01b58759c3a709b52794289fdcd8de1533b76f6d7316a6f18b9ffe41a0",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://scverse-misc.readthedocs.io/",
+        "Homepage, https://github.com/scverse/scverse-misc",
+        "Source, https://github.com/scverse/scverse-misc"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scverse_misc-0.1.5.dist-info"
+    },
+    "networkx": {
+      "name": "networkx",
+      "version": "3.6.1",
+      "requires_python": "!=3.14.1,>=3.11",
+      "requires_dist": [
+        "asv; extra == \"benchmarking\"",
+        "virtualenv; extra == \"benchmarking\"",
+        "numpy>=1.25; extra == \"default\"",
+        "scipy>=1.11.2; extra == \"default\"",
+        "matplotlib>=3.8; extra == \"default\"",
+        "pandas>=2.0; extra == \"default\"",
+        "pre-commit>=4.1; extra == \"developer\"",
+        "mypy>=1.15; extra == \"developer\"",
+        "sphinx>=8.0; extra == \"doc\"",
+        "pydata-sphinx-theme>=0.16; extra == \"doc\"",
+        "sphinx-gallery>=0.18; extra == \"doc\"",
+        "numpydoc>=1.8.0; extra == \"doc\"",
+        "pillow>=10; extra == \"doc\"",
+        "texext>=0.6.7; extra == \"doc\"",
+        "myst-nb>=1.1; extra == \"doc\"",
+        "intersphinx-registry; extra == \"doc\"",
+        "osmnx>=2.0.0; extra == \"example\"",
+        "momepy>=0.7.2; extra == \"example\"",
+        "contextily>=1.6; extra == \"example\"",
+        "seaborn>=0.13; extra == \"example\"",
+        "cairocffi>=1.7; extra == \"example\"",
+        "igraph>=0.11; extra == \"example\"",
+        "scikit-learn>=1.5; extra == \"example\"",
+        "iplotx>=0.9.0; extra == \"example\"",
+        "lxml>=4.6; extra == \"extra\"",
+        "pygraphviz>=1.14; extra == \"extra\"",
+        "pydot>=3.0.1; extra == \"extra\"",
+        "sympy>=1.10; extra == \"extra\"",
+        "build>=0.10; extra == \"release\"",
+        "twine>=4.0; extra == \"release\"",
+        "wheel>=0.40; extra == \"release\"",
+        "changelist==0.5; extra == \"release\"",
+        "pytest>=7.2; extra == \"test\"",
+        "pytest-cov>=4.0; extra == \"test\"",
+        "pytest-xdist>=3.0; extra == \"test\"",
+        "pytest-mpl; extra == \"test-extras\"",
+        "pytest-randomly; extra == \"test-extras\""
+      ],
+      "metadata_sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://networkx.org/",
+        "Bug Tracker, https://github.com/networkx/networkx/issues",
+        "Documentation, https://networkx.org/documentation/stable/",
+        "Source Code, https://github.com/networkx/networkx"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\networkx-3.6.1.dist-info"
+    },
+    "natsort": {
+      "name": "natsort",
+      "version": "8.4.0",
+      "requires_python": ">=3.7",
+      "requires_dist": [
+        "fastnumbers (>=2.0.0) ; extra == 'fast'",
+        "PyICU (>=1.0.0) ; extra == 'icu'"
+      ],
+      "metadata_sha256": "fe0934ce644ef39d034647b3280cc7e8afeaad92732ca70eb5f9e946db65f4a3",
+      "home_page": "https://github.com/SethMMorton/natsort",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\natsort-8.4.0.dist-info"
+    },
+    "legacy-api-wrap": {
+      "name": "legacy-api-wrap",
+      "version": "1.5",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "anyconfig[toml]>=0.14; extra == 'test'",
+        "coverage; extra == 'test'",
+        "coverage-rich; extra == 'test'",
+        "pytest; extra == 'test'",
+        "typer<0.14; extra == 'test'"
+      ],
+      "metadata_sha256": "b89bb8e7cb4b32d195b813ee937cdf190acda2446caa46ec9817d97d5de52385",
+      "home_page": null,
+      "project_urls": [
+        "Source, https://github.com/flying-sheep/legacy-api-wrap"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\legacy_api_wrap-1.5.dist-info"
+    },
+    "h5py": {
+      "name": "h5py",
+      "version": "3.16.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "numpy>=1.21.2"
+      ],
+      "metadata_sha256": "e461fcf7eb9fee6242205f9225cc178455a0212d1c0cb8f997f7eebf8cd9695e",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://www.h5py.org/",
+        "Source, https://github.com/h5py/h5py",
+        "Documentation, https://docs.h5py.org/en/stable/",
+        "Release notes, https://docs.h5py.org/en/stable/whatsnew/index.html",
+        "Discussion forum, https://forum.hdfgroup.org/c/hdf5/h5py"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\h5py-3.16.0.dist-info"
+    },
+    "fast-array-utils": {
+      "name": "fast-array-utils",
+      "version": "1.5",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "array-api-compat",
+        "numpy>=2",
+        "numba>=0.57; extra == 'accel'",
+        "dask>=2023.6.1; extra == 'dask'",
+        "dask>=2023.6.1; extra == 'full'",
+        "h5py; extra == 'full'",
+        "numba>=0.57; extra == 'full'",
+        "scipy>=1.13; extra == 'full'",
+        "zarr; extra == 'full'",
+        "scipy>=1.13; extra == 'sparse'",
+        "packaging; extra == 'testing'"
+      ],
+      "metadata_sha256": "aacd06e0b671b152f61aa8b2a22c71d786ed86fff390fe81aebb06b38872985e",
+      "home_page": null,
+      "project_urls": [
+        "Issue Tracker, https://github.com/scverse/fast-array-utils/issues",
+        "Source Code, https://github.com/scverse/fast-array-utils",
+        "Documentation, https://icb-fast-array-utils.readthedocs-hosted.com/"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\fast_array_utils-1.5.dist-info"
+    },
+    "array-api-compat": {
+      "name": "array-api-compat",
+      "version": "1.15.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [],
+      "metadata_sha256": "db2a57eda15053c84514d8890edda76e7181f70007ba03f61cd9b21813ff6965",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://data-apis.org/array-api-compat/",
+        "repository, https://github.com/data-apis/array-api-compat/"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\array_api_compat-1.15.0.dist-info"
+    },
+    "certifi": {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "requires_python": ">=3.7",
+      "requires_dist": [],
+      "metadata_sha256": "ef5af1638fbb23676ac3c5777dfcfc2cd9c348fe4172ed5ba3d277655b248090",
+      "home_page": "https://github.com/certifi/python-certifi",
+      "project_urls": [
+        "Source, https://github.com/certifi/python-certifi"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\certifi-2026.7.22.dist-info"
+    },
+    "anndata": {
+      "name": "anndata",
+      "version": "0.13.3.post0",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "array-api-compat>=1.7.1",
+        "h5py>=3.11",
+        "legacy-api-wrap",
+        "natsort",
+        "numpy>=2.1",
+        "packaging>=24.2",
+        "pandas>=2.3",
+        "scipy!=1.17.0,>=1.14",
+        "scverse-misc[settings]>=0.1.0",
+        "typing-extensions>=4.16; python_version <= '3.14'",
+        "zarr>=3.1",
+        "cupy-cuda11x; extra == 'cu11'",
+        "cupy-cuda12x; extra == 'cu12'",
+        "cupy-cuda13x; extra == 'cu13'",
+        "dask[array]!=2024.8.*,!=2024.9.*,!=2025.2.*,!=2025.3.*,!=2025.4.*,!=2025.5.*,!=2025.6.*,!=2025.7.*,!=2025.8.*,>=2024.5.1; extra == 'dask'",
+        "cupy; extra == 'gpu'",
+        "aiohttp; extra == 'lazy'",
+        "dask[array]!=2024.8.*,!=2024.9.*,!=2025.2.*,!=2025.3.*,!=2025.4.*,!=2025.5.*,!=2025.6.*,!=2025.7.*,!=2025.8.*,>=2024.5.1; extra == 'lazy'",
+        "requests; extra == 'lazy'",
+        "xarray>=2025.06.1; extra == 'lazy'"
+      ],
+      "metadata_sha256": "d1b01286108fee55aa51e8c62335e46d34545e19e2c1f33c64b7740969e47ef2",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://anndata.readthedocs.io/",
+        "Source, https://github.com/scverse/anndata",
+        "Home-page, https://github.com/scverse/anndata"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\anndata-0.13.3.post0.dist-info"
+    },
+    "zarr": {
+      "name": "zarr",
+      "version": "3.3.0",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "donfig>=0.8",
+        "google-crc32c>=1.5",
+        "numcodecs>=0.14",
+        "numpy>=2",
+        "packaging>=22.0",
+        "typing-extensions>=4.14",
+        "cast-value-rs; extra == 'cast-value-rs'",
+        "typer; extra == 'cli'",
+        "cupy-cuda12x; (sys_platform != 'darwin') and extra == 'gpu'",
+        "universal-pathlib; extra == 'optional'",
+        "fsspec>=2023.10.0; extra == 'remote'",
+        "obstore>=0.5.1; extra == 'remote'"
+      ],
+      "metadata_sha256": "a0437db681f6682100a07b036793e9b1feb3023b9ea79886e35eb5f6adb9aabf",
+      "home_page": null,
+      "project_urls": [
+        "issues, https://github.com/zarr-developers/zarr-python/issues",
+        "changelog, https://zarr.readthedocs.io/en/stable/release-notes.html",
+        "Discussions, https://github.com/zarr-developers/zarr-python/discussions",
+        "documentation, https://zarr.readthedocs.io/",
+        "homepage, https://github.com/zarr-developers/zarr-python"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\zarr-3.3.0.dist-info"
+    },
+    "numcodecs": {
+      "name": "numcodecs",
+      "version": "0.16.5",
+      "requires_python": ">=3.11",
+      "requires_dist": [
+        "numpy>=1.24",
+        "typing_extensions",
+        "msgpack; extra == \"msgpack\"",
+        "zfpy>=1.0.0; extra == \"zfpy\"",
+        "pcodec<0.4,>=0.3; extra == \"pcodec\"",
+        "crc32c>=2.7; extra == \"crc32c\"",
+        "google-crc32c>=1.5; extra == \"google-crc32c\"",
+        "sphinx; extra == \"docs\"",
+        "sphinx-issues; extra == \"docs\"",
+        "pydata-sphinx-theme; extra == \"docs\"",
+        "numpydoc; extra == \"docs\"",
+        "coverage; extra == \"test\"",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pyzstd; extra == \"test\"",
+        "importlib_metadata; extra == \"test-extras\"",
+        "crc32c; extra == \"test-extras\""
+      ],
+      "metadata_sha256": "9a460415c45fdd23e59af4033aff0a70ae4216aefc4b5e7dda625070bb54c4a7",
+      "home_page": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/zarr-developers/numcodecs/issues",
+        "Changelog, https://numcodecs.readthedocs.io/en/stable/release.html",
+        "Documentation, https://numcodecs.readthedocs.io/",
+        "Homepage, https://github.com/zarr-developers/numcodecs"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\numcodecs-0.16.5.dist-info"
+    },
+    "google-crc32c": {
+      "name": "google-crc32c",
+      "version": "1.8.0",
+      "requires_python": ">=3.9",
+      "requires_dist": [],
+      "metadata_sha256": "d78c5e1060b65ed1f9a5295d7d109fdeedd52437ec53bdb965ef2c6a36c46565",
+      "home_page": "https://github.com/googleapis/python-crc32c",
+      "project_urls": [],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\google_crc32c-1.8.0.dist-info"
+    },
+    "donfig": {
+      "name": "donfig",
+      "version": "0.8.1.post1",
+      "requires_python": ">=3.8",
+      "requires_dist": [
+        "pyyaml",
+        "sphinx >=4.0.0 ; extra == 'docs'",
+        "numpydoc ; extra == 'docs'",
+        "pytest ; extra == 'docs'",
+        "cloudpickle ; extra == 'docs'",
+        "pytest ; extra == 'test'",
+        "cloudpickle ; extra == 'test'"
+      ],
+      "metadata_sha256": "30bc9adc723f9e327a2d1aa8302b310365d5e96b7e4493c72c9a69cdecde7748",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/pytroll/donfig"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\donfig-0.8.1.post1.dist-info"
+    },
+    "pyyaml": {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "requires_python": ">=3.8",
+      "requires_dist": [],
+      "metadata_sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+      "home_page": "https://pyyaml.org/",
+      "project_urls": [
+        "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+        "CI, https://github.com/yaml/pyyaml/actions",
+        "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+        "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+        "Source Code, https://github.com/yaml/pyyaml"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\pyyaml-6.0.3.dist-info"
+    },
+    "python-dotenv": {
+      "name": "python-dotenv",
+      "version": "1.2.3",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "click>=5.0; extra == \"cli\""
+      ],
+      "metadata_sha256": "2380ea9700796b7398fd8156e22f9028afe5eebf918eb84a6bd5ebb0a8fdd3b5",
+      "home_page": null,
+      "project_urls": [
+        "Source, https://github.com/theskumar/python-dotenv"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\python_dotenv-1.2.3.dist-info"
+    },
+    "pydantic-settings": {
+      "name": "pydantic-settings",
+      "version": "2.15.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "pydantic>=2.7.0",
+        "python-dotenv>=0.21.0",
+        "typing-inspection>=0.4.0",
+        "boto3>=1.35.0; extra == 'aws-secrets-manager'",
+        "azure-identity>=1.16.0; extra == 'azure-key-vault'",
+        "azure-keyvault-secrets>=4.8.0; extra == 'azure-key-vault'",
+        "google-cloud-secret-manager>=2.23.1; extra == 'gcp-secret-manager'",
+        "tomli>=2.0.1; extra == 'toml'",
+        "pyyaml>=6.0.1; extra == 'yaml'"
+      ],
+      "metadata_sha256": "5ac12e408df62f1d4c7643146d9df04ace749f1fe5cf28b3b794be0b2834ca6d",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic-settings",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic-settings",
+        "Changelog, https://github.com/pydantic/pydantic-settings/releases",
+        "Documentation, https://docs.pydantic.dev/dev-v2/concepts/pydantic_settings/"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\pydantic_settings-2.15.0.dist-info"
+    },
+    "typing-inspection": {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "typing-extensions>=4.15.0"
+      ],
+      "metadata_sha256": "bad3d9e6342ef6750cf5128ec942327b8bebdce0b6e4d6f67cb15b27ae5118da",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/typing-inspection",
+        "Documentation, https://pydantic.github.io/typing-inspection/dev/",
+        "Source, https://github.com/pydantic/typing-inspection",
+        "Changelog, https://github.com/pydantic/typing-inspection/blob/main/HISTORY.md"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\typing_inspection-0.4.4.dist-info"
+    },
+    "pydantic": {
+      "name": "pydantic",
+      "version": "2.13.5",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "annotated-types>=0.6.0",
+        "pydantic-core==2.46.5",
+        "typing-extensions>=4.14.1",
+        "typing-inspection>=0.4.2",
+        "email-validator>=2.0.0; extra == 'email'",
+        "tzdata; (python_version >= '3.9' and platform_system == 'Windows') and extra == 'timezone'"
+      ],
+      "metadata_sha256": "0685830d13647bd6f3f05526043d32a8b2a221d86b53773053d6c52bb17a9c07",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic",
+        "Documentation, https://docs.pydantic.dev",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic",
+        "Changelog, https://docs.pydantic.dev/latest/changelog/"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pydantic-2.13.5.dist-info"
+    },
+    "pydantic-core": {
+      "name": "pydantic_core",
+      "version": "2.46.5",
+      "requires_python": ">=3.9",
+      "requires_dist": [
+        "typing-extensions>=4.14.1"
+      ],
+      "metadata_sha256": "29768c038c0bb3564c0a87ef50ef78d18a2372474bdef0ba356a8c0fd4bd6028",
+      "home_page": "https://github.com/pydantic/pydantic",
+      "project_urls": [
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Homepage, https://github.com/pydantic",
+        "Source, https://github.com/pydantic/pydantic/tree/main/pydantic-core"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pydantic_core-2.46.5.dist-info"
+    },
+    "annotated-types": {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "requires_python": ">=3.10",
+      "requires_dist": [],
+      "metadata_sha256": "614985b278f601b8ef863f82783b991cc3ada4b89f592eb71c7c48c5f2ef2298",
+      "home_page": null,
+      "project_urls": [
+        "Homepage, https://github.com/annotated-types/annotated-types",
+        "Source, https://github.com/annotated-types/annotated-types",
+        "Changelog, https://github.com/annotated-types/annotated-types/releases"
+      ],
+      "metadata_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\annotated_types-0.8.0.dist-info"
+    },
+    "plotnine": {
+      "name": "plotnine",
+      "version": "0.15.8",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "matplotlib>=3.8.0",
+        "pandas>=2.2.0",
+        "mizani~=0.14.0",
+        "numpy>=1.23.5",
+        "scipy>=1.8.0",
+        "statsmodels<=0.14.4; sys_platform == \"emscripten\" and python_version < \"3.14\"",
+        "statsmodels>=0.14.6; sys_platform != \"emscripten\" or python_version >= \"3.14\"",
+        "plotnine[extra]; extra == \"all\"",
+        "plotnine[doc]; extra == \"all\"",
+        "plotnine[lint]; extra == \"all\"",
+        "plotnine[test]; extra == \"all\"",
+        "plotnine[build]; extra == \"all\"",
+        "plotnine[dev]; extra == \"all\"",
+        "adjustText>=1.2.0; extra == \"extra\"",
+        "geopandas>=1.0.0; extra == \"extra\"",
+        "geodatasets>=2024.8.0; extra == \"extra\"",
+        "scikit-learn>=1.3.0; extra == \"extra\"",
+        "scikit-misc>=0.5.1; extra == \"extra\"",
+        "polars>=1.24.0; extra == \"extra\"",
+        "pyarrow>=19.0.1; extra == \"extra\"",
+        "jupyter; extra == \"doc\"",
+        "click; extra == \"doc\"",
+        "numpydoc>=0.9.1; extra == \"doc\"",
+        "quartodoc>=0.7.2; extra == \"doc\"",
+        "griffe<2.0.0; extra == \"doc\"",
+        "ruff; extra == \"lint\"",
+        "pytest-cov>=4.0.0; extra == \"test\"",
+        "build; extra == \"build\"",
+        "wheel; extra == \"build\"",
+        "twine; extra == \"dev\"",
+        "plotnine[typing]; extra == \"dev\"",
+        "pre-commit; extra == \"dev\"",
+        "pyright==1.1.404; extra == \"typing\"",
+        "ipython; extra == \"typing\"",
+        "pandas-stubs; extra == \"typing\""
+      ],
+      "metadata_sha256": "ef88f73b3b7ed7dc6cef4330b29dddd6de762d39fce3bb6d8111d1fa3fd2c285",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://plotnine.readthedocs.io/en/stable",
+        "repository, https://github.com/has2k1/plotnine",
+        "changelog, https://plotnine.readthedocs.io/en/stable/changelog.html",
+        "ci, https://github.com/has2k1/plotnine/actions"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\plotnine-0.15.8.dist-info"
+    },
+    "mizani": {
+      "name": "mizani",
+      "version": "0.14.6",
+      "requires_python": ">=3.10",
+      "requires_dist": [
+        "numpy>=1.23.5",
+        "scipy>=1.8.0",
+        "pandas>=2.2.0",
+        "tzdata; platform_system == \"Windows\" or platform_system == \"Emscripten\"",
+        "mizani[doc]; extra == \"all\"",
+        "mizani[build]; extra == \"all\"",
+        "mizani[lint]; extra == \"all\"",
+        "mizani[test]; extra == \"all\"",
+        "mizani[dev]; extra == \"all\"",
+        "sphinx>=7.2.0; extra == \"doc\"",
+        "numpydoc>=1.7.0; extra == \"doc\"",
+        "mock; extra == \"rtd\"",
+        "build; extra == \"build\"",
+        "wheel; extra == \"build\"",
+        "ruff; extra == \"lint\"",
+        "pytest-cov>=4.0.0; extra == \"test\"",
+        "notebook; extra == \"dev\"",
+        "twine; extra == \"dev\"",
+        "pre-commit; extra == \"dev\"",
+        "mizani[typing]; extra == \"dev\"",
+        "pyright==1.1.411; extra == \"typing\"",
+        "pandas-stubs; extra == \"typing\""
+      ],
+      "metadata_sha256": "2ebff4134b5f24ce89a8b2a6430f4db7ab590b9794075993b34852c0dc509381",
+      "home_page": null,
+      "project_urls": [
+        "homepage, https://mizani.readthedocs.io/en/stable",
+        "repository, https://github.com/has2k1/mizani",
+        "changelog, https://mizani.readthedocs.io/en/stable/changelog.html",
+        "ci, https://github.com/has2k1/mizani/actions"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\mizani-0.14.6.dist-info"
+    },
+    "mudata": {
+      "name": "mudata",
+      "version": "0.4.1",
+      "requires_python": ">=3.12",
+      "requires_dist": [
+        "anndata>=0.11",
+        "h5py",
+        "numpy",
+        "pandas>=1.4",
+        "scipy",
+        "scverse-misc[settings]>=0.1.1",
+        "session-info2",
+        "fsspec; extra == 'io'",
+        "zarr; extra == 'io'"
+      ],
+      "metadata_sha256": "a1b188fad0bc595c4980e0f4932229fba148cc09beb9264da328b0233e5a522e",
+      "home_page": null,
+      "project_urls": [
+        "Documentation, https://mudata.readthedocs.io/",
+        "Homepage, https://muon.scverse.org",
+        "Source, https://github.com/scverse/mudata"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\mudata-0.4.1.dist-info"
+    },
+    "docrep": {
+      "name": "docrep",
+      "version": "0.3.2",
+      "requires_python": null,
+      "requires_dist": [
+        "six"
+      ],
+      "metadata_sha256": "ab04a78af55ab5b076ba49a0de06a805aab0d2599da1053af34c4ff42c80eef8",
+      "home_page": "https://github.com/Chilipp/docrep",
+      "project_urls": [
+        "Documentation, https://docrep.readthedocs.io",
+        "Source, https://github.com/Chilipp/docrep",
+        "Tracker, https://github.com/Chilipp/docrep/issues"
+      ],
+      "metadata_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\docrep-0.3.2.dist-info"
+    }
+  },
+  "active_dependency_edges": [
+    {
+      "from": "scipy",
+      "to": "numpy",
+      "requirement": "numpy<2.8,>=2.0.0",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "rdata",
+      "to": "numpy",
+      "requirement": "numpy",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "rdata",
+      "to": "xarray",
+      "requirement": "xarray",
+      "installed_version": "2026.7.0",
+      "extras": []
+    },
+    {
+      "from": "rdata",
+      "to": "pandas",
+      "requirement": "pandas",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "rdata",
+      "to": "typing-extensions",
+      "requirement": "typing_extensions>4.4",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "pandas",
+      "to": "numpy",
+      "requirement": "numpy>=1.26.0; python_version >= \"3.12\"",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "pandas",
+      "to": "python-dateutil",
+      "requirement": "python-dateutil>=2.8.2",
+      "installed_version": "2.9.0.post0",
+      "extras": []
+    },
+    {
+      "from": "pandas",
+      "to": "pytz",
+      "requirement": "pytz>=2020.1",
+      "installed_version": "2026.3.post1",
+      "extras": []
+    },
+    {
+      "from": "pandas",
+      "to": "tzdata",
+      "requirement": "tzdata>=2022.7",
+      "installed_version": "2026.3",
+      "extras": []
+    },
+    {
+      "from": "python-dateutil",
+      "to": "six",
+      "requirement": "six >=1.5",
+      "installed_version": "1.17.0",
+      "extras": []
+    },
+    {
+      "from": "xarray",
+      "to": "numpy",
+      "requirement": "numpy>=1.26",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "xarray",
+      "to": "packaging",
+      "requirement": "packaging>=24.2",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "xarray",
+      "to": "pandas",
+      "requirement": "pandas>=2.2",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "anndata",
+      "requirement": "anndata>=0.7.4",
+      "installed_version": "0.13.3.post0",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "docrep",
+      "requirement": "docrep>=0.3.1",
+      "installed_version": "0.3.2",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "mudata",
+      "requirement": "mudata",
+      "installed_version": "0.4.1",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "numba",
+      "requirement": "numba",
+      "installed_version": "0.67.0",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "pandas",
+      "requirement": "pandas<3",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "plotnine",
+      "requirement": "plotnine>=0.10.1",
+      "installed_version": "0.15.8",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "scanpy",
+      "requirement": "scanpy",
+      "installed_version": "1.12.4",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "session-info2",
+      "requirement": "session-info2",
+      "installed_version": "0.4.2",
+      "extras": []
+    },
+    {
+      "from": "liana",
+      "to": "tqdm",
+      "requirement": "tqdm>=4.0",
+      "installed_version": "4.70.0",
+      "extras": []
+    },
+    {
+      "from": "tqdm",
+      "to": "colorama",
+      "requirement": "colorama; platform_system == \"Windows\"",
+      "installed_version": "0.4.6",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "anndata",
+      "requirement": "anndata>=0.10.8",
+      "installed_version": "0.13.3.post0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "certifi",
+      "requirement": "certifi",
+      "installed_version": "2026.7.22",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "fast-array-utils",
+      "requirement": "fast-array-utils[accel,sparse]>=1.4",
+      "installed_version": "1.5",
+      "extras": [
+        "accel",
+        "sparse"
+      ]
+    },
+    {
+      "from": "scanpy",
+      "to": "h5py",
+      "requirement": "h5py>=3.11",
+      "installed_version": "3.16.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "joblib",
+      "requirement": "joblib",
+      "installed_version": "1.6.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "legacy-api-wrap",
+      "requirement": "legacy-api-wrap>=1.5",
+      "installed_version": "1.5",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "matplotlib",
+      "requirement": "matplotlib>=3.10",
+      "installed_version": "3.11.1",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "natsort",
+      "requirement": "natsort",
+      "installed_version": "8.4.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "networkx",
+      "requirement": "networkx>=2.8.8",
+      "installed_version": "3.6.1",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "numba",
+      "requirement": "numba>=0.60",
+      "installed_version": "0.67.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "numpy",
+      "requirement": "numpy>=2",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "packaging",
+      "requirement": "packaging>=25",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "pandas",
+      "requirement": "pandas>=2.3",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "patsy",
+      "requirement": "patsy",
+      "installed_version": "1.0.3",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "pynndescent",
+      "requirement": "pynndescent>=0.5.13",
+      "installed_version": "0.6.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "scikit-learn",
+      "requirement": "scikit-learn>=1.6",
+      "installed_version": "1.9.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "scipy",
+      "requirement": "scipy>=1.13",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "scverse-misc",
+      "requirement": "scverse-misc>=0.0.6",
+      "installed_version": "0.1.5",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "seaborn",
+      "requirement": "seaborn>=0.13.2",
+      "installed_version": "0.13.2",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "session-info2",
+      "requirement": "session-info2",
+      "installed_version": "0.4.2",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "statsmodels",
+      "requirement": "statsmodels>=0.14.5",
+      "installed_version": "0.15.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "tqdm",
+      "requirement": "tqdm",
+      "installed_version": "4.70.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions; python_version < '3.13'",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "scanpy",
+      "to": "umap-learn",
+      "requirement": "umap-learn>=0.5.12",
+      "installed_version": "0.5.12",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "numpy",
+      "requirement": "numpy>=1.23",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "scipy",
+      "requirement": "scipy>=1.3.1",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "scikit-learn",
+      "requirement": "scikit-learn>=1.6",
+      "installed_version": "1.9.0",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "numba",
+      "requirement": "numba>=0.51.2",
+      "installed_version": "0.67.0",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "pynndescent",
+      "requirement": "pynndescent>=0.5",
+      "installed_version": "0.6.0",
+      "extras": []
+    },
+    {
+      "from": "umap-learn",
+      "to": "tqdm",
+      "requirement": "tqdm",
+      "installed_version": "4.70.0",
+      "extras": []
+    },
+    {
+      "from": "pynndescent",
+      "to": "scikit-learn",
+      "requirement": "scikit-learn>=0.18",
+      "installed_version": "1.9.0",
+      "extras": []
+    },
+    {
+      "from": "pynndescent",
+      "to": "scipy",
+      "requirement": "scipy>=1.0",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "pynndescent",
+      "to": "numba",
+      "requirement": "numba>=0.55.0",
+      "installed_version": "0.67.0",
+      "extras": []
+    },
+    {
+      "from": "pynndescent",
+      "to": "llvmlite",
+      "requirement": "llvmlite>=0.38",
+      "installed_version": "0.49.0",
+      "extras": []
+    },
+    {
+      "from": "pynndescent",
+      "to": "joblib",
+      "requirement": "joblib>=0.11",
+      "installed_version": "1.6.0",
+      "extras": []
+    },
+    {
+      "from": "joblib",
+      "to": "cloudpickle",
+      "requirement": "cloudpickle>=3.0",
+      "installed_version": "3.1.2",
+      "extras": []
+    },
+    {
+      "from": "numba",
+      "to": "llvmlite",
+      "requirement": "llvmlite<0.50,>=0.49.0dev0",
+      "installed_version": "0.49.0",
+      "extras": []
+    },
+    {
+      "from": "numba",
+      "to": "numpy",
+      "requirement": "numpy<2.6,>=1.22",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "scikit-learn",
+      "to": "numpy",
+      "requirement": "numpy>=1.24.1",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "scikit-learn",
+      "to": "scipy",
+      "requirement": "scipy>=1.10.0",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "scikit-learn",
+      "to": "joblib",
+      "requirement": "joblib>=1.4.0",
+      "installed_version": "1.6.0",
+      "extras": []
+    },
+    {
+      "from": "scikit-learn",
+      "to": "narwhals",
+      "requirement": "narwhals>=2.0.1",
+      "installed_version": "2.26.0",
+      "extras": []
+    },
+    {
+      "from": "scikit-learn",
+      "to": "threadpoolctl",
+      "requirement": "threadpoolctl>=3.5.0",
+      "installed_version": "3.6.0",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "numpy",
+      "requirement": "numpy<3,>=1.23.5",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "scipy",
+      "requirement": "scipy!=1.9.2,>=1.8",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "pandas",
+      "requirement": "pandas!=2.1.0,>=1.4",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "patsy",
+      "requirement": "patsy>=0.5.6",
+      "installed_version": "1.0.3",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "packaging",
+      "requirement": "packaging>=21.3",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "statsmodels",
+      "to": "formulaic",
+      "requirement": "formulaic>=1.1.0",
+      "installed_version": "1.2.2",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "interface-meta",
+      "requirement": "interface-meta>=1.2.0",
+      "installed_version": "2.0.1",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "narwhals",
+      "requirement": "narwhals>=1.17",
+      "installed_version": "2.26.0",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "numpy",
+      "requirement": "numpy>=1.20.0",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "pandas",
+      "requirement": "pandas>=1.3",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "scipy",
+      "requirement": "scipy>=1.6",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.2.0",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "formulaic",
+      "to": "wrapt",
+      "requirement": "wrapt>=1.0; python_version < '3.13'",
+      "installed_version": "2.4.0",
+      "extras": []
+    },
+    {
+      "from": "patsy",
+      "to": "numpy",
+      "requirement": "numpy>=1.4",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "patsy",
+      "to": "packaging",
+      "requirement": "packaging",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "seaborn",
+      "to": "numpy",
+      "requirement": "numpy>=1.20,!=1.24.0",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "seaborn",
+      "to": "pandas",
+      "requirement": "pandas>=1.2",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "seaborn",
+      "to": "matplotlib",
+      "requirement": "matplotlib>=3.4,!=3.6.1",
+      "installed_version": "3.11.1",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "contourpy",
+      "requirement": "contourpy>=1.0.1",
+      "installed_version": "1.3.3",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "cycler",
+      "requirement": "cycler>=0.10",
+      "installed_version": "0.12.1",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "fonttools",
+      "requirement": "fonttools>=4.28.2",
+      "installed_version": "4.64.0",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "kiwisolver",
+      "requirement": "kiwisolver>=1.3.1",
+      "installed_version": "1.5.1",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "numpy",
+      "requirement": "numpy>=1.25",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "packaging",
+      "requirement": "packaging>=20.0",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "pillow",
+      "requirement": "pillow>=9",
+      "installed_version": "12.3.0",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "pyparsing",
+      "requirement": "pyparsing>=3",
+      "installed_version": "3.3.2",
+      "extras": []
+    },
+    {
+      "from": "matplotlib",
+      "to": "python-dateutil",
+      "requirement": "python-dateutil>=2.7",
+      "installed_version": "2.9.0.post0",
+      "extras": []
+    },
+    {
+      "from": "contourpy",
+      "to": "numpy",
+      "requirement": "numpy>=1.25",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "session-info2",
+      "requirement": "session-info2",
+      "installed_version": "0.4.2",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions; python_version < '3.13'",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "h5py",
+      "to": "numpy",
+      "requirement": "numpy>=1.21.2",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "fast-array-utils",
+      "to": "array-api-compat",
+      "requirement": "array-api-compat",
+      "installed_version": "1.15.0",
+      "extras": []
+    },
+    {
+      "from": "fast-array-utils",
+      "to": "numpy",
+      "requirement": "numpy>=2",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "fast-array-utils",
+      "to": "numba",
+      "requirement": "numba>=0.57; extra == 'accel'",
+      "installed_version": "0.67.0",
+      "extras": []
+    },
+    {
+      "from": "fast-array-utils",
+      "to": "scipy",
+      "requirement": "scipy>=1.13; extra == 'sparse'",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "array-api-compat",
+      "requirement": "array-api-compat>=1.7.1",
+      "installed_version": "1.15.0",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "h5py",
+      "requirement": "h5py>=3.11",
+      "installed_version": "3.16.0",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "legacy-api-wrap",
+      "requirement": "legacy-api-wrap",
+      "installed_version": "1.5",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "natsort",
+      "requirement": "natsort",
+      "installed_version": "8.4.0",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "numpy",
+      "requirement": "numpy>=2.1",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "packaging",
+      "requirement": "packaging>=24.2",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "pandas",
+      "requirement": "pandas>=2.3",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "scipy",
+      "requirement": "scipy!=1.17.0,>=1.14",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "scverse-misc",
+      "requirement": "scverse-misc[settings]>=0.1.0",
+      "installed_version": "0.1.5",
+      "extras": [
+        "settings"
+      ]
+    },
+    {
+      "from": "anndata",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.16; python_version <= '3.14'",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "anndata",
+      "to": "zarr",
+      "requirement": "zarr>=3.1",
+      "installed_version": "3.3.0",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "donfig",
+      "requirement": "donfig>=0.8",
+      "installed_version": "0.8.1.post1",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "google-crc32c",
+      "requirement": "google-crc32c>=1.5",
+      "installed_version": "1.8.0",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "numcodecs",
+      "requirement": "numcodecs>=0.14",
+      "installed_version": "0.16.5",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "numpy",
+      "requirement": "numpy>=2",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "packaging",
+      "requirement": "packaging>=22.0",
+      "installed_version": "26.3",
+      "extras": []
+    },
+    {
+      "from": "zarr",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.14",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "numcodecs",
+      "to": "numpy",
+      "requirement": "numpy>=1.24",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "numcodecs",
+      "to": "typing-extensions",
+      "requirement": "typing_extensions",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "donfig",
+      "to": "pyyaml",
+      "requirement": "pyyaml",
+      "installed_version": "6.0.3",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "session-info2",
+      "requirement": "session-info2",
+      "installed_version": "0.4.2",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions; python_version < '3.13'",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "pydantic-settings",
+      "requirement": "pydantic-settings; extra == 'settings'",
+      "installed_version": "2.15.0",
+      "extras": []
+    },
+    {
+      "from": "scverse-misc",
+      "to": "python-dotenv",
+      "requirement": "python-dotenv; extra == 'settings'",
+      "installed_version": "1.2.3",
+      "extras": []
+    },
+    {
+      "from": "pydantic-settings",
+      "to": "pydantic",
+      "requirement": "pydantic>=2.7.0",
+      "installed_version": "2.13.5",
+      "extras": []
+    },
+    {
+      "from": "pydantic-settings",
+      "to": "python-dotenv",
+      "requirement": "python-dotenv>=0.21.0",
+      "installed_version": "1.2.3",
+      "extras": []
+    },
+    {
+      "from": "pydantic-settings",
+      "to": "typing-inspection",
+      "requirement": "typing-inspection>=0.4.0",
+      "installed_version": "0.4.4",
+      "extras": []
+    },
+    {
+      "from": "typing-inspection",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.15.0",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "pydantic",
+      "to": "annotated-types",
+      "requirement": "annotated-types>=0.6.0",
+      "installed_version": "0.8.0",
+      "extras": []
+    },
+    {
+      "from": "pydantic",
+      "to": "pydantic-core",
+      "requirement": "pydantic-core==2.46.5",
+      "installed_version": "2.46.5",
+      "extras": []
+    },
+    {
+      "from": "pydantic",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.14.1",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "pydantic",
+      "to": "typing-inspection",
+      "requirement": "typing-inspection>=0.4.2",
+      "installed_version": "0.4.4",
+      "extras": []
+    },
+    {
+      "from": "pydantic-core",
+      "to": "typing-extensions",
+      "requirement": "typing-extensions>=4.14.1",
+      "installed_version": "4.16.0",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "matplotlib",
+      "requirement": "matplotlib>=3.8.0",
+      "installed_version": "3.11.1",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "pandas",
+      "requirement": "pandas>=2.2.0",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "mizani",
+      "requirement": "mizani~=0.14.0",
+      "installed_version": "0.14.6",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "numpy",
+      "requirement": "numpy>=1.23.5",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "scipy",
+      "requirement": "scipy>=1.8.0",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "plotnine",
+      "to": "statsmodels",
+      "requirement": "statsmodels>=0.14.6; sys_platform != \"emscripten\" or python_version >= \"3.14\"",
+      "installed_version": "0.15.0",
+      "extras": []
+    },
+    {
+      "from": "mizani",
+      "to": "numpy",
+      "requirement": "numpy>=1.23.5",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "mizani",
+      "to": "scipy",
+      "requirement": "scipy>=1.8.0",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "mizani",
+      "to": "pandas",
+      "requirement": "pandas>=2.2.0",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "mizani",
+      "to": "tzdata",
+      "requirement": "tzdata; platform_system == \"Windows\" or platform_system == \"Emscripten\"",
+      "installed_version": "2026.3",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "anndata",
+      "requirement": "anndata>=0.11",
+      "installed_version": "0.13.3.post0",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "h5py",
+      "requirement": "h5py",
+      "installed_version": "3.16.0",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "numpy",
+      "requirement": "numpy",
+      "installed_version": "2.3.5",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "pandas",
+      "requirement": "pandas>=1.4",
+      "installed_version": "2.3.3",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "scipy",
+      "requirement": "scipy",
+      "installed_version": "1.18.1",
+      "extras": []
+    },
+    {
+      "from": "mudata",
+      "to": "scverse-misc",
+      "requirement": "scverse-misc[settings]>=0.1.1",
+      "installed_version": "0.1.5",
+      "extras": [
+        "settings"
+      ]
+    },
+    {
+      "from": "mudata",
+      "to": "session-info2",
+      "requirement": "session-info2",
+      "installed_version": "0.4.2",
+      "extras": []
+    },
+    {
+      "from": "docrep",
+      "to": "six",
+      "requirement": "six",
+      "installed_version": "1.17.0",
+      "extras": []
+    }
+  ],
+  "closure_packages": 62,
+  "closure_fully_pinned": true,
+  "marker_scope": "Actual Python 3.12.14/Windows environment; propagated requested package extras; development/documentation extras omitted unless requested by a production dependency."
+}

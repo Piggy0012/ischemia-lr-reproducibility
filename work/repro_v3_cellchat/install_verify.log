@@ -1,0 +1,87 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+package 'Deriv' successfully unpacked and MD5 sums checked
+package 'Formula' successfully unpacked and MD5 sums checked
+package 'MatrixModels' successfully unpacked and MD5 sums checked
+package 'NMF' successfully unpacked and MD5 sums checked
+package 'Rdpack' successfully unpacked and MD5 sums checked
+package 'SparseM' successfully unpacked and MD5 sums checked
+package 'broom' successfully unpacked and MD5 sums checked
+package 'car' successfully unpacked and MD5 sums checked
+package 'carData' successfully unpacked and MD5 sums checked
+package 'coda' successfully unpacked and MD5 sums checked
+package 'collapse' successfully unpacked and MD5 sums checked
+package 'corrplot' successfully unpacked and MD5 sums checked
+package 'doBy' successfully unpacked and MD5 sums checked
+package 'forecast' successfully unpacked and MD5 sums checked
+package 'fracdiff' successfully unpacked and MD5 sums checked
+package 'ggalluvial' successfully unpacked and MD5 sums checked
+package 'ggnetwork' successfully unpacked and MD5 sums checked
+package 'ggpubr' successfully unpacked and MD5 sums checked
+package 'ggsci' successfully unpacked and MD5 sums checked
+package 'ggsignif' successfully unpacked and MD5 sums checked
+package 'gridBase' successfully unpacked and MD5 sums checked
+package 'lme4' successfully unpacked and MD5 sums checked
+package 'minqa' successfully unpacked and MD5 sums checked
+package 'modelr' successfully unpacked and MD5 sums checked
+package 'network' successfully unpacked and MD5 sums checked
+package 'nloptr' successfully unpacked and MD5 sums checked
+package 'pbkrtest' successfully unpacked and MD5 sums checked
+package 'polynom' successfully unpacked and MD5 sums checked
+package 'quantreg' successfully unpacked and MD5 sums checked
+package 'rbibutils' successfully unpacked and MD5 sums checked
+package 'reformulas' successfully unpacked and MD5 sums checked
+package 'registry' successfully unpacked and MD5 sums checked
+package 'rngtools' successfully unpacked and MD5 sums checked
+package 'rstatix' successfully unpacked and MD5 sums checked
+package 'sna' successfully unpacked and MD5 sums checked
+package 'statnet.common' successfully unpacked and MD5 sums checked
+package 'svglite' successfully unpacked and MD5 sums checked
+package 'systemfonts' successfully unpacked and MD5 sums checked
+package 'textshaping' successfully unpacked and MD5 sums checked
+package 'timeDate' successfully unpacked and MD5 sums checked
+package 'urca' successfully unpacked and MD5 sums checked
+package 'CellChat' successfully unpacked and MD5 sums checked
+[1] "Create a CellChat object from a data matrix"
+Set cell identities for the new CellChat object 
+The cell groups used for CellChat analysis are  Astrocyte, Endothelial, Microglia 
+triMean is used for calculating the average gene expression per cell group. 
+[1] ">>> Run CellChat on sc/snRNA-seq data <<< [2026-09-11 02:38:33.022429]"
+
+  |                                                                            
+  |                                                                      |   0%
+  |                                                                            
+  |============                                                          |  17%
+  |                                                                            
+  |=======================                                               |  33%
+  |                                                                            
+  |===================================                                   |  50%
+  |                                                                            
+  |===============================================                       |  67%
+  |                                                                            
+  |==========================================================            |  83%
+  |                                                                            
+  |======================================================================| 100%
+[1] ">>> CellChat inference is done. Parameter values are stored in `object@options$parameter` <<< [2026-09-11 02:38:33.217614]"
+triMean is used for calculating the average gene expression per cell group. 
+[1] ">>> Run CellChat on sc/snRNA-seq data <<< [2026-09-11 02:38:33.226242]"
+
+  |                                                                            
+  |                                                                      |   0%
+  |                                                                            
+  |============                                                          |  17%
+  |                                                                            
+  |=======================                                               |  33%
+  |                                                                            
+  |===================================                                   |  50%
+  |                                                                            
+  |===============================================                       |  67%
+  |                                                                            
+  |==========================================================            |  83%
+  |                                                                            
+  |======================================================================| 100%
+[1] ">>> CellChat inference is done. Parameter values are stored in `object@options$parameter` <<< [2026-09-11 02:38:33.403299]"
+NATIVE_PACKAGE_VERIFIED 47 functions, complete DB, toy seconds 0.65 

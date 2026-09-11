@@ -1,4 +1,4 @@
-"""Explicit ten-figure provenance mapping; index existing bytes without plotting."""
+"""Explicit figure provenance mapping; index existing bytes without plotting."""
 from pathlib import Path
 import csv
 import hashlib
@@ -84,9 +84,21 @@ def main():
                 '49,914 gene/cell-type paired-pool effects with pointwise intervals; fixed illustrative genes only are displayed.')
             add('descriptive_source_audit',T+'sorted_descriptive_audit.json')
     target = ROOT / 'FIGURE_SOURCE_INDEX.tsv'
+    s6root='outputs/reproducibility_v3_cellchat/'
+    if (ROOT/s6root/'figures/FigureS6_cellchat_controlled_extension.png').exists():
+        fig='FigureS6';base='FigureS6_cellchat_controlled_extension'
+        script='work/repro_v3_cellchat_figure.py';copy_script=''
+        add('plot_script',script)
+        for name in ['target_disease_effects.tsv.gz','cross_cohort_concordance.tsv','zero_strength_target_audit.tsv','tie_zero_audit.tsv','summary_audit.json']:
+            add('actual_plot_input','work/repro_v3_cellchat/tables/'+name)
+        for name in ['figureS6_candidate_effects.tsv','figureS6_concordance.tsv','figureS6_zero_tie_floors.tsv']:
+            add('exported_figure_source_data',s6root+'figure_source_data/'+name)
+        for ext in ['png','pdf','svg']:
+            add('figure_export',s6root+'figures/'+base+'.'+ext)
+        add('visual_review',s6root+'figure_source_data/figureS6_visual_review.json')
     with target.open('w',encoding='utf-8',newline='') as f:
         w=csv.DictWriter(f,list(rows[0]),delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
-    print(json.dumps({'figures':len(definitions),'indexed_source_and_export_rows':len(rows),'all_paths_exist':True},indent=2))
+    print(json.dumps({'figures':len({r['figure_id'] for r in rows}),'indexed_source_and_export_rows':len(rows),'all_paths_exist':True},indent=2))
 
 
 if __name__=='__main__':

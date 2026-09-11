@@ -1,0 +1,343 @@
+{
+  "plan_sha256": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+  "packages": [
+    {
+      "package": "Deriv",
+      "version": "4.3.5",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/Deriv_4.3.5.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\Deriv_4.3.5.zip",
+      "bytes": 538766,
+      "sha256": "c0e68393eefe92c04f9ea24c2bc845289161f6f1100869fefc21aee6a30eca80"
+    },
+    {
+      "package": "Formula",
+      "version": "1.2-6",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/Formula_1.2-6.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\Formula_1.2-6.zip",
+      "bytes": 83553,
+      "sha256": "2af6691a09c1ce550495029a951b3ec85eb4faf745e84bdc96febf9ecc9d45b8"
+    },
+    {
+      "package": "MatrixModels",
+      "version": "0.5-4",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/MatrixModels_0.5-4.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\MatrixModels_0.5-4.zip",
+      "bytes": 410621,
+      "sha256": "50fad158f8d33de560be4bf15ba9a01f7141374fbbc319d559f14aaf73c3a321"
+    },
+    {
+      "package": "NMF",
+      "version": "0.28",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/NMF_0.28.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\NMF_0.28.zip",
+      "bytes": 3152468,
+      "sha256": "d63071c4f45233f3a5b2ede9dadf8d9d170fd18e2252d992b45cbaf47dec2e9d"
+    },
+    {
+      "package": "Rdpack",
+      "version": "2.6.6",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/Rdpack_2.6.6.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\Rdpack_2.6.6.zip",
+      "bytes": 650064,
+      "sha256": "7aaf654892a6d71e6e5561375dd9d4ada584e027f8dc33efd4776c17cedc21fc"
+    },
+    {
+      "package": "SparseM",
+      "version": "1.84-2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/SparseM_1.84-2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\SparseM_1.84-2.zip",
+      "bytes": 891668,
+      "sha256": "86d02182061964504fd105b51328218c660a664fc521b1c6399cadd146026031"
+    },
+    {
+      "package": "broom",
+      "version": "1.0.13",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/broom_1.0.13.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\broom_1.0.13.zip",
+      "bytes": 1630140,
+      "sha256": "d4bcdd5c02c60436d89796c57167b3359ae4d5ac374d4122406d715e38189ba1"
+    },
+    {
+      "package": "car",
+      "version": "3.1-5",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/car_3.1-5.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\car_3.1-5.zip",
+      "bytes": 1542744,
+      "sha256": "7f1116ab704aade1d34c4c15c51cdee34f7332d40cd1ac4ba79f2527fe115eb1"
+    },
+    {
+      "package": "carData",
+      "version": "3.0-6",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/carData_3.0-6.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\carData_3.0-6.zip",
+      "bytes": 1706339,
+      "sha256": "1f3c30d07bbcf0da819cff1d673ed2f5ed82042c0808c47f07d599241d197fee"
+    },
+    {
+      "package": "coda",
+      "version": "0.19-4.1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/coda_0.19-4.1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\coda_0.19-4.1.zip",
+      "bytes": 332344,
+      "sha256": "71102565fab01507d270319819cbbaece4c9353bc49907af44b1c7e04739617c"
+    },
+    {
+      "package": "collapse",
+      "version": "2.1.8",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/collapse_2.1.8.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\collapse_2.1.8.zip",
+      "bytes": 3854431,
+      "sha256": "63dd6df9c5f136b7a5defa60f399a84b7d7d3523390159da0453a943a2409a30"
+    },
+    {
+      "package": "corrplot",
+      "version": "0.95",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/corrplot_0.95.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\corrplot_0.95.zip",
+      "bytes": 3827498,
+      "sha256": "c025545d58764cf76aa3d3a1b34356b89e107c1a5be4e7536245d44df9d3cfb8"
+    },
+    {
+      "package": "doBy",
+      "version": "4.7.2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/doBy_4.7.2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\doBy_4.7.2.zip",
+      "bytes": 4849012,
+      "sha256": "73dacb218ccba33052e18f81a8e759ea5bd25a14ee01c68804adb4b5ed62ff8c"
+    },
+    {
+      "package": "forecast",
+      "version": "9.0.2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/forecast_9.0.2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\forecast_9.0.2.zip",
+      "bytes": 1996853,
+      "sha256": "b81b8327b32f84c1bd3ea92344ac42878438cde331ba18766c007bb6abccf9e3"
+    },
+    {
+      "package": "fracdiff",
+      "version": "1.5-4",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/fracdiff_1.5-4.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\fracdiff_1.5-4.zip",
+      "bytes": 108286,
+      "sha256": "8ba2edb049b9cd11591a944e64285e2b0bf85f5c931b001c326823fa90dc5081"
+    },
+    {
+      "package": "ggalluvial",
+      "version": "0.12.6",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/ggalluvial_0.12.6.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\ggalluvial_0.12.6.zip",
+      "bytes": 1682642,
+      "sha256": "8b77db0ff9a58ed9c12c666ebc7bace09d75cf7d19dadb4b307e15e6d3e3499d"
+    },
+    {
+      "package": "ggnetwork",
+      "version": "0.5.14",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/ggnetwork_0.5.14.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\ggnetwork_0.5.14.zip",
+      "bytes": 1974396,
+      "sha256": "636ab57ce5f15ec0c9021138df7895f7d3effa5725c8b8fdc6f29df575745a0b"
+    },
+    {
+      "package": "ggpubr",
+      "version": "1.0.0",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/ggpubr_1.0.0.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\ggpubr_1.0.0.zip",
+      "bytes": 2348684,
+      "sha256": "93bb95727747846bf1291b3aa63347472de27b0db9d24690188dd5214d44c9af"
+    },
+    {
+      "package": "ggsci",
+      "version": "5.2.0",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/ggsci_5.2.0.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\ggsci_5.2.0.zip",
+      "bytes": 2375739,
+      "sha256": "7ca85d0bba1a388d34c5b6bd892e0e9b87e38f13d40e84616ec62ca1345bd939"
+    },
+    {
+      "package": "ggsignif",
+      "version": "0.6.4",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/ggsignif_0.6.4.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\ggsignif_0.6.4.zip",
+      "bytes": 606699,
+      "sha256": "055a6f470b93ccb07dd86ce9fbdd3d18b7aa2393b0250a6a54e8acefcf41329a"
+    },
+    {
+      "package": "gridBase",
+      "version": "0.4-7",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/gridBase_0.4-7.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\gridBase_0.4-7.zip",
+      "bytes": 166563,
+      "sha256": "7953add61a5e1af27bfe3c29822c108a93160e4d4b94e9ef62f59ff3bb24f3c2"
+    },
+    {
+      "package": "lme4",
+      "version": "2.0-6",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/lme4_2.0-6.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\lme4_2.0-6.zip",
+      "bytes": 5839593,
+      "sha256": "cc0277edcc99865d577cd813fa855129465242f907253d25daed1fecb5f446c4"
+    },
+    {
+      "package": "minqa",
+      "version": "1.2.8",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/minqa_1.2.8.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\minqa_1.2.8.zip",
+      "bytes": 459223,
+      "sha256": "82fef2fbe5233bd314ae633571b7933aa1bdaf4562bd656e2a6af286363ba985"
+    },
+    {
+      "package": "modelr",
+      "version": "0.1.11",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/modelr_0.1.11.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\modelr_0.1.11.zip",
+      "bytes": 207084,
+      "sha256": "8fcd9bb218d6dd1be42c93bd15a266d2b634addc32a1c33585f8ed5d7ade33ee"
+    },
+    {
+      "package": "network",
+      "version": "1.20.0",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/network_1.20.0.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\network_1.20.0.zip",
+      "bytes": 843834,
+      "sha256": "aa87fc1e4510e4e23ff781147ca24951f047695ce82293d272df0507fc8c80e8"
+    },
+    {
+      "package": "nloptr",
+      "version": "2.2.1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/nloptr_2.2.1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\nloptr_2.2.1.zip",
+      "bytes": 907622,
+      "sha256": "05db95565e04a00363a6c3690b3410ba17b8e14513770b08e289aa03c5923a8c"
+    },
+    {
+      "package": "pbkrtest",
+      "version": "0.5.5",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/pbkrtest_0.5.5.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\pbkrtest_0.5.5.zip",
+      "bytes": 230133,
+      "sha256": "f341cd3ca84b4449e1e06ad78ef15203aafec46e37d3ea7ebf4b11a2aa86d394"
+    },
+    {
+      "package": "polynom",
+      "version": "1.4-1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/polynom_1.4-1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\polynom_1.4-1.zip",
+      "bytes": 407610,
+      "sha256": "d6a882ce1a4d14aa7fd97b220888906c258ef1a5d5bc3ddd169ab22e3164caaa"
+    },
+    {
+      "package": "quantreg",
+      "version": "6.1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/quantreg_6.1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\quantreg_6.1.zip",
+      "bytes": 1474781,
+      "sha256": "cc7e8792970f1244da737e00f52400cf3f349b3517ef15d55264dd4cea31c5c9"
+    },
+    {
+      "package": "rbibutils",
+      "version": "2.4.1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/rbibutils_2.4.1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\rbibutils_2.4.1.zip",
+      "bytes": 1040988,
+      "sha256": "397712fa1db03dc75b890fa5df756f218b8a36fa05afe75abecbdb957a3558ac"
+    },
+    {
+      "package": "reformulas",
+      "version": "0.4.4",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/reformulas_0.4.4.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\reformulas_0.4.4.zip",
+      "bytes": 161623,
+      "sha256": "2ff8d8b420d10805d0e3d95de9eec39e227a507f647ccf2d8d52cb64f094d191"
+    },
+    {
+      "package": "registry",
+      "version": "0.5-1",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/registry_0.5-1.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\registry_0.5-1.zip",
+      "bytes": 198058,
+      "sha256": "914f74b7802681c56acf8d107567ba885577e595f27289bcc5087fa3b8a8b247"
+    },
+    {
+      "package": "rngtools",
+      "version": "1.5.2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/rngtools_1.5.2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\rngtools_1.5.2.zip",
+      "bytes": 81190,
+      "sha256": "db6ad915701ebad5c995b07e0d3020a2229251c45174cf9777ec7d374d56bbd9"
+    },
+    {
+      "package": "rstatix",
+      "version": "1.1.0",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/rstatix_1.1.0.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\rstatix_1.1.0.zip",
+      "bytes": 1082649,
+      "sha256": "2f727744d6778e7eb11757139bf1b05865f148a5d9fb8c123398c7d4461304b5"
+    },
+    {
+      "package": "sna",
+      "version": "2.8",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/sna_2.8.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\sna_2.8.zip",
+      "bytes": 1296542,
+      "sha256": "499e69c27a5876bdc8d79ea67d6550dff13edd886beb55036fea7d336e0b5d14"
+    },
+    {
+      "package": "statnet.common",
+      "version": "4.13.0",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/statnet.common_4.13.0.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\statnet.common_4.13.0.zip",
+      "bytes": 347054,
+      "sha256": "64bd1bd0c1c5cbc480130a20f372f0174256fa1f4cb03d1fad43fb3c4637b110"
+    },
+    {
+      "package": "svglite",
+      "version": "2.2.2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/svglite_2.2.2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\svglite_2.2.2.zip",
+      "bytes": 732328,
+      "sha256": "1e2f652c1a44fdae631e23c57debb1388260d08987232bd3b2bc718dc771c092"
+    },
+    {
+      "package": "systemfonts",
+      "version": "1.3.2",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/systemfonts_1.3.2.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\systemfonts_1.3.2.zip",
+      "bytes": 2214901,
+      "sha256": "ab8c096623ce4458c24ea0c9d78deaa8210e5a45aab40f1e4e2737c8a0d0021f"
+    },
+    {
+      "package": "textshaping",
+      "version": "1.0.5",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/textshaping_1.0.5.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\textshaping_1.0.5.zip",
+      "bytes": 1575743,
+      "sha256": "5171b927115e2da4f7545c6cb71a1cb3fb1949e259490cfa50ef82bd42273ce6"
+    },
+    {
+      "package": "timeDate",
+      "version": "4052.112",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/timeDate_4052.112.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\timeDate_4052.112.zip",
+      "bytes": 1497755,
+      "sha256": "ad95b2dc7fdb48d117307c659e51785a6caf761f788437e8ec5c43e6d812c8ac"
+    },
+    {
+      "package": "urca",
+      "version": "1.3-4",
+      "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/urca_1.3-4.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\urca_1.3-4.zip",
+      "bytes": 1077448,
+      "sha256": "ff4245f7d80bc4dde0c546b401119b3410657055e86028ae4365e7f7d8fa9690"
+    },
+    {
+      "package": "CellChat",
+      "version": "2.2.0.9001",
+      "url": "https://blaserlab.r-universe.dev/bin/windows/contrib/4.6/CellChat_2.2.0.9001.zip",
+      "local_path": "work\\repro_v3_cellchat\\downloads\\CellChat_2.2.0.9001.zip",
+      "bytes": 5726325,
+      "sha256": "6876e546e5bed3fd49b58bb83c5520a44fffd01026199003cd26357cae34210b"
+    }
+  ],
+  "total_bytes": 62131994,
+  "remote_sha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f"
+}

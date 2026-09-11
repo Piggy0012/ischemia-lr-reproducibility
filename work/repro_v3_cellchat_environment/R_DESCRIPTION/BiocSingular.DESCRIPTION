@@ -1,0 +1,36 @@
+Package: BiocSingular
+Version: 1.28.0
+Date: 2025-10-23
+Title: Singular Value Decomposition for Bioconductor Packages
+Authors@R: c(person("Aaron", "Lun", role=c("aut", "cre", "cph"),
+        email="infinite.monkeys.with.keyboards@gmail.com"))
+Imports: BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+        BiocParallel, ScaledMatrix, irlba, rsvd, Rcpp, beachmat (>=
+        2.25.1)
+Suggests: testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix
+biocViews: Software, DimensionReduction, PrincipalComponent
+Description: Implements exact and approximate methods for singular
+        value decomposition and principal components analysis, in a
+        framework that allows them to be easily switched within
+        Bioconductor packages or workflows. Where possible,
+        parallelization is achieved using the BiocParallel framework.
+License: GPL-3
+LinkingTo: Rcpp, beachmat, assorthead
+VignetteBuilder: knitr
+SystemRequirements: C++17
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+BugReports: https://github.com/LTLA/BiocSingular/issues
+URL: https://github.com/LTLA/BiocSingular
+Config/pak/sysreqs: zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:49:35 UTC
+RemoteUrl: https://github.com/bioc/BiocSingular
+RemoteRef: RELEASE_3_23
+RemoteSha: 675ff544b7bab511b17d6b52ef390815b4aa3bc0
+NeedsCompilation: yes
+Packaged: 2026-04-29 13:00:34 UTC; root
+Author: Aaron Lun [aut, cre, cph]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:02:33 UTC; windows
+Archs: x64

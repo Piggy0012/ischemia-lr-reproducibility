@@ -1,0 +1,379 @@
+Package: ArchR
+Version: 1.0.3
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-10 06:34:42 UTC; windows
+Archs: x64
+Filesize: 19215096
+SHA256: 87f61206ea6d75e13bdaa16311f2c17be77042935c77432120011626a6f40344
+LinkingTo: Rcpp, RcppArmadillo
+Imports: BiocGenerics, Biostrings, chromVAR, chromVARmotifs, ComplexHeatmap, data.table, devtools, GenomicRanges, ggplot2, ggrepel, gridExtra, gtable, gtools, harmony, magrittr, Matrix, matrixStats, motifmatchr, nabor, plyr, presto, Rcpp (>= 0.12.16), RcppArmadillo, rhdf5, Rsamtools, S4Vectors (>= 0.9.25), Seurat, SeuratObject, sparseMatrixStats, stringr, SummarizedExperiment, uwot
+Suggests: Cairo, DESeq2, edgeR, GenomicFeatures, ggridges, ggseqlogo, hexbin, leiden, limma, monocle3, pdftools, pheatmap, rhandsontable, scran, shiny, shinythemes, slingshot, testthat
+Path: ArchR_1.0.3.zip?sha256=87f61206ea6d75e13bdaa16311f2c17be77042935c77432120011626a6f40344&file=
+File: ArchR_1.0.3.zip
+
+Package: Azimuth
+Version: 0.5.1
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-05 11:49:44 UTC; windows
+Archs: x64
+Filesize: 1143397
+SHA256: f28fbcb1454e8c8e044768bbab8e0b7ed06a808dd03b59589ac032c76410ec47
+Depends: R (>= 4.0.0)
+LinkingTo: Rcpp (>= 0.11.0)
+Imports: BiocGenerics, BSgenome.Hsapiens.UCSC.hg38, data.table, DT (>= 0.15), EnsDb.Hsapiens.v86, future (>= 1.19.1), ggplot2 (>= 3.3.2), GenomeInfoDb, GenomicRanges, glmGamPoi (>= 1.0.0), googlesheets4 (>= 0.2.0), hdf5r (>= 1.3.2), htmltools (>= 0.5.0), httr (>= 1.4.2), IRanges, JASPAR2020, jsonlite (>= 1.7.0), Matrix (>= 1.2.18), methods, patchwork (>= 1.0.1), presto, Rcpp (>= 1.0.7), rhdf5, rlang (>= 0.4.8), scales (>= 1.1.1), S4Vectors, Seurat (>= 5.0.0), SeuratDisk, SeuratObject (>= 5.0.0), SeuratData, shiny (>= 1.5.0), shinyBS (>= 0.61), shinydashboard (>= 0.7.1), shinyjs (>= 2.0.0), Signac (>= 1.12.0), stats, stringr (>= 1.4.0), TFBSTools, tools, utils, plotly, withr (>= 2.3.0)
+Path: Azimuth_0.5.1.zip?sha256=f28fbcb1454e8c8e044768bbab8e0b7ed06a808dd03b59589ac032c76410ec47&file=
+File: Azimuth_0.5.1.zip
+
+Package: CellChat
+Version: 2.2.0.9001
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-03 13:38:57 UTC; windows
+Archs: x64
+Filesize: 5726325
+SHA256: 6876e546e5bed3fd49b58bb83c5520a44fffd01026199003cd26357cae34210b
+Depends: R (>= 3.6.0), dplyr, igraph, ggplot2
+LinkingTo: Rcpp, RcppEigen
+Imports: future, future.apply, pbapply, irlba, NMF (>= 0.23.0), ggalluvial, stringr, svglite, Matrix, ggrepel, circlize (>= 0.4.12), RColorBrewer, cowplot, methods, ComplexHeatmap, RSpectra, Rcpp, reticulate, scales, sna, reshape2, FNN, shape, BiocGenerics, magrittr, patchwork, colorspace, plyr, ggpubr, ggnetwork, BiocNeighbors, plotly, shiny, bslib, collapse
+Suggests: rmarkdown, knitr, roxygen2, Seurat (>= 4.0.0), SingleCellExperiment, SummarizedExperiment, purrr, uwot, gg.gap, wordcloud, bsicons, presto, tidyverse, tidyr, rlang
+Path: CellChat_2.2.0.9001.zip?sha256=6876e546e5bed3fd49b58bb83c5520a44fffd01026199003cd26357cae34210b&file=
+File: CellChat_2.2.0.9001.zip
+
+Package: DAseq
+Version: 1.0.0
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-02 09:50:33 UTC; windows
+Filesize: 1673358
+SHA256: 83b0cf0a8e822b528e3f2a4750b4f246d4f1ad9630759593eb6d1ad5344f7309
+Imports: RANN, glmnet, caret, Seurat, e1071, reticulate, ggplot2, cowplot, scales, ggrepel
+Path: DAseq_1.0.0.zip?sha256=83b0cf0a8e822b528e3f2a4750b4f246d4f1ad9630759593eb6d1ad5344f7309&file=
+File: DAseq_1.0.0.zip
+
+Package: DDRTree
+Version: 0.1.5
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-07 08:28:17 UTC; windows
+Archs: x64
+Filesize: 530596
+SHA256: f9150e48dc3131cb869fbaf82fd40f3fc7f0adcdec2eb3c6fbab674bf6298c3d
+Depends: irlba
+LinkingTo: Rcpp, RcppEigen, BH
+Imports: Rcpp
+Path: DDRTree_0.1.5.zip?sha256=f9150e48dc3131cb869fbaf82fd40f3fc7f0adcdec2eb3c6fbab674bf6298c3d&file=
+File: DDRTree_0.1.5.zip
+
+Package: DoubletFinder
+Version: 2.0.4
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-02 07:00:20 UTC; windows
+Filesize: 58290
+SHA256: aa742417247f935899c5363824fe06df164a78e20e42e5e89c259bc5136dad1e
+Imports: fields, KernSmooth, ROCR, parallel
+Path: DoubletFinder_2.0.4.zip?sha256=aa742417247f935899c5363824fe06df164a78e20e42e5e89c259bc5136dad1e&file=
+File: DoubletFinder_2.0.4.zip
+
+Package: GOsummaries
+Version: 2.14.0
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-08-19 03:39:23 UTC; windows
+Archs: x64
+Filesize: 2446220
+SHA256: 97e117a7391c4cdcdf5cc29228fadc8833d89545628d56bce6d353940a046dfc
+Depends: R (>= 2.15), Rcpp
+LinkingTo: Rcpp
+Imports: plyr, grid, gProfileR, reshape2, limma, ggplot2, gtable
+Suggests: vegan
+Path: GOsummaries_2.14.0.zip?sha256=97e117a7391c4cdcdf5cc29228fadc8833d89545628d56bce6d353940a046dfc&file=
+File: GOsummaries_2.14.0.zip
+
+Package: RcisTarget
+Version: 1.23.1
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-05 07:25:44 UTC; windows
+Filesize: 12666452
+SHA256: 2dc5bae6ad277511a997f76010183c7709b1a575249cbdab9ed0099dc8b638fb
+Depends: R (>= 3.5.0)
+Imports: AUCell (>= 1.1.6), BiocGenerics, data.table, graphics, GenomeInfoDb, GenomicRanges, arrow (>= 2.0.0), dplyr, tibble, GSEABase, methods, R.utils, stats, SummarizedExperiment, S4Vectors, utils, zoo
+Suggests: Biobase, BiocStyle, BiocParallel, doParallel, DT, foreach, gplots, rtracklayer, igraph, knitr, RcisTarget.hg19.motifDBs.cisbpOnly.500bp, rmarkdown, testthat, visNetwork
+Enhances: doMC, doRNG
+Path: RcisTarget_1.23.1.zip?sha256=2dc5bae6ad277511a997f76010183c7709b1a575249cbdab9ed0099dc8b638fb&file=
+File: RcisTarget_1.23.1.zip
+
+Package: RcppRoll
+Version: 0.4.0.9000
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-07 20:50:50 UTC; windows
+Archs: x64
+Filesize: 378388
+SHA256: f65eee16b19569a285aaf0b0ffe3919f5a7e5ab8c5b6e55e0f9eee0e71118129
+Depends: R (>= 2.15.1)
+Suggests: zoo, testthat
+Path: RcppRoll_0.4.0.9000.zip?sha256=f65eee16b19569a285aaf0b0ffe3919f5a7e5ab8c5b6e55e0f9eee0e71118129&file=
+File: RcppRoll_0.4.0.9000.zip
+
+Package: RforMassSpectrometry
+Version: 0.2.2
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-01 09:41:07 UTC; windows
+Filesize: 32321
+SHA256: b0d96f26e0ab657651125e02cdbdc18a256fc99a0986a09b1b63636739abac65
+Depends: R (>= 3.5.0)
+Imports: MsExperiment, Spectra, QFeatures, MsCoreUtils, MetaboCoreUtils, PSMatch, PTMods
+Suggests: BiocStyle, knitr, rmarkdown
+Path: RforMassSpectrometry_0.2.2.zip?sha256=b0d96f26e0ab657651125e02cdbdc18a256fc99a0986a09b1b63636739abac65&file=
+File: RforMassSpectrometry_0.2.2.zip
+
+Package: SeuratData
+Version: 0.2.2.9002
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-19 03:12:12 UTC; windows
+Filesize: 83647
+SHA256: 880bca86d52cfc3d43307527b7e028feb9dd525316ddf2444a9151ddbdfa46de
+Depends: R (>= 3.5.0)
+Imports: cli, crayon, Matrix, methods, rappdirs, SeuratObject (>= 5.0.0), Seurat (>= 5.0.0), stats, utils
+Suggests: Azimuth
+Path: SeuratData_0.2.2.9002.zip?sha256=880bca86d52cfc3d43307527b7e028feb9dd525316ddf2444a9151ddbdfa46de&file=
+File: SeuratData_0.2.2.9002.zip
+
+Package: SeuratDisk
+Version: 0.0.0.9021
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-21 04:20:36 UTC; windows
+Filesize: 518110
+SHA256: f9bf302bc914f0a74d1f8aa8ba6a64cfdbfc3703d13902551de9d229377d8011
+Depends: R (>= 3.6.0)
+Imports: cli (>= 2.0.1), crayon (>= 1.3.4), hdf5r (>= 1.3.0), Matrix (>= 1.2.18), methods (>= 3.6.0), R6 (>= 2.4.1), rlang (>= 0.4.4), Seurat (>= 3.2.0), SeuratObject (>= 4.0.0), stats, stringi (>= 1.4.6), tools, utils, withr (>= 2.1.2)
+Suggests: httr, knitr, rmarkdown, SeuratData
+Path: SeuratDisk_0.0.0.9021.zip?sha256=f9bf302bc914f0a74d1f8aa8ba6a64cfdbfc3703d13902551de9d229377d8011&file=
+File: SeuratDisk_0.0.0.9021.zip
+
+Package: SeuratWrappers
+Version: 0.4.0
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-28 14:03:39 UTC; windows
+Filesize: 236380
+SHA256: 522dc6869f5957f528cd0ec7a082e299ad7d65ca1292a5c1e8ab72d636cf354f
+Depends: R (>= 3.5.0)
+Imports: Banksy, BiocManager, cowplot, ggplot2, igraph, Matrix, methods, remotes, rsvd, Seurat (>= 5.0.0), stats, utils, rlang
+Suggests: cipr, conos, rliger (>= 0.5.0), harmony, batchelor, SeuratData, SeuratDisk, velocyto.R, schex, tximport, fishpond, monocle3, CoGAPS, glmpca, Nebulosa, presto, flexmix, tricycle
+Path: SeuratWrappers_0.4.0.zip?sha256=522dc6869f5957f528cd0ec7a082e299ad7d65ca1292a5c1e8ab72d636cf354f&file=
+File: SeuratWrappers_0.4.0.zip
+
+Package: TxDb.Drerio.UCSC.danRer11.ensGene
+Version: 1.0.0
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-15 03:03:21 UTC; windows
+Filesize: 16502447
+SHA256: 167d525a0e4eeca45c30190684e7e860456fe96ed2b5088de0b5b12e590a975b
+Depends: GenomicFeatures (>= 1.50.4)
+Imports: AnnotationDbi
+Path: TxDb.Drerio.UCSC.danRer11.ensGene_1.0.0.zip?sha256=167d525a0e4eeca45c30190684e7e860456fe96ed2b5088de0b5b12e590a975b&file=
+File: TxDb.Drerio.UCSC.danRer11.ensGene_1.0.0.zip
+
+Package: blaseRtemplates
+Version: 0.0.0.9224
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-21 02:34:15 UTC; windows
+Filesize: 134686
+SHA256: dd8059a8037509c89fba545f7b617d7aa45d665bcb3865530ee5cd11b19cadd2
+Depends: R (>= 4.1.0)
+Imports: fs, gert, stringr, usethis, prompt, dplyr, gitcreds, withr, devtools, purrr, tibble, pak (>= 0.2.1), cli (>= 3.2.0), rlang, rstudioapi, pkgcache, digest, readr, rjson
+Suggests: testthat (>= 3.0.0)
+Path: blaseRtemplates_0.0.0.9224.zip?sha256=dd8059a8037509c89fba545f7b617d7aa45d665bcb3865530ee5cd11b19cadd2&file=
+File: blaseRtemplates_0.0.0.9224.zip
+
+Package: blaseRtools
+Version: 0.0.0.9208
+NeedsCompilation: no
+Built: R 4.6.0; ; 2026-06-22 07:20:14 UTC; windows
+Filesize: 1736626
+SHA256: 7c93eaff9315cb53a60f37694d8adce48644a040589276e1fc96527b8aa74ba1
+Depends: R (>= 4.1.0), tidyverse, blaseRdata
+Imports: CellChat (>= 1.4.0), DescTools, spatstat.utils (>= 3.1-2), BiocManager, knitr, org.Dr.eg.db, org.Hs.eg.db, org.Mm.eg.db, rmarkdown, DESeq2, genefilter, annotate, geneplotter, ashr, readxl, cowplot, monocle3 (>= 1.4.22), MASS, Matrix, Seurat, SeuratDisk, SingleCellExperiment, broom, ggpubr, ggrepel, grid, hexbin, pheatmap, rrvgo, topGO, scater, huxtable, stats, dplyr, ggplot2, stringr, Signac, methods, circlize, GenomicRanges, BiocGenerics, Biostrings, GenomeInfoDb, IRanges, digest, fs, ggforce, GenomicAlignments, Rsamtools, rstatix, batchelor, leidenbase, DoubletFinder, ComplexHeatmap, blaseRtemplates, prompt, SeuratObject, SummarizedExperiment, cli, future, R.utils, MatrixGenerics, forcats, ggrastr, purrr, readr, remotes, rlang, tibble, tidyr, tidyselect, BSgenome, BSgenome.Drerio.UCSC.danRer11, BSgenome.Hsapiens.UCSC.hg38, TxDb.Hsapiens.UCSC.hg38.knownGene, TxDb.Drerio.UCSC.danRer11.ensGene, AnnotationDbi, GenomicFeatures, lubridate, edgeR, ggtext, speedglm, hdf5r, assertthat, plyr, igraph, reshape2, fields, KernSmooth, DAseq, ggdendro, loupeR, patchwork, rtracklayer, S4Vectors, waldo
+Suggests: testthat (>= 3.0.0)
+Path: blaseRtools_0.0.0.9208.zip?sha256=7c93eaff9315cb53a60f37694d8adce48644a040589276e1fc96527b8aa74ba1&file=
+File: blaseRtools_0.0.0.9208.zip
+
+Package: datascience.curriculum
+Version: 0.0.0.9011
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-09 08:30:59 UTC; windows
+Filesize: 989435
+SHA256: 7f83a99d54d2e964dec998197f09bbbadd1ed919ca6f8de8b3a1c1250ad082cd
+Imports: tidyverse, ggpubr, cowplot, rstatix
+Suggests: knitr, rmarkdown
+Path: datascience.curriculum_0.0.0.9011.zip?sha256=7f83a99d54d2e964dec998197f09bbbadd1ed919ca6f8de8b3a1c1250ad082cd&file=
+File: datascience.curriculum_0.0.0.9011.zip
+
+Package: dotwhisker
+Version: 0.8.9999
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-23 03:46:55 UTC; windows
+Filesize: 1652217
+SHA256: 46bf801e5458f257b2c9fd83b1d9a44868dd428cee1cc5e8e26284f45ae3fda7
+Depends: R (>= 4.2.0), ggplot2 (>= 2.2.1)
+Imports: grid, gtable, gridExtra, stats, parameters, performance, patchwork, dplyr, stringr, rlang, purrr, marginaleffects
+Suggests: ordinal, tibble, knitr, rmarkdown, broom, testthat (>= 3.0.0)
+Path: dotwhisker_0.8.9999.zip?sha256=46bf801e5458f257b2c9fd83b1d9a44868dd428cee1cc5e8e26284f45ae3fda7&file=
+File: dotwhisker_0.8.9999.zip
+
+Package: ggseqlogo
+Version: 0.1
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-13 04:51:43 UTC; windows
+Filesize: 783542
+SHA256: d1332bfa242dc861c542013d5aa907bfeed79ea2eb8135d44a8a2bd943943fdc
+Imports: ggplot2
+Suggests: knitr, rmarkdown
+Path: ggseqlogo_0.1.zip?sha256=d1332bfa242dc861c542013d5aa907bfeed79ea2eb8135d44a8a2bd943943fdc&file=
+File: ggseqlogo_0.1.zip
+
+Package: ivprobit
+Version: 1.1
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-01 08:07:23 UTC; windows
+Filesize: 74607
+SHA256: d1ca9652316ab2a308638e54df3f8091d8ac32ce3e1005d8ea3472aa78a849ff
+Imports: stats, methods, Formula
+Path: ivprobit_1.1.zip?sha256=d1ca9652316ab2a308638e54df3f8091d8ac32ce3e1005d8ea3472aa78a849ff&file=
+File: ivprobit_1.1.zip
+
+Package: loupeR
+Version: 1.1.5
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-22 03:21:55 UTC; windows
+Filesize: 88559
+SHA256: f6f965c297b1746251952affec4dba689d6f9925bc55daab1827479b00fd5dcb
+Depends: R (>= 4.0.0)
+Imports: methods, Seurat, hdf5r
+Suggests: testthat (>= 3.0.0), Matrix, SeuratObject (>= 5.0.0), BPCells
+Path: loupeR_1.1.5.zip?sha256=f6f965c297b1746251952affec4dba689d6f9925bc55daab1827479b00fd5dcb&file=
+File: loupeR_1.1.5.zip
+
+Package: margins
+Version: 0.3.26
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-17 04:21:30 UTC; windows
+Filesize: 2865453
+SHA256: 6b9f575e59b811c24992dc64506ddd5552dee6cf4f1d026a82f54fd2803becec
+Imports: utils, stats, prediction (>= 0.3.6), data.table, graphics, grDevices, MASS
+Suggests: methods, knitr, rmarkdown, testthat, ggplot2, gapminder, sandwich, stargazer, lme4
+Enhances: AER, betareg, nnet, ordinal, survey
+Path: margins_0.3.26.zip?sha256=6b9f575e59b811c24992dc64506ddd5552dee6cf4f1d026a82f54fd2803becec&file=
+File: margins_0.3.26.zip
+
+Package: mhurdle
+Version: 1.3-2
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-01 08:40:27 UTC; windows
+Archs: x64
+Filesize: 343484
+SHA256: b31e4ac4467bd9d7bcfa72218a22888b053923c88f755db2ed9632af75f89c20
+Depends: R (>= 2.10)
+Imports: Formula, truncreg, maxLik, survival, Rdpack, prediction, margins, generics, numDeriv, sandwich, nonnest2, CompQuadForm
+Suggests: knitr, rmarkdown, lmtest, bookdown, testthat, modelsummary, tibble, broom
+Path: mhurdle_1.3-2.zip?sha256=b31e4ac4467bd9d7bcfa72218a22888b053923c88f755db2ed9632af75f89c20&file=
+File: mhurdle_1.3-2.zip
+
+Package: muLogR
+Version: 0.2
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-15 04:25:40 UTC; windows
+Filesize: 36111
+SHA256: 1bf2c44f62afcdf1123809b219312a14c0aba63b521eb6b1ff220db6765f98b3
+Path: muLogR_0.2.zip?sha256=1bf2c44f62afcdf1123809b219312a14c0aba63b521eb6b1ff220db6765f98b3&file=
+File: muLogR_0.2.zip
+
+Package: muReportR
+Version: 0.3
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-16 04:24:42 UTC; windows
+Filesize: 350773
+SHA256: 56dc8e78671b73cfc31e74212840db656ee56872a1742822f45acf23eb00cf06
+Imports: ggplot2
+Path: muReportR_0.3.zip?sha256=56dc8e78671b73cfc31e74212840db656ee56872a1742822f45acf23eb00cf06&file=
+File: muReportR_0.3.zip
+
+Package: muRtools
+Version: 0.9.6
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-31 08:49:57 UTC; windows
+Filesize: 423072
+SHA256: e52a29f05a819fe9bc3a9eca58e8496e270795740b54b72f98c927282a8a5c24
+Imports: muLogR, ggplot2, data.table, GenomicRanges, GenomeInfoDb
+Suggests: gplots, plotrix, BSgenome.Hsapiens.UCSC.hg19, BSgenome.Hsapiens.NCBI.GRCh38, BSgenome.Mmusculus.UCSC.mm9, BSgenome.Mmusculus.UCSC.mm10
+Path: muRtools_0.9.6.zip?sha256=e52a29f05a819fe9bc3a9eca58e8496e270795740b54b72f98c927282a8a5c24&file=
+File: muRtools_0.9.6.zip
+
+Package: penalized
+Version: 0.9-53
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-08-18 15:28:04 UTC; windows
+Archs: x64
+Filesize: 1188272
+SHA256: 2ad1a488306b2d2f711337b99557a4ecc8d7c3ab8c049f5d32617239ed66d86e
+Depends: R (>= 2.10.0), survival, methods
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp
+Suggests: globaltest
+Path: penalized_0.9-53.zip?sha256=2ad1a488306b2d2f711337b99557a4ecc8d7c3ab8c049f5d32617239ed66d86e&file=
+File: penalized_0.9-53.zip
+
+Package: rdoc
+Version: 0.1.0.9000
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-03 06:59:29 UTC; windows
+Filesize: 108218
+SHA256: 0338356af0a8810febf522a927e2f061c839ae894e94a8f229be08d70b5e092c
+Imports: R6, crayon, cli, prettycode, tools, utils, methods
+Suggests: testthat, mockery, withr
+Path: rdoc_0.1.0.9000.zip?sha256=0338356af0a8810febf522a927e2f061c839ae894e94a8f229be08d70b5e092c&file=
+File: rdoc_0.1.0.9000.zip
+
+Package: rsparse
+Version: 0.5.3
+NeedsCompilation: yes
+Built: R 4.6.1; x86_64-w64-mingw32; 2026-09-06 07:44:05 UTC; windows
+Archs: x64
+Filesize: 1761450
+SHA256: 82ce6ac4e653badec808f7f4121f474e824f7e99bc9bd12a85dd92e5d5e3d0a8
+Depends: R (>= 3.6.0), methods, Matrix (>= 1.3)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.9.100.5.0)
+Imports: MatrixExtra (>= 0.1.7), Rcpp (>= 0.11), data.table (>= 1.10.0), float (>= 0.2-2), RhpcBLASctl, lgr (>= 0.2)
+Suggests: testthat, covr
+Path: rsparse_0.5.3.zip?sha256=82ce6ac4e653badec808f7f4121f474e824f7e99bc9bd12a85dd92e5d5e3d0a8&file=
+File: rsparse_0.5.3.zip
+
+Package: sceasy
+Version: 0.0.7
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-08-19 03:53:28 UTC; windows
+Filesize: 71364
+SHA256: d471656dbdadd2cdde1df1864c5e611a9c451d1dc6f63939b37c5e75489ef1dd
+Depends: R (>= 3.5.1), reticulate
+Suggests: Seurat (>= 3.0.1), SingleCellExperiment (>= 1.4.0), LoomExperiment (>= 1.1.5), monocle3 (>= 0.2.0)
+Path: sceasy_0.0.7.zip?sha256=d471656dbdadd2cdde1df1864c5e611a9c451d1dc6f63939b37c5e75489ef1dd&file=
+File: sceasy_0.0.7.zip
+
+Package: speedglm
+Version: 0.3-4
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-04 08:15:09 UTC; windows
+Filesize: 194192
+SHA256: c5de6cf154586f39da266538dddad76fd2e0657b4df177943cbbfb3c7cdf8cf2
+Depends: Matrix, MASS
+Imports: methods, stats
+Path: speedglm_0.3-4.zip?sha256=c5de6cf154586f39da266538dddad76fd2e0657b4df177943cbbfb3c7cdf8cf2&file=
+File: speedglm_0.3-4.zip
+
+Package: tidyproteomics
+Version: 1.8.10
+NeedsCompilation: no
+Built: R 4.6.1; ; 2026-09-02 06:54:47 UTC; windows
+Filesize: 2074206
+SHA256: 2027d48098481c761518ebaa8b7cfcc9935de12fdf21a9910a5da7329b61b142
+Depends: R (>= 4.1.0)
+Imports: Biostrings, broom, cli, digest, doParallel, dplyr, e1071, eulerr, fgsea, forcats, ggplot2, ggrepel, glue, grDevices, limma, magrittr, methods, missForest, parallel, pheatmap, purrr, randomForest, RColorBrewer, readr, readxl, rlang, scales, stringr, tibble, tidyr, tidyselect, vroom, writexl
+Suggests: utils, knitr, testthat (>= 3.0.0)
+Path: tidyproteomics_1.8.10.zip?sha256=2027d48098481c761518ebaa8b7cfcc9935de12fdf21a9910a5da7329b61b142&file=
+File: tidyproteomics_1.8.10.zip
+

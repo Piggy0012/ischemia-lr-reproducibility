@@ -1,0 +1,36 @@
+scope	metric	n_candidates	n_nonzero_both	n_same_direction	same_direction_all_fraction	same_direction_nonzero_fraction	n_zero_discovery	n_zero_external	spearman_rho	disease_inferential_pvalues_computed
+all_fixed_targets	custom_coavailability	32	32	23	0.71875	0.71875	0	0	0.56524926686217	False
+Astrocyte_to_Endothelial	custom_coavailability	8	8	4	0.5	0.5	0	0	0.07142857142857144	False
+Endothelial_to_Astrocyte	custom_coavailability	24	24	19	0.7916666666666666	0.7916666666666666	0	0	0.6956521739130433	False
+without_native_cofactor	custom_coavailability	31	31	22	0.7096774193548387	0.7096774193548387	0	0	0.5290322580645163	False
+with_native_cofactor	custom_coavailability	1	1	1	1.0	1.0	0	0		False
+all_fixed_targets	cellchat_probability	32	13	10	0.3125	0.7692307692307693	19	3	0.5491810952969148	False
+Astrocyte_to_Endothelial	cellchat_probability	8	4	1	0.125	0.25	4	2	-0.22967704876075523	False
+Endothelial_to_Astrocyte	cellchat_probability	24	9	9	0.375	1.0	15	1	0.8167958265618498	False
+without_native_cofactor	cellchat_probability	31	12	10	0.3225806451612903	0.8333333333333334	19	3	0.7120067044885355	False
+with_native_cofactor	cellchat_probability	1	1	0	0.0	0.0	0	0		False
+all_fixed_targets	cellchat_strength_percentile	32	32	16	0.5	0.5	0	0	0.36405923959998177	False
+Astrocyte_to_Endothelial	cellchat_strength_percentile	8	8	3	0.375	0.375	0	0	-0.1913975406339627	False
+Endothelial_to_Astrocyte	cellchat_strength_percentile	24	24	13	0.5416666666666666	0.5416666666666666	0	0	0.49187704610578964	False
+without_native_cofactor	cellchat_strength_percentile	31	31	16	0.5161290322580645	0.5161290322580645	0	0	0.4527608805172418	False
+with_native_cofactor	cellchat_strength_percentile	1	1	0	0.0	0.0	0	0		False
+all_fixed_targets	LIANA_unique_column_RRA_priority	32	19	13	0.40625	0.6842105263157895	10	12	0.45075188242744174	False
+Astrocyte_to_Endothelial	LIANA_unique_column_RRA_priority	8	5	3	0.375	0.6	2	2	0.5120481927710843	False
+Endothelial_to_Astrocyte	LIANA_unique_column_RRA_priority	24	14	10	0.4166666666666667	0.7142857142857143	8	10	0.4721572099917223	False
+without_native_cofactor	LIANA_unique_column_RRA_priority	31	18	12	0.3870967741935484	0.6666666666666666	10	12	0.40736244011538253	False
+with_native_cofactor	LIANA_unique_column_RRA_priority	1	1	1	1.0	1.0	0	0		False
+all_fixed_targets	lr_means	32	32	23	0.71875	0.71875	0	0	0.5722140762463342	False
+Astrocyte_to_Endothelial	lr_means	8	8	6	0.75	0.75	0	0	0.38095238095238104	False
+Endothelial_to_Astrocyte	lr_means	24	24	17	0.7083333333333334	0.7083333333333334	0	0	0.5973913043478261	False
+without_native_cofactor	lr_means	31	31	22	0.7096774193548387	0.7096774193548387	0	0	0.5387096774193548	False
+with_native_cofactor	lr_means	1	1	1	1.0	1.0	0	0		False
+all_fixed_targets	expr_prod	32	32	23	0.71875	0.71875	0	0	0.5153958944281525	False
+Astrocyte_to_Endothelial	expr_prod	8	8	4	0.5	0.5	0	0	0.19047619047619052	False
+Endothelial_to_Astrocyte	expr_prod	24	24	19	0.7916666666666666	0.7916666666666666	0	0	0.6513043478260869	False
+without_native_cofactor	expr_prod	31	31	22	0.7096774193548387	0.7096774193548387	0	0	0.47258064516129034	False
+with_native_cofactor	expr_prod	1	1	1	1.0	1.0	0	0		False
+all_fixed_targets	lrscore	32	32	23	0.71875	0.71875	0	0	0.5014662756598239	False
+Astrocyte_to_Endothelial	lrscore	8	8	5	0.625	0.625	0	0	0.07142857142857144	False
+Endothelial_to_Astrocyte	lrscore	24	24	18	0.75	0.75	0	0	0.6469565217391303	False
+without_native_cofactor	lrscore	31	31	22	0.7096774193548387	0.7096774193548387	0	0	0.48427419354838713	False
+with_native_cofactor	lrscore	1	1	1	1.0	1.0	0	0		False

@@ -44,7 +44,8 @@ def main():
     assert not oversized, oversized
     with (ROOT / 'FIGURE_SOURCE_INDEX.tsv').open(encoding='utf-8', newline='') as f:
         figure_rows = list(csv.DictReader(f, delimiter='\t'))
-    assert len({r['figure_id'] for r in figure_rows}) == 10
+    figure_count=11 if (ROOT/'outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.png').exists() else 10
+    assert len({r['figure_id'] for r in figure_rows}) == figure_count
     for row in figure_rows:
         p = ROOT / row['path']
         assert p.is_file() and p.stat().st_size == int(row['bytes']) and sha(p) == row['sha256'], row['path']
@@ -64,7 +65,7 @@ def main():
             w.writeheader(); w.writerows(rows)
         (ROOT / 'FILE_INDEX_SHA256.txt').write_text(sha(ROOT / 'FILE_INDEX.tsv') + '  FILE_INDEX.tsv\n', encoding='utf-8')
     print(json.dumps({'status': 'passed', 'mode': 'verify' if args.verify else 'write', 'indexed_files': len(rows),
-                      'payload_bytes': sum(int(r['bytes']) for r in rows), 'figure_count': 10,
+                      'payload_bytes': sum(int(r['bytes']) for r in rows), 'figure_count': figure_count,
                       'figure_source_rows': len(figure_rows), 'files_at_least_100_MiB': oversized,
                       'index_self_reference_exclusions': sorted(SELF_FILES)}, indent=2))
 

@@ -1,0 +1,12 @@
+dataset	sample	condition	context_cells	context_types	native_protein_signaling_genes_in_matrix	covered_native_protein_rows_all_LR_and_cofactor_genes	one_double_dense_signal_matrix_bytes	four_dense_copies_plus_boot_array_bytes	two_probability_arrays_bytes	estimate_note
+GSE174574	GSM5319987	Sham	4918	11	1215	2273	47802960	201903840	4601872	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE174574	GSM5319988	Sham	4794	11	1215	2273	46597680	197082720	4601872	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE174574	GSM5319989	Sham	5686	12	1215	2273	55267920	232735680	5476608	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE174574	GSM5319990	MCAO	7921	13	1215	2273	76992120	320604480	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE174574	GSM5319991	MCAO	7628	13	1215	2273	74144160	309212640	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE174574	GSM5319992	MCAO	5782	13	1215	2273	56201040	237440160	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE245386	GSM7841720	Sham	10135	15	1226	2311	99404080	412328320	8557200	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE245386	GSM7841721	Sham	7451	13	1226	2311	73079408	305068032	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE245386	GSM7841722	Sham	7045	13	1226	2311	69097360	289139840	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE245386	GSM7841723	MCAO	7266	14	1226	2311	71264928	298790912	7454272	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS
+GSE245386	GSM7841724	MCAO	9592	13	1226	2311	94078336	389063744	6427408	allocation accounting only; excludes R package baseline, original sparse input and temporary per-gene vectors; not measured peak RSS

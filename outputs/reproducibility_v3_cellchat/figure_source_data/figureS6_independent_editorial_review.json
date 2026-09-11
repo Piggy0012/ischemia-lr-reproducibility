@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "reviewer": "scientific_value_review",
+  "reviewed_at_utc": "2026-09-11T08:20:37.480996+00:00",
+  "figure": {
+    "path": "outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.png",
+    "sha256": "2b79a397209af7432f6f5fa01f99dd956f49faed31790463f81ed06bafbdd109",
+    "bytes": 444336
+  },
+  "source_data": {
+    "path": "outputs/reproducibility_v3_cellchat/figure_source_data/figureS6_candidate_effects.tsv",
+    "sha256": "3efe0d538586a3d4c4490a427e007e0b3150a53330ef5b26fd2567bd1411ff3a",
+    "bytes": 13418
+  },
+  "concordance_source": {
+    "path": "outputs/reproducibility_v3_cellchat/figure_source_data/figureS6_concordance.tsv",
+    "sha256": "bbdb4881163c89759e9a61689752da5d36bafa400f9bb49dab8a0214b2dd6aab",
+    "bytes": 615
+  },
+  "numeric_audit": {
+    "path": "work/repro_v3_cellchat_editorial_audit.json",
+    "sha256": "3f745211c0fec760a0252f209b3033c7b9139640b34cae7fb9eb4213e794fddc",
+    "bytes": 5117
+  },
+  "all_four_panels_visually_inspected": true,
+  "all_128_plotted_effect_rows_bitwise_equal_to_final_effects": true,
+  "fixed_target_n_each_panel": 32,
+  "hollow_targets_each_panel": 3,
+  "findings": [
+    "All four panel titles distinguish native strength, analyst-derived percentile and matched LIANA RRA.",
+    "Every displayed rho, same-direction numerator, complete/nonzero denominator and zero-in-either count matches the independently checked final table.",
+    "Axes identify cohort and library-level MCAO-minus-Sham contrast; zero guides are visible.",
+    "Direction colors/shapes and hollow-symbol meaning are defined. The three overlapping all-zero-strength targets in panel C have an explicit annotation.",
+    "No clipping, collision or illegible axis/legend text was observed in the rendered PNG."
+  ],
+  "blocking_visual_defects": [],
+  "no_new_model_or_inferential_test": true
+}

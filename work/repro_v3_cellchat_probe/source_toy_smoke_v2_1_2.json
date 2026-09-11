@@ -1,0 +1,21 @@
+{
+  "status": "source_engine_toy_smoke_pass",
+  "full_CellChat_package_installed": false,
+  "production_qualified": false,
+  "note": "This only tests exact unmodified upstream R core functions on synthetic data. Formal biological runs require the complete native CellChat package.",
+  "source_commit": "a0d3b2d231d46c8787177fffeac908270c253747",
+  "genes": ["Tgfb1", "Tgfb2", "Tgfb3", "Tgfbr1", "Tgfbr2", "Acvr1b", "Acvr1c", "Fst", "Thbs1", "Lefty1", "Lefty2", "Inhba", "Inhbb", "Inhbc", "Inhbe", "Fmod", "Dcn", "Ltbp1", "Emilin1", "Bambi"],
+  "input_shape": [20, 120],
+  "n_cell_types": 3,
+  "n_interactions": 6,
+  "complex_receptor_rows": 6,
+  "cofactor_rows": 6,
+  "score_shape": [3, 3, 6],
+  "score_range": [1.4336e-08, 7.8195e-08],
+  "positive_scores": 54,
+  "exact_seed_repetition": true,
+  "elapsed_seconds": 0.82,
+  "nboot": 10,
+  "all_gene_normalization": false,
+  "all_gene_normalization_note": "Synthetic toy contains only signaling genes; not a biological input normalization strategy."
+}

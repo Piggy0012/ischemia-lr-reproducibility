@@ -1,0 +1,10 @@
+{
+  "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "platform": "x86_64-w64-mingw32",
+  "runtime_path": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime",
+  "libraries": ["C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"],
+  "effective_package_count": 287,
+  "CellChat_version": "2.2.0.9001",
+  "CellChat_RemoteSha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "source": "full installed native package; no LIANA CellChat wrapper; existing non-v3 libraries are read-only"
+}

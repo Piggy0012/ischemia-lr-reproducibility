@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-11T08:33:47.996646+00:00",
+  "repository": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_repository",
+  "checks": [
+    {
+      "name": "FILE_INDEX_all_bytes_and_complete_membership",
+      "status": "passed",
+      "detail": {
+        "files": 2481,
+        "bytes": 643359546
+      }
+    },
+    {
+      "name": "figure_source_closure",
+      "status": "passed",
+      "detail": {
+        "figures": 11,
+        "source_index_rows": 190,
+        "S6_rows": 13
+      }
+    },
+    {
+      "name": "CellChat_594_overlay_files_match_frozen_manifest",
+      "status": "passed",
+      "detail": {
+        "files": 594,
+        "bytes": 92507721
+      }
+    },
+    {
+      "name": "CellChat_summary_inputs_outputs_models_and_execution_source_hashes",
+      "status": "passed",
+      "detail": {
+        "scientific_input_file_sha256": 86,
+        "output_file_sha256": 16,
+        "input_CellChat_full_network_hashes": 11,
+        "fixed_preparation_raw_LIANA_inputs": 11
+      }
+    },
+    {
+      "name": "environment_metadata_archive_and_optional_Python_closure",
+      "status": "passed",
+      "detail": {
+        "files": 320,
+        "bytes": 2404882,
+        "R_binary_packages": 42,
+        "R_asset_CRC_passed": true,
+        "python_pins": 109,
+        "python_dependency_closure": 62
+      }
+    },
+    {
+      "name": "original_v2_payload_bound_to_original_release_ZIP",
+      "status": "passed",
+      "detail": {
+        "original_manifest_entries": 1596,
+        "original_v2_scientific_bytes_unchanged": true,
+        "entry_metadata_originals_preserved": [
+          ".zenodo.json",
+          "CITATION.cff",
+          "README.md"
+        ]
+      }
+    },
+    {
+      "name": "separate_full_official_CellChat_source_asset",
+      "status": "passed",
+      "detail": {
+        "source_commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+        "archive_members": 184,
+        "source_asset_sha256": "52a90ce9f121acd58c9e5b2542956de0f3d81ac9b10906454847946f289e0739",
+        "core_and_DB_bytes_match": true
+      }
+    },
+    {
+      "name": "cached_summary_portability_and_run_guide",
+      "status": "passed",
+      "detail": {
+        "assessment": "Static read-only source review plus all runtime input/source hashes; no recomputation was executed.",
+        "paths_relative_to_script_directory": true,
+        "default_uses_archived_fixed_keys_and_scores": true,
+        "default_calls_full_model_fit": false,
+        "cached_summary_has_closed_archived_inputs": true,
+        "recomputation_writes_expected_outputs_and_audit": true,
+        "independent_raw_normalization_audit_boundary": "The optional independent review additionally needs original raw gene-count caches, explicitly excluded from Git; this does not affect the cached summary command."
+      }
+    },
+    {
+      "name": "publication_index_not_changed_during_read_only_audit",
+      "status": "passed",
+      "detail": {
+        "index_sha256": "f536823fbcdd8fe2e70e252076981ee41ed9f0291c60a0c7af8f76c15a7f2050",
+        "repository_files_modified_by_audit": false
+      }
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "severity": "wording",
+      "file": "work/repro_v3_cellchat/README.md",
+      "detail": "The full-run guide says archived work/revision_env and work/r_runtime interpreters although runtimes are excluded; the equivalent-interpreter clause and environment guide supply the actual boundary. Prefer explicitly restored/matching interpreters when next editing this guide."
+    }
+  ],
+  "scientific_reanalysis_performed": false,
+  "model_fit_performed": false,
+  "repository_modified": false,
+  "baseline_2749_and_119_validation": "Separately run by root; fresh evidence at outputs/reproducibility_v3/validation/repository_checks/, not duplicated in this audit.",
+  "publication_snapshot_amendment": "Root updated only the v3 document-preparation source and RUNNING instructions during review. The initial expected total of 643358126 bytes was stale; the final index has 2481 files and 643359546 bytes. The initial failure report is retained outside the repository."
+}

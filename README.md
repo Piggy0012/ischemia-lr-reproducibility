@@ -4,9 +4,9 @@
 
 Sihuan Zhu, Anhui University of Chinese Medicine. [ORCID 0009-0005-9705-0585](https://orcid.org/0009-0005-9705-0585).
 
-This local release directory contains the complete audited v2 analysis payload and the v3 environment locks. The v3 manuscript and independent-framework supplement are synchronized only after their separate completion checks. The repository directory itself does not establish public deposition; citation metadata is prepared as version 3.0.0.
+This repository contains the audited analysis code, complete result tables, cell-summary counts, figure inputs and environment records for this reproducibility study. Version 3.0.0 preserves the original v2 numerical analysis and adds an independently executed native CellChat comparison. The public code/results release and the final manuscript are separate versioned artifacts.
 
-Start with [RUNNING.md](RUNNING.md), [ENVIRONMENT.md](ENVIRONMENT.md), the searchable [file index](FILE_INDEX.tsv), and the [ten-figure source index](FIGURE_SOURCE_INDEX.tsv). The existing [v2 result guide](outputs/reproducibility_v2/README.md) describes the statistical families and directory layout; its manuscripts are the retained v2 snapshot rather than the forthcoming v3 entry point. Earlier tests, figures and source drafts remain available under their original versioned paths.
+Start with [RUNNING.md](RUNNING.md), [ENVIRONMENT.md](ENVIRONMENT.md), the searchable [file index](FILE_INDEX.tsv), and the [eleven-figure source index](FIGURE_SOURCE_INDEX.tsv). The [v2 result guide](outputs/reproducibility_v2/README.md) describes the original statistical families; its manuscripts are retained historical drafts. Earlier tests and source drafts remain available under their original versioned paths. The v3 manuscript generators and audited bilingual text additions are included in `work/`.
 
 ## Direct data entry points
 
@@ -15,6 +15,11 @@ Start with [RUNNING.md](RUNNING.md), [ENVIRONMENT.md](ENVIRONMENT.md), the searc
 - Sorted data: [all 49,914 paired-pool gene effects and intervals](outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz), [fixed illustrative component effects](outputs/reproducibility_v2/tables/sorted_fixed_component_effects_ci.tsv), and [retained original tests](work/sorted_rna/diff_expression.tsv.gz).
 - [Null distributions and fixed candidate data](outputs/reproducibility_v2/tables/), [figure source data](outputs/reproducibility_v2/figure_source_data/), [all-library raw/corrected LIANA network exports](work/repro_liana_rank_diagnostic/), and [third-cohort networks](work/repro_third_liana/).
 - [Successful relocated cached reconstruction](outputs/reproducibility_v2/validation/relocated_cached_pipeline/) and [publication-package provenance](provenance/v2_archive/release_integrity.json).
+- Independent native CellChat: [run instructions](work/repro_v3_cellchat/README.md), [complete controlled models](work/repro_v3_cellchat/controlled/), [all comparison tables](work/repro_v3_cellchat/tables/), [S6 and source data](outputs/reproducibility_v3_cellchat/), and [independent numerical review](work/repro_v3_cellchat_independent_review.md).
+
+## Independent framework and candidate scope
+
+CellChat 2.2.0.9001 was executed as a complete native R package on the same eleven original libraries, using a controlled shared resource. Exact native ligand/receptor definitions retained 32 of the original 187 directed target entries; the remaining 155 were resource-definition exclusions. Relative scores used the same 1,222-entry network. Native inferred strength, an analyst-derived strength percentile, expression coavailability and unique-column LIANA RRA are separate outcomes, with complete and nonzero-effect denominators reported. These descriptive results do not inherit the original A/B/C permutation P values. Native all-row scores, internal P values, zero blocks and lossless RDS exports are retained.
 
 ## Interpretation and attribution
 
@@ -24,7 +29,7 @@ Statistical units, fixed candidate universes, both direction denominators, the j
 
 ## Included data and integrity
 
-The original ZIP's 1,596 payload files and 269 v3 environment files are retained. Native relative paths and all original scientific bytes are preserved. Repository-entry README, citation and Zenodo metadata are updated; their original versions are archived under [provenance/v2_archive](provenance/v2_archive/). The original `MANIFEST_SHA256.tsv` retains its original ZIP scope. [FILE_INDEX.tsv](FILE_INDEX.tsv) is the current repository inventory; it excludes itself and its external checksum to avoid circular hashing.
+The original ZIP's 1,596 payload files and 269 original v3 environment files are retained alongside the completed CellChat extension and its own environment manifest. Native relative paths and all original scientific bytes are preserved. Repository-entry README, citation and Zenodo metadata are updated; their original versions are archived under [provenance/v2_archive](provenance/v2_archive/). The original `MANIFEST_SHA256.tsv` retains its original ZIP scope. [FILE_INDEX.tsv](FILE_INDEX.tsv) is the current repository inventory; it excludes itself and its external checksum to avoid circular hashing.
 
 Raw GEO downloads and large corrected cell matrices are obtained separately using the preserved accession manifests and checksums. This repository includes their counts/aggregates, complete results and audits, not a duplicated runtime or raw-cell data mirror. No included file reaches GitHub's 100 MiB regular-Git threshold. The matrix asset exceeds 2 GiB as a single ZIP and needs Zenodo or smaller cohort assets; see the [size and environment report](work/repro_v3_environment/report.md).
 

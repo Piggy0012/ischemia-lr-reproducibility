@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Jin2025CellChat",
+    "title": "CellChat for systematic analysis of cell–cell communication from single-cell transcriptomics",
+    "authors": [
+      "Suoqin Jin",
+      "Maksim V. Plikus",
+      "Qing Nie"
+    ],
+    "year": 2025,
+    "journal": "Nature Protocols",
+    "volume": "20",
+    "issue": "1",
+    "pages": "180–219",
+    "article_number": null,
+    "doi": "10.1038/s41596-024-01045-4",
+    "url": "https://www.nature.com/articles/s41596-024-01045-4",
+    "role": "preferred_native_CellChat_v2_protocol",
+    "verified_source": "https://www.nature.com/articles/s41596-024-01045-4",
+    "metadata_source": "https://www.nature.com/articles/s41596-024-01045-4",
+    "verified_date": "2026-09-11",
+    "metadata_status": "official_publisher_full_html_and_citation_metadata_verified"
+  },
+  {
+    "id": "Jin2021CellChat",
+    "title": "Inference and analysis of cell-cell communication using CellChat",
+    "authors": [
+      "Suoqin Jin",
+      "Christian F. Guerrero-Juarez",
+      "Lihua Zhang",
+      "Ivan Chang",
+      "Raul Ramos",
+      "Chen-Hsiang Kuan",
+      "Peggy Myung",
+      "Maksim V. Plikus",
+      "Qing Nie"
+    ],
+    "year": 2021,
+    "journal": "Nature Communications",
+    "volume": "12",
+    "issue": "1",
+    "pages": null,
+    "article_number": "1088",
+    "doi": "10.1038/s41467-021-21246-9",
+    "url": "https://www.nature.com/articles/s41467-021-21246-9",
+    "role": "original_native_CellChat_model",
+    "verified_source": "https://www.nature.com/articles/s41467-021-21246-9",
+    "metadata_source": "https://www.nature.com/articles/s41467-021-21246-9",
+    "verified_date": "2026-09-11",
+    "metadata_status": "official_publisher_full_html_and_citation_metadata_verified"
+  }
+]

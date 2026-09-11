@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "fonts": [
+    {
+      "basefont": "/DKJQLE+ArialMT",
+      "descendant_fontfile2_present": true
+    },
+    {
+      "basefont": "/FAGARN+Arial-BoldMT",
+      "descendant_fontfile2_present": true
+    }
+  ],
+  "generic_checker_warning": "False positive: embedded FontFile2 present in Type0 descendant descriptors."
+}

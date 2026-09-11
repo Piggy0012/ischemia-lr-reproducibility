@@ -8,7 +8,7 @@
       "affiliation": "Anhui University of Chinese Medicine"
     }
   ],
-  "description": "Code, complete cached results, figure inputs, source audits and observed environment locks for a cross-cohort reproducibility case study in mouse cerebral ischemia. The study attributes the shared-score ranking correction to upstream LIANA PR #261 (merge d4211373692e7b9c10210488ccb1efe06452b097). Native LIANA 1.10.0 inference and fixed-commit aggregation-only replay are distinct scopes; a complete newer-version pipeline is not claimed. Raw GEO and corrected cell matrices are separate assets. The preserved v2 analysis snapshot and new environment records are explicitly versioned.",
+  "description": "Code, complete results, cell summaries, figure source data and observed environment locks for a cross-cohort reproducibility study in mouse cerebral ischemia. The analysis attributes the known shared-score ranking correction to scverse/liana PR #261, merge d4211373692e7b9c10210488ccb1efe06452b097. Full native LIANA 1.10.0 inference and fixed-commit aggregation-only replay are distinct execution scopes. A separate controlled-resource analysis executes native CellChat 2.2.0.9001 on all eleven original libraries, preserving full networks, native RDS scores, normalized sparse inputs, exact resource mappings and zero-effect diagnostics. The original v2 numerical analysis remains unchanged. Original project code is MIT licensed, derived tables/figures/manuscripts are CC BY 4.0, and third-party source/database files retain their own licenses. Large original GEO and corrected full-gene cell matrices are obtained separately; their aggregates and complete results are included.",
   "access_right": "open",
   "license": "MIT",
   "version": "3.0.0",
@@ -18,6 +18,7 @@
     "reproducibility",
     "ligand receptor",
     "LIANA",
-    "DecontX"
+    "DecontX",
+    "CellChat"
   ]
 }

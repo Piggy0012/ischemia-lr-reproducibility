@@ -1,0 +1,39 @@
+{
+  "dataset": "GSE245386",
+  "sample": "GSM7841722",
+  "condition": "Sham",
+  "config": "raw_primary",
+  "shape_gene_by_cell": [
+    865,
+    7045
+  ],
+  "nnz": 569881,
+  "context_counts": {
+    "Endothelial": 2238,
+    "Microglia": 1784,
+    "Oligodendrocyte": 828,
+    "Myeloid": 487,
+    "Smooth_muscle": 409,
+    "Astrocyte": 378,
+    "Pericyte": 307,
+    "Choroid": 155,
+    "Neuron": 135,
+    "Ependymal": 122,
+    "Erythroid": 87,
+    "Lymphocyte": 65,
+    "Fibroblast": 50
+  },
+  "n_input_all_genes": 32245,
+  "normalization": "Original LIANA float32 raw counts -> all-gene total scale 10000 -> log1p, then lossless float64 promotion for R",
+  "normalization_total_min": 500.0,
+  "normalization_total_max": 37530.0,
+  "source_raw_cache_meta_sha256": "8db5c6f4e5b4f2c48aa58fba482629dd2c2a22385bc97a76c0fd2daf26c31ea9",
+  "source_primary_audit_sha256": "0e666dfc302586585e8fc59d10d431a3afc6ba649d0c8541aed830b37b9fce0c",
+  "resource_sha256": "023596afec94f1dc06529d3432360d724dc8791ff2ce38b20b05fefaeb52daed",
+  "frozen_plan_sha256": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+  "files_sha256": {
+    "cells.tsv.gz": "0076e42572173a416e7ab696d9a1e1b1b611583af0e727fed3fbb60856277ecc",
+    "genes.tsv": "c1bd568dfd32945aa16b4614b743dcb5cd94ba10926cd43fb3437484825eea65",
+    "logcp10k_signal.mtx.gz": "888fcd5d1fd03b24906af5589be113b981a738115f1ce83ef2c77bb4ff93bf41"
+  }
+}

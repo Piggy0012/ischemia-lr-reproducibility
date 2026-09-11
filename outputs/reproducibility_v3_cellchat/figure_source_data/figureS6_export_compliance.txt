@@ -1,0 +1,15 @@
+
+--- outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.png ---
+  category: raster  ext: png  size: 444336 B
+  pixels: 2880x2480  dpi: (399.9992, 399.9992)
+  [PASS] �����⡣
+
+--- outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.pdf ---
+  category: vector  ext: pdf  size: 53873 B
+  [WARN] PDF �������������δǶ��: /DKJQLE+ArialMT, /FAGARN+Arial-BoldMT. �������˵��Դ򿪱��������塣
+  >>> verdict: WARN
+
+--- outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.svg ---
+  category: vector  ext: svg  size: 52939 B
+  [PASS] �����⡣
+

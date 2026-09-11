@@ -1,11 +1,13 @@
 cff-version: 1.2.0
 message: "Please cite this versioned analysis archive and the original GEO studies."
 type: software
-title: "Expression-level concordance and implementation sensitivity of ligand鈥搑eceptor priority rankings in mouse cerebral ischemia"
+title: "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia"
 version: 3.0.0
 authors:
   - family-names: "Zhu"
     given-names: "Sihuan"
     affiliation: "Anhui University of Chinese Medicine"
     orcid: "https://orcid.org/0009-0005-9705-0585"
-abstract: "Cross-cohort reproducibility analysis with native LIANA 1.10.0 inference and aggregation-only replay of the known upstream correction in PR #261, commit d4211373692e7b9c10210488ccb1efe06452b097. Complete newer-version pipeline equivalence is not claimed."
+abstract: "Code and complete results for expression-effect and ligand-receptor priority reproducibility in mouse cerebral ischemia; includes native LIANA 1.10.0, aggregation-only replay of the known upstream correction, and a controlled native CellChat extension."
+repository-code: "https://github.com/Piggy0012/ischemia-lr-reproducibility"
+url: "https://github.com/Piggy0012/ischemia-lr-reproducibility"

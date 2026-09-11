@@ -1,0 +1,688 @@
+"Package"	"LibPath"	"Version"	"Priority"	"Depends"	"Imports"	"LinkingTo"	"Suggests"	"Enhances"	"License"	"License_is_FOSS"	"License_restricts_use"	"OS_type"	"MD5sum"	"NeedsCompilation"	"Built"	"Published"	"Repository"	"RemoteUrl"	"RemoteSha"	"biocViews"
+"BH"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.90.0-1"							"BSL-1.0"					"no"	"R 4.6.1; ; 2026-08-19 11:46:54 UTC; windows"		"CRAN"			
+"Biobase"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.72.0"		"R (>= 2.10), BiocGenerics (>= 0.27.1), utils"	"methods"		"tools, tkWidgets, ALL, RUnit, golubEsets, BiocStyle, knitr,
+limma"		"Artistic-2.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:50:27 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/Biobase"	"65ae7a98395e50568bfb7a6b6367dcd967d89e1a"	"Infrastructure"
+"BiocGenerics"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.58.1"		"R (>= 4.0.0), methods, utils, graphics, stats, generics"	"methods, utils, graphics, stats"		"Biobase, S4Vectors, IRanges, S4Arrays, SparseArray,
+DelayedArray, HDF5Array, GenomicRanges, pwalign, Rsamtools,
+AnnotationDbi, affy, affyPLM, DESeq2, flowClust, MSnbase,
+annotate, MultiAssayExperiment, RUnit"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-05-14 10:20:17 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/BiocGenerics"	"995c7b312290a0776eb7c575b88d6c4d3f8d7524"	"Infrastructure"
+"BiocManager"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.30.27"			"utils"		"BiocVersion, BiocStyle, remotes, rmarkdown, testthat, withr,
+curl, knitr"		"Artistic-2.0"					"no"	"R 4.6.1; ; 2026-09-09 00:59:28 UTC; windows"		"CRAN"			
+"BiocNeighbors"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.6.0"			"Rcpp, methods"	"Rcpp, assorthead, beachmat"	"Matrix, DelayedArray, beachmat, BiocParallel, testthat,
+BiocStyle, knitr, rmarkdown"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-10 09:38:36 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/BiocNeighbors"	"221e565acfb3d54d1cf86c69b4cb72a78c9e9cc5"	"Clustering, Classification"
+"BiocParallel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.46.0"		"methods, R (>= 4.1.0)"	"stats, utils, futile.logger, parallel, snow, codetools"	"BH (>= 1.87.0), cpp11"	"BiocGenerics, tools, foreach, BBmisc, doParallel,
+GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle,
+knitr, batchtools, data.table"	"Rmpi"	"GPL-2 | GPL-3 | BSL-1.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 15:02:21 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/BiocParallel"	"a331dfd2695daec754304505bdbd7358eef009fa"	"Infrastructure"
+"BiocSingular"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.28.0"			"BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+BiocParallel, ScaledMatrix, irlba, rsvd, Rcpp, beachmat (>=
+2.25.1)"	"Rcpp, beachmat, assorthead"	"testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:02:33 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/BiocSingular"	"675ff544b7bab511b17d6b52ef390815b4aa3bc0"	"Software, DimensionReduction, PrincipalComponent"
+"BiocVersion"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.23.1"		"R (>= 4.4.0)"					"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-03-01 08:32:11 UTC; windows"		"https://bioc.r-universe.dev"	"https://github.com/bioc/BiocVersion"	"252d7c8f03a39a9b83f6de7e9dbf9a5ee6584365"	"Infrastructure"
+"CellChat"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.2.0.9001"		"R (>= 3.6.0),dplyr,igraph,ggplot2"	"future, future.apply, pbapply, irlba, NMF (>= 0.23.0),
+ggalluvial, stringr, svglite, Matrix, ggrepel, circlize (>=
+0.4.12), RColorBrewer, cowplot, methods, ComplexHeatmap,
+RSpectra, Rcpp, reticulate, scales, sna, reshape2, FNN, shape,
+BiocGenerics, magrittr, patchwork, colorspace, plyr, ggpubr,
+ggnetwork, BiocNeighbors, plotly,shiny,bslib, collapse"	"Rcpp, RcppEigen"	"rmarkdown, knitr, roxygen2, Seurat (>= 4.0.0),
+SingleCellExperiment, SummarizedExperiment,
+purrr,uwot,gg.gap,wordcloud,bsicons,presto,tidyverse,tidyr,rlang"		"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-03 13:38:57 UTC; windows"		"https://blaserlab.r-universe.dev"	"https://github.com/jinworks/CellChat"	"75253cd0c9e68410e6e721a6d3a0419a1d7e358f"	
+"ComplexHeatmap"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.28.0"		"R (>= 4.0.0), methods, grid, graphics, stats, grDevices"	"circlize (>= 0.4.14), GetoptLong, colorspace, clue,
+RColorBrewer, GlobalOptions (>= 0.1.0), png, digest, IRanges,
+matrixStats, foreach, doParallel, codetools"		"testthat (>= 1.0.0), knitr, markdown, dendsort, jpeg, tiff,
+fastcluster, EnrichedHeatmap, dendextend (>= 1.0.1), grImport,
+grImport2, glue, GenomicRanges, gridtext, pheatmap (>= 1.0.12),
+gridGraphics, gplots, rmarkdown, Cairo, magick"		"MIT + file LICENSE"					"no"	"R 4.6.0; ; 2026-05-01 09:32:49 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/ComplexHeatmap"	"ceecd5f835393e97d5902ceaabca6e66bd648263"	"Software, Visualization, Sequencing"
+"DelayedArray"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.38.2"		"R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+0.53.3), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.47.6),
+IRanges (>= 2.17.3), S4Arrays (>= 1.9.3), SparseArray (>=
+1.7.5)"	"stats"		"BiocParallel, HDF5Array (>= 1.17.12), ZarrArray, genefilter,
+SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+knitr, rmarkdown, BiocStyle, RUnit"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-05-26 21:59:34 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/DelayedArray"	"63285a4ab9f3b74c894e5f709e9cde408fca78c0"	"Infrastructure, DataRepresentation, Annotation,
+GenomeAnnotation"
+"Deriv"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"4.3.5"		"Rcpp, R (>= 4.5)"	"methods"	"Rcpp"	"testthat (>= 0.11.0)"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-03 23:51:16 UTC; windows"		"CRAN"			
+"FNN"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1.4.1"		"R (>= 4.0.0)"			"chemometrics, mvtnorm"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:22 UTC; windows"		"CRAN"			
+"Formula"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.2-6"		"R (>= 2.0.0), stats"			"knitr, rmarkdown"		"GPL-2 | GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 00:54:00 UTC; windows"		"CRAN"			
+"GenomicRanges"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.64.0"		"R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.53.2),
+S4Vectors (>= 0.45.2), IRanges (>= 2.43.6), Seqinfo (>= 0.99.3)"	"utils, stats"		"GenomeInfoDb, Biobase, AnnotationDbi, annotate, Biostrings
+(>= 2.77.2), SummarizedExperiment (>= 1.39.1), Rsamtools,
+GenomicAlignments, BSgenome, GenomicFeatures, UCSC.utils,
+txdbmaker, Gviz, VariantAnnotation, AnnotationHub, DESeq2,
+DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg38,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart51,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg38.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+rmarkdown, BiocStyle"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-04-29 15:12:33 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/GenomicRanges"	"ac531f1ce56cc9119075d1c6862c68ad33f98536"	"Genetics, Infrastructure, DataRepresentation, Sequencing,
+Annotation, GenomeAnnotation, Coverage"
+"GetoptLong"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1.1"		"R (>= 4.0.0)"	"rjson, GlobalOptions (>= 0.1.0), methods, crayon"		"testthat (>= 1.0.0), knitr, markdown, rmarkdown"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:10:17 UTC; windows"		"CRAN"			
+"GlobalOptions"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1.4"		"R (>= 3.3.0), methods"	"utils"		"testthat (>= 1.0.0), knitr, markdown, GetoptLong, rmarkdown"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:49 UTC; windows"		"CRAN"			
+"IRanges"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.46.0"		"R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.53.2),
+S4Vectors (>= 0.47.6)"	"stats4"	"S4Vectors"	"XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle"		"Artistic-2.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:31:00 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/IRanges"	"db589cc82f235a7be2d5f2bc6971af1fa2fd03b5"	"Infrastructure, DataRepresentation"
+"KernSmooth"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"2.23-26"	"recommended"	"R (>= 2.5.0), stats"			"MASS, carData"		"Unlimited"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:40 UTC; windows"		"CRAN"			
+"MASS"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"7.3-65"	"recommended"	"R (>= 4.4.0), grDevices, graphics, stats, utils"	"methods"		"lattice, nlme, nnet, survival"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:25 UTC; windows"		"CRAN"			
+"MCMCprecision"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.2"		"R (>= 4.0.0)"	"Rcpp, parallel, utils, stats, Matrix, combinat"	"Rcpp, RcppArmadillo, RcppProgress, RcppEigen"	"testthat, R.rsp"		"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:13:14 UTC; windows"		"CRAN"			
+"Matrix"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"1.7-5"	"recommended"	"R (>= 4.4), methods"	"grDevices, graphics, grid, lattice, stats, utils"		"MASS, datasets, sfsmisc, tools"	"SparseM, graph"	"GPL (>= 2) | file LICENCE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:58 UTC; windows"		"CRAN"			
+"MatrixGenerics"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.24.0"		"matrixStats (>= 1.4.1)"	"methods"		"Matrix, sparseMatrixStats, SparseArray, DelayedArray,
+DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-04-29 11:26:40 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/MatrixGenerics"	"df689091cb9c520a1a0dd205daca647a23bc415b"	"Infrastructure, Software"
+"MatrixModels"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.5-4"		"R (>= 3.6.0)"	"stats, methods, Matrix (>= 1.6-0), Matrix(< 1.8-0)"				"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows"		"CRAN"			
+"NMF"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.28"		"R (>= 3.0.0), methods, utils, registry, rngtools (>= 1.2.3),
+cluster"	"graphics, stats, stringr (>= 1.0.0), digest, grid, grDevices,
+gridBase, colorspace, RColorBrewer, foreach, doParallel,
+ggplot2, reshape2, Biobase, codetools, BiocManager"		"fastICA, doMPI, bigmemory (>= 4.2), synchronicity(>= 1.3.2),
+corpcor, xtable, devtools, knitr, RUnit"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:10:05 UTC; windows"		"CRAN"			
+"QuickJSR"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.11.0"					"knitr, rmarkdown, tinytest"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:57:27 UTC; windows"		"CRAN"			
+"R6"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.6.1"		"R (>= 3.6)"			"lobstr, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows"		"CRAN"			
+"RANN"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.6.3"					"testthat"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:07 UTC; windows"		"CRAN"			
+"RColorBrewer"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1-3"		"R (>= 2.0.0)"					"Apache License 2.0"					"no"	"R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows"		"CRAN"			
+"ROCR"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0-12"		"R (>= 3.6)"	"methods, graphics, grDevices, gplots, stats"		"testthat, knitr, rmarkdown"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 01:56:44 UTC; windows"		"CRAN"			
+"RSpectra"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.16-2"		"R (>= 3.0.2)"	"Matrix (>= 1.1-0), Rcpp (>= 0.11.5)"	"Rcpp, RcppEigen (>= 0.3.3.3.0)"	"knitr, rmarkdown, prettydoc"		"MPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:22:20 UTC; windows"		"CRAN"			
+"Rcpp"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1.2"		"R (>= 3.5.0)"	"methods, utils"		"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows"		"CRAN"			
+"RcppAnnoy"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.0.23"		"R (>= 3.1)"	"methods, Rcpp"	"Rcpp"	"tinytest"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:56 UTC; windows"		"CRAN"			
+"RcppArmadillo"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"15.6.0-1"		"R (>= 3.3.0)"	"Rcpp (>= 1.1.1), stats, utils, methods"	"Rcpp"	"tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:59 UTC; windows"		"CRAN"			
+"RcppEigen"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.4.0.2"		"R (>= 3.6.0)"	"Rcpp (>= 0.11.0), stats, utils"	"Rcpp"	"Matrix, inline, tinytest, pkgKitten, microbenchmark"		"GPL (>= 2) | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows"		"CRAN"			
+"RcppHNSW"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.7.0"			"methods, Rcpp (>= 0.11.3)"	"Rcpp"	"covr, testthat"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:03 UTC; windows"		"CRAN"			
+"RcppML"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.7.1"			"Rcpp, Matrix, methods, stats"	"Rcpp, RcppEigen"	"knitr, rmarkdown, testthat (>= 3.0.0)"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:58:09 UTC; windows"		"CRAN"			
+"RcppParallel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"6.2.1"		"R (>= 3.6.0)"			"Rcpp, knitr, rmarkdown"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:53 UTC; windows"		"CRAN"			
+"RcppProgress"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.2"					"RcppArmadillo, devtools, roxygen2, testthat"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows"		"CRAN"			
+"RcppTOML"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.3"		"R (>= 3.3.0)"	"Rcpp (>= 1.0.8)"	"Rcpp"	"tinytest"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:36 UTC; windows"		"CRAN"			
+"Rdpack"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.6.6"		"R (>= 2.15.0), methods"	"tools, utils, rbibutils (> 2.4)"		"grDevices, testthat, rstudioapi, rprojroot, gbRd"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows"		"CRAN"			
+"Rtsne"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.17"			"Rcpp (>= 0.11.0), stats"	"Rcpp"	"irlba, testthat"		"file LICENSE"	"yes"				"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:00:00 UTC; windows"		"CRAN"			
+"S4Arrays"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.12.0"		"R (>= 4.3.0), methods, Matrix, abind, BiocGenerics (>=
+0.45.2), S4Vectors (>= 0.47.6), IRanges"	"stats"	"S4Vectors"	"BiocParallel, SparseArray (>= 0.0.4), DelayedArray,
+HDF5Array, testthat, knitr, rmarkdown, BiocStyle"		"Artistic-2.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:28:31 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/S4Arrays"	"b1246fd0b81ac137623ee1c0d6587a59e8ad1073"	"Infrastructure, DataRepresentation"
+"S4Vectors"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.50.2"		"R (>= 4.1.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.53.2)"			"IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle,
+knitr"		"Artistic-2.0"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-20 20:13:31 UTC; windows"		"Bioconductor 3.23"	"https://github.com/bioc/S4Vectors"	"9bd354f3a5b9fd19f549b472e24518328aa2abf3"	"Infrastructure, DataRepresentation"
+"S7"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.2"		"R (>= 3.5.0)"	"utils"		"bench, callr, covr, knitr, methods, rmarkdown, testthat (>=
+3.2.0), tibble"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"ScaledMatrix"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.20.0"			"methods, Matrix, S4Vectors, DelayedArray"		"testthat, BiocStyle, knitr, rmarkdown, BiocSingular,
+DelayedMatrixStats"		"GPL-3"					"no"	"R 4.6.0; ; 2026-04-29 13:53:54 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/ScaledMatrix"	"94df0ea72694e0403c34536ec15ffb459d70662f"	"Software, DataRepresentation"
+"Seqinfo"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.0"		"methods, BiocGenerics"	"stats, S4Vectors (>= 0.47.6), IRanges"		"GenomeInfoDb, GenomicRanges, BSgenome, GenomicFeatures,
+TxDb.Hsapiens.UCSC.hg38.knownGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+BSgenome.Hsapiens.UCSC.hg38, BSgenome.Celegans.UCSC.ce2, RUnit,
+knitr, rmarkdown, BiocStyle"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-05-04 08:56:19 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/Seqinfo"	"345dd61b77c8ff7e90ecc587d7b32c4d7189f690"	"Infrastructure, DataRepresentation, GenomeAssembly,
+Annotation, GenomeAnnotation"
+"Seurat"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"5.5.1"		"R (>= 4.0.0), methods, SeuratObject (>= 5.0.2)"	"cluster, cowplot, fastDummies, fitdistrplus, future,
+future.apply, generics (>= 0.1.3), ggplot2 (>= 3.3.0), ggrepel,
+ggridges, graphics, grDevices, grid, httr, ica, igraph, irlba,
+jsonlite, KernSmooth, lifecycle, lmtest, MASS, Matrix (>=
+1.5-0), matrixStats, miniUI, patchwork, pbapply, plotly (>=
+4.9.0), png, progressr, RANN, RColorBrewer, Rcpp (>= 1.0.7),
+RcppAnnoy (>= 0.0.18), RcppHNSW, reticulate, rlang, ROCR,
+RSpectra, Rtsne, scales, scattermore (>= 1.2), sctransform (>=
+0.4.1), shiny, spatstat.explore, spatstat.geom, stats, tibble,
+tools, utils, uwot (>= 0.1.10)"	"Rcpp (>= 0.11.0), RcppEigen, RcppProgress"	"ape, arrow, base64enc, Biobase, BiocGenerics, BPCells,
+data.table, DESeq2, DelayedArray, enrichR, GenomicRanges,
+GenomeInfoDb, glmGamPoi, ggrastr, harmony, hdf5r, IRanges,
+leidenbase, limma, magrittr, MAST, metap, mixtools, monocle,
+presto, rsvd, R.utils, Rfast2, rtracklayer, S4Vectors, sf (>=
+1.0.0), sp, SingleCellExperiment, SummarizedExperiment,
+testthat, VGAM"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 04:15:51 UTC; windows"		"CRAN"			
+"SeuratObject"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"5.4.0"		"R (>= 4.1.0), sp (>= 1.5.0)"	"future, future.apply, generics, grDevices, grid, lifecycle,
+Matrix (>= 1.6.4), methods, progressr, Rcpp (>= 1.0.5), rlang
+(>= 0.4.7), spam, stats, tools, utils"	"Rcpp, RcppEigen"	"BPCells, DelayedArray, fs (>= 1.5.2), sf (>= 1.0.0), ggplot2,
+HDF5Array, rmarkdown, testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:24:14 UTC; windows"		"CRAN"			
+"SingleCellExperiment"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.34.0"		"SummarizedExperiment"	"methods, utils, stats, S4Vectors, BiocGenerics, GenomicRanges,
+DelayedArray"		"testthat, BiocStyle, knitr, rmarkdown, Matrix, scRNAseq (>=
+2.9.1), Rtsne"		"GPL-3"					"no"	"R 4.6.0; ; 2026-04-29 15:26:55 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/SingleCellExperiment"	"f92b7823acc328c8b65259d38ada6ce401bd80cb"	"ImmunoOncology, DataRepresentation, DataImport,
+Infrastructure, SingleCell"
+"SparseArray"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.12.2"		"R (>= 4.3.0), methods, Matrix, BiocGenerics (>= 0.43.1),
+MatrixGenerics (>= 1.11.1), S4Vectors (>= 0.43.2), S4Arrays (>=
+1.11.1)"	"utils, stats, matrixStats, IRanges, XVector"	"S4Vectors, IRanges, XVector"	"HDF5Array, ExperimentHub, testthat, knitr, rmarkdown,
+BiocStyle"		"Artistic-2.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-01 20:55:46 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/SparseArray"	"dd96584c2f1284fe00041e392b5bed5749b4e42d"	"Infrastructure, DataRepresentation"
+"SparseM"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.84-2"		"R (>= 2.15), methods"	"graphics, stats, utils"		"knitr"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows"		"CRAN"			
+"StanHeaders"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.39.1"		"R (>= 3.4.0)"	"RcppParallel (>= 5.1.4)"	"RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)"	"Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+methods, rstan, withr"		"BSD_3_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:23:03 UTC; windows"		"CRAN"			
+"SummarizedExperiment"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.42.0"		"R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+GenomicRanges (>= 1.61.4), Biobase"	"utils, stats, tools, Matrix, BiocGenerics (>= 0.51.3),
+S4Vectors (>= 0.33.7), IRanges (>= 2.23.9), Seqinfo, S4Arrays
+(>= 1.1.1), DelayedArray (>= 0.31.12)"		"GenomeInfoDb (>= 1.45.5), rhdf5, HDF5Array (>= 1.7.5),
+annotate, AnnotationDbi, GenomicFeatures, SparseArray,
+SingleCellExperiment, TxDb.Hsapiens.UCSC.hg19.knownGene,
+hgu95av2.db, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown,
+RUnit, testthat, digest"		"Artistic-2.0"					"no"	"R 4.6.0; ; 2026-04-29 11:30:24 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/SummarizedExperiment"	"38d319f79612b5bc873e609cb909f9165345f2b1"	"Genetics, Infrastructure, Sequencing, Annotation, Coverage,
+GenomeAnnotation"
+"WriteXLS"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"6.8.0"			"utils"				"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-08-19 11:50:21 UTC; windows"		"CRAN"			
+"XVector"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.52.0"		"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.43.8)"	"methods, utils, stats, tools, BiocGenerics, S4Vectors, IRanges"	"S4Vectors, IRanges"	"Biostrings, drosophila2probe, RUnit"		"Artistic-2.0"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:56:17 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/XVector"	"fa5f5a6296e984f5cb90b52bff781e710d999111"	"Infrastructure, DataRepresentation"
+"abind"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4-8"		"R (>= 1.5.0)"	"methods, utils"				"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows"		"CRAN"			
+"askpass"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.1"			"sys (>= 2.1)"		"testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows"		"CRAN"			
+"assorthead"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.6.3"					"knitr, rmarkdown, BiocStyle"		"MIT + file LICENSE"					"no"	"R 4.6.0; ; 2026-05-25 11:54:42 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/assorthead"	"9ee2dd8e2852145d3755b4bebc002b1328bb02e0"	"SingleCell, QualityControl, Normalization,
+DataRepresentation, DataImport, DifferentialExpression,
+Alignment"
+"backports"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.1"		"R (>= 3.0.0)"					"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:10 UTC; windows"		"CRAN"			
+"base"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"				"methods"	"chron, date, round"	"Part of R 4.6.1"						"R 4.6.1; ; 2026-06-24 08:20:51 UTC; windows"					
+"base64enc"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1-6"		"R (>= 2.9.0)"				"png"	"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows"		"CRAN"			
+"beachmat"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.28.0"			"methods, DelayedArray (>= 0.27.2), SparseArray, BiocGenerics,
+Matrix, Rcpp"	"Rcpp, assorthead (>= 1.5.4)"	"testthat, BiocStyle, knitr, rmarkdown, rcmdcheck,
+BiocParallel, HDF5Array, beachmat.hdf5"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-01 09:36:42 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/beachmat"	"a5ec637c732e3ce1e978036e67f5030253503624"	"DataRepresentation, DataImport, Infrastructure"
+"beeswarm"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.0"			"stats, graphics, grDevices, utils"				"Artistic-2.0"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows"		"CRAN"			
+"bitops"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1-0"							"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:54 UTC; windows"		"CRAN"			
+"bluster"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.22.0"			"stats, methods, utils, cluster, Matrix, Rcpp, igraph,
+S4Vectors, BiocParallel, BiocNeighbors"	"Rcpp, assorthead"	"knitr, rmarkdown, testthat, BiocStyle, dynamicTreeCut,
+scRNAseq, scuttle, scater, scran, pheatmap, viridis, mbkmeans,
+kohonen, apcluster, DirichletMultinomial, vegan, fastcluster"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 17:58:04 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/bluster"	"c564e528da63e928b8a22e01bf80c148ce8042a3"	"ImmunoOncology, Software, GeneExpression, Transcriptomics,
+SingleCell, Clustering"
+"boot"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"1.3-32"	"recommended"	"R (>= 3.0.0), graphics, stats"			"MASS, survival"		"Unlimited"					"no"	"R 4.6.1; ; 2026-06-24 08:32:04 UTC; windows"		"CRAN"			
+"broom"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.0.13"		"R (>= 4.1)"	"backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue,
+lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0),
+tidyr (>= 1.0.0)"		"AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot,
+btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster,
+cmprsk, coda, covr, drc, e1071, emmeans, epiR (>= 2.0.85), ergm
+(>= 3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack,
+ggplot2, glmnet, glmnetUtils, gmm, Hmisc, interp, irlba,
+joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18),
+leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx,
+mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz,
+multcomp, network, nnet, ordinal, plm, poLCA, psych, quantreg,
+rmarkdown, robust, robustbase, rsample, sandwich, spatialreg,
+spdep (>= 1.1), speedglm, spelling, stats4, survey, survival
+(>= 3.6-4), systemfit, testthat (>= 3.0.0), tseries, vars, zoo"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 04:11:56 UTC; windows"		"CRAN"			
+"bslib"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.12.0"		"R (>= 2.10)"	"base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools
+(>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise
+(>= 2.0.1), mime, rlang, sass (>= 0.4.9)"		"brand.yml, bsicons, curl, fontawesome, future, ggplot2,
+knitr, lattice, magrittr, rappdirs, rmarkdown (>= 2.7), shiny
+(>= 1.11.1.9000), testthat, thematic, tools, utils, withr, yaml"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:27 UTC; windows"		"CRAN"			
+"caTools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.18.4"		"R (>= 3.6.0)"	"bitops"		"MASS, rpart"		"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows"		"CRAN"			
+"cachem"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.1.0"			"rlang, fastmap (>= 1.2.0)"		"testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows"		"CRAN"			
+"callr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.8.0"		"R (>= 3.4)"	"otel (>= 0.2.0), processx (>= 3.6.1), R6, utils"		"asciicast (>= 2.3.1), carrier, cli (>= 1.1.0), otelsdk (>=
+0.2.0), ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>=
+2.3.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows"		"CRAN"			
+"car"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"3.1-5"		"R (>= 3.5.0), carData (>= 3.0-0)"	"abind, Formula, MASS, mgcv, nnet, pbkrtest (>= 0.4-4),
+quantreg, grDevices, utils, stats, graphics, lme4 (>=
+1.1-27.1), nlme, scales"		"alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+MatrixModels, ordinal, plotrix, mvtnorm, rgl (>= 0.111.3), rio,
+sandwich, SparseM, survival, survey"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 04:53:17 UTC; windows"		"CRAN"			
+"carData"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"3.0-6"		"R (>= 3.5.0)"			"car (>= 3.0-0)"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows"		"CRAN"			
+"celda"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.28.0"		"R (>= 4.0), SingleCellExperiment, Matrix"	"plyr, foreach, ggplot2, RColorBrewer, grid, scales, gtable,
+grDevices, graphics, matrixStats, doParallel, digest, methods,
+reshape2, S4Vectors, data.table, Rcpp, RcppEigen, uwot,
+enrichR, SummarizedExperiment, MCMCprecision, ggrepel, Rtsne,
+withr, scater (>= 1.14.4), scran, dbscan, DelayedArray,
+stringr, ComplexHeatmap, gridExtra, circlize, dendextend,
+ggdendro, pROC"	"Rcpp, RcppEigen"	"testthat, knitr, roxygen2, rmarkdown, biomaRt, covr,
+BiocManager, BiocStyle, TENxPBMCData, singleCellTK,
+M3DExampleData"		"MIT + file LICENSE"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 20:50:06 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/celda"	"ac7591c7cd29b140f8ccd4a0c8b9ace33ea8eb79"	"SingleCell, GeneExpression, Clustering, Sequencing,
+Bayesian, ImmunoOncology, DataImport"
+"checkmate"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.3.4"		"R (>= 3.0.0)"	"backports (>= 1.1.0), utils"		"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+3.0.4), tinytest (>= 1.1.0), tibble"		"BSD_3_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:58 UTC; windows"		"CRAN"			
+"circlize"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.18"		"R (>= 4.0.0), graphics"	"GlobalOptions (>= 0.1.2), shape, grDevices, utils, stats,
+colorspace, methods, grid"		"knitr, dendextend (>= 1.0.1), ComplexHeatmap (>= 2.0.0),
+gridBase, png, markdown, bezier, covr, rmarkdown"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows"		"CRAN"			
+"class"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"7.3-23"	"recommended"	"R (>= 3.0.0), stats, utils"	"MASS"				"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:04 UTC; windows"		"CRAN"			
+"cli"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.6.6"		"R (>= 3.4)"	"utils"		"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, processx, ps (>=
+1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"clue"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3-68"		"R (>= 3.2.0)"	"stats, cluster, graphics, methods"		"e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations"	"RWeka, ape, cba, cclust, flexclust, flexmix, kernlab, mclust,
+movMF, modeltools"	"GPL-2"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:42 UTC; windows"		"CRAN"			
+"cluster"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"2.1.8.2"	"recommended"	"R (>= 3.5.0)"	"graphics, grDevices, stats, utils"		"MASS, Matrix"	"mvoutlier, fpc, ellipse, sfsmisc"	"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:11 UTC; windows"		"CRAN"			
+"coda"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.19-4.1"		"R (>= 2.14.0)"	"lattice"				"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows"		"CRAN"			
+"codetools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"0.2-20"	"recommended"	"R (>= 2.1)"					"GPL"					"no"	"R 4.6.1; ; 2026-06-24 08:32:25 UTC; windows"		"CRAN"			
+"collapse"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.1.8"		"R (>= 4.1.0)"	"Rcpp (>= 1.0.1)"	"Rcpp"	"fastverse, data.table, magrittr, kit, xts, zoo, plm, fixest,
+vars, RcppArmadillo, RcppEigen, tibble, dplyr, ggplot2, scales,
+microbenchmark, testthat, covr, knitr, rmarkdown, withr, bit64"		"GPL (>= 2) | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows"		"CRAN"			
+"colorspace"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.1-3"		"R (>= 3.0.0), methods"	"graphics, grDevices, stats"		"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson"		"BSD_3_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"combinat"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.0-8"							"GPL-2"						"R 4.6.1; ; 2026-08-19 11:49:03 UTC; windows"		"CRAN"			
+"commonmark"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.0"					"curl, testthat, xml2"		"BSD_2_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:03 UTC; windows"		"CRAN"			
+"compiler"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"						"Part of R 4.6.1"						"R 4.6.1; ; 2026-06-24 08:14:21 UTC; windows"					
+"corrplot"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.95"					"seriation, knitr, RColorBrewer, rmarkdown, magrittr,
+prettydoc, testthat"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:55:05 UTC; windows"		"CRAN"			
+"cowplot"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.0"		"R (>= 3.5.0)"	"ggplot2 (>= 3.5.2), grid, gtable, grDevices, methods, rlang,
+scales"		"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram"		"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 03:03:39 UTC; windows"		"CRAN"			
+"cpp11"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.5.5"		"R (>= 4.0.0)"			"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat (>= 3.2.0), tibble, utils, vctrs, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"crayon"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.3"			"grDevices, methods, utils"		"mockery, rstudioapi, testthat, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:16 UTC; windows"		"CRAN"			
+"crosstalk"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.2"			"htmltools (>= 0.3.6), jsonlite, lazyeval, R6"		"bslib, ggplot2, sass, shiny, testthat (>= 2.1.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:58 UTC; windows"		"CRAN"			
+"curl"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"8.0.0"		"R (>= 3.0.0)"			"spelling, testthat (>= 1.0.0), knitr, jsonlite, later,
+rmarkdown, httpuv (>= 1.4.4), webutils"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:15 UTC; windows"		"CRAN"			
+"data.table"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.18.6.1"		"R (>= 3.4.0)"	"methods"		"bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts,
+zoo (>= 1.8-1), yaml, knitr, markdown"		"MPL-2.0 | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows"		"CRAN"			
+"datasets"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"						"Part of R 4.6.1"						"R 4.6.1; ; 2026-06-24 08:19:02 UTC; windows"					
+"dbscan"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.6"		"R (>= 3.2.0)"	"generics, graphics, Rcpp (>= 1.0.0), stats"	"Rcpp"	"dendextend, fpc, igraph, knitr, microbenchmark, rmarkdown,
+testthat (>= 3.0.0), tibble"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:56:08 UTC; windows"		"CRAN"			
+"decontX"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.10.0"		"R (>= 4.3.0)"	"celda, dbscan, DelayedArray, ggplot2, Matrix (>= 1.5.3),
+MCMCprecision, methods, patchwork, plyr, Rcpp (>= 0.12.0),
+RcppParallel (>= 5.0.1), reshape2, rstan (>= 2.18.1),
+rstantools (>= 2.2.0), S4Vectors, scater, Seurat,
+SingleCellExperiment, SummarizedExperiment, withr"	"BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>=
+2.18.0)"	"BiocStyle, dplyr, knitr, rmarkdown, scran,
+SingleCellMultiModal, TENxPBMCData, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-01 10:15:47 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/decontX"	"ffb4063aff1ced121ab403769911f9cba1b8a0c0"	"SingleCell, Bayesian"
+"deldir"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0-4"		"R (>= 3.5.0)"	"graphics, grDevices"		"polyclip"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:39 UTC; windows"		"CRAN"			
+"dendextend"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.19.1"		"R (>= 3.0.0)"	"utils, stats, datasets, magrittr (>= 1.0.1), ggplot2, viridis"		"knitr, rmarkdown, testthat, seriation, colorspace, ape,
+microbenchmark, gplots, heatmaply, dynamicTreeCut, pvclust,
+corrplot, DendSer, MASS, cluster, fpc, circlize (>= 0.2.5),
+covr"	"ggdendro, dendroextras, Hmisc, data.table, rpart, WGCNA,
+moduleColor, distory, phangorn, zoo"	"GPL-2 | GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 03:04:42 UTC; windows"		"CRAN"			
+"desc"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.3"		"R (>= 3.4)"	"cli, R6, utils"		"callr, covr, gh, spelling, testthat, whoami, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:55:57 UTC; windows"		"CRAN"			
+"digest"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.6.39"		"R (>= 3.3.0)"	"utils"		"tinytest, simplermarkdown, rbenchmark"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"distributional"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.9.0"		"R (>= 4.0.0)"	"vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv,
+utils, lifecycle, pillar"		"testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd,
+ggdist, ggplot2, gk, knitr, LaplacesDemon, pkgdown, rmarkdown,
+tweedieDistr"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 02:41:28 UTC; windows"		"CRAN"			
+"doBy"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"4.7.2"		"R (>= 4.2.0), methods"	"boot, broom, cowplot, Deriv, dplyr, forecast, ggplot2, MASS,
+Matrix, modelr, rlang, purrr, tibble, tidyr,"		"geepack, knitr, lme4, markdown, rmarkdown, multcomp,
+microbenchmark, pbkrtest (>= 0.5.2), survival, testthat (>=
+2.1.0)"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 04:49:26 UTC; windows"		"CRAN"			
+"doParallel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.17"		"R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils"			"caret, mlbench, rpart, RUnit"	"compiler"	"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 02:21:01 UTC; windows"		"CRAN"			
+"dotCall64"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2"		"R (>= 4.0)"			"microbenchmark, RhpcBLASctl, RColorBrewer, roxygen2, spam,
+testthat,"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:02 UTC; windows"		"CRAN"			
+"dplyr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.1"		"R (>= 4.1.0)"	"cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+utils, vctrs (>= 0.7.1)"		"broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman,
+lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>=
+1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 04:00:08 UTC; windows"		"CRAN"			
+"dqrng"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.1"		"R (>= 3.5.0)"	"Rcpp (>= 0.12.16)"	"Rcpp, BH (>= 1.64.0-1), sitmo (>= 2.0.0)"	"BH, testthat, knitr, rmarkdown, mvtnorm (>= 1.2-3), bench,
+sitmo"		"AGPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:57:29 UTC; windows"		"CRAN"			
+"edgeR"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"4.10.5"		"R (>= 3.6.0), limma (>= 3.63.6)"	"methods, graphics, stats, utils, locfit"		"jsonlite, knitr, Matrix, nanoparquet, readr, rhdf5,
+SeuratObject, splines, AnnotationDbi, Biobase, BiocStyle,
+org.Hs.eg.db, S4Vectors, SummarizedExperiment"		"GPL (>=2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-04 14:39:38 UTC; windows"		"Bioconductor 3.23"	"https://github.com/bioc/edgeR"	"c4a54bdaec47e8b170d8164c417461d7f475ceea"	"AlternativeSplicing, BatchEffect, Bayesian,
+BiomedicalInformatics, CellBiology, ChIPSeq, Clustering,
+Coverage, DifferentialExpression, DifferentialMethylation,
+DifferentialSplicing, DNAMethylation, Epigenetics,
+FunctionalGenomics, GeneExpression, GeneSetEnrichment,
+Genetics, Genetics, ImmunoOncology, MultipleComparison,
+Normalization, Pathways, Proteomics, QualityControl,
+Regression, RNASeq, SAGE, Sequencing, SingleCell,
+SystemsBiology, TimeCourse, Transcription, Transcriptomics"
+"enrichR"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.4"		"R (>= 3.5.0)"	"httr, curl, rjson, ggplot2, WriteXLS"		"knitr, rmarkdown"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 02:44:48 UTC; windows"		"CRAN"			
+"evaluate"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.5"		"R (>= 3.6.0)"			"callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload,
+ragg (>= 1.4.0), rlang (>= 1.1.5), knitr, testthat (>= 3.0.0),
+withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:28 UTC; windows"		"CRAN"			
+"farver"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.1.2"					"covr, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"fastDummies"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.7.6"		"R (>= 2.10)"	"data.table, tibble, stringr"		"testthat (>= 2.1.0), knitr, rmarkdown, covr, spelling, dplyr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:06:26 UTC; windows"		"CRAN"			
+"fastmap"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.0"					"testthat (>= 2.1.1)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"fitdistrplus"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2-6"		"R (>= 3.5.0), MASS, grDevices, survival, methods"	"stats, rlang"		"actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
+GeneralizedHyperbolic, rmarkdown, Hmisc, bookdown"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 02:21:25 UTC; windows"		"CRAN"			
+"fontawesome"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.5.3"		"R (>= 3.3.0)"	"rlang (>= 1.0.6), htmltools (>= 0.5.1.1)"		"covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31),
+testthat (>= 3.0.0), rsvg"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:49 UTC; windows"		"CRAN"			
+"foreach"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.2"		"R (>= 2.5.0)"	"codetools, utils, iterators"		"randomForest, doMC, doParallel, testthat, knitr, rmarkdown"		"Apache License (== 2.0)"					"no"	"R 4.6.1; ; 2026-09-09 01:55:55 UTC; windows"		"CRAN"			
+"forecast"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"9.0.2"		"R (>= 4.1.0)"	"colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0),
+graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.12.4),
+stats, timeDate, urca, withr, zoo"	"Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)"	"forecTheta, knitr, methods, rmarkdown, rticles, scales,
+seasonal, testthat (>= 3.3.0), uroot"		"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:40 UTC; windows"		"CRAN"			
+"foreign"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"0.8-91"	"recommended"	"R (>= 4.0.0)"	"methods, utils, stats"				"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:28 UTC; windows"		"CRAN"			
+"formatR"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.14"		"R (>= 3.2.3)"			"rstudioapi, shiny, testit, rmarkdown, knitr"		"GPL"					"no"	"R 4.6.1; ; 2026-09-09 01:00:28 UTC; windows"		"CRAN"			
+"fracdiff"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.5-4"			"stats"		"longmemo, forecast, urca"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"fs"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.1.0"		"R (>= 4.1)"	"methods"		"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"futile.logger"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.9"		"R (>= 3.0.0)"	"utils, lambda.r (>= 1.1.0), futile.options"		"testit, jsonlite, httr, crayon, rsyslog, glue"		"LGPL-3"					"no"	"R 4.6.1; ; 2026-09-09 02:24:27 UTC; windows"		"CRAN"			
+"futile.options"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.1"		"R (>= 2.8.0)"					"LGPL-3"					"no"	"R 4.6.1; ; 2026-08-19 11:54:24 UTC; windows"		"CRAN"			
+"future"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.75.0"		"R (>= 3.2.0)"	"digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.44.0), tools, utils"		"methods, RhpcBLASctl, R.rsp, markdown"		"Apache License (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 01:55:59 UTC; windows"		"CRAN"			
+"future.apply"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.20.2"		"R (>= 3.2.0), future (>= 1.49.0)"	"globals, parallel, utils"		"datasets, stats, tools, listenv, R.rsp, markdown"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 02:21:02 UTC; windows"		"CRAN"			
+"generics"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1.4"		"R (>= 3.6)"	"methods"		"covr, pkgload, testthat (>= 3.0.0), tibble, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:01 UTC; windows"		"CRAN"			
+"ggalluvial"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.12.6"		"R (>= 3.6), ggplot2 (>= 2.2)"	"stats, dplyr (>= 0.7), tidyr (>= 0.7), lazyeval, rlang,
+tidyselect"		"grid, alluvial, testthat, knitr, rmarkdown, babynames,
+sessioninfo, ggrepel, shiny (>= 1.4.0.2), htmltools, sp (>=
+1.4-0), ggfittext (>= 0.6), vdiffr (>= 0.2)"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 03:43:01 UTC; windows"		"CRAN"			
+"ggbeeswarm"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.7.3"		"R (>= 3.5.0), ggplot2 (>= 3.3.0)"	"beeswarm, lifecycle, vipor, cli"		"gridExtra"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 02:42:30 UTC; windows"		"CRAN"			
+"ggdendro"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.0"		"R(>= 3.5)"	"MASS, ggplot2(>= 0.9.2)"		"rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown, covr"		"GPL-2 | GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 02:41:16 UTC; windows"		"CRAN"			
+"ggnetwork"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.5.14"		"R (>= 3.5), ggplot2 (>= 2.0.0)"	"ggrepel (>= 0.5), network, igraph, sna, utils"		"knitr, rmarkdown, testthat"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 03:22:46 UTC; windows"		"CRAN"			
+"ggplot2"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"4.0.3"		"R (>= 4.1)"	"cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (>
+1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs
+(>= 0.6.0), withr (>= 2.5.0)"		"broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr,
+mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis,
+quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2,
+rpart, sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5),
+tibble, vdiffr (>= 1.0.6), xml2"	"sp"	"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows"		"CRAN"			
+"ggpubr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.0.0"		"R (>= 4.1.0), ggplot2 (>= 3.5.2)"	"ggrepel (>= 0.9.2), grid, ggsci, stats, utils, tidyr (>=
+1.3.2), purrr, dplyr (>= 1.2.0), cowplot (>= 1.2.0), ggsignif,
+scales, gridExtra, glue, polynom, rlang (>= 1.1.7), rstatix (>=
+1.0.0), tibble, magrittr"		"grDevices, knitr, RColorBrewer, gtable, testthat"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 04:56:39 UTC; windows"		"CRAN"			
+"ggrepel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.9.8"		"R (>= 4.1.0), ggplot2 (>= 3.5.2)"	"grid, Rcpp, rlang (>= 1.1.6), S7, scales (>= 1.4.0), withr (>=
+3.0.2)"	"Rcpp"	"knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp,
+patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr,
+readr, stringr, marquee, rsvg, sf"		"GPL-3 | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows"		"CRAN"			
+"ggridges"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.5.7"		"R (>= 3.2)"	"ggplot2 (>= 3.5.0), grid (>= 3.0.0), scales (>= 0.4.1), withr
+(>= 2.1.1)"		"covr, dplyr, patchwork, ggplot2movies, forcats, knitr,
+rmarkdown, testthat, vdiffr"		"GPL-2 | file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:04:05 UTC; windows"		"CRAN"			
+"ggsci"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"5.2.0"		"R (>= 3.5.0)"	"ggplot2 (>= 2.0.0), grDevices, rlang, scales"		"gridExtra, knitr, ragg, rmarkdown"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows"		"CRAN"			
+"ggsignif"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.6.4"			"ggplot2 (>= 3.3.5)"		"knitr, rmarkdown, testthat, vdiffr (>= 1.0.2)"		"GPL-3 | file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows"		"CRAN"			
+"globals"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.19.1"		"R (>= 3.1.2)"	"codetools"				"LGPL (>= 2.1)"					"no"	"R 4.6.1; ; 2026-08-19 12:58:27 UTC; windows"		"CRAN"			
+"glue"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.8.1"		"R (>= 4.1)"	"methods"		"crayon, DBI (>= 1.2.0), dplyr, knitr, rlang, rmarkdown,
+RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>=
+0.5.3), withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"goftest"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2-3"		"R (>= 3.3)"	"stats"				"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:37 UTC; windows"		"CRAN"			
+"gplots"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.3.0"		"R (>= 3.0)"	"gtools, stats, caTools, KernSmooth, methods"		"grid, MASS, knitr, rmarkdown, r2d2, nlme, dendextend,
+heatmaply, RColorBrewer"		"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 01:56:08 UTC; windows"		"CRAN"			
+"grDevices"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"				"KernSmooth"		"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:14 UTC; windows"					
+"graphics"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"grDevices"			"vcd"	"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:56 UTC; windows"					
+"grid"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"grDevices, utils"				"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:46 UTC; windows"					
+"gridBase"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.4-7"		"R (>= 2.3.0)"	"graphics, grid"		"lattice"		"GPL"					"no"	"R 4.6.1; ; 2026-09-09 00:58:25 UTC; windows"		"CRAN"			
+"gridExtra"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.3.1"			"gtable, grid, grDevices, graphics, utils"		"ggplot2, egg, lattice, knitr, testthat"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows"		"CRAN"			
+"gtable"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.6"		"R (>= 4.0)"	"cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats"		"covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows"		"CRAN"			
+"gtools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.9.5"		"methods, stats, utils"			"car, gplots, knitr, rstudioapi, SGP, taxize"		"GPL-2"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:41 UTC; windows"		"CRAN"			
+"here"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.2"			"rprojroot (>= 2.1.0)"		"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows"		"CRAN"			
+"highr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.12"		"R (>= 3.3.0)"	"xfun (>= 0.18)"		"knitr, markdown, testit"		"GPL"					"no"	"R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows"		"CRAN"			
+"htmltools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.5.9"		"R (>= 2.14.1)"	"base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>=
+1.0.0), utils"		"Cairo, markdown, ragg, shiny, testthat, withr"	"knitr"	"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows"		"CRAN"			
+"htmlwidgets"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.6.4"			"grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr
+(>= 1.8), rmarkdown, yaml"		"testthat"	"shiny (>= 1.1)"	"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:20:06 UTC; windows"		"CRAN"			
+"httpuv"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.6.17"		"R (>= 2.15.1)"	"later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils"	"later, Rcpp"	"callr, curl, jsonlite, testthat (>= 3.0.0), websocket"		"GPL (>= 2) | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:24 UTC; windows"		"CRAN"			
+"httr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.9"		"R (>= 3.6)"	"curl (>= 5.1.0), jsonlite, mime, openssl (>= 0.8), R6"		"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:25 UTC; windows"		"CRAN"			
+"ica"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0-3"							"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-08-19 11:47:21 UTC; windows"		"CRAN"			
+"igraph"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.3.3"		"methods, R (>= 3.5.0)"	"cli, graphics, grDevices, lifecycle, magrittr, Matrix,
+pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs"	"cpp11 (>= 0.5.0)"	"ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr,
+rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat,
+vdiffr, withr"	"graph"	"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:13 UTC; windows"		"CRAN"			
+"inline"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.21"			"methods"		"Rcpp, tinytest"		"LGPL"					"no"	"R 4.6.1; ; 2026-09-09 00:57:26 UTC; windows"		"CRAN"			
+"irlba"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.3.7"		"R (>= 3.6.2), Matrix"	"stats, methods"	"Matrix"			"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:35 UTC; windows"		"CRAN"			
+"isoband"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.0"			"cli, grid, rlang, utils"	"cpp11"	"covr, ggplot2, knitr, magick, bench, rmarkdown, sf, testthat
+(>= 3.0.0), xml2"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:54 UTC; windows"		"CRAN"			
+"iterators"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.14"		"R (>= 2.5.0), utils"			"RUnit, foreach"		"Apache License (== 2.0)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:05 UTC; windows"		"CRAN"			
+"jquerylib"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1.4"			"htmltools"		"testthat"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows"		"CRAN"			
+"jsonlite"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.0"		"methods"			"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"knitr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.52"		"R (>= 3.6.0)"	"evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>=
+0.52), yaml (>= 2.1.19)"		"bslib, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG,
+htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick,
+litedown (>= 0.10), otel, otelsdk, png, ragg (>= 1.5.0),
+reticulate (>= 1.4), rgl (>= 0.95.1201), rlang, rmarkdown,
+sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit,
+tibble, tikzDevice (>= 0.10), tinytex (>= 0.56), webshot,
+rstudioapi, svglite"		"GPL"					"no"	"R 4.6.1; ; 2026-09-09 02:20:57 UTC; windows"		"CRAN"			
+"labeling"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.3"			"stats, graphics"				"MIT + file LICENSE | Unlimited"					"no"	"R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows"		"CRAN"			
+"lambda.r"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.4"		"R (>= 3.0.0)"	"formatR"		"testit"		"LGPL-3"					"no"	"R 4.6.1; ; 2026-09-09 01:57:56 UTC; windows"		"CRAN"			
+"later"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.8"		"R (>= 3.5)"	"Rcpp (>= 1.0.10), rlang"	"Rcpp"	"knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows"		"CRAN"			
+"lattice"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"0.22-9"	"recommended"	"R (>= 4.0.0)"	"grid, grDevices, graphics, stats, utils"		"KernSmooth, MASS, latticeExtra, colorspace"	"chron, zoo"	"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:40 UTC; windows"		"CRAN"			
+"lazyeval"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.3"		"R (>= 3.1.0)"	"rlang"		"knitr, rmarkdown (>= 0.2.65), testthat, covr"		"GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:57 UTC; windows"		"CRAN"			
+"lifecycle"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.5"		"R (>= 3.6)"	"cli (>= 3.4.0), rlang (>= 1.1.0)"		"covr, knitr, lintr (>= 3.1.0), rmarkdown, testthat (>=
+3.0.1), tibble, tidyverse, tools, vctrs, withr, xml2"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:55:53 UTC; windows"		"CRAN"			
+"limma"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.68.5"		"R (>= 3.6.0)"	"grDevices, graphics, stats, utils, methods, statmod"		"BiasedUrn, ellipse, gplots, knitr, locfit, MASS, splines,
+affy, AnnotationDbi, Biobase, BiocStyle, GO.db, illuminaio,
+org.Hs.eg.db, vsn"		"GPL (>=2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 09:27:06 UTC; windows"		"Bioconductor 3.23"	"https://github.com/bioc/limma"	"825d1c8330d024adb6c54af66d79b0f4ec258530"	"ExonArray, GeneExpression, Transcription,
+AlternativeSplicing, DifferentialExpression,
+DifferentialSplicing, GeneSetEnrichment, DataImport, Bayesian,
+Clustering, Regression, TimeCourse, Microarray, MicroRNAArray,
+mRNAMicroarray, OneChannel, ProprietaryPlatforms, TwoChannel,
+Sequencing, RNASeq, BatchEffect, MultipleComparison,
+Normalization, Preprocessing, QualityControl,
+BiomedicalInformatics, CellBiology, Cheminformatics,
+Epigenetics, FunctionalGenomics, Genetics, ImmunoOncology,
+Metabolomics, Proteomics, SystemsBiology, Transcriptomics"
+"listenv"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.0"		"R (>= 3.1.2)"			"R.utils, R.rsp, markdown"		"Apache License (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows"		"CRAN"			
+"lme4"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.0-6"		"R (>= 3.6), Matrix, methods, stats"	"MASS, Rdpack, boot, graphics, grid, lattice, minqa (>=
+1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel,
+reformulas (>= 0.4.3.1), splines, utils"	"Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>=
+0.3.3.9.4)"	"DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4,
+ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev,
+numDeriv, optimx (>= 2013.8.6), pbkrtest, performance,
+rmarkdown, rr2, see, semEff, statmod, testthat (>= 0.8.1),
+tibble"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:21 UTC; windows"		"CRAN"			
+"lmtest"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.9-40"		"R (>= 3.0.0), stats, zoo"	"graphics"		"car, strucchange, sandwich, dynlm, stats4, survival, AER"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:47 UTC; windows"		"CRAN"			
+"locfit"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5-9.12"		"R (>= 4.1.0)"	"lattice"		"interp, gam"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:56 UTC; windows"		"CRAN"			
+"loo"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.10.1"		"R (>= 3.5)"	"checkmate, matrixStats (>= 0.52), parallel, posterior (>=
+1.7.0), stats"		"bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
+knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools,
+spdep, testthat (>= 3.0)"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 03:21:39 UTC; windows"		"CRAN"			
+"magrittr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.5"		"R (>= 3.4.0)"			"covr, knitr, rlang, rmarkdown, testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"matrixStats"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.0"		"R (>= 3.4.0)"			"utils, base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp"		"Artistic-2.0"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:36 UTC; windows"		"CRAN"			
+"memoise"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.1"			"rlang (>= 0.4.10), cachem"		"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:48 UTC; windows"		"CRAN"			
+"metapod"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.20.0"			"Rcpp"	"Rcpp"	"testthat, knitr, BiocStyle, rmarkdown"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:50:48 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/metapod"	"fccdc7f39efed41fe3f95a48e2141adb914e74d2"	"MultipleComparison, DifferentialPeakCalling"
+"methods"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"utils, stats"		"codetools"		"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:12 UTC; windows"					
+"mgcv"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"1.9-4"	"recommended"	"R (>= 4.4.0), nlme (>= 3.1-64)"	"methods, stats, graphics, Matrix, splines, utils"		"parallel, survival, MASS"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:21 UTC; windows"		"CRAN"			
+"mime"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.13"			"tools"				"GPL"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:07 UTC; windows"		"CRAN"			
+"miniUI"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1.2"			"shiny (>= 0.13), htmltools (>= 0.3), utils"				"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 03:20:08 UTC; windows"		"CRAN"			
+"minqa"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.2.8"			"Rcpp (>= 0.9.10)"	"Rcpp"			"GPL-2"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:53 UTC; windows"		"CRAN"			
+"modelr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.1.11"		"R (>= 3.2)"	"broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs"		"compiler, covr, ggplot2, testthat (>= 3.0.0)"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 04:38:15 UTC; windows"		"CRAN"			
+"network"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.20.0"		"R (>= 2.10), utils"	"tibble, magrittr, statnet.common (>= 4.5), stats"		"sna, testthat, covr"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:33 UTC; windows"		"CRAN"			
+"nlme"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"3.1-169"	"recommended"	"R (>= 3.6.0)"	"graphics, stats, utils, lattice"		"MASS, SASmixed"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:23 UTC; windows"		"CRAN"			
+"nloptr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.2.1"					"knitr, rmarkdown, covr, tinytest"		"LGPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows"		"CRAN"			
+"nnet"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"7.3-20"	"recommended"	"R (>= 3.0.0), stats, utils"			"MASS"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:09 UTC; windows"		"CRAN"			
+"numDeriv"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2016.8-1.1"		"R (>= 2.11.1)"					"GPL-2"					"no"	"R 4.6.1; ; 2026-08-19 11:46:08 UTC; windows"		"CRAN"			
+"openssl"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.4.2"			"askpass"		"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:03 UTC; windows"		"CRAN"			
+"otel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.0"		"R (>= 3.6.0)"			"callr, cli, glue, jsonlite, otelsdk, processx, shiny,
+spelling, testthat (>= 3.0.0), utils, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"pROC"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.19.1"		"R (>= 2.14)"	"methods, Rcpp (>= 0.11.1)"	"Rcpp"	"MASS, logcondens, testthat, vdiffr, ggplot2, rlang, knitr,
+rmarkdown"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 01:28:32 UTC; windows"		"CRAN"			
+"parallel"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"tools, compiler"		"methods"	"snow, Rmpi, mirai, parallelly"	"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:30 UTC; windows"					
+"parallelly"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.48.0"			"parallel, tools, utils"		"commonmark, base64enc"		"LGPL (>= 2.1)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:41 UTC; windows"		"CRAN"			
+"patchwork"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.3.2"			"ggplot2 (>= 3.0.0), gtable (>= 0.3.6), grid, stats, grDevices,
+utils, graphics, rlang (>= 1.0.0), cli, farver"		"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png, gt (>= 0.11.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:03:58 UTC; windows"		"CRAN"			
+"pbapply"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.7-5"		"R (>= 3.2.0)"	"parallel"		"shiny, future, future.apply"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:39 UTC; windows"		"CRAN"			
+"pbkrtest"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.5.5"		"R (>= 4.2.0), lme4 (>= 1.1.31)"	"broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
+(>= 4.6.22)"		"nlme, markdown, knitr"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 04:52:36 UTC; windows"		"CRAN"			
+"pheatmap"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.13"		"R (>= 2.0)"	"grid, RColorBrewer, scales, gtable, stats, grDevices, graphics"				"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 02:23:58 UTC; windows"		"CRAN"			
+"pillar"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.11.1"			"cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>=
+1.1.0), utils, vctrs (>= 0.5.0)"		"bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows"		"CRAN"			
+"pkgbuild"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.8"		"R (>= 3.5)"	"callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6"		"covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0),
+withr (>= 2.3.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:26 UTC; windows"		"CRAN"			
+"pkgconfig"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.3"			"utils"		"covr, testthat, disposables (>= 1.0.3)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"plotly"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"4.12.1"		"R (>= 3.5.0), ggplot2 (>= 3.0.0)"	"tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr,
+digest, viridisLite, base64enc, htmltools (>= 0.3.6),
+htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer,
+dplyr, vctrs, tibble, rlang (>= 1.0.0), crosstalk, purrr,
+data.table, promises"		"MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat,
+knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo,
+broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+processx, plotlyGeoAssets, forcats, withr, palmerpenguins,
+rversions, reticulate, rsvg, ggridges"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 04:12:12 UTC; windows"		"CRAN"			
+"plyr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.8.9"		"R (>= 3.1.0)"	"Rcpp (>= 0.11.0)"	"Rcpp"	"abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows"		"CRAN"			
+"png"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1-9"		"R (>= 2.9.0)"					"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:52 UTC; windows"		"CRAN"			
+"polyclip"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.10-7"		"R (>= 3.5.0)"					"BSL"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:47:28 UTC; windows"		"CRAN"			
+"polynom"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.4-1"			"stats, graphics"		"knitr, rmarkdown"		"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 00:55:03 UTC; windows"		"CRAN"			
+"posterior"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.7.0"		"R (>= 3.2.0)"	"methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
+3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
+parallel, matrixStats"		"testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8),
+randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr,
+knitr, ggplot2, ggdist, rmarkdown"		"BSD_3_clause + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:05:08 UTC; windows"		"CRAN"			
+"processx"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.9.0"		"R (>= 3.4.0)"	"ps (>= 1.9.3), R6, utils"		"callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl,
+debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0),
+webfakes, withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:58 UTC; windows"		"CRAN"			
+"progressr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.0"		"R (>= 3.5.0)"	"digest, utils"		"graphics, tcltk, beepr, cli, crayon, pbmcapply, progress,
+purrr, foreach, plyr, doFuture, future, future.apply, furrr,
+ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc,
+tools"		"Apache License (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:41 UTC; windows"		"CRAN"			
+"promises"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.0"		"R (>= 4.1.0)"	"fastmap (>= 1.1.0), later, lifecycle, magrittr (>= 1.5), otel
+(>= 0.2.0), R6, rlang"		"future (>= 1.21.0), knitr, mirai, otelsdk (>= 0.2.0), purrr,
+Rcpp, rmarkdown, spelling, testthat (>= 3.0.0), vembedr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:50 UTC; windows"		"CRAN"			
+"ps"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.9.3"		"R (>= 3.4)"	"utils"		"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+rlang, testthat (>= 3.0.0), webfakes, withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:50 UTC; windows"		"CRAN"			
+"purrr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.2"		"R (>= 4.1)"	"cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 1.1.1), vctrs (>= 0.6.3)"	"cli"	"carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr,
+lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0),
+tibble, tidyselect"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:05 UTC; windows"		"CRAN"			
+"quantreg"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"6.1"		"R (>= 3.5), stats, SparseM"	"methods, graphics, Matrix, MatrixModels, survival, MASS"		"interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 03:15:10 UTC; windows"		"CRAN"			
+"rappdirs"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.3.4"		"R (>= 4.1)"			"covr, roxygen2, testthat (>= 3.2.0), withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"rbibutils"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.4.1"		"R (>= 2.10)"	"utils, tools"		"testthat"		"GPL-2"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:01 UTC; windows"		"CRAN"			
+"reformulas"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.4.4"			"stats, methods, Matrix, Rdpack"		"lme4, tinytest, glmmTMB, Formula"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 02:20:45 UTC; windows"		"CRAN"			
+"registry"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"0.5-1"		"R (>= 2.6.0)"	"utils"				"GPL-2"					"no"	"R 4.6.1; ; 2026-08-19 11:48:59 UTC; windows"		"CRAN"			
+"reshape2"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.5"		"R (>= 3.1)"	"plyr (>= 1.8.1), Rcpp, stringr"	"Rcpp"	"covr, lattice, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:47 UTC; windows"		"CRAN"			
+"reticulate"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.47.0"		"R (>= 3.5)"	"Matrix, Rcpp (>= 1.0.7), RcppTOML, graphics, here, jsonlite,
+methods, png, rappdirs, utils, rlang, withr"	"Rcpp"	"callr, knitr, glue, cli, rmarkdown, pillar, testthat"		"Apache License 2.0"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:24 UTC; windows"		"CRAN"			
+"rjson"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.23"		"R (>= 4.0.0)"					"GPL-2"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:25 UTC; windows"		"CRAN"			
+"rlang"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.3.0"		"R (>= 4.0.0)"	"utils"		"cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,
+magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat
+(>= 3.3.2), tibble, usethis, vctrs (>= 0.2.3), withr"	"winch"	"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"rmarkdown"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.32"		"R (>= 3.0)"	"bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>=
+0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>=
+1.50), methods, tinytex (>= 0.31), tools, utils, xfun (>=
+0.36), yaml (>= 2.1.19)"		"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
+(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
+3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:03:43 UTC; windows"		"CRAN"			
+"rngtools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.5.2"		"R (>= 3.2.0), methods"	"digest, utils, stats, parallel"		"covr, RUnit, testthat"		"GPL-3"					"no"	"R 4.6.1; ; 2026-09-09 00:57:05 UTC; windows"		"CRAN"			
+"rpart"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.1.27"	"recommended"	"R (>= 2.15.0), graphics, stats, grDevices"			"survival"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:48 UTC; windows"		"CRAN"			
+"rprojroot"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.1.1"		"R (>= 3.0.0)"			"covr, knitr, lifecycle, rlang, rmarkdown, testthat (>=
+3.2.0), withr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"rstan"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.32.7"		"R (>= 3.4.0), StanHeaders (>= 2.32.0)"	"methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+(>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+(>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)"	"Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0),
+StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)"	"testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr,
+coda, V8"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:35 UTC; windows"		"CRAN"			
+"rstantools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.7.1"			"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>=
+5.0.1), QuickJSR"		"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown,
+rstudioapi"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 01:56:47 UTC; windows"		"CRAN"			
+"rstatix"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.1.0"		"R (>= 3.3.0)"	"stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+(>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
+corrplot, tidyselect (>= 1.2.0), car, generics (>= 0.0.2)"		"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+testthat (>= 3.1.7), spelling"		"GPL-2"					"no"	"R 4.6.1; ; 2026-09-09 04:53:39 UTC; windows"		"CRAN"			
+"rsvd"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.0.5"		"R (>= 4.0.0)"	"Matrix"		"ggplot2, testthat"		"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-09-09 01:59:15 UTC; windows"		"CRAN"			
+"sass"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.10"			"fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6,
+rappdirs"		"testthat, knitr, rmarkdown, withr, shiny, curl"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:49 UTC; windows"		"CRAN"			
+"scales"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.0"		"R (>= 4.1)"	"cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6,
+RColorBrewer, rlang (>= 1.1.0), viridisLite"		"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:20:47 UTC; windows"		"CRAN"			
+"scater"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.40.2"		"SingleCellExperiment, scuttle, ggplot2"	"stats, utils, methods, Matrix, BiocGenerics, S4Vectors,
+SummarizedExperiment, MatrixGenerics, SparseArray,
+DelayedArray, beachmat, BiocNeighbors, BiocSingular,
+BiocParallel, rlang, ggbeeswarm, viridis, Rtsne, RColorBrewer,
+RcppML, uwot, pheatmap, ggrepel"		"BiocStyle, DelayedMatrixStats, snifter, densvis, cowplot,
+biomaRt, knitr, scRNAseq, robustbase, rmarkdown, testthat,
+Biobase, scattermore, ggrastr, MASS"		"GPL-3"					"no"	"R 4.6.1; ; 2026-06-30 13:37:27 UTC; windows"		"Bioconductor 3.23"	"https://github.com/bioc/scater"	"ca4fc15bb520ebbc7dd3a889217209061c68f3af"	"ImmunoOncology, SingleCell, RNASeq, QualityControl,
+Preprocessing, Normalization, Visualization,
+DimensionReduction, Transcriptomics, GeneExpression,
+Sequencing, Software, DataImport, DataRepresentation,
+Infrastructure, Coverage"
+"scattermore"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2"			"ggplot2, scales, grid, grDevices, graphics"		"covr, knitr, rmarkdown, testthat"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:11 UTC; windows"		"CRAN"			
+"scran"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.40.0"		"SingleCellExperiment, scuttle"	"SummarizedExperiment, S4Vectors, BiocGenerics, BiocParallel,
+Rcpp, stats, methods, utils, Matrix, edgeR, limma, igraph,
+statmod, MatrixGenerics, S4Arrays, DelayedArray, BiocSingular,
+bluster, metapod, dqrng, beachmat"	"Rcpp, beachmat, BH, dqrng, scuttle"	"testthat, BiocStyle, knitr, rmarkdown, DelayedMatrixStats,
+HDF5Array, scRNAseq, dynamicTreeCut, ResidualMatrix,
+ScaledMatrix, DESeq2, pheatmap, scater, scrapper"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-30 09:16:49 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/scran"	"24a6fe7a83a1b6a0e85c2856c2d39b767b4597fd"	"ImmunoOncology, Normalization, Sequencing, RNASeq, Software,
+GeneExpression, Transcriptomics, SingleCell, Clustering"
+"sctransform"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.3"		"R (>= 3.6.0)"	"dplyr, magrittr, MASS, Matrix (>= 1.5-0), methods,
+future.apply, future, parallelly, ggplot2, reshape2, rlang,
+gridExtra, matrixStats"	"RcppArmadillo, Rcpp (>= 0.11.0)"	"irlba, testthat, knitr"	"glmGamPoi"	"GPL-3 | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:22:52 UTC; windows"		"CRAN"			
+"scuttle"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.22.0"		"SingleCellExperiment"	"methods, utils, stats, Matrix, Rcpp, BiocGenerics, S4Vectors,
+BiocParallel, GenomicRanges, SummarizedExperiment, S4Arrays,
+MatrixGenerics, SparseArray, DelayedArray, beachmat"	"Rcpp, beachmat, assorthead"	"BiocStyle, knitr, scRNAseq, rmarkdown, testthat,
+sparseMatrixStats, DelayedMatrixStats, scran"		"GPL-3"					"yes"	"R 4.6.0; x86_64-w64-mingw32; 2026-05-02 09:50:48 UTC; windows"		"https://bioc-release.r-universe.dev"	"https://github.com/bioc/scuttle"	"d56a81e414939eefecd55ec68712a4be3d6858ab"	"ImmunoOncology, SingleCell, RNASeq, QualityControl,
+Preprocessing, Normalization, Transcriptomics, GeneExpression,
+Sequencing, Software, DataImport"
+"shape"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.4.6.1"		"R (>= 2.01)"	"stats, graphics, grDevices"				"GPL (>= 3)"					"no"	"R 4.6.1; ; 2026-08-19 11:46:34 UTC; windows"		"CRAN"			
+"shiny"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.14.0"		"methods, R (>= 3.1.2)"	"bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>=
+2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>=
+1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2),
+jsonlite (>= 0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0),
+mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang
+(>= 0.4.10), sourcetools, tools, utils, withr, xtable"		"Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs,
+future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai,
+otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+shinytest2, showtext, testthat (>= 3.2.1), watcher, yaml"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:03:41 UTC; windows"		"CRAN"			
+"sitmo"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.0.2"		"R (>= 3.2.0)"	"Rcpp (>= 0.12.13)"	"Rcpp"	"knitr, rmarkdown, ggplot2"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:59:57 UTC; windows"		"CRAN"			
+"sna"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.8"		"R (>= 2.0.0), utils, statnet.common, network"			"rgl, numDeriv, SparseM"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:21:04 UTC; windows"		"CRAN"			
+"snow"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4-4"		"R (>= 2.13.1), utils"			"rlecuyer"	"Rmpi"	"GPL"					"no"	"R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows"		"CRAN"			
+"sourcetools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.1.7-2"		"R (>= 3.0.2)"			"testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"sp"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.2-3"		"R (>= 3.5.0), methods"	"utils, stats, graphics, grDevices, lattice, grid"		"RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown,
+sf, terra, raster"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:55:55 UTC; windows"		"CRAN"			
+"spam"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.11-4"		"R (>= 4.0)"	"dotCall64, grid, methods, Rcpp (>= 1.0.8.3)"	"Rcpp"	"spam64, fields, Matrix, testthat, R.rsp, truncdist, knitr,
+rmarkdown"		"LGPL-2 | BSD_3_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:00 UTC; windows"		"CRAN"			
+"spatial"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"7.3-18"	"recommended"	"R (>= 3.0.0), graphics, stats, utils"			"MASS"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:14 UTC; windows"		"CRAN"			
+"spatstat.data"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.1-9"		"R (>= 3.5.0)"	"spatstat.utils (>= 3.1-2), Matrix"		"spatstat.geom, spatstat.random, spatstat.explore,
+spatstat.model, spatstat.linnet"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 01:56:05 UTC; windows"		"CRAN"			
+"spatstat.explore"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.8-2"		"R (>= 3.5.0), spatstat.data (>= 3.1-9), spatstat.univar (>=
+3.2-0), spatstat.geom (>= 3.8-1), spatstat.random (>= 3.5-0),
+stats, graphics, grDevices, utils, methods, nlme"	"spatstat.utils (>= 3.2-4), spatstat.sparse (>= 3.2-0), goftest
+(>= 1.2-2), Matrix, abind"		"sm, gsl, locfit, spatial, fftwtools (>= 0.9-8),
+spatstat.linnet (>= 3.5), spatstat.model (>= 3.7), spatstat (>=
+3.6)"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:04:39 UTC; windows"		"CRAN"			
+"spatstat.geom"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.8-2"		"R (>= 3.5.0), spatstat.data (>= 3.1-9), spatstat.univar (>=
+3.2-0), stats, graphics, grDevices, utils, methods"	"spatstat.utils (>= 3.2-4), deldir (>= 2.0-2), polyclip (>=
+1.10)"		"spatstat.random (>= 3.5), spatstat.explore (>= 3.8),
+spatstat.model (>= 3.7), spatstat.linnet (>= 3.5), spatial,
+fftwtools (>= 0.9-8), spatstat (>= 3.6)"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:21:20 UTC; windows"		"CRAN"			
+"spatstat.random"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.5-1"		"R (>= 3.5.0), spatstat.data (>= 3.1-9), spatstat.univar (>=
+3.2-0), spatstat.geom (>= 3.8-2), stats, utils, methods,
+grDevices"	"Matrix, spatstat.utils (>= 3.2-4), spatstat.sparse (>= 3.2-0)"		"spatial, spatstat.linnet (>= 3.5), spatstat.explore (>= 3.8),
+spatstat.model (>= 3.7), spatstat (>= 3.6), gsl"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:33 UTC; windows"		"CRAN"			
+"spatstat.sparse"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.2-0"		"R (>= 3.5.0), stats, utils, methods, Matrix, abind, tensor"	"spatstat.utils (>= 3.2-3)"				"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows"		"CRAN"			
+"spatstat.univar"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.2-0"		"R (>= 3.5.0), stats"	"spatstat.utils (>= 3.2-3), graphics"				"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:05 UTC; windows"		"CRAN"			
+"spatstat.utils"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.2-4"		"R (>= 3.5.0), stats, graphics, grDevices, utils, methods"			"spatstat.model"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:05 UTC; windows"		"CRAN"			
+"splines"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"graphics, stats"		"Matrix, methods"		"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:12 UTC; windows"					
+"statmod"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.2"		"R (>= 3.0.0)"	"stats, graphics"		"MASS, tweedie"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:55:03 UTC; windows"		"CRAN"			
+"statnet.common"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"4.13.0"		"R (>= 4.1)"	"utils, methods, coda, parallel, tools, Matrix"		"covr, roxygen2, rlang (>= 1.1.1), purrr, testthat, MASS"		"GPL-3 + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 01:56:29 UTC; windows"		"CRAN"			
+"stats"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"utils, grDevices, graphics"		"MASS, Matrix, SuppDists, methods, stats4"	"Kendall, coin, multcomp, pcaPP, pspearman, robustbase"	"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:17:23 UTC; windows"					
+"stats4"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"graphics, methods, stats"				"Part of R 4.6.1"						"R 4.6.1; ; 2026-06-24 08:20:17 UTC; windows"					
+"stringi"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.8.9"		"R (>= 3.4)"	"tools, utils, stats"				"file LICENSE"	"yes"				"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:22 UTC; windows"		"CRAN"			
+"stringr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.6.0"		"R (>= 4.1.0)"	"cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+(>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)"		"covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown,
+testthat (>= 3.0.0), tibble"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 02:40:23 UTC; windows"		"CRAN"			
+"survival"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"3.8-6"	"recommended"	"R (>= 3.5.0)"	"graphics, Matrix, methods, splines, stats, utils"				"LGPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:55 UTC; windows"		"CRAN"			
+"svglite"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"2.2.2"		"R (>= 4.1)"	"base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>=
+1.3.0), textshaping (>= 0.3.0)"	"cpp11, systemfonts, textshaping"	"covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown,
+testthat (>= 3.0.0), xml2 (>= 1.0.0)"		"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:57 UTC; windows"		"CRAN"			
+"sys"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.4.3"					"unix (>= 1.4), spelling, testthat"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:07 UTC; windows"		"CRAN"			
+"systemfonts"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.3.2"		"R (>= 3.2.0)"	"base64enc, grid, jsonlite, lifecycle, tools, utils"	"cpp11 (>= 0.2.1)"	"covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown,
+svglite, testthat (>= 2.1.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:20:59 UTC; windows"		"CRAN"			
+"tcltk"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"		"utils"				"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:20 UTC; windows"					
+"tensor"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.5.1"							"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-08-19 11:47:30 UTC; windows"		"CRAN"			
+"tensorA"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.36.2.1"		"R (>= 2.2.0), stats"					"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:49:22 UTC; windows"		"CRAN"			
+"textshaping"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.0.5"		"R (>= 3.2.0)"	"lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils"	"cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)"	"covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:40:26 UTC; windows"		"CRAN"			
+"tibble"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.3.1"		"R (>= 3.4.0)"	"cli, lifecycle (>= 1.0.0), magrittr, methods, pillar (>=
+1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.5.0)"		"bench, bit64, blob, brio, callr, DiagrammeR, dplyr, evaluate,
+formattable, ggplot2, here, hms, htmltools, knitr, lubridate,
+nycflights13, pkgload, purrr, rmarkdown, stringi, testthat (>=
+3.0.2), tidyr, withr"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:03:39 UTC; windows"		"CRAN"			
+"tidyr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.3.2"		"R (>= 4.1.0)"	"cli (>= 3.4.1), dplyr (>= 1.1.0), glue, lifecycle (>= 1.0.3),
+magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>=
+1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.1), utils, vctrs
+(>= 0.5.2)"	"cpp11 (>= 0.4.0)"	"covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+rmarkdown, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 03:39:19 UTC; windows"		"CRAN"			
+"tidyselect"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.1"		"R (>= 3.4)"	"cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.5.2), withr"		"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)"		"MIT + file LICENSE"					"yes"	"R 4.6.1; ; 2026-09-09 02:40:22 UTC; windows"		"CRAN"			
+"timeDate"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"4052.112"		"R (>= 3.6.0), methods"	"graphics, utils, stats"		"RUnit"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-08-23 00:53:23 UTC; windows"		"CRAN"			
+"tinytex"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.60"			"xfun (>= 0.48)"		"testit, rstudioapi"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 01:55:56 UTC; windows"		"CRAN"			
+"tools"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"				"codetools, methods, xml2, curl, commonmark, knitr, xfun,
+mathjaxr, V8, bibtex"		"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:14:19 UTC; windows"					
+"urca"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"	"1.3-4"		"R (>= 2.0.0), methods"	"nlme, graphics, stats"				"GPL (>= 2)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows"		"CRAN"			
+"utf8"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.2.6"		"R (>= 2.10)"			"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr"		"Apache License (== 2.0) | file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"utils"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/r_runtime/library"	"4.6.1"	"base"				"methods, xml2, commonmark, knitr, jsonlite"		"Part of R 4.6.1"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:15:23 UTC; windows"					
+"uwot"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.2.5"		"Matrix"	"FNN, irlba, methods, Rcpp, RcppAnnoy (>= 0.0.17), RSpectra"	"dqrng, Rcpp, RcppAnnoy, RcppProgress"	"bigstatsr, covr, knitr, RcppHNSW, rmarkdown, rnndescent,
+testthat"		"GPL (>= 3)"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 02:42:22 UTC; windows"		"CRAN"			
+"vctrs"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.7.3"		"R (>= 4.0.0)"	"cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)"		"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+zeallot"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:52:27 UTC; windows"		"CRAN"			
+"vipor"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.7"		"R (>= 3.5.0)"	"stats, graphics"		"testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm,"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 01:00:03 UTC; windows"		"CRAN"			
+"viridis"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.6.5"		"R (>= 2.10), viridisLite (>= 0.4.0)"	"ggplot2 (>= 1.0.1), gridExtra"		"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0),
+testthat, covr, rmarkdown, maps, terra"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 03:03:57 UTC; windows"		"CRAN"			
+"viridisLite"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.4.3"		"R (>= 2.10)"			"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"withr"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"3.0.3"		"R (>= 3.6.0)"	"graphics, grDevices"		"callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12),
+RSQLite, testthat (>= 3.0.0)"		"MIT + file LICENSE"					"no"	"R 4.6.1; ; 2026-09-09 00:54:02 UTC; windows"		"CRAN"			
+"xfun"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"0.60"		"R (>= 3.2.0)"	"grDevices, stats, tools"		"testit, parallel, codetools, methods, rstudioapi, tinytex (>=
+0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50),
+remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table,
+qs2"		"MIT + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:30 UTC; windows"		"CRAN"			
+"xtable"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.8-8"		"R (>= 2.10.0)"	"stats, utils, methods"		"knitr, zoo, survival, glue, tinytex"		"GPL (>= 2)"					"no"	"R 4.6.1; ; 2026-09-09 00:54:04 UTC; windows"		"CRAN"			
+"yaml"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"2.3.12"					"knitr, rmarkdown, testthat (>= 3.0.0)"		"BSD_3_clause + file LICENSE"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-09 00:54:31 UTC; windows"		"CRAN"			
+"zoo"	"C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary"	"1.9-0"		"R (>= 3.1.0), stats"	"utils, graphics, grDevices, lattice (>= 0.20-27)"		"AER, coda, chron, ggplot2 (>= 3.5.0), knitr, mondate, scales,
+stinepack, strucchange, timeDate, timeSeries (>= 4021.104),
+tinyplot, tis, tseries, xts"		"GPL-2 | GPL-3"					"yes"	"R 4.6.1; x86_64-w64-mingw32; 2026-09-02 02:33:29 UTC; windows"		"CRAN"			

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DESCRIPTION",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/DESCRIPTION",
+    "bytes": 1223,
+    "sha256": "f62caad458d90a7ca6d4a866d405561b3d7e62eb5e2bae71e673cd6f7c7adfe5"
+  },
+  {
+    "file": "NAMESPACE",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/NAMESPACE",
+    "bytes": 7142,
+    "sha256": "69a44ea510e04107866f85aa4ba0f8a481963fa882ab79639a13199054a11d6d"
+  },
+  {
+    "file": "R/modeling.R",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/R/modeling.R",
+    "bytes": 66940,
+    "sha256": "edf75f668a1527207c0d1a89316416becbbf7977a28f7226621d661366bd2cfe"
+  },
+  {
+    "file": "R/utilities.R",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/R/utilities.R",
+    "bytes": 57169,
+    "sha256": "061f90e679279382d96d6ccae09a825c6ad53571513df4dc4fb4ac8b9ba38895"
+  },
+  {
+    "file": "R/CellChat_class.R",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/R/CellChat_class.R",
+    "bytes": 40854,
+    "sha256": "d7c3cadb80cd8612e5e7ba8168cb5a72c78eb6e08327ce20555477a09c628f3e"
+  },
+  {
+    "file": "tutorial/CellChat-vignette.Rmd",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/tutorial/CellChat-vignette.Rmd",
+    "bytes": 43876,
+    "sha256": "260ec873ef4a3226ba0a6f27d2f2b6441733d73f1625bfdff498a972f8c3fe57"
+  },
+  {
+    "file": "data/CellChatDB.mouse.rda",
+    "url": "https://raw.githubusercontent.com/jinworks/CellChat/75253cd0c9e68410e6e721a6d3a0419a1d7e358f/data/CellChatDB.mouse.rda",
+    "bytes": 1279646,
+    "sha256": "dd59b19646e546b3ed41f394ad2cf64cf44f3d3fcfbb58ac176f0fe1322f9413"
+  }
+]

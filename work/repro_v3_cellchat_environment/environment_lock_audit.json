@@ -1,0 +1,23 @@
+{
+  "status": "captured_lock_and_original_binaries_verified",
+  "effective_analysis_packages": 287,
+  "additional_capture_only_package": "renv 1.2.4",
+  "locked_nonbase_packages": 274,
+  "inherited_packages_description_byte_identical_to_baseline": 245,
+  "new_overlay_packages": 42,
+  "baseline_package_versions_changed": 0,
+  "binary_total_bytes": 62131994,
+  "binary_sha256_and_inner_zip_CRC_verified": 42,
+  "full_environment_restored_from_empty_library": false,
+  "metadata_git_suitable": true,
+  "binaries_git_suitable": false,
+  "lock_restore_boundary": "renv.lock records installed sources and versions; a full source restore was not tested. Exact archived Windows binaries pin the 42-package overlay, with the inherited baseline separately required.",
+  "capture_validation_fix": "Exact DESCRIPTION Version comparison avoids packageVersion hyphen normalization. Quoted TSV fields preserve multiline DESCRIPTION metadata. These capture-only validator/serialization fixes changed no installed package or scientific definition.",
+  "offline_overlay_restore_tested": true,
+  "offline_restore_expected_versions_checked": 287,
+  "offline_restore_scope": "42 archived binary packages freshly installed in an isolated library, inheriting the existing baseline; native namespace loaded, no new model fit.",
+  "python_audit_closure_verified": true,
+  "python_current_pins": 109,
+  "python_pin_delta_from_baseline": {},
+  "python_independent_review_dependency_closure_packages": 62
+}

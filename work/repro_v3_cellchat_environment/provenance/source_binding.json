@@ -1,0 +1,14 @@
+{
+  "source_files_sha256": {
+    "work/repro_v3_cellchat_run.py": "4c71e95276c7bdb4289869132378b7a119a356ed51edb07687ad7fd95ed2f3ea",
+    "work/repro_v3_cellchat_run.R": "6c30e7a9e26fbcea258b1565d02e3211271aead9a31d407615aa6e6e9a7c3496",
+    "work/repro_v3_cellchat_install_verify.R": "8d5c8886c9fb6790846e97a557c3a53009252bc33497e2b6c43cbf1c1aa12bb3",
+    "work/repro_v3_cellchat_capture_environment.R": "29086151990fff9906664190c956414a13f1de44a1641610559551ef258583f0",
+    "work/repro_v3_independent_framework_plan.md": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+    "work/repro_v3_environment/renv.lock": "016258691dad6139460ad478b624dc32c7e2d88bd687720e571347d8c0680014"
+  },
+  "native_CellChat_commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "native_binary_provider": "https://blaserlab.r-universe.dev",
+  "official_source_repository": "https://github.com/jinworks/CellChat",
+  "package_source_verification": "See installed_package_verified.json: 47 function bodies/formals and entire mouse DB; not whole-package byte identity to a source build."
+}

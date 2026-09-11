@@ -1,0 +1,14 @@
+{
+  "status": "offline_overlay_installed_and_namespace_loaded",
+  "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "installed_binary_packages": 42,
+  "effective_analysis_package_versions_checked": 287,
+  "CellChat_version": "2.2.0.9001",
+  "CellChat_RemoteSha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "new_library": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat_environment_restore_test/fresh_rlibrary",
+  "inherited_baseline_library": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary",
+  "baseline_package_versions_checked": 245,
+  "full_baseline_restored": false,
+  "network_required": false,
+  "model_fit_performed": false
+}

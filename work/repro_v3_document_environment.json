@@ -1,0 +1,12 @@
+{
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "direct_and_required_package_pins": {
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "Pillow": "12.3.0",
+    "typing_extensions": "4.16.0"
+  },
+  "purpose": "DOCX generator environment; scientific analysis has separate locks",
+  "rendered_with": "LibreOffice 26.2.5 and Poppler, Windows fonts Times New Roman / SimSun / SimHei",
+  "empty_environment_restore_tested": false
+}

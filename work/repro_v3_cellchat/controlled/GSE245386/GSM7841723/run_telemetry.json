@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "dataset": "GSE245386",
+  "sample": "GSM7841723",
+  "returncode": 0,
+  "stop_reason": null,
+  "peak_process_tree_rss_bytes": 1084207104,
+  "elapsed_wall_seconds": 178.75,
+  "limit_bytes": 2147483648,
+  "R_script_sha256": "6c30e7a9e26fbcea258b1565d02e3211271aead9a31d407615aa6e6e9a7c3496",
+  "runner_sha256": "4c71e95276c7bdb4289869132378b7a119a356ed51edb07687ad7fd95ed2f3ea",
+  "plan_sha256": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+  "installed_package_audit_sha256": "6a35ab6718ce627d004e18bbc14c68f488283a84f0c13d4973a1804e7d7c81e9",
+  "output_sha256": {
+    "model_audit.json": "371e1673e96543339e3c4359d9dea60d3ed020ac5c852ac1fa567c2d8ba4e701",
+    "full_network.tsv.gz": "3d660d3522c02d47cdcb34757b73177fbc29cd00dfabebc9dbbf460a5a6fd01e",
+    "native_network.rds": "bd6c22c70943e8015594e002d19ce1caf8d93909e114679bcf987c68cf7db196"
+  }
+}

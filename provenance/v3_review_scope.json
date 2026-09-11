@@ -1,0 +1,6 @@
+{
+  "independent_review_scope": "The independently verified payload is preserved in v3_reviewed_file_index.tsv; the current FILE_INDEX additionally includes these audit records. No scientific file changed after review.",
+  "reviewed_index_sha256": "f536823fbcdd8fe2e70e252076981ee41ed9f0291c60a0c7af8f76c15a7f2050",
+  "original_payload_files": 2481,
+  "original_payload_bytes": 643359546
+}

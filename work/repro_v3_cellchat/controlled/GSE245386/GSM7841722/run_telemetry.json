@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "dataset": "GSE245386",
+  "sample": "GSM7841722",
+  "returncode": 0,
+  "stop_reason": null,
+  "peak_process_tree_rss_bytes": 985006080,
+  "elapsed_wall_seconds": 146.9529999999795,
+  "limit_bytes": 2147483648,
+  "R_script_sha256": "6c30e7a9e26fbcea258b1565d02e3211271aead9a31d407615aa6e6e9a7c3496",
+  "runner_sha256": "4c71e95276c7bdb4289869132378b7a119a356ed51edb07687ad7fd95ed2f3ea",
+  "plan_sha256": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+  "installed_package_audit_sha256": "6a35ab6718ce627d004e18bbc14c68f488283a84f0c13d4973a1804e7d7c81e9",
+  "output_sha256": {
+    "model_audit.json": "3f5e6d3d5aea39a627d7284b2745b6d3ff0c627a16c0da84f388a09df44ac4ae",
+    "full_network.tsv.gz": "48cbd0e8eda64b1ef5bae6ee80eb41b1f34a61540cf62a69daa0e9be9da3954d",
+    "native_network.rds": "f288690299a0b0b2d6d98601f18b737a7aaf6c362c92dd5fb803c2ae149b9aca"
+  }
+}

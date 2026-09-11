@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "skill_helpers_unavailable_smoke": true,
+  "plot_png_identical": true,
+  "png_sha256": "2b79a397209af7432f6f5fa01f99dd956f49faed31790463f81ed06bafbdd109",
+  "private_helper_is_not_required": true
+}

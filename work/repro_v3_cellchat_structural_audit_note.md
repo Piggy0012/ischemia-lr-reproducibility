@@ -1,0 +1,7 @@
+# Structural diagnostics specified before cross-cohort results
+
+After preparing the shared key set but before reading/comparing complete new CellChat scores, the fixed target set was found to contain 8 Astrocyte-to-Endothelial and 24 reverse-direction rows, including 31 rows without a native cofactor and one with a native cofactor. Report direction-stratified summaries as descriptive supporting information. A one-row cofactor stratum cannot yield a meaningful correlation or a claim about cofactor mechanisms; any such rho is undefined.
+
+Average-rank percentiles of a zero-strength tie block can have a positive floor, and that floor changes with the number of zeros among the 1,222 fixed network entries. Add per-library zero counts/floors and a per-target audit of whether native strength is zero in all 11 libraries. For each target show both cohorts' direct strength and derived percentile effects, and explicitly flag an all-zero direct strength that nonetheless acquires a nonzero percentile effect. This does not remove rows, change the fixed primary estimand or add inferential P values. It prevents a relative background shift from being misreported as reproduced communication strength.
+
+Restore cached LIANA magnitude component columns to their original float32 dtype after lossless decimal parsing and before ranking/RRA; native CellChat probabilities remain float64. This respects each original implementation's numerical representation. No biological model, prior result, package source or ranking formula is changed by these audits.

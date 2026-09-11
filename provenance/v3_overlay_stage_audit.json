@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "manifest_sha256": "76675eb6fe4a9ac9fa61f04fd58bc9ab0614d35c4aea16b1f494cd64b406d5dc",
+  "files": 603,
+  "payload_bytes": 92972675,
+  "existing_scientific_replacements": 0,
+  "publications_performed_by_this_script": false
+}

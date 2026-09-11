@@ -1,0 +1,36 @@
+Package: metapod
+Version: 1.20.0
+Date: 2026-02-18
+Title: Meta-Analyses on P-Values of Differential Analyses
+Authors@R: 
+    person("Aaron", "Lun", role=c("aut", "cre"), email = "infinite.monkeys.with.keyboards@gmail.com")
+Imports: Rcpp
+Suggests: testthat, knitr, BiocStyle, rmarkdown
+LinkingTo: Rcpp
+biocViews: MultipleComparison, DifferentialPeakCalling
+Description: Implements a variety of methods for combining p-values in
+        differential analyses of genome-scale datasets. Functions can
+        combine p-values across different tests in the same analysis
+        (e.g., genomic windows in ChIP-seq, exons in RNA-seq) or for
+        corresponding tests across separate analyses (e.g., replicated
+        comparisons, effect of different treatment conditions). Support
+        is provided for handling log-transformed input p-values,
+        missing values and weighting where appropriate.
+License: GPL-3
+URL: https://github.com/LTLA/metapod
+BugReports: https://github.com/LTLA/metapod/issues
+NeedsCompilation: yes
+SystemRequirements: C++11
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:54:31 UTC
+RemoteUrl: https://github.com/bioc/metapod
+RemoteRef: RELEASE_3_23
+RemoteSha: fccdc7f39efed41fe3f95a48e2141adb914e74d2
+Packaged: 2026-04-29 13:49:11 UTC; root
+Author: Aaron Lun [aut, cre]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-04-29 13:50:48 UTC; windows
+Archs: x64

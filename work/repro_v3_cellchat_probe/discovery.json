@@ -1,0 +1,70 @@
+{
+  "commit": {
+    "sha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+    "date": "2026-03-04T12:08:33Z",
+    "message": "Update analysis.R\n\nModified the `rankNet` function to fix the issue of incorrect text colors when using the `signaling` or `pairLR` parameters."
+  },
+  "tags": [
+    {
+      "name": "v2.1.2",
+      "sha": "a0d3b2d231d46c8787177fffeac908270c253747"
+    }
+  ],
+  "data_files": [
+    {
+      "name": "CellChatDB.human.rda",
+      "size": 1519587,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/data/CellChatDB.human.rda"
+    },
+    {
+      "name": "CellChatDB.mouse.rda",
+      "size": 1279646,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/data/CellChatDB.mouse.rda"
+    },
+    {
+      "name": "CellChatDB.zebrafish.rda",
+      "size": 167081,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/data/CellChatDB.zebrafish.rda"
+    },
+    {
+      "name": "PPI.human.rda",
+      "size": 64219,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/data/PPI.human.rda"
+    },
+    {
+      "name": "PPI.mouse.rda",
+      "size": 5670,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/data/PPI.mouse.rda"
+    }
+  ],
+  "source_files": [
+    {
+      "name": "CellChat_class.R",
+      "size": 40854,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/R/CellChat_class.R"
+    },
+    {
+      "name": "modeling.R",
+      "size": 66940,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/R/modeling.R"
+    },
+    {
+      "name": "utilities.R",
+      "size": 57169,
+      "download_url": "https://raw.githubusercontent.com/jinworks/CellChat/main/R/utilities.R"
+    }
+  ],
+  "python": {
+    "executable": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+    "version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "cellphonedb": null,
+      "liana": "1.10.0",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "anndata": "0.13.3.post0",
+      "scipy": "1.18.1",
+      "rdata": "1.1.0"
+    }
+  }
+}

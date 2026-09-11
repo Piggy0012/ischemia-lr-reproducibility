@@ -1,0 +1,76 @@
+{
+  "status": "current_environment_and_optional_audit_dependencies_verified",
+  "captured_utc": "2026-09-11T08:26:20.606201+00:00",
+  "python": "3.12.14",
+  "python_executable": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "sys_path": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_v3_cellchat_environment",
+    "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.zip",
+    "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs",
+    "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib",
+    "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages",
+    "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages"
+  ],
+  "baseline_lock_path": "work/repro_v3_environment/requirements-python.lock.txt",
+  "baseline_lock_sha256": "3821232e7ace1a22b28e6c297e9a8642d226a969fda43894b57b71dbb55c4886",
+  "baseline_pins": 109,
+  "current_pins": 109,
+  "added": {},
+  "rdata_already_present_in_baseline": true,
+  "removed": [],
+  "changed": [],
+  "excluded": [
+    {
+      "package": "artifact-tool-v2",
+      "reason": "Host artifact tooling with machine-local source; absent from independent-review import/dependency closure."
+    }
+  ],
+  "script_imports": {
+    "liana": {
+      "distribution_version": "1.10.0",
+      "imported_version": "1.10.0",
+      "module_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\__init__.py",
+      "module_sha256": "461764e9ba9cad878f9bd3ea4ab0ec81e83926cb0b0a0c94bafca66d9209ef81"
+    },
+    "numpy": {
+      "distribution_version": "2.3.5",
+      "imported_version": "2.3.5",
+      "module_path": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__init__.py",
+      "module_sha256": "a1792c20af1146952a6dfce4c0daeb197b2832b23d27434a97544544c497742d"
+    },
+    "pandas": {
+      "distribution_version": "2.3.3",
+      "imported_version": "2.3.3",
+      "module_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\pandas\\__init__.py",
+      "module_sha256": "47d2b5e8681ab2db1d38ceb4e31799b193ab33c2b2536ac63927bf7952cffb25"
+    },
+    "rdata": {
+      "distribution_version": "1.1.0",
+      "imported_version": "1.1.0",
+      "module_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\rdata\\__init__.py",
+      "module_sha256": "c94c1261100fafa45134bbc3b4f2ab0c9a6d6be99254f49d4b14bfc2ebaffc2c"
+    },
+    "scipy": {
+      "distribution_version": "1.18.1",
+      "imported_version": "1.18.1",
+      "module_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scipy\\__init__.py",
+      "module_sha256": "a11ad8a1eaf423d32a0d3dd6c9be6c7be86068321f043dacd2d555a49418b92f"
+    }
+  },
+  "independent_review_required_dependency_closure_packages": 62,
+  "all_active_dependency_constraints_and_current_pins_satisfied": true,
+  "pip_check_exit_code": 0,
+  "pip_check_stdout": "No broken requirements found.\n",
+  "pip_check_stderr": "",
+  "fresh_python_environment_restore_tested": false,
+  "conda_solve_attempted": false,
+  "baseline_lock_modified": false,
+  "package_installed_or_updated": false,
+  "model_fit_performed": false,
+  "prior_full_independent_review_passed": "work/repro_v3_cellchat_independent_review.json",
+  "prior_review_audit_sha256": "0a34c6e89d017b32785bc9e064767db2e1c139e08fbec200cc751158adcdfc60"
+}

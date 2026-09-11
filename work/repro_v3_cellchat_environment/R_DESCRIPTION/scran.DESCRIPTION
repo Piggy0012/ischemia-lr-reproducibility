@@ -1,0 +1,47 @@
+Package: scran
+Version: 1.40.0
+Date: 2026-04-07
+Title: Methods for Single-Cell RNA-Seq Data Analysis
+Description: Implements miscellaneous functions for interpretation of
+        single-cell RNA-seq data. Methods are provided for assignment
+        of cell cycle phase, detection of highly variable and
+        significantly correlated genes, identification of marker genes,
+        and other common tasks in routine single-cell analysis
+        workflows.
+Authors@R: 
+    c(person("Aaron", "Lun", role = c("aut", "cre"), email = "infinite.monkeys.with.keyboards@gmail.com"), 
+    person("Karsten", "Bach", role = "aut"),
+    person("Jong Kyoung", "Kim", role = "ctb"), 
+    person("Antonio", "Scialdone", role="ctb"))
+Depends: SingleCellExperiment, scuttle
+Imports: SummarizedExperiment, S4Vectors, BiocGenerics, BiocParallel,
+        Rcpp, stats, methods, utils, Matrix, edgeR, limma, igraph,
+        statmod, MatrixGenerics, S4Arrays, DelayedArray, BiocSingular,
+        bluster, metapod, dqrng, beachmat
+Suggests: testthat, BiocStyle, knitr, rmarkdown, DelayedMatrixStats,
+        HDF5Array, scRNAseq, dynamicTreeCut, ResidualMatrix,
+        ScaledMatrix, DESeq2, pheatmap, scater, scrapper
+biocViews: ImmunoOncology, Normalization, Sequencing, RNASeq, Software,
+        GeneExpression, Transcriptomics, SingleCell, Clustering
+LinkingTo: Rcpp, beachmat, BH, dqrng, scuttle
+License: GPL-3
+NeedsCompilation: yes
+VignetteBuilder: knitr
+SystemRequirements: C++11
+RoxygenNote: 7.3.3
+URL: https://github.com/MarioniLab/scran/
+BugReports: https://github.com/MarioniLab/scran/issues
+Config/pak/sysreqs: libglpk-dev libxml2-dev zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:43:17 UTC
+RemoteUrl: https://github.com/bioc/scran
+RemoteRef: RELEASE_3_23
+RemoteSha: 24a6fe7a83a1b6a0e85c2856c2d39b767b4597fd
+Packaged: 2026-05-30 09:04:22 UTC; root
+Author: Aaron Lun [aut, cre],
+  Karsten Bach [aut],
+  Jong Kyoung Kim [ctb],
+  Antonio Scialdone [ctb]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-05-30 09:16:49 UTC; windows
+Archs: x64

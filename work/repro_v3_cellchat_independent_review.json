@@ -1,0 +1,245 @@
+{
+  "status": "independent_checks_passed",
+  "original_187_exact_native_pairs_retained": 32,
+  "original_187_not_exactly_in_native_resource": 155,
+  "controlled_resource_rows": 1548,
+  "full_network_complete_keys": 1222,
+  "target_keys": 32,
+  "target_direction_counts": [
+    {
+      "source": "Astrocyte",
+      "target": "Endothelial",
+      "n": 8
+    },
+    {
+      "source": "Endothelial",
+      "target": "Astrocyte",
+      "n": 24
+    }
+  ],
+  "target_unique_LR_pairs_ignoring_celltype_direction": 29,
+  "n_targets_with_native_cofactor": 1,
+  "controlled_resource_recomputed_independently": true,
+  "fixed_full_network_recomputed_independently": true,
+  "canonical_mapping_complete_for_exact_subunit_definition": true,
+  "additional_target_loss_after_exact_resource_match": 0,
+  "per_library_eligible_rows": [
+    {
+      "sample": "GSM5319987",
+      "controlled_LIANA_network_rows": 2816
+    },
+    {
+      "sample": "GSM5319988",
+      "controlled_LIANA_network_rows": 3347
+    },
+    {
+      "sample": "GSM5319989",
+      "controlled_LIANA_network_rows": 4243
+    },
+    {
+      "sample": "GSM5319990",
+      "controlled_LIANA_network_rows": 5790
+    },
+    {
+      "sample": "GSM5319991",
+      "controlled_LIANA_network_rows": 5023
+    },
+    {
+      "sample": "GSM5319992",
+      "controlled_LIANA_network_rows": 6768
+    },
+    {
+      "sample": "GSM7841720",
+      "controlled_LIANA_network_rows": 14641
+    },
+    {
+      "sample": "GSM7841721",
+      "controlled_LIANA_network_rows": 14882
+    },
+    {
+      "sample": "GSM7841722",
+      "controlled_LIANA_network_rows": 13969
+    },
+    {
+      "sample": "GSM7841723",
+      "controlled_LIANA_network_rows": 20364
+    },
+    {
+      "sample": "GSM7841724",
+      "controlled_LIANA_network_rows": 15260
+    }
+  ],
+  "liana_dtype_sensitivity": [
+    {
+      "sample": "GSM5319987",
+      "network_values_different": 812,
+      "max_absolute_network_difference": 1.1960815005096492e-07,
+      "target_values_different": 20
+    },
+    {
+      "sample": "GSM5319988",
+      "network_values_different": 822,
+      "max_absolute_network_difference": 1.1960815005096492e-07,
+      "target_values_different": 19
+    },
+    {
+      "sample": "GSM5319989",
+      "network_values_different": 823,
+      "max_absolute_network_difference": 1.2114515479666466e-07,
+      "target_values_different": 18
+    },
+    {
+      "sample": "GSM5319990",
+      "network_values_different": 821,
+      "max_absolute_network_difference": 1.2114515479666466e-07,
+      "target_values_different": 19
+    },
+    {
+      "sample": "GSM5319991",
+      "network_values_different": 816,
+      "max_absolute_network_difference": 1.1587985793148903e-07,
+      "target_values_different": 20
+    },
+    {
+      "sample": "GSM5319992",
+      "network_values_different": 823,
+      "max_absolute_network_difference": 1.2114515479666466e-07,
+      "target_values_different": 20
+    },
+    {
+      "sample": "GSM7841720",
+      "network_values_different": 806,
+      "max_absolute_network_difference": 1.2114515479666466e-07,
+      "target_values_different": 20
+    },
+    {
+      "sample": "GSM7841721",
+      "network_values_different": 807,
+      "max_absolute_network_difference": 1.2089234568968266e-07,
+      "target_values_different": 20
+    },
+    {
+      "sample": "GSM7841722",
+      "network_values_different": 800,
+      "max_absolute_network_difference": 1.2089234568968266e-07,
+      "target_values_different": 19
+    },
+    {
+      "sample": "GSM7841723",
+      "network_values_different": 787,
+      "max_absolute_network_difference": 1.2284444994570265e-07,
+      "target_values_different": 17
+    },
+    {
+      "sample": "GSM7841724",
+      "network_values_different": 801,
+      "max_absolute_network_difference": 1.2284444994570265e-07,
+      "target_values_different": 18
+    }
+  ],
+  "liana_dtype_cross_cohort_sensitivity": [
+    {
+      "input_dtype": "float32",
+      "n_targets": 32,
+      "n_nonzero_both": 19,
+      "n_same_direction": 13,
+      "rho": 0.45075188242744174
+    },
+    {
+      "input_dtype": "float64",
+      "n_targets": 32,
+      "n_nonzero_both": 19,
+      "n_same_direction": 13,
+      "rho": 0.45075188242744174
+    }
+  ],
+  "pilot_normalization_cells_independently_checked": 40,
+  "pilot_signal_genes_checked": 865,
+  "pilot_normalization_max_absolute_error": 0,
+  "pilot_all_exported_positive_values_exact_float32_promotion": true,
+  "pilot_normalization_check_scope": "40 sparse raw-cache cell rows across the retained cell order; every signaling gene; not every original library/cell",
+  "pilot_probability_rows": 348300,
+  "pilot_fixed_network_zero_strength": 425,
+  "pilot_zero_strength_derived_percentile": 0.17362817362817362,
+  "pilot_fixed_network_positive_strength_min": 0.00019131140369087787,
+  "lossless_pilot_export_audit": {
+    "status": "lossless_export_verified",
+    "source_rds_sha256": "0da5834c88787d31776cbda1cb4f702a43443419b7dd1b246c2cee9cc4f98f2f",
+    "output_tsv_sha256": "349424440ffeb6a1d770ed0aff9071b32fd683be9020daae81492761060d8c20",
+    "original_tsv_sha256": "fcef4b766942fd85a5a08e4eeb342e57d34c767a8928754a0804c515c0b442ff",
+    "n_rows": 348300,
+    "n_original_tsv_probability_values_changed": 2684,
+    "max_original_tsv_probability_absolute_error": 4.996003610813204e-16,
+    "exact_probability_roundtrip": true,
+    "exact_pvalue_roundtrip": true,
+    "method": "R native double -> sprintf('%.17g') character -> TSV -> R double, with identical assertions",
+    "no_model_rerun": true,
+    "no_row_filter": true,
+    "source_script_sha256": "539001f644a42de96b1c65bbcdc2607df8ad0de9ab1a01586d8c04ebf0841d1e"
+  },
+  "no_disease_CellChat_concordance_computed_by_review": true,
+  "independent_Python_RDS_vs_TSV_probability_and_pvalue_bitwise_equal": true,
+  "new_model_fit": false,
+  "model_directory_files_modified": false,
+  "review_conclusions": {
+    "material_precision_issue": "Identified before CellChat cohort summary: restore saved LIANA component float32 before unique-column RRA. Analysis agent adopted the fix; observed 32-target concordance statistics unchanged in independent precision sensitivity.",
+    "zero_rank_issue": "Average-rank percentiles have a library-dependent positive zero-strength floor. Final summary must retain direct strength and all-library-zero target diagnostics; analysis agent added them.",
+    "final_model_completion_status": "Not certified by this review; native models and all-library lossless export completion are separate checks.",
+    "inferential_scope": "Descriptive controlled-resource case study on 32 retained targets; no generic benchmark, independent biological replication or mechanism claim.",
+    "final_provenance_suggestion": "Record fixed keys, manifests, LIANA component/custom means and lossless/model audits as summary input hashes, with summary output hashes."
+  },
+  "source_sha256": {
+    "work/repro_v3_cellchat_probe/CellChatDB.mouse_interaction.tsv": "9fbaf8efa07897070ddfddafcf607bfab0192b407393b9b56f17c9f8cb35259f",
+    "work/repro_v3_cellchat_probe/CellChatDB.mouse_complex.tsv": "3bbe88c18a95b1aec2e1ef25de1416658686b508a264a5d420cb65a7a2d674e8",
+    "work/repro_v3_cellchat_probe/CellChatDB.mouse_cofactor.tsv": "b757532ea376b246a3f79d38f81dd3b40be8e791b75db4d387928d7bd581997b",
+    "work/revision_sample_manifest.tsv": "5305925feb508f3c62ceeda8169b03ccef870be2402f590542d3b2728d0cea08",
+    "work/revision_cache/GSE174574/GSM5319987/genes.tsv.gz": "e481f3865af30f8d7025fd0744be6efb03ef73d48ddbc10be319de219a18b5d4",
+    "work/revision_cache/GSE174574/GSM5319988/genes.tsv.gz": "c0b155f5c2217495c0bd07862872de877d4bb740e30577e99af8ad2f52352e4b",
+    "work/revision_cache/GSE174574/GSM5319989/genes.tsv.gz": "4ffc765e4911abda0fc7cc38c67d5367bb0ed20bf432d03604e536b2c28f2dd4",
+    "work/revision_cache/GSE174574/GSM5319990/genes.tsv.gz": "ada67fae04ffadaf449fbadf252ea20401e5d76cdaf04328fb720c6d0cd241e4",
+    "work/revision_cache/GSE174574/GSM5319991/genes.tsv.gz": "8aaea1c15783e38e5d0ba251665a113b062c7b9f293c8c3ef882898c340e7923",
+    "work/revision_cache/GSE174574/GSM5319992/genes.tsv.gz": "e2f9a0716cdf9adfdcb337a09ce673c1bb44a3f0f6b16afe684b66c7e2565b04",
+    "work/revision_cache/GSE245386/GSM7841720/genes.tsv.gz": "22d9f873e8840c0f394108c9c197c8b8d9497c07cf0933876e06b1a3ed70c4c1",
+    "work/revision_cache/GSE245386/GSM7841721/genes.tsv.gz": "233d8e99e1de60c7bd31f2d2fe5c180db463b0341b9ed3552e9bf04daf9eb4b2",
+    "work/revision_cache/GSE245386/GSM7841722/genes.tsv.gz": "2d743ad98a5ae11b823b78932d772cfc9687ee9759d65d61450111264f696ec3",
+    "work/revision_cache/GSE245386/GSM7841723/genes.tsv.gz": "78bb654f359d8aad3e434d29d33ceff8c54d7952c7f00957e319d2202ab2a994",
+    "work/revision_cache/GSE245386/GSM7841724/genes.tsv.gz": "759d709681ed0bcae06b822029309404c713773388c77fab64179eecfee42c3f",
+    "work/repro_v3_cellchat/controlled_resource.tsv": "023596afec94f1dc06529d3432360d724dc8791ff2ce38b20b05fefaeb52daed",
+    "work/repro_v3_cellchat/tables/fixed_complete_network_keys.tsv": "a397d52c35ae68e6f5561271e50527c1dbda7eeec9cc595404a142b022394e7a",
+    "work/repro_v3_cellchat/tables/fixed_complete_target_keys.tsv": "29a582032ca5a8bc5982d661b90242602acfdc55ee059d4ce1afef989416633c",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319987__full_network.tsv.gz": "723be3d64d9bcf9e4fb3b77770b08bcf8c1b61b5506175ed382e5dece820ff1e",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319988__full_network.tsv.gz": "b8b71d7234791122de56e41116d59ae48921d6f1549b79c6a8864f11eecc84bf",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319989__full_network.tsv.gz": "c26036fa03d08034a2e3a5ad9bc93d78b85c307867fe2203b1780400c7b9979e",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319990__full_network.tsv.gz": "0eda5d9ec80e1330629b476290790bcdc5bea8c78e89395dee57bc2cfa53543c",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319991__full_network.tsv.gz": "d586e0eb1e1c6a5eb708c7ea1fc3960819345bdc0727c05a9cda545653d1a3fb",
+    "work/repro_liana_rank_diagnostic/raw/GSE174574/primary__GSM5319992__full_network.tsv.gz": "c9d312662f7df8d3b1b056ece53c33065d9a17a68848662f2671424384a7bd81",
+    "work/repro_liana_rank_diagnostic/raw/GSE245386/primary__GSM7841720__full_network.tsv.gz": "7f288becc47331011be34d216e06fe1fa31206ff5a325792b6a393081601f383",
+    "work/repro_liana_rank_diagnostic/raw/GSE245386/primary__GSM7841721__full_network.tsv.gz": "6e94ffa1f17d28587c9bef97ea0bac83fdf7b107a7f858a4b15b55213ed3f787",
+    "work/repro_liana_rank_diagnostic/raw/GSE245386/primary__GSM7841722__full_network.tsv.gz": "8c55a75c103daa22a446ff76569ea93990c29454c9dd355775a84c9e38e52605",
+    "work/repro_liana_rank_diagnostic/raw/GSE245386/primary__GSM7841723__full_network.tsv.gz": "5768f3698f8546ae630cdcfceb085d187b3a4e756cc39e27a6042f65001cc359",
+    "work/repro_liana_rank_diagnostic/raw/GSE245386/primary__GSM7841724__full_network.tsv.gz": "56ff85ebda9104c7fff73101c707ae54baf78a51997000511c2485b49145c2d1",
+    "outputs/reproducibility_v2/tables/null_fixed_candidate_keys.tsv": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f",
+    "work/repro_v3_cellchat/tables/sample_manifest.tsv": "0ba2e39cb65896f3f74f1dd8962e191713359b33917aa2ddc263140eb1e4dc64",
+    "work/repro_v3_cellchat/tables/GSM5319987__fixed_LIANA_components.tsv.gz": "138a5e54d3928cd0c8f440d4f2cac96b8c9d6e8c34d7cec967cbab4ef390d009",
+    "work/repro_v3_cellchat/tables/GSM5319988__fixed_LIANA_components.tsv.gz": "d92cf8b981cf58bdd471ad53271bde7196abacb6b071ba20e3f98a2120764a99",
+    "work/repro_v3_cellchat/tables/GSM5319989__fixed_LIANA_components.tsv.gz": "f4f17729ca1c5b1eb605d57a35ed9f4ad67c4be4aa8e20dbd6b15289a04cfd11",
+    "work/repro_v3_cellchat/tables/GSM5319990__fixed_LIANA_components.tsv.gz": "18dbfa348a1b26b8cb4423b0d93d3c0fdbcfa4616bbcceb5935b90b0db5cb511",
+    "work/repro_v3_cellchat/tables/GSM5319991__fixed_LIANA_components.tsv.gz": "13d67950e75ffb8493dd9e3b1c8aa83d922ca2fea160e94e424dcddf75e71b03",
+    "work/repro_v3_cellchat/tables/GSM5319992__fixed_LIANA_components.tsv.gz": "b2245d3e23c7e0803b123b46e1bd425b7f7658795a7f4a02505ace373c4694da",
+    "work/repro_v3_cellchat/tables/GSM7841720__fixed_LIANA_components.tsv.gz": "135ae4b93f20c5af180ad9b6a09057ba401e7118caeb56654f9a8e68f4ed5309",
+    "work/repro_v3_cellchat/tables/GSM7841721__fixed_LIANA_components.tsv.gz": "e12e8de80918989c426374877c09c69680b7c4512bcf7cf47ff894804f854cb9",
+    "work/repro_v3_cellchat/tables/GSM7841722__fixed_LIANA_components.tsv.gz": "19901c8c90eff35a544c1eadd718dadb9e3e9b5b69c9784f1c0f2e45fc2b70c7",
+    "work/repro_v3_cellchat/tables/GSM7841723__fixed_LIANA_components.tsv.gz": "1b36a26b029dc30610547de2cb1a934f41e672771f8ca5762d07a1acadc973f2",
+    "work/repro_v3_cellchat/tables/GSM7841724__fixed_LIANA_components.tsv.gz": "fc0669c6b9c7eb6f51669fa93c7add785860129719d0c9ecc0dcafb70effbd0b",
+    "work/repro_v3_cellchat/controlled/GSE245386/GSM7841720/cells.tsv.gz": "1b1937c92a750b929d7ca65a0cf7fdc9a4a83958d5f8f74530790b44c64fe538",
+    "work/repro_v3_cellchat/controlled/GSE245386/GSM7841720/genes.tsv": "c1bd568dfd32945aa16b4614b743dcb5cd94ba10926cd43fb3437484825eea65",
+    "work/revision_cache/GSE245386/GSM7841720/cells.tsv.gz": "725c3fde4ae0b298f7d26120c5356e0138eb0ee34ee2af1cd868fd97de169fca",
+    "work/repro_v3_cellchat/controlled/GSE245386/GSM7841720/full_network_lossless.tsv.gz": "349424440ffeb6a1d770ed0aff9071b32fd683be9020daae81492761060d8c20",
+    "work/repro_v3_independent_framework_plan.md": "d3ac0bc507b7ce0a03ed971e836cc956a0758db8328b8e679d791f47283b02ed",
+    "work/repro_v3_cellchat_run.py": "4c71e95276c7bdb4289869132378b7a119a356ed51edb07687ad7fd95ed2f3ea",
+    "work/repro_v3_cellchat_run.R": "6c30e7a9e26fbcea258b1565d02e3211271aead9a31d407615aa6e6e9a7c3496",
+    "work/repro_v3_cellchat_summary.py": "abc29e30f03dda917fd9c2cb7d2ba852f6bbf68045706aba6b149372123f3722",
+    "work/repro_v3_cellchat_export_lossless.R": "539001f644a42de96b1c65bbcdc2607df8ad0de9ab1a01586d8c04ebf0841d1e"
+  },
+  "review_script_sha256": "ff2a67f0108c1f3b7b0e11fe1794cd9ea1fdcf31a183b60f09a4f18198e3d691"
+}

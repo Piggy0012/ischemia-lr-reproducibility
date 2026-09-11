@@ -1,0 +1,414 @@
+{
+  "question": "Does expression-effect concordance transfer to native CellChat strength and analyst-derived relative priority in the exactly matched subset?",
+  "observation_unit": "one directed ligand-receptor candidate, not an independent animal replicate",
+  "fixed_target_N": 32,
+  "fixed_network_N": 1222,
+  "input_libraries": 11,
+  "resource_scope": "32 of 187 original targets have exact canonical native mouse resource definitions; the remaining 155 are outside this controlled subset",
+  "recommended_chart": "Four scatter panels retain all candidate effects, zeros, direction classes and shared all-zero-strength flags.",
+  "alternatives": [
+    "A compact metrics table is equally exact but conceals ties and zero effects.",
+    "A rho dot plot is compact but conceals the native zero-effect coverage difference."
+  ],
+  "scales": "Linear raw group differences; each axis padded to its observed range with zero included. Different metrics have different units.",
+  "overlap": "No jitter is applied. Identical candidate coordinates may overlap, including three all-zero-strength candidates.",
+  "no_fitted_line_or_inference": "Candidate dependencies and small animal groups preclude treating plotted points as independent replicates; no P or CI displayed.",
+  "input_sha256": {
+    "repro_v3_cellchat\\tables\\target_disease_effects.tsv.gz": "c9a2374bbd814895c0cd80f90a092df70c79b74020a9a2b43346a53cfc7e016e",
+    "repro_v3_cellchat\\tables\\cross_cohort_concordance.tsv": "fc16aa2b1022544514b8e3d8550b74248fae5a80a30eb9b463e5ed4b62f7c55f",
+    "repro_v3_cellchat\\tables\\zero_strength_target_audit.tsv": "78e1ff7de562caddc7360fc66844b8fe7d770af448fdb1937c18bd355234a690",
+    "repro_v3_cellchat\\tables\\tie_zero_audit.tsv": "4ee8a1cbe8e3cfe560b34588d040802c5babe60f2c34cacf70e7abe6e626b536",
+    "repro_v3_cellchat\\tables\\summary_audit.json": "8e589aa6fdb1f0ed2f9d81460c2c9b7463ae298e37ededb11a297cefef8958c5"
+  },
+  "optional_authoring_helper_unavailable": false,
+  "data_profile": {
+    "source": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v3_cellchat\\figure_source_data\\figureS6_candidate_effects.tsv",
+    "n_rows": 128,
+    "n_cols": 8,
+    "columns": {
+      "source": {
+        "type": "categorical",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 2,
+        "categories": [
+          [
+            "Endothelial",
+            96
+          ],
+          [
+            "Astrocyte",
+            32
+          ]
+        ],
+        "min_group_n": 32,
+        "max_group_n": 96,
+        "small_groups_flag": false
+      },
+      "target": {
+        "type": "categorical",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 2,
+        "categories": [
+          [
+            "Astrocyte",
+            96
+          ],
+          [
+            "Endothelial",
+            32
+          ]
+        ],
+        "min_group_n": 32,
+        "max_group_n": 96,
+        "small_groups_flag": false
+      },
+      "ligand": {
+        "type": "categorical",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 17,
+        "categories": [
+          [
+            "Ptn",
+            24
+          ],
+          [
+            "Lamb2",
+            20
+          ],
+          [
+            "Mdk",
+            8
+          ],
+          [
+            "Dll4",
+            8
+          ],
+          [
+            "Fn1",
+            8
+          ],
+          [
+            "Gas6",
+            8
+          ],
+          [
+            "Pros1",
+            8
+          ],
+          [
+            "Psap",
+            8
+          ],
+          [
+            "Sema4a",
+            4
+          ],
+          [
+            "Col4a2",
+            4
+          ],
+          [
+            "Col4a1",
+            4
+          ],
+          [
+            "Agrn",
+            4
+          ],
+          [
+            "Vegfa",
+            4
+          ],
+          [
+            "Entpd1",
+            4
+          ],
+          [
+            "Efna1",
+            4
+          ],
+          [
+            "Edn1",
+            4
+          ],
+          [
+            "Jam2",
+            4
+          ]
+        ],
+        "min_group_n": 4,
+        "max_group_n": 24,
+        "small_groups_flag": true
+      },
+      "receptor": {
+        "type": "categorical",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 20,
+        "categories": [
+          [
+            "Itgav_Itgb8",
+            16
+          ],
+          [
+            "Dag1",
+            12
+          ],
+          [
+            "Ncl",
+            12
+          ],
+          [
+            "Itga6_Itgb1",
+            12
+          ],
+          [
+            "Axl",
+            8
+          ],
+          [
+            "Mertk",
+            8
+          ],
+          [
+            "Itgav_Itgb1",
+            8
+          ],
+          [
+            "Sdc3",
+            4
+          ],
+          [
+            "Notch2",
+            4
+          ],
+          [
+            "Nrp1_Plxna2",
+            4
+          ],
+          [
+            "Flt1_Kdr",
+            4
+          ],
+          [
+            "Notch1",
+            4
+          ],
+          [
+            "Adora2b",
+            4
+          ],
+          [
+            "Epha5",
+            4
+          ],
+          [
+            "Ednrb",
+            4
+          ],
+          [
+            "Gpr37",
+            4
+          ],
+          [
+            "Gpr37l1",
+            4
+          ],
+          [
+            "Ptprz1",
+            4
+          ],
+          [
+            "Sdc2",
+            4
+          ],
+          [
+            "Sdc4",
+            4
+          ]
+        ],
+        "min_group_n": 4,
+        "max_group_n": 16,
+        "small_groups_flag": true
+      },
+      "GSE174574": {
+        "type": "continuous",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "mean": -0.0016265050121728056,
+        "median": 0.0,
+        "sd": 0.10207192987133042,
+        "min": -0.3711554035586277,
+        "max": 0.61737154744818,
+        "skewness": 1.7585746236586517,
+        "skew_label": "highly skewed",
+        "n_outliers_iqr": 27,
+        "outlier_lo": -0.07049967892996625,
+        "outlier_hi": 0.06479502985320215,
+        "needs_log_axis": false
+      },
+      "GSE245386": {
+        "type": "continuous",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "mean": -0.06278234362778626,
+        "median": -0.0024567780616408,
+        "sd": 0.1960185290376979,
+        "min": -1.133412802908282,
+        "max": 0.3005731564438224,
+        "skewness": -2.3930864574109254,
+        "skew_label": "highly skewed",
+        "n_outliers_iqr": 20,
+        "outlier_lo": -0.234875651046088,
+        "outlier_hi": 0.16397616024198233,
+        "needs_log_axis": false
+      },
+      "all_11_native_strength_zero": {
+        "type": "boolean",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 2,
+        "categories": [
+          [
+            "False",
+            116
+          ],
+          [
+            "True",
+            12
+          ]
+        ],
+        "min_group_n": 12,
+        "max_group_n": 116,
+        "small_groups_flag": false
+      },
+      "metric": {
+        "type": "categorical",
+        "n_total": 128,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 128,
+        "n_unique": 4,
+        "categories": [
+          [
+            "custom_coavailability",
+            32
+          ],
+          [
+            "cellchat_probability",
+            32
+          ],
+          [
+            "cellchat_strength_percentile",
+            32
+          ],
+          [
+            "LIANA_unique_column_RRA_priority",
+            32
+          ]
+        ],
+        "min_group_n": 32,
+        "max_group_n": 32,
+        "small_groups_flag": false
+      }
+    },
+    "correlation": {
+      "columns": [
+        "GSE174574",
+        "GSE245386"
+      ],
+      "matrix": {
+        "GSE174574": {
+          "GSE174574": 1.0,
+          "GSE245386": 0.472
+        },
+        "GSE245386": {
+          "GSE174574": 0.472,
+          "GSE245386": 1.0
+        }
+      },
+      "pairs_sorted": [
+        {
+          "a": "GSE174574",
+          "b": "GSE245386",
+          "r": 0.47171269306275826,
+          "magnitude": "moderate"
+        }
+      ]
+    },
+    "group_summary": {
+      "by": [
+        "metric",
+        "source"
+      ],
+      "n_groups": 8,
+      "min_n_per_group": 8,
+      "max_n_per_group": 24,
+      "median_n_per_group": 16,
+      "small_groups_flag": true,
+      "tiny_groups_flag": false,
+      "per_group_counts": [
+        [
+          "('LIANA_unique_column_RRA_priority', 'Astrocyte')",
+          8
+        ],
+        [
+          "('LIANA_unique_column_RRA_priority', 'Endothelial')",
+          24
+        ],
+        [
+          "('cellchat_probability', 'Astrocyte')",
+          8
+        ],
+        [
+          "('cellchat_probability', 'Endothelial')",
+          24
+        ],
+        [
+          "('cellchat_strength_percentile', 'Astrocyte')",
+          8
+        ],
+        [
+          "('cellchat_strength_percentile', 'Endothelial')",
+          24
+        ],
+        [
+          "('custom_coavailability', 'Astrocyte')",
+          8
+        ],
+        [
+          "('custom_coavailability', 'Endothelial')",
+          24
+        ]
+      ]
+    },
+    "warnings": [
+      "\u5217 'ligand' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'receptor' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002"
+    ],
+    "suggestions": [
+      "\u5206\u7c7b vs \u8fde\u7eed\uff0c\u5c0f\u6837\u672c\uff08\u6bcf\u7ec4 n<10\uff09\u2192 **\u7bb1\u7ebf\u56fe/\u5c0f\u63d0\u7434\u56fe + stripplot \u53e0\u52a0\u539f\u59cb\u70b9**\uff1b**\u907f\u514d**\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\uff0c\u4f1a\u63a9\u76d6\u5206\u5e03\u3002",
+      "\u4e24\u8fde\u7eed\u53d8\u91cf GSE174574 vs GSE245386 \u2192 \u6563\u70b9\u56fe\uff08\u542b\u56de\u5f52\u62df\u5408 + r \u503c\uff09",
+      "\u5206\u7c7b\u7ef4\u5ea6\u7ec4\u5408\u6570 = 10880\uff08source, target, ligand, receptor, all_11_native_strength_zero, metric \u5168\u4ea4\u53c9\uff09\uff0c**\u4e00\u5f20\u56fe\u585e\u4e0d\u4e0b**\u2014\u2014\u5efa\u8bae\u6309\u67d0\u4e00\u7ef4\u62c6\u6210\u591a\u9762\u677f\uff0c\u6216\u9009\u62e9\u5b50\u96c6\u3002",
+      "GSE174574 \u9ad8\u5ea6\u504f\u6001\uff08skew=1.76\uff09\u2192 \u8003\u8651\u5bf9\u6570\u53d8\u6362\u6216\u5c0f\u63d0\u7434\u56fe\u4ee3\u66ff\u5747\u503c\u67f1\u56fe",
+      "GSE245386 \u9ad8\u5ea6\u504f\u6001\uff08skew=-2.39\uff09\u2192 \u8003\u8651\u5bf9\u6570\u53d8\u6362\u6216\u5c0f\u63d0\u7434\u56fe\u4ee3\u66ff\u5747\u503c\u67f1\u56fe"
+    ]
+  }
+}

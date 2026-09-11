@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "preview_sha256": "2b79a397209af7432f6f5fa01f99dd956f49faed31790463f81ed06bafbdd109",
+  "actual_color_and_grayscale_pngs_viewed": true,
+  "iteration": 2,
+  "previous_issue": "C annotation overlapped y tick labels; moved to empty upper-right plot area.",
+  "checks": {
+    "glyphs": true,
+    "unclipped_text": true,
+    "no_annotation_or_legend_data_occlusion": true,
+    "aligned_panels": true,
+    "panel_spacing": true,
+    "color_and_grayscale_redundant_shapes": true,
+    "all_data_within_axes": true,
+    "consistent_direction_and_hollow_encoding": true
+  },
+  "notes": "Coincident observations are intentionally unjittered; three all-zero-native-strength candidates overlap in B and C. All metrics use the same 32 target keys; both rank methods use the same 1222-edge background."
+}

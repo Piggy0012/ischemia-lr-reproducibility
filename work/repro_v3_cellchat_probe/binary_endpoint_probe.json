@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://blaserlab.r-universe.dev/bin/windows/contrib/4.6/CellChat_2.2.0.9001.zip",
+    "status": 200,
+    "resolved_url": "https://r2.ropensci.org/6876e546e5bed3fd49b58bb83c5520a44fffd01026199003cd26357cae34210b",
+    "headers": {
+      "Date": "Fri, 11 Sep 2026 07:31:14 GMT",
+      "Content-Type": "application/zip",
+      "Content-Length": "5726325",
+      "Connection": "keep-alive",
+      "Content-Disposition": "attachment; filename=\"CellChat_2.2.0.9001.zip\"",
+      "ETag": "\"0528a86d1aea340634bcd7de17ac8319\"",
+      "Last-Modified": "Thu, 03 Sep 2026 14:53:49 GMT",
+      "Accept-Ranges": "bytes",
+      "Cache-Control": "public, max-age=31536000, immutable",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Server": "cloudflare",
+      "cf-cache-status": "HIT",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Zj9H1opx0mO3lGwE%2BfwCT6Gba0GMDmissN44rEmCBVRPHqCSN38pD22vi5mnCuF7%2FZwXPcCFLkDy%2B1HLc3j5FLgl2cv4Dhu3W9VbQRngtVspi6DVVdH9PTuvy0RiEMAx%2B5I%3D\"}]}",
+      "CF-RAY": "a394f8bf7f49d942-LAX"
+    }
+  },
+  {
+    "url": "https://blaserlab.r-universe.dev/bin/windows/contrib/4.6/PACKAGES",
+    "status": 200,
+    "resolved_url": "https://blaserlab.r-universe.dev/bin/windows/contrib/4.6/PACKAGES",
+    "headers": {
+      "Date": "Fri, 11 Sep 2026 07:31:15 GMT",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "Server": "cloudflare",
+      "x-powered-by": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=60",
+      "etag": "W/\"1789108359203\"",
+      "last-modified": "Fri, 11 Sep 2026 06:32:39 GMT",
+      "x-runiverse-cache": "MISS",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "cf-cache-status": "EXPIRED",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hEEaN%2FmtPK%2BK0SWhHy3YOxcHuiTCTWhPPtiYBxWpXjx4XMDwYGIvav9nsx5QHDrIh0%2BVTiA0izVymj98kcISbpFkourEfxLbHpNOtegkgM3Gkhy%2FZKIjGHt6vqLfToV%2FuahPny3q4mbKzZI%3D\"}]}",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a394f8c3ab6fd098-LAX",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  }
+]

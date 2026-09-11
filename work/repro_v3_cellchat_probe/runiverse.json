@@ -1,0 +1,1935 @@
+{
+  "_id": "6a99d2daa35c77d3b76ad2c2",
+  "Package": "CellChat",
+  "Type": "Package",
+  "Title": "Inference and analysis of cell-cell communication from\nsingle-cell and spatially resolved transcriptomics data",
+  "Version": "2.2.0.9001",
+  "Author": "Suoqin Jin",
+  "Maintainer": "Suoqin Jin <sqjin@whu.edu.cn>",
+  "Description": "an open source R tool that infers, visualizes and analyzes\nthe cell-cell communication networks from scRNA-seq and\nspatially resolved transcriptomics data.",
+  "License": "GPL-3",
+  "Encoding": "UTF-8",
+  "LazyData": "TRUE",
+  "RoxygenNote": "7.3.1",
+  "VignetteBuilder": "knitr",
+  "Config/pak/sysreqs": "cmake libfontconfig1-dev libfreetype6-dev\nlibfribidi-dev libglpk-dev make libharfbuzz-dev libicu-dev\nlibpng-dev libuv1-dev libxml2-dev libssl-dev perl python3\nzlib1g-dev",
+  "Repository": "https://blaserlab.r-universe.dev",
+  "Date/Publication": "2026-03-04 12:08:33 UTC",
+  "RemoteUrl": "https://github.com/jinworks/CellChat",
+  "RemoteRef": "HEAD",
+  "RemoteSha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "NeedsCompilation": "yes",
+  "Packaged": {
+    "Date": "2026-09-03 13:22:03 UTC",
+    "User": "root"
+  },
+  "_user": "blaserlab",
+  "_type": "src",
+  "_file": "CellChat_2.2.0.9001.tar.gz",
+  "_fileid": "https://r2.ropensci.org/53e1a3de2df8a2d53419929628e0428c0b5be3d84d5b24fee0c0d3fb515dffaa",
+  "_filesize": 29954673,
+  "_sha256": "53e1a3de2df8a2d53419929628e0428c0b5be3d84d5b24fee0c0d3fb515dffaa",
+  "_expires": "2026-12-12T14:44:15.000Z",
+  "_created": "2026-09-03T13:22:03.000Z",
+  "_published": "2026-09-03T20:04:42.786Z",
+  "_jobs": [
+    {
+      "job": 100797297671,
+      "time": 282,
+      "config": "linux-devel-arm64",
+      "r": "4.7.0",
+      "check": "NOTE",
+      "artifact": "9895547658"
+    },
+    {
+      "job": 100797296902,
+      "time": 347,
+      "config": "linux-devel-x86_64",
+      "r": "4.7.0",
+      "check": "NOTE",
+      "artifact": "9896139237"
+    },
+    {
+      "job": 100797298364,
+      "time": 281,
+      "config": "linux-release-arm64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9895548183"
+    },
+    {
+      "job": 100797298527,
+      "time": 344,
+      "config": "linux-release-x86_64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9896135858"
+    },
+    {
+      "job": 100797299010,
+      "time": 201,
+      "config": "macos-oldrel-arm64",
+      "r": "4.5.3",
+      "check": "NOTE",
+      "artifact": "9898067323"
+    },
+    {
+      "job": 100797298882,
+      "time": 453,
+      "config": "macos-oldrel-x86_64",
+      "r": "4.5.3",
+      "check": "NOTE",
+      "artifact": "9898093749"
+    },
+    {
+      "job": 100797297942,
+      "time": 251,
+      "config": "macos-release-arm64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9897816354"
+    },
+    {
+      "job": 100797297075,
+      "time": 627,
+      "config": "macos-release-x86_64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9898212469"
+    },
+    {
+      "job": 100797296935,
+      "time": 389,
+      "config": "source",
+      "r": "4.6.1",
+      "check": "OK",
+      "artifact": "9895353117"
+    },
+    {
+      "job": 100797297488,
+      "time": 243,
+      "config": "wasm-release",
+      "r": "4.6.0",
+      "check": "OK",
+      "artifact": "9896070014"
+    },
+    {
+      "job": 100797297791,
+      "time": 502,
+      "config": "windows-devel-arm64",
+      "r": "4.7.0",
+      "check": "NOTE",
+      "artifact": "9895695912"
+    },
+    {
+      "job": 100797297953,
+      "time": 346,
+      "config": "windows-devel-x86_64",
+      "r": "4.7.0",
+      "check": "NOTE",
+      "artifact": "9896126532"
+    },
+    {
+      "job": 100797298896,
+      "time": 346,
+      "config": "windows-oldrel-x86_64",
+      "r": "4.5.3",
+      "check": "NOTE",
+      "artifact": "9896128795"
+    },
+    {
+      "job": 100797298607,
+      "time": 378,
+      "config": "windows-release-arm64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9895612859"
+    },
+    {
+      "job": 100797297920,
+      "time": 303,
+      "config": "windows-release-x86_64",
+      "r": "4.6.1",
+      "check": "NOTE",
+      "artifact": "9896099748"
+    }
+  ],
+  "_host": "GitHub-Actions",
+  "_buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134",
+  "_status": "success",
+  "_upstream": "https://github.com/jinworks/CellChat",
+  "_commit": {
+    "id": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+    "author": "Xiangzheng Cheng <145243521+Ethel-0@users.noreply.github.com>",
+    "committer": "GitHub <noreply@github.com>",
+    "message": "Update analysis.R\n\nModified the `rankNet` function to fix the issue of incorrect text colors when using the `signaling` or `pairLR` parameters.",
+    "time": 1772626113
+  },
+  "_maintainer": {
+    "name": "Suoqin Jin",
+    "email": "sqjin@whu.edu.cn"
+  },
+  "_distro": "resolute",
+  "_registered": true,
+  "_dependencies": [
+    {
+      "package": "R",
+      "version": ">= 3.6.0",
+      "role": "Depends"
+    },
+    {
+      "package": "dplyr",
+      "role": "Depends"
+    },
+    {
+      "package": "igraph",
+      "role": "Depends"
+    },
+    {
+      "package": "ggplot2",
+      "role": "Depends"
+    },
+    {
+      "package": "Rcpp",
+      "role": "LinkingTo"
+    },
+    {
+      "package": "RcppEigen",
+      "role": "LinkingTo"
+    },
+    {
+      "package": "future",
+      "role": "Imports"
+    },
+    {
+      "package": "future.apply",
+      "role": "Imports"
+    },
+    {
+      "package": "pbapply",
+      "role": "Imports"
+    },
+    {
+      "package": "irlba",
+      "role": "Imports"
+    },
+    {
+      "package": "NMF",
+      "version": ">= 0.23.0",
+      "role": "Imports"
+    },
+    {
+      "package": "ggalluvial",
+      "role": "Imports"
+    },
+    {
+      "package": "stringr",
+      "role": "Imports"
+    },
+    {
+      "package": "svglite",
+      "role": "Imports"
+    },
+    {
+      "package": "Matrix",
+      "role": "Imports"
+    },
+    {
+      "package": "ggrepel",
+      "role": "Imports"
+    },
+    {
+      "package": "circlize",
+      "version": ">= 0.4.12",
+      "role": "Imports"
+    },
+    {
+      "package": "RColorBrewer",
+      "role": "Imports"
+    },
+    {
+      "package": "cowplot",
+      "role": "Imports"
+    },
+    {
+      "package": "methods",
+      "role": "Imports"
+    },
+    {
+      "package": "ComplexHeatmap",
+      "role": "Imports"
+    },
+    {
+      "package": "RSpectra",
+      "role": "Imports"
+    },
+    {
+      "package": "Rcpp",
+      "role": "Imports"
+    },
+    {
+      "package": "reticulate",
+      "role": "Imports"
+    },
+    {
+      "package": "scales",
+      "role": "Imports"
+    },
+    {
+      "package": "sna",
+      "role": "Imports"
+    },
+    {
+      "package": "reshape2",
+      "role": "Imports"
+    },
+    {
+      "package": "FNN",
+      "role": "Imports"
+    },
+    {
+      "package": "shape",
+      "role": "Imports"
+    },
+    {
+      "package": "BiocGenerics",
+      "role": "Imports"
+    },
+    {
+      "package": "magrittr",
+      "role": "Imports"
+    },
+    {
+      "package": "patchwork",
+      "role": "Imports"
+    },
+    {
+      "package": "colorspace",
+      "role": "Imports"
+    },
+    {
+      "package": "plyr",
+      "role": "Imports"
+    },
+    {
+      "package": "ggpubr",
+      "role": "Imports"
+    },
+    {
+      "package": "ggnetwork",
+      "role": "Imports"
+    },
+    {
+      "package": "BiocNeighbors",
+      "role": "Imports"
+    },
+    {
+      "package": "plotly",
+      "role": "Imports"
+    },
+    {
+      "package": "shiny",
+      "role": "Imports"
+    },
+    {
+      "package": "bslib",
+      "role": "Imports"
+    },
+    {
+      "package": "collapse",
+      "role": "Imports"
+    },
+    {
+      "package": "rmarkdown",
+      "role": "Suggests"
+    },
+    {
+      "package": "knitr",
+      "role": "Suggests"
+    },
+    {
+      "package": "roxygen2",
+      "role": "Suggests"
+    },
+    {
+      "package": "Seurat",
+      "version": ">= 4.0.0",
+      "role": "Suggests"
+    },
+    {
+      "package": "SingleCellExperiment",
+      "role": "Suggests"
+    },
+    {
+      "package": "SummarizedExperiment",
+      "role": "Suggests"
+    },
+    {
+      "package": "purrr",
+      "role": "Suggests"
+    },
+    {
+      "package": "uwot",
+      "role": "Suggests"
+    },
+    {
+      "package": "gg.gap",
+      "role": "Suggests"
+    },
+    {
+      "package": "wordcloud",
+      "role": "Suggests"
+    },
+    {
+      "package": "bsicons",
+      "role": "Suggests"
+    },
+    {
+      "package": "presto",
+      "role": "Suggests"
+    },
+    {
+      "package": "tidyverse",
+      "role": "Suggests"
+    },
+    {
+      "package": "tidyr",
+      "role": "Suggests"
+    },
+    {
+      "package": "rlang",
+      "role": "Suggests"
+    }
+  ],
+  "_owner": "jinworks",
+  "_selfowned": false,
+  "_usedby": 1,
+  "_updates": [
+    {
+      "week": "2025-36",
+      "n": 1
+    },
+    {
+      "week": "2025-41",
+      "n": 4
+    },
+    {
+      "week": "2026-08",
+      "n": 10
+    },
+    {
+      "week": "2026-09",
+      "n": 3
+    },
+    {
+      "week": "2026-10",
+      "n": 1
+    }
+  ],
+  "_tags": [],
+  "_topics": [
+    "cell-cell-communication",
+    "cell-cell-interaction",
+    "microenvironment",
+    "single-cell-analysis",
+    "spatial-transcriptomics",
+    "cpp"
+  ],
+  "_stars": 662,
+  "_contributors": [
+    {
+      "user": "sqjin",
+      "count": 162,
+      "uuid": 32399212
+    },
+    {
+      "user": "809825706",
+      "count": 1,
+      "uuid": 46601791
+    },
+    {
+      "user": "abhilashdasari",
+      "count": 1,
+      "uuid": 54527924
+    },
+    {
+      "user": "giannimonaco",
+      "count": 1,
+      "uuid": 11880848
+    },
+    {
+      "user": "jonversusjon",
+      "count": 1,
+      "uuid": 17264200
+    },
+    {
+      "user": "ethel-0",
+      "count": 1,
+      "uuid": 145243521
+    }
+  ],
+  "_userbio": {
+    "uuid": 62366303,
+    "type": "user",
+    "name": "Brad Blaser",
+    "followers": 9,
+    "description": "Experimental Hematologist and Fish Fancier"
+  },
+  "_downloads": {
+    "count": 0,
+    "source": "https://cranlogs.r-pkg.org/downloads/total/last-month/CellChat"
+  },
+  "_devurl": "https://github.com/jinworks/cellchat",
+  "_searchresults": 3168,
+  "_rbuild": "4.6.1",
+  "_assets": [
+    "extra/CellChat.html",
+    "extra/citation.cff",
+    "extra/citation.html",
+    "extra/citation.json",
+    "extra/citation.txt",
+    "extra/contents.json",
+    "extra/manual.pdf",
+    "extra/NEWS.html",
+    "extra/NEWS.txt",
+    "extra/readme.html",
+    "extra/readme.md",
+    "LICENSE",
+    "manual.pdf"
+  ],
+  "_cranurl": false,
+  "_exports": [
+    "addMeta",
+    "addReduction",
+    "aggregateNet",
+    "barPlot",
+    "barplot_internal",
+    "buildSNN",
+    "CellChat_theme_opts",
+    "checkGeneSymbol",
+    "colorRamp3",
+    "compareInteractions",
+    "computeAveExpr",
+    "computeCellDistance",
+    "computeCommunProb",
+    "computeCommunProbPathway",
+    "computeEigengap",
+    "computeEnrichmentScore",
+    "computeExpr_agonist",
+    "computeExpr_antagonist",
+    "computeExpr_complex",
+    "computeExpr_coreceptor",
+    "computeExpr_LR",
+    "computeExprGroup_agonist",
+    "computeExprGroup_antagonist",
+    "computeLaplacian",
+    "computeNetD_structure",
+    "computeNetSimilarity",
+    "computeNetSimilarityPairwise",
+    "computeRegionDistance",
+    "createCellChat",
+    "dotPlot",
+    "extractEnrichedLR",
+    "extractGene",
+    "extractGeneSubset",
+    "extractGeneSubsetFromPair",
+    "extractLRfromGenes",
+    "filterCommunication",
+    "findEnrichedSignaling",
+    "geometricMean",
+    "getMaxWeight",
+    "ggPalette",
+    "identifyCommunicationPatterns",
+    "identifyEnrichedInteractions",
+    "identifyOverExpressedGenes",
+    "identifyOverExpressedInteractions",
+    "identifyOverExpressedLigandReceptor",
+    "liftCellChat",
+    "mergeCellChat",
+    "mergeInteractions",
+    "netAnalysis_computeCentrality",
+    "netAnalysis_contribution",
+    "netAnalysis_diff_signalingRole_scatter",
+    "netAnalysis_dot",
+    "netAnalysis_river",
+    "netAnalysis_signalingChanges_scatter",
+    "netAnalysis_signalingRole_heatmap",
+    "netAnalysis_signalingRole_network",
+    "netAnalysis_signalingRole_scatter",
+    "netClustering",
+    "netEmbedding",
+    "netMappingDEG",
+    "netVisual",
+    "netVisual_aggregate",
+    "netVisual_barplot",
+    "netVisual_bubble",
+    "netVisual_chord_cell",
+    "netVisual_chord_cell_internal",
+    "netVisual_chord_gene",
+    "netVisual_circle",
+    "netVisual_diffInteraction",
+    "netVisual_embedding",
+    "netVisual_embeddingPairwise",
+    "netVisual_embeddingPairwiseZoomIn",
+    "netVisual_embeddingZoomIn",
+    "netVisual_heatmap",
+    "netVisual_hierarchy1",
+    "netVisual_hierarchy2",
+    "netVisual_individual",
+    "netVisual_spatial",
+    "normalizeData",
+    "pieChart",
+    "plotGeneExpression",
+    "preProcMultiomics",
+    "rankNet",
+    "rankNetPairwise",
+    "rankSimilarity",
+    "runCellChatApp",
+    "runPCA",
+    "runUMAP",
+    "scaleData",
+    "scaleMat",
+    "scPalette",
+    "searchPair",
+    "selectK",
+    "setIdent",
+    "showDatabaseCategory",
+    "sketchData",
+    "smoothData",
+    "spatialDimPlot",
+    "spatialFeaturePlot",
+    "StackedVlnPlot",
+    "subsetCellChat",
+    "subsetCommunication",
+    "subsetData",
+    "subsetDB",
+    "triMean",
+    "updateCCC_score",
+    "updateCellChat",
+    "updateCellChatDB",
+    "updateClusterLabels"
+  ],
+  "_datasets": [
+    {
+      "name": "CellChatDB.human",
+      "title": "Ligand-receptor interactions in CellChat database for human",
+      "object": "CellChatDB.human",
+      "class": [
+        "list"
+      ],
+      "fields": [],
+      "table": false,
+      "tojson": true
+    },
+    {
+      "name": "CellChatDB.mouse",
+      "title": "Ligand-receptor interactions in CellChat database for mouse",
+      "object": "CellChatDB.mouse",
+      "class": [
+        "list"
+      ],
+      "fields": [],
+      "table": false,
+      "tojson": true
+    },
+    {
+      "name": "CellChatDB.zebrafish",
+      "title": "Ligand-receptor interactions in CellChat database for Zebrafish",
+      "object": "CellChatDB.zebrafish",
+      "class": [
+        "list"
+      ],
+      "fields": [],
+      "table": false,
+      "tojson": true
+    },
+    {
+      "name": "PPI.human",
+      "title": "Human Protein-Protein interactions",
+      "object": "PPI.human",
+      "class": [
+        "dgCMatrix"
+      ],
+      "fields": [],
+      "table": false,
+      "tojson": false
+    },
+    {
+      "name": "PPI.mouse",
+      "title": "Mouse Protein-Protein interactions",
+      "object": "PPI.mouse",
+      "class": [
+        "dgCMatrix"
+      ],
+      "fields": [],
+      "table": false,
+      "tojson": false
+    }
+  ],
+  "_help": [
+    {
+      "page": "addMeta",
+      "title": "Add the cell information into meta slot",
+      "topics": [
+        "addMeta"
+      ]
+    },
+    {
+      "page": "addReduction",
+      "title": "Add a reduced space of the data into CellChat object",
+      "topics": [
+        "addReduction"
+      ]
+    },
+    {
+      "page": "aggregateNet",
+      "title": "Calculate the aggregated network by counting the number of links or summarizing the communication probability",
+      "topics": [
+        "aggregateNet"
+      ]
+    },
+    {
+      "page": "alpha_centrality",
+      "title": "compute alpha centrality",
+      "topics": [
+        "alpha_centrality"
+      ]
+    },
+    {
+      "page": "AnyMatrix-class",
+      "title": "The CellChat Class",
+      "topics": [
+        "AnyMatrix-class"
+      ]
+    },
+    {
+      "page": "barPlot",
+      "title": "Bar plot for average gene expression",
+      "topics": [
+        "barPlot"
+      ]
+    },
+    {
+      "page": "barplot_internal",
+      "title": "Bar plot for dataframe",
+      "topics": [
+        "barplot_internal"
+      ]
+    },
+    {
+      "page": "buildSNN",
+      "title": "Build SNN matrix",
+      "topics": [
+        "buildSNN"
+      ]
+    },
+    {
+      "page": "CellChat_theme_opts",
+      "title": "ggplot theme in CellChat",
+      "topics": [
+        "CellChat_theme_opts"
+      ]
+    },
+    {
+      "page": "CellChat-class",
+      "title": "The key slots used in the CellChat object are described below.",
+      "topics": [
+        "CellChat",
+        "CellChat-class"
+      ]
+    },
+    {
+      "page": "CellChatDB.human",
+      "title": "Ligand-receptor interactions in CellChat database for human",
+      "topics": [
+        "CellChatDB.human"
+      ]
+    },
+    {
+      "page": "CellChatDB.mouse",
+      "title": "Ligand-receptor interactions in CellChat database for mouse",
+      "topics": [
+        "CellChatDB.mouse"
+      ]
+    },
+    {
+      "page": "CellChatDB.zebrafish",
+      "title": "Ligand-receptor interactions in CellChat database for Zebrafish",
+      "topics": [
+        "CellChatDB.zebrafish"
+      ]
+    },
+    {
+      "page": "checkGeneSymbol",
+      "title": "check the official Gene Symbol",
+      "topics": [
+        "checkGeneSymbol"
+      ]
+    },
+    {
+      "page": "colorRamp3",
+      "title": "Color interpolation",
+      "topics": [
+        "colorRamp3"
+      ]
+    },
+    {
+      "page": "compareInteractions",
+      "title": "Comparing the number of inferred communication links between different datasets",
+      "topics": [
+        "compareInteractions"
+      ]
+    },
+    {
+      "page": "computeAveExpr",
+      "title": "Compute averaged expression values for each cell group",
+      "topics": [
+        "computeAveExpr"
+      ]
+    },
+    {
+      "page": "computeCellDistance",
+      "title": "Compute cell-cell distance based on the spatial coordinates",
+      "topics": [
+        "computeCellDistance"
+      ]
+    },
+    {
+      "page": "computeCentralityLocal",
+      "title": "Compute Centrality measures for a signaling network",
+      "topics": [
+        "computeCentralityLocal"
+      ]
+    },
+    {
+      "page": "computeCommunProb",
+      "title": "Compute the communication probability/strength between any interacting cell groups",
+      "topics": [
+        "computeCommunProb"
+      ]
+    },
+    {
+      "page": "computeCommunProbPathway",
+      "title": "Compute the communication probability on signaling pathway level by summarizing all related ligands/receptors",
+      "topics": [
+        "computeCommunProbPathway"
+      ]
+    },
+    {
+      "page": "computeEigengap",
+      "title": "Compute the eigengap of a given matrix for inferring the number of clusters",
+      "topics": [
+        "computeEigengap"
+      ]
+    },
+    {
+      "page": "computeEnrichmentScore",
+      "title": "Compute and visualize the enrichment score of ligand-receptor pairs in one condition compared to another condition",
+      "topics": [
+        "computeEnrichmentScore"
+      ]
+    },
+    {
+      "page": "computeExpr_agonist",
+      "title": "Modeling the effect of agonist on the ligand-receptor interaction",
+      "topics": [
+        "computeExpr_agonist"
+      ]
+    },
+    {
+      "page": "computeExpr_antagonist",
+      "title": "Modeling the effect of antagonist on the ligand-receptor interaction",
+      "topics": [
+        "computeExpr_antagonist"
+      ]
+    },
+    {
+      "page": "computeExpr_complex",
+      "title": "Compute the expression of complex in individual cells using geometric mean",
+      "topics": [
+        "computeExpr_complex"
+      ]
+    },
+    {
+      "page": "computeExpr_coreceptor",
+      "title": "Modeling the effect of coreceptor on the ligand-receptor interaction",
+      "topics": [
+        "computeExpr_coreceptor"
+      ]
+    },
+    {
+      "page": "computeExpr_LR",
+      "title": "Compute the expression of ligands or receptors using geometric mean",
+      "topics": [
+        "computeExpr_LR"
+      ]
+    },
+    {
+      "page": "computeExprGroup_agonist",
+      "title": "Modeling the effect of agonist on the ligand-receptor interaction",
+      "topics": [
+        "computeExprGroup_agonist"
+      ]
+    },
+    {
+      "page": "computeExprGroup_antagonist",
+      "title": "Modeling the effect of antagonist on the ligand-receptor interaction",
+      "topics": [
+        "computeExprGroup_antagonist"
+      ]
+    },
+    {
+      "page": "computeLaplacian",
+      "title": "Compute eigenvalues of associated Laplacian matrix of a given matrix",
+      "topics": [
+        "computeLaplacian"
+      ]
+    },
+    {
+      "page": "computeNetD_structure",
+      "title": "Compute the structural distance between two signaling networks",
+      "topics": [
+        "computeNetD_structure"
+      ]
+    },
+    {
+      "page": "computeNetSimilarity",
+      "title": "Compute signaling network similarity for any pair of signaling networks",
+      "topics": [
+        "computeNetSimilarity"
+      ]
+    },
+    {
+      "page": "computeNetSimilarityPairwise",
+      "title": "Compute signaling network similarity for any pair of datasets",
+      "topics": [
+        "computeNetSimilarityPairwise"
+      ]
+    },
+    {
+      "page": "computeRegionDistance",
+      "title": "Compute the region distance based on the spatial locations of each splot/cell of the spatial transcriptomics",
+      "topics": [
+        "computeRegionDistance"
+      ]
+    },
+    {
+      "page": "createCellChat",
+      "title": "Create a new CellChat object from a data matrix, Seurat or SingleCellExperiment object",
+      "topics": [
+        "createCellChat"
+      ]
+    },
+    {
+      "page": "dotPlot",
+      "title": "Dot plot",
+      "topics": [
+        "dotPlot"
+      ]
+    },
+    {
+      "page": "entropia",
+      "title": "compute the Shannon entropy",
+      "topics": [
+        "entropia"
+      ]
+    },
+    {
+      "page": "extract_max",
+      "title": "extract the max value of the y axis",
+      "topics": [
+        "extract_max"
+      ]
+    },
+    {
+      "page": "extractEnrichedLR",
+      "title": "Identify all the significant interactions (L-R pairs) and related signaling genes for a given signaling pathway",
+      "topics": [
+        "extractEnrichedLR"
+      ]
+    },
+    {
+      "page": "extractEnrichedLR_internal",
+      "title": "Identify all the significant interactions (L-R pairs) and related signaling genes for a given signaling pathway",
+      "topics": [
+        "extractEnrichedLR_internal"
+      ]
+    },
+    {
+      "page": "extractGene",
+      "title": "Extract the genes involved in CellChatDB",
+      "topics": [
+        "extractGene"
+      ]
+    },
+    {
+      "page": "extractGeneSubset",
+      "title": "Extract the gene name",
+      "topics": [
+        "extractGeneSubset"
+      ]
+    },
+    {
+      "page": "extractGeneSubsetFromPair",
+      "title": "Extract the signaling gene names from ligand-receptor pairs",
+      "topics": [
+        "extractGeneSubsetFromPair"
+      ]
+    },
+    {
+      "page": "extractLRfromGenes",
+      "title": "Extract L-R pairs associated with a given gene set",
+      "topics": [
+        "extractLRfromGenes"
+      ]
+    },
+    {
+      "page": "filterCommunication",
+      "title": "Filter cell-cell communication if there are only few number of cells in certain cell groups or inconsistent cell-cell communication across samples",
+      "topics": [
+        "filterCommunication"
+      ]
+    },
+    {
+      "page": "findEnrichedSignaling",
+      "title": "Find the enriched signaling according to the genes (e.g.DEGs) and cell groups of interest",
+      "topics": [
+        "findEnrichedSignaling"
+      ]
+    },
+    {
+      "page": "geometricMean",
+      "title": "Compute the geometric mean",
+      "topics": [
+        "geometricMean"
+      ]
+    },
+    {
+      "page": "getMaxWeight",
+      "title": "Compute the maximum value of certain measures in the inferred cell-cell communication networks",
+      "topics": [
+        "getMaxWeight"
+      ]
+    },
+    {
+      "page": "ggPalette",
+      "title": "Generate ggplot2 colors",
+      "topics": [
+        "ggPalette"
+      ]
+    },
+    {
+      "page": "identifyCommunicationPatterns",
+      "title": "Identification of major signals for specific cell groups and general communication patterns",
+      "topics": [
+        "identifyCommunicationPatterns"
+      ]
+    },
+    {
+      "page": "identifyEnrichedInteractions",
+      "title": "Identify all the significant interactions (L-R pairs) from some cell groups to other cell groups",
+      "topics": [
+        "identifyEnrichedInteractions"
+      ]
+    },
+    {
+      "page": "identifyOverExpressedGenes",
+      "title": "Identify over-expressed signaling genes associated with each cell group",
+      "topics": [
+        "identifyOverExpressedGenes"
+      ]
+    },
+    {
+      "page": "identifyOverExpressedInteractions",
+      "title": "Identify over-expressed ligand-receptor interactions (pairs) within the used CellChatDB",
+      "topics": [
+        "identifyOverExpressedInteractions"
+      ]
+    },
+    {
+      "page": "identifyOverExpressedLigandReceptor",
+      "title": "Identify over-expressed ligands and (complex) receptors associated with each cell group",
+      "topics": [
+        "identifyOverExpressedLigandReceptor"
+      ]
+    },
+    {
+      "page": "liftCellChat",
+      "title": "Update a CellChat object by lifting up the cell groups to the same cell labels across all datasets",
+      "topics": [
+        "liftCellChat"
+      ]
+    },
+    {
+      "page": "mergeCellChat",
+      "title": "Merge CellChat objects",
+      "topics": [
+        "mergeCellChat"
+      ]
+    },
+    {
+      "page": "mergeInteractions",
+      "title": "Compute the number of interactions/interaction strength between cell types based on their associated cell subpopulations",
+      "topics": [
+        "mergeInteractions"
+      ]
+    },
+    {
+      "page": "modify_vlnplot",
+      "title": "modified vlnplot",
+      "topics": [
+        "modify_vlnplot"
+      ]
+    },
+    {
+      "page": "mycircle",
+      "title": "generate circle symbol",
+      "topics": [
+        "mycircle"
+      ]
+    },
+    {
+      "page": "netAnalysis_computeCentrality",
+      "title": "Compute the network centrality scores allowing identification of dominant senders, receivers, mediators and influencers in all inferred communication networks",
+      "topics": [
+        "netAnalysis_computeCentrality"
+      ]
+    },
+    {
+      "page": "netAnalysis_contribution",
+      "title": "Compute and visualize the contribution of each ligand-receptor pair in the overall signaling pathways",
+      "topics": [
+        "netAnalysis_contribution"
+      ]
+    },
+    {
+      "page": "netAnalysis_diff_signalingRole_scatter",
+      "title": "2D visualization of differential signaling roles (dominant senders (sources) or receivers (targets) ) of each cell group when comparing mutiple datasets",
+      "topics": [
+        "netAnalysis_diff_signalingRole_scatter"
+      ]
+    },
+    {
+      "page": "netAnalysis_dot",
+      "title": "Dot plots showing the associations of latent patterns with cell groups and ligand-receptor pairs or signaling pathways",
+      "topics": [
+        "netAnalysis_dot"
+      ]
+    },
+    {
+      "page": "netAnalysis_river",
+      "title": "River plot showing the associations of latent patterns with cell groups and ligand-receptor pairs or signaling pathways",
+      "topics": [
+        "netAnalysis_river"
+      ]
+    },
+    {
+      "page": "netAnalysis_signalingChanges_scatter",
+      "title": "2D visualization of differential outgoing and incoming signaling associated with one cell group",
+      "topics": [
+        "netAnalysis_signalingChanges_scatter"
+      ]
+    },
+    {
+      "page": "netAnalysis_signalingRole_heatmap",
+      "title": "Heatmap showing the contribution of signals (signaling pathways or ligand-receptor pairs) to cell groups in terms of outgoing or incoming signaling",
+      "topics": [
+        "netAnalysis_signalingRole_heatmap"
+      ]
+    },
+    {
+      "page": "netAnalysis_signalingRole_network",
+      "title": "Heatmap showing the centrality scores/importance of cell groups as senders, receivers, mediators and influencers in a single intercellular communication network",
+      "topics": [
+        "netAnalysis_signalingRole_network"
+      ]
+    },
+    {
+      "page": "netAnalysis_signalingRole_scatter",
+      "title": "2D visualization of dominant senders (sources) and receivers (targets)",
+      "topics": [
+        "netAnalysis_signalingRole_scatter"
+      ]
+    },
+    {
+      "page": "netClustering",
+      "title": "Classification learning of the signaling networks",
+      "topics": [
+        "netClustering"
+      ]
+    },
+    {
+      "page": "netEmbedding",
+      "title": "Manifold learning of the signaling networks based on their similarity",
+      "topics": [
+        "netEmbedding"
+      ]
+    },
+    {
+      "page": "netMappingDEG",
+      "title": "Mapping the differential expressed genes (DEG) information onto the inferred cell-cell communications",
+      "topics": [
+        "netMappingDEG"
+      ]
+    },
+    {
+      "page": "netVisual",
+      "title": "Visualize the inferred cell-cell communication network",
+      "topics": [
+        "netVisual"
+      ]
+    },
+    {
+      "page": "netVisual_aggregate",
+      "title": "Visualize the inferred signaling network of signaling pathways by aggregating all L-R pairs",
+      "topics": [
+        "netVisual_aggregate"
+      ]
+    },
+    {
+      "page": "netVisual_barplot",
+      "title": "Visualization of (differential) number of interactions",
+      "topics": [
+        "netVisual_barplot"
+      ]
+    },
+    {
+      "page": "netVisual_bubble",
+      "title": "Show all the significant interactions (L-R pairs) from some cell groups to other cell groups",
+      "topics": [
+        "netVisual_bubble"
+      ]
+    },
+    {
+      "page": "netVisual_chord_cell",
+      "title": "Chord diagram for visualizing cell-cell communication for a signaling pathway",
+      "topics": [
+        "netVisual_chord_cell"
+      ]
+    },
+    {
+      "page": "netVisual_chord_cell_internal",
+      "title": "Chord diagram for visualizing cell-cell communication from a weighted adjacency matrix or a data frame",
+      "topics": [
+        "netVisual_chord_cell_internal"
+      ]
+    },
+    {
+      "page": "netVisual_chord_gene",
+      "title": "Chord diagram for visualizing cell-cell communication for a set of ligands/receptors or signaling pathways",
+      "topics": [
+        "netVisual_chord_gene"
+      ]
+    },
+    {
+      "page": "netVisual_circle",
+      "title": "Circle plot of cell-cell communication network",
+      "topics": [
+        "netVisual_circle"
+      ]
+    },
+    {
+      "page": "netVisual_diffInteraction",
+      "title": "Circle plot showing differential cell-cell communication network between two datasets",
+      "topics": [
+        "netVisual_diffInteraction"
+      ]
+    },
+    {
+      "page": "netVisual_embedding",
+      "title": "2D visualization of the learned manifold of signaling networks",
+      "topics": [
+        "netVisual_embedding"
+      ]
+    },
+    {
+      "page": "netVisual_embeddingPairwise",
+      "title": "2D visualization of the joint manifold learning of signaling networks from two datasets",
+      "topics": [
+        "netVisual_embeddingPairwise"
+      ]
+    },
+    {
+      "page": "netVisual_embeddingPairwiseZoomIn",
+      "title": "Zoom into the 2D visualization of the joint manifold learning of signaling networks from two datasets",
+      "topics": [
+        "netVisual_embeddingPairwiseZoomIn"
+      ]
+    },
+    {
+      "page": "netVisual_embeddingZoomIn",
+      "title": "Zoom into the 2D visualization of the learned manifold learning of the signaling networks",
+      "topics": [
+        "netVisual_embeddingZoomIn"
+      ]
+    },
+    {
+      "page": "netVisual_heatmap",
+      "title": "Visualization of network using heatmap",
+      "topics": [
+        "netVisual_heatmap"
+      ]
+    },
+    {
+      "page": "netVisual_hierarchy1",
+      "title": "Hierarchy plot of cell-cell communications sending to cell groups in vertex.receiver",
+      "topics": [
+        "netVisual_hierarchy1"
+      ]
+    },
+    {
+      "page": "netVisual_hierarchy2",
+      "title": "Hierarchy plot of cell-cell communication sending to cell groups not in vertex.receiver",
+      "topics": [
+        "netVisual_hierarchy2"
+      ]
+    },
+    {
+      "page": "netVisual_individual",
+      "title": "Visualize the inferred signaling network of individual L-R pairs",
+      "topics": [
+        "netVisual_individual"
+      ]
+    },
+    {
+      "page": "netVisual_spatial",
+      "title": "Spatial plot of cell-cell communication network",
+      "topics": [
+        "netVisual_spatial"
+      ]
+    },
+    {
+      "page": "nnd",
+      "title": "compute nnd",
+      "topics": [
+        "nnd"
+      ]
+    },
+    {
+      "page": "node_distance",
+      "title": "compute the node distance matrix",
+      "topics": [
+        "node_distance"
+      ]
+    },
+    {
+      "page": "normalizeData",
+      "title": "Normalize data using a scaling factor",
+      "topics": [
+        "normalizeData"
+      ]
+    },
+    {
+      "page": "pieChart",
+      "title": "Plot pie chart",
+      "topics": [
+        "pieChart"
+      ]
+    },
+    {
+      "page": "plotGeneExpression",
+      "title": "A Seurat wrapper function for plotting gene expression using violin plot, dot plot or bar plot",
+      "topics": [
+        "plotGeneExpression"
+      ]
+    },
+    {
+      "page": "PPI.human",
+      "title": "Human Protein-Protein interactions",
+      "topics": [
+        "PPI.human"
+      ]
+    },
+    {
+      "page": "PPI.mouse",
+      "title": "Mouse Protein-Protein interactions",
+      "topics": [
+        "PPI.mouse"
+      ]
+    },
+    {
+      "page": "preProcMultiomics",
+      "title": "Preprocessing multi-omics data and preparing the L-R database",
+      "topics": [
+        "preProcMultiomics"
+      ]
+    },
+    {
+      "page": "rankNet",
+      "title": "Rank signaling networks based on the information flow or the number of interactions",
+      "topics": [
+        "rankNet"
+      ]
+    },
+    {
+      "page": "rankNetPairwise",
+      "title": "Rank ligand-receptor interactions for any pair of two cell groups",
+      "topics": [
+        "rankNetPairwise"
+      ]
+    },
+    {
+      "page": "rankSimilarity",
+      "title": "Rank the similarity of the shared signaling pathways based on their joint manifold learning",
+      "topics": [
+        "rankSimilarity"
+      ]
+    },
+    {
+      "page": "runCellChatApp",
+      "title": "Generate a Shiny App for interactive exploration of CellChat's outputs",
+      "topics": [
+        "runCellChatApp"
+      ]
+    },
+    {
+      "page": "runPCA",
+      "title": "Dimension reduction using PCA",
+      "topics": [
+        "runPCA"
+      ]
+    },
+    {
+      "page": "runUMAP",
+      "title": "Run UMAP",
+      "topics": [
+        "runUMAP"
+      ]
+    },
+    {
+      "page": "scaleData",
+      "title": "Scale the data",
+      "topics": [
+        "scaleData"
+      ]
+    },
+    {
+      "page": "scaleMat",
+      "title": "Scale a data matrix",
+      "topics": [
+        "scaleMat"
+      ]
+    },
+    {
+      "page": "scPalette",
+      "title": "Generate colors from a customed color palette",
+      "topics": [
+        "scPalette"
+      ]
+    },
+    {
+      "page": "searchPair",
+      "title": "Subset the ligand-receptor interactions for given specific signals in CellChatDB",
+      "topics": [
+        "searchPair"
+      ]
+    },
+    {
+      "page": "selectK",
+      "title": "Select the number of the patterns for running `identifyCommunicationPatterns`",
+      "topics": [
+        "selectK"
+      ]
+    },
+    {
+      "page": "setIdent",
+      "title": "Set the default identity of cells",
+      "topics": [
+        "setIdent"
+      ]
+    },
+    {
+      "page": "show-CellChat-method",
+      "title": "show method for CellChat",
+      "topics": [
+        "show,CellChat-method"
+      ]
+    },
+    {
+      "page": "showDatabaseCategory",
+      "title": "Show the description of CellChatDB databse",
+      "topics": [
+        "showDatabaseCategory"
+      ]
+    },
+    {
+      "page": "sketchData",
+      "title": "Downsampling single cell data using geometric sketching algorithm",
+      "topics": [
+        "sketchData"
+      ]
+    },
+    {
+      "page": "smoothData",
+      "title": "Smooth the gene expression data",
+      "topics": [
+        "smoothData"
+      ]
+    },
+    {
+      "page": "spatialDimPlot",
+      "title": "Visualize spatial cell groups",
+      "topics": [
+        "spatialDimPlot"
+      ]
+    },
+    {
+      "page": "spatialFeaturePlot",
+      "title": "A spatial feature plots",
+      "topics": [
+        "spatialFeaturePlot"
+      ]
+    },
+    {
+      "page": "StackedVlnPlot",
+      "title": "Stacked Violin plot",
+      "topics": [
+        "StackedVlnPlot"
+      ]
+    },
+    {
+      "page": "subsetCellChat",
+      "title": "Subset CellChat object using a portion of cells",
+      "topics": [
+        "subsetCellChat"
+      ]
+    },
+    {
+      "page": "subsetCommunication",
+      "title": "Subset the inferred cell-cell communications of interest",
+      "topics": [
+        "subsetCommunication"
+      ]
+    },
+    {
+      "page": "subsetCommunication_internal",
+      "title": "Subset the inferred cell-cell communications of interest",
+      "topics": [
+        "subsetCommunication_internal"
+      ]
+    },
+    {
+      "page": "subsetData",
+      "title": "Subset the expression data of signaling genes for saving computation cost",
+      "topics": [
+        "subsetData"
+      ]
+    },
+    {
+      "page": "subsetDB",
+      "title": "Subset CellChatDB databse by only including interactions of interest",
+      "topics": [
+        "subsetDB"
+      ]
+    },
+    {
+      "page": "thresholdedMean",
+      "title": "Compute the average expression per cell group when the percent of expressing cells per cell group larger than a threshold",
+      "topics": [
+        "thresholdedMean"
+      ]
+    },
+    {
+      "page": "triMean",
+      "title": "Compute the Tukey's trimean",
+      "topics": [
+        "triMean"
+      ]
+    },
+    {
+      "page": "updateCCC_score",
+      "title": "Update the cell-cell communication array from a customized cell-cell-communication scores between different cell groups",
+      "topics": [
+        "updateCCC_score"
+      ]
+    },
+    {
+      "page": "updateCellChat",
+      "title": "Update a single CellChat object",
+      "topics": [
+        "updateCellChat"
+      ]
+    },
+    {
+      "page": "updateCellChatDB",
+      "title": "Update CellChatDB by integrating new L-R pairs from other resources or adding more information",
+      "topics": [
+        "updateCellChatDB"
+      ]
+    },
+    {
+      "page": "updateClusterLabels",
+      "title": "Update and re-order the cell group names after running `computeCommunProb`",
+      "topics": [
+        "updateClusterLabels"
+      ]
+    }
+  ],
+  "_readme": "https://github.com/jinworks/CellChat/raw/HEAD/README.md",
+  "_rundeps": [
+    "abind",
+    "askpass",
+    "assorthead",
+    "backports",
+    "base64enc",
+    "beachmat",
+    "Biobase",
+    "BiocGenerics",
+    "BiocManager",
+    "BiocNeighbors",
+    "boot",
+    "broom",
+    "bslib",
+    "cachem",
+    "car",
+    "carData",
+    "circlize",
+    "cli",
+    "clue",
+    "cluster",
+    "coda",
+    "codetools",
+    "collapse",
+    "colorspace",
+    "commonmark",
+    "ComplexHeatmap",
+    "corrplot",
+    "cowplot",
+    "cpp11",
+    "crayon",
+    "crosstalk",
+    "curl",
+    "data.table",
+    "DelayedArray",
+    "Deriv",
+    "digest",
+    "doBy",
+    "doParallel",
+    "dplyr",
+    "evaluate",
+    "farver",
+    "fastmap",
+    "FNN",
+    "fontawesome",
+    "foreach",
+    "forecast",
+    "Formula",
+    "fracdiff",
+    "fs",
+    "future",
+    "future.apply",
+    "generics",
+    "GetoptLong",
+    "ggalluvial",
+    "ggnetwork",
+    "ggplot2",
+    "ggpubr",
+    "ggrepel",
+    "ggsci",
+    "ggsignif",
+    "GlobalOptions",
+    "globals",
+    "glue",
+    "gridBase",
+    "gridExtra",
+    "gtable",
+    "here",
+    "highr",
+    "htmltools",
+    "htmlwidgets",
+    "httpuv",
+    "httr",
+    "igraph",
+    "IRanges",
+    "irlba",
+    "isoband",
+    "iterators",
+    "jquerylib",
+    "jsonlite",
+    "knitr",
+    "labeling",
+    "later",
+    "lattice",
+    "lazyeval",
+    "lifecycle",
+    "listenv",
+    "lme4",
+    "lmtest",
+    "magrittr",
+    "MASS",
+    "Matrix",
+    "MatrixGenerics",
+    "MatrixModels",
+    "matrixStats",
+    "memoise",
+    "mgcv",
+    "mime",
+    "minqa",
+    "modelr",
+    "network",
+    "nlme",
+    "nloptr",
+    "NMF",
+    "nnet",
+    "numDeriv",
+    "openssl",
+    "otel",
+    "parallelly",
+    "patchwork",
+    "pbapply",
+    "pbkrtest",
+    "pillar",
+    "pkgconfig",
+    "plotly",
+    "plyr",
+    "png",
+    "polynom",
+    "promises",
+    "purrr",
+    "quantreg",
+    "R6",
+    "rappdirs",
+    "rbibutils",
+    "RColorBrewer",
+    "Rcpp",
+    "RcppArmadillo",
+    "RcppEigen",
+    "RcppTOML",
+    "Rdpack",
+    "reformulas",
+    "registry",
+    "reshape2",
+    "reticulate",
+    "rjson",
+    "rlang",
+    "rmarkdown",
+    "rngtools",
+    "rprojroot",
+    "RSpectra",
+    "rstatix",
+    "S4Arrays",
+    "S4Vectors",
+    "S7",
+    "sass",
+    "scales",
+    "shape",
+    "shiny",
+    "sna",
+    "sourcetools",
+    "SparseArray",
+    "SparseM",
+    "statnet.common",
+    "stringi",
+    "stringr",
+    "survival",
+    "svglite",
+    "sys",
+    "systemfonts",
+    "textshaping",
+    "tibble",
+    "tidyr",
+    "tidyselect",
+    "timeDate",
+    "tinytex",
+    "urca",
+    "utf8",
+    "vctrs",
+    "viridisLite",
+    "withr",
+    "xfun",
+    "xtable",
+    "XVector",
+    "yaml",
+    "zoo"
+  ],
+  "_sysdeps": [
+    {
+      "shlib": "libstdc++",
+      "package": "libstdc++6",
+      "source": "gcc",
+      "version": "16-20260322-1ubuntu1",
+      "name": "c++",
+      "homepage": "http://gcc.gnu.org/",
+      "description": "GNU Standard C++ Library v3"
+    }
+  ],
+  "_score": 8.895674430084876,
+  "_indexed": false,
+  "_nocasepkg": "cellchat",
+  "_universes": [
+    "blaserlab"
+  ],
+  "_binaries": [
+    {
+      "r": "4.7.0",
+      "os": "linux",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:25:57.000Z",
+      "distro": "resolute",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/a22894459172ea2acc833af5578b2b910a000421e8c0035634ab33a2e0dea98a",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.7.0",
+      "os": "linux",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:40:28.000Z",
+      "distro": "resolute",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/e1216be00b067f58f350bdb2239e4e4b48a702d53cbec9d5f4eed260eb21a955",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "linux",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:26:00.000Z",
+      "distro": "resolute",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/a9ae7697de7c1b11fee7cd90d81f0402507a55910636b1894770f46ba9531a37",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "linux",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:40:33.000Z",
+      "distro": "resolute",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/6696dc02dc4cd3c2d264547fb033661ade907ce241c75aa8f800eccf92027bbc",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.5.3",
+      "os": "mac",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T14:29:42.000Z",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/6fa81129feec1304fa158f162345cf55986e8a8a085cf431fce9ff51b250ae68",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.5.3",
+      "os": "mac",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T14:27:44.000Z",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/e0a07a7e79954e8a80c89a2d67526e1bead97b46a8a811ddbde338e23271a4b8",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "mac",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T14:23:14.000Z",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/54b589fb32936e011e844ef80ffb1c043ae903039e93dd0667db2056f4d8273c",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "mac",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T14:29:01.000Z",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/52d5a66c08b96370df87b68ff928d36b286cccbf9e47f155576a62c8bc1dfc71",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.0",
+      "os": "wasm",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:40:46.000Z",
+      "arch": "emscripten",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/f2dc9438e1a583b183dc4d7b385180e163714d1115aef2c01f9d79f080b3f675",
+      "status": "success",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.7.0",
+      "os": "win",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:28:54.000Z",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/0edf3a2ef6be33843df61741d12f2272e9d2b876664070c25306644d73b9d477",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.7.0",
+      "os": "win",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:38:57.000Z",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/b0749cc4371922f705763204b0a4dee1675f94d88d1736b24467aed1db2d4af4",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.5.3",
+      "os": "win",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:39:29.000Z",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/cb6c6dd70867e50dea1c61a0550b3cde0811fec713dd072ade36dd940ff3f670",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "win",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:26:56.000Z",
+      "arch": "aarch64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/3def680902b61f04cb15a8fefe01c1e3fa4764e1cae0df4791115736180acaba",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    },
+    {
+      "r": "4.6.1",
+      "os": "win",
+      "version": "2.2.0.9001",
+      "date": "2026-09-03T13:38:57.000Z",
+      "arch": "x86_64",
+      "commit": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+      "fileid": "https://r2.ropensci.org/6876e546e5bed3fd49b58bb83c5520a44fffd01026199003cd26357cae34210b",
+      "status": "success",
+      "check": "NOTE",
+      "buildurl": "https://github.com/r-universe/blaserlab/actions/runs/33754077134"
+    }
+  ]
+}

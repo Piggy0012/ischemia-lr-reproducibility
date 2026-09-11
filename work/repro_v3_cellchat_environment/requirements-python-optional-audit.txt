@@ -1,0 +1,3 @@
+# Explicit optional cross-language RDS review pin; already in the baseline.
+# Install only on top of the matching baseline, without updating its dependencies.
+rdata==1.1.0

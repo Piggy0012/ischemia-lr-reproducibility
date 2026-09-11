@@ -1,0 +1,151 @@
+{
+  "status": "complete",
+  "reviewed_at_utc": "2026-09-11T08:14:39.937612+00:00",
+  "checks": [
+    "fixed universe and direction counts",
+    "condition contrasts independently regrouped",
+    "same-direction counts and both denominators",
+    "Spearman correlations",
+    "all-library zero-strength target count",
+    "changing ranks of all-zero strengths",
+    "closed-form zero tie-block percentile floor"
+  ],
+  "primary_metrics": [
+    {
+      "metric": "custom_coavailability",
+      "n_candidates": 32,
+      "n_nonzero_both": 32,
+      "n_same_direction": 23,
+      "same_direction_all_fraction": 0.71875,
+      "same_direction_nonzero_fraction": 0.71875,
+      "n_zero_discovery": 0,
+      "n_zero_external": 0,
+      "spearman_rho": 0.56524926686217
+    },
+    {
+      "metric": "cellchat_probability",
+      "n_candidates": 32,
+      "n_nonzero_both": 13,
+      "n_same_direction": 10,
+      "same_direction_all_fraction": 0.3125,
+      "same_direction_nonzero_fraction": 0.7692307692307693,
+      "n_zero_discovery": 19,
+      "n_zero_external": 3,
+      "spearman_rho": 0.5491810952969148
+    },
+    {
+      "metric": "cellchat_strength_percentile",
+      "n_candidates": 32,
+      "n_nonzero_both": 32,
+      "n_same_direction": 16,
+      "same_direction_all_fraction": 0.5,
+      "same_direction_nonzero_fraction": 0.5,
+      "n_zero_discovery": 0,
+      "n_zero_external": 0,
+      "spearman_rho": 0.36405923959998177
+    },
+    {
+      "metric": "LIANA_unique_column_RRA_priority",
+      "n_candidates": 32,
+      "n_nonzero_both": 19,
+      "n_same_direction": 13,
+      "same_direction_all_fraction": 0.40625,
+      "same_direction_nonzero_fraction": 0.6842105263157895,
+      "n_zero_discovery": 10,
+      "n_zero_external": 12,
+      "spearman_rho": 0.45075188242744174
+    }
+  ],
+  "epsilon_changes": [
+    {
+      "metric": "custom_coavailability",
+      "dataset": "GSE174574",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "custom_coavailability",
+      "dataset": "GSE245386",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "cellchat_probability",
+      "dataset": "GSE174574",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "cellchat_probability",
+      "dataset": "GSE245386",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "cellchat_strength_percentile",
+      "dataset": "GSE174574",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "cellchat_strength_percentile",
+      "dataset": "GSE245386",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "LIANA_unique_column_RRA_priority",
+      "dataset": "GSE174574",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    },
+    {
+      "metric": "LIANA_unique_column_RRA_priority",
+      "dataset": "GSE245386",
+      "nonzero_contrasts_zeroed_at_1e_12": 0
+    }
+  ],
+  "all_11_zero_strength_targets": 3,
+  "all_11_zero_strength_targets_with_nonzero_rank_effect": 3,
+  "native_model_rerun": false,
+  "upstream_files_modified": false,
+  "source_files": [
+    {
+      "path": "work/repro_v3_cellchat/tables/summary_audit.json",
+      "sha256": "8e589aa6fdb1f0ed2f9d81460c2c9b7463ae298e37ededb11a297cefef8958c5"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/target_sample_scores.tsv.gz",
+      "sha256": "e399967251cc5dd8393770ceb0fdbe9d23cc462c5fcd9944d8ce6af600da57e1"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/target_disease_effects.tsv.gz",
+      "sha256": "c9a2374bbd814895c0cd80f90a092df70c79b74020a9a2b43346a53cfc7e016e"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/cross_cohort_concordance.tsv",
+      "sha256": "fc16aa2b1022544514b8e3d8550b74248fae5a80a30eb9b463e5ed4b62f7c55f"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/zero_strength_target_audit.tsv",
+      "sha256": "78e1ff7de562caddc7360fc66844b8fe7d770af448fdb1937c18bd355234a690"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/tie_zero_audit.tsv",
+      "sha256": "4ee8a1cbe8e3cfe560b34588d040802c5babe60f2c34cacf70e7abe6e626b536"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/fixed_complete_network_keys.tsv",
+      "sha256": "a397d52c35ae68e6f5561271e50527c1dbda7eeec9cc595404a142b022394e7a"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/fixed_complete_target_keys.tsv",
+      "sha256": "29a582032ca5a8bc5982d661b90242602acfdc55ee059d4ce1afef989416633c"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/sample_manifest.tsv",
+      "sha256": "0ba2e39cb65896f3f74f1dd8962e191713359b33917aa2ddc263140eb1e4dc64"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/original_187_to_controlled_32_attrition.json",
+      "sha256": "419d7ee7c41b47acd43610b59290977aa20c99c29361eadda5386326a548cfd7"
+    }
+  ],
+  "review_script": {
+    "path": "work/repro_v3_cellchat_editorial_audit.py",
+    "sha256": "63ee240b0944af1634fd3e54671a27b350a7ccb2d88ce23b8735cde17f43c719"
+  }
+}

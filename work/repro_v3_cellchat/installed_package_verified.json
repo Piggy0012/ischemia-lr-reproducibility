@@ -1,0 +1,304 @@
+{
+  "status": "complete_native_package_verified",
+  "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "CellChat_version": "2.2.0.9001",
+  "RemoteSha": "75253cd0c9e68410e6e721a6d3a0419a1d7e358f",
+  "RemoteUrl": "https://github.com/jinworks/CellChat",
+  "library": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary",
+  "loaded_from": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary/CellChat",
+  "source_functions_verified": [
+    {
+      "function_name": ".computeExprGroup_complex",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": ".computeExprGroup_coreceptor",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": ".error_if_no_Seurat",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": ".get_color",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": ".restrict_in",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "addMeta",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "addReduction",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "aggregateNet",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "colorRamp3",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeAveExpr",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeCellDistance",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeCommunProb",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeCommunProbPathway",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExprGroup_agonist",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExprGroup_antagonist",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExpr_LR",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExpr_agonist",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExpr_antagonist",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExpr_complex",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeExpr_coreceptor",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "computeRegionDistance",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "filterCommunication",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "geometricMean",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "identifyEnrichedInteractions",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "identifyOverExpressedGenes",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "identifyOverExpressedInteractions",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "identifyOverExpressedLigandReceptor",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "l1NormalizeColumns",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "l1NormalizeRows",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "normalizeData",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "preProcMultiomics",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "projectAndRecombine",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "projectFromNetworkRecombine",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "projectOnNetwork",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "randomWalkBySolve",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "runPCA",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "runUMAP",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "scaleData",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "scaleMat",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "setIdent",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "sketchData",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "smoothData",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "subsetData",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "thresholdedMean",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "triMean",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "updateCCC_score",
+      "body_matches": true,
+      "formals_match": true
+    },
+    {
+      "function_name": "updateClusterLabels",
+      "body_matches": true,
+      "formals_match": true
+    }
+  ],
+  "source_function_count": 47,
+  "entire_native_mouse_DB_identical": true,
+  "native_toy": {
+    "status": "pass",
+    "input_shape": [20, 120],
+    "LR_rows": 6,
+    "output_shape": [3, 3, 6],
+    "positive_scores": 54,
+    "prob_range": [1.4336406151666224e-08, 7.8194883155177368e-08],
+    "seed_repeat_exact": true,
+    "elapsed_seconds": 0.65000000000000036
+  },
+  "newly_installed_packages": [
+    ["CellChat", "2.2.0.9001", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["Deriv", "4.3.5", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["Formula", "1.2-6", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["MatrixModels", "0.5-4", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["NMF", "0.28", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["Rdpack", "2.6.6", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["SparseM", "1.84-2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["broom", "1.0.13", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["car", "3.1-5", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["carData", "3.0-6", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["coda", "0.19-4.1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["collapse", "2.1.8", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["corrplot", "0.95", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["doBy", "4.7.2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["forecast", "9.0.2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["fracdiff", "1.5-4", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["ggalluvial", "0.12.6", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["ggnetwork", "0.5.14", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["ggpubr", "1.0.0", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["ggsci", "5.2.0", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["ggsignif", "0.6.4", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["gridBase", "0.4-7", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["lme4", "2.0-6", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["minqa", "1.2.8", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["modelr", "0.1.11", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["network", "1.20.0", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["nloptr", "2.2.1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["pbkrtest", "0.5.5", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["polynom", "1.4-1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["quantreg", "6.1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["rbibutils", "2.4.1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["reformulas", "0.4.4", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["registry", "0.5-1", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["rngtools", "1.5.2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["rstatix", "1.1.0", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["sna", "2.8", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["statnet.common", "4.13.0", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["svglite", "2.2.2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["systemfonts", "1.3.2", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["textshaping", "1.0.5", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["timeDate", "4052.112", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"],
+    ["urca", "1.3-4", "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_cellchat/rlibrary"]
+  ],
+  "prior_library_modified": false,
+  "scientific_run_uses_installed_namespace": true
+}

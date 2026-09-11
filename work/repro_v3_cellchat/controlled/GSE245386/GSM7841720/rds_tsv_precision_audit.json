@@ -1,0 +1,8 @@
+{
+  "exact_equal": false,
+  "n_changed": 2684,
+  "max_absolute_error": 4.9960036108132044e-16,
+  "n_unique_rds": 2850,
+  "n_unique_tsv": 2850,
+  "relative_max": 4.9666703025213161e-15
+}
