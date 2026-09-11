@@ -177,7 +177,7 @@ Public source data are available from GEO: [GSE174574](https://www.ncbi.nlm.nih.
 
 ## Code availability
 
-[https://github.com/Piggy0012/ischemia-lr-reproducibility](https://github.com/Piggy0012/ischemia-lr-reproducibility); [VERSION_SPECIFIC_ZENODO_DOI]; analysis commit `00067af9ab495f79385403141e06471b079afed6`.
+[https://github.com/Piggy0012/ischemia-lr-reproducibility](https://github.com/Piggy0012/ischemia-lr-reproducibility); [version DOI 10.5281/zenodo.22705840](https://doi.org/10.5281/zenodo.22705840); analysis commit `00067af9ab495f79385403141e06471b079afed6`.
 
 The release comprises analysis scripts, versioned environment files, cell-summary counts, complete result tables and figure source data. The Reproducibility appendix and repository run instructions distinguish the full LIANA 1.10.0 workflow from replay of the aggregation function at upstream commit `d4211373692e7b9c10210488ccb1efe06452b097` on saved complete networks; the latter does not represent a full fixed-commit pipeline rerun. The file index maps each named input and output to its repository path.
 

@@ -1,17 +1,17 @@
 {
   "status": "pass_for_scientific_text_at_recorded_hashes",
-  "reviewed_at_utc": "2026-09-11T09:00:02.152063+00:00",
+  "reviewed_at_utc": "2026-09-11T09:49:53.486554+00:00",
   "reviewer": "scientific_value_review",
   "files": [
     {
       "path": "work/repro_v3_manuscript_en_source.md",
-      "sha256": "8fb6c1b233f1dc2d5b998cece4bdf8646e529d92aca29e95233554fb1e02e8a0",
-      "bytes": 38407
+      "sha256": "9fe58abd69f86f893772af0006f103b7b4805f451fdde1a3ee30658dbe36cc06",
+      "bytes": 38456
     },
     {
       "path": "work/repro_v3_manuscript_zh_source.md",
-      "sha256": "cfe1249415ab1242a43eaa94f4fe281dbb4dc631843548c47663d85fe7ce55e4",
-      "bytes": 32729
+      "sha256": "fb4c3c62ead1c82117c3f3c1d696458381fd4fac0166aa1b6ff2f500f86c180b",
+      "bytes": 32778
     },
     {
       "path": "work/repro_v3_supplement_en_source.md",
@@ -27,13 +27,13 @@
   "output_markdown_files": [
     {
       "path": "outputs/reproducibility_v3/manuscript_en.md",
-      "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578",
-      "bytes": 43890
+      "sha256": "b1383da094fc0d4dfb651050a89cb0ee7116386413bad48c275f945eb45057d2",
+      "bytes": 43939
     },
     {
       "path": "outputs/reproducibility_v3/manuscript_zh.md",
-      "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
-      "bytes": 38180
+      "sha256": "9b88e45e385faa70b02a85e2d8183d9e141ae090d7b3f966c7cc6a2fa4eb59b2",
+      "bytes": 38229
     },
     {
       "path": "outputs/reproducibility_v3/supplement_en.md",
@@ -115,7 +115,7 @@
     {
       "id": "publication_status",
       "status": "pass",
-      "finding": "The real GitHub repository and analysis commit 00067af9ab495f79385403141e06471b079afed6 replace their draft placeholders. Only VERSION_SPECIFIC_ZENODO_DOI remains pending in both main manuscripts. Scientific and visual QA do not imply public-release/submission readiness before that field is resolved."
+      "finding": "The real GitHub repository, analysis commit 00067af9ab495f79385403141e06471b079afed6 and version-specific archive DOI 10.5281/zenodo.22705840 are present. The root archive audit verifies public downloadable bytes and DOI resolution. No publication placeholders remain. This code/archive DOI is distinct from any future preprint DOI; bioRxiv submission and screening have not occurred."
     }
   ],
   "evidence_records": [
@@ -146,13 +146,100 @@
       "sha256": "199145c5d2cac789993eca61dcf464efe52b3d67a975d23106bfcee66dbb3188",
       "bytes": 9103
     },
-    "chinese_documents": "Separate root-led visual review; this record confirms their scientific text only."
+    "chinese_documents": "Separate root-led visual review; this record confirms their scientific text only.",
+    "english_main_note": "The linked English visual record precedes DOI replacement. This DOI-only scientific follow-up does not certify the post-DOI render; root performs that final page check separately."
   },
   "review_scope": "Read-only editorial/numerical consistency review against previously independently audited outputs; no new biological analysis or model rerun. Both current Chinese source texts were re-read, and the final Chinese comparison-scope repair was checked.",
   "original_numeric_outputs_modified": false,
   "source_or_model_changes_by_reviewer_this_review": false,
   "submission_ready": false,
-  "remaining_publication_fields": [
-    "VERSION_SPECIFIC_ZENODO_DOI"
-  ]
+  "remaining_publication_fields": [],
+  "submission_readiness_scope": "Scientific text and archive identifiers complete; authenticated preprint submission workflow and server screening are separate and have not been performed.",
+  "doi_only_followup": {
+    "reviewed_at_utc": "2026-09-11T09:49:53.486554+00:00",
+    "all_four_md_exact_expected_diff": true,
+    "main_change": "Exactly one Code availability placeholder replaced by the real version DOI link per language.",
+    "supplement_change": "None; both supplementary Markdown files are byte-identical.",
+    "scientific_results_changed": false,
+    "new_scientific_calculations": false,
+    "files": [
+      {
+        "file": "manuscript_en.md",
+        "before": {
+          "path": "work/repro_v3_pre_doi_documents/manuscript_en.md",
+          "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578",
+          "bytes": 43890
+        },
+        "after": {
+          "path": "outputs/reproducibility_v3/manuscript_en.md",
+          "sha256": "b1383da094fc0d4dfb651050a89cb0ee7116386413bad48c275f945eb45057d2",
+          "bytes": 43939
+        },
+        "only_expected_replacement": true,
+        "replacement_count": 1
+      },
+      {
+        "file": "manuscript_zh.md",
+        "before": {
+          "path": "work/repro_v3_pre_doi_documents/manuscript_zh.md",
+          "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
+          "bytes": 38180
+        },
+        "after": {
+          "path": "outputs/reproducibility_v3/manuscript_zh.md",
+          "sha256": "9b88e45e385faa70b02a85e2d8183d9e141ae090d7b3f966c7cc6a2fa4eb59b2",
+          "bytes": 38229
+        },
+        "only_expected_replacement": true,
+        "replacement_count": 1
+      },
+      {
+        "file": "supplement_en.md",
+        "before": {
+          "path": "work/repro_v3_pre_doi_documents/supplement_en.md",
+          "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001",
+          "bytes": 37385
+        },
+        "after": {
+          "path": "outputs/reproducibility_v3/supplement_en.md",
+          "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001",
+          "bytes": 37385
+        },
+        "only_expected_replacement": true,
+        "replacement_count": 0
+      },
+      {
+        "file": "supplement_zh.md",
+        "before": {
+          "path": "work/repro_v3_pre_doi_documents/supplement_zh.md",
+          "sha256": "c8abc8902078434d4dfdecda005b88324a649a1fb9e5a59b7d128088a142f3c6",
+          "bytes": 30194
+        },
+        "after": {
+          "path": "outputs/reproducibility_v3/supplement_zh.md",
+          "sha256": "c8abc8902078434d4dfdecda005b88324a649a1fb9e5a59b7d128088a142f3c6",
+          "bytes": 30194
+        },
+        "only_expected_replacement": true,
+        "replacement_count": 0
+      }
+    ],
+    "archive_evidence": [
+      {
+        "path": "outputs/reproducibility_v3/archive_record.json",
+        "sha256": "1a08a83c6582ccf99b921c30a13e8fbd5c41dd9bfc1ef43853f78092f4ec1a48",
+        "bytes": 542
+      },
+      {
+        "path": "outputs/reproducibility_v3/zenodo_archive_verification.json",
+        "sha256": "514e6aa69e8061fc1226f615f15c817b51062715a1169e79b16aacc6e848e3ed",
+        "bytes": 1364
+      },
+      {
+        "path": "outputs/reproducibility_v3/zenodo_doi_resolution.json",
+        "sha256": "d317e9a908b35ccf9cb6fad53141bd0db90c50d9a1fe70066f631887aa531246",
+        "bytes": 278
+      }
+    ]
+  }
 }

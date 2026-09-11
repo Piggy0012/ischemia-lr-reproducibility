@@ -1,0 +1,186 @@
+{
+  "status": "complete_read_only_readiness_review",
+  "reviewed_at_utc": "2026-09-11T09:52:10.429348+00:00",
+  "reviewer": "scientific_value_review",
+  "scope": "Official public bioRxiv/openRxiv requirements and current prepared files only. No account login, submission, form mutation or journal recommendation. No new numerical analysis.",
+  "official_sources": [
+    {
+      "url": "https://www.biorxiv.org/about/FAQ/",
+      "resolved_url": "https://www.biorxiv.org/about/FAQ/",
+      "retrieval": "Direct official-page HTTP 200 via urllib; full FAQ read. Canonical non-trailing-slash endpoint was intermittently 403/429; no account was accessed.",
+      "http_status": 200,
+      "fetched_at_utc": "2026-09-11T09:48:38.244024+00:00",
+      "html_sha256": "c6760b192033919e5712280719aaf5f923319ec33daaeb0f530c178c49691c46",
+      "extracted_text_sha256": "d70a8149cea1568187afd227424eaec13e41b7de6a17499e7919345d5c1ee7d5",
+      "relevant_sections": [
+        "Can I post a bioinformatics/computational paper on bioRxiv?",
+        "Can I post a manuscript that is not in English?",
+        "How should I acknowledge the use of generative AI for writing my preprint?",
+        "How can I acknowledge my funders in my preprint?",
+        "What file formats are acceptable when submitting my manuscript?",
+        "What types of content can be posted on bioRxiv?",
+        "Can I choose more than one subject category for my preprint?",
+        "Can I submit a manuscript to bioRxiv and another preprint server?"
+      ],
+      "policy_summary": "Full computational research with methods and results is eligible; simple automated public-data analyses usually are insufficient. Articles must be English. Authors must disclose generative-AI use and remain accountable; AI is not an author. Use one subject category. Funding organizations and grants can use ROR lookup or free text. A single PDF is accepted; supplementary files remain as uploaded. Copyright stays with authors and CC BY is supported. An article already posted on another preprint server will not be posted."
+    },
+    {
+      "url": "https://connect.biorxiv.org/news/2022/06/13/screening_procedures",
+      "retrieval": "Official bioRxiv editorial page read through web search indexed content on 2026-09-11.",
+      "policy_summary": "Research outputs, use cases and reanalysis of published data can qualify. Screening checks submission metadata, biological scope and article type; neither this review nor local QA guarantees posting."
+    },
+    {
+      "url": "https://www.biorxiv.org/about-biorxiv",
+      "retrieval": "Official bioRxiv About page read through current web search indexed content.",
+      "policy_summary": "Bioinformatics is an available subject area; the server is a preprint service with screening rather than journal peer review."
+    },
+    {
+      "url": "https://openrxiv.org/trust-signals-and-accountability/",
+      "publication_date": "2026-05-29",
+      "retrieval": "Full official operator article opened with web tool.",
+      "policy_summary": "Authors formally accept responsibility for accuracy and integrity during submission. An institutional affiliation is requested for accountability. ORCID does not itself prove identity."
+    },
+    {
+      "url": "https://openrxiv.org/funder-metadata/",
+      "publication_date": "2025-09-04",
+      "retrieval": "Full official operator article opened with web tool.",
+      "policy_summary": "Dedicated funding fields use ROR funder names and grant identifiers. All support should be reported in those fields as well as the manuscript."
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "outputs/reproducibility_v3/preprint_metadata.json",
+      "sha256": "f0b3474a3fae3414ea7f274bdce607a436a40bc3d9900f48eb74fa1c69b988ec",
+      "bytes": 3084
+    },
+    {
+      "path": "work/repro_v3_author_declarations.json",
+      "sha256": "f25cd6f4918fa8968fd5a3b2b4de5d662677c443fd2c61133c23f686bce13220",
+      "bytes": 1726
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.md",
+      "sha256": "b1383da094fc0d4dfb651050a89cb0ee7116386413bad48c275f945eb45057d2",
+      "bytes": 43939
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.docx",
+      "sha256": "eef6fd20f5145c36bb2e630fbcebada74622ec50c2c3bb03b8919050131894e6",
+      "bytes": 1553134
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.pdf",
+      "sha256": "88d62b9e0f50a412b75809ff855c6e9dbc2617c3b511efe78fc02f7c6ff87108",
+      "bytes": 1651662,
+      "page_count": 17,
+      "encrypted": false,
+      "has_real_archive_doi": false,
+      "has_doi_placeholder": true
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.md",
+      "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001",
+      "bytes": 37385
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.docx",
+      "sha256": "6fa993bf71e1b2b736445c4d133ac85ecb3d251ef7e544cc2fdcc149f1038c7d",
+      "bytes": 4798534
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.pdf",
+      "sha256": "4d7fe17ee22a2d2c5ef038bc40cc64b7ee8e6b858527527c45310a15c6a8ae10",
+      "bytes": 2668525,
+      "page_count": 15,
+      "encrypted": false,
+      "has_real_archive_doi": false,
+      "has_doi_placeholder": false
+    }
+  ],
+  "already_satisfied": [
+    {
+      "item": "Complete English research article",
+      "finding": "English main has title, abstract, Introduction, Methods, Results, Discussion, conclusions, 16 references, 5 figures and 2 tables; the supplement supplies full methods, source provenance, sensitivity results, 20 references and 6 supplementary figures. This is a computational research/reanalysis case, not solely a database-search list or software announcement. Scope assessment is an editorial inference; final bioRxiv screening remains separate."
+    },
+    {
+      "item": "Title and abstract metadata",
+      "finding": "Metadata title and abstract exactly match the current English main Markdown."
+    },
+    {
+      "item": "Author and affiliation",
+      "finding": "Sole author Sihuan Zhu, Anhui University of Chinese Medicine, ORCID 0009-0005-9705-0585 and correspondence email are present. Existing explicit author approval/responsibility is accepted; no coauthor approval is missing."
+    },
+    {
+      "item": "AI disclosure",
+      "finding": "The main explicitly describes OpenAI Codex use in planning, retrieval, code development/execution, statistical and figure checks, drafting, translation and revision, followed by author review/approval and responsibility. AI is not named as author. This covers the official FAQ requirement; no repeated authorization request is needed."
+    },
+    {
+      "item": "Competing interests and funding",
+      "finding": "The confirmed no-competing-interests statement and all three supplied grants are present. Funder non-involvement is not asserted. The funding text is available for the submission fields; absence of ROR IDs is not a missing user fact because free text is supported."
+    },
+    {
+      "item": "Ethics and biological material",
+      "finding": "The main states public animal-data reanalysis with no new animal or human experiments and refers to source approvals. No clinical trial or new animal-approval number should be invented or newly requested for this submission. The public-data study still undergoes normal scope screening."
+    },
+    {
+      "item": "License and prior status",
+      "finding": "Metadata already selects CC BY 4.0 for the manuscript, a supported choice. Current preprint and journal statuses are not_submitted. The Zenodo record is a code/archive release DOI and must not be described as the future bioRxiv preprint DOI."
+    }
+  ],
+  "routine_metadata_or_file_actions": [
+    {
+      "id": "result_category",
+      "action": "Keep Research article as the manuscript type and Bioinformatics as the single subject category. Add a separate bioRxiv result-category field, proposed New Results, if the submission form requests New/Confirmatory/Contradictory Results.",
+      "rationale": "New downstream controlled analyses are reported; known upstream-fix attribution remains explicit. This is a routine category choice, not a claim that the known fix is novel.",
+      "requires_new_user_fact": false
+    },
+    {
+      "id": "funding_fields",
+      "action": "Enter each supplied funder/support organization and its exact grant number into the dedicated Funding Information page, using ROR only for a verified match or free text otherwise.",
+      "requires_new_user_fact": false
+    },
+    {
+      "id": "doi_metadata_sync",
+      "action": "Set zenodo_doi to 10.5281/zenodo.22705840 and replace the stale draft_pending_verified_Zenodo_DOI/manuscript dependency wording after the root archive verification.",
+      "current_snapshot": "Metadata still had zenodo_doi=null and the old dependency/status when read; root is actively completing this synchronization.",
+      "requires_new_user_fact": false
+    },
+    {
+      "id": "final_pdf_sync",
+      "action": "Use the final DOI-updated English main PDF after root rendering and page QA; the supplement can remain the unchanged verified PDF.",
+      "current_snapshot": "At review, the distributed main_en.pdf still contained VERSION_SPECIFIC_ZENODO_DOI while the current main Markdown/DOCX had the real DOI. This is a derived-output synchronization item, not a missing scientific fact.",
+      "requires_new_user_fact": false
+    }
+  ],
+  "genuine_remaining_account_requirement": [
+    {
+      "id": "authenticated_biorxiv_account",
+      "status": "not_verified_in_this_task",
+      "description": "A usable bioRxiv submitting-author account/session has not been established in the project record. Login or registration, any email verification and final platform declarations occur at submission. Do not request or collect the password in chat.",
+      "already_available_facts": "Name, affiliation, email, ORCID, author approval, responsibility, no competing interests, funding and selected manuscript license are already supplied."
+    }
+  ],
+  "file_format_recommendation": {
+    "route": "Upload the final English main PDF as the manuscript and the separate English supplement PDF as Supplemental Material.",
+    "why": "Main PDF already combines text, tables and figures; this matches the accepted single-PDF route and preserves the previously reviewed layout.",
+    "alternative": "Word main/text and compatible separate figure files are accepted, but no conversion is needed when the reviewed PDF is used. TeX would require PDF conversion; it is not part of this package.",
+    "supplement": "Supplementary files are posted as supplied; use the reviewed 15-page English supplement PDF. Large computational data and code can remain in the linked archive rather than being reproduced inside the manuscript PDF.",
+    "chinese_files": "Do not use the Chinese manuscript as the bioRxiv submission. The FAQ directs readers seeking another-language material to the author or an external link.",
+    "no_invented_requirements": "No current numerical upload-size cap, mandatory cover-letter field, account postal-address field or special-template requirement was independently verified in an authenticated form; none is declared a blocker here. Existing PDF sizes are recorded above."
+  },
+  "no_reconfirmation_needed_for": [
+    "sole author and existing final approval/responsibility",
+    "no competing interests",
+    "all three funding statements and grant numbers",
+    "AI assistance disclosure",
+    "CC BY 4.0 manuscript license already chosen",
+    "no new wet experiments and public mouse-data scope"
+  ],
+  "limitations": [
+    "The authenticated submission form and account-specific mandatory fields were not inspected or operated. This review checks publicly documented requirements and prepared content.",
+    "The public FAQ warns that simple automated public-data analyses can be out of scope. The current controlled analyses, full methods and real outputs support research-article framing, but only bioRxiv can decide screening acceptance."
+  ],
+  "not_submitted": true,
+  "files_or_metadata_modified": false,
+  "only_output_written": "work/repro_v3_biorxiv_readiness_review.json"
+}

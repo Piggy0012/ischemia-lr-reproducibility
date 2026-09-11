@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-09-11T09:34:21.284821+00:00",
+  "active_zenodo_hook_count": 1,
+  "deliveries": [
+    {
+      "id": 3842104118749446144,
+      "delivered_at": "2026-09-11T09:32:29.971Z",
+      "event": "release",
+      "action": "released",
+      "status": "500 ",
+      "status_code": 500,
+      "duration": 0.62,
+      "redelivery": false
+    },
+    {
+      "id": 3842104118638297088,
+      "delivered_at": "2026-09-11T09:32:29.915Z",
+      "event": "release",
+      "action": "published",
+      "status": "OK",
+      "status_code": 202,
+      "duration": 0.54,
+      "redelivery": false
+    },
+    {
+      "id": 3842103932180496384,
+      "delivered_at": "2026-09-11T09:31:03.006Z",
+      "event": "ping",
+      "action": null,
+      "status": "OK",
+      "status_code": 202,
+      "duration": 0.57,
+      "redelivery": false
+    }
+  ]
+}

@@ -3,6 +3,7 @@ message: "Please cite this versioned analysis archive and the original GEO studi
 type: software
 title: "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia"
 version: 3.0.0
+doi: "10.5281/zenodo.22705840"
 authors:
   - family-names: "Zhu"
     given-names: "Sihuan"

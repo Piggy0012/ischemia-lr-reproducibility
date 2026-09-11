@@ -179,7 +179,7 @@ N为固定目标候选数。全部同向以N为分母；非零同向仅以两队
 
 ## 代码获取
 
-[https://github.com/Piggy0012/ischemia-lr-reproducibility](https://github.com/Piggy0012/ischemia-lr-reproducibility); [VERSION_SPECIFIC_ZENODO_DOI]; analysis commit `00067af9ab495f79385403141e06471b079afed6`.
+[https://github.com/Piggy0012/ischemia-lr-reproducibility](https://github.com/Piggy0012/ischemia-lr-reproducibility); [version DOI 10.5281/zenodo.22705840](https://doi.org/10.5281/zenodo.22705840); analysis commit `00067af9ab495f79385403141e06471b079afed6`.
 
 发布内容包括分析脚本、版本化环境文件、细胞汇总计数、全部结果表及图源数据。复现附录与仓库运行说明区分LIANA 1.10.0完整流程，以及在已保存完整网络上重放上游提交`d4211373692e7b9c10210488ccb1efe06452b097`的聚合函数；后者不作为完整修复提交流程重跑。文件索引将文中引用的输入和输出对应到仓库路径。
 

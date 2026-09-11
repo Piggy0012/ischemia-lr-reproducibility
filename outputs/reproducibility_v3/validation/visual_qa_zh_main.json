@@ -1,13 +1,13 @@
 {
   "status": "pass",
-  "reviewed_at_utc": "2026-09-11T09:04:34.559636+00:00",
-  "scope": "Chinese main manuscript final3 actual rendered-page visual QA; no document authoring or model changes",
+  "reviewed_at_utc": "2026-09-11T09:56:23.170426+00:00",
+  "scope": "Chinese main manuscript after final Zenodo DOI insertion; changed PNGs actually re-inspected; unchanged PNGs inherit prior actual visual inspection",
   "docx_path": "outputs/reproducibility_v3/manuscript_zh.docx",
-  "docx_sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3",
+  "docx_sha256": "355944fb16481fed3ec0e2216ffd8ab380131ab44ddf754703b0f65ea1a2201a",
   "markdown_path": "outputs/reproducibility_v3/manuscript_zh.md",
-  "markdown_sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
-  "render_directory": "work/repro_v3_render_cellchat_main_zh_final3",
-  "render_pdf_sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782",
+  "markdown_sha256": "9b88e45e385faa70b02a85e2d8183d9e141ae090d7b3f966c7cc6a2fa4eb59b2",
+  "render_directory": "work/repro_v3_render_main_zh_doi",
+  "render_pdf_sha256": "e8025b2ff4f7513ca445bdfb2e3c2f23055b46031eede6f6bdb39549e2f9a77d",
   "page_count": 17,
   "all_pages_actual_images_inspected": true,
   "image_view_tool": "view_image with detail=original; no PDF-text substitute",
@@ -37,7 +37,28 @@
     "final3_changed_page_reinspected": [
       3
     ],
-    "all_other_final_pages_byte_identical_to_previously_viewed_images": true
+    "all_other_final_pages_byte_identical_to_previously_viewed_images": true,
+    "doi_changed_pages_reinspected": [
+      9
+    ],
+    "unchanged_after_doi_pages_inherited_by_identical_png_sha256": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
   },
   "tables": 2,
   "main_figures": 5,
@@ -50,21 +71,18 @@
     "captions_not_orphaned": true,
     "figure_panels_and_labels_visible": true,
     "page_numbers_consistent": true,
-    "actual_repository_and_analysis_commit_visible": true
+    "actual_repository_and_analysis_commit_visible": true,
+    "final_zenodo_doi_visible": true
   },
   "major_layout_issues": [],
   "minor_layout_issues": [],
-  "known_nonlayout_publication_dependency": {
-    "page": 9,
-    "field": "[VERSION_SPECIFIC_ZENODO_DOI]",
-    "status": "Pending Zenodo activation per parent instruction; this visual-QA pass does not declare the draft ready for journal submission."
-  },
+  "known_nonlayout_publication_dependency": null,
   "document_modified_by_reviewer": false,
   "pages": [
     {
       "page": 1,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-1.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-1.png",
       "png_sha256": "07c28b106cbf5d43158a1ccdf71ac04b687accfe514416d92ab1257254c181c6",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-1.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -73,7 +91,7 @@
     {
       "page": 2,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-2.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-2.png",
       "png_sha256": "99d8009cacf328da4de734c888bec05f144f408029b32bca14ec63becc3d9847",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh_final2/page-2.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -82,7 +100,7 @@
     {
       "page": 3,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-3.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-3.png",
       "png_sha256": "6090640798b356e03992c2d443aa48ad35e108859fd07e426495b4134e96d23d",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh_final3/page-3.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -91,7 +109,7 @@
     {
       "page": 4,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-4.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-4.png",
       "png_sha256": "4bbfd77dd85921a6e955751c52c1f90e7f9ca53cbcfb8161d293333545a425d6",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-4.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -100,7 +118,7 @@
     {
       "page": 5,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-5.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-5.png",
       "png_sha256": "0daf4f991304370e9012a3ded05b6e675c1b149ee5a3e2975f299f917c552859",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-5.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -109,7 +127,7 @@
     {
       "page": 6,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-6.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-6.png",
       "png_sha256": "220874c370ca0c5fb0311d5af166b5a59f2237b16b98065367179f0b2ba1fba6",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-6.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -118,7 +136,7 @@
     {
       "page": 7,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-7.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-7.png",
       "png_sha256": "175f15a800a962063617160956c0f5ca79db7a93512da3028c61a3e7dde67d5f",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-7.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -127,7 +145,7 @@
     {
       "page": 8,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-8.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-8.png",
       "png_sha256": "eaf6477d2857ff3da9da1c803df6148d9cf08210d726bf70c7ff6dfd01452dd6",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-8.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -136,16 +154,16 @@
     {
       "page": 9,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-9.png",
-      "png_sha256": "ddd3e3be44644b776a26cf16636f33dc587d45298eb8c6d0734a633e22d9c986",
-      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-9.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-9.png",
+      "png_sha256": "70eabaa750669445fcc87366e050d17b68a80e51e2ea96fbfc67f64324186262",
+      "actual_visual_inspection_source": "work/repro_v3_render_main_zh_doi/page-9.png",
       "same_png_bytes_as_actually_inspected": true,
-      "note": "Report checklist, conclusion, data/code availability and funding opening fit. Actual GitHub URL and complete analysis commit are visible; DOI draft field is an acknowledged publication dependency."
+      "note": "DOI insertion page actually re-inspected: repository URL, DOI URL and complete analysis commit are readable; normal paragraph wrapping, no clipping, overlap, orphaned heading or footer collision."
     },
     {
       "page": 10,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-10.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-10.png",
       "png_sha256": "d05cbe9d6b81f8fc6eb6a44b439414aedb7b3b805bfd0efd92ec9865de298196",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-10.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -154,7 +172,7 @@
     {
       "page": 11,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-11.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-11.png",
       "png_sha256": "bb3aedae5a3dc7fc813bc788f68d59c1f06c11ee24021e2af0f629868a2b7953",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-11.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -163,7 +181,7 @@
     {
       "page": 12,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-12.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-12.png",
       "png_sha256": "fd4831a88b1549f17e11a132717bb5dffa60fa6f6f6b0d64b02ee6274d700166",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-12.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -172,7 +190,7 @@
     {
       "page": 13,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-13.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-13.png",
       "png_sha256": "3b6a934b3126d8486087a7c9124fa538325c1d332c43372e36ac0fcc34729368",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-13.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -181,7 +199,7 @@
     {
       "page": 14,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-14.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-14.png",
       "png_sha256": "b06d96ba610508c805b3de7a93f6210071027e24e4b41096d619e4468659b948",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-14.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -190,7 +208,7 @@
     {
       "page": 15,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-15.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-15.png",
       "png_sha256": "5731698472c81c27b293b8272c1e747ec2a281a29d388ba38b6d2936e87d7f9a",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-15.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -199,7 +217,7 @@
     {
       "page": 16,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-16.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-16.png",
       "png_sha256": "897c22a7fe8145fa786dfee79cf5291643e5dfeb0544367a7acc5df8af74cd9a",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-16.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -208,7 +226,7 @@
     {
       "page": 17,
       "status": "pass",
-      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-17.png",
+      "png_path": "work/repro_v3_render_main_zh_doi/page-17.png",
       "png_sha256": "f6cd6e0d64e028837295936f7f62e9ebe45cc6512a680c30d33f792b3c3da748",
       "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-17.png",
       "same_png_bytes_as_actually_inspected": true,
@@ -218,17 +236,27 @@
   "all_pages_visually_inspected": true,
   "document": {
     "path": "outputs/reproducibility_v3/manuscript_zh.docx",
-    "sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3",
-    "bytes": 1554225
+    "sha256": "355944fb16481fed3ec0e2216ffd8ab380131ab44ddf754703b0f65ea1a2201a",
+    "bytes": 1554244
   },
   "markdown": {
     "path": "outputs/reproducibility_v3/manuscript_zh.md",
-    "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
-    "bytes": 38180
+    "sha256": "9b88e45e385faa70b02a85e2d8183d9e141ae090d7b3f966c7cc6a2fa4eb59b2",
+    "bytes": 38229
   },
   "pdf": {
-    "path": "work/repro_v3_render_cellchat_main_zh_final3/manuscript_zh.pdf",
-    "sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782",
-    "bytes": 1886204
+    "path": "work/repro_v3_render_main_zh_doi/manuscript_zh.pdf",
+    "sha256": "e8025b2ff4f7513ca445bdfb2e3c2f23055b46031eede6f6bdb39549e2f9a77d",
+    "bytes": 1886604
+  },
+  "baseline_visual_review": {
+    "path": "work/repro_v3_pre_doi_documents/validation/visual_qa_zh_main.json",
+    "sha256": "a3fd487ec1191a8b930174991003b225190e4c4a013ac29396e7f54d35e479de"
+  },
+  "resolved_publication_field": {
+    "doi": "10.5281/zenodo.22705840",
+    "url": "https://doi.org/10.5281/zenodo.22705840",
+    "source_change": "Only former DOI placeholder replaced; all other Markdown bytes unchanged",
+    "scope_note": "DOI resolution and archive verification were completed by the parent task; this review checks its document presentation."
   }
 }

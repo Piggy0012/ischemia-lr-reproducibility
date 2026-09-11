@@ -1,0 +1,26 @@
+{
+  "status": "prepared_and_checked_not_submitted",
+  "checked_at_utc": "2026-09-11T10:04:34.622396+00:00",
+  "code_archive_doi": "10.5281/zenodo.22705840",
+  "files": [
+    {
+      "role": "Main manuscript",
+      "name": "manuscript_en.pdf",
+      "sha256": "d437d029e6bb28c2e0ed676d020cdab3ece2ed011b6a945f8d5efbe7e4c3bbf3",
+      "bytes": 1652030,
+      "pages": 17
+    },
+    {
+      "role": "Supplemental Material",
+      "name": "supplement_en.pdf",
+      "sha256": "4d7fe17ee22a2d2c5ef038bc40cc64b7ee8e6b858527527c45310a15c6a8ae10",
+      "bytes": 2668525,
+      "pages": 15
+    }
+  ],
+  "metadata_sha256": "32dc5c929ca469604d9a4a98d621f29d0e9b48c090b48b7cff3aa4571b08a946",
+  "stale_doi_metadata_and_pdf_issues_resolved": true,
+  "remaining_requirement": "Authenticated bioRxiv submitting-author session/form",
+  "public_policy_review": "work/repro_v3_biorxiv_readiness_review.json",
+  "preprint_submitted": false
+}

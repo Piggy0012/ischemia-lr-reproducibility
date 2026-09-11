@@ -1,0 +1,253 @@
+{
+  "status": "public_record_metadata_verified_archive_download_verification_delegated_to_root",
+  "checked_at_utc": "2026-09-11T09:36:16.073964+00:00",
+  "read_only": true,
+  "authentication_supplied": false,
+  "expected_record_metadata": {
+    "title": "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia",
+    "upload_type": "software",
+    "creators": [
+      {
+        "name": "Zhu, Sihuan",
+        "orcid": "0009-0005-9705-0585",
+        "affiliation": "Anhui University of Chinese Medicine"
+      }
+    ],
+    "description": "Code, complete results, cell summaries, figure source data and observed environment locks for a cross-cohort reproducibility study in mouse cerebral ischemia. The analysis attributes the known shared-score ranking correction to scverse/liana PR #261, merge d4211373692e7b9c10210488ccb1efe06452b097. Full native LIANA 1.10.0 inference and fixed-commit aggregation-only replay are distinct execution scopes. A separate controlled-resource analysis executes native CellChat 2.2.0.9001 on all eleven original libraries, preserving full networks, native RDS scores, normalized sparse inputs, exact resource mappings and zero-effect diagnostics. The original v2 numerical analysis remains unchanged. Original project code is MIT licensed, derived tables/figures/manuscripts are CC BY 4.0, and third-party source/database files retain their own licenses. Large original GEO and corrected full-gene cell matrices are obtained separately; their aggregates and complete results are included.",
+    "access_right": "open",
+    "license": "MIT",
+    "version": "3.0.0",
+    "keywords": [
+      "cerebral ischemia",
+      "cell-cell communication",
+      "reproducibility",
+      "ligand receptor",
+      "LIANA",
+      "DecontX",
+      "CellChat"
+    ]
+  },
+  "metadata_precedence": ".zenodo.json is used; CITATION.cff is ignored by Zenodo when both are present.",
+  "github_release": {
+    "tag": "v3.0.0",
+    "draft": false,
+    "published_at": "2026-09-11T09:32:28Z",
+    "release_url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/tag/v3.0.0",
+    "tag_commit": "00067af9ab495f79385403141e06471b079afed6",
+    "expected_analysis_commit": "00067af9ab495f79385403141e06471b079afed6"
+  },
+  "fixed_metadata_matches_local_repository": {
+    ".zenodo.json": true,
+    "CITATION.cff": true
+  },
+  "github_release_attachments": [
+    {
+      "name": "cellchat_environment_windows_R461.zip",
+      "size": 63028323,
+      "digest": "sha256:296ccfb2b7148761b30e4745bc1243ee7d44dfeb752bcde0e9d27a8ca8204f49",
+      "browser_download_url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/download/v3.0.0/cellchat_environment_windows_R461.zip"
+    },
+    {
+      "name": "CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz",
+      "size": 29281894,
+      "digest": "sha256:52a90ce9f121acd58c9e5b2542956de0f3d81ac9b10906454847946f289e0739",
+      "browser_download_url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/download/v3.0.0/CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz"
+    }
+  ],
+  "expected_file_scope": {
+    "automatic_github_import": "One source zipball at tag v3.0.0; verify actual record files and ZIP content rather than inferring from a DOI alone.",
+    "inside_repository_snapshot": [
+      "analysis code",
+      "Python/R environment locks and metadata",
+      "cell summary counts",
+      "complete test and descriptive result tables",
+      "figure inputs and source data",
+      "native CellChat cache and lossless exports"
+    ],
+    "separate_github_release_assets": [
+      "cellchat_environment_windows_R461.zip",
+      "CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz"
+    ],
+    "not_in_repository_zip": [
+      "raw GEO downloads",
+      "large corrected full-gene cell matrices",
+      "R/Python runtimes",
+      "the two separately attached GitHub release files"
+    ],
+    "source_scope_limit": "Inspected current upstream Zenodo/Invenio code supports one zipball upload; this is not proof of the precise deployed server version. The published record file listing is decisive."
+  },
+  "required_public_record_checks": [
+    "Record ID and production zenodo.org landing page resolve anonymously; record is published, not a reserved/draft identifier.",
+    "Use the record version-specific DOI in manuscript Code availability; preserve the concept DOI separately for all versions. Never derive one by arithmetic on the other.",
+    "Title, one creator Zhu, Sihuan, ORCID 0009-0005-9705-0585, affiliation, version 3.0.0, software resource type, open access and declared license agree with fixed .zenodo.json.",
+    "Description preserves known upstream fix attribution and distinct complete/native versus aggregation-only execution scopes; mixed third-party and derived-output licenses remain explicit.",
+    "Related GitHub release identifier points to v3.0.0; actual tag resolves to analysis commit 00067 rather than later editorial HEAD.",
+    "Enumerate each actual record file with name/size/checksum/download URL; download and check advertised checksum plus local SHA256.",
+    "Open the source ZIP, identify root prefix, verify CRC, FILE_INDEX scope and all member SHA256; confirm full numerical/figure-source/environment coverage against fixed release.",
+    "Do not describe external GitHub release attachments or excluded original matrices as archived by this DOI unless the actual record files show them.",
+    "Record version-specific and concept DOI separately; publication date is real public-release time and confers no retrospective upstream priority."
+  ],
+  "candidate_records": [
+    {
+      "search": "zenodo_title_search.json",
+      "id": 22705840,
+      "doi": "10.5281/zenodo.22705840",
+      "metadata": {
+        "title": "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia",
+        "doi": "10.5281/zenodo.22705840",
+        "publication_date": "2026-09-11",
+        "description": "Code, complete results, cell summaries, figure source data and observed environment locks for a cross-cohort reproducibility study in mouse cerebral ischemia. The analysis attributes the known shared-score ranking correction to scverse/liana PR #261, merge d4211373692e7b9c10210488ccb1efe06452b097. Full native LIANA 1.10.0 inference and fixed-commit aggregation-only replay are distinct execution scopes. A separate controlled-resource analysis executes native CellChat 2.2.0.9001 on all eleven original libraries, preserving full networks, native RDS scores, normalized sparse inputs, exact resource mappings and zero-effect diagnostics. The original v2 numerical analysis remains unchanged. Original project code is MIT licensed, derived tables/figures/manuscripts are CC BY 4.0, and third-party source/database files retain their own licenses. Large original GEO and corrected full-gene cell matrices are obtained separately; their aggregates and complete results are included.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Zhu, Sihuan",
+            "affiliation": "Anhui University of Chinese Medicine",
+            "orcid": "0009-0005-9705-0585"
+          }
+        ],
+        "keywords": [
+          "cerebral ischemia",
+          "cell-cell communication",
+          "reproducibility",
+          "ligand receptor",
+          "LIANA",
+          "DecontX",
+          "CellChat"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/Piggy0012/ischemia-lr-reproducibility/tree/v3.0.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "3.0.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/Piggy0012/ischemia-lr-reproducibility"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "22705839"
+              }
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "https://zenodo.org/api/records/22705840",
+        "self_html": "https://zenodo.org/records/22705840",
+        "preview_html": "https://zenodo.org/records/22705840?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.22705840",
+        "self_doi": "https://doi.org/10.5281/zenodo.22705840",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22705840",
+        "reserve_doi": "https://zenodo.org/api/records/22705840/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/22705839",
+        "parent_html": "https://zenodo.org/records/22705839",
+        "parent_doi": "https://doi.org/10.5281/zenodo.22705839",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22705839",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:22705840/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:22705840/sequence/default",
+        "files": "https://zenodo.org/api/records/22705840/files",
+        "media_files": "https://zenodo.org/api/records/22705840/media-files",
+        "archive": "https://zenodo.org/api/records/22705840/files-archive",
+        "archive_media": "https://zenodo.org/api/records/22705840/media-files-archive",
+        "latest": "https://zenodo.org/api/records/22705840/versions/latest",
+        "latest_html": "https://zenodo.org/records/22705840/latest",
+        "versions": "https://zenodo.org/api/records/22705840/versions",
+        "draft": "https://zenodo.org/api/records/22705840/draft",
+        "access_links": "https://zenodo.org/api/records/22705840/access/links",
+        "access_grants": "https://zenodo.org/api/records/22705840/access/grants",
+        "access_users": "https://zenodo.org/api/records/22705840/access/users",
+        "access_request": "https://zenodo.org/api/records/22705840/access/request",
+        "access": "https://zenodo.org/api/records/22705840/access",
+        "communities": "https://zenodo.org/api/records/22705840/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/22705840/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/22705840/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/22705840/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/22705840/quota-increase",
+        "requests": "https://zenodo.org/api/records/22705840/requests"
+      }
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://help.zenodo.org/docs/github/describe-software/zenodo-json/",
+      "supports": "Metadata precedence"
+    },
+    {
+      "url": "https://help.zenodo.org/docs/github/archive-software/github-upload/",
+      "supports": "Release-triggered archive can take time; check final record"
+    },
+    {
+      "url": "https://zenodo.org/help/versioning",
+      "supports": "Version DOI versus concept DOI; cite exact version for reproducibility"
+    },
+    {
+      "url": "https://github.com/zenodo/zenodo-rdm/blob/61ddbb37cd169b218717718574f00221780c7bdb/site/zenodo_rdm/github/release.py",
+      "supports": "Zenodo inherits RDMGithubRelease"
+    },
+    {
+      "url": "https://github.com/inveniosoftware/invenio-rdm-records/blob/master/invenio_rdm_records/services/github/release.py",
+      "supports": "_upload_files_to_draft initializes one release_file_name and fetches zipball; retrieved bytes hashed in invenio_fetch.json"
+    }
+  ],
+  "evidence_directory": "work/repro_v3_zenodo_public_sources",
+  "no_record_id_or_doi_invented": true,
+  "updated_at_utc": "2026-09-11T09:37:32.151047+00:00",
+  "record_id": 22705840,
+  "version_specific_doi": "10.5281/zenodo.22705840",
+  "concept_doi": "10.5281/zenodo.22705839",
+  "record_url": "https://zenodo.org/records/22705840",
+  "record_created": "2026-09-11T09:32:52.759613+00:00",
+  "published_metadata_checks": {
+    "published": true,
+    "title": true,
+    "creators": true,
+    "description": true,
+    "version": true,
+    "access": true,
+    "resource_type": true,
+    "license_normalized": true,
+    "tag_related_identifier": true,
+    "separate_version_concept_doi": true,
+    "exactly_one_source_zip": true,
+    "file_transfer_completed": true
+  },
+  "published_metadata_checks_all_pass": true,
+  "actual_zenodo_files": [
+    {
+      "id": "06c97699-debf-43c8-9d43-4e2b2d3e3013",
+      "key": "Piggy0012/ischemia-lr-reproducibility-v3.0.0.zip",
+      "size": 589907039,
+      "checksum": "md5:c644613fad9558536af140a0491a0276",
+      "links": {
+        "self": "https://zenodo.org/api/records/22705840/files/Piggy0012/ischemia-lr-reproducibility-v3.0.0.zip/content"
+      }
+    }
+  ],
+  "record_files_preview_metadata": [
+    {
+      "key": "Piggy0012/ischemia-lr-reproducibility-v3.0.0.zip",
+      "status": "completed",
+      "metadata": {
+        "error": "Total uncompressed size limit exceeded"
+      }
+    }
+  ],
+  "release_attachments_archived_in_this_doi": false,
+  "archive_bytes_crc_and_member_hashes_verified_by_this_subagent": false,
+  "remaining_verification": "Root agent is downloading the source archive and will verify MD5, ZIP CRC and member hashes against fixed analysis commit FILE_INDEX. The file API preview metadata reports Total uncompressed size limit exceeded; file transfer completed and published metadata exist. No conclusion about archive damage is inferred from preview metadata alone."
+}

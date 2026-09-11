@@ -1,13 +1,13 @@
 {
-  "submission_ready": false,
-  "public_archive_verified": false,
+  "submission_ready": true,
+  "public_archive_verified": true,
   "author_approval_supplied": true,
   "competing_interests_supplied": true,
   "funding_details_supplied": true,
-  "draft_fields": [
-    "VERSION_SPECIFIC_ZENODO_DOI"
-  ],
-  "note": "Final rendered-document and identifier verification are recorded separately; this source assembly does not establish submission readiness.",
+  "draft_fields": [],
+  "note": "All four manuscript files have matched source and visual reviews; the public code archive was downloaded and verified against its fixed Git commit. Actual preprint/journal submission is recorded separately.",
   "all_four_documents_visually_verified": true,
-  "scientific_text_verified": true
+  "scientific_text_verified": true,
+  "manuscript_package_complete": true,
+  "submission_ready_scope": "Manuscript files and requested archival content; venue-specific submission forms are separate."
 }

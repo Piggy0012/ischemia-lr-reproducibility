@@ -2,7 +2,7 @@
   "github_owner": "Piggy0012",
   "repository_name": "ischemia-lr-reproducibility",
   "github_public_verified": true,
-  "zenodo_public_verified": false,
+  "zenodo_public_verified": true,
   "preprint_submitted": false,
   "upstream_comment_posted": true,
   "general_publication_authorization": "Provided by user; authentication and verified identifiers remain operational dependencies",
@@ -11,6 +11,11 @@
   "github_cli_authentication": "Authenticated via official device flow as Piggy0012; configured system proxy used",
   "current_public_analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
   "github_release_prepared": true,
-  "github_release_published": false,
-  "upstream_comment_url": "https://github.com/scverse/liana/pull/261#issuecomment-5632198130"
+  "github_release_published": true,
+  "upstream_comment_url": "https://github.com/scverse/liana/pull/261#issuecomment-5632198130",
+  "github_manuscripts_public_verified": true,
+  "zenodo_version_doi": "10.5281/zenodo.22705840",
+  "zenodo_record_url": "https://zenodo.org/records/22705840",
+  "last_verified_editorial_commit": "3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462",
+  "editorial_publication_note": "Verification refers to the specified editorial commit; later documentation commits may follow."
 }

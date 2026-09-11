@@ -1,8 +1,12 @@
 {
   "status": "all_documents_reviewed",
   "analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
-  "submission_ready": false,
-  "remaining_manuscript_field": "VERSION_SPECIFIC_ZENODO_DOI",
+  "manuscript_package_complete": true,
+  "public_archive_verified": true,
+  "submission_ready": true,
+  "submission_ready_scope": "Manuscript files and requested archival content; venue-specific submission forms are separate.",
+  "remaining_manuscript_field": null,
+  "version_doi": "10.5281/zenodo.22705840",
   "bioRxiv_submitted": false,
   "documents": [
     {
@@ -14,17 +18,17 @@
       "references": 16,
       "docx": {
         "path": "outputs/reproducibility_v3/manuscript_en.docx",
-        "sha256": "cc4bdf7ecdd30215f1ceafde05f016255993827331441301e454cc9ab8af6231"
+        "sha256": "eef6fd20f5145c36bb2e630fbcebada74622ec50c2c3bb03b8919050131894e6"
       },
       "pdf": {
         "path": "outputs/reproducibility_v3/manuscript_en.pdf",
-        "sha256": "88d62b9e0f50a412b75809ff855c6e9dbc2617c3b511efe78fc02f7c6ff87108"
+        "sha256": "d437d029e6bb28c2e0ed676d020cdab3ece2ed011b6a945f8d5efbe7e4c3bbf3"
       },
       "markdown": {
         "path": "outputs/reproducibility_v3/manuscript_en.md",
-        "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578"
+        "sha256": "b1383da094fc0d4dfb651050a89cb0ee7116386413bad48c275f945eb45057d2"
       },
-      "visual_qa_sha256": "4bf96fc18f4dd835e0dead6696d4d37960f11f041c5ca81cb250845fcfb8d160"
+      "visual_qa_sha256": "fd714aa9b40c284b2e7322eacb610332b7f5312214c438176a7dbf199b2c563e"
     },
     {
       "kind": "supplement",
@@ -56,17 +60,17 @@
       "references": 16,
       "docx": {
         "path": "outputs/reproducibility_v3/manuscript_zh.docx",
-        "sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3"
+        "sha256": "355944fb16481fed3ec0e2216ffd8ab380131ab44ddf754703b0f65ea1a2201a"
       },
       "pdf": {
         "path": "outputs/reproducibility_v3/manuscript_zh.pdf",
-        "sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782"
+        "sha256": "e8025b2ff4f7513ca445bdfb2e3c2f23055b46031eede6f6bdb39549e2f9a77d"
       },
       "markdown": {
         "path": "outputs/reproducibility_v3/manuscript_zh.md",
-        "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a"
+        "sha256": "9b88e45e385faa70b02a85e2d8183d9e141ae090d7b3f966c7cc6a2fa4eb59b2"
       },
-      "visual_qa_sha256": "a3fd487ec1191a8b930174991003b225190e4c4a013ac29396e7f54d35e479de"
+      "visual_qa_sha256": "725cf0e37e57850cfc4494f8361a9abe94e9e2da664ac88d6540f39791862c8e"
     },
     {
       "kind": "supplement",

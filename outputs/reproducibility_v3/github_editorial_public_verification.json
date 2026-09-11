@@ -1,0 +1,102 @@
+{
+  "status": "verified_anonymously",
+  "verified_at_utc": "2026-09-11T09:20:07.695099+00:00",
+  "repository_url": "https://github.com/Piggy0012/ischemia-lr-reproducibility",
+  "editorial_commit": "3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462",
+  "analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "repository_private": false,
+  "verification_scope": "Anonymous GitHub API content Git-blob hashes and byte sizes, not an anonymous byte download of every file",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha1": "c4576c5b06057757101e4dbef36ce330feb3e8fc",
+      "sha256": "22c5e17544765479d236648c5cc26c5b0fa21e0ad9967c8e50c9b1f91fae9f86",
+      "bytes": 7098,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/README.md"
+    },
+    {
+      "path": "FILE_INDEX.tsv",
+      "git_blob_sha1": "81fb7754e4cc259f1853bb089047514b30906101",
+      "sha256": "896ecf53f688cdea0940612e38999401a44585b597a46500d4976d2e3c6e7103",
+      "bytes": 347461,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/FILE_INDEX.tsv"
+    },
+    {
+      "path": "outputs/reproducibility_v3/README.md",
+      "git_blob_sha1": "55e4a8fb6c5111ac5af1f5df89dae64fe17e691c",
+      "sha256": "751ba9e0b501d557d67868d9d0b8641e9e804309a2079d0b4f71e72211c60cb4",
+      "bytes": 1693,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/README.md"
+    },
+    {
+      "path": "work/repro_v3_prepare.py",
+      "git_blob_sha1": "ebaa0e103784dbedafc52b3c023d687032ebe578",
+      "sha256": "fef5e98b9b5e40c6fef455bc1fe254d0e32ee84c02a1b768c2d6fac57f06b34f",
+      "bytes": 34296,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/work/repro_v3_prepare.py"
+    },
+    {
+      "path": "work/repro_v3_build_docx.py",
+      "git_blob_sha1": "0d026658883f164aef97c184855782e16fc3a934",
+      "sha256": "bb8ecb781dc9eb1e17cb58896d15facc7d1c3352b3c0d6fc38809e2b06f4e93e",
+      "bytes": 10556,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/work/repro_v3_build_docx.py"
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.docx",
+      "git_blob_sha1": "dafe7b60104dd546eb025fca5ea0c26e6e06a498",
+      "sha256": "cc4bdf7ecdd30215f1ceafde05f016255993827331441301e454cc9ab8af6231",
+      "bytes": 1553118,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/manuscript_en.docx"
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.pdf",
+      "git_blob_sha1": "ee2796b907a04ab51291ad679c60e488255f1417",
+      "sha256": "88d62b9e0f50a412b75809ff855c6e9dbc2617c3b511efe78fc02f7c6ff87108",
+      "bytes": 1651662,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/manuscript_en.pdf"
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.docx",
+      "git_blob_sha1": "9467140942a3174b84af43e8a016f4e510bfd4a0",
+      "sha256": "6fa993bf71e1b2b736445c4d133ac85ecb3d251ef7e544cc2fdcc149f1038c7d",
+      "bytes": 4798534,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/supplement_en.docx"
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.pdf",
+      "git_blob_sha1": "2dc35b012ea29571592c2a053c0fe90348344875",
+      "sha256": "4d7fe17ee22a2d2c5ef038bc40cc64b7ee8e6b858527527c45310a15c6a8ae10",
+      "bytes": 2668525,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/supplement_en.pdf"
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_zh.docx",
+      "git_blob_sha1": "a0fb13448e40728ca089823802753c7db0a5f8a5",
+      "sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3",
+      "bytes": 1554225,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/manuscript_zh.docx"
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_zh.pdf",
+      "git_blob_sha1": "bea0674d93a4a15f55d491ad112f4d2099ec8b2a",
+      "sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782",
+      "bytes": 1886204,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/manuscript_zh.pdf"
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_zh.docx",
+      "git_blob_sha1": "e75999c8c51b98e8f2d0bbf1f489cbf71addbd5d",
+      "sha256": "13f4d2cb16995849bc94ab84f1f652040bb579306329053bea4feed5159de0f1",
+      "bytes": 4798675,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/supplement_zh.docx"
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_zh.pdf",
+      "git_blob_sha1": "4837fc923f7b998c96488b53c9e316fff0082112",
+      "sha256": "57414b22bae10b4b203b9c2aa03786c70f9f2f5da2c6d377daba6407fdb3d72f",
+      "bytes": 2886642,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/3e7ee0ba0f6b475fd22713b54aae0c4cbbf1a462/outputs/reproducibility_v3/supplement_zh.pdf"
+    }
+  ]
+}
