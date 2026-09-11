@@ -1,0 +1,64 @@
+{
+  "status": "verified_anonymously",
+  "repository_url": "https://github.com/Piggy0012/ischemia-lr-reproducibility",
+  "commit": "00067af9ab495f79385403141e06471b079afed6",
+  "repository_private": false,
+  "named_files": [
+    {
+      "path": "FILE_INDEX.tsv",
+      "git_blob_sha1": "8dffcac2353c1df6fbd7c9f0088f10f85bbf3c3d",
+      "sha256": "50a1cd6189c03db7bd70ca9c3feb4f86bd416a87b67f44d63050e92d25867ff7",
+      "bytes": 333750,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/FILE_INDEX.tsv"
+    },
+    {
+      "path": "work/processed/GSE174574/marker_panel.json",
+      "git_blob_sha1": "f4677679c3001e026fd909d38804dcb7aa04a199",
+      "sha256": "22342372dc56e0570d7394c60fee465d69aa29af0def9b2f4984fd24e7c24ed8",
+      "bytes": 1506,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/work/processed/GSE174574/marker_panel.json"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv",
+      "git_blob_sha1": "26121b13fa5f3b390e3e3eea6aeea4b55646f226",
+      "sha256": "0d5b6a6492149f13f064d46dd24b36713f81097ec8502cf3605a930e4f017e68",
+      "bytes": 1172,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz",
+      "git_blob_sha1": "fdcb19ab6a8a0252c153c1bbd98563f6a7906166",
+      "sha256": "90ed10f65ef17756bdc3cf205e13fb66821c0a7c8537faf6988caceafd4c3760",
+      "bytes": 1607419,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz"
+    },
+    {
+      "path": "work/repro_v3_cellchat/tables/cross_cohort_concordance.tsv",
+      "git_blob_sha1": "eed958db03f77f71293f798feb47fda35cca270b",
+      "sha256": "fc16aa2b1022544514b8e3d8550b74248fae5a80a30eb9b463e5ed4b62f7c55f",
+      "bytes": 3595,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/work/repro_v3_cellchat/tables/cross_cohort_concordance.tsv"
+    },
+    {
+      "path": "work/repro_v3_cellchat_environment/renv.lock",
+      "git_blob_sha1": "2f02853b01124ab10831dae9a193b8252d9f8040",
+      "sha256": "29608ca3e8d197b8fda8beaf86ec6a03f31327400863fb175d23568d6783ed41",
+      "bytes": 653354,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/work/repro_v3_cellchat_environment/renv.lock"
+    },
+    {
+      "path": "outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.png",
+      "git_blob_sha1": "14a145dd74af7eeed5a6ce9ffde4bc0c3682dde5",
+      "sha256": "2b79a397209af7432f6f5fa01f99dd956f49faed31790463f81ed06bafbdd109",
+      "bytes": 444336,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v3_cellchat/figures/FigureS6_cellchat_controlled_extension.png"
+    },
+    {
+      "path": "CITATION.cff",
+      "git_blob_sha1": "ea95bfb2b51b28c258724bb00f620f170c0075b9",
+      "sha256": "f4cfcc777bb5865f9b2b438042d8c7cc255c5482757f9ce2cf7ba9d7308f598b",
+      "bytes": 853,
+      "public_download_url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/CITATION.cff"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T08:52:57.076555+00:00",
+  "reviewer": "null_baseline",
+  "document": {
+    "path": "outputs/reproducibility_v3/supplement_zh.docx",
+    "sha256": "13f4d2cb16995849bc94ab84f1f652040bb579306329053bea4feed5159de0f1",
+    "bytes": 4798675
+  },
+  "markdown": {
+    "path": "outputs/reproducibility_v3/supplement_zh.md",
+    "sha256": "c8abc8902078434d4dfdecda005b88324a649a1fb9e5a59b7d128088a142f3c6",
+    "bytes": 30194
+  },
+  "pdf": {
+    "path": "work/repro_v3_render_cellchat_supp_zh_final2/supplement_zh.pdf",
+    "sha256": "57414b22bae10b4b203b9c2aa03786c70f9f2f5da2c6d377daba6407fdb3d72f",
+    "bytes": 2886642
+  },
+  "reference_source": {
+    "path": "outputs/reproducibility_v3/supplement_references_zh.json",
+    "sha256": "fb938a2a03931c6237af609a172e55f8e25fb470718fffcd8607f8eeb7a235fb",
+    "bytes": 22011
+  },
+  "page_count": 15,
+  "all_pages_visually_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-1.png",
+        "sha256": "d4da476b6d4047cdabfe3d0327d3ecbdfe9c8b7e907f25b4b49b90b09b798bfc",
+        "bytes": 651388
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-1.png",
+        "sha256": "d4da476b6d4047cdabfe3d0327d3ecbdfe9c8b7e907f25b4b49b90b09b798bfc",
+        "bytes": 651388
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Title, author, data selection and animal-score methods are legible; footer and bottom paragraph clear."
+    },
+    {
+      "page": 2,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-2.png",
+        "sha256": "7902ccdce5b7a8f55328701ed628031e44b87fb4d5a33a290110477f765b79de",
+        "bytes": 782212
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-2.png",
+        "sha256": "7902ccdce5b7a8f55328701ed628031e44b87fb4d5a33a290110477f765b79de",
+        "bytes": 782212
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "LIANA methods, common-denominator definition and label-null methods readable; normal paragraph continuation at page break."
+    },
+    {
+      "page": 3,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-3.png",
+        "sha256": "210ef5b64fa9c8452f8a963ec9eca2921e5f7d695f718acfd56747eb41ae25a1",
+        "bytes": 763666
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-3.png",
+        "sha256": "210ef5b64fa9c8452f8a963ec9eca2921e5f7d695f718acfd56747eb41ae25a1",
+        "bytes": 763666
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Holm families, conditional diagnostic, implementation/background audit and DecontX methods readable; no lost glyphs or clipped long commit."
+    },
+    {
+      "page": 4,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-4.png",
+        "sha256": "1d508dda69b725b37a9c33d58c681a07e03fddbcdb7faf47bc8dd0803211f611",
+        "bytes": 743080
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-4.png",
+        "sha256": "1d508dda69b725b37a9c33d58c681a07e03fddbcdb7faf47bc8dd0803211f611",
+        "bytes": 743080
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "DecontX continuation, sorted/spatial methods, convergence results and CellChat source paragraph fully visible."
+    },
+    {
+      "page": 5,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-5.png",
+        "sha256": "e8d8a97a7eff8a1000f1e84984ebbf1770a30ccd3f652675ae13c43d90423d49",
+        "bytes": 709605
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-5.png",
+        "sha256": "e8d8a97a7eff8a1000f1e84984ebbf1770a30ccd3f652675ae13c43d90423d49",
+        "bytes": 709605
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "CellChat resource, native settings, rank formula, effect denominator and archive section readable; no text overlap."
+    },
+    {
+      "page": 6,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-6.png",
+        "sha256": "b830ee0d17b26a506b9da164e6610aee2ce5549a9d13673ed720b0737d74e7d0",
+        "bytes": 601592
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-6.png",
+        "sha256": "b830ee0d17b26a506b9da164e6610aee2ce5549a9d13673ed720b0737d74e7d0",
+        "bytes": 601592
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Controlled-framework results and supporting biology readable; fraction/zero-effect counts and gene identifiers intact."
+    },
+    {
+      "page": 7,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-7.png",
+        "sha256": "5a549a1d1b9c91d72fe36e4abe590abb13416ff4ce3d5100800f2e7e6b4c03e2",
+        "bytes": 722097
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-7.png",
+        "sha256": "5a549a1d1b9c91d72fe36e4abe590abb13416ff4ce3d5100800f2e7e6b4c03e2",
+        "bytes": 722097
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "All six Chinese figure legends S1–S6 are present and readable; the long S6 legend remains within page boundaries."
+    },
+    {
+      "page": 8,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-8.png",
+        "sha256": "a882404a316c28ef6c6059e42ab1439e211058f2271779ed060d90a1f583b8df",
+        "bytes": 639142
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Final revised page directly viewed again",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-8.png",
+        "sha256": "17bafe762f7daf9e3f2054d9ff76a162691037bd06f81550e1498a6278f21fe0",
+        "bytes": 665576
+      },
+      "byte_identical_to_first_pass": false,
+      "observations": "References 1–18 readable, with continuous numbering and complete lines within margins."
+    },
+    {
+      "page": 9,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-9.png",
+        "sha256": "a6b30d6e7ea73819553fc671eaf9c1cc9afeae4fe469f9f8eb471590345c844f",
+        "bytes": 74066
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Final revised page directly viewed again",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-9.png",
+        "sha256": "5c04a01304776cd758da7009e21b3d9f994221932c62ed58329a2f2d07029c13",
+        "bytes": 77475
+      },
+      "byte_identical_to_first_pass": false,
+      "observations": "References 19–20 readable and complete; short reference continuation leaves intentional blank space before separate figure pages. The reference hyperlink font correction keeps the final DOI together with no orphan digit."
+    },
+    {
+      "page": 10,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-10.png",
+        "sha256": "cc71b48e287f82c0ccd83b93c1d621368147048abf1ee9c22444e29ac7f915d5",
+        "bytes": 403805
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-10.png",
+        "sha256": "cc71b48e287f82c0ccd83b93c1d621368147048abf1ee9c22444e29ac7f915d5",
+        "bytes": 403805
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S1 panels A–F, axes, symbols, heatmap annotations, colorbar and legend all visible without clipping."
+    },
+    {
+      "page": 11,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-11.png",
+        "sha256": "6f2f5f4596a776c5359a2d3bcb5d2604f5da8e3dcb56ccef8e96abc89081229d",
+        "bytes": 726727
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-11.png",
+        "sha256": "6f2f5f4596a776c5359a2d3bcb5d2604f5da8e3dcb56ccef8e96abc89081229d",
+        "bytes": 726727
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S2 all 11 library panels A–K, threshold labels and legend visible; dense technical QC figure remains readable."
+    },
+    {
+      "page": 12,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-12.png",
+        "sha256": "3eaccddc790ead7f871fb484b86a1f7cdbb03895e4a4b791519cdc2ccf2c97ec",
+        "bytes": 318747
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-12.png",
+        "sha256": "3eaccddc790ead7f871fb484b86a1f7cdbb03895e4a4b791519cdc2ccf2c97ec",
+        "bytes": 318747
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S3 both heatmaps, 22 gene labels, separators, selection labels, colorbar and significance key visible."
+    },
+    {
+      "page": 13,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-13.png",
+        "sha256": "5697f7253f1dd26bfc56bfadd25a928ffa83813352aa31748599ae8780a9e357",
+        "bytes": 161619
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-13.png",
+        "sha256": "5697f7253f1dd26bfc56bfadd25a928ffa83813352aa31748599ae8780a9e357",
+        "bytes": 161619
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S4 both sample-pool effect panels, individual points, intervals and axis labels visible; preserved figure aspect ratio leaves lower-page white space."
+    },
+    {
+      "page": 14,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-14.png",
+        "sha256": "10e42bed7babcca8ac158c318bba34bb62e33e1f29d268bc47bb147499d78034",
+        "bytes": 1397077
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-14.png",
+        "sha256": "10e42bed7babcca8ac158c318bba34bb62e33e1f29d268bc47bb147499d78034",
+        "bytes": 1397077
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S5 all eight spatial maps, four colorbars and two sample labels visible; no cropping or missing maps."
+    },
+    {
+      "page": 15,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh_final2/page-15.png",
+        "sha256": "4046bbc88e0b98daeaaa3b084da7d9179075e8e0ca6aebb97e679b4be7b937f8",
+        "bytes": 420786
+      },
+      "pixel_dimensions": [
+        1547,
+        2002
+      ],
+      "status": "pass",
+      "verification": "Direct full-page view_image inspection at original image resolution, not a contact sheet or text-only surrogate.",
+      "review_mode": "Previously directly viewed PNG is byte-identical to final rendering",
+      "first_pass_image": {
+        "path": "work/repro_v3_render_cellchat_supp_zh/page-15.png",
+        "sha256": "4046bbc88e0b98daeaaa3b084da7d9179075e8e0ca6aebb97e679b4be7b937f8",
+        "bytes": 420786
+      },
+      "byte_identical_to_first_pass": true,
+      "observations": "Figure S6 all four panels, concordance denominators, zero counts, hollow-marker annotation and figure note visible and legible."
+    }
+  ],
+  "reference_count": 20,
+  "supplementary_figure_count": 6,
+  "figure_page_mapping": {
+    "S1": 10,
+    "S2": 11,
+    "S3": 12,
+    "S4": 13,
+    "S5": 14,
+    "S6": 15
+  },
+  "docx_embedded_media_sha256": {
+    "word/media/image1.png": "69ae1f7a1e24d1ede95706ba3430bee6c7196e7d05df324b0678bf40db44505e",
+    "word/media/image2.png": "c5a368c72b1619a172b750a426d9dcae731a5731adb2ec4754bde6d2e38ec93d",
+    "word/media/image3.png": "ac512cbec6207a489c70c1c62bb3341ebf60557efceeca577c1a304b1467a4a9",
+    "word/media/image4.png": "99955fd39c52d6b2c9c346025e8ef974f9ee5197d38365128be1315c628ab13d",
+    "word/media/image5.png": "8426b456a2c3feb55da1765103254dbe1b74d83bdcc9cec90acddb4ce7bab69c",
+    "word/media/image6.png": "2b79a397209af7432f6f5fa01f99dd956f49faed31790463f81ed06bafbdd109"
+  },
+  "checks": {
+    "no_clipped_text_or_figures": true,
+    "no_overlapping_text_or_axis_labels": true,
+    "no_missing_Chinese_glyphs_observed": true,
+    "all_page_numbers_present": true,
+    "all_6_figures_present_and_readable": true,
+    "reference_numbering_1_to_20_complete": true,
+    "all_6_Chinese_legends_present": true,
+    "no_blank_pages": true
+  },
+  "nonblocking_typesetting_notes": [
+    {
+      "pages": [
+        9
+      ],
+      "note": "Reference continuation contains two entries and leaves substantial white space before separate figure pages; all reference text and DOIs are complete."
+    },
+    {
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "note": "Very small numerical tolerances are rendered using readable caret notation (10^-12 and 2×10^-15); a journal may prefer superscripts at typesetting."
+    }
+  ],
+  "scope": "Visual/layout review of the current rendered Chinese supplement. Scientific results were not recomputed in this check.",
+  "render_performed_by": "Root task before handoff; existing current render inspected here.",
+  "iteration": {
+    "first_pass_pages_directly_viewed": 15,
+    "changed_pages_directly_reinspected": [
+      8,
+      9
+    ],
+    "unchanged_pages_reused_after_SHA256_equality": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "issue_resolved": "Reference 20 DOI orphan digit removed by root narrowing the reference hyperlink font to 10 pt; no scientific text or numeric edit requested by this review."
+  },
+  "skill": "documents SKILL.md render-and-inspect requirements; no authoring marker used for this read-only review.",
+  "prior_QA_preserved": {
+    "path": "work/repro_v3_editorial_baseline/validation/visual_qa_zh_supplement.json",
+    "sha256": "0361ca317f37e884ef0acf88519c0df3f24cdda38e52bc91b3e0a04359974d85",
+    "bytes": 5545
+  },
+  "document_or_markdown_modified_by_review": false
+}

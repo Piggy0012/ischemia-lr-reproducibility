@@ -39,7 +39,7 @@ ABSTRACT={
 METHODS={
 'en':[
 ('Data and cell selection',[
-'GSE174574 contributed three sham and three acute MCAO animal libraries; GSE245386 contributed three sham and two newly generated wild-type MCAO libraries, excluding knockout samples and reused data. Samples were reconciled with GEO and the source papers, including the published correction to GSE245386. The animal represented by each original library was the comparison unit. [@Zheng2022][@Ruan2023][@RuanCorrection2025]',
+'GSE174574 contributed three sham and three acute middle cerebral artery occlusion (MCAO) animal libraries; GSE245386 contributed three sham and two newly generated wild-type MCAO libraries, excluding knockout samples and reused data. Samples were reconciled with GEO and the source papers, including the published correction to GSE245386. The animal represented by each original library was the comparison unit. [@Zheng2022][@Ruan2023][@RuanCorrection2025]',
 'Matrices were processed separately by library. Quality control retained 200–6,000 detected genes, at least 500 UMIs and at most 20% mitochondrial UMIs. A fixed marker rule assigned broad lineages and retained unassigned cells. In the original cohorts, an alternative selection intersected the rule labels with an agreeing CellTypist whole-mouse-brain label, reference score ≥0.5 and no Scrublet-predicted doublet. Reference scores were classifier outputs rather than calibrated identity probabilities. Full marker rules, models and diagnostic parameters are in the Reproducibility appendix. [@Dominguez2022][@Yao2021][@Yao2023][@Wolock2019]',
 'GSE332910 supplied six ipsilateral striatal single-nucleus RNA libraries after sham surgery or acute MCAO. The source supplementary table reports three biological replicates and three libraries per group, without specifying mouse or pool composition within each library. The unchanged marker rule was applied, and this extension was analyzed descriptively outside the original permutation families. [@Zhang2026]']),
 ('Expression scores and relative priorities',[
@@ -58,7 +58,7 @@ METHODS={
 'Corrected fractional counts were normalized by corrected full-gene totals while cell selections remained fixed. Detection greater than zero was the main corrected rule; estimated count ≥1 was a separate eligibility sensitivity. Original and corrected scores were also compared on identical complete candidates. These estimates were not rounded into observed UMIs or supplied to DESeq2. Count subtraction and retained eligibility remain conditional on model and cluster assumptions.'])],
 'zh':[
 ('数据与细胞选择',[
-'GSE174574纳入3个假手术及3个急性MCAO动物文库；GSE245386纳入3个假手术及2个新生成的野生型MCAO文库，排除敲除样本与重复使用的数据。依据GEO、原论文及GSE245386已发表更正核对样本，以每个原始文库代表的动物为比较单位。[@Zheng2022][@Ruan2023][@RuanCorrection2025]',
+'GSE174574纳入3个假手术及3个急性大脑中动脉闭塞（MCAO）动物文库；GSE245386纳入3个假手术及2个新生成的野生型MCAO文库，排除敲除样本与重复使用的数据。依据GEO、原论文及GSE245386已发表更正核对样本，以每个原始文库代表的动物为比较单位。[@Zheng2022][@Ruan2023][@RuanCorrection2025]',
 '矩阵逐文库处理，保留检出基因200–6,000、UMI至少500且线粒体UMI不超过20%的细胞。固定标记规则分配大谱系并保留未分配细胞。原两个队列另设参考支持选择，要求规则标签与CellTypist全鼠脑标签一致、参考得分至少0.5且未被Scrublet标记为双细胞。模型得分不解释为校准后的身份概率；完整标记规则、参考模型与参数见复现附录。[@Dominguez2022][@Yao2021][@Yao2023][@Wolock2019]',
 'GSE332910提供假手术或急性MCAO后的6个同侧纹状体单核RNA文库；来源补充表报告每组3个生物学重复及3个文库，每文库单鼠或混样构成未说明。沿用相同标记规则，以描述性扩展分析，不纳入原两队列的置换家族。[@Zhang2026]']),
 ('表达评分与相对优先级',[
@@ -190,7 +190,8 @@ def main():
         maintext+='## '+headers[1]+'\n\n'+paragraphs(intro)+'\n\n## '+headers[2]+'\n\n'
         for h,body in METHODS[lang]:maintext+='### '+h+'\n\n'+paragraphs(body)+'\n\n'
         if cc:
-            maintext+='### '+('Independent CellChat comparison' if en else '独立CellChat比较')+'\n\n'+cc['main_methods_'+lang]+'\n\n'
+            cc_methods=cc['main_methods_'+lang].replace('新增队列对比仅作描述性分析','上述新增比较仅作描述性分析')
+            maintext+='### '+('Independent CellChat comparison' if en else '独立CellChat比较')+'\n\n'+cc_methods+'\n\n'
         maintext+='## '+headers[3]+'\n\n'+result+'\n\n'+tables_text+'\n\n## '+headers[4]+'\n\n'+discussion+'\n\n'
         maintext=maintext.replace('Equal P values alone do not establish dependence. ', '').replace('相同P值本身不能证明相关。', '')
         maintext+='## '+headers[5]+'\n\n'+FRONT['conclusion_'+lang]+'\n\n'

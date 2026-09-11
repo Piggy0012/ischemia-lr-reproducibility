@@ -1,0 +1,7 @@
+config	metric	n_candidates	n_nonzero_both	n_same_direction	n_zero_discovery	n_zero_validation	same_direction_all_fraction	same_direction_nonzero_fraction	spearman_rho	n_zero_in_either_cohort
+primary	native_full_network_priority	187	177	105	9	2	0.5614973262032086	0.5932203389830508	0.2282371264612325	10
+primary	unique_full_network_priority	187	168	122	18	3	0.6524064171122995	0.7261904761904762	0.518752314279276	19
+primary	unique_fixed_global_priority	187	123	100	50	46	0.5347593582887701	0.8130081300813008	0.6452318878825728	64
+reference_singlet	native_full_network_priority	174	166	95	8	1	0.5459770114942529	0.572289156626506	0.102453265290396	8
+reference_singlet	unique_full_network_priority	174	158	115	15	2	0.6609195402298851	0.7278481012658228	0.5137932807585105	16
+reference_singlet	unique_fixed_global_priority	174	115	84	48	39	0.4827586206896552	0.7304347826086957	0.5549327733852248	59

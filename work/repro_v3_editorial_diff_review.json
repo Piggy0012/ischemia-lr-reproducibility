@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T09:17:03.964268+00:00",
+  "scope": "Read-only editorial diff review of two document generators",
+  "scientific_release_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "files": [
+    {
+      "file": "repro_v3_prepare.py",
+      "baseline_path": "work/repro_v3_repository/work/repro_v3_prepare.py",
+      "current_path": "work/repro_v3_prepare.py",
+      "baseline_sha256": "c074e712b81b9e87fc105f2706931d43a5c650f60ee0f27c32d41b89eaa0dd5d",
+      "current_sha256": "fef5e98b9b5e40c6fef455bc1fe254d0e32ee84c02a1b768c2d6fac57f06b34f",
+      "baseline_matches_scientific_release_commit": true,
+      "exact_expected_change_normalization_matches_baseline": true,
+      "reviewed_changes": [
+        "Expand first English MCAO methods use",
+        "Expand first Chinese MCAO methods use",
+        "Clarify Chinese additional-comparison wording without altering frozen CellChat narrative"
+      ],
+      "unified_diff": "--- scientific_release/repro_v3_prepare.py\n+++ current_editorial/repro_v3_prepare.py\n@@ -39,7 +39,7 @@\n METHODS={\n 'en':[\n ('Data and cell selection',[\n-'GSE174574 contributed three sham and three acute MCAO animal libraries; GSE245386 contributed three sham and two newly generated wild-type MCAO libraries, excluding knockout samples and reused data. Samples were reconciled with GEO and the source papers, including the published correction to GSE245386. The animal represented by each original library was the comparison unit. [@Zheng2022][@Ruan2023][@RuanCorrection2025]',\n+'GSE174574 contributed three sham and three acute middle cerebral artery occlusion (MCAO) animal libraries; GSE245386 contributed three sham and two newly generated wild-type MCAO libraries, excluding knockout samples and reused data. Samples were reconciled with GEO and the source papers, including the published correction to GSE245386. The animal represented by each original library was the comparison unit. [@Zheng2022][@Ruan2023][@RuanCorrection2025]',\n 'Matrices were processed separately by library. Quality control retained 200–6,000 detected genes, at least 500 UMIs and at most 20% mitochondrial UMIs. A fixed marker rule assigned broad lineages and retained unassigned cells. In the original cohorts, an alternative selection intersected the rule labels with an agreeing CellTypist whole-mouse-brain label, reference score ≥0.5 and no Scrublet-predicted doublet. Reference scores were classifier outputs rather than calibrated identity probabilities. Full marker rules, models and diagnostic parameters are in the Reproducibility appendix. [@Dominguez2022][@Yao2021][@Yao2023][@Wolock2019]',\n 'GSE332910 supplied six ipsilateral striatal single-nucleus RNA libraries after sham surgery or acute MCAO. The source supplementary table reports three biological replicates and three libraries per group, without specifying mouse or pool composition within each library. The unchanged marker rule was applied, and this extension was analyzed descriptively outside the original permutation families. [@Zhang2026]']),\n ('Expression scores and relative priorities',[\n@@ -58,7 +58,7 @@\n 'Corrected fractional counts were normalized by corrected full-gene totals while cell selections remained fixed. Detection greater than zero was the main corrected rule; estimated count ≥1 was a separate eligibility sensitivity. Original and corrected scores were also compared on identical complete candidates. These estimates were not rounded into observed UMIs or supplied to DESeq2. Count subtraction and retained eligibility remain conditional on model and cluster assumptions.'])],\n 'zh':[\n ('数据与细胞选择',[\n-'GSE174574纳入3个假手术及3个急性MCAO动物文库；GSE245386纳入3个假手术及2个新生成的野生型MCAO文库，排除敲除样本与重复使用的数据。依据GEO、原论文及GSE245386已发表更正核对样本，以每个原始文库代表的动物为比较单位。[@Zheng2022][@Ruan2023][@RuanCorrection2025]',\n+'GSE174574纳入3个假手术及3个急性大脑中动脉闭塞（MCAO）动物文库；GSE245386纳入3个假手术及2个新生成的野生型MCAO文库，排除敲除样本与重复使用的数据。依据GEO、原论文及GSE245386已发表更正核对样本，以每个原始文库代表的动物为比较单位。[@Zheng2022][@Ruan2023][@RuanCorrection2025]',\n '矩阵逐文库处理，保留检出基因200–6,000、UMI至少500且线粒体UMI不超过20%的细胞。固定标记规则分配大谱系并保留未分配细胞。原两个队列另设参考支持选择，要求规则标签与CellTypist全鼠脑标签一致、参考得分至少0.5且未被Scrublet标记为双细胞。模型得分不解释为校准后的身份概率；完整标记规则、参考模型与参数见复现附录。[@Dominguez2022][@Yao2021][@Yao2023][@Wolock2019]',\n 'GSE332910提供假手术或急性MCAO后的6个同侧纹状体单核RNA文库；来源补充表报告每组3个生物学重复及3个文库，每文库单鼠或混样构成未说明。沿用相同标记规则，以描述性扩展分析，不纳入原两队列的置换家族。[@Zhang2026]']),\n ('表达评分与相对优先级',[\n@@ -190,7 +190,8 @@\n         maintext+='## '+headers[1]+'\\n\\n'+paragraphs(intro)+'\\n\\n## '+headers[2]+'\\n\\n'\n         for h,body in METHODS[lang]:maintext+='### '+h+'\\n\\n'+paragraphs(body)+'\\n\\n'\n         if cc:\n-            maintext+='### '+('Independent CellChat comparison' if en else '独立CellChat比较')+'\\n\\n'+cc['main_methods_'+lang]+'\\n\\n'\n+            cc_methods=cc['main_methods_'+lang].replace('新增队列对比仅作描述性分析','上述新增比较仅作描述性分析')\n+            maintext+='### '+('Independent CellChat comparison' if en else '独立CellChat比较')+'\\n\\n'+cc_methods+'\\n\\n'\n         maintext+='## '+headers[3]+'\\n\\n'+result+'\\n\\n'+tables_text+'\\n\\n## '+headers[4]+'\\n\\n'+discussion+'\\n\\n'\n         maintext=maintext.replace('Equal P values alone do not establish dependence. ', '').replace('相同P值本身不能证明相关。', '')\n         maintext+='## '+headers[5]+'\\n\\n'+FRONT['conclusion_'+lang]+'\\n\\n'\n"
+    },
+    {
+      "file": "repro_v3_build_docx.py",
+      "baseline_path": "work/repro_v3_repository/work/repro_v3_build_docx.py",
+      "current_path": "work/repro_v3_build_docx.py",
+      "baseline_sha256": "9dbb1e685a5f5d27ff6b5b396f34587e139e6fc6ca9f3e9a8bfd0b3517ffa167",
+      "current_sha256": "bb8ecb781dc9eb1e17cb58896d15facc7d1c3352b3c0d6fc38809e2b06f4e93e",
+      "baseline_matches_scientific_release_commit": true,
+      "exact_expected_change_normalization_matches_baseline": true,
+      "reviewed_changes": [
+        "Apply 10 pt (OOXML half-point size 20) to hyperlink runs in Chinese supplementary reference entries"
+      ],
+      "unified_diff": "--- scientific_release/repro_v3_build_docx.py\n+++ current_editorial/repro_v3_build_docx.py\n@@ -130,6 +130,14 @@\n             p.paragraph_format.space_after=Pt(4)\n             p.paragraph_format.keep_together=True\n             for r in p.runs:r.font.size=Pt(10 if kind=='supplement' else 10.5)\n+            if lang=='zh' and kind=='supplement':\n+                # Hyperlink runs are absent from p.runs; keep their DOI type at\n+                # the same 10 pt size as the surrounding reference text.\n+                for run_element in p._p.xpath('.//w:hyperlink/w:r'):\n+                    props=run_element.find(qn('w:rPr'))\n+                    if props is None:\n+                        props=OxmlElement('w:rPr');run_element.insert(0,props)\n+                    size=OxmlElement('w:sz');size.set(qn('w:val'),'20');props.append(size)\n     figures=sorted(f for f in (OUT/'figures').glob('*.png') if f.name.startswith('FigureS') == (kind=='supplement'))\n     expected=6 if kind=='supplement' and (ROOT/'repro_v3_cellchat_narrative.json').exists() else 5\n     assert len(figures)==expected,len(figures)\n"
+    }
+  ],
+  "conclusion": "All differences are restricted to the three expected terminology/wording edits and the Chinese supplementary hyperlink font-size fix. Removing precisely these edits restores the scientific-release source text exactly. No analysis logic, numerical results, cohort definitions, model settings, data/source paths, citation keys or reference targets changed.",
+  "analysis_rerun": false,
+  "reviewed_files_modified": false
+}

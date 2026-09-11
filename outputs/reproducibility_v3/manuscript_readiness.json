@@ -1,0 +1,13 @@
+{
+  "submission_ready": false,
+  "public_archive_verified": false,
+  "author_approval_supplied": true,
+  "competing_interests_supplied": true,
+  "funding_details_supplied": true,
+  "draft_fields": [
+    "VERSION_SPECIFIC_ZENODO_DOI"
+  ],
+  "note": "Final rendered-document and identifier verification are recorded separately; this source assembly does not establish submission readiness.",
+  "all_four_documents_visually_verified": true,
+  "scientific_text_verified": true
+}

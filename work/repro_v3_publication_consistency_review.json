@@ -1,0 +1,95 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T09:16:28.732291+00:00",
+  "scope": "Read-only publication consistency review; no authentication, publication, scientific reanalysis or repository modification.",
+  "local_sources": [
+    {
+      "path": "outputs/reproducibility_v3/publication_status.json",
+      "bytes": 850,
+      "sha256": "7fcf45f9d90e2b8b168d8589c767baef737cb1fb8df5e177c538b0ac0489a52c"
+    },
+    {
+      "path": "outputs/reproducibility_v3/archive_record.json",
+      "bytes": 320,
+      "sha256": "6f0e63c6683a04f3d3779f03aa6581fd49d47036fe1c60cd08639a5f3ed353cd"
+    },
+    {
+      "path": "outputs/reproducibility_v3/github_release_record.json",
+      "bytes": 1152,
+      "sha256": "37ccd7c55d55b5cdef9da2f702e8e19ede842e12dc2a3c5f60f516ff373c59e2"
+    },
+    {
+      "path": "outputs/reproducibility_v3/README.md",
+      "bytes": 1693,
+      "sha256": "751ba9e0b501d557d67868d9d0b8641e9e804309a2079d0b4f71e72211c60cb4"
+    },
+    {
+      "path": "outputs/reproducibility_v3/revision_response.md",
+      "bytes": 3133,
+      "sha256": "78ffa6f78444f6db983efa37924475df1d44313d90e78d2cf99f2a1de586120e"
+    },
+    {
+      "path": "outputs/reproducibility_v3/upstream_comment_record.json",
+      "bytes": 569,
+      "sha256": "920651660b33c99b21134c07a8c18867434df92007c4999d4ba060486285999a"
+    },
+    {
+      "path": "work/repro_v3_repository/README.md",
+      "bytes": 7098,
+      "sha256": "22c5e17544765479d236648c5cc26c5b0fa21e0ad9967c8e50c9b1f91fae9f86"
+    }
+  ],
+  "public_response_manifest": "work/repro_v3_publication_consistency_sources/fetch_audit.json",
+  "successful_release_retry": "work/repro_v3_publication_consistency_sources/release_retry.json",
+  "public_main_head_at_fetch": "00067af9ab495f79385403141e06471b079afed6",
+  "fixed_analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "public_release_count": 0,
+  "checks": [
+    {
+      "name": "public_repository_and_analysis_commit",
+      "pass": true,
+      "evidence": "Anonymous GitHub API HTTP 200; fixed analysis commit resolves."
+    },
+    {
+      "name": "analysis_anchor_consistent",
+      "pass": true,
+      "evidence": "Local records consistently pin the numerical analysis; current anonymous main HEAD is separately recorded below."
+    },
+    {
+      "name": "no_public_release_claim",
+      "pass": true,
+      "evidence": "Anonymous release list is empty and /releases/tags/v3.0.0 returned 404. Draft existence/assets are local authenticated-operator records and are not independently visible through the public API."
+    },
+    {
+      "name": "doi_and_preprint_not_claimed_published",
+      "pass": true,
+      "evidence": "Both README texts and revision response explicitly preserve pending DOI/draft status and no preprint/journal submission. No global negative inference about all Zenodo/bioRxiv records is made."
+    },
+    {
+      "name": "fixed_index_count",
+      "pass": true,
+      "observed_count": 2485,
+      "evidence": "Anonymous fixed-commit FILE_INDEX.tsv agrees with the revision response; index itself/checksum are excluded by design."
+    },
+    {
+      "name": "upstream_comment_public_and_wording_matches",
+      "pass": true,
+      "evidence": "Public issue-comment endpoint HTTP 200, exact UTF-8 body equals independently verified comment draft."
+    },
+    {
+      "name": "editorial_head_separation",
+      "pass": true,
+      "evidence": "Local revised README explicitly separates analysis 00067 from later editorial commits; anonymous HEAD remains 00067 at the captured fetch. Local newly added manuscript/status links are prepared editorial changes, not evidence that their public upload has already occurred."
+    }
+  ],
+  "checks_passed": 7,
+  "required_corrections": [],
+  "minor_notes": [
+    "Initial inspection found an unlabeled strip()-normalized comment SHA and a local verification time before GitHub creation time. Root corrected the record by a fresh read-only GET at 09:15:14 UTC: raw UTF-8 body SHA and hash scope are now explicit. No repeated comment was posted.",
+    "archive_record.public_verified=false is consistent with an unverified DOI archive, while github_verified=true records public code. Naming the former zenodo_public_verified would be clearer but is not necessary for the current prose.",
+    "Anonymous APIs cannot certify draft release asset digests; the local record correctly does not present those assets as published.",
+    "README/publication documents may be included in the root agent's concurrent editorial commit. Re-verify its public HEAD separately after push, retaining 00067 as the analysis anchor."
+  ],
+  "scientific_contradictions_found": false,
+  "repository_or_public_records_modified": false
+}

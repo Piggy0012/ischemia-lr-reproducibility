@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "manuscript",
+    "language": "en",
+    "pages": 17,
+    "figures": 5,
+    "tables": 2,
+    "references": 16,
+    "docx": {
+      "path": "outputs/reproducibility_v3/manuscript_en.docx",
+      "sha256": "cc4bdf7ecdd30215f1ceafde05f016255993827331441301e454cc9ab8af6231"
+    },
+    "pdf": {
+      "path": "outputs/reproducibility_v3/manuscript_en.pdf",
+      "sha256": "88d62b9e0f50a412b75809ff855c6e9dbc2617c3b511efe78fc02f7c6ff87108"
+    },
+    "markdown": {
+      "path": "outputs/reproducibility_v3/manuscript_en.md",
+      "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578"
+    },
+    "visual_qa_sha256": "4bf96fc18f4dd835e0dead6696d4d37960f11f041c5ca81cb250845fcfb8d160"
+  },
+  {
+    "kind": "supplement",
+    "language": "en",
+    "pages": 15,
+    "figures": 6,
+    "tables": 0,
+    "references": 20,
+    "docx": {
+      "path": "outputs/reproducibility_v3/supplement_en.docx",
+      "sha256": "6fa993bf71e1b2b736445c4d133ac85ecb3d251ef7e544cc2fdcc149f1038c7d"
+    },
+    "pdf": {
+      "path": "outputs/reproducibility_v3/supplement_en.pdf",
+      "sha256": "4d7fe17ee22a2d2c5ef038bc40cc64b7ee8e6b858527527c45310a15c6a8ae10"
+    },
+    "markdown": {
+      "path": "outputs/reproducibility_v3/supplement_en.md",
+      "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001"
+    },
+    "visual_qa_sha256": "199145c5d2cac789993eca61dcf464efe52b3d67a975d23106bfcee66dbb3188"
+  },
+  {
+    "kind": "manuscript",
+    "language": "zh",
+    "pages": 17,
+    "figures": 5,
+    "tables": 2,
+    "references": 16,
+    "docx": {
+      "path": "outputs/reproducibility_v3/manuscript_zh.docx",
+      "sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3"
+    },
+    "pdf": {
+      "path": "outputs/reproducibility_v3/manuscript_zh.pdf",
+      "sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782"
+    },
+    "markdown": {
+      "path": "outputs/reproducibility_v3/manuscript_zh.md",
+      "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a"
+    },
+    "visual_qa_sha256": "a3fd487ec1191a8b930174991003b225190e4c4a013ac29396e7f54d35e479de"
+  },
+  {
+    "kind": "supplement",
+    "language": "zh",
+    "pages": 15,
+    "figures": 6,
+    "tables": 0,
+    "references": 20,
+    "docx": {
+      "path": "outputs/reproducibility_v3/supplement_zh.docx",
+      "sha256": "13f4d2cb16995849bc94ab84f1f652040bb579306329053bea4feed5159de0f1"
+    },
+    "pdf": {
+      "path": "outputs/reproducibility_v3/supplement_zh.pdf",
+      "sha256": "57414b22bae10b4b203b9c2aa03786c70f9f2f5da2c6d377daba6407fdb3d72f"
+    },
+    "markdown": {
+      "path": "outputs/reproducibility_v3/supplement_zh.md",
+      "sha256": "c8abc8902078434d4dfdecda005b88324a649a1fb9e5a59b7d128088a142f3c6"
+    },
+    "visual_qa_sha256": "3e0a321317a1d4ce4f1ac9cb05ad5c65e0481cc3d4148d786b2e5d45be104bfe"
+  }
+]

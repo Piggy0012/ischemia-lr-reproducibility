@@ -1,0 +1,301 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T08:57:56.760978+00:00",
+  "reviewer": "scientific_value_review",
+  "document": {
+    "path": "outputs/reproducibility_v3/manuscript_en.docx",
+    "sha256": "cc4bdf7ecdd30215f1ceafde05f016255993827331441301e454cc9ab8af6231",
+    "bytes": 1553118
+  },
+  "markdown": {
+    "path": "outputs/reproducibility_v3/manuscript_en.md",
+    "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578",
+    "bytes": 43890
+  },
+  "pdf": {
+    "path": "work/repro_v3_render_cellchat_main_en_final2/manuscript_en.pdf",
+    "sha256": "88d62b9e0f50a412b75809ff855c6e9dbc2617c3b511efe78fc02f7c6ff87108",
+    "bytes": 1651662
+  },
+  "page_count": 17,
+  "all_pages_visually_inspected": true,
+  "render_directory": "work/repro_v3_render_cellchat_main_en_final2",
+  "inspection_method": "All 17 pages of the immediately preceding integrated render were viewed directly at original resolution. Final2 changed page 2 only; page 2 was viewed directly again and pages 1 and 3-17 were verified SHA256-identical.",
+  "pages": [
+    {
+      "page": 1,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-1.png",
+        "sha256": "4a32e8cf974e6493d9c50c3971b15f14186e5ec2f411901f8ae8695f5f17d01c",
+        "bytes": 445245
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-1.png",
+        "sha256": "4a32e8cf974e6493d9c50c3971b15f14186e5ec2f411901f8ae8695f5f17d01c",
+        "bytes": 445245
+      }
+    },
+    {
+      "page": 2,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-2.png",
+        "sha256": "31a5ab8633e57ba782a6b07465e71462351e1525b62762180c80de1b51ed6c34",
+        "bytes": 495802
+      },
+      "status": "pass",
+      "inspection": "direct_original_resolution",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-2.png",
+        "sha256": "31a5ab8633e57ba782a6b07465e71462351e1525b62762180c80de1b51ed6c34",
+        "bytes": 495802
+      }
+    },
+    {
+      "page": 3,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-3.png",
+        "sha256": "7dc3dbfe562f6c325e1bfeb948c055e5d1d56a34f11007ceb7e0e1705018641b",
+        "bytes": 478966
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-3.png",
+        "sha256": "7dc3dbfe562f6c325e1bfeb948c055e5d1d56a34f11007ceb7e0e1705018641b",
+        "bytes": 478966
+      }
+    },
+    {
+      "page": 4,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-4.png",
+        "sha256": "200b2e994b0f159990e5db49bdaa6787781f1b204f1330c15f59f10be25c840d",
+        "bytes": 507946
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-4.png",
+        "sha256": "200b2e994b0f159990e5db49bdaa6787781f1b204f1330c15f59f10be25c840d",
+        "bytes": 507946
+      }
+    },
+    {
+      "page": 5,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-5.png",
+        "sha256": "b729eb34f6a7a4d0ef57d7c0a9c3fef10e910437bab4506e2af9dc97ab2b0c0d",
+        "bytes": 567600
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-5.png",
+        "sha256": "b729eb34f6a7a4d0ef57d7c0a9c3fef10e910437bab4506e2af9dc97ab2b0c0d",
+        "bytes": 567600
+      }
+    },
+    {
+      "page": 6,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-6.png",
+        "sha256": "e269ade97ea8e47b905f5ab90aa5bb8614fa68c364555fa28ca2c1e27888d8e6",
+        "bytes": 528199
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-6.png",
+        "sha256": "e269ade97ea8e47b905f5ab90aa5bb8614fa68c364555fa28ca2c1e27888d8e6",
+        "bytes": 528199
+      }
+    },
+    {
+      "page": 7,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-7.png",
+        "sha256": "865b55f137c0219698bb94d4a305f3645e4fd37cf0687a077916adcc43923db1",
+        "bytes": 357695
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-7.png",
+        "sha256": "865b55f137c0219698bb94d4a305f3645e4fd37cf0687a077916adcc43923db1",
+        "bytes": 357695
+      }
+    },
+    {
+      "page": 8,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-8.png",
+        "sha256": "d809df5420a22d5b1fd592698e11ef73e3c35ae0b08ac4fd1841fe04b6f69339",
+        "bytes": 543865
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-8.png",
+        "sha256": "d809df5420a22d5b1fd592698e11ef73e3c35ae0b08ac4fd1841fe04b6f69339",
+        "bytes": 543865
+      }
+    },
+    {
+      "page": 9,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-9.png",
+        "sha256": "4cf975f1d9c25b63416d9576f401598c4533d4b95129584af4e57f4eec68b013",
+        "bytes": 418669
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-9.png",
+        "sha256": "4cf975f1d9c25b63416d9576f401598c4533d4b95129584af4e57f4eec68b013",
+        "bytes": 418669
+      }
+    },
+    {
+      "page": 10,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-10.png",
+        "sha256": "ad4966d381a401e1c2d908452d6c87d8bf9c2b3dc9ec048943a40671f07b9167",
+        "bytes": 397977
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-10.png",
+        "sha256": "ad4966d381a401e1c2d908452d6c87d8bf9c2b3dc9ec048943a40671f07b9167",
+        "bytes": 397977
+      }
+    },
+    {
+      "page": 11,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-11.png",
+        "sha256": "0e10eed982d59c0421a1ffa75fcb4da80161675ebbd13dd95dc0bf19b3efe21c",
+        "bytes": 582993
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-11.png",
+        "sha256": "0e10eed982d59c0421a1ffa75fcb4da80161675ebbd13dd95dc0bf19b3efe21c",
+        "bytes": 582993
+      }
+    },
+    {
+      "page": 12,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-12.png",
+        "sha256": "ab609b132361086c05fc5206671b4b366ffc82356c7e6cbe72ceaf66c57c3d26",
+        "bytes": 557954
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-12.png",
+        "sha256": "ab609b132361086c05fc5206671b4b366ffc82356c7e6cbe72ceaf66c57c3d26",
+        "bytes": 557954
+      }
+    },
+    {
+      "page": 13,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-13.png",
+        "sha256": "3b6a934b3126d8486087a7c9124fa538325c1d332c43372e36ac0fcc34729368",
+        "bytes": 235237
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-13.png",
+        "sha256": "3b6a934b3126d8486087a7c9124fa538325c1d332c43372e36ac0fcc34729368",
+        "bytes": 235237
+      }
+    },
+    {
+      "page": 14,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-14.png",
+        "sha256": "b06d96ba610508c805b3de7a93f6210071027e24e4b41096d619e4468659b948",
+        "bytes": 398120
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-14.png",
+        "sha256": "b06d96ba610508c805b3de7a93f6210071027e24e4b41096d619e4468659b948",
+        "bytes": 398120
+      }
+    },
+    {
+      "page": 15,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-15.png",
+        "sha256": "5731698472c81c27b293b8272c1e747ec2a281a29d388ba38b6d2936e87d7f9a",
+        "bytes": 360915
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-15.png",
+        "sha256": "5731698472c81c27b293b8272c1e747ec2a281a29d388ba38b6d2936e87d7f9a",
+        "bytes": 360915
+      }
+    },
+    {
+      "page": 16,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-16.png",
+        "sha256": "897c22a7fe8145fa786dfee79cf5291643e5dfeb0544367a7acc5df8af74cd9a",
+        "bytes": 426213
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-16.png",
+        "sha256": "897c22a7fe8145fa786dfee79cf5291643e5dfeb0544367a7acc5df8af74cd9a",
+        "bytes": 426213
+      }
+    },
+    {
+      "page": 17,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_main_en_final2/page-17.png",
+        "sha256": "f6cd6e0d64e028837295936f7f62e9ebe45cc6512a680c30d33f792b3c3da748",
+        "bytes": 243081
+      },
+      "status": "pass",
+      "inspection": "sha256_identical_to_directly_inspected_page",
+      "directly_inspected_image": {
+        "path": "work/repro_v3_render_cellchat_main_en/page-17.png",
+        "sha256": "f6cd6e0d64e028837295936f7f62e9ebe45cc6512a680c30d33f792b3c3da748",
+        "bytes": 243081
+      }
+    }
+  ],
+  "content_counts": {
+    "tables": 2,
+    "inline_figures": 5,
+    "references": 16
+  },
+  "findings": [
+    "Page 1: balanced title and sole-author details; four-sentence abstract reports families A/B as not significant after adjustment and family C as exploratory.",
+    "Pages 2-6: methods and results, including known upstream attribution, numerical denominators, ambient sensitivity and the controlled CellChat extension, are readable with no clipping, missing glyphs or overlap. The first Methods MCAO occurrence is expanded on final2 page 2.",
+    "Page 7: both complete tables fit on the page. All primary/reference rows and all/nonzero denominators are visible.",
+    "Pages 8-9: discussion and practical checklist are complete. Real GitHub repository and analysis commit are visible; the version-specific Zenodo DOI remains an explicitly marked pending publication field.",
+    "Page 10: all three authorized grants, no-competing-interests declaration, sole-author approval/responsibility and AI-use disclosure are readable. No unprovided funder role is asserted.",
+    "Pages 10-12: all five figure legends and 16 references are complete and readable. DOI wrapping retains all characters.",
+    "Pages 13-17: all five figures preserve aspect ratio, full panels, legends and axis labels. Numeric labels and fixed/conditional denominators agree with the accompanying manuscript."
+  ],
+  "blocking_visual_defects": [],
+  "remaining_publication_fields": [
+    "VERSION_SPECIFIC_ZENODO_DOI"
+  ],
+  "submission_ready": false,
+  "source_or_model_changes_by_reviewer": false
+}

@@ -1,0 +1,297 @@
+{
+  "status": "verified_for_comment_draft_only",
+  "verified_at_utc": "2026-09-11T09:03:51.472315+00:00",
+  "public_code_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "upstream_PR": "https://github.com/scverse/liana/pull/261",
+  "upstream_merge_commit": "d4211373692e7b9c10210488ccb1efe06452b097",
+  "public_bytes_match_release_repository": true,
+  "authoring_workspace_audit_note": "The original working-directory audit has different execution peak-memory and gzip-output hashes from the relocated published snapshot. Public fixed-commit files are checked against the release repository, while the equality/summary scientific TSV values agree. The comment binds the public snapshot.",
+  "upstream_merged_at": "2026-09-09T07:06:26Z",
+  "public_get_responses": [
+    {
+      "url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v2/tables/rank_upstream_audit.json",
+      "local_path": "work/repro_v3_upstream_comment_factcheck/public_rank_upstream_audit.json",
+      "sha256": "65227dff787d4f8de1e929c0903938ee71552697c1f1324dceff31231dfdebc9",
+      "bytes": 9790,
+      "authentication_supplied": false,
+      "source": "Bytes retained from a successful unauthenticated public GET earlier in this same factcheck; reused after validator/encoding fixes."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v2/tables/rank_upstream_per_library_equality.tsv",
+      "local_path": "work/repro_v3_upstream_comment_factcheck/public_rank_upstream_per_library_equality.tsv",
+      "sha256": "c1c82fa67f1033e8a8757e71b44ff158197499bc523ead18ffeccb255052c080",
+      "bytes": 5636,
+      "authentication_supplied": false,
+      "source": "Bytes retained from a successful unauthenticated public GET earlier in this same factcheck; reused after validator/encoding fixes."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Piggy0012/ischemia-lr-reproducibility/00067af9ab495f79385403141e06471b079afed6/outputs/reproducibility_v2/tables/rank_upstream_summary.tsv",
+      "local_path": "work/repro_v3_upstream_comment_factcheck/public_rank_upstream_summary.tsv",
+      "sha256": "25fa947c6dbaf25a7406bc1b32f4ef4d0f2c3680c5dcea5749c14dbece06e809",
+      "bytes": 851,
+      "authentication_supplied": false,
+      "source": "Bytes retained from a successful unauthenticated public GET earlier in this same factcheck; reused after validator/encoding fixes."
+    },
+    {
+      "url": "https://api.github.com/repos/scverse/liana/pulls/261",
+      "local_path": "work/repro_v3_upstream_comment_factcheck/official_PR261.json",
+      "sha256": "4862ecd26438f063540ce070c6b447ef7ae9fe9050a1713b50bf74824ee7abda",
+      "bytes": 17975,
+      "authentication_supplied": false,
+      "source": "Bytes retained from a successful unauthenticated public GET earlier in this same factcheck; reused after validator/encoding fixes."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/scverse/liana/d4211373692e7b9c10210488ccb1efe06452b097/src/liana/_core/_pipe_utils/_aggregate.py",
+      "local_path": "work/repro_v3_upstream_comment_factcheck/official_fixed_merge_aggregate.py",
+      "sha256": "484b2e61d7bb01d141116a6fdf8f8b7d269973396be3354d10702222770aa875",
+      "bytes": 6392,
+      "authentication_supplied": false,
+      "source": "Bytes retained from a successful unauthenticated public GET earlier in this same factcheck; reused after validator/encoding fixes."
+    }
+  ],
+  "strict_byte_equality_network_count": 22,
+  "strict_byte_equality_details": [
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319987",
+      "n_full_network_edges": 17267,
+      "input_sha256": "723be3d64d9bcf9e4fb3b77770b08bcf8c1b61b5506175ed382e5dece820ff1e",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319988",
+      "n_full_network_edges": 19603,
+      "input_sha256": "b8b71d7234791122de56e41116d59ae48921d6f1549b79c6a8864f11eecc84bf",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319989",
+      "n_full_network_edges": 23300,
+      "input_sha256": "c26036fa03d08034a2e3a5ad9bc93d78b85c307867fe2203b1780400c7b9979e",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319990",
+      "n_full_network_edges": 31174,
+      "input_sha256": "0eda5d9ec80e1330629b476290790bcdc5bea8c78e89395dee57bc2cfa53543c",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319991",
+      "n_full_network_edges": 28267,
+      "input_sha256": "d586e0eb1e1c6a5eb708c7ea1fc3960819345bdc0727c05a9cda545653d1a3fb",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "n_full_network_edges": 33735,
+      "input_sha256": "c9d312662f7df8d3b1b056ece53c33065d9a17a68848662f2671424384a7bd81",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE245386",
+      "sample": "GSM7841720",
+      "n_full_network_edges": 64189,
+      "input_sha256": "7f288becc47331011be34d216e06fe1fa31206ff5a325792b6a393081601f383",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE245386",
+      "sample": "GSM7841721",
+      "n_full_network_edges": 59565,
+      "input_sha256": "6e94ffa1f17d28587c9bef97ea0bac83fdf7b107a7f858a4b15b55213ed3f787",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE245386",
+      "sample": "GSM7841722",
+      "n_full_network_edges": 57934,
+      "input_sha256": "8c55a75c103daa22a446ff76569ea93990c29454c9dd355775a84c9e38e52605",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE245386",
+      "sample": "GSM7841723",
+      "n_full_network_edges": 77691,
+      "input_sha256": "5768f3698f8546ae630cdcfceb085d187b3a4e756cc39e27a6042f65001cc359",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "primary",
+      "dataset": "GSE245386",
+      "sample": "GSM7841724",
+      "n_full_network_edges": 61427,
+      "input_sha256": "56ff85ebda9104c7fff73101c707ae54baf78a51997000511c2485b49145c2d1",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319987",
+      "n_full_network_edges": 16462,
+      "input_sha256": "5f578fb9aa9a9b1ac2c9add94e1e75104bac549c914e1a2380ef3f44b2fef3b4",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319988",
+      "n_full_network_edges": 18777,
+      "input_sha256": "f1d90aa6557ab92dafb2658acc952dde2d6df8c939517129cc4134c0ec78f9ef",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319989",
+      "n_full_network_edges": 22042,
+      "input_sha256": "d5a109a1c70e6ba18bfc1659d42fad0092dc8045ffb4dee9481e76103ae47b4a",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319990",
+      "n_full_network_edges": 29561,
+      "input_sha256": "d05f6d9d7cafdc4799a26035f969230e48984445454a51f21db76b288f2bea38",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319991",
+      "n_full_network_edges": 26847,
+      "input_sha256": "7023c3a064f7241484d575094a93e43be6a2d0092b3f97bdc5e668ef000ceeca",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "n_full_network_edges": 31153,
+      "input_sha256": "f0f10fc159906a421a0ca56b40e3a44b4937f193826840a3e925802ec5767c3e",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE245386",
+      "sample": "GSM7841720",
+      "n_full_network_edges": 64301,
+      "input_sha256": "54a2be54c5c322832838197128e8fc11a26a29f88bc70765138d76725255e2b0",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE245386",
+      "sample": "GSM7841721",
+      "n_full_network_edges": 56411,
+      "input_sha256": "17e1ed18eab2717909f37aa4f129cfccd2b9a688a9fb999def9df562828334ce",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE245386",
+      "sample": "GSM7841722",
+      "n_full_network_edges": 55019,
+      "input_sha256": "27740965f526bf34896e9d03258d15e0c134d023d117f5dcc4ca4a75a91d1935",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE245386",
+      "sample": "GSM7841723",
+      "n_full_network_edges": 74478,
+      "input_sha256": "39b7aff10d123ce6134c23d98c9519081f5b1e29c46f755174d7e05bd84fdafd",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "config": "reference_singlet",
+      "dataset": "GSE245386",
+      "sample": "GSM7841724",
+      "n_full_network_edges": 58042,
+      "input_sha256": "452d66ab953aa771f86d724644f0661c428d657b91bea67ef2f7aa8200699af8",
+      "result_dtype": "float64",
+      "strict_C_order_bytes_equal": true,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "replay_function_bodies_AST_identical": true,
+  "primary_same_candidate_count": 187,
+  "primary_native_110_rho_exact": 0.2282371264612325,
+  "primary_corrected_aggregation_rho_exact": 0.518752314279276,
+  "rounded_comment_values": [
+    "0.228",
+    "0.519"
+  ],
+  "known_upstream_correction_credited": true,
+  "new_full_pipeline_or_model_run": false,
+  "new_disease_inference_P_value": false,
+  "small_cached_aggregation_replay_only": true,
+  "scientific_outputs_or_installed_packages_modified": false,
+  "comment_posted": false,
+  "checks_are_not_biological_accuracy_or_method_superiority_evidence": true,
+  "verified_comment_draft": {
+    "path": "work/repro_v3_upstream_comment_verified.md",
+    "bytes": 1419,
+    "sha256": "e36fa391c115954f5d283dbd6db6fd699072d6c6bf35a90817e5d96c792b0806",
+    "placeholders_present": false,
+    "posted": false
+  }
+}

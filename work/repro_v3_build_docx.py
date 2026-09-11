@@ -130,6 +130,14 @@ def build(lang, kind):
             p.paragraph_format.space_after=Pt(4)
             p.paragraph_format.keep_together=True
             for r in p.runs:r.font.size=Pt(10 if kind=='supplement' else 10.5)
+            if lang=='zh' and kind=='supplement':
+                # Hyperlink runs are absent from p.runs; keep their DOI type at
+                # the same 10 pt size as the surrounding reference text.
+                for run_element in p._p.xpath('.//w:hyperlink/w:r'):
+                    props=run_element.find(qn('w:rPr'))
+                    if props is None:
+                        props=OxmlElement('w:rPr');run_element.insert(0,props)
+                    size=OxmlElement('w:sz');size.set(qn('w:val'),'20');props.append(size)
     figures=sorted(f for f in (OUT/'figures').glob('*.png') if f.name.startswith('FigureS') == (kind=='supplement'))
     expected=6 if kind=='supplement' and (ROOT/'repro_v3_cellchat_narrative.json').exists() else 5
     assert len(figures)==expected,len(figures)

@@ -1,0 +1,935 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "python_3.12.14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pip_pin/anndata",
+      "passed": true,
+      "detail": {
+        "expected": "0.13.3.post0",
+        "actual": "0.13.3.post0"
+      }
+    },
+    {
+      "check": "pip_pin/annotated-types",
+      "passed": true,
+      "detail": {
+        "expected": "0.8.0",
+        "actual": "0.8.0"
+      }
+    },
+    {
+      "check": "pip_pin/array-api-compat",
+      "passed": true,
+      "detail": {
+        "expected": "1.15.0",
+        "actual": "1.15.0"
+      }
+    },
+    {
+      "check": "pip_pin/attrs",
+      "passed": true,
+      "detail": {
+        "expected": "26.1.0",
+        "actual": "26.1.0"
+      }
+    },
+    {
+      "check": "pip_pin/celltypist",
+      "passed": true,
+      "detail": {
+        "expected": "1.7.1",
+        "actual": "1.7.1"
+      }
+    },
+    {
+      "check": "pip_pin/certifi",
+      "passed": true,
+      "detail": {
+        "expected": "2026.7.22",
+        "actual": "2026.7.22"
+      }
+    },
+    {
+      "check": "pip_pin/cffi",
+      "passed": true,
+      "detail": {
+        "expected": "2.1.1",
+        "actual": "2.1.1"
+      }
+    },
+    {
+      "check": "pip_pin/charset-normalizer",
+      "passed": true,
+      "detail": {
+        "expected": "3.5.1",
+        "actual": "3.5.1"
+      }
+    },
+    {
+      "check": "pip_pin/click",
+      "passed": true,
+      "detail": {
+        "expected": "8.5.0",
+        "actual": "8.5.0"
+      }
+    },
+    {
+      "check": "pip_pin/cloudpickle",
+      "passed": true,
+      "detail": {
+        "expected": "3.1.2",
+        "actual": "3.1.2"
+      }
+    },
+    {
+      "check": "pip_pin/colorama",
+      "passed": true,
+      "detail": {
+        "expected": "0.4.6",
+        "actual": "0.4.6"
+      }
+    },
+    {
+      "check": "pip_pin/contourpy",
+      "passed": true,
+      "detail": {
+        "expected": "1.3.3",
+        "actual": "1.3.3"
+      }
+    },
+    {
+      "check": "pip_pin/cryptography",
+      "passed": true,
+      "detail": {
+        "expected": "50.0.1",
+        "actual": "50.0.1"
+      }
+    },
+    {
+      "check": "pip_pin/cycler",
+      "passed": true,
+      "detail": {
+        "expected": "0.12.1",
+        "actual": "0.12.1"
+      }
+    },
+    {
+      "check": "pip_pin/docrep",
+      "passed": true,
+      "detail": {
+        "expected": "0.3.2",
+        "actual": "0.3.2"
+      }
+    },
+    {
+      "check": "pip_pin/donfig",
+      "passed": true,
+      "detail": {
+        "expected": "0.8.1.post1",
+        "actual": "0.8.1.post1"
+      }
+    },
+    {
+      "check": "pip_pin/et_xmlfile",
+      "passed": true,
+      "detail": {
+        "expected": "2.0.0",
+        "actual": "2.0.0"
+      }
+    },
+    {
+      "check": "pip_pin/fast-array-utils",
+      "passed": true,
+      "detail": {
+        "expected": "1.5",
+        "actual": "1.5"
+      }
+    },
+    {
+      "check": "pip_pin/fastjsonschema",
+      "passed": true,
+      "detail": {
+        "expected": "2.22.2",
+        "actual": "2.22.2"
+      }
+    },
+    {
+      "check": "pip_pin/fonttools",
+      "passed": true,
+      "detail": {
+        "expected": "4.64.0",
+        "actual": "4.64.0"
+      }
+    },
+    {
+      "check": "pip_pin/formulaic-contrasts",
+      "passed": true,
+      "detail": {
+        "expected": "1.0.0",
+        "actual": "1.0.0"
+      }
+    },
+    {
+      "check": "pip_pin/formulaic",
+      "passed": true,
+      "detail": {
+        "expected": "1.2.2",
+        "actual": "1.2.2"
+      }
+    },
+    {
+      "check": "pip_pin/google-crc32c",
+      "passed": true,
+      "detail": {
+        "expected": "1.8.0",
+        "actual": "1.8.0"
+      }
+    },
+    {
+      "check": "pip_pin/h5py",
+      "passed": true,
+      "detail": {
+        "expected": "3.16.0",
+        "actual": "3.16.0"
+      }
+    },
+    {
+      "check": "pip_pin/idna",
+      "passed": true,
+      "detail": {
+        "expected": "3.19",
+        "actual": "3.19"
+      }
+    },
+    {
+      "check": "pip_pin/igraph",
+      "passed": true,
+      "detail": {
+        "expected": "1.0.0",
+        "actual": "1.0.0"
+      }
+    },
+    {
+      "check": "pip_pin/ImageIO",
+      "passed": true,
+      "detail": {
+        "expected": "2.37.4",
+        "actual": "2.37.4"
+      }
+    },
+    {
+      "check": "pip_pin/interface_meta",
+      "passed": true,
+      "detail": {
+        "expected": "2.0.1",
+        "actual": "2.0.1"
+      }
+    },
+    {
+      "check": "pip_pin/joblib",
+      "passed": true,
+      "detail": {
+        "expected": "1.6.0",
+        "actual": "1.6.0"
+      }
+    },
+    {
+      "check": "pip_pin/jsonschema-specifications",
+      "passed": true,
+      "detail": {
+        "expected": "2025.9.1",
+        "actual": "2025.9.1"
+      }
+    },
+    {
+      "check": "pip_pin/jsonschema",
+      "passed": true,
+      "detail": {
+        "expected": "4.26.0",
+        "actual": "4.26.0"
+      }
+    },
+    {
+      "check": "pip_pin/jupyter_core",
+      "passed": true,
+      "detail": {
+        "expected": "5.9.1",
+        "actual": "5.9.1"
+      }
+    },
+    {
+      "check": "pip_pin/kiwisolver",
+      "passed": true,
+      "detail": {
+        "expected": "1.5.1",
+        "actual": "1.5.1"
+      }
+    },
+    {
+      "check": "pip_pin/lazy-loader",
+      "passed": true,
+      "detail": {
+        "expected": "0.5",
+        "actual": "0.5"
+      }
+    },
+    {
+      "check": "pip_pin/legacy-api-wrap",
+      "passed": true,
+      "detail": {
+        "expected": "1.5",
+        "actual": "1.5"
+      }
+    },
+    {
+      "check": "pip_pin/leidenalg",
+      "passed": true,
+      "detail": {
+        "expected": "0.12.0",
+        "actual": "0.12.0"
+      }
+    },
+    {
+      "check": "pip_pin/liana",
+      "passed": true,
+      "detail": {
+        "expected": "1.10.0",
+        "actual": "1.10.0"
+      }
+    },
+    {
+      "check": "pip_pin/llvmlite",
+      "passed": true,
+      "detail": {
+        "expected": "0.49.0",
+        "actual": "0.49.0"
+      }
+    },
+    {
+      "check": "pip_pin/lxml",
+      "passed": true,
+      "detail": {
+        "expected": "6.1.1",
+        "actual": "6.1.1"
+      }
+    },
+    {
+      "check": "pip_pin/matplotlib",
+      "passed": true,
+      "detail": {
+        "expected": "3.11.1",
+        "actual": "3.11.1"
+      }
+    },
+    {
+      "check": "pip_pin/mizani",
+      "passed": true,
+      "detail": {
+        "expected": "0.14.6",
+        "actual": "0.14.6"
+      }
+    },
+    {
+      "check": "pip_pin/mudata",
+      "passed": true,
+      "detail": {
+        "expected": "0.4.1",
+        "actual": "0.4.1"
+      }
+    },
+    {
+      "check": "pip_pin/narwhals",
+      "passed": true,
+      "detail": {
+        "expected": "2.26.0",
+        "actual": "2.26.0"
+      }
+    },
+    {
+      "check": "pip_pin/natsort",
+      "passed": true,
+      "detail": {
+        "expected": "8.4.0",
+        "actual": "8.4.0"
+      }
+    },
+    {
+      "check": "pip_pin/nbformat",
+      "passed": true,
+      "detail": {
+        "expected": "5.11.1",
+        "actual": "5.11.1"
+      }
+    },
+    {
+      "check": "pip_pin/networkx",
+      "passed": true,
+      "detail": {
+        "expected": "3.6.1",
+        "actual": "3.6.1"
+      }
+    },
+    {
+      "check": "pip_pin/numba",
+      "passed": true,
+      "detail": {
+        "expected": "0.67.0",
+        "actual": "0.67.0"
+      }
+    },
+    {
+      "check": "pip_pin/numcodecs",
+      "passed": true,
+      "detail": {
+        "expected": "0.16.5",
+        "actual": "0.16.5"
+      }
+    },
+    {
+      "check": "pip_pin/numpy",
+      "passed": true,
+      "detail": {
+        "expected": "2.3.5",
+        "actual": "2.3.5"
+      }
+    },
+    {
+      "check": "pip_pin/openpyxl",
+      "passed": true,
+      "detail": {
+        "expected": "3.1.5",
+        "actual": "3.1.5"
+      }
+    },
+    {
+      "check": "pip_pin/packaging",
+      "passed": true,
+      "detail": {
+        "expected": "26.3",
+        "actual": "26.3"
+      }
+    },
+    {
+      "check": "pip_pin/pandas",
+      "passed": true,
+      "detail": {
+        "expected": "2.3.3",
+        "actual": "2.3.3"
+      }
+    },
+    {
+      "check": "pip_pin/patsy",
+      "passed": true,
+      "detail": {
+        "expected": "1.0.3",
+        "actual": "1.0.3"
+      }
+    },
+    {
+      "check": "pip_pin/pdf2image",
+      "passed": true,
+      "detail": {
+        "expected": "1.17.0",
+        "actual": "1.17.0"
+      }
+    },
+    {
+      "check": "pip_pin/pdfminer.six",
+      "passed": true,
+      "detail": {
+        "expected": "20251230",
+        "actual": "20251230"
+      }
+    },
+    {
+      "check": "pip_pin/pdfplumber",
+      "passed": true,
+      "detail": {
+        "expected": "0.11.9",
+        "actual": "0.11.9"
+      }
+    },
+    {
+      "check": "pip_pin/pillow",
+      "passed": true,
+      "detail": {
+        "expected": "12.3.0",
+        "actual": "12.3.0"
+      }
+    },
+    {
+      "check": "pip_pin/pip",
+      "passed": true,
+      "detail": {
+        "expected": "25.0.1",
+        "actual": "25.0.1"
+      }
+    },
+    {
+      "check": "pip_pin/platformdirs",
+      "passed": true,
+      "detail": {
+        "expected": "4.11.8",
+        "actual": "4.11.8"
+      }
+    },
+    {
+      "check": "pip_pin/plotnine",
+      "passed": true,
+      "detail": {
+        "expected": "0.15.8",
+        "actual": "0.15.8"
+      }
+    },
+    {
+      "check": "pip_pin/psutil",
+      "passed": true,
+      "detail": {
+        "expected": "7.2.2",
+        "actual": "7.2.2"
+      }
+    },
+    {
+      "check": "pip_pin/pycparser",
+      "passed": true,
+      "detail": {
+        "expected": "3.0",
+        "actual": "3.0"
+      }
+    },
+    {
+      "check": "pip_pin/pydantic-settings",
+      "passed": true,
+      "detail": {
+        "expected": "2.15.0",
+        "actual": "2.15.0"
+      }
+    },
+    {
+      "check": "pip_pin/pydantic",
+      "passed": true,
+      "detail": {
+        "expected": "2.13.5",
+        "actual": "2.13.5"
+      }
+    },
+    {
+      "check": "pip_pin/pydantic_core",
+      "passed": true,
+      "detail": {
+        "expected": "2.46.5",
+        "actual": "2.46.5"
+      }
+    },
+    {
+      "check": "pip_pin/pydeseq2",
+      "passed": true,
+      "detail": {
+        "expected": "0.5.4",
+        "actual": "0.5.4"
+      }
+    },
+    {
+      "check": "pip_pin/pyhumps",
+      "passed": true,
+      "detail": {
+        "expected": "3.8.0",
+        "actual": "3.8.0"
+      }
+    },
+    {
+      "check": "pip_pin/pynndescent",
+      "passed": true,
+      "detail": {
+        "expected": "0.6.0",
+        "actual": "0.6.0"
+      }
+    },
+    {
+      "check": "pip_pin/pyparsing",
+      "passed": true,
+      "detail": {
+        "expected": "3.3.2",
+        "actual": "3.3.2"
+      }
+    },
+    {
+      "check": "pip_pin/pypdf",
+      "passed": true,
+      "detail": {
+        "expected": "6.10.0",
+        "actual": "6.10.0"
+      }
+    },
+    {
+      "check": "pip_pin/pypdfium2",
+      "passed": true,
+      "detail": {
+        "expected": "5.13.0",
+        "actual": "5.13.0"
+      }
+    },
+    {
+      "check": "pip_pin/python-dateutil",
+      "passed": true,
+      "detail": {
+        "expected": "2.9.0.post0",
+        "actual": "2.9.0.post0"
+      }
+    },
+    {
+      "check": "pip_pin/python-docx",
+      "passed": true,
+      "detail": {
+        "expected": "1.2.0",
+        "actual": "1.2.0"
+      }
+    },
+    {
+      "check": "pip_pin/python-dotenv",
+      "passed": true,
+      "detail": {
+        "expected": "1.2.3",
+        "actual": "1.2.3"
+      }
+    },
+    {
+      "check": "pip_pin/python-pptx",
+      "passed": true,
+      "detail": {
+        "expected": "1.0.2",
+        "actual": "1.0.2"
+      }
+    },
+    {
+      "check": "pip_pin/pytz",
+      "passed": true,
+      "detail": {
+        "expected": "2026.3.post1",
+        "actual": "2026.3.post1"
+      }
+    },
+    {
+      "check": "pip_pin/PyYAML",
+      "passed": true,
+      "detail": {
+        "expected": "6.0.3",
+        "actual": "6.0.3"
+      }
+    },
+    {
+      "check": "pip_pin/rdata",
+      "passed": true,
+      "detail": {
+        "expected": "1.1.0",
+        "actual": "1.1.0"
+      }
+    },
+    {
+      "check": "pip_pin/referencing",
+      "passed": true,
+      "detail": {
+        "expected": "0.37.0",
+        "actual": "0.37.0"
+      }
+    },
+    {
+      "check": "pip_pin/reportlab",
+      "passed": true,
+      "detail": {
+        "expected": "4.4.9",
+        "actual": "4.4.9"
+      }
+    },
+    {
+      "check": "pip_pin/requests",
+      "passed": true,
+      "detail": {
+        "expected": "2.34.2",
+        "actual": "2.34.2"
+      }
+    },
+    {
+      "check": "pip_pin/rpds-py",
+      "passed": true,
+      "detail": {
+        "expected": "2026.6.3",
+        "actual": "2026.6.3"
+      }
+    },
+    {
+      "check": "pip_pin/scanpy",
+      "passed": true,
+      "detail": {
+        "expected": "1.12.4",
+        "actual": "1.12.4"
+      }
+    },
+    {
+      "check": "pip_pin/scikit-image",
+      "passed": true,
+      "detail": {
+        "expected": "0.26.0",
+        "actual": "0.26.0"
+      }
+    },
+    {
+      "check": "pip_pin/scikit-learn",
+      "passed": true,
+      "detail": {
+        "expected": "1.9.0",
+        "actual": "1.9.0"
+      }
+    },
+    {
+      "check": "pip_pin/scipy",
+      "passed": true,
+      "detail": {
+        "expected": "1.18.1",
+        "actual": "1.18.1"
+      }
+    },
+    {
+      "check": "pip_pin/scverse-misc",
+      "passed": true,
+      "detail": {
+        "expected": "0.1.5",
+        "actual": "0.1.5"
+      }
+    },
+    {
+      "check": "pip_pin/seaborn",
+      "passed": true,
+      "detail": {
+        "expected": "0.13.2",
+        "actual": "0.13.2"
+      }
+    },
+    {
+      "check": "pip_pin/session-info2",
+      "passed": true,
+      "detail": {
+        "expected": "0.4.2",
+        "actual": "0.4.2"
+      }
+    },
+    {
+      "check": "pip_pin/session_info",
+      "passed": true,
+      "detail": {
+        "expected": "1.0.1",
+        "actual": "1.0.1"
+      }
+    },
+    {
+      "check": "pip_pin/setuptools",
+      "passed": true,
+      "detail": {
+        "expected": "84.0.0",
+        "actual": "84.0.0"
+      }
+    },
+    {
+      "check": "pip_pin/six",
+      "passed": true,
+      "detail": {
+        "expected": "1.17.0",
+        "actual": "1.17.0"
+      }
+    },
+    {
+      "check": "pip_pin/statsmodels",
+      "passed": true,
+      "detail": {
+        "expected": "0.15.0",
+        "actual": "0.15.0"
+      }
+    },
+    {
+      "check": "pip_pin/stdlib-list",
+      "passed": true,
+      "detail": {
+        "expected": "0.12.0",
+        "actual": "0.12.0"
+      }
+    },
+    {
+      "check": "pip_pin/texttable",
+      "passed": true,
+      "detail": {
+        "expected": "1.7.0",
+        "actual": "1.7.0"
+      }
+    },
+    {
+      "check": "pip_pin/threadpoolctl",
+      "passed": true,
+      "detail": {
+        "expected": "3.6.0",
+        "actual": "3.6.0"
+      }
+    },
+    {
+      "check": "pip_pin/tifffile",
+      "passed": true,
+      "detail": {
+        "expected": "2026.9.9",
+        "actual": "2026.9.9"
+      }
+    },
+    {
+      "check": "pip_pin/tqdm",
+      "passed": true,
+      "detail": {
+        "expected": "4.70.0",
+        "actual": "4.70.0"
+      }
+    },
+    {
+      "check": "pip_pin/traitlets",
+      "passed": true,
+      "detail": {
+        "expected": "5.16.1",
+        "actual": "5.16.1"
+      }
+    },
+    {
+      "check": "pip_pin/typing-inspection",
+      "passed": true,
+      "detail": {
+        "expected": "0.4.4",
+        "actual": "0.4.4"
+      }
+    },
+    {
+      "check": "pip_pin/typing_extensions",
+      "passed": true,
+      "detail": {
+        "expected": "4.16.0",
+        "actual": "4.16.0"
+      }
+    },
+    {
+      "check": "pip_pin/tzdata",
+      "passed": true,
+      "detail": {
+        "expected": "2026.3",
+        "actual": "2026.3"
+      }
+    },
+    {
+      "check": "pip_pin/umap-learn",
+      "passed": true,
+      "detail": {
+        "expected": "0.5.12",
+        "actual": "0.5.12"
+      }
+    },
+    {
+      "check": "pip_pin/urllib3",
+      "passed": true,
+      "detail": {
+        "expected": "2.7.0",
+        "actual": "2.7.0"
+      }
+    },
+    {
+      "check": "pip_pin/wheel",
+      "passed": true,
+      "detail": {
+        "expected": "0.48.0",
+        "actual": "0.48.0"
+      }
+    },
+    {
+      "check": "pip_pin/wrapt",
+      "passed": true,
+      "detail": {
+        "expected": "2.4.0",
+        "actual": "2.4.0"
+      }
+    },
+    {
+      "check": "pip_pin/xarray",
+      "passed": true,
+      "detail": {
+        "expected": "2026.7.0",
+        "actual": "2026.7.0"
+      }
+    },
+    {
+      "check": "pip_pin/xlsxwriter",
+      "passed": true,
+      "detail": {
+        "expected": "3.2.9",
+        "actual": "3.2.9"
+      }
+    },
+    {
+      "check": "pip_pin/zarr",
+      "passed": true,
+      "detail": {
+        "expected": "3.3.0",
+        "actual": "3.3.0"
+      }
+    },
+    {
+      "check": "archived_source/liana_merge_d421137_aggregate.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "archived_source/liana_1_10_0_aggregate.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "installed_1.10.0_aggregate_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_commit_function_AST/_rank_aggregate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_commit_function_AST/_corr_beta_pvals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_commit_function_AST/_rho_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_commit_function_AST/_robust_rank_aggregate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "archived_22_network_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pip_check",
+      "passed": true,
+      "detail": "No broken requirements found.\n"
+    }
+  ],
+  "n_checks": 119,
+  "new_full_network_fit": false,
+  "new_22_network_aggregation_replay": false,
+  "existing_22_network_audit_sha256": "65227dff787d4f8de1e929c0903938ee71552697c1f1324dceff31231dfdebc9",
+  "fixed_commit": "d4211373692e7b9c10210488ccb1efe06452b097",
+  "fresh_environment_restore_tested": false,
+  "python_executable": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+  "script_sha256": "ad314442cd7eb0b3704317476831bd748addef38669f283301711b9ae0cf59c9"
+}

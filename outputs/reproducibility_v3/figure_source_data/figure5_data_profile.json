@@ -1,0 +1,589 @@
+{
+  "unit_counts": "one original-primary assigned-nucleus count per deposited library",
+  "unit_effects": "aggregate cross-cohort comparisons; candidate rows share genes and are not animal replicates",
+  "biological_replication": "Table S1 reports 3 biological replicates and 3 libraries/group; mice per library unspecified",
+  "choice": "individual library dot plots; unconnected rank-correlation dots with explicit direction/zero denominators",
+  "alternative": "annotated numerical table; less immediate visual comparison of correlation",
+  "no_new_pvalues_or_uncertainty_intervals": true,
+  "shared_universe": "same native/diagnostic complete candidates across all 17 libraries and all metrics",
+  "third_count_source": "raw only",
+  "third_selection": "original primary only",
+  "input_sha256": {
+    "repro_third_cohort\\library_qc_summary.tsv": "06b55baaabe7da597949836201453f376fc9a0d7e61c38f1882944396dd4fea6",
+    "outputs\\reproducibility_v2\\tables\\third_rank_diagnostic_summary.tsv": "586c4ad7fc202a86a0a8551a7e21c44b967d18a8cd805b827b363bf1d63f24cb"
+  },
+  "counts_profile": {
+    "source": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\figure_source_data\\figure5_library_counts.tsv",
+    "n_rows": 6,
+    "n_cols": 8,
+    "columns": {
+      "sample": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "condition": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "library_replicate": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 3,
+        "categories": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            2
+          ],
+          [
+            "3",
+            2
+          ]
+        ],
+        "min_group_n": 2,
+        "max_group_n": 2,
+        "small_groups_flag": true
+      },
+      "n_qc": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "24961",
+            1
+          ],
+          [
+            "21154",
+            1
+          ],
+          [
+            "18139",
+            1
+          ],
+          [
+            "17225",
+            1
+          ],
+          [
+            "22349",
+            1
+          ],
+          [
+            "12480",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "Astrocyte": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "1295",
+            1
+          ],
+          [
+            "1188",
+            1
+          ],
+          [
+            "1002",
+            1
+          ],
+          [
+            "1009",
+            1
+          ],
+          [
+            "1259",
+            1
+          ],
+          [
+            "677",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "Endothelial": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "249",
+            1
+          ],
+          [
+            "248",
+            1
+          ],
+          [
+            "122",
+            1
+          ],
+          [
+            "215",
+            1
+          ],
+          [
+            "203",
+            1
+          ],
+          [
+            "75",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_qc_unassigned": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "15955",
+            1
+          ],
+          [
+            "13613",
+            1
+          ],
+          [
+            "12398",
+            1
+          ],
+          [
+            "11919",
+            1
+          ],
+          [
+            "15898",
+            1
+          ],
+          [
+            "7799",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "qc_unassigned_fraction": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.6657411194921764,
+        "median": 0.6635092989409366,
+        "sd": 0.03449020475184309,
+        "min": 0.6249198717948717,
+        "max": 0.7113517383328113,
+        "skewness": 0.08452655973919843,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.5659273521091657,
+        "outlier_hi": 0.7641946790689289,
+        "needs_log_axis": "False"
+      }
+    },
+    "correlation": null,
+    "group_summary": {
+      "by": [
+        "condition"
+      ],
+      "n_groups": 2,
+      "min_n_per_group": 3,
+      "max_n_per_group": 3,
+      "median_n_per_group": 3,
+      "small_groups_flag": true,
+      "tiny_groups_flag": false,
+      "per_group_counts": [
+        [
+          "MCAO",
+          3
+        ],
+        [
+          "Sham",
+          3
+        ]
+      ]
+    },
+    "warnings": [
+      "\u5217 'library_replicate' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_qc' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'Astrocyte' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'Endothelial' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_qc_unassigned' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002"
+    ],
+    "suggestions": [
+      "\u5206\u7c7b vs \u8fde\u7eed\uff0c\u5c0f\u6837\u672c\uff08\u6bcf\u7ec4 n<10\uff09\u2192 **\u7bb1\u7ebf\u56fe/\u5c0f\u63d0\u7434\u56fe + stripplot \u53e0\u52a0\u539f\u59cb\u70b9**\uff1b**\u907f\u514d**\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\uff0c\u4f1a\u63a9\u76d6\u5206\u5e03\u3002",
+      "\u5206\u7c7b\u7ef4\u5ea6\u7ec4\u5408\u6570 = 3888\uff08library_replicate, n_qc, Astrocyte, Endothelial, n_qc_unassigned \u5168\u4ea4\u53c9\uff09\uff0c**\u4e00\u5f20\u56fe\u585e\u4e0d\u4e0b**\u2014\u2014\u5efa\u8bae\u6309\u67d0\u4e00\u7ef4\u62c6\u6210\u591a\u9762\u677f\uff0c\u6216\u9009\u62e9\u5b50\u96c6\u3002"
+    ]
+  },
+  "comparison_profile": {
+    "source": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\figure_source_data\\figure5_fixed_17_library_comparison.tsv",
+    "n_rows": 6,
+    "n_cols": 16,
+    "columns": {
+      "baseline_dataset": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "third_dataset": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "universe": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "config": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "metric": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "n_candidates": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 1,
+        "categories": [
+          [
+            "99",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "n_nonzero_both": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 3,
+        "categories": [
+          [
+            "99",
+            4
+          ],
+          [
+            "96",
+            1
+          ],
+          [
+            "93",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 4,
+        "small_groups_flag": true
+      },
+      "n_same_direction": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 4,
+        "categories": [
+          [
+            "48",
+            3
+          ],
+          [
+            "53",
+            1
+          ],
+          [
+            "52",
+            1
+          ],
+          [
+            "58",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 3,
+        "small_groups_flag": true
+      },
+      "same_direction_all_fraction": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.5168350168350169,
+        "median": 0.5050505050505051,
+        "sd": 0.040613932935403455,
+        "min": 0.4848484848484848,
+        "max": 0.5858585858585859,
+        "skewness": 0.5911444484539761,
+        "skew_label": "moderately skewed",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.41287878787878773,
+        "outlier_hi": 0.60479797979798,
+        "needs_log_axis": "False"
+      },
+      "same_direction_nonzero_fraction": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.525008145975888,
+        "median": 0.5176767676767677,
+        "sd": 0.04201375018486738,
+        "min": 0.4848484848484848,
+        "max": 0.5858585858585859,
+        "skewness": 0.27194498540480544,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.39180107526881713,
+        "outlier_hi": 0.6500285109156078,
+        "needs_log_axis": "False"
+      },
+      "n_zero_baseline": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 3,
+        "categories": [
+          [
+            "0",
+            4
+          ],
+          [
+            "3",
+            1
+          ],
+          [
+            "6",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 4,
+        "small_groups_flag": true
+      },
+      "n_zero_third": {
+        "type": "boolean",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 1,
+        "categories": [
+          [
+            "0",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "spearman_rho": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.4141867352167849,
+        "median": 0.42617779983040543,
+        "sd": 0.14268350814619232,
+        "min": 0.2186373278583046,
+        "max": 0.5761012745904427,
+        "skewness": -0.15174076126663452,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": -0.008230681952779761,
+        "outlier_hi": 0.849839238761346,
+        "needs_log_axis": "False"
+      },
+      "status": {
+        "type": "unknown",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "inferential_pvalues_computed": {
+        "type": "boolean",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 1,
+        "categories": [
+          [
+            "False",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "n_zero_in_either": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 3,
+        "categories": [
+          [
+            "0",
+            4
+          ],
+          [
+            "3",
+            1
+          ],
+          [
+            "6",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 4,
+        "small_groups_flag": true
+      }
+    },
+    "correlation": {
+      "columns": [
+        "same_direction_all_fraction",
+        "same_direction_nonzero_fraction",
+        "spearman_rho"
+      ],
+      "matrix": {
+        "same_direction_all_fraction": {
+          "same_direction_all_fraction": 1.0,
+          "same_direction_nonzero_fraction": 0.943,
+          "spearman_rho": 0.866
+        },
+        "same_direction_nonzero_fraction": {
+          "same_direction_all_fraction": 0.943,
+          "same_direction_nonzero_fraction": 1.0,
+          "spearman_rho": 0.79
+        },
+        "spearman_rho": {
+          "same_direction_all_fraction": 0.866,
+          "same_direction_nonzero_fraction": 0.79,
+          "spearman_rho": 1.0
+        }
+      },
+      "pairs_sorted": [
+        {
+          "a": "same_direction_all_fraction",
+          "b": "same_direction_nonzero_fraction",
+          "r": 0.9433105336343796,
+          "magnitude": "very strong"
+        },
+        {
+          "a": "same_direction_all_fraction",
+          "b": "spearman_rho",
+          "r": 0.866276049352165,
+          "magnitude": "very strong"
+        },
+        {
+          "a": "same_direction_nonzero_fraction",
+          "b": "spearman_rho",
+          "r": 0.7902085314039476,
+          "magnitude": "very strong"
+        }
+      ]
+    },
+    "group_summary": {
+      "by": [
+        "baseline_dataset"
+      ],
+      "n_groups": 2,
+      "min_n_per_group": 3,
+      "max_n_per_group": 3,
+      "median_n_per_group": 3,
+      "small_groups_flag": true,
+      "tiny_groups_flag": false,
+      "per_group_counts": [
+        [
+          "GSE174574",
+          3
+        ],
+        [
+          "GSE245386",
+          3
+        ]
+      ]
+    },
+    "warnings": [
+      "\u5217 'n_candidates' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_nonzero_both' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_same_direction' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_zero_baseline' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_zero_third' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'inferential_pvalues_computed' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_zero_in_either' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002"
+    ],
+    "suggestions": [
+      "\u5206\u7c7b vs \u8fde\u7eed\uff0c\u5c0f\u6837\u672c\uff08\u6bcf\u7ec4 n<10\uff09\u2192 **\u7bb1\u7ebf\u56fe/\u5c0f\u63d0\u7434\u56fe + stripplot \u53e0\u52a0\u539f\u59cb\u70b9**\uff1b**\u907f\u514d**\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\uff0c\u4f1a\u63a9\u76d6\u5206\u5e03\u3002",
+      "\u22653 \u4e2a\u8fde\u7eed\u53d8\u91cf \u2192 \u76f8\u5173\u6027\u70ed\u529b\u56fe\uff08['same_direction_all_fraction', 'same_direction_nonzero_fraction', 'spearman_rho']\uff09\u6216 pairplot \u6563\u70b9\u77e9\u9635",
+      "\u5206\u7c7b\u7ef4\u5ea6\u7ec4\u5408\u6570 = 108\uff08n_candidates, n_nonzero_both, n_same_direction, n_zero_baseline, n_zero_third, inferential_pvalues_computed, n_zero_in_either \u5168\u4ea4\u53c9\uff09\uff0c**\u4e00\u5f20\u56fe\u585e\u4e0d\u4e0b**\u2014\u2014\u5efa\u8bae\u6309\u67d0\u4e00\u7ef4\u62c6\u6210\u591a\u9762\u677f\uff0c\u6216\u9009\u62e9\u5b50\u96c6\u3002"
+    ]
+  }
+}

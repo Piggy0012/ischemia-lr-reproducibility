@@ -1,0 +1,16 @@
+{
+  "github_owner": "Piggy0012",
+  "repository_name": "ischemia-lr-reproducibility",
+  "github_public_verified": true,
+  "zenodo_public_verified": false,
+  "preprint_submitted": false,
+  "upstream_comment_posted": true,
+  "general_publication_authorization": "Provided by user; authentication and verified identifiers remain operational dependencies",
+  "local_baseline_analysis_commit": "6da997bd4fbd8739bb5e830a1200f1a9348852b8",
+  "local_baseline_tracked_files": 1890,
+  "github_cli_authentication": "Authenticated via official device flow as Piggy0012; configured system proxy used",
+  "current_public_analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "github_release_prepared": true,
+  "github_release_published": false,
+  "upstream_comment_url": "https://github.com/scverse/liana/pull/261#issuecomment-5632198130"
+}

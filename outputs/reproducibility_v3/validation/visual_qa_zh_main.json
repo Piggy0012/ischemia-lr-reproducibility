@@ -1,0 +1,234 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T09:04:34.559636+00:00",
+  "scope": "Chinese main manuscript final3 actual rendered-page visual QA; no document authoring or model changes",
+  "docx_path": "outputs/reproducibility_v3/manuscript_zh.docx",
+  "docx_sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3",
+  "markdown_path": "outputs/reproducibility_v3/manuscript_zh.md",
+  "markdown_sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
+  "render_directory": "work/repro_v3_render_cellchat_main_zh_final3",
+  "render_pdf_sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782",
+  "page_count": 17,
+  "all_pages_actual_images_inspected": true,
+  "image_view_tool": "view_image with detail=original; no PDF-text substitute",
+  "inspection_history": {
+    "initial_all_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "final2_changed_page_reinspected": [
+      2
+    ],
+    "final3_changed_page_reinspected": [
+      3
+    ],
+    "all_other_final_pages_byte_identical_to_previously_viewed_images": true
+  },
+  "tables": 2,
+  "main_figures": 5,
+  "references_visually_counted": 16,
+  "checks": {
+    "no_missing_glyphs": true,
+    "no_clipping_or_overlap": true,
+    "table_headers_repeat_on_continuation": true,
+    "no_split_data_rows": true,
+    "captions_not_orphaned": true,
+    "figure_panels_and_labels_visible": true,
+    "page_numbers_consistent": true,
+    "actual_repository_and_analysis_commit_visible": true
+  },
+  "major_layout_issues": [],
+  "minor_layout_issues": [],
+  "known_nonlayout_publication_dependency": {
+    "page": 9,
+    "field": "[VERSION_SPECIFIC_ZENODO_DOI]",
+    "status": "Pending Zenodo activation per parent instruction; this visual-QA pass does not declare the draft ready for journal submission."
+  },
+  "document_modified_by_reviewer": false,
+  "pages": [
+    {
+      "page": 1,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-1.png",
+      "png_sha256": "07c28b106cbf5d43158a1ccdf71ac04b687accfe514416d92ab1257254c181c6",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-1.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Title and author metadata, abstract, keywords and introduction read cleanly; no glyph loss or clipping."
+    },
+    {
+      "page": 2,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-2.png",
+      "png_sha256": "99d8009cacf328da4de734c888bec05f144f408029b32bca14ec63becc3d9847",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh_final2/page-2.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Re-inspected final2 page after defining MCAO at first methods use; final3 is byte-identical. The full term wraps naturally and all subsequent text remains within margins."
+    },
+    {
+      "page": 3,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-3.png",
+      "png_sha256": "6090640798b356e03992c2d443aa48ad35e108859fd07e426495b4134e96d23d",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh_final3/page-3.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Re-inspected final3 page; the controlled CellChat methods now say the additional comparisons are descriptive. No line or heading overflow."
+    },
+    {
+      "page": 4,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-4.png",
+      "png_sha256": "4bbfd77dd85921a6e955751c52c1f90e7f9ca53cbcfb8161d293333545a425d6",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-4.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Results paragraphs and section headings are readable and remain clear of the page-number footer."
+    },
+    {
+      "page": 5,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-5.png",
+      "png_sha256": "0daf4f991304370e9012a3ded05b6e675c1b149ee5a3e2975f299f917c552859",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-5.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Dense ranking-background and ambient-RNA results remain legible; arrows, Greek symbols and thresholds are intact."
+    },
+    {
+      "page": 6,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-6.png",
+      "png_sha256": "220874c370ca0c5fb0311d5af166b5a59f2237b16b98065367179f0b2ba1fba6",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-6.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Third-cohort and CellChat results are legible. Table 1 caption remains with its header and first full row; continuation is intentional."
+    },
+    {
+      "page": 7,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-7.png",
+      "png_sha256": "175f15a800a962063617160956c0f5ca79db7a93512da3028c61a3e7dde67d5f",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-7.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Table 1 repeats its header and completes without a split data row. Table 2 is complete on this page; all denominators and rho columns fit. Discussion begins normally."
+    },
+    {
+      "page": 8,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-8.png",
+      "png_sha256": "eaf6477d2857ff3da9da1c803df6148d9cf08210d726bf70c7ff6dfd01452dd6",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-8.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Discussion and consolidated limitations have normal paragraph spacing and no clipped text."
+    },
+    {
+      "page": 9,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-9.png",
+      "png_sha256": "ddd3e3be44644b776a26cf16636f33dc587d45298eb8c6d0734a633e22d9c986",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-9.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Report checklist, conclusion, data/code availability and funding opening fit. Actual GitHub URL and complete analysis commit are visible; DOI draft field is an acknowledged publication dependency."
+    },
+    {
+      "page": 10,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-10.png",
+      "png_sha256": "d05cbe9d6b81f8fc6eb6a44b439414aedb7b3b805bfd0efd92ec9865de298196",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-10.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Funding continuation, declarations and the start of figure legends are readable, with headings attached to their text."
+    },
+    {
+      "page": 11,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-11.png",
+      "png_sha256": "bb3aedae5a3dc7fc813bc788f68d59c1f06c11ee24021e2af0f629868a2b7953",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-11.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Legends for Figures 3-5 and references 1-4 are legible; no orphaned figure title or cut-off formula."
+    },
+    {
+      "page": 12,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-12.png",
+      "png_sha256": "fd4831a88b1549f17e11a132717bb5dffa60fa6f6f6b0d64b02ee6274d700166",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-12.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "References 5-16 finish cleanly. Remaining lower-page whitespace before separate figure pages is intentional and acceptable."
+    },
+    {
+      "page": 13,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-13.png",
+      "png_sha256": "3b6a934b3126d8486087a7c9124fa538325c1d332c43372e36ac0fcc34729368",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-13.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Figure 1 is intact: counts, labels, target/myeloid grouping and white heatmap separators are visible."
+    },
+    {
+      "page": 14,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-14.png",
+      "png_sha256": "b06d96ba610508c805b3de7a93f6210071027e24e4b41096d619e4468659b948",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-14.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Figure 2 is intact: all four panels, ticks, null-reference labels and legends are readable and unclipped."
+    },
+    {
+      "page": 15,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-15.png",
+      "png_sha256": "5731698472c81c27b293b8272c1e747ec2a281a29d388ba38b6d2936e87d7f9a",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-15.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Figure 3 is intact: all six panels, denominators, zero-effect counts and redundant symbol encodings are visible."
+    },
+    {
+      "page": 16,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-16.png",
+      "png_sha256": "897c22a7fe8145fa786dfee79cf5291643e5dfeb0544367a7acc5df8af74cd9a",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-16.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Figure 4 is intact: paired cell-count panels, matched-candidate comparisons and detection-gate coverage labels fit."
+    },
+    {
+      "page": 17,
+      "status": "pass",
+      "png_path": "work/repro_v3_render_cellchat_main_zh_final3/page-17.png",
+      "png_sha256": "f6cd6e0d64e028837295936f7f62e9ebe45cc6512a680c30d33f792b3c3da748",
+      "actual_visual_inspection_source": "work/repro_v3_render_cellchat_main_zh/page-17.png",
+      "same_png_bytes_as_actually_inspected": true,
+      "note": "Figure 5 is intact: six library identifiers, nucleus counts, fixed-99 comparison labels and footer are clear."
+    }
+  ],
+  "all_pages_visually_inspected": true,
+  "document": {
+    "path": "outputs/reproducibility_v3/manuscript_zh.docx",
+    "sha256": "ca06c21fc16bcce7b75cc1bcffcfe1f6f760dfcfbfa62e2e20a75196bb922ca3",
+    "bytes": 1554225
+  },
+  "markdown": {
+    "path": "outputs/reproducibility_v3/manuscript_zh.md",
+    "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
+    "bytes": 38180
+  },
+  "pdf": {
+    "path": "work/repro_v3_render_cellchat_main_zh_final3/manuscript_zh.pdf",
+    "sha256": "e941d786b5cf3365fc5a0d04e5a6ff39acde4ceff44237aa332fbfecf502c782",
+    "bytes": 1886204
+  }
+}

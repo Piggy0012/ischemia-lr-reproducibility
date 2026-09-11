@@ -1,0 +1,57 @@
+{
+  "status": "exported_after_review",
+  "size_inches": [
+    7.2,
+    7.2
+  ],
+  "dpi": 400,
+  "font": "Arial",
+  "minimum_font_size_pt": 7,
+  "semantic_review": {
+    "no_new_pvalues": true,
+    "no_error_bars": true,
+    "both_direction_denominators_shown": true,
+    "same_fixed_target_n_across_stages": true,
+    "no_lines_connecting_categorical_scores": true,
+    "composition_bars_are_edge_counts_not_animal_means": true
+  },
+  "machine_layout_issues": [],
+  "input_sha256": {
+    "rank_background_summary.tsv": "555fad51aac56d6c71f87d1e72ca603511177f844697094a92e907522789547a"
+  },
+  "script_sha256": "a7ee93c17ac7521b7c96b49ac487a194376f8638fa6cdb34bc67d2631cea01f8",
+  "output_sha256": {
+    "png": "4bd44740fd33ce1c6544119a2fd2e00086b612f33e3771f0edeff413a2074193",
+    "grayscale_png": "5fa261eaf7444990630eb6e02c1de873bb0d01c9b3170f8bed3af2156f36e5bb",
+    "pdf": "3169cc541a6e2cca0536932b061e2e8712c39fc25677bed5f638f8a038363ea1",
+    "svg": "c191250ed57b38d5c23ed5349149616db0734e0ed64389a5289e5a705f84d089"
+  },
+  "visual_review": {
+    "color_png_viewed": true,
+    "grayscale_png_viewed": true,
+    "all_eight_visual_checks_passed": true,
+    "title_revision": "E/F now read Nonzero disease effects; counts shown; unchanged numeric data"
+  },
+  "pdf_font_inspection": {
+    "all_fonts_embedded": true,
+    "no_Type3": true,
+    "fonts": [
+      {
+        "font": "/DCTTCM+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded_bytes": 47808
+      },
+      {
+        "font": "/GUVBEW+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded_bytes": 16220
+      }
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      518.4,
+      518.4
+    ]
+  }
+}

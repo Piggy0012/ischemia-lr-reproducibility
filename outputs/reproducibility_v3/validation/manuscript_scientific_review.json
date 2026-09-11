@@ -1,0 +1,158 @@
+{
+  "status": "pass_for_scientific_text_at_recorded_hashes",
+  "reviewed_at_utc": "2026-09-11T09:00:02.152063+00:00",
+  "reviewer": "scientific_value_review",
+  "files": [
+    {
+      "path": "work/repro_v3_manuscript_en_source.md",
+      "sha256": "8fb6c1b233f1dc2d5b998cece4bdf8646e529d92aca29e95233554fb1e02e8a0",
+      "bytes": 38407
+    },
+    {
+      "path": "work/repro_v3_manuscript_zh_source.md",
+      "sha256": "cfe1249415ab1242a43eaa94f4fe281dbb4dc631843548c47663d85fe7ce55e4",
+      "bytes": 32729
+    },
+    {
+      "path": "work/repro_v3_supplement_en_source.md",
+      "sha256": "ce1e69f333c6d4c4a1959a4379c13c9ed923eda8196995b8ee45e07e22a0b957",
+      "bytes": 30729
+    },
+    {
+      "path": "work/repro_v3_supplement_zh_source.md",
+      "sha256": "bd70c34ccc738e92cb4735546c9d66a1219438376ed91f7dbc426e6bf6a563e8",
+      "bytes": 23538
+    }
+  ],
+  "output_markdown_files": [
+    {
+      "path": "outputs/reproducibility_v3/manuscript_en.md",
+      "sha256": "22f1e91f517116b9950c80e80b92c0e62e9e07a0f2a9812131e9332fb6cac578",
+      "bytes": 43890
+    },
+    {
+      "path": "outputs/reproducibility_v3/manuscript_zh.md",
+      "sha256": "019653990f99cf7246dc72c66733131c5bdeba476b759db0a5992a2e5d4ab53a",
+      "bytes": 38180
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_en.md",
+      "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001",
+      "bytes": 37385
+    },
+    {
+      "path": "outputs/reproducibility_v3/supplement_zh.md",
+      "sha256": "c8abc8902078434d4dfdecda005b88324a649a1fb9e5a59b7d128088a142f3c6",
+      "bytes": 30194
+    }
+  ],
+  "checks": [
+    {
+      "id": "abstract_balance",
+      "status": "pass",
+      "finding": "Both abstracts retain four sentences: problem, design, numeric results and practical implication. The key result sentence reports 80.2% versus 56.1%, unique-column rho 0.519 after the known correction, family C 79.9% versus 50.0% with exact P=0.005 and exploratory Holm P=0.030, and families A/B not significant after adjustment. No significant method-superiority claim is made."
+    },
+    {
+      "id": "null_scope_and_dependence",
+      "status": "pass",
+      "finding": "A=30 fixed-metric, B=24 gap and C=6 exploratory tests remain distinct. Families were specified during revision after earlier results, not prospectively preregistered. The exact upper tail includes the observed allocation. Each family-C observed value was independently audited as the unique maximum of 200 allocations. The conditional validation minimum P=0.10 remains explicit. Holm arbitrary-dependence FWER control is stated without claiming equal P values prove correlation."
+    },
+    {
+      "id": "known_upstream_attribution",
+      "status": "pass",
+      "finding": "LIANA PR 261 is credited to the maintainers and its 2026-09-09 merge is disclosed. The controlled aggregation replay at d4211373692e7b9c10210488ccb1efe06452b097, bitwise equal on 22 raw networks, is distinguished from a complete newer-release workflow. The case is a downstream evaluation of a known fix, not a first bug discovery."
+    },
+    {
+      "id": "matched_original_tables",
+      "status": "pass",
+      "finding": "Table 1 gives 3/3 and 3/2 original animal libraries and third-cohort author-reported 3/3 biological replicates without inventing mice per library. Table 2 preserves primary N=187 and reference N=174. All and nonzero denominators, correlations and zero effects match the audited result tables; fixed-global higher conditional percentages are not presented as improvement across all candidates."
+    },
+    {
+      "id": "third_cohort_fixed_99",
+      "status": "pass",
+      "finding": "The 99 targets are complete across all 17 libraries. Original-pair coavailability is 80/99; third-versus-discovery and third-versus-validation are 53/99 and 58/99. Native and unique RRA counts/rho and zero effects are distinct. Separate gated intersections of 223/445 are not conflated with this matched set. RNA biological replicates and unspecified within-library mouse/pool composition are accurately stated."
+    },
+    {
+      "id": "ambient_model_and_threshold",
+      "status": "pass",
+      "finding": "The 11 final DecontX sources consist of ten default-converged fits and the single numerical extension at iteration 637, selected only by convergence. The pooled-cell 6.13% median is descriptive; marker-reduction medians summarize libraries. Continuous estimates use corrected all-gene denominators and remain separate from raw UMI/DESeq2. Failing the >=1 threshold is not evidence of absent expression or absent communication."
+    },
+    {
+      "id": "ambient_matched_results",
+      "status": "pass",
+      "finding": "Raw-to-corrected custom, native and unique-column correlations are compared on the same 187/174 targets: 0.725->0.641, 0.228->0.205, 0.519->0.442 and 0.695->0.660, 0.102->0.126, 0.514->0.430. Smaller >=1 sets of 37/45 have their own matched raw/corrected references, avoiding a denominator-based improvement claim. Original permutation P values are not transferred."
+    },
+    {
+      "id": "cellchat_controlled_scope",
+      "status": "pass",
+      "finding": "Native CellChat 2.2.0.9001 uses the same 11 raw primary-label libraries, 1,548 shared gene-covered native definitions and a fixed 1,222-edge network conditioned on complete LIANA scores. The supplement specifies the fixed commit, full native model, explicit LR.use and bypassed overexpression prefilter, normalization/parameters, and unrun full-native-resource arm. It is a controlled extension, not a generic benchmark or default end-to-end comparison."
+    },
+    {
+      "id": "cellchat_native_vs_derived_outputs",
+      "status": "pass",
+      "finding": "The 32 directed targets represent 29 ligand-receptor definitions, with 8 forward and 24 reverse entries; 155 exclusions are exact native-resource attrition. Coavailability/native strength/analyst percentile/matched RRA are 23/32, 10/32, 16/32 and 13/32 with rho 0.565, 0.549, 0.364 and 0.451. Native and RRA nonzero denominators are separately reported as 10/13 and 13/19. Native net$prob is described as inferred strength, not a calibrated biological probability."
+    },
+    {
+      "id": "cellchat_zero_block_interpretation",
+      "status": "pass",
+      "finding": "All three native-strength-zero targets across all 11 libraries remain present and can show nonzero derived percentile contrasts. The source-audited zero-block floor 0.065111-0.352580 and contrasts +0.014060/-0.024775 are correctly explained by changing relative background. Native strength and analyst-derived ranks are not conflated, and no old P values or independent biological validation are claimed."
+    },
+    {
+      "id": "main_supplement_allocation_and_language",
+      "status": "pass",
+      "finding": "Main methods retain concepts and comparison definitions, while seeds, dtypes, sparse formats, complete model parameters and commit provenance are in the appendix. The biological-context referral to supplementary Figures S3-S5 appears once per main language. CellChat main and full supplement passages are not duplicated verbatim as extra sections. The first main Methods MCAO occurrence is expanded in both languages. The Chinese CellChat closing sentence now refers to additional comparisons, not a new cohort."
+    },
+    {
+      "id": "authors_funding_and_ai",
+      "status": "pass",
+      "finding": "Sole author Sihuan Zhu, final approval/responsibility, no competing interests, AI-assisted planning/computation/writing disclosure and all three grants match the explicit author declarations. No unsupported funder non-involvement statement is present."
+    },
+    {
+      "id": "conclusion_scope",
+      "status": "pass",
+      "finding": "The main conclusion remains a cohort-, resource-, configuration- and version-bounded reproducibility case. Corrected aggregation and relative backgrounds explain part of the expression-priority gap; candidate mechanisms and barrier function are not established. Directional percentages and effect correlations are reported as different quantities."
+    },
+    {
+      "id": "publication_status",
+      "status": "pass",
+      "finding": "The real GitHub repository and analysis commit 00067af9ab495f79385403141e06471b079afed6 replace their draft placeholders. Only VERSION_SPECIFIC_ZENODO_DOI remains pending in both main manuscripts. Scientific and visual QA do not imply public-release/submission readiness before that field is resolved."
+    }
+  ],
+  "evidence_records": [
+    {
+      "path": "work/repro_v3_evidence_review.json",
+      "sha256": "e9856cacae11f501496c3083f7c7fe2b10313d2abf0cb7ccbbf8246afcee6408",
+      "bytes": 23715
+    },
+    {
+      "path": "work/repro_v3_cellchat_editorial_audit.json",
+      "sha256": "3f745211c0fec760a0252f209b3033c7b9139640b34cae7fb9eb4213e794fddc",
+      "bytes": 5117
+    },
+    {
+      "path": "outputs/reproducibility_v3_cellchat/figure_source_data/figureS6_independent_editorial_review.json",
+      "sha256": "b66a3086b1599330936396a55d2c15a9f4c0fdebf89ce8c6ad5981bac87e1691",
+      "bytes": 1912
+    }
+  ],
+  "visual_reviews": {
+    "english_main": {
+      "path": "outputs/reproducibility_v3/validation/visual_qa_en_main.json",
+      "sha256": "4bf96fc18f4dd835e0dead6696d4d37960f11f041c5ca81cb250845fcfb8d160",
+      "bytes": 12389
+    },
+    "english_supplement": {
+      "path": "outputs/reproducibility_v3/validation/visual_qa_en_supplement.json",
+      "sha256": "199145c5d2cac789993eca61dcf464efe52b3d67a975d23106bfcee66dbb3188",
+      "bytes": 9103
+    },
+    "chinese_documents": "Separate root-led visual review; this record confirms their scientific text only."
+  },
+  "review_scope": "Read-only editorial/numerical consistency review against previously independently audited outputs; no new biological analysis or model rerun. Both current Chinese source texts were re-read, and the final Chinese comparison-scope repair was checked.",
+  "original_numeric_outputs_modified": false,
+  "source_or_model_changes_by_reviewer_this_review": false,
+  "submission_ready": false,
+  "remaining_publication_fields": [
+    "VERSION_SPECIFIC_ZENODO_DOI"
+  ]
+}

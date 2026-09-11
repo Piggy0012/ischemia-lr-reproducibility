@@ -1,0 +1,203 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T08:43:29.123639+00:00",
+  "reviewer": "scientific_value_review",
+  "document": {
+    "path": "outputs/reproducibility_v3/supplement_en.docx",
+    "sha256": "6fa993bf71e1b2b736445c4d133ac85ecb3d251ef7e544cc2fdcc149f1038c7d",
+    "bytes": 4798534
+  },
+  "markdown": {
+    "path": "outputs/reproducibility_v3/supplement_en.md",
+    "sha256": "9cdbe1c1fca7eb312895042c954ba1088f21f048175182b03974b4c90bc70001",
+    "bytes": 37385
+  },
+  "pdf": {
+    "path": "work/repro_v3_render_cellchat_supp_en/supplement_en.pdf",
+    "sha256": "4d7fe17ee22a2d2c5ef038bc40cc64b7ee8e6b858527527c45310a15c6a8ae10",
+    "bytes": 2668525
+  },
+  "render_directory": "work/repro_v3_render_cellchat_supp_en",
+  "page_count": 15,
+  "all_pages_visually_inspected": true,
+  "reference_count": 20,
+  "supplementary_figure_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-1.png",
+        "sha256": "398c98a4319b7b9438471137068b4bbbab8948727c8b1bedeb3889d640335b82",
+        "bytes": 509094
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Title and data/cell selection methods; complete and readable."
+    },
+    {
+      "page": 2,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-2.png",
+        "sha256": "28072717acc75796dc184d939dd231ba6edcb54045d666190e94b6cce6375c3c",
+        "bytes": 569280
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Animal-level score definitions, matched denominators and third-cohort methods; complete and readable."
+    },
+    {
+      "page": 3,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-3.png",
+        "sha256": "f4fb0e7167d88dbf596402033a2b89f64315988917e9175da2f4e355ffa6636a",
+        "bytes": 523012
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Dependence-preserving null procedures and aggregation methods; complete and readable."
+    },
+    {
+      "page": 4,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-4.png",
+        "sha256": "ee3c47abdfe1f1af9c2d34dcb0bf0469822a18083a42095d1f21fa0ef4019ab3",
+        "bytes": 570028
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Known upstream correction and ambient-RNA operational methods; complete and readable."
+    },
+    {
+      "page": 5,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-5.png",
+        "sha256": "73f932226711777c18a56776f07c09bb2787d62183448fdd01d462d1b2b1c8dd",
+        "bytes": 545329
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Sorted/spatial methods, convergence diagnostics and CellChat provenance; complete and readable."
+    },
+    {
+      "page": 6,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-6.png",
+        "sha256": "6bcfb0b097405b5a2a145a74b6b8b18d3827d1a4b2d4a89251f523a9f82d63aa",
+        "bytes": 555566
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "CellChat configuration, native strength versus analyst percentile, null scope and source layout; complete and readable."
+    },
+    {
+      "page": 7,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-7.png",
+        "sha256": "c226ea301d515c985e2297d47deb142d17c5f8f3a4c025956bdf77fc9218edbc",
+        "bytes": 527741
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "CellChat resource attrition, effect denominators, zero-strength background shifts and biological appendix; complete and readable."
+    },
+    {
+      "page": 8,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-8.png",
+        "sha256": "b312e66d722e9912e0da2d76b2c74368ba209b3a0c4e785f74b30ba41b8f0abe",
+        "bytes": 537964
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Supplementary legends S2-S6 and beginning of references; complete and readable."
+    },
+    {
+      "page": 9,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-9.png",
+        "sha256": "e9e6f69bcc2c80520c605514d803aaf56161954912116968c63439eccb776792",
+        "bytes": 651330
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Remaining references, including both verified CellChat primary-journal citations; all 20 references present."
+    },
+    {
+      "page": 10,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-10.png",
+        "sha256": "cc71b48e287f82c0ccd83b93c1d621368147048abf1ee9c22444e29ac7f915d5",
+        "bytes": 403805
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S1: all six panels, axes, labels, legend and color scale intact."
+    },
+    {
+      "page": 11,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-11.png",
+        "sha256": "6f2f5f4596a776c5359a2d3bcb5d2604f5da8e3dcb56ccef8e96abc89081229d",
+        "bytes": 726727
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S2: all 11 library panels and legend intact and readable."
+    },
+    {
+      "page": 12,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-12.png",
+        "sha256": "3eaccddc790ead7f871fb484b86a1f7cdbb03895e4a4b791519cdc2ccf2c97ec",
+        "bytes": 318747
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S3: both heatmaps, gene labels, color scale and FDR symbol explanation intact."
+    },
+    {
+      "page": 13,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-13.png",
+        "sha256": "5697f7253f1dd26bfc56bfadd25a928ffa83813352aa31748599ae8780a9e357",
+        "bytes": 161619
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S4: paired pool-level plots and intervals intact; aspect ratio preserved."
+    },
+    {
+      "page": 14,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-14.png",
+        "sha256": "10e42bed7babcca8ac158c318bba34bb62e33e1f29d268bc47bb147499d78034",
+        "bytes": 1397077
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S5: all eight spatial maps and four color scales intact; aspect ratio preserved."
+    },
+    {
+      "page": 15,
+      "image": {
+        "path": "work/repro_v3_render_cellchat_supp_en/page-15.png",
+        "sha256": "4046bbc88e0b98daeaaa3b084da7d9179075e8e0ca6aebb97e679b4be7b937f8",
+        "bytes": 420786
+      },
+      "status": "pass",
+      "verification": "Direct inspection of the complete original-resolution rendered page.",
+      "notes": "Figure S6: all four panels, native/derived score labels, both concordance denominators, zero counts and hollow-symbol explanation intact and readable."
+    }
+  ],
+  "findings": [
+    "Every rendered page was inspected directly. The final CellChat-integrated supplement has 15 pages, 20 references and six supplementary figures.",
+    "The added CellChat methods/results and S6 caption preserve native inferred strength versus analyst-derived percentile, the fixed 32-target/1222-network scope, complete and nonzero-effect denominators, and the three all-library zero-strength entries.",
+    "No clipping, missing glyphs, overlapping text, unexpected blank pages, broken figure panels or misplaced page numbers were observed.",
+    "All six figures remain readable in the DOCX render, including S6 axis labels, annotations, zero-block explanation and legends."
+  ],
+  "blocking_visual_defects": [],
+  "text_or_analysis_parameters_modified": false,
+  "supersedes": "Previous current QA record; earlier baseline retained by root in work/repro_v3_editorial_baseline.",
+  "submission_ready": false,
+  "publication_note": "Visual QA only at these recorded hashes; public release and submission readiness are handled separately."
+}

@@ -8,6 +8,8 @@ This repository contains the audited analysis code, complete result tables, cell
 
 Start with [RUNNING.md](RUNNING.md), [ENVIRONMENT.md](ENVIRONMENT.md), the searchable [file index](FILE_INDEX.tsv), and the [eleven-figure source index](FIGURE_SOURCE_INDEX.tsv). The [v2 result guide](outputs/reproducibility_v2/README.md) describes the original statistical families; its manuscripts are retained historical drafts. Earlier tests and source drafts remain available under their original versioned paths. The v3 manuscript generators and audited bilingual text additions are included in `work/`.
 
+The [reviewed revision-3 manuscripts](outputs/reproducibility_v3/README.md) include English and Chinese main/supplement DOCX and PDF files. They are explicitly drafts pending the version-specific Zenodo DOI; no preprint or journal submission has occurred. Their scientific analysis is pinned to commit `00067af9ab495f79385403141e06471b079afed6`, separately from subsequent editorial commits. The release and environment/source assets are prepared as a draft awaiting the author's Zenodo connection. See the [publication status](outputs/reproducibility_v3/publication_status.json) and the [verified upstream feedback](https://github.com/scverse/liana/pull/261#issuecomment-5632198130).
+
 ## Direct data entry points
 
 - Fixed cell-identity rules: [discovery marker panel](work/processed/GSE174574/marker_panel.json), [validation marker panel](work/processed/GSE245386/marker_panel.json), [third-cohort marker panel](work/repro_third_cohort/processed/GSE332910/marker_panel.json).

@@ -1,0 +1,24 @@
+{
+  "repository": "Piggy0012/ischemia-lr-reproducibility",
+  "tag": "v3.0.0",
+  "analysis_commit": "00067af9ab495f79385403141e06471b079afed6",
+  "release_id": 386894497,
+  "url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/tag/untagged-b5afb782a3a2f3e9b7f1",
+  "draft": true,
+  "published_at": null,
+  "asset_digests_verified": true,
+  "assets": [
+    {
+      "name": "cellchat_environment_windows_R461.zip",
+      "bytes": 63028323,
+      "digest": "sha256:296ccfb2b7148761b30e4745bc1243ee7d44dfeb752bcde0e9d27a8ca8204f49",
+      "url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/download/untagged-b5afb782a3a2f3e9b7f1/cellchat_environment_windows_R461.zip"
+    },
+    {
+      "name": "CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz",
+      "bytes": 29281894,
+      "digest": "sha256:52a90ce9f121acd58c9e5b2542956de0f3d81ac9b10906454847946f289e0739",
+      "url": "https://github.com/Piggy0012/ischemia-lr-reproducibility/releases/download/untagged-b5afb782a3a2f3e9b7f1/CellChat_official_source_75253cd0c9e68410e6e721a6d3a0419a1d7e358f.tar.gz"
+    }
+  ]
+}
