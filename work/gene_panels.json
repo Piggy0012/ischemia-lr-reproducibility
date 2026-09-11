@@ -1,0 +1,6 @@
+{
+  "BBB_junction": {"genes":["Cldn5","Ocln","Tjp1","Tjp2"],"source":"10.1083/jcb.200302070;10.1038/s41593-019-0497-x","meaning":"Junction-associated transcript panel; not a permeability measurement"},
+  "BBB_transport": {"genes":["Mfsd2a","Slc2a1","Slco1c1","Abcb1a","Abcb1b","Abcg2"],"source":"10.1038/nature13324;10.1038/nature25739;10.1038/s41593-019-0497-x","meaning":"BBB transport-associated transcript panel; positive expression does not establish intact barrier function"},
+  "Endothelial_activation": {"genes":["Icam1","Vcam1","Sele","Selp","Ccl2","Cxcl10"],"source":"10.1186/s12974-023-02888-6","meaning":"Adhesion/inflammatory activation-associated transcript panel"},
+  "Angiogenesis_associated": {"genes":["Apln","Esm1","Dll4","Angpt2","Pgf","Flt1"],"source":"10.1182/blood-2010-02-270819;10.1038/nature25739","meaning":"Exploratory angiogenesis-associated transcript panel; no inference of new functional vessels"}
+}

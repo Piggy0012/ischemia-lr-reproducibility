@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-11T06:47:16.459335+00:00",
+  "issue": "Staging inherited the older gzip container for the sorted normalized source; decoded content was identical but the compressed source SHA256 did not match the current descriptive audit.",
+  "root_source_sha256": "ea46749bb6cffa12c33369791e455059c2f38dc3748e7965b24e224020a6a270",
+  "initial_stage_source_sha256": "ed42d22722e331dcc6a9d0a53c9ae8c82091ae15c8b50a1c4a396048fd886c89",
+  "decoded_sha256_both": "2971dddf110746ec557e2ff7a3ccfa3360f614718e58140fc97efdb3cbe6036a",
+  "initial_checks": 2747,
+  "initial_failed": 1,
+  "correction": "Updated root and staged repro_stage_archive.py to copy the current audited compressed source after the historical stage. Copied that exact source into the current stage. No analysis definition or numerical values changed; no validator tolerance changed.",
+  "script_sha256": "453087b0b7b9e04338e28d8d71503e78debc6643568d1ccf227a37230f360d12"
+}

@@ -1,0 +1,61 @@
+sender	receiver	ligand	receptor	row	column	method	config	dataset	source_status	evaluable	source_score_difference	display_sign	custom_eligible_10	liana_missing_animals
+Astrocyte	Endothelial	Timp3	Kdr	0	0	custom	primary	GSE174574	eligible_10pct	True	-0.3026693845547393	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	0	custom	primary	GSE245386	eligible_10pct	True	-0.406388729971306	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	1	custom	singlet	GSE174574	eligible_10pct	True	-0.3000511958178407	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	1	custom	singlet	GSE245386	eligible_10pct	True	-0.4091951449128848	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	2	custom	reference_singlet	GSE174574	eligible_10pct	True	-0.2895288671032988	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	2	custom	reference_singlet	GSE245386	eligible_10pct	True	-0.4383384972993189	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	3	custom	reference_only	GSE174574	eligible_10pct	True	-0.2463764068386297	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	3	custom	reference_only	GSE245386	eligible_10pct	True	-0.3994332824328342	−	True	
+Astrocyte	Endothelial	Timp3	Kdr	0	4	liana	primary	GSE174574	complete_case_tested	True	-0.2421443555276793	−		
+Astrocyte	Endothelial	Timp3	Kdr	0	4	liana	primary	GSE245386	complete_case_tested	True	-0.279811086752304	−		
+Astrocyte	Endothelial	Timp3	Kdr	0	5	liana	reference_singlet	GSE174574	complete_case_tested	True	-0.284500931267289	−		
+Astrocyte	Endothelial	Timp3	Kdr	0	5	liana	reference_singlet	GSE245386	complete_case_tested	True	-0.2635098811395262	−		
+Endothelial	Astrocyte	Ptn	Ptprz1	1	0	custom	primary	GSE174574	eligible_10pct	True	-0.3711554035586277	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	0	custom	primary	GSE245386	eligible_10pct	True	-1.133412802908282	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	1	custom	singlet	GSE174574	eligible_10pct	True	-0.3663110651903907	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	1	custom	singlet	GSE245386	eligible_10pct	True	-1.1364156912687502	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	2	custom	reference_singlet	GSE174574	eligible_10pct	True	-0.4222465300915246	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	2	custom	reference_singlet	GSE245386	eligible_10pct	True	-1.2387363418856112	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	3	custom	reference_only	GSE174574	eligible_10pct	True	-0.3924661635137265	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	3	custom	reference_only	GSE245386	eligible_10pct	True	-1.192865452806051	−	True	
+Endothelial	Astrocyte	Ptn	Ptprz1	1	4	liana	primary	GSE174574	complete_case_tested	True	-0.0880649243814987	−		
+Endothelial	Astrocyte	Ptn	Ptprz1	1	4	liana	primary	GSE245386	complete_case_tested	True	-0.0374239745167522	−		
+Endothelial	Astrocyte	Ptn	Ptprz1	1	5	liana	reference_singlet	GSE174574	complete_case_tested	True	-0.0664078298602194	−		
+Endothelial	Astrocyte	Ptn	Ptprz1	1	5	liana	reference_singlet	GSE245386	complete_case_tested	True	-0.0249382121791995	−		
+Endothelial	Astrocyte	Plat	Lrp1	2	0	custom	primary	GSE174574	eligible_10pct	True	0.4185567710833634	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	0	custom	primary	GSE245386	eligible_10pct	True	0.389624499798137	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	1	custom	singlet	GSE174574	eligible_10pct	True	0.436955060268723	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	1	custom	singlet	GSE245386	eligible_10pct	True	0.3882359760121946	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	2	custom	reference_singlet	GSE174574	eligible_10pct	True	0.4168961674158354	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	2	custom	reference_singlet	GSE245386	eligible_10pct	True	0.3832720993265095	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	3	custom	reference_only	GSE174574	eligible_10pct	True	0.4299268495812945	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	3	custom	reference_only	GSE245386	eligible_10pct	True	0.3856088237934358	+	True	
+Endothelial	Astrocyte	Plat	Lrp1	2	4	liana	primary	GSE174574	complete_case_tested	True	0.6799320539730702	+		
+Endothelial	Astrocyte	Plat	Lrp1	2	4	liana	primary	GSE245386	complete_case_tested	True	0.1002629149893915	+		
+Endothelial	Astrocyte	Plat	Lrp1	2	5	liana	reference_singlet	GSE174574	complete_case_tested	True	0.6360511294143506	+		
+Endothelial	Astrocyte	Plat	Lrp1	2	5	liana	reference_singlet	GSE245386	complete_case_tested	True	0.0742588086713125	+		
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	0	custom	primary	GSE174574	eligible_10pct	True	0.5444914618387923	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	0	custom	primary	GSE245386	eligible_10pct	True	0.2341751908135635	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	1	custom	singlet	GSE174574	eligible_10pct	True	0.5427658202903066	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	1	custom	singlet	GSE245386	fails_10pct_gate	False	0.2267872715781914	NA	False	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	2	custom	reference_singlet	GSE174574	eligible_10pct	True	0.5267438982470846	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	2	custom	reference_singlet	GSE245386	eligible_10pct	True	0.21277061696776	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	3	custom	reference_only	GSE174574	fails_10pct_gate	False	0.4987963563494288	NA	False	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	3	custom	reference_only	GSE245386	eligible_10pct	True	0.2109230465300605	+	True	
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	4	liana	primary	GSE174574	not_complete_case	False		NA		GSM5319987|GSM5319988|GSM5319989
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	4	liana	primary	GSE245386	not_complete_case	False		NA		GSM7841720|GSM7841721|GSM7841722
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	5	liana	reference_singlet	GSE174574	not_complete_case	False		NA		GSM5319987|GSM5319988|GSM5319989
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	3	5	liana	reference_singlet	GSE245386	not_complete_case	False		NA		GSM7841720|GSM7841721|GSM7841722
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	0	custom	primary	GSE174574	fails_10pct_gate	False	0.0610025716967609	NA	False	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	0	custom	primary	GSE245386	eligible_10pct	True	0.2007350014530731	+	True	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	1	custom	singlet	GSE174574	fails_10pct_gate	False	0.0568740319089115	NA	False	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	1	custom	singlet	GSE245386	eligible_10pct	True	0.1979293831578843	+	True	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	2	custom	reference_singlet	GSE174574	fails_10pct_gate	False	0.0588003744785736	NA	False	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	2	custom	reference_singlet	GSE245386	eligible_10pct	True	0.2180905104198598	+	True	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	3	custom	reference_only	GSE174574	fails_10pct_gate	False	0.0606705119953887	NA	False	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	3	custom	reference_only	GSE245386	eligible_10pct	True	0.2071804891927834	+	True	
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	4	liana	primary	GSE174574	not_complete_case	False		NA		GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	4	liana	primary	GSE245386	not_complete_case	False		NA		GSM7841720|GSM7841721|GSM7841722
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	5	liana	reference_singlet	GSE174574	not_complete_case	False		NA		GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	4	5	liana	reference_singlet	GSE245386	not_complete_case	False		NA		GSM7841720|GSM7841721|GSM7841722

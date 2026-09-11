@@ -1,0 +1,10 @@
+dataset	sample	condition	config	cell_type	n_cells	total_target_counts
+GSE174574	GSM5319990	MCAO	singlet	Astrocyte	721	2581821
+GSE174574	GSM5319990	MCAO	singlet	Endothelial	1954	5960184
+GSE174574	GSM5319990	MCAO	singlet	Pericyte	313	892534
+GSE174574	GSM5319990	MCAO	reference_singlet	Astrocyte	579	2181295
+GSE174574	GSM5319990	MCAO	reference_singlet	Endothelial	1619	5060235
+GSE174574	GSM5319990	MCAO	reference_singlet	Pericyte	107	233672
+GSE174574	GSM5319990	MCAO	reference_only	Astrocyte	652	2450840
+GSE174574	GSM5319990	MCAO	reference_only	Endothelial	3876	11104690
+GSE174574	GSM5319990	MCAO	reference_only	Pericyte	111	246560

@@ -1,0 +1,9 @@
+dataset	config	corrected_detection	n_raw_eligible10	n_corrected_eligible10	n_common	n_lost	n_gained
+GSE174574	primary	gt0	362	362	362	0	0
+GSE245386	primary	gt0	745	745	745	0	0
+GSE174574	primary	ge1	362	44	44	318	0
+GSE245386	primary	ge1	745	267	267	478	0
+GSE174574	reference_singlet	gt0	367	367	367	0	0
+GSE245386	reference_singlet	gt0	746	746	746	0	0
+GSE174574	reference_singlet	ge1	367	53	53	314	0
+GSE245386	reference_singlet	ge1	746	285	285	461	0

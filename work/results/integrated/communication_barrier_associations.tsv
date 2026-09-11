@@ -1,0 +1,17 @@
+dataset	sender	receiver	ligand	receptor	panel	n_samples	spearman_unadjusted	pearson_within_condition	interpretation
+GSE174574	Astrocyte	Endothelial	Spp1	Itga5_Itgb1	BBB_junction	6	-0.8857142857142858	-0.4372832317544527	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Astrocyte	Endothelial	Spp1	Itga5_Itgb1	BBB_transport	6	-0.942857142857143	-0.7807289799214312	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Astrocyte	Endothelial	Timp3	Kdr	BBB_junction	6	0.8857142857142858	0.8546112309152853	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Astrocyte	Endothelial	Timp3	Kdr	BBB_transport	6	0.942857142857143	0.6047625208448513	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Endothelial	Astrocyte	Ptn	Ptprz1	BBB_junction	6	1.0	0.7143453684054988	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Endothelial	Astrocyte	Ptn	Ptprz1	BBB_transport	6	0.7714285714285715	-0.02262475931656875	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Endothelial	Astrocyte	Plat	Lrp1	BBB_junction	6	-0.8857142857142858	0.12726456149488619	descriptive only; low degrees of freedom; no causal inference
+GSE174574	Endothelial	Astrocyte	Plat	Lrp1	BBB_transport	6	-0.6	0.8335804887357163	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Astrocyte	Endothelial	Spp1	Itga5_Itgb1	BBB_junction	5	-0.9999999999999999	-0.13647460264768915	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Astrocyte	Endothelial	Spp1	Itga5_Itgb1	BBB_transport	5	0.6	-0.9172072494145553	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Astrocyte	Endothelial	Timp3	Kdr	BBB_junction	5	0.8999999999999998	0.8748278111634825	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Astrocyte	Endothelial	Timp3	Kdr	BBB_transport	5	-0.7999999999999999	0.46996016778758687	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Endothelial	Astrocyte	Ptn	Ptprz1	BBB_junction	5	0.9999999999999999	0.5978654094506844	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Endothelial	Astrocyte	Ptn	Ptprz1	BBB_transport	5	-0.6	0.8891776652111002	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Endothelial	Astrocyte	Plat	Lrp1	BBB_junction	5	-0.6	0.8228167539962102	descriptive only; low degrees of freedom; no causal inference
+GSE245386	Endothelial	Astrocyte	Plat	Lrp1	BBB_transport	5	0.7999999999999999	-0.3258002293095706	descriptive only; low degrees of freedom; no causal inference

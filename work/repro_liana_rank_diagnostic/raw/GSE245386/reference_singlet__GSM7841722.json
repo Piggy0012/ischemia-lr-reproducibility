@@ -1,0 +1,109 @@
+{
+  "status": "complete",
+  "count_source": "raw",
+  "dataset": "GSE245386",
+  "sample": "GSM7841722",
+  "config": "reference_singlet",
+  "condition": "Sham",
+  "liana_version": "1.10.0",
+  "methods": [
+    "CellPhoneDB",
+    "Connectome",
+    "log2FC",
+    "NATMI",
+    "SingleCellSignalR"
+  ],
+  "native_magnitude_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "NATMI": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "diagnostic_unique_score_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "parameters": {
+    "expr_prop": 0.1,
+    "min_cells": 30,
+    "use_raw": false,
+    "n_perms": 100,
+    "seed": 20260910,
+    "n_jobs": 1,
+    "return_all_lrs": false,
+    "aggregate_method": "rra"
+  },
+  "computed_all_cell_type_pairs": true,
+  "all_pair_rows": 55019,
+  "exported_target_rows": 670,
+  "n_input_cells": 9625,
+  "n_context_cells": 6701,
+  "n_context_genes": 32245,
+  "context_counts": {
+    "Endothelial": 2141,
+    "Microglia": 1750,
+    "Oligodendrocyte": 794,
+    "Myeloid": 477,
+    "Smooth_muscle": 384,
+    "Astrocyte": 287,
+    "Pericyte": 283,
+    "Choroid": 147,
+    "Neuron": 133,
+    "Ependymal": 118,
+    "Erythroid": 78,
+    "Lymphocyte": 62,
+    "Fibroblast": 47
+  },
+  "denominator": "per-cell total of supplied count source across all genes, before cell-type filtering",
+  "zero_total_cells": 0,
+  "corrected_counts_sha256": null,
+  "identity_sha256": "da237c4c69bb1e98bdbdbbe979f509559410389b22345dd2935e978a5a8d450a",
+  "resource_sha256": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+  "barcode_order_sha256": "446aa2d1c8fccf0fcea16d2e3ca642bd40f506c7ea1f7a6768f5d226c1e32718",
+  "gene_order_sha256": "9bfcc88fa54ce64a30f0e16f46345ef927c4624186f2d05060ba6fb539b98997",
+  "source_aggregate_sha256": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+  "script_sha256": "1f361ef31a8cb65ada708254094face3664a2758ed7852d7b8e971e9bcbf279b",
+  "plan_sha256": "e85c0d40a00e2d6fd05a468bb81c2215cdc90035be73be27988aabafec748733",
+  "native_full_network_reconstruction_max_abs_error": 0.0,
+  "raw_target_scores_verified_against_prior": true,
+  "raw_prior_comparison_representation": "both scores parsed from pandas TSV decimal serialization",
+  "raw_target_prior_max_abs_errors": {
+    "lr_means": 0.0,
+    "cellphone_pvals": 0.0,
+    "expr_prod": 0.0,
+    "scaled_weight": 0.0,
+    "lr_logfc": 0.0,
+    "spec_weight": 0.0,
+    "lrscore": 0.0,
+    "specificity_rank": 0.0,
+    "magnitude_rank": 0.0
+  },
+  "prior_target_sha256": "4d56257aff0456b631741fb5c5d8f83dd3504e79b058056b1599191a823515de",
+  "full_network_sha256": "27740965f526bf34896e9d03258d15e0c134d023d117f5dcc4ca4a75a91d1935",
+  "target_sha256": "b4608d239482997e0bd3c9e44dbe491a227c2cd28c20ca2b49db387bb21a1c53",
+  "package_modified": false,
+  "diagnostic_is_official_package_release": false,
+  "elapsed_seconds": 33.01599999994505
+}

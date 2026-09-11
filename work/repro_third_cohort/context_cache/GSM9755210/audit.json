@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "dataset": "GSE332910",
+  "sample": "GSM9755210",
+  "condition": "Sham",
+  "selection": "original primary labels; QC-passing assigned classes with >=30 cells per library",
+  "matrix_shape": [
+    5265,
+    29877
+  ],
+  "nnz": 8647711,
+  "csr_array_bytes": 69202752,
+  "matrix_format": "CSR cells x submitted gene symbols; raw integer UMI",
+  "context_counts": {
+    "Oligodendrocyte": 1056,
+    "Astrocyte": 1009,
+    "Neuron": 992,
+    "Microglia": 742,
+    "OPC": 435,
+    "Myeloid": 292,
+    "Erythroid": 286,
+    "Endothelial": 215,
+    "Fibroblast": 141,
+    "Pericyte": 97
+  },
+  "source_raw_shape": [
+    29877,
+    18445,
+    30971985
+  ],
+  "all_raw_entries_streamed": 30971985,
+  "source_gene_major_unique": true,
+  "total_umi_and_detected_genes_match_qc": true,
+  "n_verified_independent_animals": null,
+  "input_qc_sha256": "338e72976cb50886043c0cea405305f350a99e29040e8347ddd131c6d3e6cc4f",
+  "input_gene_sha256": "421718f5dae9a141cb7444ddb354b967d113af7f69a182c958baf31dd0708469",
+  "input_matrix_sha256": "ddc4d960b5c2630c0363d6539e5534cb6c4a1a4945e7fabd6ef043b1e597289c",
+  "output_sha256": {
+    "counts.npz": "413a0963909f99735f67f5e41f4f1e15babd1757f839d3f648ecb77ca479c328",
+    "cells.tsv.gz": "fc35c3831202b5f6f0823028278231f7565d9b0e9605ad3dd43fcec64a1d7d66",
+    "genes.tsv.gz": "c7295bfec5cc61967bfb17d46cd1c62e94cfdf5aec8b4be8f895bd5d7f804177"
+  },
+  "memory_observations": [
+    {
+      "rss_bytes": 143319040,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 1567064064
+    },
+    {
+      "rss_bytes": 215523328,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 1197281280
+    },
+    {
+      "rss_bytes": 209268736,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 1184567296
+    },
+    {
+      "rss_bytes": 212508672,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 1221926912
+    }
+  ],
+  "script_sha256": "c963f76274bd9ebc60c76f4bc8420e19638b35d3cb8cfe34b298e882b09f830d",
+  "elapsed_seconds": 27.71799999999348
+}

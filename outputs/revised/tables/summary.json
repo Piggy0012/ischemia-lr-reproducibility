@@ -1,0 +1,1226 @@
+{
+  "status": "complete",
+  "datasets_requested": [
+    "GSE174574",
+    "GSE245386"
+  ],
+  "pending_inputs": [],
+  "metrics": {
+    "lr_means": "CellPhoneDB: ligand/receptor mean expression",
+    "expr_prod": "Connectome and NATMI: shared expression-product magnitude",
+    "lr_logfc": "log2FC: within-library cell-type-versus-rest enrichment",
+    "spec_weight": "NATMI: specificity weight",
+    "lrscore": "SingleCellSignalR: regularized expression score",
+    "magnitude_rank": "LIANA magnitude consensus, transformed to 1-rank"
+  },
+  "fixed_examples": [
+    {
+      "sender": "Astrocyte",
+      "receiver": "Endothelial",
+      "ligand": "Timp3",
+      "receptor": "Kdr"
+    },
+    {
+      "sender": "Endothelial",
+      "receiver": "Astrocyte",
+      "ligand": "Ptn",
+      "receptor": "Ptprz1"
+    },
+    {
+      "sender": "Endothelial",
+      "receiver": "Astrocyte",
+      "ligand": "Plat",
+      "receptor": "Lrp1"
+    },
+    {
+      "sender": "Astrocyte",
+      "receiver": "Endothelial",
+      "ligand": "Spp1",
+      "receptor": "Itga5_Itgb1"
+    },
+    {
+      "sender": "Astrocyte",
+      "receiver": "Endothelial",
+      "ligand": "Col4a1",
+      "receptor": "Itga3_Itgb1"
+    }
+  ],
+  "custom_cross_cohort": [
+    {
+      "config": "primary",
+      "expression_gate": 0.05,
+      "n_discovery_eligible": 754,
+      "n_validation_eligible": 1182,
+      "n_common": 658,
+      "n_direction_evaluable": 658,
+      "n_zero_effect": 0,
+      "n_same_direction": 514,
+      "same_direction_fraction": 0.7811550151975684,
+      "spearman_rho": 0.6724067072376073
+    },
+    {
+      "config": "primary",
+      "expression_gate": 0.1,
+      "n_discovery_eligible": 362,
+      "n_validation_eligible": 745,
+      "n_common": 323,
+      "n_direction_evaluable": 323,
+      "n_zero_effect": 0,
+      "n_same_direction": 258,
+      "same_direction_fraction": 0.7987616099071208,
+      "spearman_rho": 0.7427882976103759
+    },
+    {
+      "config": "primary",
+      "expression_gate": 0.2,
+      "n_discovery_eligible": 152,
+      "n_validation_eligible": 418,
+      "n_common": 128,
+      "n_direction_evaluable": 128,
+      "n_zero_effect": 0,
+      "n_same_direction": 110,
+      "same_direction_fraction": 0.859375,
+      "spearman_rho": 0.7929402608847421
+    },
+    {
+      "config": "singlet",
+      "expression_gate": 0.05,
+      "n_discovery_eligible": 717,
+      "n_validation_eligible": 1134,
+      "n_common": 605,
+      "n_direction_evaluable": 605,
+      "n_zero_effect": 0,
+      "n_same_direction": 468,
+      "same_direction_fraction": 0.7735537190082644,
+      "spearman_rho": 0.6660349146641673
+    },
+    {
+      "config": "singlet",
+      "expression_gate": 0.1,
+      "n_discovery_eligible": 342,
+      "n_validation_eligible": 714,
+      "n_common": 313,
+      "n_direction_evaluable": 313,
+      "n_zero_effect": 0,
+      "n_same_direction": 250,
+      "same_direction_fraction": 0.7987220447284346,
+      "spearman_rho": 0.7228218726220064
+    },
+    {
+      "config": "singlet",
+      "expression_gate": 0.2,
+      "n_discovery_eligible": 147,
+      "n_validation_eligible": 411,
+      "n_common": 122,
+      "n_direction_evaluable": 122,
+      "n_zero_effect": 0,
+      "n_same_direction": 105,
+      "same_direction_fraction": 0.860655737704918,
+      "spearman_rho": 0.7765250148701341
+    },
+    {
+      "config": "reference_singlet",
+      "expression_gate": 0.05,
+      "n_discovery_eligible": 703,
+      "n_validation_eligible": 1106,
+      "n_common": 605,
+      "n_direction_evaluable": 605,
+      "n_zero_effect": 0,
+      "n_same_direction": 460,
+      "same_direction_fraction": 0.7603305785123967,
+      "spearman_rho": 0.6660661820937611
+    },
+    {
+      "config": "reference_singlet",
+      "expression_gate": 0.1,
+      "n_discovery_eligible": 367,
+      "n_validation_eligible": 746,
+      "n_common": 326,
+      "n_direction_evaluable": 326,
+      "n_zero_effect": 0,
+      "n_same_direction": 247,
+      "same_direction_fraction": 0.7576687116564417,
+      "spearman_rho": 0.7030217132058506
+    },
+    {
+      "config": "reference_singlet",
+      "expression_gate": 0.2,
+      "n_discovery_eligible": 142,
+      "n_validation_eligible": 439,
+      "n_common": 127,
+      "n_direction_evaluable": 127,
+      "n_zero_effect": 0,
+      "n_same_direction": 102,
+      "same_direction_fraction": 0.8031496062992126,
+      "spearman_rho": 0.7766151592823143
+    },
+    {
+      "config": "reference_only",
+      "expression_gate": 0.05,
+      "n_discovery_eligible": 697,
+      "n_validation_eligible": 1127,
+      "n_common": 590,
+      "n_direction_evaluable": 590,
+      "n_zero_effect": 0,
+      "n_same_direction": 445,
+      "same_direction_fraction": 0.7542372881355932,
+      "spearman_rho": 0.6543115589868809
+    },
+    {
+      "config": "reference_only",
+      "expression_gate": 0.1,
+      "n_discovery_eligible": 350,
+      "n_validation_eligible": 740,
+      "n_common": 313,
+      "n_direction_evaluable": 313,
+      "n_zero_effect": 0,
+      "n_same_direction": 235,
+      "same_direction_fraction": 0.7507987220447284,
+      "spearman_rho": 0.7032201105805648
+    },
+    {
+      "config": "reference_only",
+      "expression_gate": 0.2,
+      "n_discovery_eligible": 141,
+      "n_validation_eligible": 417,
+      "n_common": 124,
+      "n_direction_evaluable": 124,
+      "n_zero_effect": 0,
+      "n_same_direction": 103,
+      "same_direction_fraction": 0.8306451612903226,
+      "spearman_rho": 0.7848742246238383
+    }
+  ],
+  "custom_vs_original_within_cohort": [
+    {
+      "dataset": "GSE174574",
+      "config": "singlet",
+      "comparator": "primary",
+      "n_common": 340,
+      "n_direction_evaluable": 340,
+      "n_zero_effect": 0,
+      "n_same_direction": 333,
+      "same_direction_fraction": 0.9794117647058823,
+      "spearman_rho": 0.9969395211956628
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "comparator": "primary",
+      "n_common": 323,
+      "n_direction_evaluable": 323,
+      "n_zero_effect": 0,
+      "n_same_direction": 297,
+      "same_direction_fraction": 0.9195046439628483,
+      "spearman_rho": 0.965642289448096
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_only",
+      "comparator": "primary",
+      "n_common": 314,
+      "n_direction_evaluable": 314,
+      "n_zero_effect": 0,
+      "n_same_direction": 280,
+      "same_direction_fraction": 0.89171974522293,
+      "spearman_rho": 0.9435346768985801
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "singlet",
+      "comparator": "primary",
+      "n_common": 713,
+      "n_direction_evaluable": 713,
+      "n_zero_effect": 0,
+      "n_same_direction": 701,
+      "same_direction_fraction": 0.9831697054698457,
+      "spearman_rho": 0.9994174907225176
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "comparator": "primary",
+      "n_common": 715,
+      "n_direction_evaluable": 715,
+      "n_zero_effect": 0,
+      "n_same_direction": 681,
+      "same_direction_fraction": 0.9524475524475524,
+      "spearman_rho": 0.9883216825872168
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_only",
+      "comparator": "primary",
+      "n_common": 708,
+      "n_direction_evaluable": 708,
+      "n_zero_effect": 0,
+      "n_same_direction": 672,
+      "same_direction_fraction": 0.9491525423728814,
+      "spearman_rho": 0.985300399387839
+    }
+  ],
+  "liana_contrast_coverage": [
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lr_means",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 217,
+      "n_welch_fdr_05": 106,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "expr_prod",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 217,
+      "n_welch_fdr_05": 63,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lr_logfc",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 217,
+      "n_welch_fdr_05": 97,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "spec_weight",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 217,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lrscore",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 217,
+      "n_welch_fdr_05": 59,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "status": "complete",
+      "n_union_reported_edges": 429,
+      "n_complete_case_edges": 217,
+      "n_incomplete_edges": 212,
+      "n_bh_tests": 207,
+      "n_welch_fdr_05": 14,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 194,
+      "n_welch_fdr_05": 82,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 194,
+      "n_welch_fdr_05": 42,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 194,
+      "n_welch_fdr_05": 76,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 194,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 194,
+      "n_welch_fdr_05": 55,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "status": "complete",
+      "n_union_reported_edges": 404,
+      "n_complete_case_edges": 194,
+      "n_incomplete_edges": 210,
+      "n_bh_tests": 184,
+      "n_welch_fdr_05": 17,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lr_means",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 476,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "expr_prod",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 476,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lr_logfc",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 476,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "spec_weight",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 476,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lrscore",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 476,
+      "n_welch_fdr_05": 1,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "status": "complete",
+      "n_union_reported_edges": 906,
+      "n_complete_case_edges": 476,
+      "n_incomplete_edges": 430,
+      "n_bh_tests": 468,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 524,
+      "n_welch_fdr_05": 18,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 524,
+      "n_welch_fdr_05": 0,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 524,
+      "n_welch_fdr_05": 5,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 524,
+      "n_welch_fdr_05": 2,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 524,
+      "n_welch_fdr_05": 12,
+      "min_exact_p": 0.1
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "status": "complete",
+      "n_union_reported_edges": 912,
+      "n_complete_case_edges": 524,
+      "n_incomplete_edges": 388,
+      "n_bh_tests": 516,
+      "n_welch_fdr_05": 1,
+      "min_exact_p": 0.1
+    }
+  ],
+  "liana_cross_cohort": [
+    {
+      "config": "primary",
+      "metric": "lr_means",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 187,
+      "n_zero_effect": 0,
+      "n_same_direction": 148,
+      "same_direction_fraction": 0.7914438502673797,
+      "spearman_rho": 0.733640413457083
+    },
+    {
+      "config": "primary",
+      "metric": "expr_prod",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 187,
+      "n_zero_effect": 0,
+      "n_same_direction": 151,
+      "same_direction_fraction": 0.8074866310160428,
+      "spearman_rho": 0.7204787880734238
+    },
+    {
+      "config": "primary",
+      "metric": "lr_logfc",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 187,
+      "n_zero_effect": 0,
+      "n_same_direction": 134,
+      "same_direction_fraction": 0.7165775401069518,
+      "spearman_rho": 0.5763505484775218
+    },
+    {
+      "config": "primary",
+      "metric": "spec_weight",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 187,
+      "n_zero_effect": 0,
+      "n_same_direction": 128,
+      "same_direction_fraction": 0.6844919786096256,
+      "spearman_rho": 0.4645446329031458
+    },
+    {
+      "config": "primary",
+      "metric": "lrscore",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 187,
+      "n_zero_effect": 0,
+      "n_same_direction": 143,
+      "same_direction_fraction": 0.7647058823529411,
+      "spearman_rho": 0.6654099014988507
+    },
+    {
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "n_discovery_complete_edges": 217,
+      "n_validation_complete_edges": 476,
+      "n_common": 187,
+      "n_direction_evaluable": 177,
+      "n_zero_effect": 10,
+      "n_same_direction": 105,
+      "same_direction_fraction": 0.5932203389830508,
+      "spearman_rho": 0.2282371264612325
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 174,
+      "n_zero_effect": 0,
+      "n_same_direction": 136,
+      "same_direction_fraction": 0.7816091954022989,
+      "spearman_rho": 0.7208277238278126
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 174,
+      "n_zero_effect": 0,
+      "n_same_direction": 127,
+      "same_direction_fraction": 0.7298850574712644,
+      "spearman_rho": 0.6599830974493549
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 174,
+      "n_zero_effect": 0,
+      "n_same_direction": 124,
+      "same_direction_fraction": 0.7126436781609196,
+      "spearman_rho": 0.5895504878276577
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 174,
+      "n_zero_effect": 0,
+      "n_same_direction": 118,
+      "same_direction_fraction": 0.6781609195402298,
+      "spearman_rho": 0.45858305599026844
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 174,
+      "n_zero_effect": 0,
+      "n_same_direction": 126,
+      "same_direction_fraction": 0.7241379310344828,
+      "spearman_rho": 0.6281552756687555
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "n_discovery_complete_edges": 194,
+      "n_validation_complete_edges": 524,
+      "n_common": 174,
+      "n_direction_evaluable": 166,
+      "n_zero_effect": 8,
+      "n_same_direction": 95,
+      "same_direction_fraction": 0.572289156626506,
+      "spearman_rho": 0.10245326529039606
+    }
+  ],
+  "liana_vs_custom": [
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lr_means",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 217,
+      "n_zero_effect": 0,
+      "n_same_direction": 198,
+      "same_direction_fraction": 0.9124423963133641,
+      "spearman_rho": 0.8952082042730098
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lr_means",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 476,
+      "n_zero_effect": 0,
+      "n_same_direction": 425,
+      "same_direction_fraction": 0.8928571428571429,
+      "spearman_rho": 0.8864382553848291
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "expr_prod",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 217,
+      "n_zero_effect": 0,
+      "n_same_direction": 217,
+      "same_direction_fraction": 1.0,
+      "spearman_rho": 0.9848386537992911
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "expr_prod",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 476,
+      "n_zero_effect": 0,
+      "n_same_direction": 472,
+      "same_direction_fraction": 0.9915966386554622,
+      "spearman_rho": 0.9823743539896426
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lr_logfc",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 217,
+      "n_zero_effect": 0,
+      "n_same_direction": 146,
+      "same_direction_fraction": 0.6728110599078341,
+      "spearman_rho": 0.480806686964002
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lr_logfc",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 476,
+      "n_zero_effect": 0,
+      "n_same_direction": 343,
+      "same_direction_fraction": 0.7205882352941176,
+      "spearman_rho": 0.6185477963102416
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "spec_weight",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 217,
+      "n_zero_effect": 0,
+      "n_same_direction": 135,
+      "same_direction_fraction": 0.6221198156682027,
+      "spearman_rho": 0.3799291256976597
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "spec_weight",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 476,
+      "n_zero_effect": 0,
+      "n_same_direction": 335,
+      "same_direction_fraction": 0.7037815126050421,
+      "spearman_rho": 0.5950532029473917
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "lrscore",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 217,
+      "n_zero_effect": 0,
+      "n_same_direction": 208,
+      "same_direction_fraction": 0.9585253456221198,
+      "spearman_rho": 0.9264034667927176
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "lrscore",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 476,
+      "n_zero_effect": 0,
+      "n_same_direction": 427,
+      "same_direction_fraction": 0.8970588235294118,
+      "spearman_rho": 0.9225934723357138
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "custom_gate": 0.1,
+      "n_common": 217,
+      "n_direction_evaluable": 207,
+      "n_zero_effect": 10,
+      "n_same_direction": 141,
+      "same_direction_fraction": 0.6811594202898551,
+      "spearman_rho": 0.39907571251209856
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "custom_gate": 0.1,
+      "n_common": 476,
+      "n_direction_evaluable": 468,
+      "n_zero_effect": 8,
+      "n_same_direction": 313,
+      "same_direction_fraction": 0.6688034188034188,
+      "spearman_rho": 0.4423362085657938
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 194,
+      "n_zero_effect": 0,
+      "n_same_direction": 168,
+      "same_direction_fraction": 0.865979381443299,
+      "spearman_rho": 0.8647244063428616
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 524,
+      "n_zero_effect": 0,
+      "n_same_direction": 472,
+      "same_direction_fraction": 0.9007633587786259,
+      "spearman_rho": 0.8803991970153887
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 194,
+      "n_zero_effect": 0,
+      "n_same_direction": 193,
+      "same_direction_fraction": 0.9948453608247423,
+      "spearman_rho": 0.985452770399979
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 524,
+      "n_zero_effect": 0,
+      "n_same_direction": 524,
+      "same_direction_fraction": 1.0,
+      "spearman_rho": 0.978408007693893
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 194,
+      "n_zero_effect": 0,
+      "n_same_direction": 131,
+      "same_direction_fraction": 0.6752577319587629,
+      "spearman_rho": 0.4584407131774792
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 524,
+      "n_zero_effect": 0,
+      "n_same_direction": 393,
+      "same_direction_fraction": 0.75,
+      "spearman_rho": 0.6696823766996679
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 194,
+      "n_zero_effect": 0,
+      "n_same_direction": 120,
+      "same_direction_fraction": 0.6185567010309279,
+      "spearman_rho": 0.43118376416756515
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 524,
+      "n_zero_effect": 0,
+      "n_same_direction": 371,
+      "same_direction_fraction": 0.7080152671755725,
+      "spearman_rho": 0.5901632466813999
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 194,
+      "n_zero_effect": 0,
+      "n_same_direction": 184,
+      "same_direction_fraction": 0.9484536082474226,
+      "spearman_rho": 0.9330952349646304
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 524,
+      "n_zero_effect": 0,
+      "n_same_direction": 469,
+      "same_direction_fraction": 0.8950381679389313,
+      "spearman_rho": 0.9104620781267763
+    },
+    {
+      "dataset": "GSE174574",
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "custom_gate": 0.1,
+      "n_common": 194,
+      "n_direction_evaluable": 184,
+      "n_zero_effect": 10,
+      "n_same_direction": 131,
+      "same_direction_fraction": 0.7119565217391305,
+      "spearman_rho": 0.49633890833167094
+    },
+    {
+      "dataset": "GSE245386",
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "custom_gate": 0.1,
+      "n_common": 524,
+      "n_direction_evaluable": 516,
+      "n_zero_effect": 8,
+      "n_same_direction": 335,
+      "same_direction_fraction": 0.6492248062015504,
+      "spearman_rho": 0.35099865420496235
+    }
+  ],
+  "table_rows": {
+    "custom_fixed_examples": 40,
+    "custom_cross_cohort_summary": 12,
+    "custom_cross_cohort_edges": 4234,
+    "custom_vs_original_within_cohort": 6,
+    "liana_per_animal_observed_scores": 10397,
+    "liana_per_animal_audit": 22,
+    "liana_fixed_examples_per_animal_eligibility": 110,
+    "liana_animal_level_effects": 8466,
+    "liana_contrast_coverage": 24,
+    "liana_fixed_examples_animal_effects": 120,
+    "liana_cross_cohort_summary": 12,
+    "liana_cross_cohort_edges": 2166,
+    "liana_vs_custom_direction_summary": 24,
+    "liana_vs_custom_direction_edges": 8466
+  },
+  "script_sha256": "5528beaaa6496a603af937ec5d8bed4a2a7477c8d2b4fff01370e9f7d4aea4c1",
+  "input_files": [
+    {
+      "path": "processed\\GSE174574\\sample_cell_counts.tsv",
+      "sha256": "7c9b17b3e83d7c4abeaa3ac9cd111c71d9c230bcbf6165943c3bd904e522620a"
+    },
+    {
+      "path": "results\\GSE174574\\primary__communication.tsv.gz",
+      "sha256": "28b66a059a38963198c864a78cd1b2e079c48756cfa3602f632d5cee8649066c"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE174574\\singlet__communication.tsv.gz",
+      "sha256": "b3f61ee3bce6d095c9e91fba06a62600753070384010e0e0e019fc949a57fbc5"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE174574\\reference_singlet__communication.tsv.gz",
+      "sha256": "f3d978831ddaf3aa6d6263fdbf672c61f098061c8608461be65df06ccca3283f"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE174574\\reference_only__communication.tsv.gz",
+      "sha256": "4277c35307b220ed503611e37dad810c70ff63fd27e666321da94bde448f7fc6"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319987.tsv.gz",
+      "sha256": "0c22ccfa69ea1186c96eb0d161b118b84a95b5035f03a999557b61c89f695929"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319987.json",
+      "sha256": "37eca62ef0cb3e152f3c44f740fdacb9d511f083f623f7e5bfbe662b57c4b0a3"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319988.tsv.gz",
+      "sha256": "1819054729f6d84d4c111d10763c20a09d7aa1448283891f72dd283b59c24e48"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319988.json",
+      "sha256": "571d52e8a80a68f9602a8052d2d2a6313f711f717a54b52f81881ece8e84d071"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319989.tsv.gz",
+      "sha256": "b0b641c19c59baf27b478584ee49e15979a003e8016bcf5f594b20e87ecfcad3"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319989.json",
+      "sha256": "a5e234df808ac7422039b3b0a0eb30839d2d718fc4df5d839e74d8205b442100"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319990.tsv.gz",
+      "sha256": "8d43b3c6df1867d56745213c86bbc8919db6fcedb5ef1c823bc1dc347ca68981"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319990.json",
+      "sha256": "f19a2cda217242a8b61cd4a8fdfc3e269e379303425dbeb2ca9b0e2ed5ff5965"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319991.tsv.gz",
+      "sha256": "8644e3dfd768843dd7788cecd29072861997a42d3be502104171af54f0f8cc54"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319991.json",
+      "sha256": "f0d4e7933a7d66f08c4b62d8628a8dce7062e96d0a557f4e5b73c31693340e14"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319992.tsv.gz",
+      "sha256": "e249ec52f3e835c37d2b6e1361b7fb063fab24423a73880292028c61dd5617b6"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\primary__GSM5319992.json",
+      "sha256": "e681326de8d9abcec65fd098d27152062819971f3f34e127733349165a81dd0f"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.tsv.gz",
+      "sha256": "b6d0371271fe09ad5c8b3cd805869e8626bb6b49e5dd90ec4feb2e0612479885"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.json",
+      "sha256": "ab4826902b1f4064544ecac1b4ce36e80ea9056c6bf67fa980e87d450eb97de9"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.tsv.gz",
+      "sha256": "f6f98f57c0702c69021cf67bd32c52404beb561c575d0f2bd27914bb5ff297e2"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.json",
+      "sha256": "9c6491da3c483cf42bf8fabe1d7d2384f2949638712ca6d9af127bd1e0472c5e"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.tsv.gz",
+      "sha256": "db183dbf2e37a290721a48274e76c21ba905210fb0362641cdf8a49d90ab1648"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.json",
+      "sha256": "94688953455ddab00327ebe3b958d1bc2a49c6fa5efc642ae80a2db04109a464"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.tsv.gz",
+      "sha256": "c1948a6d627491e89ee80d722866ecc8bcc7b7179dc3cd0009f8389e76be2a41"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.json",
+      "sha256": "9d9fd7512269c914aa18e75b1e495b806783f5d29018a4b08ee6f8eddc5c99be"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.tsv.gz",
+      "sha256": "862214934d3b1ccd9dcd16c7e10601be919948c8884d2b9cc5c1b8866283edbd"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.json",
+      "sha256": "8eb5f9e2117e24dc5c026f462824b459e7b4e6a7bcf6b5dd09fa321fb3fce0be"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.tsv.gz",
+      "sha256": "e4d917342858188e9934b3ff5a9f001b190670ff49765996eeff42cac6c31af4"
+    },
+    {
+      "path": "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.json",
+      "sha256": "945ad65f92a520f76a09ada7b8092b3a5cfb605a554b16f181a953a109dc9e91"
+    },
+    {
+      "path": "processed\\GSE245386\\sample_cell_counts.tsv",
+      "sha256": "e8e17f5a01c6a16b5a81aed49b78c4a953c2966a19b986969b4fbc179e701dc3"
+    },
+    {
+      "path": "results\\GSE245386\\primary__communication.tsv.gz",
+      "sha256": "96a5c4b0189b16ac1bb6ec30b6f595be0c2edc6d77bcbbacfa2d87c6151cf43f"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE245386\\singlet__communication.tsv.gz",
+      "sha256": "188dd51cd69a9edab7fc39c5a621d2d041c2821fd825a51a6a64045ff523afe9"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE245386\\reference_singlet__communication.tsv.gz",
+      "sha256": "587a21152dc6bc64c0900a37fe301f2eebea04ed94e0077dbcf0c12455d866a8"
+    },
+    {
+      "path": "revision_analysis\\results\\GSE245386\\reference_only__communication.tsv.gz",
+      "sha256": "1c561a77c42b708084fa9838e42e61a34ccfb63c76d7bd4739965c6e0f241586"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841720.tsv.gz",
+      "sha256": "3097e2689dcf1ae3cdde14b51d3f1c3f227d7f408192a81078a00b983525a502"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841720.json",
+      "sha256": "57f99ed3a6987adcf85cee269441f595aae64a189e2ccb5810c8595883806b90"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841721.tsv.gz",
+      "sha256": "9385969e08edb5244c8946fb6ddf93b1ada98771d1610a0852ddd19faf1119b0"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841721.json",
+      "sha256": "27eda598d53ab1b082f526db8efe689b49d4de855266ecbe0e9b6a03ade13d83"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841722.tsv.gz",
+      "sha256": "70c1d47ce9c8fb751a188949e3fb0949a7e173d01a8cad9688d12d9dd5e7182d"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841722.json",
+      "sha256": "79b2f7d4cc299395f799aac9461a0d1508156e5b169c5910257c7c132489cccb"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841723.tsv.gz",
+      "sha256": "9603adce25f0d5e4179ca6946c93fc65d493a06d6ea80bf8c0f92ff312e852e1"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841723.json",
+      "sha256": "798ed42f4d6c3d5d1a6f4dd04952aa49ef476d001c2770200d9701ea246e7a5a"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841724.tsv.gz",
+      "sha256": "d85d42c9e2d39bb080b9c9b9e5e692608040510b6e758280c5ecbd0d024c8925"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\primary__GSM7841724.json",
+      "sha256": "04d6e63dc84ca7eba34e2f3e393c961c1207d0d37c474204068b2ce805d6631e"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.tsv.gz",
+      "sha256": "059bf93cd7de497e1d7d587240ef730920a775696e3cd8494b53537fd0c52810"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.json",
+      "sha256": "9f322f659e8c05191b3119bff3814eab6c89b51da46fd0e40719ed2e98c83e63"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.tsv.gz",
+      "sha256": "4d232a140c7579daad1b702115d759f91afb704a68c3740fb96a2008d3591753"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.json",
+      "sha256": "8b9edb6392d8ace35859f65de8dcc2bb9f572c606407cb7d9f70815659a1683c"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.tsv.gz",
+      "sha256": "4d56257aff0456b631741fb5c5d8f83dd3504e79b058056b1599191a823515de"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.json",
+      "sha256": "99e2ba62b737541c6b7ad9790f1189f1592173a6b0965c184058d066dbeca586"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.tsv.gz",
+      "sha256": "09a0e7d607531ed0131fb776d881fa43bfbf5f0680b80c4effe4ea1b4d4f23ba"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.json",
+      "sha256": "96a4285b2c0498e720a76f5ecc3f2b15cb4e3395a89f97b30106955c26a68611"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.tsv.gz",
+      "sha256": "05e361c3db23f1f4477bd4df7725053e8bec460d940feb5f47edee212be8d861"
+    },
+    {
+      "path": "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.json",
+      "sha256": "5ec73293bc3488203aefb7e78296410bfc1607627b542395298a13fa869bd1d6"
+    }
+  ],
+  "inference_unit": "animal library",
+  "missing_scores_imputed": false,
+  "liana_internal_pvalues_used_for_disease_inference": false
+}

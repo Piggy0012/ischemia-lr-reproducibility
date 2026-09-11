@@ -1,0 +1,14 @@
+{
+  "rows_original": 24973,
+  "genes_after_symbol_aggregation": 24957,
+  "samples_used": 24,
+  "cell_types_used": [
+    "Astrocyte",
+    "Endothelial"
+  ],
+  "data_scale": "author-provided normalized counts; log2(x+1) for inference",
+  "model": "paired t-test on log2 normalized expression, BH within cell type; Welch sensitivity",
+  "control": "contralateral hemisphere, not sham",
+  "excluded_mapping_ambiguity": "12 ipsilateral pericyte/microglia GSM titles conflict with matrix descriptions; PC/MG excluded from formal validation",
+  "no_claim": "This analysis does not validate single-cell subtype identity, physical communication or causal barrier function."
+}

@@ -1,0 +1,7 @@
+{
+  "snapshot": "executed_decontx_run.R",
+  "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+  "recorded_before_model_execution": false,
+  "matches_sha256_recorded_before_model_execution": true,
+  "reconstruction": "Exact original text recovered by reversing the maxIter parameterization addition; cryptographic hash matches pre-run input audit."
+}

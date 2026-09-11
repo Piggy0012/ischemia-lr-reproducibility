@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "original_v2_payload_files_verified": 1596,
+  "original_scientific_payload_bytes_preserved": true,
+  "updated_repository_metadata_with_exact_original_backups": [
+    ".zenodo.json",
+    "CITATION.cff",
+    "README.md"
+  ],
+  "environment_payload_files_verified": 269,
+  "all_named_key_data_present": true,
+  "sorted_all_gene_descriptive_rows": 49914,
+  "key_data": [
+    {
+      "path": "work/processed/GSE174574/marker_panel.json",
+      "bytes": 1506,
+      "sha256": "22342372dc56e0570d7394c60fee465d69aa29af0def9b2f4984fd24e7c24ed8"
+    },
+    {
+      "path": "work/processed/GSE245386/marker_panel.json",
+      "bytes": 1506,
+      "sha256": "22342372dc56e0570d7394c60fee465d69aa29af0def9b2f4984fd24e7c24ed8"
+    },
+    {
+      "path": "work/repro_third_cohort/processed/GSE332910/marker_panel.json",
+      "bytes": 1506,
+      "sha256": "22342372dc56e0570d7394c60fee465d69aa29af0def9b2f4984fd24e7c24ed8"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv",
+      "bytes": 1172,
+      "sha256": "0d5b6a6492149f13f064d46dd24b36713f81097ec8502cf3605a930e4f017e68"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_effects.tsv.gz",
+      "bytes": 16291,
+      "sha256": "51872055c983ac205cbb53ab111b511da28a6a91d1c5b613f6c0e3c5ca27e8b7"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_audit.json",
+      "bytes": 4041,
+      "sha256": "a435f9947064d41237d6d0db247d2053b9002a8b999a91da0c9d4be12e217ac1"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz",
+      "bytes": 1607419,
+      "sha256": "90ed10f65ef17756bdc3cf205e13fb66821c0a7c8537faf6988caceafd4c3760"
+    }
+  ],
+  "repository_entry_local_links_verified": [
+    {
+      "document": "README.md",
+      "target": "RUNNING.md"
+    },
+    {
+      "document": "README.md",
+      "target": "ENVIRONMENT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "FILE_INDEX.tsv"
+    },
+    {
+      "document": "README.md",
+      "target": "FIGURE_SOURCE_INDEX.tsv"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "work/processed/GSE174574/marker_panel.json"
+    },
+    {
+      "document": "README.md",
+      "target": "work/processed/GSE245386/marker_panel.json"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_third_cohort/processed/GSE332910/marker_panel.json"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_effects.tsv.gz"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_audit.json"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/sorted_fixed_component_effects_ci.tsv"
+    },
+    {
+      "document": "README.md",
+      "target": "work/sorted_rna/diff_expression.tsv.gz"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/tables/"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/figure_source_data/"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_liana_rank_diagnostic/"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_third_liana/"
+    },
+    {
+      "document": "README.md",
+      "target": "outputs/reproducibility_v2/validation/relocated_cached_pipeline/"
+    },
+    {
+      "document": "README.md",
+      "target": "provenance/v2_archive/release_integrity.json"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_null_plan.md"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_upstream_correction_note.md"
+    },
+    {
+      "document": "README.md",
+      "target": "provenance/v2_archive/"
+    },
+    {
+      "document": "README.md",
+      "target": "FILE_INDEX.tsv"
+    },
+    {
+      "document": "README.md",
+      "target": "work/repro_v3_environment/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE"
+    },
+    {
+      "document": "README.md",
+      "target": "CITATION.cff"
+    },
+    {
+      "document": "README.md",
+      "target": "AUTHOR_DECLARATIONS.md"
+    },
+    {
+      "document": "RUNNING.md",
+      "target": "ENVIRONMENT.md"
+    },
+    {
+      "document": "RUNNING.md",
+      "target": "outputs/reproducibility_v2/validation/relocated_cached_pipeline/"
+    },
+    {
+      "document": "RUNNING.md",
+      "target": "work/repro_v3_environment/report.md"
+    },
+    {
+      "document": "RUNNING.md",
+      "target": "FIGURE_SOURCE_INDEX.tsv"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/environment.yml"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/requirements-python.lock.txt"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/python_environment.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/renv.lock"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/R_lock_capture_audit.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/R_package_descriptions.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/R_sessionInfo.txt"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/environment_verification.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/R_restore_smoke_audit.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/restore_r_environment.R"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_v3_environment/report.md"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_literature/liana_pr261_source_provenance.json"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_literature/liana_merge_d421137_aggregate.py"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "work/repro_literature/liana_merge_d421137_extracted_aggregation.py"
+    },
+    {
+      "document": "ENVIRONMENT.md",
+      "target": "outputs/reproducibility_v2/tables/rank_upstream_audit.json"
+    }
+  ],
+  "git_text_conversion_disabled": true,
+  "files_at_least_100_MiB": [],
+  "v3_manuscript_synchronized": false,
+  "independent_framework_runtime_synchronized": false,
+  "public_remote_existence_asserted": false
+}

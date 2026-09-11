@@ -1,0 +1,70 @@
+{
+  "status": "complete",
+  "dataset": "GSE332910",
+  "sample": "GSM9755194",
+  "condition": "MCAO",
+  "selection": "original primary labels; QC-passing assigned classes with >=30 cells per library",
+  "matrix_shape": [
+    7534,
+    30348
+  ],
+  "nnz": 12919980,
+  "csr_array_bytes": 103389980,
+  "matrix_format": "CSR cells x submitted gene symbols; raw integer UMI",
+  "context_counts": {
+    "Oligodendrocyte": 1869,
+    "Neuron": 1827,
+    "Astrocyte": 1188,
+    "Microglia": 810,
+    "OPC": 611,
+    "Myeloid": 342,
+    "Endothelial": 248,
+    "Erythroid": 171,
+    "Ependymal": 136,
+    "Choroid": 120,
+    "Pericyte": 118,
+    "Neutrophil": 52,
+    "Fibroblast": 42
+  },
+  "source_raw_shape": [
+    30348,
+    21218,
+    35230182
+  ],
+  "all_raw_entries_streamed": 35230182,
+  "source_gene_major_unique": true,
+  "total_umi_and_detected_genes_match_qc": true,
+  "n_verified_independent_animals": null,
+  "input_qc_sha256": "9312226fab858566a1483b45a0257965297252ddff8e1070c834f6ab84cc0bd8",
+  "input_gene_sha256": "b7c0cdb0079482565b41d4945cc394cb95472cf42826a6d15f7c60605208c55f",
+  "input_matrix_sha256": "30634f69eeb97da665f541fc46348aafade00c4f06303b1fc9efd50c017b24b8",
+  "output_sha256": {
+    "counts.npz": "4630bfb42855fdf80266f71bd18e96c986648857fd563e3f6a9640a76c64f690",
+    "cells.tsv.gz": "a8d3afadaf864ec76cddfe83315bd2e3fa4aa6d6a9d09afbfc4b31e8e09d3224",
+    "genes.tsv.gz": "16ede491a0bb6f2621eec83e229c8bf9370bb6a15762abd0138546c630164aba"
+  },
+  "memory_observations": [
+    {
+      "rss_bytes": 142471168,
+      "peak_working_set_bytes": 155906048,
+      "system_available_bytes": 822083584
+    },
+    {
+      "rss_bytes": 250224640,
+      "peak_working_set_bytes": 281567232,
+      "system_available_bytes": 851947520
+    },
+    {
+      "rss_bytes": 243437568,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 854466560
+    },
+    {
+      "rss_bytes": 248209408,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 865349632
+    }
+  ],
+  "script_sha256": "c963f76274bd9ebc60c76f4bc8420e19638b35d3cb8cfe34b298e882b09f830d",
+  "elapsed_seconds": 31.890999999945052
+}

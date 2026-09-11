@@ -1,0 +1,58 @@
+Package: decontX
+Title: Decontamination of single cell genomics data
+Version: 1.10.0
+Authors@R: 
+    c(person("Yuan", "Yin", , "yuan_yin@outlook.com", role = c("aut"),
+           comment = c(ORCID = "0000-0001-9261-6061")),
+      person("Masanao", "Yajima", , "yajima@bu.edu", role = c("aut"),
+           comment = c(ORCID = "0000-0002-7583-3707")),
+      person("Joshua", "Campbell", , "camp@bu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0780-8662")))
+Description: This package contains implementation of DecontX (Yang et
+        al. 2020), a decontamination algorithm for single-cell RNA-seq,
+        and DecontPro (Yin et al. 2023), a decontamination algorithm
+        for single cell protein expression data. DecontX is a novel
+        Bayesian method to computationally estimate and remove RNA
+        contamination in individual cells without empty droplet
+        information. DecontPro is a Bayesian method that estimates the
+        level of contamination from ambient and background sources in
+        CITE-seq ADT dataset and decontaminate the dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: BiocStyle, dplyr, knitr, rmarkdown, scran,
+        SingleCellMultiModal, TENxPBMCData, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: celda, dbscan, DelayedArray, ggplot2, Matrix (>= 1.5.3),
+        MCMCprecision, methods, patchwork, plyr, Rcpp (>= 0.12.0),
+        RcppParallel (>= 5.0.1), reshape2, rstan (>= 2.18.1),
+        rstantools (>= 2.2.0), S4Vectors, scater, Seurat,
+        SingleCellExperiment, SummarizedExperiment, withr
+Biarch: true
+Depends: R (>= 4.3.0)
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+        RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>=
+        2.18.0)
+SystemRequirements: GNU make
+VignetteBuilder: knitr
+biocViews: SingleCell, Bayesian
+Config/pak/sysreqs: libcairo2-dev cmake libfontconfig1-dev
+        libfreetype6-dev libfribidi-dev libglpk-dev make
+        libharfbuzz-dev libicu-dev libjpeg-dev libpng-dev libtiff-dev
+        libuv1-dev libwebp-dev libxml2-dev libssl-dev perl python3
+        zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 13:01:54 UTC
+RemoteUrl: https://github.com/bioc/decontX
+RemoteRef: RELEASE_3_23
+RemoteSha: ffb4063aff1ced121ab403769911f9cba1b8a0c0
+NeedsCompilation: yes
+Packaged: 2026-05-01 09:54:40 UTC; root
+Author: Yuan Yin [aut] (ORCID: <https://orcid.org/0000-0001-9261-6061>),
+  Masanao Yajima [aut] (ORCID: <https://orcid.org/0000-0002-7583-3707>),
+  Joshua Campbell [aut, cre] (ORCID:
+    <https://orcid.org/0000-0003-0780-8662>)
+Maintainer: Joshua Campbell <camp@bu.edu>
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-05-01 10:15:47 UTC; windows
+Archs: x64

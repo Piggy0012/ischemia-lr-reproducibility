@@ -1,0 +1,16 @@
+{
+  "R_version": "4.6.1",
+  "platform": "x86_64-w64-mingw32",
+  "Bioconductor_version": "3.23",
+  "renv_version": "1.2.4",
+  "decontX_version": "1.10.0",
+  "locked_packages": 232,
+  "all_locked_versions_match_installed": true,
+  "lockfile_generated_by": "renv::lockfile_create(type='all')",
+  "original_analysis_library": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_decontx/rlibrary",
+  "isolated_lock_tooling_library": "C:/Users/admin/Documents/Codex/2026-09-09/duo/work/repro_v3_environment/renv_tooling",
+  "installed_package_count": 246,
+  "original_analysis_library_modified": false,
+  "full_fresh_restore_tested": false,
+  "model_fit_performed": false
+}

@@ -1,0 +1,6 @@
+sample	time	submitted_spots	qc_spots	matched_coordinates	min_umis	median_umis	coordinate_source
+GSM7437221	Control	2417	2416	2417	327	25087.0	sample-specific alignment JSON joined by verified Visium barcode-to-row/col lookup
+GSM7437222	Day 1	2587	2498	2587	76	11640.0	sample-specific alignment JSON joined by verified Visium barcode-to-row/col lookup
+GSM7437223	Day 3	2573	2548	2573	84	11928.0	sample-specific alignment JSON joined by verified Visium barcode-to-row/col lookup
+GSM7437224	Day 7a	2596	2591	2596	215	13084.0	sample-specific alignment JSON joined by verified Visium barcode-to-row/col lookup
+GSM7437225	Day 7b	1926	1916	1926	292	13536.0	sample-specific alignment JSON joined by verified Visium barcode-to-row/col lookup

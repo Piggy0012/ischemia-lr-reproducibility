@@ -1,0 +1,5 @@
+dataset	sample	condition	config	cell_type	n_cells	total_estimated_counts
+GSE174574	GSM5319988	Sham	primary	Astrocyte	370	1050502.5765444888
+GSE174574	GSM5319988	Sham	primary	Endothelial	1360	3518392.9055938516
+GSE174574	GSM5319988	Sham	reference_singlet	Astrocyte	268	810390.5309561307
+GSE174574	GSM5319988	Sham	reference_singlet	Endothelial	1264	3311362.1626621434

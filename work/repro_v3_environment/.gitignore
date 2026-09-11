@@ -1,0 +1,8 @@
+renv_tooling/
+renv_bootstrap/
+restore_smoke_library*/
+r-library/
+renv/library/
+renv/cache/
+__pycache__/
+*.pyc

@@ -1,0 +1,25 @@
+sample	cell_type	condition	replicate_index	unit	pairing
+cAC_1	Astrocyte	Contralateral	1	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cAC_2	Astrocyte	Contralateral	2	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cAC_3	Astrocyte	Contralateral	3	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cAC_4	Astrocyte	Contralateral	4	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cAC_5	Astrocyte	Contralateral	5	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cAC_6	Astrocyte	Contralateral	6	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_1	Astrocyte	Ipsilateral	1	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_2	Astrocyte	Ipsilateral	2	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_3	Astrocyte	Ipsilateral	3	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_4	Astrocyte	Ipsilateral	4	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_5	Astrocyte	Ipsilateral	5	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sAC_6	Astrocyte	Ipsilateral	6	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_1	Endothelial	Contralateral	1	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_2	Endothelial	Contralateral	2	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_3	Endothelial	Contralateral	3	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_4	Endothelial	Contralateral	4	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_5	Endothelial	Contralateral	5	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+cEC_6	Endothelial	Contralateral	6	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_1	Endothelial	Ipsilateral	1	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_2	Endothelial	Ipsilateral	2	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_3	Endothelial	Ipsilateral	3	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_4	Endothelial	Ipsilateral	4	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_5	Endothelial	Ipsilateral	5	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported
+sEC_6	Endothelial	Ipsilateral	6	independent pool of 3-4 mice	matched by deposited replicate index; unpaired sensitivity reported

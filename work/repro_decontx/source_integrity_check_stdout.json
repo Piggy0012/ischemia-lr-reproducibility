@@ -1,0 +1,114 @@
+{
+  "all_declared_source_hashes_match": true,
+  "completed_outputs_checked": 12,
+  "records": [
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319987",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319988",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319989",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319990",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319991",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE245386",
+      "sample": "GSM7841720",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": true
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE245386",
+      "sample": "GSM7841721",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 0,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE245386",
+      "sample": "GSM7841722",
+      "maxIter": 500,
+      "model_sources_verified": 3,
+      "postprocessing_sources_verified": 2,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE245386",
+      "sample": "GSM7841723",
+      "maxIter": 500,
+      "model_sources_verified": 4,
+      "postprocessing_sources_verified": 2,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx",
+      "dataset": "GSE245386",
+      "sample": "GSM7841724",
+      "maxIter": 500,
+      "model_sources_verified": 4,
+      "postprocessing_sources_verified": 2,
+      "audit_recovery_present": false
+    },
+    {
+      "directory": "repro_decontx_maxiter2000",
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "maxIter": 2000,
+      "model_sources_verified": 4,
+      "postprocessing_sources_verified": 2,
+      "audit_recovery_present": false
+    }
+  ]
+}

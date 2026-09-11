@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "0d87f67b49d7fb017a95265c4fae18aff19d4640",
+  "commit_url": "https://github.com/scverse/liana/commit/0d87f67b49d7fb017a95265c4fae18aff19d4640",
+  "retrieved": "2026-09-09",
+  "upstream_url": "https://raw.githubusercontent.com/saezlab/liana-py/main/src/liana/resource/omni_resource.csv",
+  "mouse_rows": 3989,
+  "files": {
+    "omni_resource.csv": "65e46a428818c0600de66c1574c94ff2f5dc80859998321c03a956d330dd67fb",
+    "mouseconsensus.csv": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9"
+  }
+}

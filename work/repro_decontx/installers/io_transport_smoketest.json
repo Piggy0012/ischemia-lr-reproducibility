@@ -1,0 +1,10 @@
+{
+  "npz_compression_level": 1,
+  "gzip_compression_level": 1,
+  "npz_full_readback_exact": true,
+  "matrix_market_writer": "scipy.io.mmwrite, precision=17",
+  "matrix_market_full_readback_exact": true,
+  "matrix_market_gzip_header_and_dimensions_verified": true,
+  "io_threads": 1,
+  "scipy_version": "1.18.1"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "filename": "Mouse_Isocortex_Hippocampus.pkl",
+    "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_IsocortexHPF_Yao/v1/Mouse_Isocortex_Hippocampus.pkl",
+    "version": "v1",
+    "date": "2023-07-16 14:42:07.696736",
+    "details": "cell types from the adult mouse isocortex (neocortex) and hippocampal formation",
+    "No_celltypes": 42,
+    "source": "https://doi.org/10.1016/j.cell.2021.04.021",
+    "bytes": 680650,
+    "sha256": "22a4b0ebd7503f16a58056c0f6eded00acd0682be3f764056ef2e6d0f7bc68af"
+  },
+  {
+    "filename": "Mouse_Whole_Brain.pkl",
+    "url": "https://celltypist.cog.sanger.ac.uk/models/Adult_MouseBrain_Yao/v1/Mouse_Whole_Brain.pkl",
+    "version": "v1",
+    "date": "2024-04-30 17:19:37.721313",
+    "details": "cell types from the whole adult mouse brain",
+    "No_celltypes": 334,
+    "source": "https://doi.org/10.1038/s41586-023-06812-z",
+    "bytes": 7672163,
+    "sha256": "1e11d918da423015956341e68b56b585ae6e0887da2a23ab8005429e1267ca1f"
+  }
+]

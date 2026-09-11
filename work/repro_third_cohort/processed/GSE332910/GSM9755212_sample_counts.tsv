@@ -1,0 +1,16 @@
+dataset	sample	condition	config	cell_type	n_cells	total_target_counts
+GSE332910	GSM9755212	Sham	primary	Astrocyte	1259	3544917
+GSE332910	GSM9755212	Sham	primary	Endothelial	203	1014641
+GSE332910	GSM9755212	Sham	primary	Pericyte	102	401029
+GSE332910	GSM9755212	Sham	primary	Smooth_muscle	4	22928
+GSE332910	GSM9755212	Sham	primary	Fibroblast	57	295606
+GSE332910	GSM9755212	Sham	primary	Microglia	959	2911649
+GSE332910	GSM9755212	Sham	primary	Myeloid	192	688927
+GSE332910	GSM9755212	Sham	primary	Oligodendrocyte	1505	3825736
+GSE332910	GSM9755212	Sham	primary	OPC	553	1836916
+GSE332910	GSM9755212	Sham	primary	Neuron	1521	7011035
+GSE332910	GSM9755212	Sham	primary	Ependymal	7	43479
+GSE332910	GSM9755212	Sham	primary	Choroid	30	145774
+GSE332910	GSM9755212	Sham	primary	Lymphocyte	2	13410
+GSE332910	GSM9755212	Sham	primary	Neutrophil	2	14870
+GSE332910	GSM9755212	Sham	primary	Erythroid	55	280405

@@ -1,0 +1,6 @@
+sender	receiver	ligand	receptor	dataset	config	mean_control_score	mean_stroke_score	score_difference	eligible_05	eligible_10	eligible_20
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE332910	primary	0.02986041943307381	0.10896960561538029	0.07910918618230647	True	False	False
+Astrocyte	Endothelial	Timp3	Kdr	GSE332910	primary	0.7983306071488602	0.8416393263860437	0.04330871923718349	True	True	True
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE332910	primary	1.6744516655367436	1.6703955869636349	-0.004056078573108746	True	True	True
+Endothelial	Astrocyte	Plat	Lrp1	GSE332910	primary	0.6555160680090605	0.9336862142261139	0.2781701462170534	True	True	True
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE332910	primary	0.053015813567456604	0.0969431775266328	0.043927363959176194	True	False	False

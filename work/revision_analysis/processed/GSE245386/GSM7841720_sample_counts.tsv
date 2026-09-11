@@ -1,0 +1,10 @@
+dataset	sample	condition	config	cell_type	n_cells	total_target_counts
+GSE245386	GSM7841720	Sham	singlet	Astrocyte	748	3693507
+GSE245386	GSM7841720	Sham	singlet	Endothelial	1958	15113629
+GSE245386	GSM7841720	Sham	singlet	Pericyte	487	2249972
+GSE245386	GSM7841720	Sham	reference_singlet	Astrocyte	404	2802576
+GSE245386	GSM7841720	Sham	reference_singlet	Endothelial	1712	14331998
+GSE245386	GSM7841720	Sham	reference_singlet	Pericyte	221	1077740
+GSE245386	GSM7841720	Sham	reference_only	Astrocyte	433	2871202
+GSE245386	GSM7841720	Sham	reference_only	Endothelial	2272	16481413
+GSE245386	GSM7841720	Sham	reference_only	Pericyte	235	1106599

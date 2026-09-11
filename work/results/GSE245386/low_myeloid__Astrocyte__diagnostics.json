@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE245386",
+  "config": "low_myeloid",
+  "cell_type": "Astrocyte",
+  "n_samples": 5,
+  "samples_by_condition": {
+    "Sham": 3,
+    "MCAO": 2
+  },
+  "tested_genes": 13433,
+  "fdr05": 847,
+  "fdr05_abslog2fc05": 847,
+  "min_cells": 273,
+  "n_cpus": 1,
+  "software": "PyDESeq2",
+  "replication_level": "exploratory: validation MCAO n=2"
+}

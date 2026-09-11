@@ -1,0 +1,23 @@
+{
+  "title": "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zhu, Sihuan",
+      "orcid": "0009-0005-9705-0585",
+      "affiliation": "Anhui University of Chinese Medicine"
+    }
+  ],
+  "description": "Code, environment records, pseudobulk counts, complete tests and label permutations, full ligand–receptor network scores, implementation diagnostics, and ambient-RNA sensitivity outputs supporting an exploratory cross-cohort reproducibility assessment. Native and diagnostic aggregation and raw versus estimated decontaminated counts are distinguished. Original GEO downloads remain traceable by accession and checksum.",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "2.0.0",
+  "keywords": [
+    "cerebral ischemia",
+    "cell-cell communication",
+    "reproducibility",
+    "ligand receptor",
+    "LIANA",
+    "DecontX"
+  ]
+}

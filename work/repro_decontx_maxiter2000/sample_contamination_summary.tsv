@@ -1,0 +1,2 @@
+dataset	sample	n_cells	mean_estimated_contamination	median_estimated_contamination	q25_estimated_contamination	q75_estimated_contamination	q95_estimated_contamination	raw_total	corrected_total	removed_total_fraction	decontX_version	elapsed_seconds
+GSE174574	GSM5319992	8080	0.12193122370562313	0.0613947998261188	0.0423610694959446	0.09891224078643167	0.5416050172199564	34493405	30041406.223684404	0.12906811537787	1.10.0	210.7942750453949

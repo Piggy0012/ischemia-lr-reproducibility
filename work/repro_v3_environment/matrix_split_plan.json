@@ -1,0 +1,15 @@
+{
+  "actual_split_performed": false,
+  "cohort_payloads": {
+    "GSE174574": {
+      "files": 84,
+      "uncompressed_bytes": 916813553
+    },
+    "GSE245386": {
+      "files": 60,
+      "uncompressed_bytes": 1513120286
+    }
+  },
+  "all_cohort_payloads_below_2GiB": true,
+  "note": "NPZ compression unchanged; each newly packaged cohort requires its own checksum/member manifest. Original global manifest must not be copied as if valid for each subset."
+}

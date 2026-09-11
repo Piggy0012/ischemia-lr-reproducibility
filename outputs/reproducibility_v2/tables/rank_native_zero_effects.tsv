@@ -1,0 +1,5 @@
+config	dataset	n_fixed_candidates	n_zero_priority_disease_effect	n_edges_at_rank_one_in_all_animals	n_edges_at_rank_one_in_any_animal	fraction_edges_at_rank_one_in_all_animals	n_zero_effect_explained_by_all_animal_rank_one
+primary	GSE174574	187	9	9	51	0.0481283422459893	9
+primary	GSE245386	187	2	2	34	0.0106951871657754	2
+reference_singlet	GSE174574	174	8	8	47	0.04597701149425287	8
+reference_singlet	GSE245386	174	1	1	24	0.005747126436781609	1

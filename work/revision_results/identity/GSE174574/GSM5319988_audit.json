@@ -1,0 +1,83 @@
+{
+  "dataset": "GSE174574",
+  "sample": "GSM5319988",
+  "n_qc": 8512,
+  "models": {
+    "whole_brain": {
+      "model": "Mouse_Whole_Brain.pkl",
+      "matched_features": 5070,
+      "model_features": 5596,
+      "compatibility": {
+        "checked_cells": 256,
+        "decision_max_abs_error": 0.0,
+        "labels_identical": true,
+        "probabilities_identical": true
+      },
+      "majority_voting": false,
+      "probability_note": "One-versus-rest sigmoid score, not a calibrated posterior or ground truth"
+    },
+    "cortex_hippocampus": {
+      "model": "Mouse_Isocortex_Hippocampus.pkl",
+      "matched_features": 3268,
+      "model_features": 3383,
+      "compatibility": {
+        "checked_cells": 256,
+        "decision_max_abs_error": 0.0,
+        "labels_identical": true,
+        "probabilities_identical": true
+      },
+      "majority_voting": false,
+      "probability_note": "One-versus-rest sigmoid score, not a calibrated posterior or ground truth"
+    }
+  },
+  "scrublet": {
+    "expected_doublet_rate": 0.05,
+    "sim_doublet_ratio": 2.0,
+    "n_prin_comps": 30,
+    "random_state": 20260910,
+    "threshold": 0.21701218848949314,
+    "n_simulated": 17024,
+    "n_predicted": 303,
+    "predicted_fraction": 0.035596804511278196,
+    "automatic_threshold": true,
+    "ambient_RNA_corrected": false
+  },
+  "rule_target_counts": {
+    "Unassigned": 3672,
+    "Endothelial": 1360,
+    "Microglia": 1275,
+    "Choroid": 425,
+    "Myeloid": 403,
+    "Smooth_muscle": 374,
+    "Astrocyte": 370,
+    "Oligodendrocyte": 234,
+    "Pericyte": 115,
+    "Neutrophil": 110,
+    "Fibroblast": 69,
+    "Ependymal": 59,
+    "Lymphocyte": 27,
+    "Erythroid": 16,
+    "Neuron": 2,
+    "OPC": 1
+  },
+  "reference_target_counts": {
+    "Endothelial": 4743,
+    "Microglia": 1865,
+    "Smooth_muscle": 383,
+    "Choroid": 348,
+    "Astrocyte": 320,
+    "Macrophage": 277,
+    "Oligodendrocyte": 177,
+    "Dendritic": 106,
+    "Pericyte": 52,
+    "Fibroblast": 48,
+    "Monocytes": 41,
+    "Lymphocyte": 36,
+    "Ependymal": 35,
+    "Neuron/Other": 24,
+    "ABC": 24,
+    "Tanycyte": 22,
+    "OEC": 7,
+    "Hypendymal": 4
+  }
+}

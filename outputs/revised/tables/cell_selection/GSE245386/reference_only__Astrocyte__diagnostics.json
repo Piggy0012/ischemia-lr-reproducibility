@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE245386",
+  "config": "reference_only",
+  "cell_type": "Astrocyte",
+  "n_samples": 5,
+  "samples_by_condition": {
+    "Sham": 3,
+    "MCAO": 2
+  },
+  "tested_genes": 13119,
+  "fdr05": 920,
+  "fdr05_abslog2fc05": 920,
+  "min_cells": 190,
+  "n_cpus": 1,
+  "software": "PyDESeq2",
+  "replication_level": "exploratory: validation MCAO n=2"
+}

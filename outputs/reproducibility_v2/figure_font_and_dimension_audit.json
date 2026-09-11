@@ -1,0 +1,269 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "figure": "Figure1_samples_and_marker_groups",
+      "pixel_dimensions": [
+        2880,
+        2260
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/DCYSSM+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/FAGARN+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "Figure1_samples_and_marker_groups.png": "46b01a284b5135310ddc89dda1a3e4992b9b3e77646034f5f7f57f6147e9cabc",
+        "Figure1_samples_and_marker_groups.pdf": "735038054f839312ba298c681287db4f792a31f39bf9302d1c32d668e36d5bac",
+        "Figure1_samples_and_marker_groups.svg": "ad3b603ce9b1d79ac69dec0da0f845bdf2ed6d1e775f76f901a14d3e0e4228a7"
+      }
+    },
+    {
+      "figure": "Figure2_expression_priority_and_null",
+      "pixel_dimensions": [
+        2880,
+        2720
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/GCPTDE+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/FAGARN+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "Figure2_expression_priority_and_null.png": "9bac339a816aed5d48c13a1121744cb51b964f42fbf1a924df6b6ff9bb8104f0",
+        "Figure2_expression_priority_and_null.pdf": "3f3d4b65def7bab7b055629787f695effa40cc396e8b8bef13288c051d7349e4",
+        "Figure2_expression_priority_and_null.svg": "c63ce09b9dfe36480cf46dadc2db2544950ad51d1694df804c1aaef5b0705f6c"
+      }
+    },
+    {
+      "figure": "Figure3_implementation_and_rank_universe",
+      "pixel_dimensions": [
+        2880,
+        2880
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/DCTTCM+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/GUVBEW+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "Figure3_implementation_and_rank_universe.png": "4bd44740fd33ce1c6544119a2fd2e00086b612f33e3771f0edeff413a2074193",
+        "Figure3_implementation_and_rank_universe.pdf": "3169cc541a6e2cca0536932b061e2e8712c39fc25677bed5f638f8a038363ea1",
+        "Figure3_implementation_and_rank_universe.svg": "c191250ed57b38d5c23ed5349149616db0734e0ed64389a5289e5a705f84d089"
+      }
+    },
+    {
+      "figure": "Figure4_ambient_sensitivity",
+      "pixel_dimensions": [
+        2880,
+        3000
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/DMUSTB+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/GUVBEW+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "Figure4_ambient_sensitivity.png": "1578deb1f7d1a5a28fc3cd75b1daddeac2bf15008115a372c2ab7258d0169d12",
+        "Figure4_ambient_sensitivity.pdf": "45db9a65d391875ba025c360f719a7096a0f824f2a14eea9a00878b358b427e2",
+        "Figure4_ambient_sensitivity.svg": "ea1ff36954e5393ca595e5aa41c11c160d1031736e189b35d2db574d7144073b"
+      }
+    },
+    {
+      "figure": "Figure5_third_cohort_transfer",
+      "pixel_dimensions": [
+        2880,
+        2120
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/FXRCUP+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/FAGARN+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "Figure5_third_cohort_transfer.png": "f8cf96f9c568e122fe1f991ebd00d2b30c432716501c044f12e4640a31471f7d",
+        "Figure5_third_cohort_transfer.pdf": "cf2a49c74a7ee82283568d980ae73060e856d0e125de6a2bdbe1d76533b57807",
+        "Figure5_third_cohort_transfer.svg": "79060a1c26daf443fa1a9a51b99f1bdb4e4a763d1e91f5306e16d49905709bb1"
+      }
+    },
+    {
+      "figure": "FigureS1_reference_identity",
+      "pixel_dimensions": [
+        2921,
+        3284
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/EKMNYZ+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/GUVBEW+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "FigureS1_reference_identity.png": "69ae1f7a1e24d1ede95706ba3430bee6c7196e7d05df324b0678bf40db44505e",
+        "FigureS1_reference_identity.pdf": "0bf7c2a9966908d6769af0ca6f5df598e7eb74e5204c7d7e5f54c0e3acbbe2b9",
+        "FigureS1_reference_identity.svg": "0ccfe64fbcd4c2ec020d27edbb53e4a1310a0351496d237c7ef89142725b65b7"
+      }
+    },
+    {
+      "figure": "FigureS2_doublet_distributions",
+      "pixel_dimensions": [
+        2926,
+        3406
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/GZFVXS+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/CBPGPS+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "FigureS2_doublet_distributions.png": "c5a368c72b1619a172b750a426d9dcae731a5731adb2ec4754bde6d2e38ec93d",
+        "FigureS2_doublet_distributions.pdf": "cd588fd17d46678952efc0dcf4514786dc1597dbdc1a68955acd614c66abfe96",
+        "FigureS2_doublet_distributions.svg": "5693f41ba4b1db817910e8851b91f3615d5a8586cab445c9f7285d46402e6bd3"
+      }
+    },
+    {
+      "figure": "FigureS3_barrier_selection",
+      "pixel_dimensions": [
+        2922,
+        3012
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/CDVNFE+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/CQJXMA+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "FigureS3_barrier_selection.png": "ac512cbec6207a489c70c1c62bb3341ebf60557efceeca577c1a304b1467a4a9",
+        "FigureS3_barrier_selection.pdf": "4fdede01deb0a3cf56cddea5e981496a74366048811352af1afddbf5dc99034e",
+        "FigureS3_barrier_selection.svg": "66c2fd9306944570900d25d5c98feb51187d230009927db6f9f9e6e0efbe19a0"
+      }
+    },
+    {
+      "figure": "FigureS4_sorted_effects_and_intervals",
+      "pixel_dimensions": [
+        2880,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/BZKQVT+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/CECFXM+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/CQJXMA+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "FigureS4_sorted_effects_and_intervals.png": "99955fd39c52d6b2c9c346025e8ef974f9ee5197d38365128be1315c628ab13d",
+        "FigureS4_sorted_effects_and_intervals.pdf": "c931ca8af5bce543345434c5f79422dbd7a3be04653c9bf5c2e3ec48bef5458e",
+        "FigureS4_sorted_effects_and_intervals.svg": "6fff26badc0f9ea20046429c4a2c93aaaff287df07aaaad54bddb8de48f01dcf"
+      }
+    },
+    {
+      "figure": "FigureS5_spatial_expression_context",
+      "pixel_dimensions": [
+        2926,
+        1873
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "fonts": [
+        {
+          "name": "/CFFSPY+ArialMT",
+          "embedded": true
+        },
+        {
+          "name": "/FAGARN+Arial-BoldMT",
+          "embedded": true
+        }
+      ],
+      "sha256": {
+        "FigureS5_spatial_expression_context.png": "8426b456a2c3feb55da1765103254dbe1b74d83bdcc9cec90acddb4ce7bab69c",
+        "FigureS5_spatial_expression_context.pdf": "fe939439449cb2c4bce6316dab1e1a2f3cc24a94c726011f36c05728a341177f",
+        "FigureS5_spatial_expression_context.svg": "a4b92331f65e4ba42c5f6f4709250ec0c55d6d07834be12101413b43793535cb"
+      }
+    }
+  ]
+}

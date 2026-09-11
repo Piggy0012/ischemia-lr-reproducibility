@@ -1,0 +1,14 @@
+{
+  "source_sha256": "ea46749bb6cffa12c33369791e455059c2f38dc3748e7965b24e224020a6a270",
+  "script_sha256": "b5c8f718e27f1c6e6effaabcd12095dc836ddf14cab3d368659f485d978c3b87",
+  "old_effect_and_ci_max_absolute_error": 1.7763568394002505e-15,
+  "n_paired_pools": 6,
+  "pool_size_mice": "3-4",
+  "paired_by": "Deposited replicate number",
+  "control": "contralateral hemisphere",
+  "new_p_values_computed": false,
+  "significance_classification": false,
+  "all_original_tests_retained_at": "work/sorted_rna/diff_expression.tsv.gz",
+  "ci": "Pointwise two-sided 95% t interval, df=5; not simultaneous, normality of paired differences assumed",
+  "selection": "Five illustrative LR examples fixed in prior revision; descriptive illustration, not prespecified hypotheses"
+}

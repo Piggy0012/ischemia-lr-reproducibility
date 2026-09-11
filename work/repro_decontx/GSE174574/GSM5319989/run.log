@@ -1,0 +1,42 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+START GSE174574 GSM5319989 genes 27933 cells 9951 nnz 13849870 
+--------------------------------------------------
+Starting DecontX
+--------------------------------------------------
+Fri Sep 11 00:09:49 2026 .. Analyzing all cells
+Fri Sep 11 00:09:49 2026 .... Generating UMAP
+Fri Sep 11 00:10:56 2026 .... Estimating contamination
+Fri Sep 11 00:10:59 2026 ...... Completed iteration: 10 | converge: 0.03566
+Fri Sep 11 00:11:01 2026 ...... Completed iteration: 20 | converge: 0.01461
+Fri Sep 11 00:11:03 2026 ...... Completed iteration: 30 | converge: 0.01075
+Fri Sep 11 00:11:06 2026 ...... Completed iteration: 40 | converge: 0.01048
+Fri Sep 11 00:11:08 2026 ...... Completed iteration: 50 | converge: 0.00871
+Fri Sep 11 00:11:11 2026 ...... Completed iteration: 60 | converge: 0.008332
+Fri Sep 11 00:11:13 2026 ...... Completed iteration: 70 | converge: 0.007888
+Fri Sep 11 00:11:16 2026 ...... Completed iteration: 80 | converge: 0.007899
+Fri Sep 11 00:11:17 2026 ...... Completed iteration: 90 | converge: 0.006559
+Fri Sep 11 00:11:19 2026 ...... Completed iteration: 100 | converge: 0.004878
+Fri Sep 11 00:11:21 2026 ...... Completed iteration: 110 | converge: 0.003501
+Fri Sep 11 00:11:23 2026 ...... Completed iteration: 120 | converge: 0.002515
+Fri Sep 11 00:11:25 2026 ...... Completed iteration: 130 | converge: 0.001844
+Fri Sep 11 00:11:27 2026 ...... Completed iteration: 140 | converge: 0.001391
+Fri Sep 11 00:11:29 2026 ...... Completed iteration: 150 | converge: 0.001077
+Fri Sep 11 00:11:30 2026 ...... Completed iteration: 154 | converge: 0.0009785
+Fri Sep 11 00:11:30 2026 .. Calculating final decontaminated matrix
+--------------------------------------------------
+Completed DecontX. Total time: 1.765675 mins
+--------------------------------------------------
+Warning messages:
+1: In .library_size_factors(assay(x, assay.type), ...) :
+  'librarySizeFactors' is deprecated.
+Use 'scrapper::centerSizeFactors' instead.
+See help("Deprecated")
+2: In .local(x, ...) : 'normalizeCounts' is deprecated.
+Use 'scrapper::normalizeCounts' instead.
+See help("Deprecated")
+NULL
+COMPLETE GSM5319989 median_contamination 0.06782803 

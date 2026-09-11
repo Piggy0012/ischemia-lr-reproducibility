@@ -1,0 +1,56 @@
+Package: celda
+Title: CEllular Latent Dirichlet Allocation
+Version: 1.28.0
+Authors@R: c(person("Joshua", "Campbell", email = "camp@bu.edu",
+    role = c("aut", "cre")),
+    person("Shiyi", "Yang", email="syyang@bu.edu", role = c("aut")),
+    person("Zhe", "Wang", email="zhe@bu.edu", role = c("aut")),
+    person("Sean", "Corbett", email = "scorbett@bu.edu", role = c("aut")),
+    person("Yusuke", "Koga", email="ykoga07@bu.edu", role = c("aut")))
+Description: Celda is a suite of Bayesian hierarchical models for
+        clustering single-cell RNA-sequencing (scRNA-seq) data. It is
+        able to perform "bi-clustering" and simultaneously cluster
+        genes into gene modules and cells into cell subpopulations. It
+        also contains DecontX, a novel Bayesian method to
+        computationally estimate and remove RNA contamination in
+        individual cells without empty droplet information. A variety
+        of scRNA-seq data visualization functions is also included.
+Depends: R (>= 4.0), SingleCellExperiment, Matrix
+VignetteBuilder: knitr
+Imports: plyr, foreach, ggplot2, RColorBrewer, grid, scales, gtable,
+        grDevices, graphics, matrixStats, doParallel, digest, methods,
+        reshape2, S4Vectors, data.table, Rcpp, RcppEigen, uwot,
+        enrichR, SummarizedExperiment, MCMCprecision, ggrepel, Rtsne,
+        withr, scater (>= 1.14.4), scran, dbscan, DelayedArray,
+        stringr, ComplexHeatmap, gridExtra, circlize, dendextend,
+        ggdendro, pROC
+Suggests: testthat, knitr, roxygen2, rmarkdown, biomaRt, covr,
+        BiocManager, BiocStyle, TENxPBMCData, singleCellTK,
+        M3DExampleData
+LinkingTo: Rcpp, RcppEigen
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+BugReports: https://github.com/campbio/celda/issues
+biocViews: SingleCell, GeneExpression, Clustering, Sequencing,
+        Bayesian, ImmunoOncology, DataImport
+NeedsCompilation: yes
+Config/pak/sysreqs: libcairo2-dev libfontconfig1-dev libfreetype6-dev
+        libfribidi-dev libglpk-dev libharfbuzz-dev libicu-dev
+        libjpeg-dev libpng-dev libtiff-dev libwebp-dev libxml2-dev
+        libssl-dev perl zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:50:13 UTC
+RemoteUrl: https://github.com/bioc/celda
+RemoteRef: RELEASE_3_23
+RemoteSha: ac7591c7cd29b140f8ccd4a0c8b9ace33ea8eb79
+Packaged: 2026-04-29 20:41:12 UTC; root
+Author: Joshua Campbell [aut, cre],
+  Shiyi Yang [aut],
+  Zhe Wang [aut],
+  Sean Corbett [aut],
+  Yusuke Koga [aut]
+Maintainer: Joshua Campbell <camp@bu.edu>
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-04-29 20:50:06 UTC; windows
+Archs: x64

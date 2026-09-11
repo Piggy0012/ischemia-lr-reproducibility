@@ -1,0 +1,3 @@
+baseline_dataset	third_dataset	baseline_config	third_config	gate	n_common_eligible_edges	n_same_direction	same_direction_fraction	n_nonzero_both	spearman_rho	inference
+GSE174574	GSE332910	primary	primary	10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort	223	141	0.6322869955156951	223	0.5600693206393383	author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value
+GSE245386	GSE332910	primary	primary	10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort	445	267	0.6	445	0.5470020355389837	author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value

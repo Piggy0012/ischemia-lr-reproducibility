@@ -1,0 +1,55 @@
+{
+  "status": "completed_stages_pass",
+  "exit_code": 0,
+  "n_checks": 2749,
+  "n_failed": 0,
+  "stages": [
+    {
+      "stage": "required_outputs",
+      "status": "passed",
+      "n_checks": 712
+    },
+    {
+      "stage": "animal_nulls",
+      "status": "passed",
+      "n_checks": 322
+    },
+    {
+      "stage": "conditional_null",
+      "status": "passed",
+      "n_checks": 155
+    },
+    {
+      "stage": "rank_and_background",
+      "status": "passed",
+      "n_checks": 811
+    },
+    {
+      "stage": "raw_network_provenance",
+      "status": "passed",
+      "n_checks": 249
+    },
+    {
+      "stage": "sorted_pool_effects",
+      "status": "passed",
+      "n_checks": 5
+    },
+    {
+      "stage": "third_custom",
+      "status": "passed",
+      "n_checks": 7
+    },
+    {
+      "stage": "ambient_completed_outputs",
+      "status": "passed",
+      "n_checks": 453
+    },
+    {
+      "stage": "third_liana_completed_outputs",
+      "status": "passed",
+      "n_checks": 35
+    }
+  ],
+  "pending_stages": [],
+  "warnings": []
+}

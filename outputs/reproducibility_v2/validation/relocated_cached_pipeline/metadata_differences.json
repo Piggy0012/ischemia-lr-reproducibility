@@ -1,0 +1,47 @@
+[
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\null_conditional_audit.json",
+    "differences": [
+      {
+        "field": "/source_sha256/null_dynamic_gate_all_allocations.tsv.gz",
+        "before": "6fde7d6f1b73cc8f7bbd16091ef829a537196f4b813071c80768157207ec15ac",
+        "after": "f1871f1fd614c32849a619ad19d0c78f4fcbb8c83df63a007a515f300b1287a0"
+      },
+      {
+        "field": "/source_sha256/null_fixed_common_all_allocations.tsv.gz",
+        "before": "3129e4dd0590482ffd872233ba1d0db91f624c426b9bb62ebafe32c4d1d0e923",
+        "after": "b353b96b9108952c3178c6e5f5a71b96c18a035a91a408def59e70b78641ac6d"
+      }
+    ]
+  },
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\rank_audit.json",
+    "differences": [
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_common_animal_scores.tsv.gz",
+        "before": "3e854c348171a757ff3ff2c39c9e92e1f7de25705026c55f4a3b1e10b61bc434",
+        "after": "39e35aa6c3f78f039f50784ae8a0c04f1cfbc62b04b499303b81d3b1fcc47b33"
+      }
+    ]
+  },
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\rank_upstream_audit.json",
+    "differences": [
+      {
+        "field": "/maximum_observed_process_peak_bytes",
+        "before": 203325440,
+        "after": 203415552
+      },
+      {
+        "field": "/output_sha256/animal_scores.tsv.gz",
+        "before": "4d56dd78e9465f90d58a9d38c5b5c49cb7785fe9539473f4a87d2decfe1c0f9b",
+        "after": "c177162499e6c21dd77bbf7c0527415da40e48d1d087c9be661f66acf66fc443"
+      },
+      {
+        "field": "/output_sha256/effects.tsv.gz",
+        "before": "478808d5b45a424e0aadb4fa057bc64da346f5ad4551c669dca834c3d6e5f5a4",
+        "after": "26098ff0eb80abfc9b34d81fcf32730510be18ba5a5535bce22a4e9176a59d07"
+      }
+    ]
+  }
+]

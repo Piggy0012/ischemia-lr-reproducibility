@@ -1,0 +1,33 @@
+{
+  "checked_date": "2026-09-11",
+  "dataset": "GSE332910",
+  "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx",
+  "source_locator": "Supplementary Table S1, Sheet1 B2:D4 (Sham and 24 h columns)",
+  "source_sha256": "c20ec5d550af876a0490b763cdf1ea5a315a15b46894588da4fe2c09fd6e92f7",
+  "author_reported_biological_replicates": {
+    "Sham": 3,
+    "24 h": 3
+  },
+  "reported_number_libraries": {
+    "Sham": 3,
+    "24 h": 3
+  },
+  "individual_mouse_id_or_pool_size_map": null,
+  "interpretation": "Author-reported biological replication is verified in Table S1; one mouse per library or independent pool membership is not individually mapped.",
+  "successful_access": "Public PMC Cloud Service; original metadata MD5 verified for both supplementary files.",
+  "retired_endpoint_attempts": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13542395",
+      "HTTP_status": 404
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC13542395",
+      "HTTP_status": 404
+    }
+  ],
+  "official_service_transition_documentation": "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+  "n_qc": 116308,
+  "n_qc_unassigned": 77582,
+  "qc_unassigned_fraction": 0.6670392406369295,
+  "all_assigned_cells_confirmed_qc_pass": true
+}

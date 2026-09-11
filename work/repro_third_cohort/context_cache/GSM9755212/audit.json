@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "dataset": "GSE332910",
+  "sample": "GSM9755212",
+  "condition": "Sham",
+  "selection": "original primary labels; QC-passing assigned classes with >=30 cells per library",
+  "matrix_shape": [
+    6436,
+    30070
+  ],
+  "nnz": 9867493,
+  "csr_array_bytes": 78965692,
+  "matrix_format": "CSR cells x submitted gene symbols; raw integer UMI",
+  "context_counts": {
+    "Neuron": 1521,
+    "Oligodendrocyte": 1505,
+    "Astrocyte": 1259,
+    "Microglia": 959,
+    "OPC": 553,
+    "Endothelial": 203,
+    "Myeloid": 192,
+    "Pericyte": 102,
+    "Fibroblast": 57,
+    "Erythroid": 55,
+    "Choroid": 30
+  },
+  "source_raw_shape": [
+    30070,
+    23066,
+    35096105
+  ],
+  "all_raw_entries_streamed": 35096105,
+  "source_gene_major_unique": true,
+  "total_umi_and_detected_genes_match_qc": true,
+  "n_verified_independent_animals": null,
+  "input_qc_sha256": "1d6602d8dd58eee2ca0b3a58da64c0a39609af1f0658be41b02dae70bb093f77",
+  "input_gene_sha256": "67c720da385551c8da20a42fca9757188b07ce414222647c09e05eb8fae12f3c",
+  "input_matrix_sha256": "a7c9b64f90e65e1d3e49e06fa3c67b11388bd2e6ca65b153ee17053b280764f7",
+  "output_sha256": {
+    "counts.npz": "a1d4d9edc17266980dc9fe3686f1fa7941ed9a8c5260d59903771b0dcd334331",
+    "cells.tsv.gz": "2b6775ee1477907432968defe58924933dc0c0d3a9259229cac6b14666891421",
+    "genes.tsv.gz": "091b2c55248b4aa525f1f8c7f38abba0f72601a0967edde2a4e58937b899ce13"
+  },
+  "memory_observations": [
+    {
+      "rss_bytes": 145448960,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 1242419200
+    },
+    {
+      "rss_bytes": 158445568,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 883281920
+    },
+    {
+      "rss_bytes": 172064768,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 875917312
+    },
+    {
+      "rss_bytes": 177733632,
+      "peak_working_set_bytes": 398471168,
+      "system_available_bytes": 769863680
+    }
+  ],
+  "script_sha256": "c963f76274bd9ebc60c76f4bc8420e19638b35d3cb8cfe34b298e882b09f830d",
+  "elapsed_seconds": 33.75
+}

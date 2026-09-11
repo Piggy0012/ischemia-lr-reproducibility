@@ -1,0 +1,31 @@
+# Ischemia ligand–receptor reproducibility
+
+**Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia**
+
+Sihuan Zhu, Anhui University of Chinese Medicine. [ORCID 0009-0005-9705-0585](https://orcid.org/0009-0005-9705-0585).
+
+This local release directory contains the complete audited v2 analysis payload and the v3 environment locks. The v3 manuscript and independent-framework supplement are synchronized only after their separate completion checks. The repository directory itself does not establish public deposition; citation metadata is prepared as version 3.0.0.
+
+Start with [RUNNING.md](RUNNING.md), [ENVIRONMENT.md](ENVIRONMENT.md), the searchable [file index](FILE_INDEX.tsv), and the [ten-figure source index](FIGURE_SOURCE_INDEX.tsv). The existing [v2 result guide](outputs/reproducibility_v2/README.md) describes the statistical families and directory layout; its manuscripts are the retained v2 snapshot rather than the forthcoming v3 entry point. Earlier tests, figures and source drafts remain available under their original versioned paths.
+
+## Direct data entry points
+
+- Fixed cell-identity rules: [discovery marker panel](work/processed/GSE174574/marker_panel.json), [validation marker panel](work/processed/GSE245386/marker_panel.json), [third-cohort marker panel](work/repro_third_cohort/processed/GSE332910/marker_panel.json).
+- Original cohort comparison restricted to the added cohort's common 99-candidate set: [full comparator table](outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv), [animal-derived effects](outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_effects.tsv.gz), [audit](outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99_audit.json). This companion analysis is distinct from the plotted original-versus-third comparisons.
+- Sorted data: [all 49,914 paired-pool gene effects and intervals](outputs/reproducibility_v2/tables/sorted_all_gene_descriptive_effects.tsv.gz), [fixed illustrative component effects](outputs/reproducibility_v2/tables/sorted_fixed_component_effects_ci.tsv), and [retained original tests](work/sorted_rna/diff_expression.tsv.gz).
+- [Null distributions and fixed candidate data](outputs/reproducibility_v2/tables/), [figure source data](outputs/reproducibility_v2/figure_source_data/), [all-library raw/corrected LIANA network exports](work/repro_liana_rank_diagnostic/), and [third-cohort networks](work/repro_third_liana/).
+- [Successful relocated cached reconstruction](outputs/reproducibility_v2/validation/relocated_cached_pipeline/) and [publication-package provenance](provenance/v2_archive/release_integrity.json).
+
+## Interpretation and attribution
+
+LIANA 1.10.0 complete per-library inference and a controlled aggregation correction are different execution scopes. The correction was already merged upstream in [LIANA PR #261](https://github.com/scverse/liana/pull/261), commit `d4211373692e7b9c10210488ccb1efe06452b097`. Four aggregation functions were replayed on the same saved networks; a complete newer-version cell-level pipeline was not run. This case evaluates consequences of the known correction and remaining context sensitivity, not discovery of the software defect.
+
+Statistical units, fixed candidate universes, both direction denominators, the joint and conditional nulls, and separate multiplicity families are preserved. Corrected fractional counts, implementation diagnostics and the third cohort do not inherit native raw P values. See the [analysis plans](work/repro_null_plan.md) and [implementation note](work/repro_upstream_correction_note.md).
+
+## Included data and integrity
+
+The original ZIP's 1,596 payload files and 269 v3 environment files are retained. Native relative paths and all original scientific bytes are preserved. Repository-entry README, citation and Zenodo metadata are updated; their original versions are archived under [provenance/v2_archive](provenance/v2_archive/). The original `MANIFEST_SHA256.tsv` retains its original ZIP scope. [FILE_INDEX.tsv](FILE_INDEX.tsv) is the current repository inventory; it excludes itself and its external checksum to avoid circular hashing.
+
+Raw GEO downloads and large corrected cell matrices are obtained separately using the preserved accession manifests and checksums. This repository includes their counts/aggregates, complete results and audits, not a duplicated runtime or raw-cell data mirror. No included file reaches GitHub's 100 MiB regular-Git threshold. The matrix asset exceeds 2 GiB as a single ZIP and needs Zenodo or smaller cohort assets; see the [size and environment report](work/repro_v3_environment/report.md).
+
+Original analysis code uses the [MIT license](LICENSE); derived tables, figures and manuscripts use CC BY 4.0 as stated there. Third-party source, datasets and resource licenses retain their own terms. Use [CITATION.cff](CITATION.cff) and cite the original dataset publications and method developers. [Author declarations](AUTHOR_DECLARATIONS.md) record the author-supplied funding and competing-interest statements.

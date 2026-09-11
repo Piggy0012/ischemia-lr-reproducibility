@@ -1,0 +1,107 @@
+[
+  {
+    "file": "Figure1_sample_and_identity_audit.pdf",
+    "fonts": [
+      {
+        "name": "/DCFTAO+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/FAGARN+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "Figure2_cross_cohort_concordance.pdf",
+    "fonts": [
+      {
+        "name": "/EKRLIS+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/EKZFVT+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "Figure3_candidate_sample_scores.pdf",
+    "fonts": [
+      {
+        "name": "/CEZLWS+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/FAGARN+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "Figure4_barrier_transcription_heterogeneity.pdf",
+    "fonts": [
+      {
+        "name": "/FABGRF+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/EKZFVT+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "Figure5_spatial_expression_context.pdf",
+    "fonts": [
+      {
+        "name": "/CFFSPY+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/FAGARN+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "FigureS1_constituent_expression.pdf",
+    "fonts": [
+      {
+        "name": "/FHXMPE+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/FAGARN+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  },
+  {
+    "file": "FigureS2_spatial_descriptive_correlations.pdf",
+    "fonts": [
+      {
+        "name": "/BMRFOF+ArialMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      {
+        "name": "/CQJXMA+Arial-BoldMT",
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    ]
+  }
+]

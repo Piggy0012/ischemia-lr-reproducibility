@@ -1,0 +1,11 @@
+# Downstream use of DecontX estimates
+
+Frozen before viewing corrected counts. Retain the original primary and reference_singlet selections and the original animal labels. Compare raw and estimated decontaminated matrices in those identical cells. The independent reference labels supplied to DecontX are not re-estimated from corrected values.
+
+For each matrix, normalise using its own per-cell sum across all submitted genes. A nonpositive corrected total is reported as a failure requiring a documented handling decision; it is not replaced by the raw UMI denominator. Compute mean log1p(CP10k), mean estimated counts and detection proportions. Primary corrected detection is strictly greater than zero, matching the original operational detection test; additionally report estimated counts at least one as a separate sensitivity, because fractional counts are estimates rather than integer observations. Do not choose either threshold according to Spp1 behavior.
+
+Recompute all gene-covered resource pair scores before screening. Apply the original group-aware 10% detection gate (at least two animals in either condition for each complete ligand and receptor) separately in raw and corrected matrices. Report new eligible sets, their overlap and effect direction concordance in each cohort and across cohorts. Compare raw and corrected on their common eligible set as well as report losses. Export every pair and every sample score; individual-pair p-values are not a new primary endpoint. No negative-binomial gene-level testing is performed on fractional estimated counts.
+
+For downstream actual LIANA, keep the full cell-type context and original selection, recompute normalised expression from estimated corrected totals, and use the same method/resource/version settings. Preserve both native and explicitly diagnosed unique-score rank aggregation when available. Only compare priority disease effects on candidates observed in every animal. Ambient estimates and the rank-aggregation diagnostic are separate interventions and will be crossed rather than conflated.
+
+Marker summaries include all original target-lineage and myeloid genes, Spp1, Timp3, Ptn, Plat and original example receptors. Plot each animal; estimated contamination is not measured background truth. All source matrices retain their raw or estimated provenance.

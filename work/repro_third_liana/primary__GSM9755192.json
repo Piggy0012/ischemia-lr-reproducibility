@@ -1,0 +1,101 @@
+{
+  "status": "complete",
+  "dataset": "GSE332910",
+  "sample": "GSM9755192",
+  "condition": "MCAO",
+  "config": "primary",
+  "count_source": "raw",
+  "n_verified_independent_animals": null,
+  "author_reported_biological_replicates_per_condition": 3,
+  "liana_version": "1.10.0",
+  "methods": [
+    "CellPhoneDB",
+    "Connectome",
+    "log2FC",
+    "NATMI",
+    "SingleCellSignalR"
+  ],
+  "native_magnitude_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "NATMI": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "diagnostic_unique_score_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "parameters": {
+    "expr_prop": 0.1,
+    "min_cells": 30,
+    "use_raw": false,
+    "n_perms": 100,
+    "seed": 20260910,
+    "n_jobs": 1,
+    "return_all_lrs": false,
+    "aggregate_method": "rra"
+  },
+  "all_pair_rows": 44037,
+  "exported_target_rows": 852,
+  "computed_all_cell_type_pairs": true,
+  "context_counts": {
+    "Oligodendrocyte": 2398,
+    "Neuron": 2174,
+    "Astrocyte": 1295,
+    "Microglia": 1131,
+    "OPC": 921,
+    "Myeloid": 430,
+    "Endothelial": 249,
+    "Fibroblast": 140,
+    "Pericyte": 124,
+    "Erythroid": 84,
+    "Ependymal": 42
+  },
+  "n_context_cells": 8988,
+  "n_context_genes": 30125,
+  "denominator": "per-cell total raw UMI across every submitted gene, identical to original QC total",
+  "normalization": "float32 log1p(CP10k), same operations as original two-cohort rank diagnostic",
+  "normalized_stored_values_strictly_positive": true,
+  "normalized_explicit_zeros": 0,
+  "all_context_pseudobulk_matches_independent_stream_aggregation": true,
+  "native_full_network_reconstruction_max_abs_error": 0.0,
+  "new_cohort_has_no_prior_liana_export": true,
+  "raw_target_scores_verified_against_prior": null,
+  "package_modified": false,
+  "diagnostic_is_official_package_release": false,
+  "resource_sha256": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+  "context_cache_audit_sha256": "a2dcfb57789572fac8632e576227ec894145f1b730385a2e39deb0470f8274e4",
+  "full_network_sha256": "668841f78e8c824a22927b4c2803f86a350a2cbcf9d0386c8255c6361b06a6b8",
+  "target_sha256": "5cb11b158f283ff1cb0adb5492750e4dfbc2e5f8763c64fb62f0818063b35d2b",
+  "source_aggregate_sha256": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+  "script_sha256": "63440eaf8a60e271420673393e59b2550d65b867a03c0cdca09e0384a55709d6",
+  "plan_sha256": "ef574d6613c25add2961016e48c5e0bc2af1ebfce330c24d8d04b1b69d734bb2",
+  "memory_after_inference": {
+    "rss_bytes": 251772928,
+    "peak_working_set_bytes": 974786560,
+    "system_available_bytes": 966991872
+  },
+  "elapsed_seconds": 28.07799999997951
+}

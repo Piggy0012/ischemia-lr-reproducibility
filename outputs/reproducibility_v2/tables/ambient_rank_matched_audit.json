@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "metrics": [
+    "custom_score",
+    "lr_means",
+    "expr_prod",
+    "lrscore",
+    "native_magnitude_priority",
+    "diagnostic_unique_column_priority"
+  ],
+  "n_config_library_combinations": 22,
+  "raw_and_corrected_fixed_universe": true,
+  "new_pvalues": false,
+  "detection_rule": "Native LIANA >0 at expr_prop=0.1; >=1 custom gate analyzed separately",
+  "source_script_sha256": "b322a92f7207ad662ff0872b09ae132a344d0d7b5d8d97a20d05987182083c6d",
+  "source_selection": "default if converged, otherwise uniform maxIter=2000 numerical follow-up"
+}

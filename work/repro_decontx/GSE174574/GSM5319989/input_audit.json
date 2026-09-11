@@ -1,0 +1,42 @@
+{
+  "dataset": "GSE174574",
+  "sample": "GSM5319989",
+  "n_genes": 27933,
+  "n_cells": 9951,
+  "nnz": 13849870,
+  "raw_total": 29703967,
+  "input_orientation": "genes x cells CSC (same slots as cells x genes CSR)",
+  "identity_sha256": "f5a3d871f2fca79b1c8d51cbf3d3cf872037322121a160ea7df2535a9f31ace4",
+  "label_counts": {
+    "Endothelial": 5474,
+    "Microglia": 2236,
+    "Smooth_muscle": 478,
+    "Choroid": 393,
+    "Astrocyte": 382,
+    "Macrophage": 316,
+    "Oligodendrocyte": 184,
+    "Dendritic": 130,
+    "Fibroblast": 87,
+    "Pericyte": 57,
+    "Ependymal": 55,
+    "Monocytes": 44,
+    "Lymphocyte": 42,
+    "Neuron/Other": 21,
+    "ABC": 18,
+    "Tanycyte": 16,
+    "OEC": 10,
+    "Astroependymal": 5,
+    "Hypendymal": 3
+  },
+  "script_sha256": {
+    "repro_decontx.py": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+    "repro_decontx_run.R": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+    "repro_decontx_plan.md": "31f064ed9fa907938458f8f716c9c553a74798290fc9c271eda840b51d14734f"
+  },
+  "raw_matrix_cache": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_cache\\GSE174574\\GSM5319989",
+  "input_sha256": {
+    "input_data.bin": "579c484b30dc0639b38880c21e5006e9894d71ce79c39a715ad44d8acb3a884c",
+    "input_indices.bin": "93d6c44c6b7f2c1625468b18c280fe1f959dfe4e1653fafbd6afe6a92dc0343b",
+    "input_indptr.bin": "f015d41382c2ef464e5ad3642f33fdcd77c984c436fdc3063947c80e350ebf0e"
+  }
+}

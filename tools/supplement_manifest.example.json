@@ -1,0 +1,4 @@
+{
+  "description": "Replace files with an explicit reviewed list. Each item requires source, destination and sha256; a changed existing destination also requires expected_existing_sha256. Source is an exact local path, never a directory glob. No files are selected in this example.",
+  "files": []
+}

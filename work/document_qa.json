@@ -1,0 +1,16 @@
+{
+  "artifact": "manuscript_zh.docx",
+  "sha256": "224ee7623a10eb747b7ac38100b76faf09e8557c2390d78008b3dd2a65fbaa08",
+  "pages": 19,
+  "renderer": "LibreOffice 26.2.5 via documents render_docx.py",
+  "visual_review": "All 19 pages inspected; after reference text cleanup, pages 11 and 12 re-inspected and other 17 pages verified pixel-identical to previously inspected rendering.",
+  "checks": [
+    "No clipping or overlap found",
+    "Tables use explicit readable column widths",
+    "Page numbers visible",
+    "Reference HTML escaped text cleaned",
+    "Seven real-data figures reviewed"
+  ],
+  "status": "PASS",
+  "limitations": "Pagination can change with fonts or Word rendering on another computer."
+}

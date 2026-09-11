@@ -1,0 +1,13 @@
+{
+  "rule": "all default non-converged libraries; no candidate outcome selection",
+  "maxIter": 2000,
+  "samples": [
+    [
+      "GSE174574",
+      "GSM5319992"
+    ]
+  ],
+  "default_samples": 11,
+  "amendment_sha256": "50bb5cfdfe8e012809167807716fe7c11b84058ae5b5ce1b04e1978ad645dc9d",
+  "extension_driver_sha256": "5fcef879a92127295dac2f9abb0d4093a4b7bfdb7b91dad2059b6b9171591379"
+}

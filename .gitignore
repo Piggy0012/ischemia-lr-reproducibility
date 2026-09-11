@@ -1,0 +1,31 @@
+# Local runtime/model/download directories; none belong in the source commit.
+.git/
+__pycache__/
+*.py[cod]
+*.zip
+.env
+.env.*
+.netrc
+**/credentials.json
+**/credentials.toml
+**/auth.json
+**/token.json
+**/tokens.json
+**/cookies.txt
+work/repro_cached_runs/
+work/revision_env/
+work/venv/
+work/r_runtime/
+work/repro_decontx/rlibrary/
+work/repro_v3_github_cli/
+work/repro_v3_cellchat*/
+work/repro_v3_environment/renv_tooling/
+work/repro_v3_environment/renv_bootstrap/
+work/repro_v3_environment/restore_smoke_library*/
+work/repro_v3_environment/r-library/
+work/repro_v3_environment/renv/library/
+work/repro_v3_environment/renv/cache/
+work/data/*/raw/
+work/repro_third_cohort/raw/
+*.npz
+# Release assets and full cell matrices are distributed separately.

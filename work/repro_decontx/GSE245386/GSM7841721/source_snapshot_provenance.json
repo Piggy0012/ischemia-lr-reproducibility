@@ -1,0 +1,7 @@
+{
+  "snapshot": "executed_decontx_run.R",
+  "sha256": "3a3fa028b986b4781d35c3f3e8fc4ff896dbae07e1b0ff90b60a6f59fab4eabf",
+  "recorded_before_model_execution": true,
+  "matches_sha256_recorded_before_model_execution": true,
+  "execution": "Rscript executes this immutable per-sample snapshot, not the mutable source file."
+}

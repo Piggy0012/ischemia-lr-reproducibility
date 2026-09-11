@@ -1,0 +1,102 @@
+C:\Users\admin\Documents\Codex\2026-09-09\duo\work\repro_third_coavailability.py:132: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  pd.concat(coverage, axis=1).fillna(False).to_csv(OUT / 'third_gene_feature_coverage.tsv.gz', sep='\t', index_label='gene')
+{
+  "dataset": "GSE332910",
+  "n_libraries": 6,
+  "n_verified_independent_animals": null,
+  "author_reported_biological_replicates_per_condition": 3,
+  "common_submitted_symbols_all_six": 28483,
+  "all_gene_covered_edges": 7582,
+  "eligible_05": 1417,
+  "eligible_10": 828,
+  "eligible_20": 368,
+  "formula": "sqrt(min constituent mean log1p(CP10k) ligand * min constituent mean log1p(CP10k) receptor); delta is equal-library MCAO mean minus Sham mean.",
+  "no_silent_missing_gene_imputation": true,
+  "cohort_p_values_computed": false,
+  "does_not_enter_original_200_label_null": true,
+  "resource_sha256": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+  "aggregation_checks": [
+    {
+      "sample": "GSM9755192",
+      "processed_nonzero_entries": 47662066,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 1295,
+      "n_target_endothelial": 249,
+      "all_class_summaries": true
+    },
+    {
+      "sample": "GSM9755194",
+      "processed_nonzero_entries": 35230182,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 1188,
+      "n_target_endothelial": 248,
+      "all_class_summaries": true
+    },
+    {
+      "sample": "GSM9755196",
+      "processed_nonzero_entries": 32074576,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 1002,
+      "n_target_endothelial": 122,
+      "all_class_summaries": true
+    },
+    {
+      "sample": "GSM9755210",
+      "processed_nonzero_entries": 30971985,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 1009,
+      "n_target_endothelial": 215,
+      "all_class_summaries": true
+    },
+    {
+      "sample": "GSM9755212",
+      "processed_nonzero_entries": 35096105,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 1259,
+      "n_target_endothelial": 203,
+      "all_class_summaries": true
+    },
+    {
+      "sample": "GSM9755214",
+      "processed_nonzero_entries": 13764855,
+      "matrix_gene_major_unique": true,
+      "all_assigned_counts_conserved": true,
+      "n_target_astrocytes": 677,
+      "n_target_endothelial": 75,
+      "all_class_summaries": true
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline_dataset": "GSE174574",
+      "third_dataset": "GSE332910",
+      "baseline_config": "primary",
+      "third_config": "primary",
+      "gate": "10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort",
+      "n_common_eligible_edges": 223,
+      "n_same_direction": 141,
+      "same_direction_fraction": 0.6322869955156951,
+      "n_nonzero_both": 223,
+      "spearman_rho": 0.5600693206393383,
+      "inference": "author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value"
+    },
+    {
+      "baseline_dataset": "GSE245386",
+      "third_dataset": "GSE332910",
+      "baseline_config": "primary",
+      "third_config": "primary",
+      "gate": "10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort",
+      "n_common_eligible_edges": 445,
+      "n_same_direction": 267,
+      "same_direction_fraction": 0.6,
+      "n_nonzero_both": 445,
+      "spearman_rho": 0.5470020355389837,
+      "inference": "author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value"
+    }
+  ]
+}

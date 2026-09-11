@@ -1,0 +1,5 @@
+config	dataset	n_fixed_common_candidates	n_all_resource_gene_covered_edges
+primary	GSE174574	187	7880
+primary	GSE245386	187	7892
+reference_singlet	GSE174574	174	7880
+reference_singlet	GSE245386	174	7892

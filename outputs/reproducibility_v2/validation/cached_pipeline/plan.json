@@ -1,0 +1,69 @@
+{
+  "stages": [
+    {
+      "stage": "null",
+      "operation": "Rebuild whole-animal exact nulls from saved mean/fraction aggregates and original per-animal LIANA target scores."
+    },
+    {
+      "stage": "rank",
+      "operation": "Rebuild fixed-target percentile and rank-context diagnostics from saved scores and audit JSON."
+    },
+    {
+      "stage": "raw_rank_summary",
+      "operation": "Summarize saved raw full-network target exports; process()/load_sample() are forbidden."
+    },
+    {
+      "stage": "upstream",
+      "operation": "Run only the archived fixed-commit upstream aggregation functions on the unchanged raw full-network scores."
+    },
+    {
+      "stage": "background",
+      "operation": "Reaggregate saved full-network scores on a fixed global edge intersection; no upstream inference."
+    },
+    {
+      "stage": "conditional",
+      "operation": "Select the 20/10 conditional subsets of the existing 200 allocation statistics."
+    },
+    {
+      "stage": "sorted",
+      "operation": "Rebuild paired-pool descriptive effects/intervals from the author-normalized table; keep all old tests."
+    },
+    {
+      "stage": "third_custom",
+      "operation": "Rebuild third-cohort coavailability using six existing mean/fraction aggregates; streaming fallback forbidden."
+    },
+    {
+      "stage": "ambient_summary",
+      "operation": "Optional: summarize completed fractional-count expression effects and contamination tables; never fit DecontX."
+    },
+    {
+      "stage": "corrected_rank_summary",
+      "operation": "Optional: summarize 22 already-completed corrected-network targets; never run LIANA inference."
+    },
+    {
+      "stage": "ambient_rank_matched",
+      "operation": "Optional: compare raw/corrected scores on the same all-library/all-metric candidate intersection; no new P values."
+    },
+    {
+      "stage": "third_rank_summary",
+      "operation": "Optional: summarize six already-completed third-cohort networks and original comparison targets."
+    }
+  ],
+  "skipped": [],
+  "execute_requested": true,
+  "figures_requested": false,
+  "python": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+  "working_directory": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work",
+  "expected_rebuild_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "liana": "1.10.0"
+  },
+  "model_fit_stages": [],
+  "network_access": false,
+  "raw_matrix_access": false,
+  "publication_figure_exports": false,
+  "visual_review": "Any regenerated PNG must be visually inspected; earlier PDF/SVG exports are retained, not silently reapproved.",
+  "pending_stages": []
+}

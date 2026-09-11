@@ -1,0 +1,23 @@
+{
+  "title": "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zhu, Sihuan",
+      "orcid": "0009-0005-9705-0585",
+      "affiliation": "Anhui University of Chinese Medicine"
+    }
+  ],
+  "description": "Code, complete cached results, figure inputs, source audits and observed environment locks for a cross-cohort reproducibility case study in mouse cerebral ischemia. The study attributes the shared-score ranking correction to upstream LIANA PR #261 (merge d4211373692e7b9c10210488ccb1efe06452b097). Native LIANA 1.10.0 inference and fixed-commit aggregation-only replay are distinct scopes; a complete newer-version pipeline is not claimed. Raw GEO and corrected cell matrices are separate assets. The preserved v2 analysis snapshot and new environment records are explicitly versioned.",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "3.0.0",
+  "keywords": [
+    "cerebral ischemia",
+    "cell-cell communication",
+    "reproducibility",
+    "ligand receptor",
+    "LIANA",
+    "DecontX"
+  ]
+}

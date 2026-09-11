@@ -1,0 +1,7 @@
+config	metric	statistic	test_family	observed	null_mean	null_median	null_q025	null_q975	n_allocations	n_greater_or_equal_observed	exact_upper_tail_p	observed_n_candidates	null_n_candidates_min	null_n_candidates_max	holm_adjusted_p	n_tests_in_family
+primary	custom_score	same_direction_all_fraction	C_exploratory_dynamic_gate	0.7987616099071208	0.5	0.5	0.2451482573090161	0.754851742690984	200	1	0.005	323	299	324	0.03	6
+reference_singlet	custom_score	same_direction_all_fraction	C_exploratory_dynamic_gate	0.7576687116564417	0.5	0.5	0.26707550584917883	0.7329244941508212	200	1	0.005	326	286	328	0.03	6
+primary	custom_score	same_direction_nonzero_fraction	C_exploratory_dynamic_gate	0.7987616099071208	0.5	0.5	0.2451482573090161	0.754851742690984	200	1	0.005	323	299	324	0.03	6
+reference_singlet	custom_score	same_direction_nonzero_fraction	C_exploratory_dynamic_gate	0.7576687116564417	0.5	0.5	0.26707550584917883	0.7329244941508212	200	1	0.005	326	286	328	0.03	6
+primary	custom_score	spearman_rho	C_exploratory_dynamic_gate	0.7427882976103759	9.992007221626408e-18	0.0	-0.6803990725306777	0.6803990725306777	200	1	0.005	323	299	324	0.03	6
+reference_singlet	custom_score	spearman_rho	C_exploratory_dynamic_gate	0.7030217132058506	4.440892098500626e-18	0.0	-0.635793438060349	0.6357934380603492	200	1	0.005	326	286	328	0.03	6

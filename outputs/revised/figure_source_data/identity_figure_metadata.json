@@ -1,0 +1,14 @@
+{
+  "n_libraries": 11,
+  "n_qc_cells": 115355,
+  "confidence_threshold": 0.5,
+  "dpi": 400,
+  "font": "Arial",
+  "pdf_fonttype": 42,
+  "svg_fonttype": "none",
+  "figure6_analysis_unit": "animal for proportions and equal-weight heatmap means",
+  "doublet_thresholds_changed": false,
+  "cell_labels_changed": false,
+  "ambient_RNA_corrected_by_this_script": false,
+  "visual_review_status": "Requires visual inspection after rendering"
+}

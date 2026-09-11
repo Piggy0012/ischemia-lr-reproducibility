@@ -1,0 +1,173 @@
+{
+  "status": "failed_or_incomplete",
+  "exit_code": 1,
+  "stages": [
+    {
+      "stage": "null",
+      "exit_code": 0,
+      "elapsed_seconds": 8.780999999959022,
+      "log": "null.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "null"
+      ]
+    },
+    {
+      "stage": "rank",
+      "exit_code": 0,
+      "elapsed_seconds": 2.812999999965541,
+      "log": "rank.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "rank"
+      ]
+    },
+    {
+      "stage": "raw_rank_summary",
+      "exit_code": 0,
+      "elapsed_seconds": 13.39000000001397,
+      "log": "raw_rank_summary.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "raw_rank_summary"
+      ]
+    },
+    {
+      "stage": "upstream",
+      "exit_code": 0,
+      "elapsed_seconds": 11.797000000020489,
+      "log": "upstream.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "upstream"
+      ]
+    },
+    {
+      "stage": "background",
+      "exit_code": 0,
+      "elapsed_seconds": 7.297000000020489,
+      "log": "background.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "background"
+      ]
+    },
+    {
+      "stage": "conditional",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7809999999590218,
+      "log": "conditional.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "conditional"
+      ]
+    },
+    {
+      "stage": "sorted",
+      "exit_code": 0,
+      "elapsed_seconds": 2.437999999965541,
+      "log": "sorted.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "sorted"
+      ]
+    },
+    {
+      "stage": "third_custom",
+      "exit_code": 0,
+      "elapsed_seconds": 31.21799999999348,
+      "log": "third_custom.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "third_custom"
+      ]
+    },
+    {
+      "stage": "ambient_summary",
+      "exit_code": 0,
+      "elapsed_seconds": 3.5320000000065193,
+      "log": "ambient_summary.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "ambient_summary"
+      ]
+    },
+    {
+      "stage": "corrected_rank_summary",
+      "exit_code": 0,
+      "elapsed_seconds": 9.312999999965541,
+      "log": "corrected_rank_summary.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "corrected_rank_summary"
+      ]
+    },
+    {
+      "stage": "ambient_rank_matched",
+      "exit_code": 0,
+      "elapsed_seconds": 3.562000000034459,
+      "log": "ambient_rank_matched.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "ambient_rank_matched"
+      ]
+    },
+    {
+      "stage": "third_rank_summary",
+      "exit_code": 0,
+      "elapsed_seconds": 13.10999999998603,
+      "log": "third_rank_summary.log",
+      "command_arguments": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_run_cached_pipeline.py",
+        "--worker",
+        "third_rank_summary"
+      ]
+    }
+  ],
+  "error": null,
+  "protected_input_changes": [],
+  "scientific_table_changes": [],
+  "table_comparison_atol": 1e-12,
+  "table_comparison_rtol": 1e-10,
+  "table_row_and_column_order_compared": true,
+  "gzip_container_timestamps_ignored_for_semantics": true,
+  "new_model_fits": false,
+  "matrix_reads_guarded": true,
+  "network_reads_guarded": true,
+  "visual_review_required_for_regenerated_png": false,
+  "old_tests_preserved": true,
+  "before_outputs_retained": "before/",
+  "post_validation_status": "failed",
+  "pending_stages": [],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "liana": "1.10.0"
+  },
+  "script_sha256": "17f83de7fb5be6d24c4e84a5cd423e7a967a8934ea745131c36f5b938e81565c"
+}

@@ -1,0 +1,956 @@
+{
+  "checks": [
+    {
+      "check": "GSE174574 unique sample/config/type",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319987 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319988 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319989 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319990 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319991 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM5319992 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574 cell accounting",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574 complex score arithmetic",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574 exact p range",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574 nested detection gates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574primaryAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574primaryEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574strict_identityAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574strict_identityEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574mt10Astrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574mt10Endothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574low_myeloidAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE174574low_myeloidEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386 unique sample/config/type",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841720 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841721 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841722 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841723 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 nonnegative integer unique genes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 valid detection fractions",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation primary Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation primary Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation primary Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation strict_identity Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation strict_identity Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation strict_identity Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation mt10 Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation mt10 Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation mt10 Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation low_myeloid Astrocyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation low_myeloid Endothelial",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7841724 count conservation low_myeloid Pericyte",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386 cell accounting",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386 complex score arithmetic",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386 exact p range",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386 nested detection gates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386primaryAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386primaryEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386strict_identityAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386strict_identityEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386mt10Astrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386mt10Endothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386low_myeloidAstrocyte DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSE245386low_myeloidEndothelial DE count",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "cross-cohort 323 / 258",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "discovery selected 182 / 154",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "correlation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "spatial spots and geometry",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7437221_spots.tsv.gz coordinate integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7437222_spots.tsv.gz coordinate integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7437223_spots.tsv.gz coordinate integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7437224_spots.tsv.gz coordinate integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "GSM7437225_spots.tsv.gz coordinate integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "22 cited references verified",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "n_passed": 190,
+  "scope": "arithmetic, mappings, result consistency; not independent biological replication"
+}

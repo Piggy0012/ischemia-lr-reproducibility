@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174574/soft/GSE174574_family.soft.gz",
+    "path": "data\\GSE174574\\GSE174574_family.soft.gz",
+    "bytes": 2468,
+    "sha256": "0ad1570e39b38b25bbf8015b72eec386fe71f84c3fc2b65c39893ac2246fe962",
+    "retrieved": "2026-09-09T02:43:53-0500"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174574/suppl/GSE174574_RAW.tar",
+    "path": "data\\GSE174574\\GSE174574_RAW.tar",
+    "bytes": 263086080,
+    "sha256": "2c50725a50169c8a8644eab038a0e49dd51a5ad1326a2ede6607083da9624eb4",
+    "retrieved": "2026-09-09T02:45:50-0500"
+  }
+]

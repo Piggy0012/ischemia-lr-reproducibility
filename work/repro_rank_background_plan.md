@@ -1,0 +1,9 @@
+# Fixed global ranking-universe diagnostic
+
+2026-09-11, revision-stage descriptive amendment. The primary full-network unique-column diagnostic results are already known. This amendment precedes computing the fixed-global-universe results below and adds no P values.
+
+For each raw-count cell selection, intersect all directed cell-type × ligand–receptor rows with finite lr_means, expr_prod, and lrscore in all 11 saved full-library LIANA networks. This global intersection contains non-target cell-type pairs as well as the target directions. Assert that the previously fixed target comparison set (187 primary / 174 reference_singlet edges) is fully contained. Rank each unique magnitude column once and apply the same installed RRA function on this identical global set in each animal, then extract exactly the previous target edges and compare MCAO–Sham effects between studies.
+
+The previous per-library full-network unique-column diagnostic and this fixed-global-universe diagnostic differ in ranking-universe membership only. Neither recomputes the upstream cell-type means, global expression normalization, or SingleCellSignalR denominator. Therefore this controls a ranking-stage context component rather than all cell-composition or score-context effects. The target-only percentile transform remains a separate diagnostic and is not relabeled as fixed-global RRA.
+
+Also compare the average-tie ranks of expr_prod and lrscore across every full saved global network and across each fixed global intersection. If they match, report the observed per-animal monotonic redundancy explicitly; do not call the three distinct magnitude score names independent biological evidence. Reconstruct both native and unique-column full-network RRA from the saved decimal-score tables and verify their saved outputs before restricting the universe. Save global keys, all target animal scores/effects, concordance summaries with all/nonzero denominators, and input hashes.

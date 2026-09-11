@@ -1,0 +1,162 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-09-11T06:42:17.735506+00:00",
+  "reviewer": "scientific_value_review subagent",
+  "scope": "Complete English and Chinese final Markdown scientific-text review, numerical consistency with saved source tables/audits, inferential scope, known-upstream attribution, candidate universes, assembly completeness and Tables 1/2. No manuscript source was edited.",
+  "substantive_contradictions_found": false,
+  "required_changes": [],
+  "manuscripts": [
+    {
+      "path": "outputs/reproducibility_v2/manuscript_en.md",
+      "language": "en",
+      "sha256": "687fb5b435a06168ba93d603875910552adabdc7672da0ea29ae64a3c46716eb"
+    },
+    {
+      "path": "outputs/reproducibility_v2/manuscript_zh.md",
+      "language": "zh",
+      "sha256": "f90d11dc93c178620529e09d47a8727695669bec8719686258887ab57be417de"
+    }
+  ],
+  "checks": [
+    {
+      "check": "upstream_attribution",
+      "status": "pass",
+      "details": "Both texts credit the known PR #261 correction merged on 2026-09-09, specify its fixed commit and exact agreement on 22 raw networks, and distinguish isolated aggregation from a full newer-release run. No novel-bug discovery claim remains."
+    },
+    {
+      "check": "null_units_and_inference",
+      "status": "pass",
+      "details": "Joint 200-allocation results are distinguished from 20 discovery and 10 validation conditional allocations, including the validation P floor of 0.10. Dynamic-gate P=0.005 and six-test Holm P=0.030 match tables. Fixed-family and gap-family conclusions remain separately limited; no sensitivity P values are borrowed from the raw null. The 24-test gap-family minimum Holm P=0.12 was also verified."
+    },
+    {
+      "check": "table2",
+      "status": "pass",
+      "details": "All 8 rows in each language match source candidate counts, concordant counts, complete and nonzero denominators, percentages and rounded correlations. Zero RRA effects are distinguished from missing expression."
+    },
+    {
+      "check": "third_cohort_universes",
+      "status": "pass",
+      "details": "The 17-library common set is 99 candidates: original-pair custom agreement 80/99; third comparisons 53/99 and 58/99. Separately eligible 223/445-edge comparisons are not mixed with this denominator. No third-cohort P values or individually verified mice-per-library claims are introduced; tissue, assay and platform differences are not given a causal attribution."
+    },
+    {
+      "check": "ambient_matched_and_model_limits",
+      "status": "pass",
+      "details": "All 6 raw-to-corrected correlation pairs match the fixed 187/174 sets. Model results retain 10 default converged fits plus the sole 637-iteration extension, pooled-cell contamination interpretation, positive corrected totals, fractional float64 counts, and numerical-only source selection. >=1 is a sensitivity threshold, not evidence of absent expression; >0 retention and model subtraction do not validate cellular origin."
+    },
+    {
+      "check": "assembly_completeness",
+      "status": "pass",
+      "details": "Ambient methods/results/discussion/caption and third methods/results/caption each occur exactly once in both final texts. No missing main section, duplicated long paragraph, unresolved citation key or template placeholder was found."
+    },
+    {
+      "check": "table1",
+      "status": "pass",
+      "details": "The five source rows retain distinct sample units: original animal libraries, third author-reported biological replicates, six paired sorted pools, and five spatial sections. Original QC totals 58,333/57,022, third 116,308 nuclei and spatial 11,969 spots match source summaries."
+    },
+    {
+      "check": "supplementary_and_conclusions",
+      "status": "pass",
+      "details": "Named sorted effects and barrier-gene directions match source tables. Sorted pools, contralateral controls, pointwise intervals and mixed spatial spots remain supplementary context. Conclusions are limited to the original-pair expression advantage, known aggregation correction and weaker third-cohort transfer, without establishing cellular communication or barrier mechanisms."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "outputs/reproducibility_v2/tables/rank_upstream_audit.json",
+      "sha256": "5c369c6b8fdcaf510573c9a3acb0e198850cc8a90b1b7939516821dcc54193b0"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_conditional_summary.tsv",
+      "sha256": "3ac98b7ad19121ee2f4102bfa38aaed8da607d7c3843e3d090cf53262677fae3"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_dynamic_gate_summary.tsv",
+      "sha256": "00e8fd82d0c7bf3431ad605f463129132b4c1afbed3567af5bd81b8de154b141"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_fixed_common_summary.tsv",
+      "sha256": "3fb8cc1635520a9521981b00f0f40fb4177bded1ffbac77be5d2d80b5b57ed08"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/rank_background_summary.tsv",
+      "sha256": "555fad51aac56d6c71f87d1e72ca603511177f844697094a92e907522789547a"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_summary.tsv",
+      "sha256": "586c4ad7fc202a86a0a8551a7e21c44b967d18a8cd805b827b363bf1d63f24cb"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_rank_diagnostic_original_pair_on99.tsv",
+      "sha256": "0d5b6a6492149f13f064d46dd24b36713f81097ec8502cf3605a930e4f017e68"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/third_cross_cohort_concordance_summary.tsv",
+      "sha256": "35beb983000dffd395848c8bf12126ef998b28843959f2671d74842cd8428b51"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/ambient_rank_matched_summary.tsv",
+      "sha256": "f9318b9e0f1652809a6e5712150241617402f8a4b9cadec82791603493adcfd3"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/ambient_rank_matched_audit.json",
+      "sha256": "8f94b913feb0688ebf3c9e4a0b8d8db0a37fa86453a8edac88bddcd18a249518"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/ambient_concordance_summary.tsv",
+      "sha256": "8652add070a434374ad43fc44348cfc79c709d8cb8823f111774e48de619ef41"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/ambient_fixed_examples.tsv",
+      "sha256": "f51820d1e40b943aacc04bc25ee057f2eafc3b63ed60628ad6fe5e83dc7f35d0"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/ambient_markers_per_animal.tsv",
+      "sha256": "f01d4518252b6514666a12464edb79128ea4e7556bc963d4494845db59ff2068"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/sorted_fixed_component_effects_ci.tsv",
+      "sha256": "bf4d479313db83e85d0048b7e9e63bde2be8d97f52b46ab3d64b134aefab4163"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/sorted_descriptive_audit.json",
+      "sha256": "cd1a16f176c7dbf4576fa5760f72c5a09515c2a7390a83a30b294c879ea7950d"
+    },
+    {
+      "path": "work/repro_ambient_narrative.json",
+      "sha256": "5216e45ebf5723a427899a08b33534d8b35361e5b2671068c4597bafbe7e5c7f"
+    },
+    {
+      "path": "work/repro_third_liana_narrative.json",
+      "sha256": "e758a94f063e625403a6616f0bfaa6704c46ebf6cba9dd5fcc596519d9a370d2"
+    },
+    {
+      "path": "work/repro_decontx_model_narrative.json",
+      "sha256": "a0cd529ad6288891ea0f3112c3b0b9861e5a413bb626ccbfb2c1c3d2a0a60dd7"
+    },
+    {
+      "path": "work/repro_decontx/completion_status.json",
+      "sha256": "21b650b1ad5905e4897f56614b35a67caa8521161325132dc03f10bc77a89368"
+    },
+    {
+      "path": "work/repro_third_cohort/library_qc_summary.tsv",
+      "sha256": "06b55baaabe7da597949836201453f376fc9a0d7e61c38f1882944396dd4fea6"
+    },
+    {
+      "path": "outputs/tables/spatial/sample_qc.tsv",
+      "sha256": "73040e8dad274d777628a4785ec508a2d40144dd80fba644939f2c90eed0b730"
+    },
+    {
+      "path": "outputs/revised/tables/barrier_genes_cell_selection_sensitivity.tsv",
+      "sha256": "8b647e4740d1e18b49d023fe9de5f0ce61a7383a01d42a4f4a9dd29e6eb9ec0d"
+    },
+    {
+      "path": "outputs/reproducibility_v2/tables/null_family_gap_summary.tsv",
+      "sha256": "ed44818d7922489f52d804727bc2a580e1c531409496826013566f40c73c0675"
+    }
+  ],
+  "limitations": [
+    "This is a final-text consistency review against completed local evidence, not an independent rerun of raw sequencing analyses or mechanistic validation.",
+    "DOCX/PDF visual appearance and public archive/submission readiness are outside this record.",
+    "The recorded hashes bind this review to these Markdown versions; substantive later edits require renewed review."
+  ],
+  "final_intro_reread": "The final upstream-reference sentence in each introduction was reread after the parent reported editorial rebuilding; the attribution remains correct and current manuscript hashes already match the reviewed versions."
+}

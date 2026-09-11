@@ -1,0 +1,13 @@
+{
+  "url": "https://cran.r-project.org/bin/windows/base/R-4.6.1-win.exe",
+  "official_md5_url": "https://cran.r-project.org/bin/windows/base/md5sum.R-4.6.1.txt",
+  "official_md5": "7907f3a20ec8ec88cd0da279024b8e27",
+  "downloaded_md5": "7907f3a20ec8ec88cd0da279024b8e27",
+  "sha256": "c5424c40cd70ef85765a55d2ff96bb602b5f30ed536938ff004f14db5db3c2df",
+  "bytes": 91749976,
+  "fetched_utc": "2026-09-11T04:46:43.730507+00:00",
+  "install_path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\r_runtime",
+  "system_PATH_modified": false,
+  "desktop_shortcut_requested": false,
+  "file_association_requested": false
+}

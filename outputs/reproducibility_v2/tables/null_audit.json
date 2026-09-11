@@ -1,0 +1,623 @@
+{
+  "status": "complete",
+  "n_checks": 95,
+  "checks": [
+    {
+      "name": "analysis_plan_exists_before_run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/unique_animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/expected_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319987/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319988/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319989/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319990/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319991/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319992/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/matching_animal_gene_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/finite_all_resource_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/reconstructed_custom_matches_prior",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "GSE174574/primary/GSM5319987/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319987/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319988/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319988/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319989/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319989/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319990/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319990/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319991/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319991/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319992/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/primary/GSM5319992/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/unique_animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/expected_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841720/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841721/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841722/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841723/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841724/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/matching_animal_gene_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/finite_all_resource_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/reconstructed_custom_matches_prior",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "GSE245386/primary/GSM7841720/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841720/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841721/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841721/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841722/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841722/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841723/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841723/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841724/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/primary/GSM7841724/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "primary/nonempty_fixed_universe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "primary/observed_dynamic_gate_reproduces_original_keys",
+      "passed": true,
+      "detail": 323
+    },
+    {
+      "name": "primary/observed_dynamic_gate_reproduces_original_statistics",
+      "passed": true,
+      "detail": {
+        "n_candidates": 323,
+        "n_nonzero_both": 323,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "n_same_direction": 258,
+        "same_direction_all_fraction": 0.7987616099071208,
+        "same_direction_nonzero_fraction": 0.7987616099071208,
+        "spearman_rho": 0.7427882976103759
+      }
+    },
+    {
+      "name": "GSE174574/reference_singlet/unique_animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/expected_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319987/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319988/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319989/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319990/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319991/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319992/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/matching_animal_gene_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/finite_all_resource_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/reconstructed_custom_matches_prior",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319987/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319987/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319988/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319988/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319989/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319989/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319990/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319990/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319991/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319991/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319992/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE174574/reference_singlet/GSM5319992/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/unique_animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/expected_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841720/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841721/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841722/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841723/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841724/matching_mean_fraction_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/matching_animal_gene_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/finite_all_resource_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/reconstructed_custom_matches_prior",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841720/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841720/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841721/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841721/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841722/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841722/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841723/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841723/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841724/liana_full_context_eligible_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GSE245386/reference_singlet/GSM7841724/liana_unique_correct_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_singlet/nonempty_fixed_universe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_singlet/observed_dynamic_gate_reproduces_original_keys",
+      "passed": true,
+      "detail": 326
+    },
+    {
+      "name": "reference_singlet/observed_dynamic_gate_reproduces_original_statistics",
+      "passed": true,
+      "detail": {
+        "n_candidates": 326,
+        "n_nonzero_both": 326,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "n_same_direction": 247,
+        "same_direction_all_fraction": 0.7576687116564417,
+        "same_direction_nonzero_fraction": 0.7576687116564417,
+        "spearman_rho": 0.7030217132058506
+      }
+    },
+    {
+      "name": "planned_test_family_sizes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_probabilities_are_on_200_allocation_grid",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "source_sha256": {
+    "repro_null_plan.md": "e6d46571f4a43928ab0efcdc0de4b82ecc4e53b3aba0af4d48b754b1a707fea8",
+    "literature\\mouseconsensus.csv": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+    "processed\\GSE174574\\sample_cell_counts.tsv": "7c9b17b3e83d7c4abeaa3ac9cd111c71d9c230bcbf6165943c3bd904e522620a",
+    "processed\\GSE174574\\GSM5319987_mean_logcp10k.tsv.gz": "9539547c53138fa7af0b9326b924f155180ded08ea87be95d61193e33870deff",
+    "processed\\GSE174574\\GSM5319987_fractions.tsv.gz": "5dc43b812bc48cc58c46abb77afe4db6b74a6a52d3fd31e0ba5d1625ddcecbd6",
+    "processed\\GSE174574\\GSM5319988_mean_logcp10k.tsv.gz": "6015302cac15a1dcbf1db8ed393275d128bd455ba433727cf5b8f89980466c12",
+    "processed\\GSE174574\\GSM5319988_fractions.tsv.gz": "565e6271cb9850e8cf85e2360cc02dfae08e0fdcc53d119f8aff93e9ff776bc7",
+    "processed\\GSE174574\\GSM5319989_mean_logcp10k.tsv.gz": "a48119a2581fbe196fbf42b11810f8e8eccb00221a8b95e5e20bf058ead6da5c",
+    "processed\\GSE174574\\GSM5319989_fractions.tsv.gz": "2129aa31af303b4995a3ff3567167a6bda35c50d4e2a9de67fc75d42012af250",
+    "processed\\GSE174574\\GSM5319990_mean_logcp10k.tsv.gz": "0786bded1f01a709c83ca4da8328fb1fccdaccc19f1688bc5e7b475ac8f5bbc2",
+    "processed\\GSE174574\\GSM5319990_fractions.tsv.gz": "8ee2f0d591e3884ae5ddacf1ae3df2a79258f07c04b363bdbc60c82ddc4f4588",
+    "processed\\GSE174574\\GSM5319991_mean_logcp10k.tsv.gz": "c8e34c95fb96ed1b0c94786aec7afdc788728594b79cea3d8c40c5aa61d9e414",
+    "processed\\GSE174574\\GSM5319991_fractions.tsv.gz": "33e29c8e53161070dc608a18d66c33870723cc857f7a7b9bb221965b2b75ece1",
+    "processed\\GSE174574\\GSM5319992_mean_logcp10k.tsv.gz": "9281f6bebdcc28b36d30617edeefde6af97dab8ba6c7a9ba5a3f877c382779ba",
+    "processed\\GSE174574\\GSM5319992_fractions.tsv.gz": "483cd8953405e0d50cb7ad161eda2f4f5d7c1e20955256ebb2c461e0f4dcd892",
+    "results\\GSE174574\\primary__communication_sample_scores.tsv.gz": "d9c18f4819a648e9ebb04177e31cefb47ec2ba058dbd1a17e72bcf81fd91d90f",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319987.json": "37eca62ef0cb3e152f3c44f740fdacb9d511f083f623f7e5bfbe662b57c4b0a3",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319987.tsv.gz": "0c22ccfa69ea1186c96eb0d161b118b84a95b5035f03a999557b61c89f695929",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319988.json": "571d52e8a80a68f9602a8052d2d2a6313f711f717a54b52f81881ece8e84d071",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319988.tsv.gz": "1819054729f6d84d4c111d10763c20a09d7aa1448283891f72dd283b59c24e48",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319989.json": "a5e234df808ac7422039b3b0a0eb30839d2d718fc4df5d839e74d8205b442100",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319989.tsv.gz": "b0b641c19c59baf27b478584ee49e15979a003e8016bcf5f594b20e87ecfcad3",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319990.json": "f19a2cda217242a8b61cd4a8fdfc3e269e379303425dbeb2ca9b0e2ed5ff5965",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319990.tsv.gz": "8d43b3c6df1867d56745213c86bbc8919db6fcedb5ef1c823bc1dc347ca68981",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319991.json": "f0d4e7933a7d66f08c4b62d8628a8dce7062e96d0a557f4e5b73c31693340e14",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319991.tsv.gz": "8644e3dfd768843dd7788cecd29072861997a42d3be502104171af54f0f8cc54",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319992.json": "e681326de8d9abcec65fd098d27152062819971f3f34e127733349165a81dd0f",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319992.tsv.gz": "e249ec52f3e835c37d2b6e1361b7fb063fab24423a73880292028c61dd5617b6",
+    "processed\\GSE245386\\sample_cell_counts.tsv": "e8e17f5a01c6a16b5a81aed49b78c4a953c2966a19b986969b4fbc179e701dc3",
+    "processed\\GSE245386\\GSM7841720_mean_logcp10k.tsv.gz": "1f357897a08ed6a42eb54faf5e1d03663c5823073415db902f47ad0445c86b44",
+    "processed\\GSE245386\\GSM7841720_fractions.tsv.gz": "7260801fdd7bdc4488d3695d36bbb4dfd87e46970bc0fe58e6306854c65e48e0",
+    "processed\\GSE245386\\GSM7841721_mean_logcp10k.tsv.gz": "aea93bea65677d17720a2ed82dbf9cd592998d3956122617a7b8a52c4d92eacc",
+    "processed\\GSE245386\\GSM7841721_fractions.tsv.gz": "77d451cff82f20108284e0a0ea5c811e6066cabb7de9353b992c8f56b1211b99",
+    "processed\\GSE245386\\GSM7841722_mean_logcp10k.tsv.gz": "97876ffff82da4ff3fdee2979105f2b87bc5c2bee87cd01623623dceb22a158a",
+    "processed\\GSE245386\\GSM7841722_fractions.tsv.gz": "922fb6c3fd3c79636ad9be9f5c514aa70ee8061d693786c98ea82e6768026e4b",
+    "processed\\GSE245386\\GSM7841723_mean_logcp10k.tsv.gz": "72a2e82472072cb073cf2fb789d6f4b54516338bc4f535fcca26c4ec4fa77a46",
+    "processed\\GSE245386\\GSM7841723_fractions.tsv.gz": "854738a4a3b6e75920ea74cd7d2948a900313809d932db48c53b79ed1d6038cb",
+    "processed\\GSE245386\\GSM7841724_mean_logcp10k.tsv.gz": "94fcec91e3a81ca4252761bca86dbf55b77e03dfbf6c931fbb3c4d6b2ca3b33b",
+    "processed\\GSE245386\\GSM7841724_fractions.tsv.gz": "574017156af642a83861c919e4f25754b5cb66ed0be22a3f6f4e460d01f3467b",
+    "results\\GSE245386\\primary__communication_sample_scores.tsv.gz": "03e9028ac80986b653b5477292583b372c69e769b4f241a16c6bd5060d531117",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841720.json": "57f99ed3a6987adcf85cee269441f595aae64a189e2ccb5810c8595883806b90",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841720.tsv.gz": "3097e2689dcf1ae3cdde14b51d3f1c3f227d7f408192a81078a00b983525a502",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841721.json": "27eda598d53ab1b082f526db8efe689b49d4de855266ecbe0e9b6a03ade13d83",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841721.tsv.gz": "9385969e08edb5244c8946fb6ddf93b1ada98771d1610a0852ddd19faf1119b0",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841722.json": "79b2f7d4cc299395f799aac9461a0d1508156e5b169c5910257c7c132489cccb",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841722.tsv.gz": "70c1d47ce9c8fb751a188949e3fb0949a7e173d01a8cad9688d12d9dd5e7182d",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841723.json": "798ed42f4d6c3d5d1a6f4dd04952aa49ef476d001c2770200d9701ea246e7a5a",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841723.tsv.gz": "9603adce25f0d5e4179ca6946c93fc65d493a06d6ea80bf8c0f92ff312e852e1",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841724.json": "04d6e63dc84ca7eba34e2f3e393c961c1207d0d37c474204068b2ce805d6631e",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841724.tsv.gz": "d85d42c9e2d39bb080b9c9b9e5e692608040510b6e758280c5ecbd0d024c8925",
+    "results\\GSE174574\\primary__communication.tsv.gz": "28b66a059a38963198c864a78cd1b2e079c48756cfa3602f632d5cee8649066c",
+    "results\\GSE245386\\primary__communication.tsv.gz": "96a5c4b0189b16ac1bb6ec30b6f595be0c2edc6d77bcbbacfa2d87c6151cf43f",
+    "revision_analysis\\processed\\GSE174574\\sample_cell_counts.tsv": "ba6844e4dba08169ea500337022e1717b72267bfde25c6c913ea48348095850b",
+    "revision_analysis\\processed\\GSE174574\\GSM5319987_mean_logcp10k.tsv.gz": "f362aa85a9e9593e6b3225b6c04840b7d4ff835f72c897e5f940bf4515cb993d",
+    "revision_analysis\\processed\\GSE174574\\GSM5319987_fractions.tsv.gz": "a60a89fa221755185dee24b90364084b7e89a86d74fe4e2e251969f2d6005807",
+    "revision_analysis\\processed\\GSE174574\\GSM5319988_mean_logcp10k.tsv.gz": "d68b6de00e33509e9939b1fad99238a0ea75334a374a6adacb6c1e0d72bb28af",
+    "revision_analysis\\processed\\GSE174574\\GSM5319988_fractions.tsv.gz": "16d57547e3abc430213a3dc73744b8f135f9493939b69f20b18a19f07efe4737",
+    "revision_analysis\\processed\\GSE174574\\GSM5319989_mean_logcp10k.tsv.gz": "a9e681984c7fcf6f96cbdf0b32396d9d1ae64bb6c14161dfc5829339d3b24d1f",
+    "revision_analysis\\processed\\GSE174574\\GSM5319989_fractions.tsv.gz": "e99a6bc1046278d8996ae147cc587aa9d4deb23891d8d0d5a3186d2169c0800f",
+    "revision_analysis\\processed\\GSE174574\\GSM5319990_mean_logcp10k.tsv.gz": "6052867c323c5388f41a784228a4a8e29046b68856324b7abd0905f0f2c8c377",
+    "revision_analysis\\processed\\GSE174574\\GSM5319990_fractions.tsv.gz": "24c6e1bd8c07dbdb90f9c7abcfb05b8e8c42937ceaae1f6f9af7831b25220d25",
+    "revision_analysis\\processed\\GSE174574\\GSM5319991_mean_logcp10k.tsv.gz": "2ba7fc9d9b1a92ccb42021470d4822f3ba2e1b3a6de82fab97c36596b1f19b39",
+    "revision_analysis\\processed\\GSE174574\\GSM5319991_fractions.tsv.gz": "a545af36218f7a351657f1c241f0042e4bbc3baeff1d48b5845d9718d376cd62",
+    "revision_analysis\\processed\\GSE174574\\GSM5319992_mean_logcp10k.tsv.gz": "3edf10f1dd76e752e3a1d5bd611ae8a3ebc8236cbe4655d2e8e7d76758d7e40b",
+    "revision_analysis\\processed\\GSE174574\\GSM5319992_fractions.tsv.gz": "324f80f4a7c25931fcb58841239f0219ba2e3838914766c0d21a4573e52837bc",
+    "revision_analysis\\results\\GSE174574\\reference_singlet__communication_sample_scores.tsv.gz": "ba489ad6870f82a07b97e63dc12148212396b05919086f774cb55bc13d8d68a3",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.json": "ab4826902b1f4064544ecac1b4ce36e80ea9056c6bf67fa980e87d450eb97de9",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.tsv.gz": "b6d0371271fe09ad5c8b3cd805869e8626bb6b49e5dd90ec4feb2e0612479885",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.json": "9c6491da3c483cf42bf8fabe1d7d2384f2949638712ca6d9af127bd1e0472c5e",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.tsv.gz": "f6f98f57c0702c69021cf67bd32c52404beb561c575d0f2bd27914bb5ff297e2",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.json": "94688953455ddab00327ebe3b958d1bc2a49c6fa5efc642ae80a2db04109a464",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.tsv.gz": "db183dbf2e37a290721a48274e76c21ba905210fb0362641cdf8a49d90ab1648",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.json": "9d9fd7512269c914aa18e75b1e495b806783f5d29018a4b08ee6f8eddc5c99be",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.tsv.gz": "c1948a6d627491e89ee80d722866ecc8bcc7b7179dc3cd0009f8389e76be2a41",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.json": "8eb5f9e2117e24dc5c026f462824b459e7b4e6a7bcf6b5dd09fa321fb3fce0be",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.tsv.gz": "862214934d3b1ccd9dcd16c7e10601be919948c8884d2b9cc5c1b8866283edbd",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.json": "945ad65f92a520f76a09ada7b8092b3a5cfb605a554b16f181a953a109dc9e91",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.tsv.gz": "e4d917342858188e9934b3ff5a9f001b190670ff49765996eeff42cac6c31af4",
+    "revision_analysis\\processed\\GSE245386\\sample_cell_counts.tsv": "adad690f8c803b1effb82cac27b0c0ccafef21d38ea553a7f6298c1b7b0ac322",
+    "revision_analysis\\processed\\GSE245386\\GSM7841720_mean_logcp10k.tsv.gz": "ebdb01129bb9b779e9c1746f15336a26d152dd7925d0bf259a9c36ae6400eeed",
+    "revision_analysis\\processed\\GSE245386\\GSM7841720_fractions.tsv.gz": "a2efabd71f223c61d295a47a254ae2789a7ec5b2e0bae7f0b1788261343ef4ab",
+    "revision_analysis\\processed\\GSE245386\\GSM7841721_mean_logcp10k.tsv.gz": "66f8f2d6ada40a41d4a3e151ab9bb48d70ef4f353aaae629b8f7bb4c61ebd7cd",
+    "revision_analysis\\processed\\GSE245386\\GSM7841721_fractions.tsv.gz": "94752489c9d3dfd18a94952b2fd1be7a97a2152d99c046b55aea985b71c3dbe0",
+    "revision_analysis\\processed\\GSE245386\\GSM7841722_mean_logcp10k.tsv.gz": "1195c44b30e4978dc904caf4fdcf96a61cd64964cdb402536fb98710b778a7ce",
+    "revision_analysis\\processed\\GSE245386\\GSM7841722_fractions.tsv.gz": "4d6a297f1fd2714219dd832e740fbc17de1478e7dc8a78f0f34905ce3152ea37",
+    "revision_analysis\\processed\\GSE245386\\GSM7841723_mean_logcp10k.tsv.gz": "c9058f83fdf708bf9fa155e5255f803a3fa7715d244b497d3c38935aab003e3f",
+    "revision_analysis\\processed\\GSE245386\\GSM7841723_fractions.tsv.gz": "40c90f6334b740273321fdff66b3150cbcc4834b9bf06c5ac3f5b7237935c0aa",
+    "revision_analysis\\processed\\GSE245386\\GSM7841724_mean_logcp10k.tsv.gz": "32989edfec9dcf8bdb493e022e1e59c929f81070e7706007c69d3abe5466bbe1",
+    "revision_analysis\\processed\\GSE245386\\GSM7841724_fractions.tsv.gz": "70b65d4bfbfd853045a0135de40580ddde54ce66efd61b78474a307463a86ec0",
+    "revision_analysis\\results\\GSE245386\\reference_singlet__communication_sample_scores.tsv.gz": "d3d186c6690ed64874f1bcbbf0cdc67fcbf3d3d7e03c017c40d456db34223dbe",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.json": "9f322f659e8c05191b3119bff3814eab6c89b51da46fd0e40719ed2e98c83e63",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.tsv.gz": "059bf93cd7de497e1d7d587240ef730920a775696e3cd8494b53537fd0c52810",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.json": "8b9edb6392d8ace35859f65de8dcc2bb9f572c606407cb7d9f70815659a1683c",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.tsv.gz": "4d232a140c7579daad1b702115d759f91afb704a68c3740fb96a2008d3591753",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.json": "99e2ba62b737541c6b7ad9790f1189f1592173a6b0965c184058d066dbeca586",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.tsv.gz": "4d56257aff0456b631741fb5c5d8f83dd3504e79b058056b1599191a823515de",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.json": "96a4285b2c0498e720a76f5ecc3f2b15cb4e3395a89f97b30106955c26a68611",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.tsv.gz": "09a0e7d607531ed0131fb776d881fa43bfbf5f0680b80c4effe4ea1b4d4f23ba",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.json": "5ec73293bc3488203aefb7e78296410bfc1607627b542395298a13fa869bd1d6",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.tsv.gz": "05e361c3db23f1f4477bd4df7725053e8bec460d940feb5f47edee212be8d861",
+    "revision_analysis\\results\\GSE174574\\reference_singlet__communication.tsv.gz": "f3d978831ddaf3aa6d6263fdbf672c61f098061c8608461be65df06ccca3283f",
+    "revision_analysis\\results\\GSE245386\\reference_singlet__communication.tsv.gz": "587a21152dc6bc64c0900a37fe301f2eebea04ed94e0077dbcf0c12455d866a8"
+  },
+  "script_sha256": "11673161a7a066e3f03bc56930450de3a81c6e835e15b570bfc023ccca052000",
+  "n_joint_allocations": 200,
+  "observed_allocation_included": true,
+  "randomization_unit": "entire animal-level LR vector within each study",
+  "zero_effect_absolute_tolerance": 1e-12,
+  "missing_scores_imputed": false,
+  "fixed_universe_disease_label_dependent": false,
+  "dynamic_gate_recomputed_per_allocation": true,
+  "tail": "one-sided upper",
+  "null_interval_is_effect_confidence_interval": false,
+  "gap_null_tests_algorithm_equivalence": false,
+  "multiplicity": {
+    "A_fixed_common_metrics": 30,
+    "B_expression_minus_ranking": 24,
+    "C_exploratory_dynamic_gate": 6
+  },
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  }
+}

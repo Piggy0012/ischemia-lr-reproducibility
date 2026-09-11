@@ -1,0 +1,116 @@
+{
+  "Astrocyte": [
+    "Aldh1l1",
+    "Slc1a3",
+    "Slc1a2",
+    "Gja1",
+    "Glul",
+    "Sox9",
+    "Aldoc"
+  ],
+  "Endothelial": [
+    "Pecam1",
+    "Cdh5",
+    "Esam",
+    "Tek",
+    "Erg",
+    "Vwf",
+    "Kdr"
+  ],
+  "Pericyte": [
+    "Pdgfrb",
+    "Rgs5",
+    "Kcnj8",
+    "Abcc9",
+    "Cspg4",
+    "Des"
+  ],
+  "Smooth_muscle": [
+    "Acta2",
+    "Tagln",
+    "Myh11",
+    "Cnn1",
+    "Myl9"
+  ],
+  "Fibroblast": [
+    "Col1a1",
+    "Col1a2",
+    "Dcn",
+    "Lum",
+    "Col3a1"
+  ],
+  "Microglia": [
+    "P2ry12",
+    "Tmem119",
+    "Cx3cr1",
+    "Hexb",
+    "Csf1r"
+  ],
+  "Myeloid": [
+    "Lyz2",
+    "Tyrobp",
+    "Aif1",
+    "Fcgr3",
+    "Ctss",
+    "C1qa"
+  ],
+  "Oligodendrocyte": [
+    "Mbp",
+    "Plp1",
+    "Mog",
+    "Mag",
+    "Cnp",
+    "Mobp"
+  ],
+  "OPC": [
+    "Pdgfra",
+    "Olig1",
+    "Olig2",
+    "Sox10",
+    "Gpr17"
+  ],
+  "Neuron": [
+    "Snap25",
+    "Syt1",
+    "Rbfox3",
+    "Slc17a7",
+    "Gad1",
+    "Gad2"
+  ],
+  "Ependymal": [
+    "Foxj1",
+    "Tppp3",
+    "Pifo",
+    "Dynlrb2",
+    "Ccdc153"
+  ],
+  "Choroid": [
+    "Ttr",
+    "Krt18",
+    "Krt8",
+    "Aqp1",
+    "Folr1"
+  ],
+  "Lymphocyte": [
+    "Cd3d",
+    "Cd3e",
+    "Trbc2",
+    "Cd79a",
+    "Ms4a1",
+    "Nkg7"
+  ],
+  "Neutrophil": [
+    "S100a8",
+    "S100a9",
+    "Retnlg",
+    "Ly6g",
+    "Csf3r"
+  ],
+  "Erythroid": [
+    "Hba-a1",
+    "Hba-a2",
+    "Hbb-bs",
+    "Hbb-bt",
+    "Alas2"
+  ]
+}

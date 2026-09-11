@@ -1,0 +1,5 @@
+toy_row	input_lr_means	input_expr_prod	input_lrscore	native_intermediate_rank_lr_means	native_intermediate_rank_expr_prod	native_intermediate_rank_lrscore	unique_column_diagnostic_rank_lr_means	unique_column_diagnostic_rank_expr_prod	unique_column_diagnostic_rank_lrscore	native_rra	unique_column_diagnostic_rra
+1	1.0	1.0	0.1	4.0	1.0	4.0	4.0	4.0	4.0	1.0	1.0
+2	2.0	4.0	0.2	3.0	2.0	3.0	3.0	3.0	3.0	1.0	1.0
+3	3.0	9.0	0.3	2.0	3.0	2.0	2.0	2.0	2.0	1.0	0.375
+4	4.0	16.0	0.4	1.0	4.0	1.0	1.0	1.0	1.0	0.46875	0.046875

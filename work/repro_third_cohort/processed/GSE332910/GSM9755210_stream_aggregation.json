@@ -1,0 +1,9 @@
+{
+  "sample": "GSM9755210",
+  "processed_nonzero_entries": 30971985,
+  "matrix_gene_major_unique": true,
+  "all_assigned_counts_conserved": true,
+  "n_target_astrocytes": 1009,
+  "n_target_endothelial": 215,
+  "all_class_summaries": true
+}

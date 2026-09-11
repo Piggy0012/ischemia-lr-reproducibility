@@ -1,0 +1,25 @@
+{
+  "status": "source_payloads_verified",
+  "source_zip": "code_results.zip",
+  "source_zip_sha256": "f84948d6678a83761712342bc707f1b78e15f83f88b8ced996f172be74460872",
+  "zip_crc_all_members_passed": true,
+  "zip_member_sha256_all_passed": true,
+  "v2_payload_members": 1596,
+  "v3_environment_files": 269,
+  "v3_environment_manifest_sha256": "cf3ae25f205ee36160ec3e6d8360b600d94fd27b488c2280ef32ad9f63e83708",
+  "original_analysis_stage_modified": false,
+  "original_v2_archives_modified": false,
+  "git_initialized": false,
+  "commit_created": false,
+  "remote_contacted": false,
+  "source_manuscript_status": "Version 2 retained as an immutable analysis snapshot; v3 manuscript synchronization is separate.",
+  "large_raw_and_corrected_cell_matrices": "Excluded from Git payload; obtain from accession manifests and separate data assets.",
+  "source_readme_backup": "provenance/v2_archive/README.md",
+  "original_manifest_scope": "MANIFEST_SHA256.tsv describes the original ZIP payload; root README is subsequently replaced with a repository entry point.",
+  "version3_metadata_changed_paths": [
+    "README.md",
+    "CITATION.cff",
+    ".zenodo.json"
+  ],
+  "version3_metadata_source": "Author-confirmed identity/declarations and current v3 manuscript title; public repository existence not asserted"
+}

@@ -1,0 +1,113 @@
+{
+  "status": "complete",
+  "count_source": "decontx",
+  "dataset": "GSE174574",
+  "sample": "GSM5319988",
+  "corrected_source_selection": {
+    "selected_relative_directory": "repro_decontx/GSE174574/GSM5319988",
+    "default_converged": true,
+    "numerical_extension_selected": false,
+    "selected_converged": true,
+    "selected_max_iter": 500,
+    "selected_last_divergence": 0.0009911,
+    "selected_audit_sha256": "376e38252c728b0287d5381c922f4b3a0b8c93308a18589a348ff428b3735c27",
+    "default_audit_sha256": "376e38252c728b0287d5381c922f4b3a0b8c93308a18589a348ff428b3735c27"
+  },
+  "normalised_matrix_dtype": "float32",
+  "n_positive_before_float32": 6946266,
+  "n_positive_after_float32": 6946266,
+  "n_explicit_zeros_removed": 0,
+  "sparse_detection_audit": "Explicit zeros removed before LIANA getnnz-based expression proportions",
+  "config": "primary",
+  "condition": "Sham",
+  "liana_version": "1.10.0",
+  "methods": [
+    "CellPhoneDB",
+    "Connectome",
+    "log2FC",
+    "NATMI",
+    "SingleCellSignalR"
+  ],
+  "native_magnitude_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "NATMI": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "diagnostic_unique_score_specs": {
+    "CellPhoneDB": [
+      "lr_means",
+      false
+    ],
+    "Connectome": [
+      "expr_prod",
+      false
+    ],
+    "SingleCellSignalR": [
+      "lrscore",
+      false
+    ]
+  },
+  "parameters": {
+    "expr_prop": 0.1,
+    "min_cells": 30,
+    "use_raw": false,
+    "n_perms": 100,
+    "seed": 20260910,
+    "n_jobs": 1,
+    "return_all_lrs": false,
+    "aggregate_method": "rra"
+  },
+  "computed_all_cell_type_pairs": true,
+  "all_pair_rows": 19603,
+  "exported_target_rows": 263,
+  "n_input_cells": 8512,
+  "n_context_cells": 4794,
+  "n_context_genes": 27933,
+  "context_counts": {
+    "Endothelial": 1360,
+    "Microglia": 1275,
+    "Choroid": 425,
+    "Myeloid": 403,
+    "Smooth_muscle": 374,
+    "Astrocyte": 370,
+    "Oligodendrocyte": 234,
+    "Pericyte": 115,
+    "Neutrophil": 110,
+    "Fibroblast": 69,
+    "Ependymal": 59
+  },
+  "denominator": "per-cell total of supplied count source across all genes, before cell-type filtering",
+  "zero_total_cells": 0,
+  "corrected_counts_sha256": "973b66bde719dc1becb1b19ba008b040c0ca4a1b9ca3e8d37921f319e1c7a988",
+  "corrected_barcode_gene_order_verified": true,
+  "identity_sha256": null,
+  "resource_sha256": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+  "barcode_order_sha256": "5ba41a4bb8367e539e0b02651b044ff54b03211b4105194bb3398244722d020e",
+  "gene_order_sha256": "00c0e2826ee6b6968923c25caa6206cb293e0886e442727b96b9bc9a8e85a000",
+  "source_aggregate_sha256": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+  "script_sha256": "ac86a59c9e545d5652ec829f70cba771e14e01a18d46c45aa64947b05bc2e805",
+  "plan_sha256": "e85c0d40a00e2d6fd05a468bb81c2215cdc90035be73be27988aabafec748733",
+  "native_full_network_reconstruction_max_abs_error": 0.0,
+  "raw_target_scores_verified_against_prior": false,
+  "raw_prior_comparison_representation": "both scores parsed from pandas TSV decimal serialization",
+  "raw_target_prior_max_abs_errors": {},
+  "prior_target_sha256": null,
+  "full_network_sha256": "468b75aac1a02c1291f4d1c28591e78413aa6bdd5c2b2606ed1e9ca571495f2e",
+  "target_sha256": "7b80a63ab3447e8a12ccb20de1f3283871a341773d6bec2def566032d67430e0",
+  "package_modified": false,
+  "diagnostic_is_official_package_release": false,
+  "elapsed_seconds": 12.452999999979511
+}

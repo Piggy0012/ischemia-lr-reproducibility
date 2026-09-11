@@ -1,0 +1,13 @@
+args <- commandArgs(trailingOnly=TRUE)
+lib <- normalizePath(args[1], winslash="/", mustWork=FALSE)
+dir.create(lib, recursive=TRUE, showWarnings=FALSE)
+.libPaths(c(lib, .libPaths()))
+options(repos=c(CRAN="https://cloud.r-project.org"), timeout=600,
+        Ncpus=1, download.file.method="libcurl")
+if (!requireNamespace("BiocManager",quietly=TRUE))
+  install.packages("BiocManager", lib=lib, type="binary")
+BiocManager::install("decontX", lib=lib, version="3.23", ask=FALSE, update=FALSE, type="binary")
+stopifnot(requireNamespace("decontX", quietly=TRUE))
+if (!requireNamespace("jsonlite", quietly=TRUE)) install.packages("jsonlite",lib=lib,type="binary")
+cat("DECONTX_INSTALLED", as.character(packageVersion("decontX")), "\n")
+print(sessionInfo())

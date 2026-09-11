@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE174574",
+  "config": "strict_identity",
+  "cell_type": "Endothelial",
+  "n_samples": 6,
+  "samples_by_condition": {
+    "Sham": 3,
+    "MCAO": 3
+  },
+  "tested_genes": 10610,
+  "fdr05": 2372,
+  "fdr05_abslog2fc05": 1598,
+  "min_cells": 729,
+  "n_cpus": 1,
+  "software": "PyDESeq2",
+  "replication_level": "sample-level"
+}

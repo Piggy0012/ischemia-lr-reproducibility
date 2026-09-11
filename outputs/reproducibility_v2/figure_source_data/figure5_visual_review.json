@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "preview_sha256": "f8cf96f9c568e122fe1f991ebd00d2b30c432716501c044f12e4640a31471f7d",
+  "review_method": "Actual color and grayscale PNGs viewed with view_image before vector export.",
+  "checks": {
+    "no_missing_glyphs": true,
+    "no_clipped_text": true,
+    "no_overlapping_annotations_or_data": true,
+    "aligned_panel_letters": true,
+    "adequate_interpanel_space": true,
+    "grayscale_distinguishable_by_marker_and_labels": true,
+    "all_data_visible": true,
+    "consistent_cross_panel_scales_and_symbols": true
+  },
+  "semantic_checks": {
+    "six_individual_library_points_shown_without_mean_bars": true,
+    "same_99_candidate_universe_for_both_cohort_pairs_and_all_displayed_scores": true,
+    "direction_agreement_uses_same_nonzero_sign_with_all_99_as_denominator": true,
+    "zero_disease_effect_counts_explicitly_shown": true,
+    "no_inferential_pvalues_or_error_bars": true
+  }
+}

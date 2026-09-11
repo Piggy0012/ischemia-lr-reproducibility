@@ -1,0 +1,56 @@
+{
+  "status": "source_verified_and_22_networks_audited",
+  "source": {
+    "pr_url": "https://github.com/scverse/liana/pull/261",
+    "pr_title": "Skill; Standardize props; versioning",
+    "merged": true,
+    "merged_at": "2026-09-09T07:06:26Z",
+    "merge_commit_sha": "d4211373692e7b9c10210488ccb1efe06452b097",
+    "commit_html_url": "https://github.com/scverse/liana/commit/d4211373692e7b9c10210488ccb1efe06452b097",
+    "sources": [
+      {
+        "filename": "liana_pr261_api.json",
+        "requested_url": "https://api.github.com/repos/scverse/liana/pulls/261",
+        "resolved_url": "https://api.github.com/repos/scverse/liana/pulls/261",
+        "bytes": 17975,
+        "sha256": "6153e21dc2d310b12fe8ab856aa38a91d8cb164625d0eb59d00de071989c4868",
+        "retrieved_utc": "2026-09-11T06:20:37.345440+00:00"
+      },
+      {
+        "filename": "liana_merge_d421137_api.json",
+        "requested_url": "https://api.github.com/repos/scverse/liana/commits/d421137",
+        "resolved_url": "https://api.github.com/repos/scverse/liana/commits/d421137",
+        "bytes": 151687,
+        "sha256": "2987e3fda368c54e02460dfcacfe81411f5ef73b464a2f9be179c4fa7068f9b2",
+        "retrieved_utc": "2026-09-11T06:20:38.334626+00:00"
+      },
+      {
+        "filename": "liana_merge_d421137_aggregate.py",
+        "requested_url": "https://raw.githubusercontent.com/scverse/liana/d4211373692e7b9c10210488ccb1efe06452b097/src/liana/_core/_pipe_utils/_aggregate.py",
+        "resolved_url": "https://raw.githubusercontent.com/scverse/liana/d4211373692e7b9c10210488ccb1efe06452b097/src/liana/_core/_pipe_utils/_aggregate.py",
+        "bytes": 6392,
+        "sha256": "484b2e61d7bb01d141116a6fdf8f8b7d269973396be3354d10702222770aa875",
+        "retrieved_utc": "2026-09-11T06:20:39.030062+00:00"
+      }
+    ]
+  },
+  "sections": {
+    "methods_zh": "在最终来源复核中，确认上游PR #261已于2026年9月9日合并针对共享评分列重复排名的修正。我们将固定合并提交中的4个聚合函数单独提取，逐个函数核对AST一致性，在现有NumPy/pandas/SciPy环境中执行；未安装新的LIANA包。对全部22个原始完整网络恢复3个表达评分列的float32精度，保留原网络、参数与187/174条目标候选，仅重算该固定提交的聚合函数。另分别以相同float64输入复核两个聚合实现，记录排名精度而不改变表达顺序。",
+    "results_zh": "固定上游聚合函数与此前“独特评分列各排名一次”的诊断在全部22个完整网络及各自目标集合上逐值完全一致，最大绝对误差为0。在本环境中，SciPy 1.18.1的rankdata对float32输入保留float32，因此两实现的排名矩阵精度相同；两者接受相同float64输入时亦逐值一致。跨队列ρ仍为0.519/0.514；全部候选同向数仍为122/187和115/174，非零效应分母为168/158。该追加核验不产生新的P值，未更改原零分布或多重校正家族。",
+    "discussion_zh": "共享expr_prod列的重复排名问题及其修正应归于已合并的上游工作。本研究的增量是量化这一已知聚合修正在相同动物、评分和候选条件下对跨队列结果的影响，并继续评价候选母集与评分饱和带来的残余敏感性。官方PR还修改了表达比例等默认设置；本次核验仅执行固定提交的聚合函数，因此不能表述为完整新版LIANA流程的比较。稿件应删除“首次发现该bug”或暗示上游尚未修正的表述，同时保留明确的软件版本与函数级审计范围。",
+    "methods_en": "Final source verification identified an already merged upstream correction in LIANA PR #261, merged on 9 September 2026. Four aggregation functions were extracted from the fixed merge commit d4211373692e7b9c10210488ccb1efe06452b097, with function bodies verified as AST-identical. These functions were executed in the existing numerical environment on all 22 saved raw complete-network score tables, restoring the three magnitude inputs to float32 and preserving network membership, method specifications and the 187/174 fixed target candidates. No newer LIANA package was installed. A separate precision check supplied both implementations with identical float64 copies of the same score values.",
+    "results_en": "The fixed upstream aggregation function and our earlier unique-column diagnostic were bitwise identical across all 22 complete networks and their fixed target subsets, with a maximum absolute difference of zero. In the audited SciPy 1.18.1 environment, rankdata retained float32 precision for these inputs; the two implementations were also identical when both received float64 inputs. Cross-cohort correlations remained 0.519/0.514, with concordance counts of 122/187 and 115/174 overall and nonzero-effect denominators of 168/158. The additional audit introduced no P values and left the original null families unchanged.",
+    "discussion_en": "The shared-column ranking issue and its correction were already documented upstream. Our contribution is to quantify the cross-cohort consequences of that known correction while preserving animal inputs, expression scores and candidate membership, and to examine the remaining sensitivity to the ranking universe and score saturation. The merged PR also changed expression-proportion defaults and other pipeline behavior. The present equivalence audit therefore applies to the isolated aggregation functions under the retained inputs and environment, rather than to a complete newer-version LIANA analysis. Attribution to the upstream correction replaces any implication that this study discovered a previously unknown software defect."
+  },
+  "numeric_results": {
+    "n_library_config_audits": 22,
+    "all_upstream_vs_original_unique_diagnostic_bitwise_equal": true,
+    "maximum_absolute_difference_from_original_unique_diagnostic": 0.0,
+    "maximum_observed_process_peak_bytes": 177618944,
+    "memory_number_refers_to_initial_isolated_execution": true,
+    "guarded_cached_reconstruction_peak_bytes": 204165120
+  },
+  "scope": "isolated fixed-commit aggregation functions; not a complete newer-version LIANA pipeline",
+  "attribution": "known upstream correction; no novel-bug-discovery claim",
+  "figure_label_recommendation": "Keep unique-column RRA, explain alignment to PR 261 in caption; native means installed 1.10.0"
+}

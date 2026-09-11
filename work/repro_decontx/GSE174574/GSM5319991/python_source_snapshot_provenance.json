@@ -1,0 +1,8 @@
+{
+  "snapshot": "python_wrapper_source_snapshot.py",
+  "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+  "matches_sha256_recorded_before_model_execution": true,
+  "snapshot_recorded_before_model_execution": false,
+  "source_origin": "Preserved original Python source",
+  "note": "Code content snapshot; the original invocation used the source file in the work directory. Postprocessing code changes are tracked separately."
+}

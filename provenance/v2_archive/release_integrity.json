@@ -1,0 +1,186 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-11T07:04:34.094535+00:00",
+  "packages": [
+    {
+      "filename": "code_results.zip",
+      "bytes": 541711621,
+      "sha256": "f84948d6678a83761712342bc707f1b78e15f83f88b8ced996f172be74460872",
+      "manifest_filename": "code_results_SHA256.tsv",
+      "manifest_sha256": "42ed19339e3f9308e114a5ba85326ff3de470a26ae365ddb61335a9adc5b5e2f",
+      "uncompressed_payload_bytes": 567760498,
+      "zip_crc_all_members_passed": true,
+      "zip_member_sha256_all_passed": true,
+      "embedded_manifest_matches_external": true,
+      "manifest_payload_files": 1596,
+      "zip_member_count_including_manifest": 1597
+    },
+    {
+      "filename": "corrected_matrices.zip",
+      "bytes": 2421437340,
+      "sha256": "7e17c1471030a3e8a16fccd4030024b8c54f6fe6ab152132cfd8b16f7c567f8e",
+      "manifest_filename": "corrected_matrices_SHA256.tsv",
+      "manifest_sha256": "39745ff482f4f6d71c2e8000424051aa71449e24d3a4856ccb6ee69fe896af45",
+      "uncompressed_payload_bytes": 2429933839,
+      "zip_crc_all_members_passed": true,
+      "zip_member_sha256_all_passed": true,
+      "embedded_manifest_matches_external": true,
+      "manifest_payload_files": 144,
+      "zip_member_count_including_manifest": 145
+    }
+  ],
+  "complete_staged_validation": {
+    "n_checks": 2749,
+    "n_failed": 0,
+    "pending_stages": [],
+    "audit_sha256": "e8f4be813ae80be0cd0a6c7b09dba7153a51c6fcd02559c42ed291a573832059",
+    "validator_sha256": "5d7bc8fbeaf9b9f11e9b643a4fee39939c26638c92f153d1a6eef6ff4297f7f1"
+  },
+  "selected_corrected_sources": [
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319987",
+      "selected_relative_directory": "repro_decontx/GSE174574/GSM5319987",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009776,
+      "selected_audit_sha256": "9ac2f3b6dec1ff0fd45cdb2286b79053484855e91188d4515b8dfa8d2dd05c01",
+      "default_audit_sha256": "9ac2f3b6dec1ff0fd45cdb2286b79053484855e91188d4515b8dfa8d2dd05c01"
+    },
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319988",
+      "selected_relative_directory": "repro_decontx/GSE174574/GSM5319988",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009911,
+      "selected_audit_sha256": "376e38252c728b0287d5381c922f4b3a0b8c93308a18589a348ff428b3735c27",
+      "default_audit_sha256": "376e38252c728b0287d5381c922f4b3a0b8c93308a18589a348ff428b3735c27"
+    },
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319989",
+      "selected_relative_directory": "repro_decontx/GSE174574/GSM5319989",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009785,
+      "selected_audit_sha256": "2f4b86a0b934b5efa3d7f05ec48b203cf4ac6b3e74c20d13c9b93f4a97bab283",
+      "default_audit_sha256": "2f4b86a0b934b5efa3d7f05ec48b203cf4ac6b3e74c20d13c9b93f4a97bab283"
+    },
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319990",
+      "selected_relative_directory": "repro_decontx/GSE174574/GSM5319990",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.000985,
+      "selected_audit_sha256": "8bcf8e8bec784cebc8704f38ae5d5035b8fe638cd2562c271b24df2773083e4f",
+      "default_audit_sha256": "8bcf8e8bec784cebc8704f38ae5d5035b8fe638cd2562c271b24df2773083e4f"
+    },
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319991",
+      "selected_relative_directory": "repro_decontx/GSE174574/GSM5319991",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009877,
+      "selected_audit_sha256": "cd229f36111c3e62eaa4014551eaa4860cd1e65e30de5e91ccbdb3a3d7707f6a",
+      "default_audit_sha256": "cd229f36111c3e62eaa4014551eaa4860cd1e65e30de5e91ccbdb3a3d7707f6a"
+    },
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "selected_relative_directory": "repro_decontx_maxiter2000/GSE174574/GSM5319992",
+      "default_converged": false,
+      "numerical_extension_selected": true,
+      "selected_converged": true,
+      "selected_max_iter": 2000,
+      "selected_last_divergence": 0.0009979,
+      "selected_audit_sha256": "a8877f7abb57d6b3f55815aedb915605aece3e47528590e5d9fae4c722037f48",
+      "default_audit_sha256": "ba167c3d004e070b1b5f867c604b6f75b3d23d63e378268d16ca5d0aecca0cfe"
+    },
+    {
+      "dataset": "GSE245386",
+      "sample": "GSM7841720",
+      "selected_relative_directory": "repro_decontx/GSE245386/GSM7841720",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009548,
+      "selected_audit_sha256": "08aa5e00ace9a01ceeb3b608a724088d056bd49151c80ed1fd2a7d5088a7c33d",
+      "default_audit_sha256": "08aa5e00ace9a01ceeb3b608a724088d056bd49151c80ed1fd2a7d5088a7c33d"
+    },
+    {
+      "dataset": "GSE245386",
+      "sample": "GSM7841721",
+      "selected_relative_directory": "repro_decontx/GSE245386/GSM7841721",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009538,
+      "selected_audit_sha256": "d666507e580b5da812cbae1584f4e0faab3c9caa24f2d3f973c5dff25e797638",
+      "default_audit_sha256": "d666507e580b5da812cbae1584f4e0faab3c9caa24f2d3f973c5dff25e797638"
+    },
+    {
+      "dataset": "GSE245386",
+      "sample": "GSM7841722",
+      "selected_relative_directory": "repro_decontx/GSE245386/GSM7841722",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009974,
+      "selected_audit_sha256": "2d36134ed93544efae770d280900162ceca9804c5166128ccdc8743432039256",
+      "default_audit_sha256": "2d36134ed93544efae770d280900162ceca9804c5166128ccdc8743432039256"
+    },
+    {
+      "dataset": "GSE245386",
+      "sample": "GSM7841723",
+      "selected_relative_directory": "repro_decontx/GSE245386/GSM7841723",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009716,
+      "selected_audit_sha256": "33f4a65d62a52694f568d5bc51369c7666ebdb9431b21f96994b70fe23e71ae7",
+      "default_audit_sha256": "33f4a65d62a52694f568d5bc51369c7666ebdb9431b21f96994b70fe23e71ae7"
+    },
+    {
+      "dataset": "GSE245386",
+      "sample": "GSM7841724",
+      "selected_relative_directory": "repro_decontx/GSE245386/GSM7841724",
+      "default_converged": true,
+      "numerical_extension_selected": false,
+      "selected_converged": true,
+      "selected_max_iter": 500,
+      "selected_last_divergence": 0.0009651,
+      "selected_audit_sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3",
+      "default_audit_sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3"
+    }
+  ],
+  "matrix_original_nonconverged_defaults_retained": [
+    "GSM5319992"
+  ],
+  "matrix_market_duplicate_not_included": true,
+  "manifest_does_not_hash_itself": true,
+  "integrity_record_is_external_to_archives": true,
+  "input_scope": [
+    "explicit analysis stage",
+    "11 named convergence-rule-selected model folders and their original default fits"
+  ],
+  "runtime_or_account_files_included": false,
+  "code_script_sha256": "92653dab165a723df746b34bb7e38cd693659f0b780ed7fa0a0a5577a41aa935",
+  "public_deposition_performed": false
+}

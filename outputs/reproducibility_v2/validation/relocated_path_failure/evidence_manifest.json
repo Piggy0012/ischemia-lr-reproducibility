@@ -1,0 +1,125 @@
+{
+  "status": "failed_or_incomplete",
+  "collected_utc": "2026-09-11T06:53:58.883568+00:00",
+  "source_run_relative_to_relocated_release_root": "work/repro_cached_runs/20260911T064813_332066Z",
+  "source_run_relative_to_original_workspace": "work/repro_delivery/analysis/work/repro_cached_runs/20260911T064813_332066Z",
+  "directory_relocation_test": true,
+  "fresh_runtime_installation_test": false,
+  "after_metadata_source_relative_to_stage": "work/repro_cached_runs/20260911T065221_225850Z/before",
+  "semantic_status_counts": {
+    "semantic_equal": 90,
+    "bytes_equal": 37,
+    "json_equal": 16,
+    "audit_metadata_changed": 4
+  },
+  "copied_artifacts": [
+    {
+      "path": "ambient_rank_matched.log",
+      "bytes": 6375,
+      "sha256": "a8ce07f3dbdf707f426a2bfbaf61cb221f8c8d963ef851aad82e2d63f9b184bc"
+    },
+    {
+      "path": "ambient_summary.log",
+      "bytes": 6342,
+      "sha256": "3542e2bb536e859150002a7d6ea169f7fdf61d59877283f4973f51a837650685"
+    },
+    {
+      "path": "background.log",
+      "bytes": 1995,
+      "sha256": "06d17f3a383fb5289a19e5763e1726c2311cc009f8781034f9bc8101b5b0b22b"
+    },
+    {
+      "path": "cached_pipeline_audit.json",
+      "bytes": 6515,
+      "sha256": "33121973ac82b6d6cd32a1e5626d6f0b029086dd69639f03a6c29b964f769142"
+    },
+    {
+      "path": "conditional.log",
+      "bytes": 4250,
+      "sha256": "b5a1e3480a167133fcf0966eefae7ad8e775bace25e9be34d9aadcdcc423b765"
+    },
+    {
+      "path": "corrected_rank_summary.log",
+      "bytes": 2497,
+      "sha256": "c06ced93ac91c49bd6bd70c0428bebe7ccecf0ff4e42547ae28e41380d26059f"
+    },
+    {
+      "path": "metadata_differences.json",
+      "bytes": 46501,
+      "sha256": "5500434584dd7f2401fecc6732cfdfb39d0a46d09f5565037bfd790473a2c276"
+    },
+    {
+      "path": "null.log",
+      "bytes": 6541,
+      "sha256": "587957f79b12b4005d67ef1f8a4ac431c9c2f984c03f508243467b0330147eb8"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 2793,
+      "sha256": "b4da7ad02afc8b4bb817cfeb38255781616405967130bfaf0a764563abaf940d"
+    },
+    {
+      "path": "protected_inputs_sha256.json",
+      "bytes": 76148,
+      "sha256": "63fc4661936af652a4f4799029bf9c108049bb5ce970eccf32b0aae9de4e1d81"
+    },
+    {
+      "path": "rank.log",
+      "bytes": 9460,
+      "sha256": "94fbf91caeb14a26154ab13ab911cdd4199e796b37b0ee003dbf86f0a8308a55"
+    },
+    {
+      "path": "raw_rank_summary.log",
+      "bytes": 2497,
+      "sha256": "f8552a97957c554f2c8d831c5f6a2a1e85bff3bbb4b83f03b57c178274566c9a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1014,
+      "sha256": "b2c33028936e2b0be754bb04f0aa90a69ae59276e7e2eb9caa7369d5553f036b"
+    },
+    {
+      "path": "semantic_comparison.tsv",
+      "bytes": 36118,
+      "sha256": "ef44b0eb0eb35a04dcd34553f4b695d3c5c1470e7331ac54d80bd4cf1f488735"
+    },
+    {
+      "path": "sorted.log",
+      "bytes": 98,
+      "sha256": "4f5fae064a9e5c12af3747c6a93a8b438b8ff22a7385b60ff40174b61216d71e"
+    },
+    {
+      "path": "third_custom.log",
+      "bytes": 4193,
+      "sha256": "3bc1d7104f2f13415040dd16fa01be51cffe3a318be5c23aaedc83bd668c4932"
+    },
+    {
+      "path": "third_rank_summary.log",
+      "bytes": 7375,
+      "sha256": "d722cf0ea06139d0c3fbb10098a39b85fe09875095116965390fd18c60f0ea5b"
+    },
+    {
+      "path": "upstream.log",
+      "bytes": 3031,
+      "sha256": "40eadabfebbaa5ac28a7d1d32ccc9495ce493789f8f9b53e9604eb195facc9ce"
+    },
+    {
+      "path": "validation_after/repro_validation_audit.json",
+      "bytes": 266934,
+      "sha256": "d62e81ede21d24f79eeebe82743214bf035e0ccf861e5cfe145c4c40f3606bf6"
+    },
+    {
+      "path": "validation_after/repro_validation_checks.tsv",
+      "bytes": 116174,
+      "sha256": "f448180d96fea3d1efe50245c5b1cd9f49c0ef21b990510261174fbd0ce32725"
+    },
+    {
+      "path": "validation_before.json",
+      "bytes": 400502,
+      "sha256": "a92c14844227dd2f5eb4b27fd2095403fc7367cc3c461ce5b06947490df04f15"
+    }
+  ],
+  "manifest_excludes_itself": true,
+  "local_before_backup_included": false,
+  "collector_script_sha256": "899f873e1d526ed00f22c96bc2e0e8c9d446e126fe097aeb7e665884bd0ee633"
+}

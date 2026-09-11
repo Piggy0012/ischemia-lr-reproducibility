@@ -1,0 +1,33 @@
+dataset	original_bucket	reference_bucket	mean	count
+GSE174574	Astrocyte	Astrocyte	0.8258797697279104	6
+GSE174574	Astrocyte	Endothelial	0.13375195562498624	6
+GSE174574	Astrocyte	Other assigned	0.0403682746471033	6
+GSE174574	Astrocyte	Unassigned	0.0	6
+GSE174574	Endothelial	Astrocyte	0.0006766570517178	6
+GSE174574	Endothelial	Endothelial	0.9977869091120993	6
+GSE174574	Endothelial	Other assigned	0.0015364338361829233	6
+GSE174574	Endothelial	Unassigned	0.0	6
+GSE174574	Other assigned	Astrocyte	0.010867656557023484	6
+GSE174574	Other assigned	Endothelial	0.11464461600484083	6
+GSE174574	Other assigned	Other assigned	0.8744877274381357	6
+GSE174574	Other assigned	Unassigned	0.0	6
+GSE174574	Unassigned	Astrocyte	0.012493383031620925	6
+GSE174574	Unassigned	Endothelial	0.7166677178245778	6
+GSE174574	Unassigned	Other assigned	0.27083889914380116	6
+GSE174574	Unassigned	Unassigned	0.0	6
+GSE245386	Astrocyte	Astrocyte	0.854244113987788	5
+GSE245386	Astrocyte	Endothelial	0.03894111944760975	5
+GSE245386	Astrocyte	Other assigned	0.10681476656460225	5
+GSE245386	Astrocyte	Unassigned	0.0	5
+GSE245386	Endothelial	Astrocyte	0.0003118169736509715	5
+GSE245386	Endothelial	Endothelial	0.9849758865560864	5
+GSE245386	Endothelial	Other assigned	0.014712296470262651	5
+GSE245386	Endothelial	Unassigned	0.0	5
+GSE245386	Other assigned	Astrocyte	0.004616153400689636	5
+GSE245386	Other assigned	Endothelial	0.041360961449493555	5
+GSE245386	Other assigned	Other assigned	0.9540228851498169	5
+GSE245386	Other assigned	Unassigned	0.0	5
+GSE245386	Unassigned	Astrocyte	0.011145691765833413	5
+GSE245386	Unassigned	Endothelial	0.18168750021839558	5
+GSE245386	Unassigned	Other assigned	0.807166808015771	5
+GSE245386	Unassigned	Unassigned	0.0	5

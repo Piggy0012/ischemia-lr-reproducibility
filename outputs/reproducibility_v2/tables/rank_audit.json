@@ -1,0 +1,433 @@
+{
+  "status": "complete",
+  "n_checks": 77,
+  "checks": [
+    {
+      "name": "primary/GSE174574/custom_score/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/custom_score/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/custom_score/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/custom_score/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/custom_score/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/custom_score/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lr_means/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lr_means/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lr_means/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lr_means/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lr_means/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lr_means/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/expr_prod/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/expr_prod/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/expr_prod/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/expr_prod/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/expr_prod/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/expr_prod/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lrscore/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lrscore/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lrscore/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/lrscore/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lrscore/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/lrscore/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/magnitude_priority/native_liana_consensus/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/magnitude_priority/native_liana_consensus/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319987/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319988/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319989/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319990/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319991/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE174574/GSM5319992/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/GSM7841720/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/GSM7841721/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/GSM7841722/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/GSM7841723/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "primary/GSE245386/GSM7841724/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/custom_score/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/custom_score/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/custom_score/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/custom_score/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/custom_score/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/custom_score/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lr_means/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lr_means/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lr_means/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lr_means/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lr_means/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lr_means/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/expr_prod/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/expr_prod/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/expr_prod/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/expr_prod/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/expr_prod/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/expr_prod/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lrscore/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lrscore/native_expression/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lrscore/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/lrscore/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lrscore/fixed_universe_percentile/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/lrscore/rerank_matches_saved_interface",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/magnitude_priority/native_liana_consensus/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/magnitude_priority/native_liana_consensus/finite_complete",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319987/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319988/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319989/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319990/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319991/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE174574/GSM5319992/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/GSM7841720/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/GSM7841721/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/GSM7841722/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/GSM7841723/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "reference_singlet/GSE245386/GSM7841724/target_export_size_matches_audit",
+      "passed": true
+    },
+    {
+      "name": "default_shared_expr_prod_occurs_twice",
+      "passed": true
+    },
+    {
+      "name": "native_probe_shared_column_reverses_descending_ranks",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_unique_column_has_expected_descending_ranks",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "repro_rank_mechanism_plan.md": "2a5bfce54eabb5d865b6cad7def395b4da7eb6f9677f2cd602362a3fbb95b675",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_common_animal_scores.tsv.gz": "39e35aa6c3f78f039f50784ae8a0c04f1cfbc62b04b499303b81d3b1fcc47b33",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_candidate_keys.tsv": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319987.json": "37eca62ef0cb3e152f3c44f740fdacb9d511f083f623f7e5bfbe662b57c4b0a3",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319987.tsv.gz": "0c22ccfa69ea1186c96eb0d161b118b84a95b5035f03a999557b61c89f695929",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319988.json": "571d52e8a80a68f9602a8052d2d2a6313f711f717a54b52f81881ece8e84d071",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319988.tsv.gz": "1819054729f6d84d4c111d10763c20a09d7aa1448283891f72dd283b59c24e48",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319989.json": "a5e234df808ac7422039b3b0a0eb30839d2d718fc4df5d839e74d8205b442100",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319989.tsv.gz": "b0b641c19c59baf27b478584ee49e15979a003e8016bcf5f594b20e87ecfcad3",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319990.json": "f19a2cda217242a8b61cd4a8fdfc3e269e379303425dbeb2ca9b0e2ed5ff5965",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319990.tsv.gz": "8d43b3c6df1867d56745213c86bbc8919db6fcedb5ef1c823bc1dc347ca68981",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319991.json": "f0d4e7933a7d66f08c4b62d8628a8dce7062e96d0a557f4e5b73c31693340e14",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319991.tsv.gz": "8644e3dfd768843dd7788cecd29072861997a42d3be502104171af54f0f8cc54",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319992.json": "e681326de8d9abcec65fd098d27152062819971f3f34e127733349165a81dd0f",
+    "revision_results\\liana\\GSE174574\\primary__GSM5319992.tsv.gz": "e249ec52f3e835c37d2b6e1361b7fb063fab24423a73880292028c61dd5617b6",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841720.json": "57f99ed3a6987adcf85cee269441f595aae64a189e2ccb5810c8595883806b90",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841720.tsv.gz": "3097e2689dcf1ae3cdde14b51d3f1c3f227d7f408192a81078a00b983525a502",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841721.json": "27eda598d53ab1b082f526db8efe689b49d4de855266ecbe0e9b6a03ade13d83",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841721.tsv.gz": "9385969e08edb5244c8946fb6ddf93b1ada98771d1610a0852ddd19faf1119b0",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841722.json": "79b2f7d4cc299395f799aac9461a0d1508156e5b169c5910257c7c132489cccb",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841722.tsv.gz": "70c1d47ce9c8fb751a188949e3fb0949a7e173d01a8cad9688d12d9dd5e7182d",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841723.json": "798ed42f4d6c3d5d1a6f4dd04952aa49ef476d001c2770200d9701ea246e7a5a",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841723.tsv.gz": "9603adce25f0d5e4179ca6946c93fc65d493a06d6ea80bf8c0f92ff312e852e1",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841724.json": "04d6e63dc84ca7eba34e2f3e393c961c1207d0d37c474204068b2ce805d6631e",
+    "revision_results\\liana\\GSE245386\\primary__GSM7841724.tsv.gz": "d85d42c9e2d39bb080b9c9b9e5e692608040510b6e758280c5ecbd0d024c8925",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.json": "ab4826902b1f4064544ecac1b4ce36e80ea9056c6bf67fa980e87d450eb97de9",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319987.tsv.gz": "b6d0371271fe09ad5c8b3cd805869e8626bb6b49e5dd90ec4feb2e0612479885",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.json": "9c6491da3c483cf42bf8fabe1d7d2384f2949638712ca6d9af127bd1e0472c5e",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319988.tsv.gz": "f6f98f57c0702c69021cf67bd32c52404beb561c575d0f2bd27914bb5ff297e2",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.json": "94688953455ddab00327ebe3b958d1bc2a49c6fa5efc642ae80a2db04109a464",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319989.tsv.gz": "db183dbf2e37a290721a48274e76c21ba905210fb0362641cdf8a49d90ab1648",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.json": "9d9fd7512269c914aa18e75b1e495b806783f5d29018a4b08ee6f8eddc5c99be",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319990.tsv.gz": "c1948a6d627491e89ee80d722866ecc8bcc7b7179dc3cd0009f8389e76be2a41",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.json": "8eb5f9e2117e24dc5c026f462824b459e7b4e6a7bcf6b5dd09fa321fb3fce0be",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319991.tsv.gz": "862214934d3b1ccd9dcd16c7e10601be919948c8884d2b9cc5c1b8866283edbd",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.json": "945ad65f92a520f76a09ada7b8092b3a5cfb605a554b16f181a953a109dc9e91",
+    "revision_results\\liana\\GSE174574\\reference_singlet__GSM5319992.tsv.gz": "e4d917342858188e9934b3ff5a9f001b190670ff49765996eeff42cac6c31af4",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.json": "9f322f659e8c05191b3119bff3814eab6c89b51da46fd0e40719ed2e98c83e63",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841720.tsv.gz": "059bf93cd7de497e1d7d587240ef730920a775696e3cd8494b53537fd0c52810",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.json": "8b9edb6392d8ace35859f65de8dcc2bb9f572c606407cb7d9f70815659a1683c",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841721.tsv.gz": "4d232a140c7579daad1b702115d759f91afb704a68c3740fb96a2008d3591753",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.json": "99e2ba62b737541c6b7ad9790f1189f1592173a6b0965c184058d066dbeca586",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841722.tsv.gz": "4d56257aff0456b631741fb5c5d8f83dd3504e79b058056b1599191a823515de",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.json": "96a4285b2c0498e720a76f5ecc3f2b15cb4e3395a89f97b30106955c26a68611",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841723.tsv.gz": "09a0e7d607531ed0131fb776d881fa43bfbf5f0680b80c4effe4ea1b4d4f23ba",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.json": "5ec73293bc3488203aefb7e78296410bfc1607627b542395298a13fa869bd1d6",
+    "revision_results\\liana\\GSE245386\\reference_singlet__GSM7841724.tsv.gz": "05e361c3db23f1f4477bd4df7725053e8bec460d940feb5f47edee212be8d861",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\__init__.py": "71407c7cc49a712efe555524588c5365afab61742b78e0eb6f03d7b1c2ddf42b",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_cellphonedb.py": "8e04834861500cc3581326f89a9894d80b84dc1dcb22f0b9756715e059ca67ff",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_connectome.py": "31a8d7fc01ba5a550fb7ac0f21ef5d4eafa0787d63e9c475d7dcbfd1b12abdae",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_logfc.py": "7f91349e756b9e21311e97aaa5314c45c48bf92d314647f9d4a3c411783d78dd",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_natmi.py": "b775eaee02354ae7a49a9efd02b745d85f492bcd50039f18023a2a55952afe9f",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_singlecellsignalr.py": "0c0e0ec7b6352b466857dd0feec0edf6b97c1f6e06579fba79f267e4a3d58e3f",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\_pipe_utils\\_aggregate.py": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b"
+  },
+  "script_sha256": "a53c4cf6c4dee844023288b0ade2464ccc6d5b7043b7fd5549146e15c6126bdb",
+  "pvalues_computed": false,
+  "fixed_percentiles_recompute_full_network_consensus": false,
+  "target_tie_distributions_represent_full_network": false,
+  "implementation_probe": {
+    "default_methods": [
+      "cellphonedb",
+      "connectome",
+      "logfc",
+      "natmi",
+      "singlecellsignalr"
+    ],
+    "native_magnitude_specs": {
+      "CellPhoneDB": [
+        "lr_means",
+        false
+      ],
+      "Connectome": [
+        "expr_prod",
+        false
+      ],
+      "NATMI": [
+        "expr_prod",
+        false
+      ],
+      "SingleCellSignalR": [
+        "lrscore",
+        false
+      ]
+    },
+    "unique_column_diagnostic_specs": {
+      "CellPhoneDB": [
+        "lr_means",
+        false
+      ],
+      "Connectome": [
+        "expr_prod",
+        false
+      ],
+      "SingleCellSignalR": [
+        "lrscore",
+        false
+      ]
+    },
+    "official_tagged_source": "https://raw.githubusercontent.com/saezlab/liana-py/v1.10.0/src/liana/method/_pipe_utils/_aggregate.py",
+    "native_source_sha256": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+    "package_modified": false,
+    "existing_native_scores_replaced": false,
+    "diagnostic_is_real_network_rerun": false,
+    "interpretation": "The shared expr_prod column is transformed twice in the official default magnitude loop, reversing its first descending rank. Real-network quantitative impact is not established by this four-row probe."
+  },
+  "table_rows": {
+    "comparison_summary.tsv": 18,
+    "figure_source_comparison.tsv": 18,
+    "observed_effects.tsv.gz": 6498,
+    "per_animal_representations.tsv.gz": 35739,
+    "network_context_per_animal.tsv": 22,
+    "network_context_cell_counts.tsv": 282,
+    "native_target_ties_per_animal.tsv": 44,
+    "native_zero_effects.tsv": 4,
+    "network_context_ranges.tsv": 4,
+    "implementation_four_row_probe.tsv": 4
+  }
+}

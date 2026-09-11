@@ -1,0 +1,15 @@
+scope	archive	path	bytes	MiB	over_100_MB	over_100_MiB	at_least_2_GiB
+release_file		work/repro_delivery/release/code_results.zip	541711621	516.6164598464966	True	True	False
+release_file		work/repro_delivery/release/corrected_matrices.zip	2421437340	2309.2625999450684	True	True	True
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319987/corrected_counts.npz	106971321	102.01580142974854	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319988/corrected_counts.npz	106734991	101.79041957855225	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319989/corrected_counts.npz	126770562	120.89782905578613	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319990/corrected_counts.npz	162105447	154.5958013534546	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319991/corrected_counts.npz	153510288	146.39881896972656	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE174574/GSM5319992/corrected_counts.npz	123002525	117.30434894561768	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE245386/GSM7841720/corrected_counts.npz	320054787	305.22803020477295	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE245386/GSM7841721/corrected_counts.npz	278183845	265.2967882156372	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE245386/GSM7841722/corrected_counts.npz	264690225	252.4282693862915	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE245386/GSM7841723/corrected_counts.npz	288130304	274.782470703125	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx/GSE245386/GSM7841724/corrected_counts.npz	350383571	334.15181255340576	True	True	False
+zip_member	corrected_matrices.zip	work/repro_decontx_maxiter2000/GSE174574/GSM5319992/corrected_counts.npz	124320123	118.56090831756592	True	True	False

@@ -1,0 +1,70 @@
+{
+  "captured_utc": "2026-09-11T07:28:33.403765+00:00",
+  "python": "3.12.14",
+  "python_executable": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "imports": {
+    "numpy": {
+      "metadata_version": "2.3.5",
+      "imported_version": "2.3.5",
+      "module_file": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "pandas": {
+      "metadata_version": "2.3.3",
+      "imported_version": "2.3.3",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\pandas\\__init__.py"
+    },
+    "scipy": {
+      "metadata_version": "1.18.1",
+      "imported_version": "1.18.1",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scipy\\__init__.py"
+    },
+    "anndata": {
+      "metadata_version": "0.13.3.post0",
+      "imported_version": "0.13.3.post0",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\anndata\\__init__.py"
+    },
+    "scanpy": {
+      "metadata_version": "1.12.4",
+      "imported_version": "1.12.4",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\scanpy\\__init__.py"
+    },
+    "liana": {
+      "metadata_version": "1.10.0",
+      "imported_version": "1.10.0",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\__init__.py"
+    },
+    "matplotlib": {
+      "metadata_version": "3.11.1",
+      "imported_version": "3.11.1",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "celltypist": {
+      "metadata_version": "1.7.1",
+      "imported_version": "1.7.1",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\celltypist\\__init__.py"
+    },
+    "pydeseq2": {
+      "metadata_version": "0.5.4",
+      "imported_version": "0.5.4",
+      "module_file": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\venv\\Lib\\site-packages\\pydeseq2\\__init__.py"
+    }
+  },
+  "pip_check_exit_code": 0,
+  "scrublet_implementation": "scanpy.pp.scrublet (no separately installed scrublet distribution)",
+  "pip_check_stdout": "No broken requirements found.\n",
+  "pip_check_stderr": "",
+  "pip_package_count": 109,
+  "excluded": [
+    {
+      "package": "artifact-tool-v2",
+      "reason": "Host artifact tooling; local path dependency; unused by the scientific scripts."
+    }
+  ],
+  "conda_available": null,
+  "mamba_available": null,
+  "micromamba_available": null,
+  "fresh_conda_restore_tested": false,
+  "current_environment_changed": false,
+  "new_model_fit": false
+}

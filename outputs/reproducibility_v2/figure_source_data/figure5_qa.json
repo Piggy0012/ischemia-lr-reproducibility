@@ -1,0 +1,103 @@
+{
+  "status": "complete_after_actual_color_and_grayscale_review",
+  "size_inches": [
+    7.199999999999999,
+    5.300000000000001
+  ],
+  "font": "Arial",
+  "minimum_font_size_pt": 7,
+  "raster_dpi": 400,
+  "checks": {
+    "png": {
+      "issues": [],
+      "info": {
+        "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\figures\\Figure5_third_cohort_transfer.png",
+        "ext": "png",
+        "size_bytes": 231969,
+        "category": "raster",
+        "size_px": [
+          2880,
+          2120
+        ],
+        "dpi": [
+          399.9992,
+          399.9992
+        ]
+      }
+    },
+    "pdf": {
+      "issues": [
+        [
+          "WARN",
+          "PDF \u4e2d\u4ee5\u4e0b\u5b57\u4f53\u53ef\u80fd\u672a\u5d4c\u5165: /FAGARN+Arial-BoldMT, /FXRCUP+ArialMT. \u5bfc\u81f4\u4ed6\u4eba\u7535\u8111\u6253\u5f00\u53d8\u6210\u66ff\u4ee3\u5b57\u4f53\u3002"
+        ]
+      ],
+      "info": {
+        "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\figures\\Figure5_third_cohort_transfer.pdf",
+        "ext": "pdf",
+        "size_bytes": 45416,
+        "category": "vector"
+      }
+    },
+    "svg": {
+      "issues": [],
+      "info": {
+        "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\figures\\Figure5_third_cohort_transfer.svg",
+        "ext": "svg",
+        "size_bytes": 36111,
+        "category": "vector"
+      }
+    }
+  },
+  "pdf_font_descendant_inspection": [
+    {
+      "resource": "/F1",
+      "base_font": "/FXRCUP+ArialMT",
+      "subtype": "/CIDFontType2",
+      "embedded_font_streams": [
+        "/FontFile2"
+      ],
+      "embedded_bytes": 46740
+    },
+    {
+      "resource": "/F2",
+      "base_font": "/FAGARN+Arial-BoldMT",
+      "subtype": "/CIDFontType2",
+      "embedded_font_streams": [
+        "/FontFile2"
+      ],
+      "embedded_bytes": 15844
+    }
+  ],
+  "pdf_font_warning_resolution": "The generic checker inspects Type0 wrappers; their CIDFontType2 descendants contain embedded FontFile2 streams, verified directly.",
+  "all_pdf_fonts_embedded": true,
+  "no_type3_fonts": true,
+  "visual_review": {
+    "passed": true,
+    "preview_sha256": "f8cf96f9c568e122fe1f991ebd00d2b30c432716501c044f12e4640a31471f7d",
+    "review_method": "Actual color and grayscale PNGs viewed with view_image before vector export.",
+    "checks": {
+      "no_missing_glyphs": true,
+      "no_clipped_text": true,
+      "no_overlapping_annotations_or_data": true,
+      "aligned_panel_letters": true,
+      "adequate_interpanel_space": true,
+      "grayscale_distinguishable_by_marker_and_labels": true,
+      "all_data_visible": true,
+      "consistent_cross_panel_scales_and_symbols": true
+    },
+    "semantic_checks": {
+      "six_individual_library_points_shown_without_mean_bars": true,
+      "same_99_candidate_universe_for_both_cohort_pairs_and_all_displayed_scores": true,
+      "direction_agreement_uses_same_nonzero_sign_with_all_99_as_denominator": true,
+      "zero_disease_effect_counts_explicitly_shown": true,
+      "no_inferential_pvalues_or_error_bars": true
+    }
+  },
+  "output_sha256": {
+    "png": "f8cf96f9c568e122fe1f991ebd00d2b30c432716501c044f12e4640a31471f7d",
+    "pdf": "cf2a49c74a7ee82283568d980ae73060e856d0e125de6a2bdbe1d76533b57807",
+    "svg": "79060a1c26daf443fa1a9a51b99f1bdb4e4a763d1e91f5306e16d49905709bb1"
+  },
+  "figure_script_sha256": "3020b5e63e4a1425b29fe259775b43f64ddedf6419d3b8ea676b5f9840d72153"
+}

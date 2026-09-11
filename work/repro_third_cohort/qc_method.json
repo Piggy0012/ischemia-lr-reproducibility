@@ -1,0 +1,10 @@
+{
+  "qc": "200-6000 detected genes inclusive; >=500 UMI; <=20% mitochondrial UMI",
+  "annotation": "Unmodified work/stream_annotate.py marker panels and scoring, calculated per library.",
+  "source_script_sha256": "6f65024540b687bb6ea19b656384367aca2800e4e1a139b34525997826a02640",
+  "status": "Exploratory third cohort. Author Table S1 reports three biological replicates and three RNA libraries per group; individual mouse/pool mapping unresolved.",
+  "comparison_notes": "snRNA-seq, striatum and BGI chemistry differ from whole-hemisphere scRNA-seq cohorts. This is not a replacement for same-assay validation.",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pandas_version": "3.0.1",
+  "numpy_version": "2.3.5"
+}

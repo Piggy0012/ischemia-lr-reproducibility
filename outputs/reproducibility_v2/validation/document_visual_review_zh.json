@@ -1,0 +1,304 @@
+{
+  "status": "PASS",
+  "language": "zh",
+  "n_pages": 24,
+  "reviewed_utc": "2026-09-11T06:55:09.460701+00:00",
+  "docx_sha256": "18ddfb10a3875d211878f15187835c33d28c9ff58cb6d83fb030b756ae010584",
+  "rendered_pdf_sha256": "f713f0f8999135c723474cf98e84fe5c657e4de1b07b0d31c4a61c83c8f1c3ca",
+  "pages": [
+    {
+      "page": 1,
+      "png_sha256": "fa984c1cdab6ba0ed508c819e5fdc17e810010c2f86a890e4818ddf130fe1d48",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 2,
+      "png_sha256": "3856748477b908f75338968b62b74913ba3872f108e46d55c902d17722c177c5",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 3,
+      "png_sha256": "d7f147663bebb19759ed4dfd5f05df16d8ef0e3a4f6a175c05eff5d66b4bd49a",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 4,
+      "png_sha256": "bd7c2ae8e38d54c2e91da6260d88151e49abcb08fe4ea840b9799aeb9f760a1f",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 5,
+      "png_sha256": "d8be9fa72d8ff8f7e1591baf42074c56e0b8928d3d341c870d9eb8a08a420628",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 6,
+      "png_sha256": "87b996c0118d964c0049d04447a6a42de2e58f40b6fa89c4268ef99761294485",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 7,
+      "png_sha256": "23f92523dd17dddd951f954d4a6d5c760807c23bf03ee172da5eac5f3b4bcaba",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 8,
+      "png_sha256": "87c6b66d31be268ba5fa97690a78c7a1297496d9b84b8930ce5d43f3990252e9",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 9,
+      "png_sha256": "1626c0af38c4ad57e75d12ddeb5d70695c2d3e9e079dd62920ce56e3fad07630",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 10,
+      "png_sha256": "6d8bea9146c1fbb80fbce0d34f550044d9022d5e3ccebc37af7e78396012b46e",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 11,
+      "png_sha256": "9b5b140e2c51d60ca326fb04c2d821f77ec5475db27c7dc5eca4369aded7e346",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 12,
+      "png_sha256": "2415e0ae4056feff417ceee0def7c7b3eb963089d2747aad10a0f3e51e71a596",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 13,
+      "png_sha256": "96a5b847e9b24b24bc1d20e2c8d3ec2a74242a77e863d303aabd0da600d3c70d",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 14,
+      "png_sha256": "b67a2e85cb5960847d33c43c6fcf875cbfbd36fb368897d74526526448992da3",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 15,
+      "png_sha256": "486d71c1d0e3d465c6e1e1a280bd996bd0bdb20c08eb6cb74c403605fa86733f",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 16,
+      "png_sha256": "f54d73cf56de72f3c9bf81fb269e9ebea2d79338abea90895c02f9f6b34968a4",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 17,
+      "png_sha256": "e11469226fca51886fc6d078afebe26267aa5ad39a30edeeb8f666eca8eb9c59",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 18,
+      "png_sha256": "d3c4a5c43fc50bc1b4b0fca4dec54548d5b7b8705749e73616ae5e55a59639bc",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 19,
+      "png_sha256": "323f313e77910ea6eac25c8694c6451e31212d703847f2445ecded16a9f1b5ca",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 20,
+      "png_sha256": "b68f7f3b2822e3ba650c3cb48601c70e33e29c9c55f28146a416ae53885d1dc2",
+      "status": "PASS",
+      "basis": "visually inspected prior-render page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 21,
+      "png_sha256": "c9f14200431ed3854073a7796b544481b7ba183bf8f7f7301fb150be599e4bba",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 22,
+      "png_sha256": "ae0669045ae0b4d43f88a475c6c897a3245ecafe5500b08f3ff5de140082421e",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 23,
+      "png_sha256": "3ba8d84893216a9b6d0bee9e25fb44e88f9c74002c1f06abd6c51b63e301b100",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    },
+    {
+      "page": 24,
+      "png_sha256": "468ffb910983a8a67bc81a0d03777d60a2d6a0336d38089a7993b8689829943b",
+      "status": "PASS",
+      "basis": "visually inspected final-layout page; release PNG byte-identical",
+      "checks": [
+        "legible text and symbols",
+        "no clipping or overlap",
+        "table/header or figure placement",
+        "page number"
+      ]
+    }
+  ],
+  "observations": [
+    "Table 1 spans pages 8\u20139 with a repeated header and intact rows.",
+    "Ten figures are presented individually on pages 15\u201324.",
+    "Reference entries remain intact across pages 13\u201314."
+  ],
+  "scope": "rendered layout only; no claim of submission or public deposition"
+}

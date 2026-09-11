@@ -1,0 +1,37 @@
+{
+  "figure": "Figure7_method_and_selection_robustness",
+  "inches": [
+    7.2,
+    8.15
+  ],
+  "dpi": 400,
+  "layout_issues": [],
+  "input_sha256": {
+    "summary.json": "9e58dceebef9bd4c082cc82f98e570a88dcf4f2877b44d35b7694d5d458b6e04",
+    "custom_cross_cohort_summary.tsv": "63bde79d89f184de6b779758c0fd735fccfee11c1eafc9d8b6f3041aa6e5a964",
+    "liana_cross_cohort_summary.tsv": "62733be0ed813675516c5954943baccbe891670428e92caf14e50463d9202e80",
+    "custom_fixed_examples.tsv": "9d548b83f8d5b804f8841fff25db1a804758443aa3d8583611169c9cc8b7b18e",
+    "liana_fixed_examples_animal_effects.tsv": "cca0599791a242f82ff1888b94f91471499ed70ca226a60af0a8c401ce759dfb"
+  },
+  "script_sha256": "e770fd116d533a928033c6f2e52fe34d7e08468a072ad3842f8f5fc5907bcfec",
+  "n_panels": 3,
+  "human_visual_review_required": true,
+  "export_requested": true,
+  "png_file_check": [
+    [],
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revised_delivery\\analysis\\outputs\\revised\\figures\\Figure7_method_and_selection_robustness.png",
+      "ext": "png",
+      "size_bytes": 439068,
+      "category": "raster",
+      "size_px": [
+        2880,
+        3260
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    }
+  ]
+}

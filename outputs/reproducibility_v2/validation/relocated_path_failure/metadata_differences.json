@@ -1,0 +1,717 @@
+[
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\null_conditional_audit.json",
+    "differences": [
+      {
+        "field": "/source_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_conditional_null_plan.md",
+        "before": "47eeb081c5e922dfae63d35ca8f990bb3ed8589e9d8f254c431cc44c333e8169",
+        "after": null
+      },
+      {
+        "field": "/source_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_conditional_null_plan.md",
+        "before": null,
+        "after": "47eeb081c5e922dfae63d35ca8f990bb3ed8589e9d8f254c431cc44c333e8169"
+      },
+      {
+        "field": "/source_sha256/null_dynamic_gate_all_allocations.tsv.gz",
+        "before": "83921e0a61a8054d3d3b912b6027c008a209d4859bc33190902aac44dfefb314",
+        "after": "6fde7d6f1b73cc8f7bbd16091ef829a537196f4b813071c80768157207ec15ac"
+      },
+      {
+        "field": "/source_sha256/null_fixed_common_all_allocations.tsv.gz",
+        "before": "eb03af8e3fbbe79350c94a9a7e5b3135da093f01483a873f7c4b7efa5f399f1c",
+        "after": "3129e4dd0590482ffd872233ba1d0db91f624c426b9bb62ebafe32c4d1d0e923"
+      }
+    ]
+  },
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\rank_audit.json",
+    "differences": [
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\tables\\null_fixed_candidate_keys.tsv",
+        "before": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\tables\\null_fixed_common_animal_scores.tsv.gz",
+        "before": "bd42608a901c8b613e6a8c5c4e69918c8309a0e79e9dd28afa25acc5cbbd7a26",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_candidate_keys.tsv",
+        "before": null,
+        "after": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_common_animal_scores.tsv.gz",
+        "before": null,
+        "after": "3e854c348171a757ff3ff2c39c9e92e1f7de25705026c55f4a3b1e10b61bc434"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\__init__.py",
+        "before": null,
+        "after": "71407c7cc49a712efe555524588c5365afab61742b78e0eb6f03d7b1c2ddf42b"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\_pipe_utils\\_aggregate.py",
+        "before": null,
+        "after": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_cellphonedb.py",
+        "before": null,
+        "after": "8e04834861500cc3581326f89a9894d80b84dc1dcb22f0b9756715e059ca67ff"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_connectome.py",
+        "before": null,
+        "after": "31a8d7fc01ba5a550fb7ac0f21ef5d4eafa0787d63e9c475d7dcbfd1b12abdae"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_logfc.py",
+        "before": null,
+        "after": "7f91349e756b9e21311e97aaa5314c45c48bf92d314647f9d4a3c411783d78dd"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_natmi.py",
+        "before": null,
+        "after": "b775eaee02354ae7a49a9efd02b745d85f492bcd50039f18023a2a55952afe9f"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\revision_env\\Lib\\site-packages\\liana\\method\\sc\\_singlecellsignalr.py",
+        "before": null,
+        "after": "0c0e0ec7b6352b466857dd0feec0edf6b97c1f6e06579fba79f267e4a3d58e3f"
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\__init__.py",
+        "before": "71407c7cc49a712efe555524588c5365afab61742b78e0eb6f03d7b1c2ddf42b",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\_pipe_utils\\_aggregate.py",
+        "before": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\sc\\_cellphonedb.py",
+        "before": "8e04834861500cc3581326f89a9894d80b84dc1dcb22f0b9756715e059ca67ff",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\sc\\_connectome.py",
+        "before": "31a8d7fc01ba5a550fb7ac0f21ef5d4eafa0787d63e9c475d7dcbfd1b12abdae",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\sc\\_logfc.py",
+        "before": "7f91349e756b9e21311e97aaa5314c45c48bf92d314647f9d4a3c411783d78dd",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\sc\\_natmi.py",
+        "before": "b775eaee02354ae7a49a9efd02b745d85f492bcd50039f18023a2a55952afe9f",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/revision_env\\Lib\\site-packages\\liana\\method\\sc\\_singlecellsignalr.py",
+        "before": "0c0e0ec7b6352b466857dd0feec0edf6b97c1f6e06579fba79f267e4a3d58e3f",
+        "after": null
+      }
+    ]
+  },
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\rank_background_audit.json",
+    "differences": [
+      {
+        "field": "/checks/1/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/2/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/3/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/4/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/5/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/6/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/8/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/9/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/10/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/11/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/12/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/37/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/38/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/39/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/40/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/41/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/42/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/44/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/45/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/46/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/47/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/checks/48/name",
+        "before": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724__full_network.tsv.gz/unique_keys",
+        "after": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724__full_network.tsv.gz/unique_keys"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\tables\\null_fixed_candidate_keys.tsv",
+        "before": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\outputs\\reproducibility_v2\\tables\\null_fixed_candidate_keys.tsv",
+        "before": null,
+        "after": "30b03ae8eb8aa6605e35a80c6ed250aa2ad8a97bfab23e756d497d44d462ca6f"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987.json",
+        "before": null,
+        "after": "83c21e0f3b977b68acac369ac1ebba153cc101deb7274a27e663dbfe07e4af15"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__full_network.tsv.gz",
+        "before": null,
+        "after": "723be3d64d9bcf9e4fb3b77770b08bcf8c1b61b5506175ed382e5dece820ff1e"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988.json",
+        "before": null,
+        "after": "b6bba7dbe5a9ea37a5de580ba245955735a5ea9488323d563fe2c06bb5270377"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__full_network.tsv.gz",
+        "before": null,
+        "after": "b8b71d7234791122de56e41116d59ae48921d6f1549b79c6a8864f11eecc84bf"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989.json",
+        "before": null,
+        "after": "eea3a86407238b200e9a49db99570643b5191897eedc774007c566adee63555e"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__full_network.tsv.gz",
+        "before": null,
+        "after": "c26036fa03d08034a2e3a5ad9bc93d78b85c307867fe2203b1780400c7b9979e"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990.json",
+        "before": null,
+        "after": "a5178eb40fe6fc8480a9af730e24d0b42556de2d5629e4908be9e841ccd7af57"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__full_network.tsv.gz",
+        "before": null,
+        "after": "0eda5d9ec80e1330629b476290790bcdc5bea8c78e89395dee57bc2cfa53543c"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991.json",
+        "before": null,
+        "after": "e9405bfada6d386e9628aa00c98da562b2f648b49cf5c52009317d8286043b3c"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__full_network.tsv.gz",
+        "before": null,
+        "after": "d586e0eb1e1c6a5eb708c7ea1fc3960819345bdc0727c05a9cda545653d1a3fb"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992.json",
+        "before": null,
+        "after": "d29254b148b2fb4a8b504f9b1a8354458965ef8841cc84cf5e8b7df65bae15e8"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__full_network.tsv.gz",
+        "before": null,
+        "after": "c9d312662f7df8d3b1b056ece53c33065d9a17a68848662f2671424384a7bd81"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987.json",
+        "before": null,
+        "after": "5d76e147576e68b6278519de301bb40a1a6f97120b9e19c983a45018975199f2"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987__full_network.tsv.gz",
+        "before": null,
+        "after": "5f578fb9aa9a9b1ac2c9add94e1e75104bac549c914e1a2380ef3f44b2fef3b4"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988.json",
+        "before": null,
+        "after": "44c8a589a798a77e4daaf7a2711a11c274f8001e2a1bd81289c78de0864bd591"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988__full_network.tsv.gz",
+        "before": null,
+        "after": "f1d90aa6557ab92dafb2658acc952dde2d6df8c939517129cc4134c0ec78f9ef"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989.json",
+        "before": null,
+        "after": "aa852162afd0efdb7acea84b544d8d185bf5e8915543c4e4067164c9aef49216"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989__full_network.tsv.gz",
+        "before": null,
+        "after": "d5a109a1c70e6ba18bfc1659d42fad0092dc8045ffb4dee9481e76103ae47b4a"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990.json",
+        "before": null,
+        "after": "c7a03dd1450c3498270d4334e5ce48111706854ac3bdb5841dcaec11107c5b84"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990__full_network.tsv.gz",
+        "before": null,
+        "after": "d05f6d9d7cafdc4799a26035f969230e48984445454a51f21db76b288f2bea38"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991.json",
+        "before": null,
+        "after": "4a87b3efce945ed678d05312868d59bab00cd8ce6dd960b5432581391048b6e8"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991__full_network.tsv.gz",
+        "before": null,
+        "after": "7023c3a064f7241484d575094a93e43be6a2d0092b3f97bdc5e668ef000ceeca"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992.json",
+        "before": null,
+        "after": "88c30ca61cf9e65308ffbc4e34831d78a32089de87b6b8fbccccbaf193d458af"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992__full_network.tsv.gz",
+        "before": null,
+        "after": "f0f10fc159906a421a0ca56b40e3a44b4937f193826840a3e925802ec5767c3e"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720.json",
+        "before": null,
+        "after": "8f9577a316629d7dd83542485b8963e3577846591650095e3cdae9dc7b4cb532"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__full_network.tsv.gz",
+        "before": null,
+        "after": "7f288becc47331011be34d216e06fe1fa31206ff5a325792b6a393081601f383"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721.json",
+        "before": null,
+        "after": "994c20c25a09baf9ca25b2260888d4ff2107af472703a4e79cbbda944fd0b279"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__full_network.tsv.gz",
+        "before": null,
+        "after": "6e94ffa1f17d28587c9bef97ea0bac83fdf7b107a7f858a4b15b55213ed3f787"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722.json",
+        "before": null,
+        "after": "0e666dfc302586585e8fc59d10d431a3afc6ba649d0c8541aed830b37b9fce0c"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__full_network.tsv.gz",
+        "before": null,
+        "after": "8c55a75c103daa22a446ff76569ea93990c29454c9dd355775a84c9e38e52605"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723.json",
+        "before": null,
+        "after": "8e00907edd97896b23878a927039b1eb1d44cb773a8b4cb25a0584da92e19191"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__full_network.tsv.gz",
+        "before": null,
+        "after": "5768f3698f8546ae630cdcfceb085d187b3a4e756cc39e27a6042f65001cc359"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724.json",
+        "before": null,
+        "after": "fc11eb405fcfb1690f4bfa1bd18084151dfd41bca718880e5073508433518eec"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__full_network.tsv.gz",
+        "before": null,
+        "after": "56ff85ebda9104c7fff73101c707ae54baf78a51997000511c2485b49145c2d1"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720.json",
+        "before": null,
+        "after": "b5a1274f4cf4b1f010c4625bb1c5760fff8079499a967fbb69fb98fee36fcd87"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720__full_network.tsv.gz",
+        "before": null,
+        "after": "54a2be54c5c322832838197128e8fc11a26a29f88bc70765138d76725255e2b0"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721.json",
+        "before": null,
+        "after": "098684ee58c7d7bc5d1b071b3844cd83cf99ae9f98161928bebea917144f697e"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721__full_network.tsv.gz",
+        "before": null,
+        "after": "17e1ed18eab2717909f37aa4f129cfccd2b9a688a9fb999def9df562828334ce"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722.json",
+        "before": null,
+        "after": "47a633b0613166ed9c962c70ac7563a4e258bde8a3fb908dda866a1a354b2707"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722__full_network.tsv.gz",
+        "before": null,
+        "after": "27740965f526bf34896e9d03258d15e0c134d023d117f5dcc4ca4a75a91d1935"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723.json",
+        "before": null,
+        "after": "9137e812672e50c2a56712977b43a481e9a89ebfbf9aca6e4fd33267d6ff4ace"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723__full_network.tsv.gz",
+        "before": null,
+        "after": "39b7aff10d123ce6134c23d98c9519081f5b1e29c46f755174d7e05bd84fdafd"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724.json",
+        "before": null,
+        "after": "4fb06e46f4642ffe2a20d8f6cf5b750da9dbd2bee78b82ada412dbf52bcd076f"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724__full_network.tsv.gz",
+        "before": null,
+        "after": "452d66ab953aa771f86d724644f0661c428d657b91bea67ef2f7aa8200699af8"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_rank_background_plan.md",
+        "before": null,
+        "after": "c522e296b4bd593a78a52fee4bcad04b115318cbee90e30bd97ade878bfba4e4"
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987.json",
+        "before": "83c21e0f3b977b68acac369ac1ebba153cc101deb7274a27e663dbfe07e4af15",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__full_network.tsv.gz",
+        "before": "723be3d64d9bcf9e4fb3b77770b08bcf8c1b61b5506175ed382e5dece820ff1e",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988.json",
+        "before": "b6bba7dbe5a9ea37a5de580ba245955735a5ea9488323d563fe2c06bb5270377",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__full_network.tsv.gz",
+        "before": "b8b71d7234791122de56e41116d59ae48921d6f1549b79c6a8864f11eecc84bf",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989.json",
+        "before": "eea3a86407238b200e9a49db99570643b5191897eedc774007c566adee63555e",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__full_network.tsv.gz",
+        "before": "c26036fa03d08034a2e3a5ad9bc93d78b85c307867fe2203b1780400c7b9979e",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990.json",
+        "before": "a5178eb40fe6fc8480a9af730e24d0b42556de2d5629e4908be9e841ccd7af57",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__full_network.tsv.gz",
+        "before": "0eda5d9ec80e1330629b476290790bcdc5bea8c78e89395dee57bc2cfa53543c",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991.json",
+        "before": "e9405bfada6d386e9628aa00c98da562b2f648b49cf5c52009317d8286043b3c",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__full_network.tsv.gz",
+        "before": "d586e0eb1e1c6a5eb708c7ea1fc3960819345bdc0727c05a9cda545653d1a3fb",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992.json",
+        "before": "d29254b148b2fb4a8b504f9b1a8354458965ef8841cc84cf5e8b7df65bae15e8",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__full_network.tsv.gz",
+        "before": "c9d312662f7df8d3b1b056ece53c33065d9a17a68848662f2671424384a7bd81",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987.json",
+        "before": "5d76e147576e68b6278519de301bb40a1a6f97120b9e19c983a45018975199f2",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319987__full_network.tsv.gz",
+        "before": "5f578fb9aa9a9b1ac2c9add94e1e75104bac549c914e1a2380ef3f44b2fef3b4",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988.json",
+        "before": "44c8a589a798a77e4daaf7a2711a11c274f8001e2a1bd81289c78de0864bd591",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319988__full_network.tsv.gz",
+        "before": "f1d90aa6557ab92dafb2658acc952dde2d6df8c939517129cc4134c0ec78f9ef",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989.json",
+        "before": "aa852162afd0efdb7acea84b544d8d185bf5e8915543c4e4067164c9aef49216",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319989__full_network.tsv.gz",
+        "before": "d5a109a1c70e6ba18bfc1659d42fad0092dc8045ffb4dee9481e76103ae47b4a",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990.json",
+        "before": "c7a03dd1450c3498270d4334e5ce48111706854ac3bdb5841dcaec11107c5b84",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319990__full_network.tsv.gz",
+        "before": "d05f6d9d7cafdc4799a26035f969230e48984445454a51f21db76b288f2bea38",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991.json",
+        "before": "4a87b3efce945ed678d05312868d59bab00cd8ce6dd960b5432581391048b6e8",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319991__full_network.tsv.gz",
+        "before": "7023c3a064f7241484d575094a93e43be6a2d0092b3f97bdc5e668ef000ceeca",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992.json",
+        "before": "88c30ca61cf9e65308ffbc4e34831d78a32089de87b6b8fbccccbaf193d458af",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE174574\\reference_singlet__GSM5319992__full_network.tsv.gz",
+        "before": "f0f10fc159906a421a0ca56b40e3a44b4937f193826840a3e925802ec5767c3e",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720.json",
+        "before": "8f9577a316629d7dd83542485b8963e3577846591650095e3cdae9dc7b4cb532",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__full_network.tsv.gz",
+        "before": "7f288becc47331011be34d216e06fe1fa31206ff5a325792b6a393081601f383",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721.json",
+        "before": "994c20c25a09baf9ca25b2260888d4ff2107af472703a4e79cbbda944fd0b279",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__full_network.tsv.gz",
+        "before": "6e94ffa1f17d28587c9bef97ea0bac83fdf7b107a7f858a4b15b55213ed3f787",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722.json",
+        "before": "0e666dfc302586585e8fc59d10d431a3afc6ba649d0c8541aed830b37b9fce0c",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__full_network.tsv.gz",
+        "before": "8c55a75c103daa22a446ff76569ea93990c29454c9dd355775a84c9e38e52605",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723.json",
+        "before": "8e00907edd97896b23878a927039b1eb1d44cb773a8b4cb25a0584da92e19191",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__full_network.tsv.gz",
+        "before": "5768f3698f8546ae630cdcfceb085d187b3a4e756cc39e27a6042f65001cc359",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724.json",
+        "before": "fc11eb405fcfb1690f4bfa1bd18084151dfd41bca718880e5073508433518eec",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__full_network.tsv.gz",
+        "before": "56ff85ebda9104c7fff73101c707ae54baf78a51997000511c2485b49145c2d1",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720.json",
+        "before": "b5a1274f4cf4b1f010c4625bb1c5760fff8079499a967fbb69fb98fee36fcd87",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841720__full_network.tsv.gz",
+        "before": "54a2be54c5c322832838197128e8fc11a26a29f88bc70765138d76725255e2b0",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721.json",
+        "before": "098684ee58c7d7bc5d1b071b3844cd83cf99ae9f98161928bebea917144f697e",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841721__full_network.tsv.gz",
+        "before": "17e1ed18eab2717909f37aa4f129cfccd2b9a688a9fb999def9df562828334ce",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722.json",
+        "before": "47a633b0613166ed9c962c70ac7563a4e258bde8a3fb908dda866a1a354b2707",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841722__full_network.tsv.gz",
+        "before": "27740965f526bf34896e9d03258d15e0c134d023d117f5dcc4ca4a75a91d1935",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723.json",
+        "before": "9137e812672e50c2a56712977b43a481e9a89ebfbf9aca6e4fd33267d6ff4ace",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841723__full_network.tsv.gz",
+        "before": "39b7aff10d123ce6134c23d98c9519081f5b1e29c46f755174d7e05bd84fdafd",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724.json",
+        "before": "4fb06e46f4642ffe2a20d8f6cf5b750da9dbd2bee78b82ada412dbf52bcd076f",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_liana_rank_diagnostic\\raw\\GSE245386\\reference_singlet__GSM7841724__full_network.tsv.gz",
+        "before": "452d66ab953aa771f86d724644f0661c428d657b91bea67ef2f7aa8200699af8",
+        "after": null
+      },
+      {
+        "field": "/input_sha256/C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_rank_background_plan.md",
+        "before": "c522e296b4bd593a78a52fee4bcad04b115318cbee90e30bd97ade878bfba4e4",
+        "after": null
+      }
+    ]
+  },
+  {
+    "path": "outputs\\reproducibility_v2\\tables\\rank_upstream_audit.json",
+    "differences": [
+      {
+        "field": "/maximum_observed_process_peak_bytes",
+        "before": 204165120,
+        "after": 203325440
+      },
+      {
+        "field": "/output_sha256/animal_scores.tsv.gz",
+        "before": "70c5850ea626d92a61ba21a8b7db7620a27ec4da5b19e74ca19c6322c36fa50c",
+        "after": "4d56dd78e9465f90d58a9d38c5b5c49cb7785fe9539473f4a87d2decfe1c0f9b"
+      },
+      {
+        "field": "/output_sha256/effects.tsv.gz",
+        "before": "e0421fb3aeeba7a098cbbab577a3b360180961f12fb667fa520d74e5e54d1b83",
+        "after": "478808d5b45a424e0aadb4fa057bc64da346f5ad4551c669dca834c3d6e5f5a4"
+      }
+    ]
+  }
+]

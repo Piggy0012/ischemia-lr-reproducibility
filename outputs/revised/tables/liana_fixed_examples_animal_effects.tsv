@@ -1,0 +1,121 @@
+sender	receiver	ligand	receptor	dataset	config	metric	n_expected_animals	n_observed_finite	n_observed_sham	n_observed_mcao	missing_or_nonfinite_samples	n_sham	n_mcao	mean_sham	mean_mcao	score_difference	animal_welch_p	animal_welch_fdr	animal_exact_permutation_p	n_label_permutations	n_bh_tests	status
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	lr_means	6	6	3	3		3.0	3.0	1.1599879333333334	0.8551709066666667	-0.30481702666666666	0.0004982803295248844	0.00495798913450978	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	lr_means	6	6	3	3		3.0	3.0	1.5471787333333333	1.1825490333333333	-0.36462970000000006	0.0006330335688035769	0.005063165195865696	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	lr_means	6	6	3	3		3.0	3.0	0.6588800333333332	1.2356179666666665	0.5767379333333332	1.5000432788246213e-05	0.0008132708936444013	0.1	20.0	217.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	lr_means	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	lr_means	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	expr_prod	6	6	3	3		3.0	3.0	1.3384622333333336	0.7295081633333335	-0.6089540700000001	0.0014267655826100325	0.012886702614789695	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	expr_prod	6	6	3	3		3.0	3.0	2.3631843333333333	1.3604559999999999	-1.0027283333333334	0.00019509664763988092	0.004703996948650462	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	expr_prod	6	6	3	3		3.0	3.0	0.39094757333333335	1.0890561333333333	0.6981085599999999	6.334604765215592e-05	0.0022910153900863057	0.1	20.0	217.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	expr_prod	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	expr_prod	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	lr_logfc	6	6	3	3		3.0	3.0	0.9121767989656936	0.7287186325442631	-0.18345816642143054	0.0179390237504014	0.043939307038620916	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	lr_logfc	6	6	3	3		3.0	3.0	1.3195853281957506	0.9049427419836461	-0.4146425862121045	0.006811602357810741	0.028425340608556362	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	lr_logfc	6	6	3	3		3.0	3.0	0.7283986787697087	1.1642090282156843	0.43581034944597563	0.014690484582666934	0.03984793943048406	0.1	20.0	217.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	lr_logfc	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	lr_logfc	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	spec_weight	6	6	3	3		3.0	3.0	0.036833653	0.03369116766666667	-0.0031424853333333336	0.30108137016499503	0.4537128980958606	0.3	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	spec_weight	6	6	3	3		3.0	3.0	0.06549443199999999	0.03981092566666666	-0.025683506333333328	0.008197691211565042	0.17817789587719937	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	spec_weight	6	6	3	3		3.0	3.0	0.016266181	0.020100977333333332	0.003834796333333331	0.10253952299401455	0.24831177772086468	0.1	20.0	217.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	spec_weight	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	spec_weight	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	lrscore	6	6	3	3		3.0	3.0	0.8969663466666667	0.8673269666666666	-0.029639380000000104	0.00019717955110680788	0.009405558168811924	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	lrscore	6	6	3	3		3.0	3.0	0.9204771466666667	0.8992123333333334	-0.0212648133333333	0.008280552363227587	0.03667101760857931	0.1	20.0	217.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	lrscore	6	6	3	3		3.0	3.0	0.82459154	0.8887463766666667	0.06415483666666666	0.0015345910462695694	0.017526645107394555	0.1	20.0	217.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	lrscore	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	lrscore	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	primary	magnitude_rank	6	6	3	3		3.0	3.0	0.8540040811050544	0.6118597255773751	-0.24214435552767932	0.008827324786990913	0.06013114576886618	0.1	20.0	207.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	primary	magnitude_rank	6	6	3	3		3.0	3.0	0.9595133481321669	0.8714484237506682	-0.08806492438149871	0.018814409993707017	0.09057169462086866	0.1	20.0	207.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	primary	magnitude_rank	6	6	3	3		3.0	3.0	0.2152111093454737	0.8951431633185439	0.6799320539730702	0.00032493260693279395	0.01121017493918139	0.1	20.0	207.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	primary	magnitude_rank	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	primary	magnitude_rank	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	lr_means	6	6	3	3		3.0	3.0	1.1098507333333334	0.8163271133333333	-0.2935236200000001	0.00041389562238366973	0.005353050049495461	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	lr_means	6	6	3	3		3.0	3.0	1.6774822333333335	1.2741011333333334	-0.40338110000000005	0.00019298401884815377	0.003743889965654183	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	lr_means	6	6	3	3		3.0	3.0	0.68803138	1.2807954666666665	0.5927640866666666	2.722150064069792e-05	0.0016985311507969646	0.1	20.0	194.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	lr_means	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	lr_means	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	expr_prod	6	6	3	3		3.0	3.0	1.2152420666666666	0.6613365333333333	-0.5539055333333333	0.0003389526199938308	0.00730631203097813	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	expr_prod	6	6	3	3		3.0	3.0	2.8104728666666667	1.5735962666666667	-1.2368766	8.031374450218047e-05	0.00730631203097813	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	expr_prod	6	6	3	3		3.0	3.0	0.4375873533333334	1.1616887	0.7241013466666666	0.00015686328448601136	0.00730631203097813	0.1	20.0	194.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	expr_prod	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	expr_prod	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	lr_logfc	6	6	3	3		3.0	3.0	0.8660855748998918	0.674937391249289	-0.19114818365060282	0.001998001102219869	0.018457724468126407	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	lr_logfc	6	6	3	3		3.0	3.0	1.4467585824643034	1.014100645059252	-0.43265793740505143	0.009811507330199708	0.033629184890261093	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	lr_logfc	6	6	3	3		3.0	3.0	0.7933563746733748	1.238229764650787	0.4448733899774121	0.026094254795835804	0.05624761589324607	0.1	20.0	194.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	lr_logfc	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	lr_logfc	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	spec_weight	6	6	3	3		3.0	3.0	0.03638230533333333	0.03362932666666666	-0.0027529786666666695	0.32722274805829643	0.4883170240254578	0.3	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	spec_weight	6	6	3	3		3.0	3.0	0.06968004333333334	0.044186675333333335	-0.02549336800000001	0.011373931149824573	0.17659256226965567	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	spec_weight	6	6	3	3		3.0	3.0	0.018762074666666666	0.022235089333333333	0.0034730146666666663	0.23295224283211843	0.39993570893301744	0.3	20.0	194.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	spec_weight	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	spec_weight	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	lrscore	6	6	3	3		3.0	3.0	0.8926170166666667	0.86136042	-0.03125659666666669	9.208461176748878e-05	0.004373196453511722	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	lrscore	6	6	3	3		3.0	3.0	0.9267182900000001	0.9055491666666667	-0.021169123333333317	0.008119204369572166	0.04014820537049566	0.1	20.0	194.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	lrscore	6	6	3	3		3.0	3.0	0.8327263666666666	0.8918312	0.059104833333333495	0.0029805857904351978	0.030433349649706756	0.1	20.0	194.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	lrscore	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	lrscore	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE174574	reference_singlet	magnitude_rank	6	6	3	3		3.0	3.0	0.8216940906078158	0.5371931593405268	-0.28450093126728904	0.014336113134963989	0.07993469141919315	0.1	20.0	184.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE174574	reference_singlet	magnitude_rank	6	6	3	3		3.0	3.0	0.9728208019000775	0.906412972039858	-0.06640782986021943	0.016031738505550633	0.0842811395720376	0.1	20.0	184.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE174574	reference_singlet	magnitude_rank	6	6	3	3		3.0	3.0	0.2716802462425928	0.9077313756569434	0.6360511294143506	0.0004297488385340938	0.02635792876342442	0.1	20.0	184.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE174574	reference_singlet	magnitude_rank	6	3	0	3	GSM5319987|GSM5319988|GSM5319989											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE174574	reference_singlet	magnitude_rank	6	0	0	0	GSM5319987|GSM5319988|GSM5319989|GSM5319990|GSM5319991|GSM5319992											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	lr_means	5	5	3	2		3.0	2.0	1.2609186	0.846837175	-0.4140814249999999	0.03033907671807581	0.24521912385651637	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	lr_means	5	5	3	2		3.0	2.0	2.2309097333333336	1.39757775	-0.8333319833333337	0.1309919964404567	0.41292841262024765	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	lr_means	5	5	3	2		3.0	2.0	1.0575818833333333	1.49922645	0.44164456666666685	0.012619098155272027	0.1877090850596714	0.1	10.0	476.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	lr_means	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	lr_means	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	expr_prod	5	5	3	2		3.0	2.0	1.5700633333333334	0.713911085	-0.8561522483333334	0.03277937305214402	0.36066492767247854	0.2	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	expr_prod	5	5	3	2		3.0	2.0	4.951623566666666	1.23580687	-3.715816696666666	0.022777964405738763	0.32855488051914095	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	expr_prod	5	5	3	2		3.0	2.0	0.9791772433333333	1.89714865	0.9179714066666668	0.03627901149534646	0.36066492767247854	0.1	10.0	476.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	expr_prod	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	expr_prod	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	lr_logfc	5	5	3	2		3.0	2.0	1.2790452411608688	0.45622165510560553	-0.8228235860552633	0.007418211346983207	0.19617047784244482	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	lr_logfc	5	5	3	2		3.0	2.0	1.9526551667527705	0.6632012652873864	-1.289453901465384	0.004728512903892068	0.16851439851275232	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	lr_logfc	5	5	3	2		3.0	2.0	1.2155976954523584	1.502088595309317	0.28649089985695864	0.09280202196930801	0.3758588186452943	0.2	10.0	476.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	lr_logfc	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	lr_logfc	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	spec_weight	5	5	3	2		3.0	2.0	0.047612335	0.0270059835	-0.020606351499999998	0.07002507190332712	0.43594361763308787	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	spec_weight	5	5	3	2		3.0	2.0	0.04549536866666667	0.0129030865	-0.03259228216666667	0.011338256192806552	0.36129435804309573	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	spec_weight	5	5	3	2		3.0	2.0	0.020892514333333334	0.023184036999999998	0.0022915226666666635	0.47134598447695264	0.7356088151181293	0.5	10.0	476.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	spec_weight	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	spec_weight	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	lrscore	5	5	3	2		3.0	2.0	0.90407685	0.858089485	-0.045987365	0.12935945876320704	0.44721063981268594	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	lrscore	5	5	3	2		3.0	2.0	0.9439249866666667	0.883328465	-0.060596521666666736	0.217187059077524	0.49996704772616524	0.1	10.0	476.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	lrscore	5	5	3	2		3.0	2.0	0.8818350533333333	0.90858693	0.026751876666666674	0.022449295123364358	0.2380215663863065	0.1	10.0	476.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	lrscore	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	lrscore	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	primary	magnitude_rank	5	5	3	2		3.0	2.0	0.957054826224757	0.677243739472453	-0.27981108675230404	0.13363573019180516	0.5534748778300954	0.1	10.0	468.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	primary	magnitude_rank	5	5	3	2		3.0	2.0	0.9998471663477803	0.962423191831028	-0.03742397451675228	0.42685297188170407	0.8087740519863866	0.1	10.0	468.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	primary	magnitude_rank	5	5	3	2		3.0	2.0	0.8887913713356922	0.9890542863250837	0.10026291498939155	0.02462852380489718	0.3804007653042821	0.1	10.0	468.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	primary	magnitude_rank	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	primary	magnitude_rank	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	lr_means	5	5	3	2		3.0	2.0	1.3276042666666668	0.8871292	-0.4404750666666668	0.03817000604052922	0.2000108316523731	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	lr_means	5	5	3	2		3.0	2.0	2.4286095333333333	1.54469275	-0.8839167833333332	0.11212056220327016	0.30302583628284524	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	lr_means	5	5	3	2		3.0	2.0	1.1311554666666666	1.5655892	0.43443373333333346	0.04921432662191117	0.22512409999075128	0.1	10.0	524.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	lr_means	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	lr_means	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	expr_prod	5	5	3	2		3.0	2.0	1.7518247	0.785125475	-0.966699225	0.02061162285545188	0.16616139040395053	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	expr_prod	5	5	3	2		3.0	2.0	5.7813224666666665	1.3995302	-4.381792266666666	0.053034707943732155	0.24223572993050413	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	expr_prod	5	5	3	2		3.0	2.0	1.1600076666666668	2.1340776	0.9740699333333331	0.08933167985750144	0.30006282208545354	0.1	10.0	524.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	expr_prod	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	expr_prod	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	lr_logfc	5	5	3	2		3.0	2.0	1.3136690009004701	0.42204768806294124	-0.8916213128375289	0.08153280282368223	0.2775562670574048	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	lr_logfc	5	5	3	2		3.0	2.0	2.104383833641528	0.7539451841343799	-1.350438649507148	0.0008888835644418724	0.058221873470942646	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	lr_logfc	5	5	3	2		3.0	2.0	1.2834844793952402	1.5486642760133253	0.2651797966180851	0.08371312739485177	0.27849657515423043	0.2	10.0	524.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	lr_logfc	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	lr_logfc	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	spec_weight	5	5	3	2		3.0	2.0	0.05510741966666666	0.029987405	-0.025120014666666655	0.06905019349395089	0.34011863923634794	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	spec_weight	5	5	3	2		3.0	2.0	0.05018280833333333	0.014043311999999999	-0.036139496333333326	0.007744203655574579	0.21034890691471472	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	spec_weight	5	5	3	2		3.0	2.0	0.024656831333333334	0.026354803	0.0016979716666666658	0.5380264946301916	0.7168257247242565	0.6	10.0	524.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	spec_weight	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	spec_weight	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	lrscore	5	5	3	2		3.0	2.0	0.9082716999999999	0.86253125	-0.04574044999999993	0.1400958061424142	0.3462745397104955	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	lrscore	5	5	3	2		3.0	2.0	0.9475134666666666	0.89024422	-0.05726924666666655	0.18695096585521476	0.3964096395354989	0.1	10.0	524.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	lrscore	5	5	3	2		3.0	2.0	0.8898606	0.91251845	0.02265784999999998	0.06647018010945191	0.25644450754273557	0.1	10.0	524.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	lrscore	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	lrscore	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Timp3	Kdr	GSE245386	reference_singlet	magnitude_rank	5	5	3	2		3.0	2.0	0.9679141588195082	0.7044042776799819	-0.2635098811395262	0.14652862104671768	0.4805826550398773	0.1	10.0	516.0	complete_case_tested
+Endothelial	Astrocyte	Ptn	Ptprz1	GSE245386	reference_singlet	magnitude_rank	5	5	3	2		3.0	2.0	0.9999689911686039	0.9750307789894044	-0.02493821217919956	0.3987890295348136	0.7072268238302605	0.1	10.0	516.0	complete_case_tested
+Endothelial	Astrocyte	Plat	Lrp1	GSE245386	reference_singlet	magnitude_rank	5	5	3	2		3.0	2.0	0.9162287180889975	0.99048752676031	0.07425880867131252	0.022891215100295553	0.22950588600237873	0.1	10.0	516.0	complete_case_tested
+Astrocyte	Endothelial	Spp1	Itga5_Itgb1	GSE245386	reference_singlet	magnitude_rank	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case
+Astrocyte	Endothelial	Col4a1	Itga3_Itgb1	GSE245386	reference_singlet	magnitude_rank	5	2	0	2	GSM7841720|GSM7841721|GSM7841722											not_complete_case

@@ -1,0 +1,7 @@
+{
+  "snapshot": "python_wrapper_source_snapshot.py",
+  "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+  "snapshot_recorded_before_model_execution": true,
+  "matches_sha256_recorded_before_model_execution": true,
+  "note": "Source bytes frozen when this Python process started; R executes its per-library snapshot."
+}

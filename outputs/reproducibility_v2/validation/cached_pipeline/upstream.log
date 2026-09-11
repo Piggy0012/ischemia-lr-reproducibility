@@ -1,0 +1,35 @@
+AUDITED primary GSM5319987 edges 17267 max delta 0.0
+AUDITED primary GSM5319988 edges 19603 max delta 0.0
+AUDITED primary GSM5319989 edges 23300 max delta 0.0
+AUDITED primary GSM5319990 edges 31174 max delta 0.0
+AUDITED primary GSM5319991 edges 28267 max delta 0.0
+AUDITED primary GSM5319992 edges 33735 max delta 0.0
+AUDITED primary GSM7841720 edges 64189 max delta 0.0
+AUDITED primary GSM7841721 edges 59565 max delta 0.0
+AUDITED primary GSM7841722 edges 57934 max delta 0.0
+AUDITED primary GSM7841723 edges 77691 max delta 0.0
+AUDITED primary GSM7841724 edges 61427 max delta 0.0
+AUDITED reference_singlet GSM5319987 edges 16462 max delta 0.0
+AUDITED reference_singlet GSM5319988 edges 18777 max delta 0.0
+AUDITED reference_singlet GSM5319989 edges 22042 max delta 0.0
+AUDITED reference_singlet GSM5319990 edges 29561 max delta 0.0
+AUDITED reference_singlet GSM5319991 edges 26847 max delta 0.0
+AUDITED reference_singlet GSM5319992 edges 31153 max delta 0.0
+AUDITED reference_singlet GSM7841720 edges 64301 max delta 0.0
+AUDITED reference_singlet GSM7841721 edges 56411 max delta 0.0
+AUDITED reference_singlet GSM7841722 edges 55019 max delta 0.0
+AUDITED reference_singlet GSM7841723 edges 74478 max delta 0.0
+AUDITED reference_singlet GSM7841724 edges 58042 max delta 0.0
+           config                        metric  n_candidates  n_nonzero_both  n_same_direction  same_direction_all_fraction  same_direction_nonzero_fraction  n_zero_discovery  n_zero_validation  spearman_rho
+          primary           native_110_priority           187             177               105                     0.561497                         0.593220                 9                  2      0.228237
+          primary legacy_unique_column_priority           187             168               122                     0.652406                         0.726190                18                  3      0.518752
+          primary fixed_merge_upstream_priority           187             168               122                     0.652406                         0.726190                18                  3      0.518752
+reference_singlet           native_110_priority           174             166                95                     0.545977                         0.572289                 8                  1      0.102453
+reference_singlet legacy_unique_column_priority           174             158               115                     0.660920                         0.727848                15                  2      0.513793
+reference_singlet fixed_merge_upstream_priority           174             158               115                     0.660920                         0.727848                15                  2      0.513793
+{
+  "maximum_absolute_difference_from_original_unique_diagnostic": 0.0,
+  "all_upstream_vs_original_unique_diagnostic_bitwise_equal": true,
+  "all_legacy_float64_vs_upstream_float64_bitwise_equal": true,
+  "maximum_observed_process_peak_bytes": 204165120
+}

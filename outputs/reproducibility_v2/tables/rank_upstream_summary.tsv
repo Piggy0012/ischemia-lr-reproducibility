@@ -1,0 +1,7 @@
+config	metric	n_candidates	n_nonzero_both	n_same_direction	same_direction_all_fraction	same_direction_nonzero_fraction	n_zero_discovery	n_zero_validation	spearman_rho
+primary	native_110_priority	187	177	105	0.5614973262032086	0.5932203389830508	9	2	0.2282371264612325
+primary	legacy_unique_column_priority	187	168	122	0.6524064171122995	0.7261904761904762	18	3	0.518752314279276
+primary	fixed_merge_upstream_priority	187	168	122	0.6524064171122995	0.7261904761904762	18	3	0.518752314279276
+reference_singlet	native_110_priority	174	166	95	0.5459770114942529	0.572289156626506	8	1	0.10245326529039606
+reference_singlet	legacy_unique_column_priority	174	158	115	0.6609195402298851	0.7278481012658228	15	2	0.5137932807585105
+reference_singlet	fixed_merge_upstream_priority	174	158	115	0.6609195402298851	0.7278481012658228	15	2	0.5137932807585105

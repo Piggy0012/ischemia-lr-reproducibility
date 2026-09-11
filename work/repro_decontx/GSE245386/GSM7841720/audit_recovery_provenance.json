@@ -1,0 +1,25 @@
+{
+  "model_refitted": false,
+  "old_run_source_sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+  "pre_run_recorded_source_sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+  "recovery_script_sha256": {
+    "repro_decontx_recover_audit.R": "b48b30b0afec5a010f77d01586d4a87de4bd65bf793ec313a307b9daf70fb7cf",
+    "repro_decontx_recover_source.py": "bc8c7e1e0b29d0bfae46aae98d2d303b55c8cf40f60ec70600766ba9127cf743"
+  },
+  "preserved_native_output_sha256": {
+    "corrected_data.bin": "c876515f3bb949d38c782cc36cff3b5d5c0cf017df15b1a25c567adfefa570ab",
+    "corrected_indices.bin": "7ea8c7f31862164cb831a52cc1630ca61c293abdbd6e800e2aeccac36b09288a",
+    "corrected_indptr.bin": "14f966eb2dc7a909cf3876a05209c90574cb94011b8b29da0fc3001881a278f4",
+    "corrected_counts.mtx": "75a2f6609f19014cbe49c2cb117c1f7f2f940d4b6f2c18d041d3ca076a3980c3",
+    "contamination.tsv.gz": "ae93b206fb877bc67e4a054997ebd8b29e19c65be2da48fa8204018a33dda72c",
+    "model_estimates.rds": "6df24e361fb47ef001472808ba20f5a18f4baa20837fbebfa532f7827bcc9735",
+    "sessionInfo.txt": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+    "run.log": "723c18fd75a847558e59d1af6940635e518d6e991f1e00455b6fdcb993d6ea38"
+  },
+  "postprocessing_after_recovery": {
+    "script_sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+    "snapshot": "postprocessing_source_snapshot.py",
+    "recorded_after_execution": true,
+    "note": "Same resumed Python process that launched GSM7841721 and GSM7841722 with this recorded wrapper hash; the snapshot-only changes did not change the original output calculations or compression."
+  }
+}

@@ -1,0 +1,45 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+START GSE174574 GSM5319990 genes 27933 cells 11717 nnz 17668465 
+--------------------------------------------------
+Starting DecontX
+--------------------------------------------------
+Fri Sep 11 00:13:36 2026 .. Analyzing all cells
+Fri Sep 11 00:13:37 2026 .... Generating UMAP
+Fri Sep 11 00:14:26 2026 .... Estimating contamination
+Fri Sep 11 00:14:30 2026 ...... Completed iteration: 10 | converge: 0.03568
+Fri Sep 11 00:14:32 2026 ...... Completed iteration: 20 | converge: 0.0228
+Fri Sep 11 00:14:35 2026 ...... Completed iteration: 30 | converge: 0.02235
+Fri Sep 11 00:14:37 2026 ...... Completed iteration: 40 | converge: 0.01151
+Fri Sep 11 00:14:40 2026 ...... Completed iteration: 50 | converge: 0.007789
+Fri Sep 11 00:14:42 2026 ...... Completed iteration: 60 | converge: 0.006784
+Fri Sep 11 00:14:45 2026 ...... Completed iteration: 70 | converge: 0.005734
+Fri Sep 11 00:14:47 2026 ...... Completed iteration: 80 | converge: 0.004715
+Fri Sep 11 00:14:50 2026 ...... Completed iteration: 90 | converge: 0.003767
+Fri Sep 11 00:14:53 2026 ...... Completed iteration: 100 | converge: 0.003022
+Fri Sep 11 00:14:55 2026 ...... Completed iteration: 110 | converge: 0.002691
+Fri Sep 11 00:14:58 2026 ...... Completed iteration: 120 | converge: 0.002452
+Fri Sep 11 00:15:00 2026 ...... Completed iteration: 130 | converge: 0.002126
+Fri Sep 11 00:15:03 2026 ...... Completed iteration: 140 | converge: 0.001647
+Fri Sep 11 00:15:06 2026 ...... Completed iteration: 150 | converge: 0.001316
+Fri Sep 11 00:15:08 2026 ...... Completed iteration: 160 | converge: 0.001253
+Fri Sep 11 00:15:11 2026 ...... Completed iteration: 170 | converge: 0.001189
+Fri Sep 11 00:15:13 2026 ...... Completed iteration: 180 | converge: 0.001058
+Fri Sep 11 00:15:15 2026 ...... Completed iteration: 184 | converge: 0.000985
+Fri Sep 11 00:15:15 2026 .. Calculating final decontaminated matrix
+--------------------------------------------------
+Completed DecontX. Total time: 1.758566 mins
+--------------------------------------------------
+Warning messages:
+1: In .library_size_factors(assay(x, assay.type), ...) :
+  'librarySizeFactors' is deprecated.
+Use 'scrapper::centerSizeFactors' instead.
+See help("Deprecated")
+2: In .local(x, ...) : 'normalizeCounts' is deprecated.
+Use 'scrapper::normalizeCounts' instead.
+See help("Deprecated")
+NULL
+COMPLETE GSM5319990 median_contamination 0.0746676 

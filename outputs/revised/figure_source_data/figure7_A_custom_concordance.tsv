@@ -1,0 +1,5 @@
+config	expression_gate	n_discovery_eligible	n_validation_eligible	n_common	n_direction_evaluable	n_zero_effect	n_same_direction	same_direction_fraction	spearman_rho
+primary	0.1	362	745	323	323	0	258	0.7987616099071208	0.7427882976103759
+singlet	0.1	342	714	313	313	0	250	0.7987220447284346	0.7228218726220064
+reference_singlet	0.1	367	746	326	326	0	247	0.7576687116564417	0.7030217132058506
+reference_only	0.1	350	740	313	313	0	235	0.7507987220447284	0.7032201105805648

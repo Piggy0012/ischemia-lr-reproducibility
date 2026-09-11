@@ -1,0 +1,66 @@
+{
+  "accession": "GSE332910",
+  "sample": "GSM9755194",
+  "condition": "MCAO",
+  "library_replicate": 2,
+  "n_independent_animals": null,
+  "pooling_status": "individual_mouse_or_pool_mapping_not_explicitly_reported",
+  "time": "24 h after 60-minute MCAO reperfusion",
+  "tissue": "ipsilateral striatum",
+  "assay": "DNBelab single-nucleus RNA sequencing; MGI DNBSEQ-Tx",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755194/suppl/GSM9755194_snRNA-seq_24h_2.tar.gz",
+  "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9755194",
+  "publication_doi": "10.1002/advs.77547",
+  "archive_sha256": "c50c7bf64f48c3c45cf98c19776758888fe295b29163937b662bcf3287a675a0",
+  "archive_bytes": 101499743,
+  "matrix_header": "%%MatrixMarket matrix coordinate integer general",
+  "matrix_shape_genes_cells_nnz": [
+    30348,
+    21218,
+    35230182
+  ],
+  "first_entries": [
+    "1\t4\t5",
+    "1\t5\t1",
+    "1\t7\t8"
+  ],
+  "feature_mapping": {
+    "n_genes": 30348,
+    "n_unique_symbols": 30348,
+    "first_symbols": [
+      "Xkr4",
+      "Gm19938",
+      "Gm1992",
+      "Rp1",
+      "Gm37381"
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs."
+  },
+  "extracted_files": [
+    {
+      "source_member": "snRNA-seq_24h_2/snRNA-seq_24h_2_barcodes.tsv.gz",
+      "destination_relative": "data\\GSE332910\\raw\\GSM9755194_MCAO2_barcodes.tsv.gz",
+      "size_bytes": 51789,
+      "sha256": "fdf1d952fc85416799b5081e946f411761b1095c10adaaf4c258b261dfb5a27c"
+    },
+    {
+      "source_member": "snRNA-seq_24h_2/snRNA-seq_24h_2_features.tsv.gz",
+      "destination_relative": "data\\GSE332910\\raw\\GSM9755194_MCAO2_features.tsv.gz",
+      "size_bytes": 192141,
+      "sha256": "c55dbe9659c730dd382a2c1fda26e219bb0240de7d31ad13ac4a6d235011b51a"
+    },
+    {
+      "source_member": "snRNA-seq_24h_2/snRNA-seq_24h_2_matrix.mtx.gz",
+      "destination_relative": "data\\GSE332910\\raw\\GSM9755194_MCAO2_matrix.mtx.gz",
+      "size_bytes": 101359472,
+      "sha256": "30634f69eeb97da665f541fc46348aafade00c4f06303b1fc9efd50c017b24b8"
+    }
+  ],
+  "metadata_notes": [
+    "The series-level unimmunized/immunized wording conflicts with the stroke design; group assignment uses explicit sample title/treatment and source article.",
+    "ATAC and RNA records of the same named replicate are not independent biological samples.",
+    "Counts are deposited processed integer UMI matrices, not an assertion of empty-droplet availability."
+  ],
+  "author_reported_biological_replicates_per_condition": 3,
+  "biological_replicate_source": "Supplementary Table S1, Sheet1 B2:D4 (Sham and 24 h columns); https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx"
+}

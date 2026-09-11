@@ -1,0 +1,6 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163752/suppl/GSE163752_counts.matrix.norm_anno.txt.gz",
+  "bytes": 14232391,
+  "sha256": "f97b2cc1c1044101b0c268180049e45c38e94ab375f77dcd8c59be102cbcf1ee",
+  "scale": "Author-provided normalized expression, not raw counts"
+}

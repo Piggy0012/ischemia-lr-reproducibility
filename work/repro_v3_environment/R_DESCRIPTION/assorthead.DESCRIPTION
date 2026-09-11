@@ -1,0 +1,32 @@
+Package: assorthead
+Version: 1.6.3
+Date: 2026-05-25
+Title: Assorted Header-Only C++ Libraries
+Authors@R: person("Aaron", "Lun", role=c("cre", "aut"), email="infinite.monkeys.with.keyboards@gmail.com")
+Description: Vendors an assortment of useful header-only C++ libraries.
+        Bioconductor packages can use these libraries in their own C++
+        code by LinkingTo this package without introducing any
+        additional dependencies. The use of a central repository avoids
+        duplicate vendoring of libraries across multiple R packages,
+        and enables better coordination of version updates across
+        cohorts of interdependent C++ libraries.
+License: MIT + file LICENSE
+Suggests: knitr, rmarkdown, BiocStyle
+VignetteBuilder: knitr
+URL: https://github.com/LTLA/assorthead
+BugReports: https://github.com/LTLA/assorthead/issues
+Encoding: UTF-8
+biocViews: SingleCell, QualityControl, Normalization,
+        DataRepresentation, DataImport, DifferentialExpression,
+        Alignment
+RoxygenNote: 7.3.3
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-05-25 07:11:23 UTC
+RemoteUrl: https://github.com/bioc/assorthead
+RemoteRef: RELEASE_3_23
+RemoteSha: 9ee2dd8e2852145d3755b4bebc002b1328bb02e0
+NeedsCompilation: no
+Packaged: 2026-05-25 11:52:10 UTC; root
+Author: Aaron Lun [cre, aut]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.6.0; ; 2026-05-25 11:54:42 UTC; windows

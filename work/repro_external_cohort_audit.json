@@ -1,0 +1,3913 @@
+{
+  "audit_date": "2026-09-10",
+  "search_query": "(stroke OR cerebral ischemia OR MCAO) AND (single cell OR single nucleus) AND Mus musculus[Organism] AND gse[Entry Type]",
+  "n_gds_hits": 145,
+  "search_results": "work/repro_cohort_metadata/gds_summaries.json",
+  "scope": "Focused update after prior dataset audit, not a PRISMA exhaustive systematic review; metadata of 21 newly screened GEO series fetched.",
+  "selection": "GSE332910 added as exploratory acute third cohort, with six downloaded and QC-verified libraries and author-reported three biological replicates per group (Table S1); individual mouse/pool mapping is not provided.",
+  "new_candidates": [
+    {
+      "accession": "GSE171393",
+      "title": [
+        "Differentiation independent neuroprotective role of Vcan+ oligodendrocyte precursor cells in Post-stroke cognitive impairment recovery"
+      ],
+      "status": [
+        "Public on Apr 02 2023"
+      ],
+      "pubmed_ids": [
+        "38180614"
+      ],
+      "design": [
+        "Examination of 2 sham and 2 two-vessel occlusion ischemia mouse model hippocampi samples"
+      ],
+      "n_deposited_sample_records": 4,
+      "decision": "exclude_scope_and_no_n_upgrade",
+      "reason": "2 Sham and 2 2VO hippocampus libraries; alternate ischemia model/day7 and no sample-size gain.",
+      "samples": [
+        {
+          "accession": "GSM5224821",
+          "title": "sham treatment rep1",
+          "characteristics": [
+            "age: 12 weeks",
+            "strain: C57BL/6",
+            "treatment: control",
+            "tissue: hippocampus"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224821/suppl/GSM5224821_C1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224821/suppl/GSM5224821_C1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224821/suppl/GSM5224821_C1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM5224822",
+          "title": "sham treatment rep2",
+          "characteristics": [
+            "age: 12 weeks",
+            "strain: C57BL/6",
+            "treatment: control",
+            "tissue: hippocampus"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224822/suppl/GSM5224822_C2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224822/suppl/GSM5224822_C2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224822/suppl/GSM5224822_C2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM5224823",
+          "title": "2VO treatment rep1",
+          "characteristics": [
+            "age: 12 weeks",
+            "strain: C57BL/6",
+            "treatment: treatment",
+            "tissue: hippocampus"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224823/suppl/GSM5224823_M1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224823/suppl/GSM5224823_M1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224823/suppl/GSM5224823_M1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM5224824",
+          "title": "2VO treatment rep2",
+          "characteristics": [
+            "age: 12 weeks",
+            "strain: C57BL/6",
+            "treatment: treatment",
+            "tissue: hippocampus"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224824/suppl/GSM5224824_M2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224824/suppl/GSM5224824_M2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5224nnn/GSM5224824/suppl/GSM5224824_M2_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171393",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE171393_family.soft"
+    },
+    {
+      "accession": "GSE225948",
+      "title": [
+        "Brain and blood single-cell transcriptomic analysis in acute and subacute phases after experimental stroke"
+      ],
+      "status": [
+        "Public on Jun 14 2023"
+      ],
+      "pubmed_ids": [
+        "38177281"
+      ],
+      "design": [
+        "Single-cell RNA profiling of CD45intermediate and CD45high immune cells and CD45negative/Ly6chigh endothelial cells isolated from mice 2 and 14 days after transient middle cerebral artery occlusion or sham surgery. Single-cell RNA profiling of peripheral blood leukocytes from mice 2 and 14 days after transient middle cerebral artery occlusion or sham surgery."
+      ],
+      "n_deposited_sample_records": 29,
+      "decision": "exclude_target_cell_sampling",
+      "reason": "D2 brain: 4 young Sham and 4 young stroke replicate libraries; GEO explicitly says 4-5 hemispheres pooled per experiment; sorted CD45 immune and CD45-negative/Ly6c-high endothelial cells do not systematically sample astrocytes.",
+      "samples": [
+        {
+          "accession": "GSM7060815",
+          "title": "brain young Sham Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060815/suppl/GSM7060815_Brain_GR180716_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060815/suppl/GSM7060815_Brain_GR180716_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060816",
+          "title": "brain young Sham Day 2 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060816/suppl/GSM7060816_Brain_GR181128_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060816/suppl/GSM7060816_Brain_GR181128_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060817",
+          "title": "brain young Sham Day 2 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060817/suppl/GSM7060817_Brain_GR181212_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060817/suppl/GSM7060817_Brain_GR181212_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060818",
+          "title": "brain young Sham Day 2 replicate4 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060818/suppl/GSM7060818_Brain_GR190110_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060818/suppl/GSM7060818_Brain_GR190110_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060819",
+          "title": "brain young Stroke Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060819/suppl/GSM7060819_Brain_GR180426_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060819/suppl/GSM7060819_Brain_GR180426_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060820",
+          "title": "brain young Stroke Day 2 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060820/suppl/GSM7060820_Brain_GR180614_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060820/suppl/GSM7060820_Brain_GR180614_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060821",
+          "title": "brain young Stroke Day 2 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060821/suppl/GSM7060821_Brain_GR180919_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060821/suppl/GSM7060821_Brain_GR180919_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060822",
+          "title": "brain young Stroke Day 2 replicate4 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060822/suppl/GSM7060822_Brain_GR181024_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060822/suppl/GSM7060822_Brain_GR181024_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060823",
+          "title": "brain young Stroke Day 14 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060823/suppl/GSM7060823_Brain_GR180125_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060823/suppl/GSM7060823_Brain_GR180125_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060824",
+          "title": "brain young Stroke Day 14 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060824/suppl/GSM7060824_Brain_GR180613_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060824/suppl/GSM7060824_Brain_GR180613_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060825",
+          "title": "brain young Stroke Day 14 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060825/suppl/GSM7060825_Brain_GR180905_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060825/suppl/GSM7060825_Brain_GR180905_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060826",
+          "title": "brain young Stroke Day 14 replicate4 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060826/suppl/GSM7060826_Brain_GR181114_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060826/suppl/GSM7060826_Brain_GR181114_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060827",
+          "title": "brain aged Sham Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060827/suppl/GSM7060827_Brain_aged_GR210708_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060827/suppl/GSM7060827_Brain_aged_GR210708_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060828",
+          "title": "brain aged Sham Day 2 replicate1 (female)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: female",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060828/suppl/GSM7060828_Brain_aged_GR200728_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060828/suppl/GSM7060828_Brain_aged_GR200728_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060829",
+          "title": "brain aged Stroke Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: male",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060829/suppl/GSM7060829_Brain_aged_GR200723_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060829/suppl/GSM7060829_Brain_aged_GR200723_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060830",
+          "title": "brain aged Stroke Day 2 replicate1 (female)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: female",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060830/suppl/GSM7060830_Brain_aged_GR200716_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060830/suppl/GSM7060830_Brain_aged_GR200716_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060831",
+          "title": "brain aged Stroke Day 2 replicate2 (female)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: female",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060831/suppl/GSM7060831_Brain_aged_GR210225_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060831/suppl/GSM7060831_Brain_aged_GR210225_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060832",
+          "title": "brain aged Stroke Day 14 replicate1 (female)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 17-20 month old",
+            "Sex: female",
+            "tissue: brain",
+            "cell type: Sorted CD45high, microglia, endothelial cells",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060832/suppl/GSM7060832_Brain_aged_GR200812_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060832/suppl/GSM7060832_Brain_aged_GR200812_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060833",
+          "title": "peripheral blood young Sham Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060833/suppl/GSM7060833_Blood_GR18110701_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060833/suppl/GSM7060833_Blood_GR18110701_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060834",
+          "title": "peripheral blood young Sham Day 2 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060834/suppl/GSM7060834_Blood_GR18121901_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060834/suppl/GSM7060834_Blood_GR18121901_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060835",
+          "title": "peripheral blood young Sham Day 2 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060835/suppl/GSM7060835_Blood_GR190417_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060835/suppl/GSM7060835_Blood_GR190417_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060836",
+          "title": "peripheral blood young Sham Day 2 replicate4 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Sham",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060836/suppl/GSM7060836_Blood_GR190522_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060836/suppl/GSM7060836_Blood_GR190522_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060837",
+          "title": "peripheral blood young Stroke Day 2 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060837/suppl/GSM7060837_Blood_GR18110702_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060837/suppl/GSM7060837_Blood_GR18110702_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060838",
+          "title": "peripheral blood young Stroke Day 2 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060838/suppl/GSM7060838_Blood_GR18121902_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060838/suppl/GSM7060838_Blood_GR18121902_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060839",
+          "title": "peripheral blood young Stroke Day 2 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060839/suppl/GSM7060839_Blood_GR190116_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060839/suppl/GSM7060839_Blood_GR190116_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060840",
+          "title": "peripheral blood young Stroke Day 2 replicate4 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 2"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060840/suppl/GSM7060840_Blood_GR190410_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060840/suppl/GSM7060840_Blood_GR190410_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060841",
+          "title": "peripheral blood young Stroke Day 14 replicate1 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060841/suppl/GSM7060841_Blood_GR181120_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060841/suppl/GSM7060841_Blood_GR181120_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060842",
+          "title": "peripheral blood young Stroke Day 14 replicate2 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060842/suppl/GSM7060842_Blood_GR190415_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060842/suppl/GSM7060842_Blood_GR190415_metadata.csv.gz"
+          ]
+        },
+        {
+          "accession": "GSM7060843",
+          "title": "peripheral blood young Stroke Day 14 replicate3 (male)",
+          "characteristics": [
+            "strain: C57BL/6J",
+            "age: 8-10 week old",
+            "Sex: male",
+            "tissue: peripheral blood",
+            "cell type: Peripheral blood leukocytes",
+            "treatment: Stroke",
+            "time point: Day 14"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060843/suppl/GSM7060843_Blood_GR190529_counts.csv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7060nnn/GSM7060843/suppl/GSM7060843_Blood_GR190529_metadata.csv.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225948",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE225948_family.soft"
+    },
+    {
+      "accession": "GSE247102",
+      "title": [
+        "Deletion of Slc9a1 in Cx3cr1+ cells stimulated microglial subcluster CREB1-BDNF signaling and oligodendrocyte crosstalk"
+      ],
+      "status": [
+        "Public on Nov 06 2023"
+      ],
+      "pubmed_ids": [
+        "38509618"
+      ],
+      "design": [
+        "White matter tissues were dissected from the WT or Nhe1 cKO brains at 3 days post-tMCAO",
+        "",
+        "Grant ID: 933134 (Career Development Award)",
+        "Grant title: Modulating microglia-oligodendrocyte interactions for white matter repair",
+        "Funding source: American Heart Association",
+        "Grantee: Shanshan Song"
+      ],
+      "n_deposited_sample_records": 8,
+      "decision": "exclude_no_n_upgrade_and_scope",
+      "reason": "D3 white matter, WT ipsi 2 and contra 2; no Sham and no gain over two WT case libraries.",
+      "samples": [
+        {
+          "accession": "GSM7883314",
+          "title": "KO CL, replicate 1, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (contralateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-;Nhe1f/f",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883314/suppl/GSM7883314_KOCL652_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883315",
+          "title": "KO CL, replicate 2, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (contralateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-;Nhe1f/f",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883315/suppl/GSM7883315_KOCL653_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883316",
+          "title": "KO IL, replicate 1, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (ipsilateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-;Nhe1f/f",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883316/suppl/GSM7883316_KOIL460_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883317",
+          "title": "KO IL, replicate 2, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (ipsilateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-;Nhe1f/f",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883317/suppl/GSM7883317_KOIL653_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883318",
+          "title": "WT CL, replicate 1, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (contralateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883318/suppl/GSM7883318_WTCL408_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883319",
+          "title": "WT CL, replicate 2, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (contralateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883319/suppl/GSM7883319_WTCL426_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883320",
+          "title": "WT IL, replicate 1, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (ipsilateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883320/suppl/GSM7883320_WTIL408_filtered_feature_bc_matrix_1_.h5"
+          ]
+        },
+        {
+          "accession": "GSM7883321",
+          "title": "WT IL, replicate 2, scRNAseq",
+          "characteristics": [
+            "tissue: brain white matter (ipsilateral to stroke)",
+            "genotype: Cx3cr1-CreER+/-",
+            "treatment: tamoxifen"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7883nnn/GSM7883321/suppl/GSM7883321_WTIL461_filtered_feature_bc_matrix_1_.h5"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247102",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE247102_family.soft"
+    },
+    {
+      "accession": "GSE254550",
+      "title": [
+        "Cranial Photomodulation Reshapes Brain Border Immunity and Promotes Recovery After Stroke"
+      ],
+      "status": [
+        "Public on Apr 18 2024"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "Single-cell transcriptomic profiling was performed on Sham, tMCAO (transient middle cerebral artery occlusion), and tMCAO+UVB(ultraviolet B) treated mouse skull, meninges, and brain tissue separately."
+      ],
+      "n_deposited_sample_records": 7,
+      "decision": "exclude_no_comparable_brain_controls",
+      "reason": "Only UVB-treated brain library; Sham and tMCAO are skull/meninges, not same brain cell compartment.",
+      "samples": [
+        {
+          "accession": "GSM8045768",
+          "title": "Sham_meninges",
+          "characteristics": [
+            "tissue: meninges",
+            "treatment: Sham"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045768/suppl/GSM8045768_Meninge_Sham_CM.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045769",
+          "title": "Sham_skull",
+          "characteristics": [
+            "tissue: skull",
+            "treatment: Sham"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045769/suppl/GSM8045769_Skull_Sham_CS.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045770",
+          "title": "tMCAO_meninges",
+          "characteristics": [
+            "tissue: meninges",
+            "treatment: tMCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045770/suppl/GSM8045770_Meninge_MCAO_DM.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045771",
+          "title": "tMCAO_skull",
+          "characteristics": [
+            "tissue: skull",
+            "treatment: tMCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045771/suppl/GSM8045771_Skull_MCAO_DS.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045772",
+          "title": "UVB_brain",
+          "characteristics": [
+            "tissue: brain",
+            "treatment: tMCAO+UVB (UVB treatment was performed after tMCAO)"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045772/suppl/GSM8045772_Brain_UV_UVB.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045773",
+          "title": "UVB_meninges",
+          "characteristics": [
+            "tissue: meninges",
+            "treatment: tMCAO+UVB (UVB treatment was performed after tMCAO)"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045773/suppl/GSM8045773_Meninge_UV_UVM.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8045774",
+          "title": "UVB_skull",
+          "characteristics": [
+            "tissue: skull",
+            "treatment: tMCAO+UVB (UVB treatment was performed after tMCAO)"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8045nnn/GSM8045774/suppl/GSM8045774_Skull_UV_UVS.tar.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254550",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE254550_family.soft"
+    },
+    {
+      "accession": "GSE267240",
+      "title": [
+        "Microglial heterogeneity in the ischemic stroke mouse brain of both sexes"
+      ],
+      "status": [
+        "Public on Jul 01 2024"
+      ],
+      "pubmed_ids": [
+        "39095897"
+      ],
+      "design": [
+        "To characterize microglial diversity after permanent stroke in Tmem119-2A-CreERT2;Ai6 mice in which microglia were labeled with ZsGreen, we sorted ZsGreen positive cells on day 3 after stroke for scRNA-seq analysis. Four samples were analayzed: female_sham, female_stroke, male_sham, and male_stroke,  (F_Sham, F_Stroke, M_Sham, M_Stroke). Each sample were pooled from 4 mice."
+      ],
+      "n_deposited_sample_records": 4,
+      "decision": "exclude_target_cells_and_pooled",
+      "reason": "Microglia-specific sorting; one library per sex-condition, 4 mice pooled per library; day 3 permanent stroke.",
+      "samples": [
+        {
+          "accession": "GSM8262819",
+          "title": "Female microglia, Sham, Day 3",
+          "characteristics": [
+            "tissue: brain",
+            "Sex: Female",
+            "cell type: microglial cells",
+            "genotype: Tmem119-2A-CreERT2;Ai6",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262819/suppl/GSM8262819_F_Sham_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262819/suppl/GSM8262819_F_Sham_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262819/suppl/GSM8262819_F_Sham_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8262820",
+          "title": "Female microglia, pMCAO, Day 3",
+          "characteristics": [
+            "tissue: brain",
+            "Sex: Female",
+            "cell type: microglial cells",
+            "genotype: Tmem119-2A-CreERT2;Ai6",
+            "treatment: pMCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262820/suppl/GSM8262820_F_Stroke_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262820/suppl/GSM8262820_F_Stroke_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262820/suppl/GSM8262820_F_Stroke_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8262821",
+          "title": "Male microglia, Sham, Day 3",
+          "characteristics": [
+            "tissue: brain",
+            "Sex: Male",
+            "cell type: microglial cells",
+            "genotype: Tmem119-2A-CreERT2;Ai6",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262821/suppl/GSM8262821_M_Sham_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262821/suppl/GSM8262821_M_Sham_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262821/suppl/GSM8262821_M_Sham_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8262822",
+          "title": "Male microglia, pMCAO, Day 3",
+          "characteristics": [
+            "tissue: brain",
+            "Sex: Male",
+            "cell type: microglial cells",
+            "genotype: Tmem119-2A-CreERT2;Ai6",
+            "treatment: pMCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262822/suppl/GSM8262822_M_Stroke_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262822/suppl/GSM8262822_M_Stroke_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8262nnn/GSM8262822/suppl/GSM8262822_M_Stroke_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267240",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE267240_family.soft"
+    },
+    {
+      "accession": "GSE268505",
+      "title": [
+        "Physical exercise improves the neuronal function in ischemic stroke via microglial CB2R/P2Y12 signaling"
+      ],
+      "status": [
+        "Public on Jun 01 2025"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "To investigate the regulative mechnism and explore the potential target to protect against the ischemic stroke, C57BL/6J mice were suffered from transient middle cerebral artery occlusion."
+      ],
+      "n_deposited_sample_records": 6,
+      "decision": "exclude_assay",
+      "reason": "Six bulk RNA samples; supplementary FPKM/annotation spreadsheets, no single-cell barcode counts.",
+      "samples": [
+        {
+          "accession": "GSM8292111",
+          "title": "S1",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: Sham"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8292112",
+          "title": "S2",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: Sham"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8292113",
+          "title": "S3",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: Sham"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8292114",
+          "title": "S4",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: tMCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8292115",
+          "title": "S5",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: tMCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8292116",
+          "title": "S6",
+          "characteristics": [
+            "tissue: Brain",
+            "Sex: Male",
+            "genotype: C57BL/6J",
+            "treatment: tMCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268505",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE268505_family.soft"
+    },
+    {
+      "accession": "GSE276202",
+      "title": [
+        "A molecular brain atlas reveals cellular shifts during the repair phase of stroke"
+      ],
+      "status": [
+        "Public on Apr 23 2025"
+      ],
+      "pubmed_ids": [
+        "40251566"
+      ],
+      "design": [
+        "The study was designed to generate a single-cell atlas of stroke-injured mouse tissue one month following permanent focal cerebral stroke. we used nine stroked adult male and female mice (3-5 months old) with a C57BL/6J background. We validated a successful stroke induction using Laser Doppler imaging and collected tissue from stroke, peri-infarct and intact cortex. We dissociated the tissue and isolated nuclei for subsequent snRNAseq analysis"
+      ],
+      "n_deposited_sample_records": 3,
+      "decision": "exclude_pooled_regional_design",
+      "reason": "One-month permanent stroke atlas: 9 mice overall but only 3 regional libraries (stroke core/peri-infarct/contra), not 9 independent expression samples.",
+      "samples": [
+        {
+          "accession": "GSM8493161",
+          "title": "nuclei from stroke core",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: C57BL/6J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493161/suppl/GSM8493161_stroke_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493161/suppl/GSM8493161_stroke_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493161/suppl/GSM8493161_stroke_norm_counts.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8493162",
+          "title": "nuclei from peri-infarct",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: C57BL/6J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493162/suppl/GSM8493162_ibz_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493162/suppl/GSM8493162_ibz_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493162/suppl/GSM8493162_ibz_norm_counts.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8493163",
+          "title": "nuclei from contralaesional intact brain",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: C57BL/6J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493163/suppl/GSM8493163_contra_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493163/suppl/GSM8493163_contra_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8493nnn/GSM8493163/suppl/GSM8493163_contra_norm_counts.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276202",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE276202_family.soft"
+    },
+    {
+      "accession": "GSE279665",
+      "title": [
+        "Transcriptome analysis of the course of ischemic stroke from acute to chronic phase in mice"
+      ],
+      "status": [
+        "Public on Feb 20 2026"
+      ],
+      "pubmed_ids": [
+        "41223896"
+      ],
+      "design": [
+        "B6.129S4-Pdgfratm11(EGFP)Sor/J mouse brain were dissociated enzymatically, and then the cell suspensions were isolated by cell sorting (FACS) according to absence of Sytox signal. The sorted cells were analyzed using single cell RNA sequencing."
+      ],
+      "n_deposited_sample_records": 6,
+      "decision": "exclude_unresolved_group_mapping_and_scope",
+      "reason": "Six scRNA libraries titled brain_1 through brain_6; GEO does not map them to conditions. Linked study concerns control/Sham/day3/day14, without 24h. Cannot infer group n from total six libraries.",
+      "samples": [
+        {
+          "accession": "GSM8577691",
+          "title": "brain_1",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577691/suppl/GSM8577691_brain_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577692",
+          "title": "brain_2",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577692/suppl/GSM8577692_brain_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577693",
+          "title": "brain_3",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577693/suppl/GSM8577693_brain_3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577694",
+          "title": "brain_4",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577694/suppl/GSM8577694_brain_4.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577695",
+          "title": "brain_5",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577695/suppl/GSM8577695_brain_5.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577696",
+          "title": "brain_6",
+          "characteristics": [
+            "tissue: Brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577696/suppl/GSM8577696_brain_6.tar.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279665",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE279665_family.soft"
+    },
+    {
+      "accession": "GSE279666",
+      "title": [
+        "Transcriptome analysis of the course of ischemic stroke from acute to chronic phase in mice [2]"
+      ],
+      "status": [
+        "Public on Feb 20 2026"
+      ],
+      "pubmed_ids": [
+        "41223896"
+      ],
+      "design": [
+        "Mouse cerebral infarcts were produced in a model of distal middle cerebral artery occlusion (dMCAO). The mice were divided into four groups: 3 days post-stroke, 14 days post-stroke, the control group, and the sham surgery group. Each brains brain tissue is mechanically dissociated, and cell membranes are lysed using enzymatic treatment and detergents to isolate and purify the nuclei. After confirming the quality of the nuclei, a library is prepared, and single nucleus RNA sequencing is performed."
+      ],
+      "n_deposited_sample_records": 4,
+      "decision": "exclude_no_replication",
+      "reason": "One snRNA library each for Healthy, ShamOpe, CI_Day3, CI_Day14.",
+      "samples": [
+        {
+          "accession": "GSM8577697",
+          "title": "Healthy",
+          "characteristics": [
+            "tissue: brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J",
+            "treatment: none"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577697/suppl/GSM8577697_Healthy.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577698",
+          "title": "ShamOpe",
+          "characteristics": [
+            "tissue: brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J",
+            "treatment: sham"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577698/suppl/GSM8577698_ShamOpe.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577699",
+          "title": "CI_Day3",
+          "characteristics": [
+            "tissue: brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J",
+            "treatment: ischemic stroke"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577699/suppl/GSM8577699_CI_Day3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM8577700",
+          "title": "CI_Day14",
+          "characteristics": [
+            "tissue: brain",
+            "strain: B6.129S4-Pdgfratm11(EGFP)Sor/J",
+            "treatment: ischemic stroke"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8577nnn/GSM8577700/suppl/GSM8577700_CI_Day14.tar.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279666",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE279666_family.soft"
+    },
+    {
+      "accession": "GSE289791",
+      "title": [
+        "Inhibition of microglial SLC2A5 attenuates brain injury following acute ischemic stroke [scRNA-Seq]"
+      ],
+      "status": [
+        "Public on Nov 08 2025"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "(1)brain cortex were isolated for scRNA-seq from  P35-40 widetype and Slc2a5 knockout mice. (2) Brain samples were harvested from widetype and Slc2a5 knockout mice with 24 hours after tMCAO, followed by library preparation using standard 10x Genomics workflows and snRNAseq (NovaSeq 6000, Illumina). Left and right hemispheres were sequenced separately. Hence, we obtained datasets from the contralateral and ipsilateral to ischemic lesion.(3) brain microglia was isolated by FACS from P35-40 widetype and Slc2a5 knockout mice, and culture them under oxygen-glucose deprivation(OGD) condition with or with 24 hours recovery.The library for sequencing was prepared following the protocol for SMARTer Stranded Total RNA-Seq Kit v2."
+      ],
+      "n_deposited_sample_records": 6,
+      "decision": "exclude_no_replication",
+      "reason": "One WT cortex, one WT ipsi and one WT contra library plus KO counterparts; 24h but no replicated sham comparison.",
+      "samples": [
+        {
+          "accession": "GSM8798781",
+          "title": "Wild type, cortex",
+          "characteristics": [
+            "tissue: brain,cortex",
+            "genotype: Wild Type",
+            "age: P35-P40",
+            "Sex: Male"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8798782",
+          "title": "Slc2a5 KO, cortex",
+          "characteristics": [
+            "tissue: brain,cortex",
+            "genotype: Slc2a5-/-",
+            "age: P35-P40",
+            "Sex: Male"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8798783",
+          "title": "Wild type, hemispheres ipsilateral to infarction",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: Wild Type",
+            "age: P60",
+            "Sex: Male",
+            "treatment: tMCAO for 1 hours with 24hours reperfusion"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8798784",
+          "title": "Wild type, hemispheres contralateral to infarction",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: Wild Type",
+            "age: P60",
+            "Sex: Male",
+            "treatment: tMCAO for 1 hours with 24hours reperfusion"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8798785",
+          "title": "Slc2a5 KO, hemispheres ipsilateral to infarction",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: Slc2a5-/-",
+            "age: P60",
+            "Sex: Male",
+            "treatment: tMCAO for 1 hours with 24hours reperfusion"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM8798786",
+          "title": "Slc2a5 KO, hemispheres contralateral to infarction",
+          "characteristics": [
+            "tissue: brain",
+            "genotype: Slc2a5-/-",
+            "age: P60",
+            "Sex: Male",
+            "treatment: tMCAO for 1 hours with 24hours reperfusion"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289791",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE289791_family.soft"
+    },
+    {
+      "accession": "GSE290194",
+      "title": [
+        "Repair-Associated Macrophages Increase after Early-phase Microglia Attenuation to Promote Ischemic Stroke Recovery [scRNA-Seq]"
+      ],
+      "status": [
+        "Public on Feb 21 2025"
+      ],
+      "pubmed_ids": [
+        "40164598"
+      ],
+      "design": [
+        "Single-cell RNA profiling of blood immune cells,brain CD45high immune cells or whole brain cells in MCAO mice at 5 and 14 dpi."
+      ],
+      "n_deposited_sample_records": 16,
+      "decision": "exclude_no_sham_and_target_sampling",
+      "reason": "D5/D14 PLX5622/aging study mostly immune/blood; whole brain PLX5622 D14 two libraries without matched Sham.",
+      "samples": [
+        {
+          "accession": "GSM8808066",
+          "title": "Brain, CD45high, PLX5622, 5 dpi, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808066/suppl/GSM8808066_plx_5D_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808066/suppl/GSM8808066_plx_5D_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808066/suppl/GSM8808066_plx_5D_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808067",
+          "title": "Brain, CD45high, PLX5622, 5 dpi, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808067/suppl/GSM8808067_plx_5D_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808067/suppl/GSM8808067_plx_5D_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808067/suppl/GSM8808067_plx_5D_2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808068",
+          "title": "Brain, CD45high, PLX5622, 14 dpi, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808068/suppl/GSM8808068_plx14D_CD451_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808068/suppl/GSM8808068_plx14D_CD451_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808068/suppl/GSM8808068_plx14D_CD451_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808069",
+          "title": "Brain, CD45high, PLX5622, 14 dpi, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808069/suppl/GSM8808069_plx14D_CD452_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808069/suppl/GSM8808069_plx14D_CD452_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808069/suppl/GSM8808069_plx14D_CD452_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808070",
+          "title": "Brain, Brain cells, PLX5622, 14 dpi, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808070/suppl/GSM8808070_plx14d_w1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808070/suppl/GSM8808070_plx14d_w1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808070/suppl/GSM8808070_plx14d_w1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808071",
+          "title": "Brain, Brain cells, PLX5622, 14 dpi, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808071/suppl/GSM8808071_plx14D_W2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808071/suppl/GSM8808071_plx14D_W2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808071/suppl/GSM8808071_plx14D_W2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808072",
+          "title": "Brain, CD45high, Old, 14 dpi, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 14 dpi",
+            "age: 20 months old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808072/suppl/GSM8808072_MCAO_14D_O2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808072/suppl/GSM8808072_MCAO_14D_O2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808072/suppl/GSM8808072_MCAO_14D_O2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808073",
+          "title": "Brain, CD45high, Old, 14 dpi, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 14 dpi",
+            "age: 20 months old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808073/suppl/GSM8808073_MCAO_14D_O3_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808073/suppl/GSM8808073_MCAO_14D_O3_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808073/suppl/GSM8808073_MCAO_14D_O3_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808074",
+          "title": "Blood, Immune cells, Control, 5 dpi, rep1",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808074/suppl/GSM8808074_MCAO_5D_BL1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808074/suppl/GSM8808074_MCAO_5D_BL1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808074/suppl/GSM8808074_MCAO_5D_BL1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808075",
+          "title": "Blood, Immune cells, Control, 5 dpi, rep2",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808075/suppl/GSM8808075_MCAO_5D_BL2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808075/suppl/GSM8808075_MCAO_5D_BL2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808075/suppl/GSM8808075_MCAO_5D_BL2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808076",
+          "title": "Blood, Immune cells, PLX5622, 5 dpi, rep1",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808076/suppl/GSM8808076_Plx_5D_PB1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808076/suppl/GSM8808076_Plx_5D_PB1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808076/suppl/GSM8808076_Plx_5D_PB1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808077",
+          "title": "Blood, Immune cells, PLX5622, 5 dpi, rep2",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 5 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808077/suppl/GSM8808077_Plx_5D_PB2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808077/suppl/GSM8808077_Plx_5D_PB2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808077/suppl/GSM8808077_Plx_5D_PB2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808078",
+          "title": "Blood, Immune cells, Control, 14 dpi, rep1",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808078/suppl/GSM8808078_Bld14d_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808078/suppl/GSM8808078_Bld14d_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808078/suppl/GSM8808078_Bld14d_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808079",
+          "title": "Blood, Immune cells, Control, 14 dpi, rep2",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: Control",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808079/suppl/GSM8808079_Bld14d_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808079/suppl/GSM8808079_Bld14d_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808079/suppl/GSM8808079_Bld14d_2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808080",
+          "title": "Blood, Immune cells, PLX5622, 14 dpi, rep1",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808080/suppl/GSM8808080_plx_14d_BL1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808080/suppl/GSM8808080_plx_14d_BL1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808080/suppl/GSM8808080_plx_14d_BL1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8808081",
+          "title": "Blood, Immune cells, PLX5622, 14 dpi, rep2",
+          "characteristics": [
+            "tissue: Blood",
+            "genotype: WT",
+            "treatment: PLX5622",
+            "time point: 14 dpi",
+            "age: 8-12 weeks old"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808081/suppl/GSM8808081_plx_14d_BL2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808081/suppl/GSM8808081_plx_14d_BL2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8808nnn/GSM8808081/suppl/GSM8808081_plx_14d_BL2_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290194",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE290194_family.soft"
+    },
+    {
+      "accession": "GSE295882",
+      "title": [
+        "Glycogen stress granules cause astrocytic mitochondrial dysfunction to aggravate ischemic damage and delay recovery after stroke"
+      ],
+      "status": [
+        "Public on May 10 2025"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "Freshly dissociated single-cell suspensions were loaded to 10X Genome GenCode Single-cell instrument to generate GEMs (Gel Bead-In-EMlusion). ScRNA-seq libraries were subsequently prepared following the manufacturer’s protocol of Chromium Next GEM Single Cell 3’ Regent Kits v3.1. Libraries were then sequenced using the Novaseq 6000 platform with paired-end sequencing (PE150) mode."
+      ],
+      "n_deposited_sample_records": 7,
+      "decision": "exclude_no_sham_contrast",
+      "reason": "Three ATAD3A flox controls and four astrocyte-specific KO samples; genotype contrast, no separately deposited Sham vs WT MCAO contrast.",
+      "samples": [
+        {
+          "accession": "GSM8960102",
+          "title": "ATAD3A fl/fl-1",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960102/suppl/GSM8960102_WT1-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960102/suppl/GSM8960102_WT1-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960102/suppl/GSM8960102_WT1-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960103",
+          "title": "ATAD3A fl/fl-2",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960103/suppl/GSM8960103_WT2-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960103/suppl/GSM8960103_WT2-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960103/suppl/GSM8960103_WT2-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960104",
+          "title": "ATAD3A fl/fl-3",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960104/suppl/GSM8960104_WT3-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960104/suppl/GSM8960104_WT3-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960104/suppl/GSM8960104_WT3-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960105",
+          "title": "ATAD3A Ast KO-1",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960105/suppl/GSM8960105_KO1-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960105/suppl/GSM8960105_KO1-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960105/suppl/GSM8960105_KO1-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960106",
+          "title": "ATAD3A Ast KO-2",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960106/suppl/GSM8960106_KO2-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960106/suppl/GSM8960106_KO2-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960106/suppl/GSM8960106_KO2-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960107",
+          "title": "ATAD3A Ast KO-3",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960107/suppl/GSM8960107_KO3-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960107/suppl/GSM8960107_KO3-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960107/suppl/GSM8960107_KO3-matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM8960108",
+          "title": "ATAD3A Ast KO-4",
+          "characteristics": [
+            "cell type: tumor cells"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960108/suppl/GSM8960108_KO4-barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960108/suppl/GSM8960108_KO4-features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8960nnn/GSM8960108/suppl/GSM8960108_KO4-matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295882",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE295882_family.soft"
+    },
+    {
+      "accession": "GSE300442",
+      "title": [
+        "Inhibition of proprotein convertase SKI-1 prevents blood vessel alteration following stroke"
+      ],
+      "status": [
+        "Public on Jul 01 2025"
+      ],
+      "pubmed_ids": [
+        "40858841"
+      ],
+      "design": [
+        "After middle cerebral artery occlusion (or surgical sham) mice were treated with PF-429242 or vehicle.  Hemispheres were separated and brain endothelial cell were isolated using tissue digestion, centrifuation, and FACS sorting.  FACS-sorted cells were analyzed using scRNA-seq."
+      ],
+      "n_deposited_sample_records": 5,
+      "decision": "exclude_target_cells_and_replication",
+      "reason": "FACS-sorted brain endothelial cells only; one library per hemisphere/treatment condition.",
+      "samples": [
+        {
+          "accession": "GSM9060720",
+          "title": "Mouse brain endothelial cells, ipsilateral hemisphere, vehicle treated sham",
+          "characteristics": [
+            "tissue: brain endothelium",
+            "cell type: endothelial cells",
+            "genotype: wild-type",
+            "treatment: vehicle",
+            "age: 8-12 weeks",
+            "Sex: male",
+            "strain: C57BL/6J",
+            "batch: 8/23/2022"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060720/suppl/GSM9060720_sham_ipsi_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060720/suppl/GSM9060720_sham_ipsi_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060720/suppl/GSM9060720_sham_ipsi_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9060721",
+          "title": "Mouse brain endothelial cells, contralateral hemisphere, vehicle treated MCAO",
+          "characteristics": [
+            "tissue: brain endothelium",
+            "cell type: endothelial cells",
+            "genotype: wild-type",
+            "treatment: vehicle",
+            "age: 8-12 weeks",
+            "Sex: male",
+            "strain: C57BL/6J",
+            "batch: 8/8/2022"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060721/suppl/GSM9060721_vehicle_contra_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060721/suppl/GSM9060721_vehicle_contra_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060721/suppl/GSM9060721_vehicle_contra_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9060722",
+          "title": "Mouse brain endothelial cells, ipsilateral hemisphere, vehicle treated MCAO",
+          "characteristics": [
+            "tissue: brain endothelium",
+            "cell type: endothelial cells",
+            "genotype: wild-type",
+            "treatment: vehicle",
+            "age: 8-12 weeks",
+            "Sex: male",
+            "strain: C57BL/6J",
+            "batch: 8/23/2022"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060722/suppl/GSM9060722_vehicle_ipsi_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060722/suppl/GSM9060722_vehicle_ipsi_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060722/suppl/GSM9060722_vehicle_ipsi_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9060723",
+          "title": "Mouse brain endothelial cells, contralateral hemisphere, PF-429242 treated MCAO",
+          "characteristics": [
+            "tissue: brain endothelium",
+            "cell type: endothelial cells",
+            "genotype: wild-type",
+            "treatment: PF-429242",
+            "age: 8-12 weeks",
+            "Sex: male",
+            "strain: C57BL/6J",
+            "batch: 8/19/2022"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060723/suppl/GSM9060723_treated_contra_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060723/suppl/GSM9060723_treated_contra_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060723/suppl/GSM9060723_treated_contra_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9060724",
+          "title": "Mouse brain endothelial cells, ipsilateral hemisphere, PF-429242 treated MCAO",
+          "characteristics": [
+            "tissue: brain endothelium",
+            "cell type: endothelial cells",
+            "genotype: wild-type",
+            "treatment: PF-429242",
+            "age: 8-12 weeks",
+            "Sex: male",
+            "strain: C57BL/6J",
+            "batch: 8/19/2022"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060724/suppl/GSM9060724_treated_ipsi_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060724/suppl/GSM9060724_treated_ipsi_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9060nnn/GSM9060724/suppl/GSM9060724_treated_ipsi_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300442",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE300442_family.soft"
+    },
+    {
+      "accession": "GSE300564",
+      "title": [
+        "Blockade of VCAM1 or VLA4 preserves cerebrovasculature and prevents cognitive decline late after stroke"
+      ],
+      "status": [
+        "Public on Jun 25 2025"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "Single cell RNA sequencing of the infarct core and surrounding cortex from 10 month old male mice treated with isotype control, anti-VCAM1 or anti-VLA4 antibody using 10x genomics"
+      ],
+      "n_deposited_sample_records": 4,
+      "decision": "exclude_no_replication",
+      "reason": "One library each Sham isotype, Stroke isotype, Stroke anti-VCAM1, Stroke anti-VLA4.",
+      "samples": [
+        {
+          "accession": "GSM9064600",
+          "title": "Sham-isotype control",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: Sham Surgery; isotype control antibody for 10 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064600/suppl/GSM9064600_AHA_1_long_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064600/suppl/GSM9064600_AHA_1_long_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064600/suppl/GSM9064600_AHA_1_long_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9064601",
+          "title": "Stroke-isotype control",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: dMCAO stroke surgery; isotype control antibody for 10 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064601/suppl/GSM9064601_AHA_2_long_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064601/suppl/GSM9064601_AHA_2_long_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064601/suppl/GSM9064601_AHA_2_long_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9064602",
+          "title": "Stroke-anti-VCAM1",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: dMCAOstroke surgery; anti-VCAM1 antibody for 10 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064602/suppl/GSM9064602_AHA_3_long_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064602/suppl/GSM9064602_AHA_3_long_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064602/suppl/GSM9064602_AHA_3_long_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9064603",
+          "title": "Stroke-anti-VLA4",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: dMCAO stroke surgery; anti-VLA4 antibody for 10 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064603/suppl/GSM9064603_AHA_4_long_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064603/suppl/GSM9064603_AHA_4_long_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9064nnn/GSM9064603/suppl/GSM9064603_AHA_4_long_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300564",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE300564_family.soft"
+    },
+    {
+      "accession": "GSE303092",
+      "title": [
+        "Brain-infiltrating ILC2s-derived alpha-calcitonin gene-related peptide promoting angiogenic sprouting accelerates post-stroke angiogenesis"
+      ],
+      "status": [
+        "Public on Jul 23 2025"
+      ],
+      "pubmed_ids": [
+        "40853291"
+      ],
+      "design": [
+        "Single-cell RNA profiling of brain CD45high immune cells (treated with IL2/IL2Ab complex or PBS) or whole brain cells in MCAO mice (treated with ILC2s or PBS) a 14 dpi."
+      ],
+      "n_deposited_sample_records": 8,
+      "decision": "exclude_no_sham",
+      "reason": "D14 treatment study; 2 whole brain MCAO PBS vs 2 ILC2-treated MCAO; no Sham library.",
+      "samples": [
+        {
+          "accession": "GSM9117763",
+          "title": "CD45high cells, MCAO,IL2-JES6-1_treated, 14D, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: CD45high immune cells",
+            "treatment: IL2/IL2 Ab injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117763/suppl/GSM9117763_IL2_JES6_1_treated_14D_CD45high_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117763/suppl/GSM9117763_IL2_JES6_1_treated_14D_CD45high_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117763/suppl/GSM9117763_IL2_JES6_1_treated_14D_CD45high_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117764",
+          "title": "CD45high cells, MCAO,IL2-JES6-1_treated, 14D, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: CD45high immune cells",
+            "treatment: IL2/IL2 Ab injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117764/suppl/GSM9117764_IL2_JES6_1_treated_14D_CD45high_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117764/suppl/GSM9117764_IL2_JES6_1_treated_14D_CD45high_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117764/suppl/GSM9117764_IL2_JES6_1_treated_14D_CD45high_2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117765",
+          "title": "CD45high cells, MCAO,PBS treated, 14D, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: CD45high immune cells",
+            "treatment: PBS injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117765/suppl/GSM9117765_PBS_treated_14D_CD45high_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117765/suppl/GSM9117765_PBS_treated_14D_CD45high_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117765/suppl/GSM9117765_PBS_treated_14D_CD45high_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117766",
+          "title": "CD45high cells, MCAO,PBS treated, 14D, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: CD45high immune cells",
+            "treatment: PBS injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117766/suppl/GSM9117766_PBS_treated_14D_CD45high_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117766/suppl/GSM9117766_PBS_treated_14D_CD45high_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117766/suppl/GSM9117766_PBS_treated_14D_CD45high_2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117767",
+          "title": "brain cells, MCAO,ILC2s_treated, 14D, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: Brain cells",
+            "treatment: ILC2s transfer"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117767/suppl/GSM9117767_ILC2s_treated_14D_brain_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117767/suppl/GSM9117767_ILC2s_treated_14D_brain_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117767/suppl/GSM9117767_ILC2s_treated_14D_brain_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117768",
+          "title": "brain cells, MCAO,ILC2s_treated, 14D, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: Brain cells",
+            "treatment: ILC2s transfer"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117768/suppl/GSM9117768_ILC2s_treated_14D_brain_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117768/suppl/GSM9117768_ILC2s_treated_14D_brain_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117768/suppl/GSM9117768_ILC2s_treated_14D_brain_2_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117769",
+          "title": "brain cells, MCAO,PBS_treated, 14D, rep1",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: Brain cells",
+            "treatment: PBS injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117769/suppl/GSM9117769_PBS_treated_14D_brain_1_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117769/suppl/GSM9117769_PBS_treated_14D_brain_1_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117769/suppl/GSM9117769_PBS_treated_14D_brain_1_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9117770",
+          "title": "brain cells, MCAO,PBS_treated, 14D, rep2",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: Brain cells",
+            "treatment: PBS injections"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117770/suppl/GSM9117770_PBS_treated_14D_brain_2_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117770/suppl/GSM9117770_PBS_treated_14D_brain_2_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9117nnn/GSM9117770/suppl/GSM9117770_PBS_treated_14D_brain_2_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303092",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE303092_family.soft"
+    },
+    {
+      "accession": "GSE310324",
+      "title": [
+        "Obesity supersizes the immune response to stroke"
+      ],
+      "status": [
+        "Public on Mar 26 2026"
+      ],
+      "pubmed_ids": [
+        "41857563"
+      ],
+      "design": [
+        "Single cell RNA sequencing of the infarct core and surrounding cortex or corresponding region in stroke or sham 24-week old male mice, respectively, fed a 6-week high fat diet or control diet. 10x genomics was used."
+      ],
+      "n_deposited_sample_records": 8,
+      "decision": "exclude_no_replication",
+      "reason": "Four brain cortex and four PBMC libraries for diet x surgery; one cortex library per Ctrl/HFD x Sham/Stroke condition.",
+      "samples": [
+        {
+          "accession": "GSM9294007",
+          "title": "PBMC Ctrl Sham",
+          "characteristics": [
+            "tissue: PBMC",
+            "strain: C57BL/6N",
+            "treatment: Sham Surgery; control diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294007/suppl/GSM9294007_01_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294007/suppl/GSM9294007_01_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294007/suppl/GSM9294007_01_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294008",
+          "title": "PBMC HFD Sham",
+          "characteristics": [
+            "tissue: PBMC",
+            "strain: C57BL/6N",
+            "treatment: Sham Surgery; High fat diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294008/suppl/GSM9294008_02_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294008/suppl/GSM9294008_02_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294008/suppl/GSM9294008_02_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294009",
+          "title": "PBMC Ctrl Stroke",
+          "characteristics": [
+            "tissue: PBMC",
+            "strain: C57BL/6N",
+            "treatment: dMCAO Surgery; control diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294009/suppl/GSM9294009_03_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294009/suppl/GSM9294009_03_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294009/suppl/GSM9294009_03_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294010",
+          "title": "PBMC HFD Stroke",
+          "characteristics": [
+            "tissue: PBMC",
+            "strain: C57BL/6N",
+            "treatment: dMCAO Surgery; High fat diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294010/suppl/GSM9294010_04_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294010/suppl/GSM9294010_04_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294010/suppl/GSM9294010_04_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294011",
+          "title": "Cortex Ctrl Sham",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: Sham Surgery; control diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294011/suppl/GSM9294011_05_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294011/suppl/GSM9294011_05_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294011/suppl/GSM9294011_05_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294012",
+          "title": "Cortex HFD Sham",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: Sham Surgery; High fat diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294012/suppl/GSM9294012_06_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294012/suppl/GSM9294012_06_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294012/suppl/GSM9294012_06_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294013",
+          "title": "Cortex Ctrl Stroke",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: dMCAO Surgery; control diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294013/suppl/GSM9294013_07_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294013/suppl/GSM9294013_07_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294013/suppl/GSM9294013_07_10x_ranger_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9294014",
+          "title": "Cortex HFD Stroke",
+          "characteristics": [
+            "tissue: sensory cortex; infarct core",
+            "strain: C57BL/6N",
+            "treatment: dMCAO Surgery; High fat diet for 6 weeks"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294014/suppl/GSM9294014_08_10x_ranger_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294014/suppl/GSM9294014_08_10x_ranger_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294014/suppl/GSM9294014_08_10x_ranger_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310324",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE310324_family.soft"
+    },
+    {
+      "accession": "GSE313837",
+      "title": [
+        "IL7R depletion mitigates neuroinflammation and ischemic stroke via AKT dephosphorylation dependent LCP1 suppression in mice"
+      ],
+      "status": [
+        "Public on Jul 29 2026"
+      ],
+      "pubmed_ids": [
+        "42447806"
+      ],
+      "design": [
+        "we performed RNA sequencing (RNA-seq) on RAW264.7 cells in the LCP1 knockdown group (siLCP1 cells) and scramble siRNA control group"
+      ],
+      "n_deposited_sample_records": 6,
+      "decision": "exclude_assay",
+      "reason": "RAW264.7 siLCP1 bulk RNA-seq; not brain single-cell disease vs Sham.",
+      "samples": [
+        {
+          "accession": "GSM9376327",
+          "title": "Control, replicate 1",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: Wide type"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9376328",
+          "title": "Control, replicate 2",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: Wide type"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9376329",
+          "title": "Control, replicate 3",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: Wide type"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9376330",
+          "title": "siLCP1, replicat1",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: LCP1 knockdown"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9376331",
+          "title": "siLCP1, replicat2",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: LCP1 knockdown"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9376332",
+          "title": "siLCP1, replicat3",
+          "characteristics": [
+            "cell line: Raw264.7",
+            "cell type: Monocyte/macrophage",
+            "genotype: LCP1 knockdown"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313837",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE313837_family.soft"
+    },
+    {
+      "accession": "GSE319237",
+      "title": [
+        "Transcriptomic profiling of mouse microglia after ischemic stroke"
+      ],
+      "status": [
+        "Public on Mar 11 2026"
+      ],
+      "pubmed_ids": [
+        "42129556"
+      ],
+      "design": [
+        "RNA-seq of microglia collected from sham-operated and post-ischemic day 1, 6, 14, and 28 mouse brains (wild-type); Igf1-Egfp transgenic mice on day 6 and day 14 (EGFP+ vs. EGFP– microglia); and Cx3cr1-CreER;Yy1flox/flox vs. Yy1flox/flox mice on day 6 (3 biological replicates each)."
+      ],
+      "n_deposited_sample_records": 15,
+      "decision": "exclude_assay",
+      "reason": "Sorted microglia bulk RNA-seq, not astrocyte/endothelial single-cell data.",
+      "samples": [
+        {
+          "accession": "GSM9514163",
+          "title": "RNA-seq of mouse microglia, sham surgery, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514164",
+          "title": "RNA-seq of mouse microglia, MCAO day 1, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514165",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514166",
+          "title": "RNA-seq of mouse microglia, MCAO day 14, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514167",
+          "title": "RNA-seq of mouse microglia, MCAO day 28, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514168",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Igf1-Egfp EGFP–",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Igf1-Egfp",
+            "treatment: MCAO (Igf1-EGFP negative)"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514169",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Igf1-Egfp EGFP+",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Igf1-Egfp",
+            "treatment: MCAO (Igf1-EGFP positive)"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514170",
+          "title": "RNA-seq of mouse microglia, MCAO day 14, Igf1-Egfp EGFP–",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Igf1-Egfp",
+            "treatment: MCAO (Igf1-EGFP negative)"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514171",
+          "title": "RNA-seq of mouse microglia, MCAO day 14, Igf1-Egfp EGFP+",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Igf1-Egfp",
+            "treatment: MCAO (Igf1-EGFP positive)"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514172",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Yy1flox/flox control replicate 1",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514173",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Yy1flox/flox control replicate 2",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514174",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Yy1flox/flox control replicate 3",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514175",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Cx3cr1-CreER;Yy1flox/flox replicate 1",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Cx3cr1-CreER;Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514176",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Cx3cr1-CreER;Yy1flox/flox replicate 2",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Cx3cr1-CreER;Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        },
+        {
+          "accession": "GSM9514177",
+          "title": "RNA-seq of mouse microglia, MCAO day 6, Cx3cr1-CreER;Yy1flox/flox replicate 3",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Cx3cr1-CreER;Yy1flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "NONE"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE319237",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE319237_family.soft"
+    },
+    {
+      "accession": "GSE319238",
+      "title": [
+        "Single-cell transcriptomic analysis of microglia and brain cells after ischemic stroke"
+      ],
+      "status": [
+        "Public on Mar 11 2026"
+      ],
+      "pubmed_ids": [
+        "42129556"
+      ],
+      "design": [
+        "Single-cell RNA-seq of FACS-sorted microglia from sham-operated, post-ischemic day 14 (Igf1-CreER;Ai14), day 28 (Zfp384flox/flox vs. Cx3cr1-CreER;Zfp384flox/flox; ASO-control vs. ASO-Zfp384), and day 56 (ASO-control vs. ASO-Zfp384) mouse brains; and total brain cells from sham-operated, post-ischemic day 14, and day 28 (ASO-control vs. ASO-Zfp384) mouse brains."
+      ],
+      "n_deposited_sample_records": 12,
+      "decision": "exclude_no_replication",
+      "reason": "Mainly sorted microglia; whole brain Sham and D14 WT one library each, no acute replicated comparison.",
+      "samples": [
+        {
+          "accession": "GSM9514178",
+          "title": "scRNA-seq of mouse microglia, sham surgery, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514178/suppl/GSM9514178_scRNA_Mouse_Microglia_Sham_WT_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514178/suppl/GSM9514178_scRNA_Mouse_Microglia_Sham_WT_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514178/suppl/GSM9514178_scRNA_Mouse_Microglia_Sham_WT_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514179",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 14, Igf1-CreER;Ai14",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Igf1-CreER; Ai14",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514179/suppl/GSM9514179_scRNA_Mouse_Microglia_MCAO_Day14_WT_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514179/suppl/GSM9514179_scRNA_Mouse_Microglia_MCAO_Day14_WT_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514179/suppl/GSM9514179_scRNA_Mouse_Microglia_MCAO_Day14_WT_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514180",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 28, Zfp384 flox/flox control",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Zfp384flox/flox",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514180/suppl/GSM9514180_scRNA_Mouse_Microglia_MCAO_Day28_Zfp384flox_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514180/suppl/GSM9514180_scRNA_Mouse_Microglia_MCAO_Day28_Zfp384flox_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514180/suppl/GSM9514180_scRNA_Mouse_Microglia_MCAO_Day28_Zfp384flox_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514181",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 28, Zfp384 cKO",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: Zfp384 cKO (DBD deletion) (Cx3cr1-CreER; Zfp384 flox/flox)",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514181/suppl/GSM9514181_scRNA_Mouse_Microglia_MCAO_Day28_Cx3cr1Cre_Zfp384KO_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514181/suppl/GSM9514181_scRNA_Mouse_Microglia_MCAO_Day28_Cx3cr1Cre_Zfp384KO_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514181/suppl/GSM9514181_scRNA_Mouse_Microglia_MCAO_Day28_Cx3cr1Cre_Zfp384KO_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514182",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 28, ASO control",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-control"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514182/suppl/GSM9514182_scRNA_Mouse_Microglia_MCAO_Day28_ASOcontrol_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514182/suppl/GSM9514182_scRNA_Mouse_Microglia_MCAO_Day28_ASOcontrol_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514182/suppl/GSM9514182_scRNA_Mouse_Microglia_MCAO_Day28_ASOcontrol_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514183",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 28, Zfp384 ASO",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-Zfp384"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514183/suppl/GSM9514183_scRNA_Mouse_Microglia_MCAO_Day28_ASOZfp384_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514183/suppl/GSM9514183_scRNA_Mouse_Microglia_MCAO_Day28_ASOZfp384_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514183/suppl/GSM9514183_scRNA_Mouse_Microglia_MCAO_Day28_ASOZfp384_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514184",
+          "title": "scRNA-seq of mouse brain cells, MCAO Day 28, ASO control",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-control"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514184/suppl/GSM9514184_scRNA_Mouse_BrainCells_MCAO_Day28_ASOcontrol_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514184/suppl/GSM9514184_scRNA_Mouse_BrainCells_MCAO_Day28_ASOcontrol_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514184/suppl/GSM9514184_scRNA_Mouse_BrainCells_MCAO_Day28_ASOcontrol_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514185",
+          "title": "scRNA-seq of mouse brain cells, MCAO Day 28, Zfp384 ASO",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-Zfp384"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514185/suppl/GSM9514185_scRNA_Mouse_BrainCells_MCAO_Day28_ASOZfp384_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514185/suppl/GSM9514185_scRNA_Mouse_BrainCells_MCAO_Day28_ASOZfp384_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514185/suppl/GSM9514185_scRNA_Mouse_BrainCells_MCAO_Day28_ASOZfp384_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514186",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 56, ASO control",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-control"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514186/suppl/GSM9514186_scRNA_Mouse_Microglia_MCAO_Day56_ASOcontrol_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514186/suppl/GSM9514186_scRNA_Mouse_Microglia_MCAO_Day56_ASOcontrol_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514186/suppl/GSM9514186_scRNA_Mouse_Microglia_MCAO_Day56_ASOcontrol_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514187",
+          "title": "scRNA-seq of mouse microglia, MCAO Day 56, Zfp384 ASO",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: microglia",
+            "genotype: wild-type",
+            "treatment: MCAO + ASO-Zfp384"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514187/suppl/GSM9514187_scRNA_Mouse_Microglia_MCAO_Day56_ASOZfp384_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514187/suppl/GSM9514187_scRNA_Mouse_Microglia_MCAO_Day56_ASOZfp384_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514187/suppl/GSM9514187_scRNA_Mouse_Microglia_MCAO_Day56_ASOZfp384_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514188",
+          "title": "scRNA-seq of mouse brain cells, sham surgery, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514188/suppl/GSM9514188_scRNA_Mouse_BrainCells_Sham_WT_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514188/suppl/GSM9514188_scRNA_Mouse_BrainCells_Sham_WT_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514188/suppl/GSM9514188_scRNA_Mouse_BrainCells_Sham_WT_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9514189",
+          "title": "scRNA-seq of mouse brain cells, MCAO Day 14, wild-type",
+          "characteristics": [
+            "tissue: brain",
+            "cell type: brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514189/suppl/GSM9514189_scRNA_Mouse_BrainCells_MCAO_Day14_WT_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514189/suppl/GSM9514189_scRNA_Mouse_BrainCells_MCAO_Day14_WT_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9514nnn/GSM9514189/suppl/GSM9514189_scRNA_Mouse_BrainCells_MCAO_Day14_WT_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE319238",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE319238_family.soft"
+    },
+    {
+      "accession": "GSE332910",
+      "title": [
+        "SnRNA-seq, snATAC-seq and Stereo-seq datasets of mouse striatum at different time points in MCAO/R"
+      ],
+      "status": [
+        "Public on Sep 09 2026"
+      ],
+      "pubmed_ids": [
+        "42693582"
+      ],
+      "design": [
+        "Multiome-seq: Single nuclei were extracted from unimmunized mice and immunized mice at 0 h, 24 h, 7 d and 14 d post-MCAO/R. Joint snRNA-, scATAC and Stereo-seq libraries were prepared using the BGI Genomics."
+      ],
+      "n_deposited_sample_records": 30,
+      "decision": "included_exploratory_acute_third_cohort",
+      "reason": "Table S1 reports three biological replicates and RNA libraries per Sham/24h condition; original matrices downloaded, QC complete and both target types adequate. Individual mouse/pool map absent; assay/platform/region differ.",
+      "samples": [
+        {
+          "accession": "GSM9755185",
+          "title": "Multiome, MCAO/R, 0h-1, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755185/suppl/GSM9755185_0h-1-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755186",
+          "title": "Multiome, MCAO/R, 0h-1, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755186/suppl/GSM9755186_snRNA-seq_0h_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755187",
+          "title": "Multiome, MCAO/R, 0h-2, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755187/suppl/GSM9755187_0h-2-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755188",
+          "title": "Multiome, MCAO/R, 0h-2, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755188/suppl/GSM9755188_snRNA-seq_0h_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755189",
+          "title": "Multiome, MCAO/R, 0h-3, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755189/suppl/GSM9755189_0h-3-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755190",
+          "title": "Multiome, MCAO/R, 0h-3, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755190/suppl/GSM9755190_snRNA-seq_0h_3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755191",
+          "title": "Multiome, MCAO/R, 24h-1, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755191/suppl/GSM9755191_24h-1-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755192",
+          "title": "Multiome, MCAO/R, 24h-1, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755192/suppl/GSM9755192_snRNA-seq_24h_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755193",
+          "title": "Multiome, MCAO/R, 24h-2, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755193/suppl/GSM9755193_24h-2-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755194",
+          "title": "Multiome, MCAO/R, 24h-2, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755194/suppl/GSM9755194_snRNA-seq_24h_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755195",
+          "title": "Multiome, MCAO/R, 24h-3, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755195/suppl/GSM9755195_24h-3-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755196",
+          "title": "Multiome, MCAO/R, 24h-3, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755196/suppl/GSM9755196_snRNA-seq_24h_3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755197",
+          "title": "Multiome, MCAO/R, 7d-1, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755197/suppl/GSM9755197_7d-1-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755198",
+          "title": "Multiome, MCAO/R, 7d-1, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755198/suppl/GSM9755198_snRNA-seq_7d_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755199",
+          "title": "Multiome, MCAO/R, 7d-2, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755199/suppl/GSM9755199_7d-2-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755200",
+          "title": "Multiome, MCAO/R, 7d-2, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755200/suppl/GSM9755200_snRNA-seq_7d_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755201",
+          "title": "Multiome, MCAO/R, 7d-3, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755201/suppl/GSM9755201_7d-3-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755202",
+          "title": "Multiome, MCAO/R, 7d-3, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755202/suppl/GSM9755202_snRNA-seq_7d_3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755203",
+          "title": "Multiome, MCAO/R, 14d-1, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755203/suppl/GSM9755203_14d-1-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755204",
+          "title": "Multiome, MCAO/R, 14d-1, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755204/suppl/GSM9755204_snRNA-seq_14d_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755205",
+          "title": "Multiome, MCAO/R, 14d-2, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755205/suppl/GSM9755205_14d-2-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755206",
+          "title": "Multiome, MCAO/R, 14d-2, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755206/suppl/GSM9755206_snRNA-seq_14d_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755207",
+          "title": "Multiome, MCAO/R, 14d-3, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755207/suppl/GSM9755207_14d-3-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755208",
+          "title": "Multiome, MCAO/R, 14d-3, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: MCAO/R"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755208/suppl/GSM9755208_snRNA-seq_14d_3.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755209",
+          "title": "Multiome, MCAO/R, Sham-1, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755209/suppl/GSM9755209_sham-1-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755210",
+          "title": "Multiome, MCAO/R, Sham-1, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755210/suppl/GSM9755210_snRNA-seq_sham_1.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755211",
+          "title": "Multiome, MCAO/R, Sham-2, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755211/suppl/GSM9755211_sham-2-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755212",
+          "title": "Multiome, MCAO/R, Sham-2, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755212/suppl/GSM9755212_snRNA-seq_sham_2.tar.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755213",
+          "title": "Multiome, MCAO/R, Sham-3, ATAC",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755213/suppl/GSM9755213_sham-3-ATAC.fragments.tsv.gz"
+          ]
+        },
+        {
+          "accession": "GSM9755214",
+          "title": "Multiome, MCAO/R, Sham-3, RNA",
+          "characteristics": [
+            "tissue: Brain",
+            "cell type: mixed brain cells",
+            "genotype: wild-type",
+            "treatment: Sham surgery"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755214/suppl/GSM9755214_snRNA-seq_sham_3.tar.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332910",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE332910_family.soft"
+    },
+    {
+      "accession": "GSE335511",
+      "title": [
+        "Single cell sequencing data supporting \"IL-4/C1q activated astrocyte-derived extracellular vesicles promote stroke infarct recovery by recruiting peripheral leukocytes\""
+      ],
+      "status": [
+        "Public on Jul 10 2026"
+      ],
+      "pubmed_ids": [],
+      "design": [
+        "Mice subjected to ischemic stroke received implantation of different reactive astrocyte derived extracellular vesicle-functionalized hydrogel microparticles into the infarct cavity at 5 days post-stroke. Ipsilateral brain hemispheres were harvested at day 14 after stroke and processed for single-cell RNA sequencing. Comparative transcriptomic analysis was performed to evaluate treatment-associated changes in cellular heterogeneity, immune cell recruitment, vascular remodeling, and tissue repair within the post-stroke microenvironment."
+      ],
+      "n_deposited_sample_records": 4,
+      "decision": "exclude_no_sham_and_later",
+      "reason": "D14 reactive-astrocyte EV hydrogel treatment groups, no Sham contrast and one library/group.",
+      "samples": [
+        {
+          "accession": "GSM9814812",
+          "title": "MAPS",
+          "characteristics": [
+            "tissue: ipsilateral brain hemisphere",
+            "genotype: Wild type",
+            "treatment: Stroke+MAPS"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814812/suppl/GSM9814812_MAPS_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814812/suppl/GSM9814812_MAPS_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814812/suppl/GSM9814812_MAPS_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9814813",
+          "title": "UT EV+MAPS",
+          "characteristics": [
+            "tissue: ipsilateral brain hemisphere",
+            "genotype: Wild type",
+            "treatment: Stroke+UT_EV-MAPS"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814813/suppl/GSM9814813_UT_EV+MAPS_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814813/suppl/GSM9814813_UT_EV+MAPS_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814813/suppl/GSM9814813_UT_EV+MAPS_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9814814",
+          "title": "IL-1a TNFa C1q EV+MAPS",
+          "characteristics": [
+            "tissue: ipsilateral brain hemisphere",
+            "genotype: Wild type",
+            "treatment: Stroke+IL-1a TNFa C1q EV+MAPS"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814814/suppl/GSM9814814_IL-1a_TNFa_C1q_EV+MAPS_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814814/suppl/GSM9814814_IL-1a_TNFa_C1q_EV+MAPS_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814814/suppl/GSM9814814_IL-1a_TNFa_C1q_EV+MAPS_matrix.mtx.gz"
+          ]
+        },
+        {
+          "accession": "GSM9814815",
+          "title": "IL-4 C1q EV+MAPS",
+          "characteristics": [
+            "tissue: ipsilateral brain hemisphere",
+            "genotype: Wild type",
+            "treatment: Stroke+IL-4 C1q EV+MAPS"
+          ],
+          "supplementary_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814815/suppl/GSM9814815_IL-4_C1q_EV+MAPS_barcodes.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814815/suppl/GSM9814815_IL-4_C1q_EV+MAPS_features.tsv.gz",
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9814nnn/GSM9814815/suppl/GSM9814815_IL-4_C1q_EV+MAPS_matrix.mtx.gz"
+          ]
+        }
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335511",
+      "metadata_local": "work\\repro_cohort_metadata\\GSE335511_family.soft"
+    }
+  ],
+  "inaccessible_accession": {
+    "accession": "GSE279462",
+    "status": "GEO FTP family SOFT HTTP 404; cited accession alone is not usable evidence of available data."
+  },
+  "original_candidates": "work/dataset_audit.json",
+  "methods_literature": [
+    {
+      "doi": "10.1038/s41467-022-30755-0",
+      "title": "Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data",
+      "primary_url": "https://www.nature.com/articles/s41467-022-30755-0",
+      "relevance": "7 methods x16 resources; dependence on resource/method and annotation robustness already established; not the same animal-level ischemia effect-transfer endpoint."
+    },
+    {
+      "doi": "10.1038/s41556-024-01469-w",
+      "title": "LIANA+ provides an all-in-one framework for cell-cell communication inference",
+      "primary_url": "https://www.nature.com/articles/s41556-024-01469-w",
+      "relevance": "Multisample differential context and conditional atlases; method-score families, factorisation, spatial proxies and random baseline benchmarking."
+    },
+    {
+      "doi": "10.1093/nargab/lqaf084",
+      "title": "Differential cellular communication inference framework for large-scale single-cell RNA-sequencing data",
+      "primary_url": "https://doi.org/10.1093/nargab/lqaf084",
+      "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12204404/",
+      "relevance": "scSeqCommDiff benchmark vs CellChat, scDiffCom, MultiNicheNet and LIANA+ using matched scRNA/spatial MI and MS; differential CCC benchmarking is not new."
+    },
+    {
+      "doi": "10.1186/s13059-026-04063-5",
+      "title": "Benchmarking tools for deciphering cellular crosstalk in spatially-resolved transcriptomics",
+      "primary_url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-026-04063-5",
+      "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174004/",
+      "relevance": "2026 benchmark explicitly evaluates cross-sample/section reproducibility (Jaccard), common vs native resource, nine spatial tools; no claim that cross-sample CCC reproducibility is previously unstudied."
+    }
+  ],
+  "additional_provenance_check": {
+    "dataset": "GSE332910",
+    "biosample_xml": "work/repro_cohort_metadata/GSE332910_biosample.xml",
+    "result": "Six corresponding BioSample records confirm WT and Sham/MCAO treatment, but do not contain animal identifiers, pool size, or sex. Independent animal n remains unresolved."
+  },
+  "analysis_completion_date": "2026-09-11",
+  "third_cohort_replication_update": {
+    "checked_date": "2026-09-11",
+    "dataset": "GSE332910",
+    "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx",
+    "source_locator": "Supplementary Table S1, Sheet1 B2:D4 (Sham and 24 h columns)",
+    "source_sha256": "c20ec5d550af876a0490b763cdf1ea5a315a15b46894588da4fe2c09fd6e92f7",
+    "author_reported_biological_replicates": {
+      "Sham": 3,
+      "24 h": 3
+    },
+    "reported_number_libraries": {
+      "Sham": 3,
+      "24 h": 3
+    },
+    "individual_mouse_id_or_pool_size_map": null,
+    "interpretation": "Author-reported biological replication is verified in Table S1; one mouse per library or independent pool membership is not individually mapped.",
+    "successful_access": "Public PMC Cloud Service; original metadata MD5 verified for both supplementary files.",
+    "retired_endpoint_attempts": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13542395",
+        "HTTP_status": 404
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC13542395",
+        "HTTP_status": 404
+      }
+    ],
+    "official_service_transition_documentation": "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+    "n_qc": 116308,
+    "n_qc_unassigned": 77582,
+    "qc_unassigned_fraction": 0.6670392406369295,
+    "all_assigned_cells_confirmed_qc_pass": true
+  },
+  "third_cohort_analysis": {
+    "dataset": "GSE332910",
+    "n_libraries": 6,
+    "n_verified_independent_animals": null,
+    "common_submitted_symbols_all_six": 28483,
+    "all_gene_covered_edges": 7582,
+    "eligible_05": 1417,
+    "eligible_10": 828,
+    "eligible_20": 368,
+    "formula": "sqrt(min constituent mean log1p(CP10k) ligand * min constituent mean log1p(CP10k) receptor); delta is equal-library MCAO mean minus Sham mean.",
+    "no_silent_missing_gene_imputation": true,
+    "cohort_p_values_computed": false,
+    "does_not_enter_original_200_label_null": true,
+    "resource_sha256": "42dd1fada22cf96f1a2156e6e78011fb5d2959fd344cc73e02c8b80e44ddd2f9",
+    "aggregation_checks": [
+      {
+        "sample": "GSM9755192",
+        "processed_nonzero_entries": 47662066,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 1295,
+        "n_target_endothelial": 249,
+        "all_class_summaries": true
+      },
+      {
+        "sample": "GSM9755194",
+        "processed_nonzero_entries": 35230182,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 1188,
+        "n_target_endothelial": 248,
+        "all_class_summaries": true
+      },
+      {
+        "sample": "GSM9755196",
+        "processed_nonzero_entries": 32074576,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 1002,
+        "n_target_endothelial": 122,
+        "all_class_summaries": true
+      },
+      {
+        "sample": "GSM9755210",
+        "processed_nonzero_entries": 30971985,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 1009,
+        "n_target_endothelial": 215,
+        "all_class_summaries": true
+      },
+      {
+        "sample": "GSM9755212",
+        "processed_nonzero_entries": 35096105,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 1259,
+        "n_target_endothelial": 203,
+        "all_class_summaries": true
+      },
+      {
+        "sample": "GSM9755214",
+        "processed_nonzero_entries": 13764855,
+        "matrix_gene_major_unique": true,
+        "all_assigned_counts_conserved": true,
+        "n_target_astrocytes": 677,
+        "n_target_endothelial": 75,
+        "all_class_summaries": true
+      }
+    ],
+    "comparisons": [
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "baseline_config": "primary",
+        "third_config": "primary",
+        "gate": "10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort",
+        "n_common_eligible_edges": 223,
+        "n_same_direction": 141,
+        "same_direction_fraction": 0.6322869955156951,
+        "n_nonzero_both": 223,
+        "spearman_rho": 0.5600693206393383,
+        "inference": "author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value"
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "baseline_config": "primary",
+        "third_config": "primary",
+        "gate": "10% constituent detection in >=2 libraries of either condition, separately for ligand and receptor, in each cohort",
+        "n_common_eligible_edges": 445,
+        "n_same_direction": 267,
+        "same_direction_fraction": 0.6,
+        "n_nonzero_both": 445,
+        "spearman_rho": 0.5470020355389837,
+        "inference": "author-reported n=3 biological replicates/group; mice per library unspecified; descriptive, no P value"
+      }
+    ],
+    "author_reported_biological_replicates_per_condition": 3,
+    "biological_replicate_source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx"
+  },
+  "third_liana_analysis": {
+    "status": "complete",
+    "third_dataset": "GSE332910",
+    "n_third_libraries": 6,
+    "n_verified_independent_third_animals": null,
+    "count_source": "raw",
+    "config": "primary",
+    "author_reported_biological_replicates_per_condition": 3,
+    "candidate_rule": "All selected libraries and all LIANA metrics finite; identical edge universe for all six metric families within each comparison.",
+    "pairwise_complete_library_counts": {
+      "GSE174574_vs_GSE332910": 12,
+      "GSE245386_vs_GSE332910": 11
+    },
+    "all_three_cohorts_complete_library_count": 17,
+    "all_three_cohorts_complete_candidates": 99,
+    "no_missing_LIANA_scores_imputed": true,
+    "inferential_pvalues_computed": false,
+    "tsv_float_parser": "pandas float_precision=round_trip for all saved numerical inputs; preserves persisted double-precision ties",
+    "does_not_enter_original_200_label_null": true,
+    "input_target_sha256": {
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319987__target.tsv.gz": "a481b524b572f595e8c0166dcbb36228b425bd471d67e4154b6244e602d9bc63",
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319988__target.tsv.gz": "43ff91130f5085db82c21da5cfe52eb1a69200e28ac6f961df38aa7027086f89",
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319989__target.tsv.gz": "33db41e3c8608830bb2497b4c9bddd65a4c218681ebd25ad8b6816f7be1bcd82",
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319990__target.tsv.gz": "96c0e4e89ab8c68dce6a48e52c752e1eb08ca5dd78bea1aced94d6c24d23310b",
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319991__target.tsv.gz": "5370b675d2450ec7229dfb12406b70e2b7e6d58c64af3fd444c56d33c62a0f02",
+      "repro_liana_rank_diagnostic\\raw\\GSE174574\\primary__GSM5319992__target.tsv.gz": "0306d28a396a4e7a7ebfde392f45685bfc2ff1dc1bc9b8c66376af46621f8ea1",
+      "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841720__target.tsv.gz": "038a5fe1bd97895cfc5dad12f6a9e3b15007624f957125f2085922422d6789bc",
+      "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841721__target.tsv.gz": "483fd2a3812ff16f309a91cffdaabf94b760bbadde36f7a199587f1ee082b8b2",
+      "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841722__target.tsv.gz": "cc12fb49a8463a4d941f9382bca6f00ccadb26b99133d3516e99f8d64b59f01d",
+      "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841723__target.tsv.gz": "d5db9627deb8f762cc24a70e9266426eec45dd493e5f2959e01668913b318aad",
+      "repro_liana_rank_diagnostic\\raw\\GSE245386\\primary__GSM7841724__target.tsv.gz": "46de48feced4657be948437d0479a1d2126e47c75e307f3aa92a99e190a4eff0",
+      "repro_third_liana\\primary__GSM9755192__target.tsv.gz": "5cb11b158f283ff1cb0adb5492750e4dfbc2e5f8763c64fb62f0818063b35d2b",
+      "repro_third_liana\\primary__GSM9755194__target.tsv.gz": "b5ae7afc44e5780ed2e8e306c0aea4e3553a7cf82c90fc76f12f26d747806cf2",
+      "repro_third_liana\\primary__GSM9755196__target.tsv.gz": "dd6aa9f60e7f9237ba98e544b5cb1fb661785cf43bd37702c845172fda23de81",
+      "repro_third_liana\\primary__GSM9755210__target.tsv.gz": "aee9e6bb9c89f41ebec4189cc29a2c5cbb70cddf480b2ca76b4d904492a028b9",
+      "repro_third_liana\\primary__GSM9755212__target.tsv.gz": "debe43bb677a261416aa5d07353886501aa87d79c1556c7c0117ff41513c0f48",
+      "repro_third_liana\\primary__GSM9755214__target.tsv.gz": "d2acdefcf8b5b6d9ed69b0147b686db6b76ab290213e007dd0c703d89f6be106"
+    },
+    "script_sha256": "63440eaf8a60e271420673393e59b2550d65b867a03c0cdca09e0384a55709d6",
+    "summary": [
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "custom_score",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 53,
+        "same_direction_all_fraction": 0.5353535353535354,
+        "same_direction_nonzero_fraction": 0.5353535353535354,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5507949956400472,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "lr_means",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 66,
+        "same_direction_all_fraction": 0.6666666666666666,
+        "same_direction_nonzero_fraction": 0.6666666666666666,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.7195653652774598,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "expr_prod",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 55,
+        "same_direction_all_fraction": 0.5555555555555556,
+        "same_direction_nonzero_fraction": 0.5555555555555556,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.514356922429947,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "lrscore",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 64,
+        "same_direction_all_fraction": 0.6464646464646465,
+        "same_direction_nonzero_fraction": 0.6464646464646465,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5693232487523113,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "native_magnitude_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 96,
+        "n_same_direction": 48,
+        "same_direction_all_fraction": 0.48484848484848486,
+        "same_direction_nonzero_fraction": 0.5,
+        "n_zero_baseline": 3,
+        "n_zero_third": 0,
+        "spearman_rho": 0.21863732785830461,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "diagnostic_unique_column_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 93,
+        "n_same_direction": 52,
+        "same_direction_all_fraction": 0.5252525252525253,
+        "same_direction_nonzero_fraction": 0.5591397849462365,
+        "n_zero_baseline": 6,
+        "n_zero_third": 0,
+        "spearman_rho": 0.45986708705405394,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "custom_score",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 53,
+        "same_direction_all_fraction": 0.5353535353535354,
+        "same_direction_nonzero_fraction": 0.5353535353535354,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5507949956400472,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "lr_means",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 66,
+        "same_direction_all_fraction": 0.6666666666666666,
+        "same_direction_nonzero_fraction": 0.6666666666666666,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.7195653652774598,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "expr_prod",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 55,
+        "same_direction_all_fraction": 0.5555555555555556,
+        "same_direction_nonzero_fraction": 0.5555555555555556,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.514356922429947,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "lrscore",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 64,
+        "same_direction_all_fraction": 0.6464646464646465,
+        "same_direction_nonzero_fraction": 0.6464646464646465,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5693232487523113,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "native_magnitude_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 96,
+        "n_same_direction": 48,
+        "same_direction_all_fraction": 0.48484848484848486,
+        "same_direction_nonzero_fraction": 0.5,
+        "n_zero_baseline": 3,
+        "n_zero_third": 0,
+        "spearman_rho": 0.21863732785830461,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE174574",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "diagnostic_unique_column_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 93,
+        "n_same_direction": 52,
+        "same_direction_all_fraction": 0.5252525252525253,
+        "same_direction_nonzero_fraction": 0.5591397849462365,
+        "n_zero_baseline": 6,
+        "n_zero_third": 0,
+        "spearman_rho": 0.45986708705405394,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "custom_score",
+        "n_candidates": 187,
+        "n_nonzero_both": 187,
+        "n_same_direction": 104,
+        "same_direction_all_fraction": 0.5561497326203209,
+        "same_direction_nonzero_fraction": 0.5561497326203209,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5126120124716241,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "lr_means",
+        "n_candidates": 187,
+        "n_nonzero_both": 187,
+        "n_same_direction": 116,
+        "same_direction_all_fraction": 0.6203208556149733,
+        "same_direction_nonzero_fraction": 0.6203208556149733,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.608567910342309,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "expr_prod",
+        "n_candidates": 187,
+        "n_nonzero_both": 187,
+        "n_same_direction": 107,
+        "same_direction_all_fraction": 0.5721925133689839,
+        "same_direction_nonzero_fraction": 0.5721925133689839,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.4401496007648871,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "lrscore",
+        "n_candidates": 187,
+        "n_nonzero_both": 187,
+        "n_same_direction": 106,
+        "same_direction_all_fraction": 0.5668449197860963,
+        "same_direction_nonzero_fraction": 0.5668449197860963,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.4974317189590341,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "native_magnitude_priority",
+        "n_candidates": 187,
+        "n_nonzero_both": 187,
+        "n_same_direction": 92,
+        "same_direction_all_fraction": 0.4919786096256685,
+        "same_direction_nonzero_fraction": 0.4919786096256685,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.16338818572369737,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "pairwise_complete",
+        "config": "primary",
+        "metric": "diagnostic_unique_column_priority",
+        "n_candidates": 187,
+        "n_nonzero_both": 185,
+        "n_same_direction": 91,
+        "same_direction_all_fraction": 0.48663101604278075,
+        "same_direction_nonzero_fraction": 0.4918918918918919,
+        "n_zero_baseline": 0,
+        "n_zero_third": 2,
+        "spearman_rho": 0.28407183299103267,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "custom_score",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 58,
+        "same_direction_all_fraction": 0.5858585858585859,
+        "same_direction_nonzero_fraction": 0.5858585858585859,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5761012745904427,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "lr_means",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 64,
+        "same_direction_all_fraction": 0.6464646464646465,
+        "same_direction_nonzero_fraction": 0.6464646464646465,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.6592186717295716,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "expr_prod",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 60,
+        "same_direction_all_fraction": 0.6060606060606061,
+        "same_direction_nonzero_fraction": 0.6060606060606061,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5119697709942547,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "lrscore",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 59,
+        "same_direction_all_fraction": 0.5959595959595959,
+        "same_direction_nonzero_fraction": 0.5959595959595959,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.5735162245901334,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "native_magnitude_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 48,
+        "same_direction_all_fraction": 0.48484848484848486,
+        "same_direction_nonzero_fraction": 0.48484848484848486,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.2872312135511042,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      },
+      {
+        "baseline_dataset": "GSE245386",
+        "third_dataset": "GSE332910",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "metric": "diagnostic_unique_column_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 48,
+        "same_direction_all_fraction": 0.48484848484848486,
+        "same_direction_nonzero_fraction": 0.48484848484848486,
+        "n_zero_baseline": 0,
+        "n_zero_third": 0,
+        "spearman_rho": 0.392488512606757,
+        "status": "complete",
+        "inferential_pvalues_computed": false
+      }
+    ]
+  },
+  "original_pair_on_same_99": {
+    "status": "complete",
+    "input_library_scores_sha256": "23381f2cb78984ae5dfb128f961832911fb9912b8a726bdc361e43367824010f",
+    "same_preexisting_17_library_candidate_universe": true,
+    "n_candidates": 99,
+    "old_summary_and_input_scores_not_modified": true,
+    "tsv_float_parser": "round_trip",
+    "no_new_inferential_pvalues": true,
+    "script_sha256": "8f47b41d629be77b28ed9a1e451f9961e641431f3fb02af3805e569b598c0e4f",
+    "comparisons": [
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "custom_score",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 80,
+        "same_direction_all_fraction": 0.8080808080808081,
+        "same_direction_nonzero_fraction": 0.8080808080808081,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.7667765415988966,
+        "inferential_pvalues_computed": false
+      },
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "lr_means",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 77,
+        "same_direction_all_fraction": 0.7777777777777778,
+        "same_direction_nonzero_fraction": 0.7777777777777778,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.7817055145671896,
+        "inferential_pvalues_computed": false
+      },
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "expr_prod",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 80,
+        "same_direction_all_fraction": 0.8080808080808081,
+        "same_direction_nonzero_fraction": 0.8080808080808081,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.7403199772416651,
+        "inferential_pvalues_computed": false
+      },
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "lrscore",
+        "n_candidates": 99,
+        "n_nonzero_both": 99,
+        "n_same_direction": 78,
+        "same_direction_all_fraction": 0.7878787878787878,
+        "same_direction_nonzero_fraction": 0.7878787878787878,
+        "n_zero_discovery": 0,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.7542099827457188,
+        "inferential_pvalues_computed": false
+      },
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "native_magnitude_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 96,
+        "n_same_direction": 65,
+        "same_direction_all_fraction": 0.6565656565656566,
+        "same_direction_nonzero_fraction": 0.6770833333333334,
+        "n_zero_discovery": 3,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.3500064936537423,
+        "inferential_pvalues_computed": false
+      },
+      {
+        "discovery_dataset": "GSE174574",
+        "validation_dataset": "GSE245386",
+        "universe": "all_three_cohorts_complete",
+        "config": "primary",
+        "count_source": "raw",
+        "metric": "diagnostic_unique_column_priority",
+        "n_candidates": 99,
+        "n_nonzero_both": 93,
+        "n_same_direction": 70,
+        "same_direction_all_fraction": 0.7070707070707071,
+        "same_direction_nonzero_fraction": 0.7526881720430108,
+        "n_zero_discovery": 6,
+        "n_zero_validation": 0,
+        "spearman_rho": 0.5714506640599474,
+        "inferential_pvalues_computed": false
+      }
+    ]
+  }
+}

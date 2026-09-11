@@ -1,0 +1,13 @@
+config	dataset	metric	n_candidates	n_zero_disease_effect	n_priority_zero_in_all_animals	n_zero_effect_with_all_animals_at_priority_zero
+primary	GSE174574	native_full_network_priority	187	9	9	9
+primary	GSE245386	native_full_network_priority	187	2	2	2
+primary	GSE174574	unique_full_network_priority	187	18	18	18
+primary	GSE245386	unique_full_network_priority	187	3	3	3
+primary	GSE174574	unique_fixed_global_priority	187	50	50	50
+primary	GSE245386	unique_fixed_global_priority	187	46	46	46
+reference_singlet	GSE174574	native_full_network_priority	174	8	8	8
+reference_singlet	GSE245386	native_full_network_priority	174	1	1	1
+reference_singlet	GSE174574	unique_full_network_priority	174	15	15	15
+reference_singlet	GSE245386	unique_full_network_priority	174	2	2	2
+reference_singlet	GSE174574	unique_fixed_global_priority	174	48	48	48
+reference_singlet	GSE245386	unique_fixed_global_priority	174	39	39	39

@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE174574",
+  "config": "singlet",
+  "cell_type": "Astrocyte",
+  "n_samples": 6,
+  "samples_by_condition": {
+    "Sham": 3,
+    "MCAO": 3
+  },
+  "tested_genes": 10488,
+  "fdr05": 1215,
+  "fdr05_abslog2fc05": 960,
+  "min_cells": 335,
+  "n_cpus": 1,
+  "software": "PyDESeq2",
+  "replication_level": "sample-level"
+}

@@ -1,0 +1,5 @@
+dataset	sample	condition	config	cell_type	n_cells	total_estimated_counts
+GSE245386	GSM7841723	MCAO	primary	Astrocyte	288	1954311.280797568
+GSE245386	GSM7841723	MCAO	primary	Endothelial	1996	19329058.002896387
+GSE245386	GSM7841723	MCAO	reference_singlet	Astrocyte	179	1599403.3341677135
+GSE245386	GSM7841723	MCAO	reference_singlet	Endothelial	1837	18840659.55667138

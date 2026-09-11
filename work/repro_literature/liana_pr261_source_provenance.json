@@ -1,0 +1,34 @@
+{
+  "pr_url": "https://github.com/scverse/liana/pull/261",
+  "pr_title": "Skill; Standardize props; versioning",
+  "merged": true,
+  "merged_at": "2026-09-09T07:06:26Z",
+  "merge_commit_sha": "d4211373692e7b9c10210488ccb1efe06452b097",
+  "commit_html_url": "https://github.com/scverse/liana/commit/d4211373692e7b9c10210488ccb1efe06452b097",
+  "sources": [
+    {
+      "filename": "liana_pr261_api.json",
+      "requested_url": "https://api.github.com/repos/scverse/liana/pulls/261",
+      "resolved_url": "https://api.github.com/repos/scverse/liana/pulls/261",
+      "bytes": 17975,
+      "sha256": "6153e21dc2d310b12fe8ab856aa38a91d8cb164625d0eb59d00de071989c4868",
+      "retrieved_utc": "2026-09-11T06:20:37.345440+00:00"
+    },
+    {
+      "filename": "liana_merge_d421137_api.json",
+      "requested_url": "https://api.github.com/repos/scverse/liana/commits/d421137",
+      "resolved_url": "https://api.github.com/repos/scverse/liana/commits/d421137",
+      "bytes": 151687,
+      "sha256": "2987e3fda368c54e02460dfcacfe81411f5ef73b464a2f9be179c4fa7068f9b2",
+      "retrieved_utc": "2026-09-11T06:20:38.334626+00:00"
+    },
+    {
+      "filename": "liana_merge_d421137_aggregate.py",
+      "requested_url": "https://raw.githubusercontent.com/scverse/liana/d4211373692e7b9c10210488ccb1efe06452b097/src/liana/_core/_pipe_utils/_aggregate.py",
+      "resolved_url": "https://raw.githubusercontent.com/scverse/liana/d4211373692e7b9c10210488ccb1efe06452b097/src/liana/_core/_pipe_utils/_aggregate.py",
+      "bytes": 6392,
+      "sha256": "484b2e61d7bb01d141116a6fdf8f8b7d269973396be3354d10702222770aa875",
+      "retrieved_utc": "2026-09-11T06:20:39.030062+00:00"
+    }
+  ]
+}

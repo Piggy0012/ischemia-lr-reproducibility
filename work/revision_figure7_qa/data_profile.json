@@ -1,0 +1,719 @@
+{
+  "purpose": "Describe sensitivity of cross-cohort signs to cell selection and scoring method",
+  "unit_AB": "one statistic per evaluated candidate set; candidates share ligand/receptor components",
+  "unit_C": "one fixed candidate / method-selection / cohort effect sign",
+  "A_rows": 4,
+  "B_rows": 12,
+  "C_rows": 60,
+  "A_candidate_denominators": [
+    {
+      "config": "primary",
+      "n_common": 323,
+      "n_direction_evaluable": 323
+    },
+    {
+      "config": "singlet",
+      "n_common": 313,
+      "n_direction_evaluable": 313
+    },
+    {
+      "config": "reference_singlet",
+      "n_common": 326,
+      "n_direction_evaluable": 326
+    },
+    {
+      "config": "reference_only",
+      "n_common": 313,
+      "n_direction_evaluable": 313
+    }
+  ],
+  "B_candidate_denominators": [
+    {
+      "config": "primary",
+      "metric": "lr_means",
+      "n_common": 187,
+      "n_direction_evaluable": 187
+    },
+    {
+      "config": "primary",
+      "metric": "expr_prod",
+      "n_common": 187,
+      "n_direction_evaluable": 187
+    },
+    {
+      "config": "primary",
+      "metric": "lr_logfc",
+      "n_common": 187,
+      "n_direction_evaluable": 187
+    },
+    {
+      "config": "primary",
+      "metric": "spec_weight",
+      "n_common": 187,
+      "n_direction_evaluable": 187
+    },
+    {
+      "config": "primary",
+      "metric": "lrscore",
+      "n_common": 187,
+      "n_direction_evaluable": 187
+    },
+    {
+      "config": "primary",
+      "metric": "magnitude_rank",
+      "n_common": 187,
+      "n_direction_evaluable": 177
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "n_common": 174,
+      "n_direction_evaluable": 174
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "n_common": 174,
+      "n_direction_evaluable": 174
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lr_logfc",
+      "n_common": 174,
+      "n_direction_evaluable": 174
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "spec_weight",
+      "n_common": 174,
+      "n_direction_evaluable": 174
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "n_common": 174,
+      "n_direction_evaluable": 174
+    },
+    {
+      "config": "reference_singlet",
+      "metric": "magnitude_rank",
+      "n_common": 174,
+      "n_direction_evaluable": 166
+    }
+  ],
+  "C_missing_by_method": {
+    "size": {
+      "custom": 40,
+      "liana": 20
+    },
+    "sum": {
+      "custom": 34,
+      "liana": 12
+    }
+  },
+  "chart_choice": "Aligned dot plots with explicit n/d; categorical sign-and-eligibility matrix",
+  "alternatives_considered": [
+    "Annotated numeric table",
+    "Separate sign matrices by cohort"
+  ],
+  "not_used": "No binomial CI, correlation significance, pooled-cell error bars, or mean bars",
+  "cross_cohort_n_animals": {
+    "discovery": {
+      "Sham": 3,
+      "MCAO": 3
+    },
+    "validation": {
+      "Sham": 3,
+      "MCAO": 2
+    }
+  },
+  "scipilot_A": {
+    "source": "<DataFrame>",
+    "n_rows": 4,
+    "n_cols": 10,
+    "columns": {
+      "config": {
+        "type": "text",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "expression_gate": {
+        "type": "continuous",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "mean": 0.1,
+        "median": 0.1,
+        "sd": 0.0,
+        "min": 0.1,
+        "max": 0.1,
+        "skewness": 0.0,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.1,
+        "outlier_hi": 0.1,
+        "needs_log_axis": false
+      },
+      "n_discovery_eligible": {
+        "type": "ordinal",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 4,
+        "categories": [
+          [
+            "362",
+            1
+          ],
+          [
+            "342",
+            1
+          ],
+          [
+            "367",
+            1
+          ],
+          [
+            "350",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_validation_eligible": {
+        "type": "ordinal",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 4,
+        "categories": [
+          [
+            "745",
+            1
+          ],
+          [
+            "714",
+            1
+          ],
+          [
+            "746",
+            1
+          ],
+          [
+            "740",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_common": {
+        "type": "ordinal",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 3,
+        "categories": [
+          [
+            "313",
+            2
+          ],
+          [
+            "323",
+            1
+          ],
+          [
+            "326",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 2,
+        "small_groups_flag": true
+      },
+      "n_direction_evaluable": {
+        "type": "ordinal",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 3,
+        "categories": [
+          [
+            "313",
+            2
+          ],
+          [
+            "323",
+            1
+          ],
+          [
+            "326",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 2,
+        "small_groups_flag": true
+      },
+      "n_zero_effect": {
+        "type": "boolean",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 1,
+        "categories": [
+          [
+            "0",
+            4
+          ]
+        ],
+        "min_group_n": 4,
+        "max_group_n": 4,
+        "small_groups_flag": true
+      },
+      "n_same_direction": {
+        "type": "ordinal",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "n_unique": 4,
+        "categories": [
+          [
+            "258",
+            1
+          ],
+          [
+            "250",
+            1
+          ],
+          [
+            "247",
+            1
+          ],
+          [
+            "235",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "same_direction_fraction": {
+        "type": "continuous",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "mean": 0.7764877720841814,
+        "median": 0.7781953781924381,
+        "sd": 0.025849378191709155,
+        "min": 0.7507987220447284,
+        "max": 0.7987616099071208,
+        "skewness": -0.022802784533687115,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.6917801315991243,
+        "outlier_hi": 0.8629030186774951,
+        "needs_log_axis": false
+      },
+      "spearman_rho": {
+        "type": "continuous",
+        "n_total": 4,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 4,
+        "mean": 0.7179629985046994,
+        "median": 0.7130209916012855,
+        "sd": 0.018978047705171783,
+        "min": 0.7030217132058506,
+        "max": 0.7427882976103759,
+        "skewness": 0.32458568834576135,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.6662060597885675,
+        "outlier_hi": 0.7647779303174176,
+        "needs_log_axis": false
+      }
+    },
+    "correlation": null,
+    "group_summary": {
+      "by": [
+        "config"
+      ],
+      "n_groups": 4,
+      "min_n_per_group": 1,
+      "max_n_per_group": 1,
+      "median_n_per_group": 1,
+      "small_groups_flag": true,
+      "tiny_groups_flag": true,
+      "per_group_counts": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "reference_only",
+          1
+        ],
+        [
+          "reference_singlet",
+          1
+        ],
+        [
+          "singlet",
+          1
+        ]
+      ]
+    },
+    "warnings": [
+      "列 'n_discovery_eligible' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_validation_eligible' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_common' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_direction_evaluable' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_zero_effect' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_same_direction' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。"
+    ],
+    "suggestions": [
+      "分类 vs 连续，小样本（每组 n<10）→ **箱线图/小提琴图 + stripplot 叠加原始点**；**避免**只画均值柱状图，会掩盖分布。",
+      "≥3 个连续变量 → 相关性热力图（['expression_gate', 'same_direction_fraction', 'spearman_rho']）或 pairplot 散点矩阵",
+      "分类维度组合数 = 576（n_discovery_eligible, n_validation_eligible, n_common, n_direction_evaluable, n_zero_effect, n_same_direction 全交叉），**一张图塞不下**——建议按某一维拆成多面板，或选择子集。"
+    ]
+  },
+  "scipilot_B": {
+    "source": "<DataFrame>",
+    "n_rows": 12,
+    "n_cols": 10,
+    "columns": {
+      "config": {
+        "type": "categorical",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 2,
+        "categories": [
+          [
+            "primary",
+            6
+          ],
+          [
+            "reference_singlet",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "metric": {
+        "type": "text",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "n_discovery_complete_edges": {
+        "type": "ordinal",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 2,
+        "categories": [
+          [
+            "217",
+            6
+          ],
+          [
+            "194",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "n_validation_complete_edges": {
+        "type": "ordinal",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 2,
+        "categories": [
+          [
+            "476",
+            6
+          ],
+          [
+            "524",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "n_common": {
+        "type": "ordinal",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 2,
+        "categories": [
+          [
+            "187",
+            6
+          ],
+          [
+            "174",
+            6
+          ]
+        ],
+        "min_group_n": 6,
+        "max_group_n": 6,
+        "small_groups_flag": true
+      },
+      "n_direction_evaluable": {
+        "type": "ordinal",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 4,
+        "categories": [
+          [
+            "187",
+            5
+          ],
+          [
+            "174",
+            5
+          ],
+          [
+            "177",
+            1
+          ],
+          [
+            "166",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 5,
+        "small_groups_flag": true
+      },
+      "n_zero_effect": {
+        "type": "ordinal",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "n_unique": 3,
+        "categories": [
+          [
+            "0",
+            10
+          ],
+          [
+            "10",
+            1
+          ],
+          [
+            "8",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 10,
+        "small_groups_flag": true
+      },
+      "n_same_direction": {
+        "type": "continuous",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "mean": 127.91666666666667,
+        "median": 127.5,
+        "sd": 16.494948721755197,
+        "min": 95.0,
+        "max": 151.0,
+        "skewness": -0.44858066863866064,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 1,
+        "outlier_lo": 99.625,
+        "outlier_hi": 160.625,
+        "needs_log_axis": false
+      },
+      "same_direction_fraction": {
+        "type": "continuous",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "mean": 0.7130543466309746,
+        "median": 0.7203577355707174,
+        "sd": 0.07327228639285524,
+        "min": 0.572289156626506,
+        "max": 0.8074866310160428,
+        "skewness": -0.5901550819627976,
+        "skew_label": "moderately skewed",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.5538754686827708,
+        "outlier_hi": 0.8979654557747864,
+        "needs_log_axis": false
+      },
+      "spearman_rho": {
+        "type": "continuous",
+        "n_total": 12,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 12,
+        "mean": 0.5456845264104585,
+        "median": 0.6088528817482066,
+        "sd": 0.201137022668851,
+        "min": 0.102453265290396,
+        "max": 0.733640413457083,
+        "skewness": -1.0140957889598983,
+        "skew_label": "highly skewed",
+        "n_outliers_iqr": 1,
+        "outlier_lo": 0.13886991197357512,
+        "outlier_hi": 1.0033614498438452,
+        "needs_log_axis": false
+      }
+    },
+    "correlation": {
+      "columns": [
+        "n_same_direction",
+        "same_direction_fraction",
+        "spearman_rho"
+      ],
+      "matrix": {
+        "n_same_direction": {
+          "n_same_direction": 1.0,
+          "same_direction_fraction": 0.963,
+          "spearman_rho": 0.918
+        },
+        "same_direction_fraction": {
+          "n_same_direction": 0.963,
+          "same_direction_fraction": 1.0,
+          "spearman_rho": 0.976
+        },
+        "spearman_rho": {
+          "n_same_direction": 0.918,
+          "same_direction_fraction": 0.976,
+          "spearman_rho": 1.0
+        }
+      },
+      "pairs_sorted": [
+        {
+          "a": "same_direction_fraction",
+          "b": "spearman_rho",
+          "r": 0.9755273749529351,
+          "magnitude": "very strong"
+        },
+        {
+          "a": "n_same_direction",
+          "b": "same_direction_fraction",
+          "r": 0.9625604942869574,
+          "magnitude": "very strong"
+        },
+        {
+          "a": "n_same_direction",
+          "b": "spearman_rho",
+          "r": 0.9180562527384206,
+          "magnitude": "very strong"
+        }
+      ]
+    },
+    "group_summary": {
+      "by": [
+        "config",
+        "metric"
+      ],
+      "n_groups": 12,
+      "min_n_per_group": 1,
+      "max_n_per_group": 1,
+      "median_n_per_group": 1,
+      "small_groups_flag": true,
+      "tiny_groups_flag": true,
+      "per_group_counts": [
+        [
+          "('primary', 'expr_prod')",
+          1
+        ],
+        [
+          "('primary', 'lr_logfc')",
+          1
+        ],
+        [
+          "('primary', 'lr_means')",
+          1
+        ],
+        [
+          "('primary', 'lrscore')",
+          1
+        ],
+        [
+          "('primary', 'magnitude_rank')",
+          1
+        ],
+        [
+          "('primary', 'spec_weight')",
+          1
+        ],
+        [
+          "('reference_singlet', 'expr_prod')",
+          1
+        ],
+        [
+          "('reference_singlet', 'lr_logfc')",
+          1
+        ],
+        [
+          "('reference_singlet', 'lr_means')",
+          1
+        ],
+        [
+          "('reference_singlet', 'lrscore')",
+          1
+        ],
+        [
+          "('reference_singlet', 'magnitude_rank')",
+          1
+        ],
+        [
+          "('reference_singlet', 'spec_weight')",
+          1
+        ]
+      ]
+    },
+    "warnings": [
+      "列 'config' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_discovery_complete_edges' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_validation_complete_edges' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_common' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_direction_evaluable' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。",
+      "列 'n_zero_effect' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。"
+    ],
+    "suggestions": [
+      "分类 vs 连续，小样本（每组 n<10）→ **箱线图/小提琴图 + stripplot 叠加原始点**；**避免**只画均值柱状图，会掩盖分布。",
+      "≥3 个连续变量 → 相关性热力图（['n_same_direction', 'same_direction_fraction', 'spearman_rho']）或 pairplot 散点矩阵",
+      "分类维度组合数 = 192（config, n_discovery_complete_edges, n_validation_complete_edges, n_common, n_direction_evaluable, n_zero_effect 全交叉），**一张图塞不下**——建议按某一维拆成多面板，或选择子集。",
+      "spearman_rho 高度偏态（skew=-1.01）→ 考虑对数变换或小提琴图代替均值柱图"
+    ]
+  }
+}

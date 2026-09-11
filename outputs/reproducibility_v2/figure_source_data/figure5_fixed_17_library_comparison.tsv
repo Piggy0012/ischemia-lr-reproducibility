@@ -1,0 +1,7 @@
+baseline_dataset	third_dataset	universe	config	metric	n_candidates	n_nonzero_both	n_same_direction	same_direction_all_fraction	same_direction_nonzero_fraction	n_zero_baseline	n_zero_third	spearman_rho	status	inferential_pvalues_computed	n_zero_in_either
+GSE174574	GSE332910	all_three_cohorts_complete	primary	custom_score	99	99	53	0.5353535353535354	0.5353535353535354	0	0	0.5507949956400472	complete	False	0
+GSE174574	GSE332910	all_three_cohorts_complete	primary	native_magnitude_priority	99	96	48	0.48484848484848486	0.5	3	0	0.21863732785830461	complete	False	3
+GSE174574	GSE332910	all_three_cohorts_complete	primary	diagnostic_unique_column_priority	99	93	52	0.5252525252525253	0.5591397849462365	6	0	0.45986708705405394	complete	False	6
+GSE245386	GSE332910	all_three_cohorts_complete	primary	custom_score	99	99	58	0.5858585858585859	0.5858585858585859	0	0	0.5761012745904427	complete	False	0
+GSE245386	GSE332910	all_three_cohorts_complete	primary	native_magnitude_priority	99	99	48	0.48484848484848486	0.48484848484848486	0	0	0.2872312135511042	complete	False	0
+GSE245386	GSE332910	all_three_cohorts_complete	primary	diagnostic_unique_column_priority	99	99	48	0.48484848484848486	0.48484848484848486	0	0	0.392488512606757	complete	False	0

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this versioned analysis archive and the original GEO studies."
+type: software
+title: "Expression-level concordance and implementation sensitivity of ligand–receptor priority rankings in mouse cerebral ischemia"
+version: 2.0.0
+authors:
+  - family-names: "Zhu"
+    given-names: "Sihuan"
+    affiliation: "Anhui University of Chinese Medicine"
+    orcid: "https://orcid.org/0009-0005-9705-0585"

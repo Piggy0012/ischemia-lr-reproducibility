@@ -1,0 +1,9 @@
+# Lossless output transport optimisation
+
+2026-09-11: after eight libraries completed and the ninth library's native R fit and all native output files completed, the old Python postprocessing process was stopped before the ninth final audit. No active R model was interrupted and no completed outputs were recompressed. The derived NPZ/gzip stage was resumed from its preserved binary sparse slots and native Matrix Market file.
+
+For subsequent outputs use standard NPZ ZIP-deflate level 1 and gzip level 1. The NPZ array members retain their original dtypes and full binary values and are read back with scipy.sparse.load_npz; data, indices, indptr and shape must match exactly. Existing native R Matrix Market files are preserved. For new fits, R saves the same native sparse slots and model metadata and exits; SciPy 1.18.1 writes the Matrix Market file (genes by cells, real general, 17 significant digits), then reads back the entire matrix for exact comparison. The lazily loaded fast Matrix Market backend is loaded before threadpoolctl and its actual thread setting is asserted to be one. The gzip header and dimensions are checked.
+
+This changes file transport and compression only. The official decontX model call, raw counts, labels, seed, prior and convergence rules do not change. R source snapshots already executing are not changed. Each new Python process freezes source bytes at start, and model-launch and postprocessing source hashes are recorded separately. Original and intermediate Python source snapshots have been preserved and matched to every earlier pre-model hash.
+
+R elapsed-time metadata after this optimisation includes fitting and native-output serialization; Matrix Market and compression happen after R exits. Do not directly interpret end-to-end R durations across transport versions as model-performance comparisons.

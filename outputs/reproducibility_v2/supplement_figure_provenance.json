@@ -1,0 +1,74 @@
+[
+  {
+    "source": "outputs/revised/figures/Figure6_independent_identity_review.png",
+    "output": "outputs/reproducibility_v2/figures/FigureS1_reference_identity.png",
+    "sha256": "69ae1f7a1e24d1ede95706ba3430bee6c7196e7d05df324b0678bf40db44505e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/Figure6_independent_identity_review.pdf",
+    "output": "outputs/reproducibility_v2/figures/FigureS1_reference_identity.pdf",
+    "sha256": "0bf7c2a9966908d6769af0ca6f5df598e7eb74e5204c7d7e5f54c0e3acbbe2b9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/Figure6_independent_identity_review.svg",
+    "output": "outputs/reproducibility_v2/figures/FigureS1_reference_identity.svg",
+    "sha256": "0ccfe64fbcd4c2ec020d27edbb53e4a1310a0351496d237c7ef89142725b65b7",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS3_doublet_score_distributions.png",
+    "output": "outputs/reproducibility_v2/figures/FigureS2_doublet_distributions.png",
+    "sha256": "c5a368c72b1619a172b750a426d9dcae731a5731adb2ec4754bde6d2e38ec93d",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS3_doublet_score_distributions.pdf",
+    "output": "outputs/reproducibility_v2/figures/FigureS2_doublet_distributions.pdf",
+    "sha256": "cd588fd17d46678952efc0dcf4514786dc1597dbdc1a68955acd614c66abfe96",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS3_doublet_score_distributions.svg",
+    "output": "outputs/reproducibility_v2/figures/FigureS2_doublet_distributions.svg",
+    "sha256": "5693f41ba4b1db817910e8851b91f3615d5a8586cab445c9f7285d46402e6bd3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS4_barrier_selection_sensitivity.png",
+    "output": "outputs/reproducibility_v2/figures/FigureS3_barrier_selection.png",
+    "sha256": "ac512cbec6207a489c70c1c62bb3341ebf60557efceeca577c1a304b1467a4a9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS4_barrier_selection_sensitivity.pdf",
+    "output": "outputs/reproducibility_v2/figures/FigureS3_barrier_selection.pdf",
+    "sha256": "4fdede01deb0a3cf56cddea5e981496a74366048811352af1afddbf5dc99034e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/FigureS4_barrier_selection_sensitivity.svg",
+    "output": "outputs/reproducibility_v2/figures/FigureS3_barrier_selection.svg",
+    "sha256": "66c2fd9306944570900d25d5c98feb51187d230009927db6f9f9e6e0efbe19a0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/Figure5_spatial_expression_context.png",
+    "output": "outputs/reproducibility_v2/figures/FigureS5_spatial_expression_context.png",
+    "sha256": "8426b456a2c3feb55da1765103254dbe1b74d83bdcc9cec90acddb4ce7bab69c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/Figure5_spatial_expression_context.pdf",
+    "output": "outputs/reproducibility_v2/figures/FigureS5_spatial_expression_context.pdf",
+    "sha256": "fe939439449cb2c4bce6316dab1e1a2f3cc24a94c726011f36c05728a341177f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/revised/figures/Figure5_spatial_expression_context.svg",
+    "output": "outputs/reproducibility_v2/figures/FigureS5_spatial_expression_context.svg",
+    "sha256": "a4b92331f65e4ba42c5f6f4709250ec0c55d6d07834be12101413b43793535cb",
+    "unchanged": true
+  }
+]

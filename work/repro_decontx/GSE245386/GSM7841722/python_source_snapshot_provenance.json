@@ -1,0 +1,8 @@
+{
+  "snapshot": "python_wrapper_source_snapshot.py",
+  "sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+  "matches_sha256_recorded_before_model_execution": true,
+  "snapshot_recorded_before_model_execution": false,
+  "source_origin": "Exact immutable-R-snapshot version recovered by reversing the later I/O-only patch",
+  "note": "Code content snapshot; the original invocation used the source file in the work directory. Postprocessing code changes are tracked separately."
+}

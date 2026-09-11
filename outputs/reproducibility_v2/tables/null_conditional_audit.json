@@ -1,0 +1,597 @@
+{
+  "status": "complete",
+  "new_confirmatory_test": false,
+  "original_families_changed": false,
+  "joint_results_known_before_diagnostic_plan": true,
+  "source_sha256": {
+    "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\work\\repro_delivery\\analysis\\work\\repro_conditional_null_plan.md": "47eeb081c5e922dfae63d35ca8f990bb3ed8589e9d8f254c431cc44c333e8169",
+    "null_fixed_common_all_allocations.tsv.gz": "b353b96b9108952c3178c6e5f5a71b96c18a035a91a408def59e70b78641ac6d",
+    "null_fixed_common_summary.tsv": "3fb8cc1635520a9521981b00f0f40fb4177bded1ffbac77be5d2d80b5b57ed08",
+    "null_dynamic_gate_all_allocations.tsv.gz": "f1871f1fd614c32849a619ad19d0c78f4fcbb8c83df63a007a515f300b1287a0",
+    "null_dynamic_gate_summary.tsv": "00e8fd82d0c7bf3431ad605f463129132b4c1afbed3567af5bd81b8de154b141"
+  },
+  "script_sha256": "79766333f6433b6eee2e46ecd3ef18f33c4016e32bc871a493ad23d49a74d670",
+  "n_checks": 72,
+  "checks": [
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lr_means",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "expr_prod",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "lrscore",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "primary",
+      "metric": "magnitude_priority",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lr_means",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "expr_prod",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "lrscore",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "fixed_common",
+      "config": "reference_singlet",
+      "metric": "magnitude_priority",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "primary",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE174574",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_all_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "same_direction_nonzero_fraction",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    },
+    {
+      "analysis": "dynamic_gate",
+      "config": "reference_singlet",
+      "metric": "custom_score",
+      "statistic": "spearman_rho",
+      "randomized_cohort": "GSE245386",
+      "passed": true
+    }
+  ],
+  "no_maximum_pvalue_replication_test_claim": true,
+  "conditional_pvalues_are_unadjusted_diagnostics": true,
+  "distribution_rows": 360,
+  "summary_rows": 72
+}

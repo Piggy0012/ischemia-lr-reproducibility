@@ -1,0 +1,7 @@
+config	gate	n_common_eligible
+primary	Raw >0	323
+primary	Corrected >0	323
+primary	Corrected >=1	37
+reference_singlet	Raw >0	326
+reference_singlet	Corrected >0	326
+reference_singlet	Corrected >=1	45

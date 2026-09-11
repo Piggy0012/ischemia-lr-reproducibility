@@ -1,0 +1,7 @@
+{
+  "package_version": "1.10.0",
+  "source": "installed package used for all 22 raw complete-network runs",
+  "snapshot": "liana_1_10_0_aggregate.py",
+  "sha256": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+  "matches_all_raw_source_aggregate_hashes": true
+}

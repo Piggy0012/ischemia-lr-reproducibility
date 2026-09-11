@@ -1,0 +1,26 @@
+{
+  "Astrocyte": {
+    "common_tested": 10222,
+    "rho_all": 0.46627103066775927,
+    "discovery_selected_common": 935,
+    "same_direction_selected": 805,
+    "same_direction_both_fdr_effect": 247
+  },
+  "Endothelial": {
+    "common_tested": 10863,
+    "rho_all": 0.44047635173236543,
+    "discovery_selected_common": 1972,
+    "same_direction_selected": 1617,
+    "same_direction_both_fdr_effect": 802
+  },
+  "communication": {
+    "discovery_eligible10": 362,
+    "validation_eligible10": 745,
+    "common_eligible10": 323,
+    "common_same_direction": 258,
+    "discovery_selected": 218,
+    "selected_common": 182,
+    "selected_common_same_direction": 154,
+    "rho_all_common": 0.7427882976103759
+  }
+}

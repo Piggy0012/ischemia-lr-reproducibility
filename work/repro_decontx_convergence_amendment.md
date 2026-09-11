@@ -1,0 +1,9 @@
+# Uniform numerical-convergence sensitivity
+
+Written 2026-09-11 after the first six default DecontX fits, when GSM5319992 reached maxIter=500 with last logged maximum contamination-parameter change 0.004584 (threshold 0.001), and before any extended-iteration fits. This is a numerical amendment to an exploratory analysis, not preregistration. The parent analysis authorised this uniform rule.
+
+Retain every one of the 11 default maxIter=500 outputs, including any non-converged outputs and their convergence flags. After all default fits finish, select all and only samples whose default audit does not show the required 0.001 convergence threshold. Refit each selected sample from exactly the same raw counts and fixed whole_brain_broad labels, with seed=20260911, background=NULL, delta=c(10,10), estimateDelta=TRUE, convergence=0.001 and otherwise unchanged settings, changing only maxIter to 2000. Each refit runs until the original convergence rule or the new upper limit.
+
+Store refits in the separate work/repro_decontx_maxiter2000 directory. Save full counts, contamination estimates, software/parameter provenance, logs and audit files. Verify identical input array hashes, identity-label hash, barcode and gene order. Report convergence and descriptive differences in contamination estimates and corrected matrices against the 500-iteration result. Keep both variants available for downstream sensitivity analyses; do not select a fit because its candidate communications look more favourable. If a 2000-iteration refit remains non-converged, report that limit and do not extend indefinitely.
+
+The default workflow continues to use maxIter=500. A DECONTX_MAX_ITER environment variable with allowed values 500 or 2000 exposes the numerical limit to the official R call; no package internals are altered. Each sample records the actual call and script hashes. This environment-variable addition does not change the default model or its parameters.

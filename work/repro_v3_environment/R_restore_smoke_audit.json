@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "packages": {
+    "renv": "1.2.4",
+    "jsonlite": "2.0.0"
+  },
+  "restored_library_packages": [
+    {
+      "Package": "BiocManager",
+      "Version": "1.30.27",
+      "_row": "BiocManager"
+    },
+    {
+      "Package": "jsonlite",
+      "Version": "2.0.0",
+      "_row": "jsonlite"
+    },
+    {
+      "Package": "renv",
+      "Version": "1.2.4",
+      "_row": "renv"
+    }
+  ],
+  "restored_to_empty_library": true,
+  "full_232_package_restore_tested": false,
+  "decontX_restore_tested": false,
+  "original_analysis_library_modified": false,
+  "model_fit_performed": false
+}

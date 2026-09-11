@@ -1,0 +1,347 @@
+{
+  "shape": [
+    6,
+    11
+  ],
+  "missing_values": 0,
+  "unit": "one aggregate comparison per implementation/selection; rows are not animal replicates",
+  "chart_choice": "unconnected horizontal dots and composition bars",
+  "alternative": "annotated table or heatmap; less direct for showing denominator loss",
+  "selection_count": 2,
+  "fixed_target_counts": [
+    187,
+    174
+  ],
+  "point_estimates_have_no_error_bars_or_new_pvalues": true,
+  "skill_profile": {
+    "source": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\tables\\rank_background_summary.tsv",
+    "n_rows": 6,
+    "n_cols": 10,
+    "columns": {
+      "config": {
+        "type": "categorical",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 2,
+        "categories": [
+          [
+            "primary",
+            3
+          ],
+          [
+            "reference_singlet",
+            3
+          ]
+        ],
+        "min_group_n": 3,
+        "max_group_n": 3,
+        "small_groups_flag": true
+      },
+      "metric": {
+        "type": "text",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0
+      },
+      "n_candidates": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 2,
+        "categories": [
+          [
+            "187",
+            3
+          ],
+          [
+            "174",
+            3
+          ]
+        ],
+        "min_group_n": 3,
+        "max_group_n": 3,
+        "small_groups_flag": true
+      },
+      "n_nonzero_both": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "177",
+            1
+          ],
+          [
+            "168",
+            1
+          ],
+          [
+            "123",
+            1
+          ],
+          [
+            "166",
+            1
+          ],
+          [
+            "158",
+            1
+          ],
+          [
+            "115",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_same_direction": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "105",
+            1
+          ],
+          [
+            "122",
+            1
+          ],
+          [
+            "100",
+            1
+          ],
+          [
+            "95",
+            1
+          ],
+          [
+            "115",
+            1
+          ],
+          [
+            "84",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_zero_discovery": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 6,
+        "categories": [
+          [
+            "9",
+            1
+          ],
+          [
+            "18",
+            1
+          ],
+          [
+            "50",
+            1
+          ],
+          [
+            "8",
+            1
+          ],
+          [
+            "15",
+            1
+          ],
+          [
+            "48",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 1,
+        "small_groups_flag": true
+      },
+      "n_zero_validation": {
+        "type": "ordinal",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "n_unique": 5,
+        "categories": [
+          [
+            "2",
+            2
+          ],
+          [
+            "3",
+            1
+          ],
+          [
+            "46",
+            1
+          ],
+          [
+            "1",
+            1
+          ],
+          [
+            "39",
+            1
+          ]
+        ],
+        "min_group_n": 1,
+        "max_group_n": 2,
+        "small_groups_flag": true
+      },
+      "same_direction_all_fraction": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.5730530456696785,
+        "median": 0.5537371688487307,
+        "sd": 0.07000516321010296,
+        "min": 0.4827586206896552,
+        "max": 0.6609195402298851,
+        "skewness": 0.1769943607904186,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.39939071239781176,
+        "outlier_hi": 0.7678522035773558,
+        "needs_log_axis": "False"
+      },
+      "same_direction_nonzero_fraction": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.6938318309593087,
+        "median": 0.7270192887281495,
+        "sd": 0.09234960629074994,
+        "min": 0.572289156626506,
+        "max": 0.8130081300813008,
+        "skewness": -0.21140600656741637,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": 0.47147501480280163,
+        "outlier_hi": 0.884775970755083,
+        "needs_log_axis": "False"
+      },
+      "spearman_rho": {
+        "type": "continuous",
+        "n_total": 6,
+        "n_null": 0,
+        "missing_rate": 0.0,
+        "n": 6,
+        "mean": 0.4272334413428687,
+        "median": 0.5162727975188932,
+        "sd": 0.21202851133474787,
+        "min": 0.102453265290396,
+        "max": 0.6452318878825728,
+        "skewness": -0.4944965186124873,
+        "skew_label": "approximately symmetric",
+        "n_outliers_iqr": 0,
+        "outlier_lo": -0.06976607532422646,
+        "outlier_hi": 0.9152798989685161,
+        "needs_log_axis": "False"
+      }
+    },
+    "correlation": {
+      "columns": [
+        "same_direction_all_fraction",
+        "same_direction_nonzero_fraction",
+        "spearman_rho"
+      ],
+      "matrix": {
+        "same_direction_all_fraction": {
+          "same_direction_all_fraction": 1.0,
+          "same_direction_nonzero_fraction": 0.066,
+          "spearman_rho": 0.082
+        },
+        "same_direction_nonzero_fraction": {
+          "same_direction_all_fraction": 0.066,
+          "same_direction_nonzero_fraction": 1.0,
+          "spearman_rho": 0.981
+        },
+        "spearman_rho": {
+          "same_direction_all_fraction": 0.082,
+          "same_direction_nonzero_fraction": 0.981,
+          "spearman_rho": 1.0
+        }
+      },
+      "pairs_sorted": [
+        {
+          "a": "same_direction_nonzero_fraction",
+          "b": "spearman_rho",
+          "r": 0.9811295249438858,
+          "magnitude": "very strong"
+        },
+        {
+          "a": "same_direction_all_fraction",
+          "b": "spearman_rho",
+          "r": 0.08196195230259112,
+          "magnitude": "negligible"
+        },
+        {
+          "a": "same_direction_all_fraction",
+          "b": "same_direction_nonzero_fraction",
+          "r": 0.06624792569037888,
+          "magnitude": "negligible"
+        }
+      ]
+    },
+    "group_summary": {
+      "by": [
+        "config"
+      ],
+      "n_groups": 2,
+      "min_n_per_group": 3,
+      "max_n_per_group": 3,
+      "median_n_per_group": 3,
+      "small_groups_flag": true,
+      "tiny_groups_flag": false,
+      "per_group_counts": [
+        [
+          "primary",
+          3
+        ],
+        [
+          "reference_singlet",
+          3
+        ]
+      ]
+    },
+    "warnings": [
+      "\u5217 'config' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_candidates' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_nonzero_both' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_same_direction' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_zero_discovery' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002",
+      "\u5217 'n_zero_validation' \u81f3\u5c11\u6709\u4e00\u4e2a\u7c7b\u522b n<10 \u2014 \u5c0f\u6837\u672c\u5fc5\u987b\u5c55\u793a\u539f\u59cb\u6570\u636e\u70b9\uff0c\u4e0d\u8981\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\u3002"
+    ],
+    "suggestions": [
+      "\u5206\u7c7b vs \u8fde\u7eed\uff0c\u5c0f\u6837\u672c\uff08\u6bcf\u7ec4 n<10\uff09\u2192 **\u7bb1\u7ebf\u56fe/\u5c0f\u63d0\u7434\u56fe + stripplot \u53e0\u52a0\u539f\u59cb\u70b9**\uff1b**\u907f\u514d**\u53ea\u753b\u5747\u503c\u67f1\u72b6\u56fe\uff0c\u4f1a\u63a9\u76d6\u5206\u5e03\u3002",
+      "\u22653 \u4e2a\u8fde\u7eed\u53d8\u91cf \u2192 \u76f8\u5173\u6027\u70ed\u529b\u56fe\uff08['same_direction_all_fraction', 'same_direction_nonzero_fraction', 'spearman_rho']\uff09\u6216 pairplot \u6563\u70b9\u77e9\u9635",
+      "\u5206\u7c7b\u7ef4\u5ea6\u7ec4\u5408\u6570 = 4320\uff08config, n_candidates, n_nonzero_both, n_same_direction, n_zero_discovery, n_zero_validation \u5168\u4ea4\u53c9\uff09\uff0c**\u4e00\u5f20\u56fe\u585e\u4e0d\u4e0b**\u2014\u2014\u5efa\u8bae\u6309\u67d0\u4e00\u7ef4\u62c6\u6210\u591a\u9762\u677f\uff0c\u6216\u9009\u62e9\u5b50\u96c6\u3002"
+    ]
+  }
+}

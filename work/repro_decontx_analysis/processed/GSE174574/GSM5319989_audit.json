@@ -1,0 +1,17 @@
+{
+  "sample": "GSM5319989",
+  "dataset": "GSE174574",
+  "shape": [
+    9951,
+    27933
+  ],
+  "all_positive_corrected_totals": true,
+  "source_audit_sha256": "2f4b86a0b934b5efa3d7f05ec48b203cf4ac6b3e74c20d13c9b93f4a97bab283",
+  "script_sha256": "eb3883e2e296c07534a6da073e9762bad8a70b4c4199c579959345283c7f3252",
+  "count_provenance": "Fractional DecontX estimates; no DESeq2 on these estimates",
+  "normalization": "Corrected counts normalised by corrected total across all genes in the same cell",
+  "fixed_cell_selections": [
+    "primary",
+    "reference_singlet"
+  ]
+}

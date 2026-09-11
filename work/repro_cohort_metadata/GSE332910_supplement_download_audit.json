@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s001.xlsx?md5=b9014fa4c5e07479b91ebe5a02909267",
+    "path": "work\\repro_cohort_metadata\\ADVS-9999-e77547-s001.xlsx",
+    "bytes": 52182,
+    "md5_verified": "b9014fa4c5e07479b91ebe5a02909267",
+    "sha256": "c20ec5d550af876a0490b763cdf1ea5a315a15b46894588da4fe2c09fd6e92f7"
+  },
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13542395.1/ADVS-9999-e77547-s002.docx?md5=b3641c20d079cfe254a3eba074b2b9e1",
+    "path": "work\\repro_cohort_metadata\\ADVS-9999-e77547-s002.docx",
+    "bytes": 11828519,
+    "md5_verified": "b3641c20d079cfe254a3eba074b2b9e1",
+    "sha256": "ef921781d5ce18497437bc744da945373a710a359c102dc969ba08b5dcfb80b6"
+  }
+]

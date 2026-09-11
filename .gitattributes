@@ -1,0 +1,10 @@
+# Preserve all original bytes, including scientific TSV/JSON and gzip containers.
+# This overrides automatic CRLF/LF conversion; set core.autocrlf=false before commit too.
+* -text
+*.gz binary
+*.npz binary
+*.png binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.rds binary

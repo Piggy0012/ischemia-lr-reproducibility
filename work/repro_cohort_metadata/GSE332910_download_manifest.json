@@ -1,0 +1,86 @@
+[
+  {
+    "gsm": "GSM9755192",
+    "condition": "MCAO",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755192/suppl/GSM9755192_snRNA-seq_24h_1.tar.gz",
+    "size_bytes": 137766625,
+    "sha256": "e7121cfb5619f0106d8c8016a6832b5376c3334862bbaaae1dc935b91e0aca48",
+    "raw_shape": [
+      30125,
+      25095,
+      47662066
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  },
+  {
+    "gsm": "GSM9755194",
+    "condition": "MCAO",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755194/suppl/GSM9755194_snRNA-seq_24h_2.tar.gz",
+    "size_bytes": 101499743,
+    "sha256": "c50c7bf64f48c3c45cf98c19776758888fe295b29163937b662bcf3287a675a0",
+    "raw_shape": [
+      30348,
+      21218,
+      35230182
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  },
+  {
+    "gsm": "GSM9755196",
+    "condition": "MCAO",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755196/suppl/GSM9755196_snRNA-seq_24h_3.tar.gz",
+    "size_bytes": 93333915,
+    "sha256": "23f304b44bb1cee328043e9cc3d97930df79cf32c258429a041837068129dfbb",
+    "raw_shape": [
+      30212,
+      18825,
+      32074576
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  },
+  {
+    "gsm": "GSM9755210",
+    "condition": "Sham",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755210/suppl/GSM9755210_snRNA-seq_sham_1.tar.gz",
+    "size_bytes": 88263041,
+    "sha256": "465a70112ec688ca40abebed319b41b45b44a6e21d877e286467f0ea49b94c7e",
+    "raw_shape": [
+      29877,
+      18445,
+      30971985
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  },
+  {
+    "gsm": "GSM9755212",
+    "condition": "Sham",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755212/suppl/GSM9755212_snRNA-seq_sham_2.tar.gz",
+    "size_bytes": 101326327,
+    "sha256": "9f8cb021aebbf2c29876917f8250123871a751de22056f7dfeb819fc0c0e0599",
+    "raw_shape": [
+      30070,
+      23066,
+      35096105
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  },
+  {
+    "gsm": "GSM9755214",
+    "condition": "Sham",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9755nnn/GSM9755214/suppl/GSM9755214_snRNA-seq_sham_3.tar.gz",
+    "size_bytes": 39760025,
+    "sha256": "1a340cb594bdd92812d8b69c3f1fadbf63f6ae3b68e74c8aa07664a3a3080888",
+    "raw_shape": [
+      29832,
+      12629,
+      13764855
+    ],
+    "mapping": "Source one-column gene symbols copied as both submitted identifier and symbol; no orthology mapping or invented Ensembl IDs.",
+    "http_status": 200
+  }
+]

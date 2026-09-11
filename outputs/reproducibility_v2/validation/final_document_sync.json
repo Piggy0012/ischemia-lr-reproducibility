@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "scope": "final reviewed documents and presentation metadata only; relocated tables retained",
+  "files": [
+    {
+      "source": "outputs\\reproducibility_v2\\manuscript_en.docx",
+      "staged": "outputs\\reproducibility_v2\\manuscript_en.docx",
+      "bytes": 5902950,
+      "sha256": "d835f2d195e96ab4425e1a89681186cafe873103d86a4e3a614272036b3642a6"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\manuscript_zh.docx",
+      "staged": "outputs\\reproducibility_v2\\manuscript_zh.docx",
+      "bytes": 5903442,
+      "sha256": "18ddfb10a3875d211878f15187835c33d28c9ff58cb6d83fb030b756ae010584"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\manuscript_en.md",
+      "staged": "outputs\\reproducibility_v2\\manuscript_en.md",
+      "bytes": 57839,
+      "sha256": "687fb5b435a06168ba93d603875910552adabdc7672da0ea29ae64a3c46716eb"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\manuscript_zh.md",
+      "staged": "outputs\\reproducibility_v2\\manuscript_zh.md",
+      "bytes": 47120,
+      "sha256": "f90d11dc93c178620529e09d47a8727695669bec8719686258887ab57be417de"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\references_en.json",
+      "staged": "outputs\\reproducibility_v2\\references_en.json",
+      "bytes": 21751,
+      "sha256": "4ca6540084766251b0958da076d7b4f53c95b3e548a46a17c7c8d7f9fa0453f2"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\references_zh.json",
+      "staged": "outputs\\reproducibility_v2\\references_zh.json",
+      "bytes": 21751,
+      "sha256": "4ca6540084766251b0958da076d7b4f53c95b3e548a46a17c7c8d7f9fa0453f2"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\document_build_audit.json",
+      "staged": "outputs\\reproducibility_v2\\document_build_audit.json",
+      "bytes": 425,
+      "sha256": "25d9505271f0a5c69993f8e6197ade5bfce0db8c26636b03bc2395e73e744cac"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\README.md",
+      "staged": "outputs\\reproducibility_v2\\README.md",
+      "bytes": 7358,
+      "sha256": "493e3378fed9cdde07c824ea6e172f6c3a9dfa66df191a3386a8a6980b7c278a"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\revision_response_12_points_zh.md",
+      "staged": "outputs\\reproducibility_v2\\revision_response_12_points_zh.md",
+      "bytes": 4606,
+      "sha256": "9542b5e96a52c41a755f9be40df801b320e16d04e2c6dff5a219d32c44149a9a"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\manuscript_readiness.json",
+      "staged": "outputs\\reproducibility_v2\\manuscript_readiness.json",
+      "bytes": 266,
+      "sha256": "14ab76353dd46face8174783eabca216ffe138f97fea320173fa75a1239a64a2"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\figure_font_and_dimension_audit.json",
+      "staged": "outputs\\reproducibility_v2\\figure_font_and_dimension_audit.json",
+      "bytes": 8004,
+      "sha256": "5f90e2aa170a5fc5a0d2e1c520c4746bbd7a1df9006d2754271f7aea169229c8"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\validation\\document_visual_review_zh.json",
+      "staged": "outputs\\reproducibility_v2\\validation\\document_visual_review_zh.json",
+      "bytes": 10225,
+      "sha256": "538ee933860d859b1b3f2a371336d4717a17c39f71651432281960f0534d7150"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\validation\\document_visual_review_en.json",
+      "staged": "outputs\\reproducibility_v2\\validation\\document_visual_review_en.json",
+      "bytes": 18520,
+      "sha256": "317084b123881e4a510ef4009a713cb0c24a341f8ddb6bac22d02342ba70ac87"
+    },
+    {
+      "source": "outputs\\reproducibility_v2\\validation\\manuscript_scientific_review.json",
+      "staged": "outputs\\reproducibility_v2\\validation\\manuscript_scientific_review.json",
+      "bytes": 8957,
+      "sha256": "e61782c9328b52977b932fef620a57220b227f766d6e8ef05cbd1edaf67462a5"
+    },
+    {
+      "source": "work\\repro_build_docx.py",
+      "staged": "work\\repro_build_docx.py",
+      "bytes": 9049,
+      "sha256": "357f783a6e9378a63c1ce4b7c15998fe63cfcd050a52c9785e68a66b4109066c"
+    },
+    {
+      "source": "work\\repro_prepare_manuscripts.py",
+      "staged": "work\\repro_prepare_manuscripts.py",
+      "bytes": 13226,
+      "sha256": "c53240a472ca95670477305af525d42523c417d50ff918a8ba7261ae0f10885b"
+    },
+    {
+      "source": "work\\repro_finalize_narrative.py",
+      "staged": "work\\repro_finalize_narrative.py",
+      "bytes": 13992,
+      "sha256": "4a03f0b9c6cb97f50994f6a40a14f88f019cc7cece275e223157abb2fa3d5123"
+    },
+    {
+      "source": "work\\repro_record_zh_visual_review.py",
+      "staged": "work\\repro_record_zh_visual_review.py",
+      "bytes": 1850,
+      "sha256": "1647840d208f8a5820dbcb4b78637c90d5b3025f1129e3bb0b6467a9aef56e9d"
+    },
+    {
+      "source": "work\\repro_final_figure_qa.py",
+      "staged": "work\\repro_final_figure_qa.py",
+      "bytes": 2531,
+      "sha256": "9dd84ac47769e84e307dd24071665770afe9d41226b4571ce91c124fdc2c50f5"
+    },
+    {
+      "source": "work\\repro_sync_release_documents.py",
+      "staged": "work\\repro_sync_release_documents.py",
+      "bytes": 2508,
+      "sha256": "c6945b7c83ebf76b3292e30d4cfbe29b7aba851cd06f8b20af6b70c43ee06697"
+    },
+    {
+      "source": "work\\repro_manuscript_zh_source.md",
+      "staged": "work\\repro_manuscript_zh_source.md",
+      "bytes": 40135,
+      "sha256": "6c7f47f39db4e465efef99a9a0c32520942e2b383c3e3e6166071ab8b55b13cb"
+    },
+    {
+      "source": "work\\repro_manuscript_en_source.md",
+      "staged": "work\\repro_manuscript_en_source.md",
+      "bytes": 50822,
+      "sha256": "61df3645481c1df18246a4c26a079aa2fe74f12f8d1f0a25e64b113b9a614427"
+    },
+    {
+      "source": "work\\repro_manuscript_frontmatter.json",
+      "staged": "work\\repro_manuscript_frontmatter.json",
+      "bytes": 4690,
+      "sha256": "bb912fb22793cfa35e40ce0faaed6860d51fb02f6cb87a882dc028d71adc1e5e"
+    },
+    {
+      "source": "work\\repro_main_sections.json",
+      "staged": "work\\repro_main_sections.json",
+      "bytes": 11851,
+      "sha256": "68f7efe3ca2f7eebec4d95a7f0dec1e4dcbf50c0f9e0d082915fb0b27931eaf0"
+    },
+    {
+      "source": "work\\repro_manuscript_en_sections.json",
+      "staged": "work\\repro_manuscript_en_sections.json",
+      "bytes": 18691,
+      "sha256": "882e6e78fb23825d069b5d8a3e962ab89680140542bf1383d2d69d663b8b9678"
+    },
+    {
+      "source": "work\\repro_caption_static.json",
+      "staged": "work\\repro_caption_static.json",
+      "bytes": 10429,
+      "sha256": "d0ddb877c3e883445916fb657580c4e144aec3db48184e7a8e6381fa17c2be61"
+    }
+  ],
+  "public_deposition_complete": false
+}

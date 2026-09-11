@@ -1,0 +1,986 @@
+{
+  "status": "copy_rules_checked",
+  "staging_script_sha256": "49976945fefa4cd09432b97d010adf21f020c985d622756a519afa5dc2823f1b",
+  "stage_exists": false,
+  "copy_rules_cover_required_decontx_sources": true,
+  "extension_root_py_snapshot_rule_present": true,
+  "recovery_and_extension_additional_hashes_match": true,
+  "required_source_and_audit_files": 162,
+  "all_existing_staged_files_match": null,
+  "actual_archive_validation_still_required": true,
+  "note": "Static rules and local sources were inspected; this is not a claim that a release archive exists or has been verified.",
+  "records": [
+    {
+      "path": "repro_decontx/cell_type_contamination_summary.tsv",
+      "sha256": "595fb12440ee84559243cfe367aff2c4c73c0743da7ddbc0de2276ae6cc8a5f2",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/completion_status.json",
+      "sha256": "21b650b1ad5905e4897f56614b35a67caa8521161325132dc03f10bc77a89368",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/final_selected_source_summary.tsv",
+      "sha256": "be882a8998f6f89a8e3411bee9be93ab2de71ef4ad7837a188201bb3cf8d668f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/audit.json",
+      "sha256": "9ac2f3b6dec1ff0fd45cdb2286b79053484855e91188d4515b8dfa8d2dd05c01",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/input_audit.json",
+      "sha256": "8b0ac147d1213a47225d91135b0b66b8a1de1602de12e690d24d94f9ef01d7d3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/r_audit.json",
+      "sha256": "354bd250d9df31b3d64ac9a38223f77c036166b835d043bf488b68280a6a7f4b",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/run.log",
+      "sha256": "9efc058e8270eed91cbb3a53cc128b8c9c4fa6dde0353997a4487460d9969479",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319987/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/audit.json",
+      "sha256": "376e38252c728b0287d5381c922f4b3a0b8c93308a18589a348ff428b3735c27",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/input_audit.json",
+      "sha256": "7500e17de9113e2b35da1793f10e974700f0d1a6b21e1e0efc1a9e175ead2adf",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/r_audit.json",
+      "sha256": "8326242afc757eb6d30bb2a1f35148d69a156285efdb0e70b05dd8d33c20c8f9",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/run.log",
+      "sha256": "987635791bba13253e07c221112c9a8507eeb69ea3ea9736075626ce8065f75e",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319988/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/audit.json",
+      "sha256": "2f4b86a0b934b5efa3d7f05ec48b203cf4ac6b3e74c20d13c9b93f4a97bab283",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/input_audit.json",
+      "sha256": "a18c294fa0452c6aafc77635e03ec2d2312a18741bcabd9ce8e48c9910189339",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/r_audit.json",
+      "sha256": "b8726cfe662b1f142b4a3a5937ad0345aeba60c9d52a9b1e235aad3c132b9457",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/run.log",
+      "sha256": "85f94179666f544c92cefc7e657c191ffa9a14542493be721d561a96dbb3ce5f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319989/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/audit.json",
+      "sha256": "8bcf8e8bec784cebc8704f38ae5d5035b8fe638cd2562c271b24df2773083e4f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/input_audit.json",
+      "sha256": "97d415d8096acd3f388046ae7bf72822348251e342bc5799410405408cb85ab7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/r_audit.json",
+      "sha256": "42dd1106ec5a3018c8b5b6af18e7f2f4bc64a4bfbc4222c0219d3d914cceb609",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/run.log",
+      "sha256": "6ba0b38b176ed9d0b761b650d3b01a3040357cb0875e0a60555e462c403817bb",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319990/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/audit.json",
+      "sha256": "cd229f36111c3e62eaa4014551eaa4860cd1e65e30de5e91ccbdb3a3d7707f6a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/input_audit.json",
+      "sha256": "376bf19690d4fe0041045fc7a2a263585ac72b79f1b8caf74558e147d1507e6b",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/r_audit.json",
+      "sha256": "3d107d96db081768c0f3069c0ba6407b8ab91c1f7308f18120303e11f219158a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/run.log",
+      "sha256": "b47bdc80af510501e63134f91f1542b0d8779257f9b8dfd4820f6c225547b648",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319991/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/audit.json",
+      "sha256": "ba167c3d004e070b1b5f867c604b6f75b3d23d63e378268d16ca5d0aecca0cfe",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/input_audit.json",
+      "sha256": "50fcca56c2ab69338f205bbea40fac59eb98b48852bf80f349b8de2f9f9dce5d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/r_audit.json",
+      "sha256": "a902b9e894f98b672b720106dd0a931660f39ca1b4b4f7030070c1216160e650",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/run.log",
+      "sha256": "3f47e75451efcb24382437c89175013eff625dc9d842f2fa7cc4a895366a0c20",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE174574/GSM5319992/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/audit.json",
+      "sha256": "08aa5e00ace9a01ceeb3b608a724088d056bd49151c80ed1fd2a7d5088a7c33d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/audit_recovery.log",
+      "sha256": "748905c7fbfcfc80f6d9afe9bacc457508b4ff7b4a9ca6037fde77f3cd2eaf3c",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/audit_recovery_provenance.json",
+      "sha256": "5cd127a2962a4e3113ba525b4afdb6d5f4bcb6721ed4c58f497926edae5d6674",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/executed_decontx_run.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/input_audit.json",
+      "sha256": "35142bbbe1f7d495406b036daa1516d10f72333738479567c8a6e3fc8e051c14",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/postprocessing_source_snapshot.py",
+      "sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/python_source_snapshot_provenance.json",
+      "sha256": "8f3841940862347c9f49b112b8fc4da7f26aad16105d9d14a5fa186a460662fa",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/python_wrapper_source_snapshot.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/r_audit.json",
+      "sha256": "a78fe42f4ea27c74048e667d2b085ffa701124db2ac04ac044e840b6a6c3836b",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/run.log",
+      "sha256": "723c18fd75a847558e59d1af6940635e518d6e991f1e00455b6fdcb993d6ea38",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841720/source_snapshot_provenance.json",
+      "sha256": "23466eff4e89f62e0b7bab0571a6913453ab6dc0d94427149647332445e732c0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/audit.json",
+      "sha256": "d666507e580b5da812cbae1584f4e0faab3c9caa24f2d3f973c5dff25e797638",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/executed_decontx_run.R",
+      "sha256": "3a3fa028b986b4781d35c3f3e8fc4ff896dbae07e1b0ff90b60a6f59fab4eabf",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/input_audit.json",
+      "sha256": "0a9d1ace8316f34458746bb58d81d831463c62128a50791ac3b84a7dfdc0193d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/python_source_snapshot_provenance.json",
+      "sha256": "8de0fa50ed280032ef785f858da5de31f329fe341510e5162e7ab8db2772a34c",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/python_wrapper_source_snapshot.py",
+      "sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/r_audit.json",
+      "sha256": "0cea44ca906cb8c04968d767029a4d32a38b73a3f4968faff75c30c7eec47bea",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/run.log",
+      "sha256": "fd16f3db6276a3389b280c3f1c710bcbae950ba0959bd4386018c484bf54249a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841721/source_snapshot_provenance.json",
+      "sha256": "4754ce42fcb781bc279061b56ac78d6997c1ddd54c9fee860deca2cec4c32524",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/audit.json",
+      "sha256": "2d36134ed93544efae770d280900162ceca9804c5166128ccdc8743432039256",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/executed_decontx_run.R",
+      "sha256": "3a3fa028b986b4781d35c3f3e8fc4ff896dbae07e1b0ff90b60a6f59fab4eabf",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/input_audit.json",
+      "sha256": "63861933ef5cdbdec0e63c01ee898b132e1ca1787669cbc799eab7c098f5465a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/io_source_snapshot.py",
+      "sha256": "0875ab0e6e955f65755d0ae4c3e48b2d414b1bdb9a8637938311d90ccd269aba",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/postprocessing_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/python_source_snapshot_provenance.json",
+      "sha256": "8de0fa50ed280032ef785f858da5de31f329fe341510e5162e7ab8db2772a34c",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/python_wrapper_source_snapshot.py",
+      "sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/r_audit.json",
+      "sha256": "f59db30c4fc8f9f5ffc01bdc6409b59b8015b911966f3e90d330d535d6b141e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/run.log",
+      "sha256": "e8b32b94e3658fc8340b01419148ed4046142a27c2e9178952836fc9aabbb978",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841722/source_snapshot_provenance.json",
+      "sha256": "4754ce42fcb781bc279061b56ac78d6997c1ddd54c9fee860deca2cec4c32524",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/audit.json",
+      "sha256": "33f4a65d62a52694f568d5bc51369c7666ebdb9431b21f96994b70fe23e71ae7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/executed_decontx_run.R",
+      "sha256": "e63056dea6299f70f32e9bfcf709726068eb803b3fd321a4cf84aa35c903d362",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/input_audit.json",
+      "sha256": "343ce2d14989f473ab476946349f93ceca8c2d0b5a7b9ecff611c03714174853",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/io_source_snapshot.py",
+      "sha256": "0875ab0e6e955f65755d0ae4c3e48b2d414b1bdb9a8637938311d90ccd269aba",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/postprocessing_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/python_source_snapshot_provenance.json",
+      "sha256": "0c0c4f45cdfc4e4ca3923586b98409533948c5e9bb37b4627c6e92cadb1c18c5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/python_wrapper_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/r_audit.json",
+      "sha256": "d0bd5c867b96ccf52c90e6f1fbca775db2a14b5f351b06419ffcdb93feca2cdb",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/run.log",
+      "sha256": "ef0c0fb6f81447c823219dfc62ca735685dd7d44431a1ffaf5cdd927720277f4",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841723/source_snapshot_provenance.json",
+      "sha256": "4bd20661d05a780f9d0fad117164384d4d120410235bf9f1ea0df3a0b8d1e3f0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/audit.json",
+      "sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/executed_decontx_run.R",
+      "sha256": "e63056dea6299f70f32e9bfcf709726068eb803b3fd321a4cf84aa35c903d362",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/input_audit.json",
+      "sha256": "723729c030a1c69d467e2e4c5ed1c007c598081598167375f910ad0580cd10ab",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/io_source_snapshot.py",
+      "sha256": "0875ab0e6e955f65755d0ae4c3e48b2d414b1bdb9a8637938311d90ccd269aba",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/postprocessing_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/python_source_snapshot_provenance.json",
+      "sha256": "0c0c4f45cdfc4e4ca3923586b98409533948c5e9bb37b4627c6e92cadb1c18c5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/python_wrapper_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/r_audit.json",
+      "sha256": "a7ebd129f0c24763cdc7c07c9950a71f7bcad4927ba0c2903805524fa11e61e8",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/run.log",
+      "sha256": "6a3c148f9e1860c299c602f54dd50f5f5860687ade87ce117fc3d7dc3c7e7531",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/GSE245386/GSM7841724/source_snapshot_provenance.json",
+      "sha256": "4bd20661d05a780f9d0fad117164384d4d120410235bf9f1ea0df3a0b8d1e3f0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/decontx_source_manifest.json",
+      "sha256": "bd888e6e7942555bda8ea92cb1c995acd5a8ce2724ea5e7ea7a2922eff286010",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/executed_decontx_run_original_500.R",
+      "sha256": "aa14e27215ebf89cda7b2d5ccfee592120610ba9c919292a94742278057dc1a3",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/executed_python_original.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/io_transport_smoketest.json",
+      "sha256": "cc2818717fdc382ec7acf7ff414ce8d0016b262da73226c294bac4c5dec45f0c",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/official_decontX_1.10.0.R",
+      "sha256": "c14a6d2c3d37882d82b35030e731bfba6c251effa641e30e5c540dc1a8a7dc82",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/official_decontX_DESCRIPTION",
+      "sha256": "59fecfcc79af43d540d4a222ca29300f5db37787dff0f177a2cbd1b3ace04261",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/official_decontX_LICENSE",
+      "sha256": "1a2da169626385cc5e59bbb554e3cbfc7b69e4ba6f921b24cdaa26ac84f8e68b",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/installers/r_runtime_manifest.json",
+      "sha256": "aeffb25e958b7ac99cd0a79586644f3768c637cb2c47c50c5812e4d10a1eee36",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/README.md",
+      "sha256": "af6d342be0c6f1ca77f9ec96b0ca25c802526dea0216467f1cfdf3350b7e5e9a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/sample_contamination_summary.tsv",
+      "sha256": "fcf8511aab886ce2d4b33214caf216a46d02b132ea0053bee3baf757264db864",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/sample_contamination_summary_with_convergence.tsv",
+      "sha256": "d3507116f0dac6664aa914238ee3c1244ef3805ece70a6f48bf86081c0ab60ea",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/source_integrity_check.json",
+      "sha256": "998b3898cd936398b0fcf6ddb1ffe1c80e32265c5089e1992b7c80ee48f7f63f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/source_integrity_check_stdout.json",
+      "sha256": "a0e8e871b39ed55f2225e0ebdd6ab6350a20e48ad914fcc8bd1f6677f46bb48b",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/source_snapshots/historical_python_source_manifest.json",
+      "sha256": "f5de3aca09a5c83c76254f8143b55f51d7273c56a712ff261e68c077818b6184",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/source_snapshots/repro_decontx_4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f.py",
+      "sha256": "4f35f685c67286a61aeb2c1c9ee1c51968062e8503f5a2baa9f544a7c8f87f9f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx/source_snapshots/repro_decontx_5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5.py",
+      "sha256": "5e2f316ce76991d37684d33cd9b380e5e6dcf41ad7dacdc35b43208edc71c0e5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_archive_source_check.py",
+      "sha256": "db8892d28a152201672788d799514f05093f07524a9981353d691683eb30a309",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_build_model_narrative.py",
+      "sha256": "4e2dc6b3231043922a8ad68e239223af977b56b01bcd7521ffcd4028859f853a",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_convergence_amendment.md",
+      "sha256": "50bb5cfdfe8e012809167807716fe7c11b84058ae5b5ce1b04e1978ad645dc9d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_extend.py",
+      "sha256": "5fcef879a92127295dac2f9abb0d4093a4b7bfdb7b91dad2059b6b9171591379",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_install.R",
+      "sha256": "e774989b092027f9e9c3149e27129a6f2a75ce95544e4f26e3c39986eb491d96",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_io.py",
+      "sha256": "0875ab0e6e955f65755d0ae4c3e48b2d414b1bdb9a8637938311d90ccd269aba",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_io_amendment.md",
+      "sha256": "968c2139197d906093de845dfd9c272e2c98cd07f856ae2c72427c0f256a43b1",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/analysis_plan_snapshot.md",
+      "sha256": "50bb5cfdfe8e012809167807716fe7c11b84058ae5b5ce1b04e1978ad645dc9d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/cell_type_contamination_summary.tsv",
+      "sha256": "705ee3c62bf934890e98137633db89e52aa135f49256d2969a04cd019fff316c",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/completion.json",
+      "sha256": "fc97e7dcb076757a1e93dd38600806cefbced1d80333ad4a5f6e605a8fbc215d",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/convergence_comparison.tsv",
+      "sha256": "d578feaea00fc0d7f214836d31942718711982680b9681cf13458628610dd9e6",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/extension_driver_source_snapshot.py",
+      "sha256": "5fcef879a92127295dac2f9abb0d4093a4b7bfdb7b91dad2059b6b9171591379",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/audit.json",
+      "sha256": "a8877f7abb57d6b3f55815aedb915605aece3e47528590e5d9fae4c722037f48",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/executed_decontx_run.R",
+      "sha256": "e63056dea6299f70f32e9bfcf709726068eb803b3fd321a4cf84aa35c903d362",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/input_audit.json",
+      "sha256": "6cb03c1744ad95fb888a05df650adc07e40a5b07ae61dce98c151d9fce4f3efb",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/io_source_snapshot.py",
+      "sha256": "0875ab0e6e955f65755d0ae4c3e48b2d414b1bdb9a8637938311d90ccd269aba",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/postprocessing_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/python_source_snapshot_provenance.json",
+      "sha256": "0c0c4f45cdfc4e4ca3923586b98409533948c5e9bb37b4627c6e92cadb1c18c5",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/python_wrapper_source_snapshot.py",
+      "sha256": "8fbed8f0f88159b4d90eb344bd2b594168e169e80d69784191cc45fae4cc2782",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/r_audit.json",
+      "sha256": "5edb781bb600365ea2d4e798655744d45aa9a35681d7f37888e5956bd1916ff9",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/run.log",
+      "sha256": "13381524e32cd539eb5da2906cfd34d0008bbd4d3354553d8503d60cccc7eb67",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/sessionInfo.txt",
+      "sha256": "9e61a6ed3999abd81eebccbd9b4e367609f8356a1e5f0a63736a34de49930aa7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/GSE174574/GSM5319992/source_snapshot_provenance.json",
+      "sha256": "4bd20661d05a780f9d0fad117164384d4d120410235bf9f1ea0df3a0b8d1e3f0",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/sample_contamination_summary.tsv",
+      "sha256": "407203ee8f6b5723c29777833322a35ed48308f61460fcc2f6d06f8e076ae5a1",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_maxiter2000/selection.json",
+      "sha256": "28def46df1fee32ddb81bad342f3ed527d0181242b8eb9fe52685aa47245fa6e",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_model_narrative.json",
+      "sha256": "a0cd529ad6288891ea0f3112c3b0b9861e5a413bb626ccbfb2c1c3d2a0a60dd7",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_plan.md",
+      "sha256": "31f064ed9fa907938458f8f716c9c553a74798290fc9c271eda840b51d14734f",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_recover_audit.R",
+      "sha256": "b48b30b0afec5a010f77d01586d4a87de4bd65bf793ec313a307b9daf70fb7cf",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_recover_source.py",
+      "sha256": "bc8c7e1e0b29d0bfae46aae98d2d303b55c8cf40f60ec70600766ba9127cf743",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_run.R",
+      "sha256": "e63056dea6299f70f32e9bfcf709726068eb803b3fd321a4cf84aa35c903d362",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_snapshot_python_history.py",
+      "sha256": "e1f963e3f9f8e4c8918077d22947b5e008bb17734af44ee144cd3fadfde1ce02",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_source.py",
+      "sha256": "72a0fffa21c693ba896553190485dd35a05d1c19db6929880b9ee76d6df8e766",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_source_audit.py",
+      "sha256": "425af8fbc9de8645c13f1cba4faffa0b25f31fe84054ea072dffaae6170d40db",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    },
+    {
+      "path": "repro_decontx_status.py",
+      "sha256": "5c5948add39b33765dde736adfad9c9a2b3fa188d028c35f33ef90144a92f798",
+      "staged_exists": false,
+      "staged_hash_matches": null
+    }
+  ]
+}

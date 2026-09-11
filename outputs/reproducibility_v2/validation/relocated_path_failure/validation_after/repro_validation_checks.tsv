@@ -1,0 +1,1944 @@
+check	passed	detail
+required/null_audit.json	True	
+required/null_animal_label_allocations.tsv	True	
+exists/null_animal_label_allocations.tsv	True	
+null_animal_label_allocations.tsv/no_infinities	True	
+null_animal_label_allocations.tsv/missing/config	True	
+null_animal_label_allocations.tsv/missing/allocation_id	True	
+null_animal_label_allocations.tsv/missing/discovery_allocation	True	
+null_animal_label_allocations.tsv/missing/validation_allocation	True	
+null_animal_label_allocations.tsv/missing/is_observed	True	
+null_animal_label_allocations.tsv/missing/discovery_mcao_animals	True	
+null_animal_label_allocations.tsv/missing/validation_mcao_animals	True	
+required/null_coverage.tsv	True	
+exists/null_coverage.tsv	True	
+null_coverage.tsv/no_infinities	True	
+null_coverage.tsv/missing/config	True	
+null_coverage.tsv/missing/dataset	True	
+null_coverage.tsv/missing/n_fixed_common_candidates	True	
+null_coverage.tsv/missing/n_all_resource_gene_covered_edges	True	
+required/null_fixed_candidate_keys.tsv	True	
+exists/null_fixed_candidate_keys.tsv	True	
+null_fixed_candidate_keys.tsv/no_infinities	True	
+null_fixed_candidate_keys.tsv/missing/config	True	
+null_fixed_candidate_keys.tsv/missing/sender	True	
+null_fixed_candidate_keys.tsv/missing/receiver	True	
+null_fixed_candidate_keys.tsv/missing/ligand	True	
+null_fixed_candidate_keys.tsv/missing/receptor	True	
+required/null_fixed_common_animal_scores.tsv.gz	True	
+exists/null_fixed_common_animal_scores.tsv.gz	True	
+null_fixed_common_animal_scores.tsv.gz/no_infinities	True	
+null_fixed_common_animal_scores.tsv.gz/missing/config	True	
+null_fixed_common_animal_scores.tsv.gz/missing/dataset	True	
+null_fixed_common_animal_scores.tsv.gz/missing/metric	True	
+null_fixed_common_animal_scores.tsv.gz/missing/sender	True	
+null_fixed_common_animal_scores.tsv.gz/missing/receiver	True	
+null_fixed_common_animal_scores.tsv.gz/missing/ligand	True	
+null_fixed_common_animal_scores.tsv.gz/missing/receptor	True	
+null_fixed_common_animal_scores.tsv.gz/missing/sample	True	
+null_fixed_common_animal_scores.tsv.gz/missing/value	True	
+null_fixed_common_animal_scores.tsv.gz/missing/condition	True	
+null_fixed_common_animal_scores.tsv.gz/missing/within_fixed_universe_percentile	True	
+required/null_fixed_common_observed_effects.tsv.gz	True	
+exists/null_fixed_common_observed_effects.tsv.gz	True	
+null_fixed_common_observed_effects.tsv.gz/no_infinities	True	
+null_fixed_common_observed_effects.tsv.gz/missing/config	True	
+null_fixed_common_observed_effects.tsv.gz/missing/dataset	True	
+null_fixed_common_observed_effects.tsv.gz/missing/metric	True	
+null_fixed_common_observed_effects.tsv.gz/missing/sender	True	
+null_fixed_common_observed_effects.tsv.gz/missing/receiver	True	
+null_fixed_common_observed_effects.tsv.gz/missing/ligand	True	
+null_fixed_common_observed_effects.tsv.gz/missing/receptor	True	
+null_fixed_common_observed_effects.tsv.gz/missing/observed_mcao_minus_sham	True	
+required/null_fixed_common_all_allocations.tsv.gz	True	
+exists/null_fixed_common_all_allocations.tsv.gz	True	
+null_fixed_common_all_allocations.tsv.gz/no_infinities	True	
+null_fixed_common_all_allocations.tsv.gz/missing/config	True	
+null_fixed_common_all_allocations.tsv.gz/missing/allocation_id	True	
+null_fixed_common_all_allocations.tsv.gz/missing/discovery_allocation	True	
+null_fixed_common_all_allocations.tsv.gz/missing/validation_allocation	True	
+null_fixed_common_all_allocations.tsv.gz/missing/is_observed	True	
+null_fixed_common_all_allocations.tsv.gz/missing/metric	True	
+null_fixed_common_all_allocations.tsv.gz/missing/n_candidates	True	
+null_fixed_common_all_allocations.tsv.gz/missing/n_nonzero_both	True	
+null_fixed_common_all_allocations.tsv.gz/missing/n_zero_discovery	True	
+null_fixed_common_all_allocations.tsv.gz/missing/n_zero_validation	True	
+null_fixed_common_all_allocations.tsv.gz/missing/n_same_direction	True	
+null_fixed_common_all_allocations.tsv.gz/missing/same_direction_all_fraction	True	
+null_fixed_common_all_allocations.tsv.gz/missing/same_direction_nonzero_fraction	True	
+null_fixed_common_all_allocations.tsv.gz/missing/spearman_rho	True	
+required/null_fixed_common_summary.tsv	True	
+exists/null_fixed_common_summary.tsv	True	
+null_fixed_common_summary.tsv/no_infinities	True	
+null_fixed_common_summary.tsv/missing/config	True	
+null_fixed_common_summary.tsv/missing/metric	True	
+null_fixed_common_summary.tsv/missing/statistic	True	
+null_fixed_common_summary.tsv/missing/test_family	True	
+null_fixed_common_summary.tsv/missing/observed	True	
+null_fixed_common_summary.tsv/missing/null_mean	True	
+null_fixed_common_summary.tsv/missing/null_median	True	
+null_fixed_common_summary.tsv/missing/null_q025	True	
+null_fixed_common_summary.tsv/missing/null_q975	True	
+null_fixed_common_summary.tsv/missing/n_allocations	True	
+null_fixed_common_summary.tsv/missing/n_greater_or_equal_observed	True	
+null_fixed_common_summary.tsv/missing/exact_upper_tail_p	True	
+null_fixed_common_summary.tsv/missing/observed_n_candidates	True	
+null_fixed_common_summary.tsv/missing/null_n_candidates_min	True	
+null_fixed_common_summary.tsv/missing/null_n_candidates_max	True	
+null_fixed_common_summary.tsv/missing/holm_adjusted_p	True	
+null_fixed_common_summary.tsv/missing/n_tests_in_family	True	
+required/null_family_gap_all_allocations.tsv.gz	True	
+exists/null_family_gap_all_allocations.tsv.gz	True	
+null_family_gap_all_allocations.tsv.gz/no_infinities	True	
+null_family_gap_all_allocations.tsv.gz/missing/config	True	
+null_family_gap_all_allocations.tsv.gz/missing/allocation_id	True	
+null_family_gap_all_allocations.tsv.gz/missing/discovery_allocation	True	
+null_family_gap_all_allocations.tsv.gz/missing/validation_allocation	True	
+null_family_gap_all_allocations.tsv.gz/missing/is_observed	True	
+null_family_gap_all_allocations.tsv.gz/missing/expression_metric	True	
+null_family_gap_all_allocations.tsv.gz/missing/ranking_metric	True	
+null_family_gap_all_allocations.tsv.gz/missing/statistic	True	
+null_family_gap_all_allocations.tsv.gz/missing/value	True	
+null_family_gap_all_allocations.tsv.gz/missing/n_candidates	True	
+required/null_family_gap_summary.tsv	True	
+exists/null_family_gap_summary.tsv	True	
+null_family_gap_summary.tsv/no_infinities	True	
+null_family_gap_summary.tsv/missing/config	True	
+null_family_gap_summary.tsv/missing/expression_metric	True	
+null_family_gap_summary.tsv/missing/ranking_metric	True	
+null_family_gap_summary.tsv/missing/statistic	True	
+null_family_gap_summary.tsv/missing/test_family	True	
+null_family_gap_summary.tsv/missing/observed	True	
+null_family_gap_summary.tsv/missing/null_mean	True	
+null_family_gap_summary.tsv/missing/null_median	True	
+null_family_gap_summary.tsv/missing/null_q025	True	
+null_family_gap_summary.tsv/missing/null_q975	True	
+null_family_gap_summary.tsv/missing/n_allocations	True	
+null_family_gap_summary.tsv/missing/n_greater_or_equal_observed	True	
+null_family_gap_summary.tsv/missing/exact_upper_tail_p	True	
+null_family_gap_summary.tsv/missing/observed_n_candidates	True	
+null_family_gap_summary.tsv/missing/null_n_candidates_min	True	
+null_family_gap_summary.tsv/missing/null_n_candidates_max	True	
+null_family_gap_summary.tsv/missing/holm_adjusted_p	True	
+null_family_gap_summary.tsv/missing/n_tests_in_family	True	
+required/null_dynamic_gate_all_allocations.tsv.gz	True	
+exists/null_dynamic_gate_all_allocations.tsv.gz	True	
+null_dynamic_gate_all_allocations.tsv.gz/no_infinities	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/config	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/allocation_id	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/discovery_allocation	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/validation_allocation	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/is_observed	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/metric	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/gate	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/n_candidates	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/n_nonzero_both	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/n_zero_discovery	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/n_zero_validation	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/n_same_direction	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/same_direction_all_fraction	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/same_direction_nonzero_fraction	True	
+null_dynamic_gate_all_allocations.tsv.gz/missing/spearman_rho	True	
+required/null_dynamic_gate_summary.tsv	True	
+exists/null_dynamic_gate_summary.tsv	True	
+null_dynamic_gate_summary.tsv/no_infinities	True	
+null_dynamic_gate_summary.tsv/missing/config	True	
+null_dynamic_gate_summary.tsv/missing/metric	True	
+null_dynamic_gate_summary.tsv/missing/statistic	True	
+null_dynamic_gate_summary.tsv/missing/test_family	True	
+null_dynamic_gate_summary.tsv/missing/observed	True	
+null_dynamic_gate_summary.tsv/missing/null_mean	True	
+null_dynamic_gate_summary.tsv/missing/null_median	True	
+null_dynamic_gate_summary.tsv/missing/null_q025	True	
+null_dynamic_gate_summary.tsv/missing/null_q975	True	
+null_dynamic_gate_summary.tsv/missing/n_allocations	True	
+null_dynamic_gate_summary.tsv/missing/n_greater_or_equal_observed	True	
+null_dynamic_gate_summary.tsv/missing/exact_upper_tail_p	True	
+null_dynamic_gate_summary.tsv/missing/observed_n_candidates	True	
+null_dynamic_gate_summary.tsv/missing/null_n_candidates_min	True	
+null_dynamic_gate_summary.tsv/missing/null_n_candidates_max	True	
+null_dynamic_gate_summary.tsv/missing/holm_adjusted_p	True	
+null_dynamic_gate_summary.tsv/missing/n_tests_in_family	True	
+required/null_conditional_audit.json	True	
+required/null_conditional_all_allocations.tsv.gz	True	
+exists/null_conditional_all_allocations.tsv.gz	True	
+null_conditional_all_allocations.tsv.gz/no_infinities	True	
+null_conditional_all_allocations.tsv.gz/missing/analysis	True	
+null_conditional_all_allocations.tsv.gz/missing/randomized_cohort	True	
+null_conditional_all_allocations.tsv.gz/missing/fixed_observed_cohort	True	
+null_conditional_all_allocations.tsv.gz/missing/config	True	
+null_conditional_all_allocations.tsv.gz/missing/allocation_id	True	
+null_conditional_all_allocations.tsv.gz/missing/discovery_allocation	True	
+null_conditional_all_allocations.tsv.gz/missing/validation_allocation	True	
+null_conditional_all_allocations.tsv.gz/missing/is_observed	True	
+null_conditional_all_allocations.tsv.gz/missing/metric	True	
+null_conditional_all_allocations.tsv.gz/missing/n_candidates	True	
+null_conditional_all_allocations.tsv.gz/missing/n_nonzero_both	True	
+null_conditional_all_allocations.tsv.gz/missing/n_zero_discovery	True	
+null_conditional_all_allocations.tsv.gz/missing/n_zero_validation	True	
+null_conditional_all_allocations.tsv.gz/missing/n_same_direction	True	
+null_conditional_all_allocations.tsv.gz/missing/same_direction_all_fraction	True	
+null_conditional_all_allocations.tsv.gz/missing/same_direction_nonzero_fraction	True	
+null_conditional_all_allocations.tsv.gz/missing/spearman_rho	True	
+null_conditional_all_allocations.tsv.gz/missing/n_conditional_allocations	True	
+null_conditional_all_allocations.tsv.gz/missing/gate	True	
+required/null_conditional_summary.tsv	True	
+exists/null_conditional_summary.tsv	True	
+null_conditional_summary.tsv/no_infinities	True	
+null_conditional_summary.tsv/missing/analysis	True	
+null_conditional_summary.tsv/missing/config	True	
+null_conditional_summary.tsv/missing/metric	True	
+null_conditional_summary.tsv/missing/statistic	True	
+null_conditional_summary.tsv/missing/randomized_cohort	True	
+null_conditional_summary.tsv/missing/fixed_observed_cohort	True	
+null_conditional_summary.tsv/missing/observed	True	
+null_conditional_summary.tsv/missing/null_mean	True	
+null_conditional_summary.tsv/missing/null_median	True	
+null_conditional_summary.tsv/missing/null_q025	True	
+null_conditional_summary.tsv/missing/null_q975	True	
+null_conditional_summary.tsv/missing/n_conditional_allocations	True	
+null_conditional_summary.tsv/missing/n_at_least_observed	True	
+null_conditional_summary.tsv/missing/conditional_unadjusted_upper_tail_p	True	
+null_conditional_summary.tsv/missing/minimum_attainable_upper_tail_p	True	
+null_conditional_summary.tsv/missing/joint_n_allocations	True	
+null_conditional_summary.tsv/missing/joint_exact_upper_tail_p	True	
+null_conditional_summary.tsv/missing/joint_holm_adjusted_p	True	
+null_conditional_summary.tsv/missing/original_joint_test_family	True	
+null_conditional_summary.tsv/missing/observed_n_candidates	True	
+null_conditional_summary.tsv/missing/conditional_n_candidates_min	True	
+null_conditional_summary.tsv/missing/conditional_n_candidates_max	True	
+null_conditional_summary.tsv/missing/conditional_p_adjusted_for_multiple_testing	True	
+required/null_conditional_methods.md	True	
+required/null_conditional_explanation_zh.md	True	
+required/rank_audit.json	True	
+required/rank_comparison_summary.tsv	True	
+exists/rank_comparison_summary.tsv	True	
+rank_comparison_summary.tsv/no_infinities	True	
+rank_comparison_summary.tsv/missing/config	True	
+rank_comparison_summary.tsv/missing/metric	True	
+rank_comparison_summary.tsv/missing/representation	True	
+rank_comparison_summary.tsv/missing/n_candidates	True	
+rank_comparison_summary.tsv/missing/n_nonzero_both	True	
+rank_comparison_summary.tsv/missing/n_same_direction	True	
+rank_comparison_summary.tsv/missing/n_zero_discovery	True	
+rank_comparison_summary.tsv/missing/n_zero_validation	True	
+rank_comparison_summary.tsv/missing/same_direction_all_fraction	True	
+rank_comparison_summary.tsv/missing/same_direction_nonzero_fraction	True	
+rank_comparison_summary.tsv/missing/spearman_rho	True	
+required/rank_figure_source_comparison.tsv	True	
+exists/rank_figure_source_comparison.tsv	True	
+rank_figure_source_comparison.tsv/no_infinities	True	
+rank_figure_source_comparison.tsv/missing/config	True	
+rank_figure_source_comparison.tsv/missing/metric	True	
+rank_figure_source_comparison.tsv/missing/representation	True	
+rank_figure_source_comparison.tsv/missing/n_candidates	True	
+rank_figure_source_comparison.tsv/missing/n_nonzero_both	True	
+rank_figure_source_comparison.tsv/missing/n_same_direction	True	
+rank_figure_source_comparison.tsv/missing/n_zero_discovery	True	
+rank_figure_source_comparison.tsv/missing/n_zero_validation	True	
+rank_figure_source_comparison.tsv/missing/same_direction_all_fraction	True	
+rank_figure_source_comparison.tsv/missing/same_direction_nonzero_fraction	True	
+rank_figure_source_comparison.tsv/missing/spearman_rho	True	
+required/rank_observed_effects.tsv.gz	True	
+exists/rank_observed_effects.tsv.gz	True	
+rank_observed_effects.tsv.gz/no_infinities	True	
+rank_observed_effects.tsv.gz/missing/config	True	
+rank_observed_effects.tsv.gz/missing/dataset	True	
+rank_observed_effects.tsv.gz/missing/metric	True	
+rank_observed_effects.tsv.gz/missing/representation	True	
+rank_observed_effects.tsv.gz/missing/sender	True	
+rank_observed_effects.tsv.gz/missing/receiver	True	
+rank_observed_effects.tsv.gz/missing/ligand	True	
+rank_observed_effects.tsv.gz/missing/receptor	True	
+rank_observed_effects.tsv.gz/missing/mcao_minus_sham	True	
+required/rank_per_animal_representations.tsv.gz	True	
+exists/rank_per_animal_representations.tsv.gz	True	
+rank_per_animal_representations.tsv.gz/no_infinities	True	
+rank_per_animal_representations.tsv.gz/missing/config	True	
+rank_per_animal_representations.tsv.gz/missing/dataset	True	
+rank_per_animal_representations.tsv.gz/missing/metric	True	
+rank_per_animal_representations.tsv.gz/missing/representation	True	
+rank_per_animal_representations.tsv.gz/missing/sender	True	
+rank_per_animal_representations.tsv.gz/missing/receiver	True	
+rank_per_animal_representations.tsv.gz/missing/ligand	True	
+rank_per_animal_representations.tsv.gz/missing/receptor	True	
+rank_per_animal_representations.tsv.gz/missing/sample	True	
+rank_per_animal_representations.tsv.gz/missing/value	True	
+rank_per_animal_representations.tsv.gz/missing/condition	True	
+required/rank_network_context_per_animal.tsv	True	
+exists/rank_network_context_per_animal.tsv	True	
+rank_network_context_per_animal.tsv/no_infinities	True	
+rank_network_context_per_animal.tsv/missing/config	True	
+rank_network_context_per_animal.tsv/missing/dataset	True	
+rank_network_context_per_animal.tsv/missing/sample	True	
+rank_network_context_per_animal.tsv/missing/condition	True	
+rank_network_context_per_animal.tsv/missing/n_eligible_full_network_rows	True	
+rank_network_context_per_animal.tsv/missing/n_reported_target_direction_rows	True	
+rank_network_context_per_animal.tsv/missing/n_context_cells	True	
+rank_network_context_per_animal.tsv/missing/n_context_types	True	
+rank_network_context_per_animal.tsv/missing/context_type_names	True	
+required/rank_network_context_cell_counts.tsv	True	
+exists/rank_network_context_cell_counts.tsv	True	
+rank_network_context_cell_counts.tsv/no_infinities	True	
+rank_network_context_cell_counts.tsv/missing/config	True	
+rank_network_context_cell_counts.tsv/missing/dataset	True	
+rank_network_context_cell_counts.tsv/missing/sample	True	
+rank_network_context_cell_counts.tsv/missing/condition	True	
+rank_network_context_cell_counts.tsv/missing/context_cell_type	True	
+rank_network_context_cell_counts.tsv/missing/n_cells	True	
+required/rank_native_target_ties_per_animal.tsv	True	
+exists/rank_native_target_ties_per_animal.tsv	True	
+rank_native_target_ties_per_animal.tsv/no_infinities	True	
+rank_native_target_ties_per_animal.tsv/missing/config	True	
+rank_native_target_ties_per_animal.tsv/missing/dataset	True	
+rank_native_target_ties_per_animal.tsv/missing/sample	True	
+rank_native_target_ties_per_animal.tsv/missing/condition	True	
+rank_native_target_ties_per_animal.tsv/missing/universe	True	
+rank_native_target_ties_per_animal.tsv/missing/n_target_edges	True	
+rank_native_target_ties_per_animal.tsv/missing/n_unique_rank_values	True	
+rank_native_target_ties_per_animal.tsv/missing/n_edges_in_exact_tie_groups	True	
+rank_native_target_ties_per_animal.tsv/missing/fraction_edges_in_exact_tie_groups	True	
+rank_native_target_ties_per_animal.tsv/missing/largest_exact_tie_group	True	
+rank_native_target_ties_per_animal.tsv/missing/n_edges_in_12decimal_tie_groups	True	
+rank_native_target_ties_per_animal.tsv/missing/n_native_rank_one	True	
+rank_native_target_ties_per_animal.tsv/missing/native_rank_one_fraction	True	
+rank_native_target_ties_per_animal.tsv/missing/n_native_rank_zero	True	
+rank_native_target_ties_per_animal.tsv/missing/native_rank_zero_fraction	True	
+rank_native_target_ties_per_animal.tsv/missing/native_rank_min	True	
+rank_native_target_ties_per_animal.tsv/missing/native_rank_max	True	
+required/rank_native_zero_effects.tsv	True	
+exists/rank_native_zero_effects.tsv	True	
+rank_native_zero_effects.tsv/no_infinities	True	
+rank_native_zero_effects.tsv/missing/config	True	
+rank_native_zero_effects.tsv/missing/dataset	True	
+rank_native_zero_effects.tsv/missing/n_fixed_candidates	True	
+rank_native_zero_effects.tsv/missing/n_zero_priority_disease_effect	True	
+rank_native_zero_effects.tsv/missing/n_edges_at_rank_one_in_all_animals	True	
+rank_native_zero_effects.tsv/missing/n_edges_at_rank_one_in_any_animal	True	
+rank_native_zero_effects.tsv/missing/fraction_edges_at_rank_one_in_all_animals	True	
+rank_native_zero_effects.tsv/missing/n_zero_effect_explained_by_all_animal_rank_one	True	
+required/rank_network_context_ranges.tsv	True	
+exists/rank_network_context_ranges.tsv	True	
+rank_network_context_ranges.tsv/no_infinities	True	
+rank_network_context_ranges.tsv/missing/config	True	
+rank_network_context_ranges.tsv/missing/dataset	True	
+rank_network_context_ranges.tsv/missing/n_animals	True	
+rank_network_context_ranges.tsv/missing/n_distinct_context_type_sets	True	
+rank_network_context_ranges.tsv/missing/n_eligible_full_network_rows_min	True	
+rank_network_context_ranges.tsv/missing/n_eligible_full_network_rows_max	True	
+rank_network_context_ranges.tsv/missing/n_reported_target_direction_rows_min	True	
+rank_network_context_ranges.tsv/missing/n_reported_target_direction_rows_max	True	
+rank_network_context_ranges.tsv/missing/n_context_cells_min	True	
+rank_network_context_ranges.tsv/missing/n_context_cells_max	True	
+rank_network_context_ranges.tsv/missing/n_context_types_min	True	
+rank_network_context_ranges.tsv/missing/n_context_types_max	True	
+rank_network_context_ranges.tsv/missing/all_reported_target_edges__native_rank_one_fraction_min	True	
+rank_network_context_ranges.tsv/missing/all_reported_target_edges__native_rank_one_fraction_max	True	
+rank_network_context_ranges.tsv/missing/all_reported_target_edges__fraction_edges_in_exact_tie_groups_min	True	
+rank_network_context_ranges.tsv/missing/all_reported_target_edges__fraction_edges_in_exact_tie_groups_max	True	
+rank_network_context_ranges.tsv/missing/fixed_common_target_edges__native_rank_one_fraction_min	True	
+rank_network_context_ranges.tsv/missing/fixed_common_target_edges__native_rank_one_fraction_max	True	
+rank_network_context_ranges.tsv/missing/fixed_common_target_edges__fraction_edges_in_exact_tie_groups_min	True	
+rank_network_context_ranges.tsv/missing/fixed_common_target_edges__fraction_edges_in_exact_tie_groups_max	True	
+required/rank_implementation_four_row_probe.tsv	True	
+exists/rank_implementation_four_row_probe.tsv	True	
+rank_implementation_four_row_probe.tsv/no_infinities	True	
+rank_implementation_four_row_probe.tsv/missing/toy_row	True	
+rank_implementation_four_row_probe.tsv/missing/input_lr_means	True	
+rank_implementation_four_row_probe.tsv/missing/input_expr_prod	True	
+rank_implementation_four_row_probe.tsv/missing/input_lrscore	True	
+rank_implementation_four_row_probe.tsv/missing/native_intermediate_rank_lr_means	True	
+rank_implementation_four_row_probe.tsv/missing/native_intermediate_rank_expr_prod	True	
+rank_implementation_four_row_probe.tsv/missing/native_intermediate_rank_lrscore	True	
+rank_implementation_four_row_probe.tsv/missing/unique_column_diagnostic_rank_lr_means	True	
+rank_implementation_four_row_probe.tsv/missing/unique_column_diagnostic_rank_expr_prod	True	
+rank_implementation_four_row_probe.tsv/missing/unique_column_diagnostic_rank_lrscore	True	
+rank_implementation_four_row_probe.tsv/missing/native_rra	True	
+rank_implementation_four_row_probe.tsv/missing/unique_column_diagnostic_rra	True	
+required/rank_diagnostic_raw_audit.json	True	
+required/rank_diagnostic_raw_summary.tsv	True	
+exists/rank_diagnostic_raw_summary.tsv	True	
+rank_diagnostic_raw_summary.tsv/no_infinities	True	
+rank_diagnostic_raw_summary.tsv/missing/count_source	True	
+rank_diagnostic_raw_summary.tsv/missing/config	True	
+rank_diagnostic_raw_summary.tsv/missing/metric	True	
+rank_diagnostic_raw_summary.tsv/missing/n_candidates	True	
+rank_diagnostic_raw_summary.tsv/missing/n_nonzero_both	True	
+rank_diagnostic_raw_summary.tsv/missing/n_same_direction	True	
+rank_diagnostic_raw_summary.tsv/missing/n_zero_discovery	True	
+rank_diagnostic_raw_summary.tsv/missing/n_zero_validation	True	
+rank_diagnostic_raw_summary.tsv/missing/same_direction_all_fraction	True	
+rank_diagnostic_raw_summary.tsv/missing/same_direction_nonzero_fraction	True	
+rank_diagnostic_raw_summary.tsv/missing/spearman_rho	True	
+required/rank_diagnostic_raw_animal_scores.tsv.gz	True	
+exists/rank_diagnostic_raw_animal_scores.tsv.gz	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/no_infinities	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/count_source	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/config	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/dataset	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/metric	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/sender	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/receiver	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/ligand	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/receptor	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/sample	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/value	True	
+rank_diagnostic_raw_animal_scores.tsv.gz/missing/condition	True	
+required/rank_diagnostic_raw_effects.tsv.gz	True	
+exists/rank_diagnostic_raw_effects.tsv.gz	True	
+rank_diagnostic_raw_effects.tsv.gz/no_infinities	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/count_source	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/config	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/dataset	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/metric	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/sender	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/receiver	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/ligand	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/receptor	True	
+rank_diagnostic_raw_effects.tsv.gz/missing/mcao_minus_sham	True	
+required/rank_diagnostic_raw_ties.tsv	True	
+exists/rank_diagnostic_raw_ties.tsv	True	
+rank_diagnostic_raw_ties.tsv/no_infinities	True	
+rank_diagnostic_raw_ties.tsv/missing/count_source	True	
+rank_diagnostic_raw_ties.tsv/missing/config	True	
+rank_diagnostic_raw_ties.tsv/missing/dataset	True	
+rank_diagnostic_raw_ties.tsv/missing/sample	True	
+rank_diagnostic_raw_ties.tsv/missing/universe	True	
+rank_diagnostic_raw_ties.tsv/missing/metric	True	
+rank_diagnostic_raw_ties.tsv/missing/n_edges	True	
+rank_diagnostic_raw_ties.tsv/missing/n_rank_one	True	
+rank_diagnostic_raw_ties.tsv/missing/rank_one_fraction	True	
+rank_diagnostic_raw_ties.tsv/missing/n_edges_in_exact_tie_groups	True	
+rank_diagnostic_raw_ties.tsv/missing/largest_exact_tie_group	True	
+required/rank_background_audit.json	True	
+required/rank_background_summary.tsv	True	
+exists/rank_background_summary.tsv	True	
+rank_background_summary.tsv/no_infinities	True	
+rank_background_summary.tsv/missing/config	True	
+rank_background_summary.tsv/missing/metric	True	
+rank_background_summary.tsv/missing/n_candidates	True	
+rank_background_summary.tsv/missing/n_nonzero_both	True	
+rank_background_summary.tsv/missing/n_same_direction	True	
+rank_background_summary.tsv/missing/n_zero_discovery	True	
+rank_background_summary.tsv/missing/n_zero_validation	True	
+rank_background_summary.tsv/missing/same_direction_all_fraction	True	
+rank_background_summary.tsv/missing/same_direction_nonzero_fraction	True	
+rank_background_summary.tsv/missing/spearman_rho	True	
+required/rank_background_animal_scores.tsv.gz	True	
+exists/rank_background_animal_scores.tsv.gz	True	
+rank_background_animal_scores.tsv.gz/no_infinities	True	
+rank_background_animal_scores.tsv.gz/missing/config	True	
+rank_background_animal_scores.tsv.gz/missing/dataset	True	
+rank_background_animal_scores.tsv.gz/missing/sample	True	
+rank_background_animal_scores.tsv.gz/missing/condition	True	
+rank_background_animal_scores.tsv.gz/missing/metric	True	
+rank_background_animal_scores.tsv.gz/missing/sender	True	
+rank_background_animal_scores.tsv.gz/missing/receiver	True	
+rank_background_animal_scores.tsv.gz/missing/ligand	True	
+rank_background_animal_scores.tsv.gz/missing/receptor	True	
+rank_background_animal_scores.tsv.gz/missing/value	True	
+required/rank_background_effects.tsv.gz	True	
+exists/rank_background_effects.tsv.gz	True	
+rank_background_effects.tsv.gz/no_infinities	True	
+rank_background_effects.tsv.gz/missing/config	True	
+rank_background_effects.tsv.gz/missing/dataset	True	
+rank_background_effects.tsv.gz/missing/metric	True	
+rank_background_effects.tsv.gz/missing/sender	True	
+rank_background_effects.tsv.gz/missing/receiver	True	
+rank_background_effects.tsv.gz/missing/ligand	True	
+rank_background_effects.tsv.gz/missing/receptor	True	
+rank_background_effects.tsv.gz/missing/mcao_minus_sham	True	
+required/rank_background_global_keys.tsv.gz	True	
+exists/rank_background_global_keys.tsv.gz	True	
+rank_background_global_keys.tsv.gz/no_infinities	True	
+rank_background_global_keys.tsv.gz/missing/config	True	
+rank_background_global_keys.tsv.gz/missing/sender	True	
+rank_background_global_keys.tsv.gz/missing/receiver	True	
+rank_background_global_keys.tsv.gz/missing/ligand	True	
+rank_background_global_keys.tsv.gz/missing/receptor	True	
+required/rank_background_monotonic_redundancy.tsv	True	
+exists/rank_background_monotonic_redundancy.tsv	True	
+rank_background_monotonic_redundancy.tsv/no_infinities	True	
+rank_background_monotonic_redundancy.tsv/missing/config	True	
+rank_background_monotonic_redundancy.tsv/missing/dataset	True	
+rank_background_monotonic_redundancy.tsv/missing/sample	True	
+rank_background_monotonic_redundancy.tsv/missing/universe	True	
+rank_background_monotonic_redundancy.tsv/missing/n_edges	True	
+rank_background_monotonic_redundancy.tsv/missing/rank_vectors_exactly_equal	True	
+rank_background_monotonic_redundancy.tsv/missing/n_different_average_tie_ranks	True	
+rank_background_monotonic_redundancy.tsv/missing/rank_spearman_rho	True	
+rank_background_monotonic_redundancy.tsv/missing/max_abs_rank_difference	True	
+required/rank_background_context.tsv	True	
+exists/rank_background_context.tsv	True	
+rank_background_context.tsv/no_infinities	True	
+rank_background_context.tsv/missing/config	True	
+rank_background_context.tsv/missing/dataset	True	
+rank_background_context.tsv/missing/sample	True	
+rank_background_context.tsv/missing/condition	True	
+rank_background_context.tsv/missing/n_original_full_network_edges	True	
+rank_background_context.tsv/missing/n_fixed_global_edges	True	
+rank_background_context.tsv/missing/n_fixed_target_edges	True	
+rank_background_context.tsv/missing/n_fixed_global_celltype_pairs	True	
+rank_background_context.tsv/missing/n_fixed_global_celltypes	True	
+required/rank_background_zero_effects.tsv	True	
+exists/rank_background_zero_effects.tsv	True	
+rank_background_zero_effects.tsv/no_infinities	True	
+rank_background_zero_effects.tsv/missing/config	True	
+rank_background_zero_effects.tsv/missing/dataset	True	
+rank_background_zero_effects.tsv/missing/metric	True	
+rank_background_zero_effects.tsv/missing/n_candidates	True	
+rank_background_zero_effects.tsv/missing/n_zero_disease_effect	True	
+rank_background_zero_effects.tsv/missing/n_priority_zero_in_all_animals	True	
+rank_background_zero_effects.tsv/missing/n_zero_effect_with_all_animals_at_priority_zero	True	
+required/rank_upstream_audit.json	True	
+required/rank_upstream_per_library_equality.tsv	True	
+exists/rank_upstream_per_library_equality.tsv	True	
+rank_upstream_per_library_equality.tsv/no_infinities	True	
+rank_upstream_per_library_equality.tsv/missing/config	True	
+rank_upstream_per_library_equality.tsv/missing/dataset	True	
+rank_upstream_per_library_equality.tsv/missing/sample	True	
+rank_upstream_per_library_equality.tsv/missing/scope	True	
+rank_upstream_per_library_equality.tsv/missing/n_edges	True	
+rank_upstream_per_library_equality.tsv/missing/unique_rank_vectors_equal	True	
+rank_upstream_per_library_equality.tsv/missing/upstream_vs_legacy_unique_bitwise_equal	True	
+rank_upstream_per_library_equality.tsv/missing/max_abs_upstream_vs_legacy_unique	True	
+rank_upstream_per_library_equality.tsv/missing/n_difference_gt_1e12	True	
+rank_upstream_per_library_equality.tsv/missing/n_difference_gt_1e6	True	
+rank_upstream_per_library_equality.tsv/missing/float32_rankdata_dtype	True	
+rank_upstream_per_library_equality.tsv/missing/float64_rankdata_dtype	True	
+rank_upstream_per_library_equality.tsv/missing/legacy_float64_vs_upstream_float64_bitwise_equal	True	
+rank_upstream_per_library_equality.tsv/missing/max_abs_upstream_float32_vs_float64	True	
+required/rank_upstream_animal_scores.tsv.gz	True	
+exists/rank_upstream_animal_scores.tsv.gz	True	
+rank_upstream_animal_scores.tsv.gz/no_infinities	True	
+rank_upstream_animal_scores.tsv.gz/missing/sender	True	
+rank_upstream_animal_scores.tsv.gz/missing/receiver	True	
+rank_upstream_animal_scores.tsv.gz/missing/ligand	True	
+rank_upstream_animal_scores.tsv.gz/missing/receptor	True	
+rank_upstream_animal_scores.tsv.gz/missing/config	True	
+rank_upstream_animal_scores.tsv.gz/missing/dataset	True	
+rank_upstream_animal_scores.tsv.gz/missing/sample	True	
+rank_upstream_animal_scores.tsv.gz/missing/condition	True	
+rank_upstream_animal_scores.tsv.gz/missing/metric	True	
+rank_upstream_animal_scores.tsv.gz/missing/value	True	
+required/rank_upstream_effects.tsv.gz	True	
+exists/rank_upstream_effects.tsv.gz	True	
+rank_upstream_effects.tsv.gz/no_infinities	True	
+rank_upstream_effects.tsv.gz/missing/sender	True	
+rank_upstream_effects.tsv.gz/missing/receiver	True	
+rank_upstream_effects.tsv.gz/missing/ligand	True	
+rank_upstream_effects.tsv.gz/missing/receptor	True	
+rank_upstream_effects.tsv.gz/missing/config	True	
+rank_upstream_effects.tsv.gz/missing/dataset	True	
+rank_upstream_effects.tsv.gz/missing/metric	True	
+rank_upstream_effects.tsv.gz/missing/mcao_minus_sham	True	
+required/rank_upstream_summary.tsv	True	
+exists/rank_upstream_summary.tsv	True	
+rank_upstream_summary.tsv/no_infinities	True	
+rank_upstream_summary.tsv/missing/config	True	
+rank_upstream_summary.tsv/missing/metric	True	
+rank_upstream_summary.tsv/missing/n_candidates	True	
+rank_upstream_summary.tsv/missing/n_nonzero_both	True	
+rank_upstream_summary.tsv/missing/n_same_direction	True	
+rank_upstream_summary.tsv/missing/same_direction_all_fraction	True	
+rank_upstream_summary.tsv/missing/same_direction_nonzero_fraction	True	
+rank_upstream_summary.tsv/missing/n_zero_discovery	True	
+rank_upstream_summary.tsv/missing/n_zero_validation	True	
+rank_upstream_summary.tsv/missing/spearman_rho	True	
+required/sorted_descriptive_audit.json	True	
+required/sorted_all_gene_descriptive_effects.tsv.gz	True	
+exists/sorted_all_gene_descriptive_effects.tsv.gz	True	
+sorted_all_gene_descriptive_effects.tsv.gz/no_infinities	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/gene	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/cell_type	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/paired_log2_effect	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/ci_low	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/ci_high	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/n_paired_pools	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/previous_transcriptome_filter	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/n_positive_pairs	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/n_negative_pairs	True	
+sorted_all_gene_descriptive_effects.tsv.gz/missing/interpretation	True	
+required/sorted_fixed_component_effects_ci.tsv	True	
+exists/sorted_fixed_component_effects_ci.tsv	True	
+sorted_fixed_component_effects_ci.tsv/no_infinities	True	
+sorted_fixed_component_effects_ci.tsv/missing/gene	True	
+sorted_fixed_component_effects_ci.tsv/missing/cell_type	True	
+sorted_fixed_component_effects_ci.tsv/missing/paired_log2_effect	True	
+sorted_fixed_component_effects_ci.tsv/missing/ci_low	True	
+sorted_fixed_component_effects_ci.tsv/missing/ci_high	True	
+sorted_fixed_component_effects_ci.tsv/missing/n_paired_pools	True	
+sorted_fixed_component_effects_ci.tsv/missing/previous_transcriptome_filter	True	
+sorted_fixed_component_effects_ci.tsv/missing/n_positive_pairs	True	
+sorted_fixed_component_effects_ci.tsv/missing/n_negative_pairs	True	
+sorted_fixed_component_effects_ci.tsv/missing/interpretation	True	
+required/third_coavailability_audit.json	True	
+required/third_all_covered_coavailability_effects.tsv.gz	True	
+exists/third_all_covered_coavailability_effects.tsv.gz	True	
+third_all_covered_coavailability_effects.tsv.gz/no_infinities	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/sender	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/receiver	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/ligand	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/receptor	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/dataset	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/config	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/mean_control_score	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/mean_stroke_score	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/score_difference	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/eligible_05	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/eligible_10	True	
+third_all_covered_coavailability_effects.tsv.gz/missing/eligible_20	True	
+required/third_all_covered_coavailability_library_scores.tsv.gz	True	
+exists/third_all_covered_coavailability_library_scores.tsv.gz	True	
+third_all_covered_coavailability_library_scores.tsv.gz/no_infinities	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/sender	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/receiver	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/ligand	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/receptor	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/dataset	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/sample	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/condition	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/score	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/ligand_logexpr	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/receptor_logexpr	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/ligand_detection	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/receptor_detection	True	
+third_all_covered_coavailability_library_scores.tsv.gz/missing/sample_both_detected_10	True	
+required/third_cell_type_library_counts.tsv	True	
+exists/third_cell_type_library_counts.tsv	True	
+third_cell_type_library_counts.tsv/no_infinities	True	
+third_cell_type_library_counts.tsv/missing/dataset	True	
+third_cell_type_library_counts.tsv/missing/sample	True	
+third_cell_type_library_counts.tsv/missing/condition	True	
+third_cell_type_library_counts.tsv/missing/config	True	
+third_cell_type_library_counts.tsv/missing/cell_type	True	
+third_cell_type_library_counts.tsv/missing/n_cells	True	
+third_cell_type_library_counts.tsv/missing/total_target_counts	True	
+required/third_cross_cohort_concordance_edges.tsv.gz	True	
+exists/third_cross_cohort_concordance_edges.tsv.gz	True	
+third_cross_cohort_concordance_edges.tsv.gz/no_infinities	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/sender	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/receiver	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/ligand	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/receptor	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/score_difference_baseline	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/score_difference_third	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/same_nonzero_direction	True	
+third_cross_cohort_concordance_edges.tsv.gz/missing/baseline_dataset	True	
+required/third_cross_cohort_concordance_summary.tsv	True	
+exists/third_cross_cohort_concordance_summary.tsv	True	
+third_cross_cohort_concordance_summary.tsv/no_infinities	True	
+third_cross_cohort_concordance_summary.tsv/missing/baseline_dataset	True	
+third_cross_cohort_concordance_summary.tsv/missing/third_dataset	True	
+third_cross_cohort_concordance_summary.tsv/missing/baseline_config	True	
+third_cross_cohort_concordance_summary.tsv/missing/third_config	True	
+third_cross_cohort_concordance_summary.tsv/missing/gate	True	
+third_cross_cohort_concordance_summary.tsv/missing/n_common_eligible_edges	True	
+third_cross_cohort_concordance_summary.tsv/missing/n_same_direction	True	
+third_cross_cohort_concordance_summary.tsv/missing/same_direction_fraction	True	
+third_cross_cohort_concordance_summary.tsv/missing/n_nonzero_both	True	
+third_cross_cohort_concordance_summary.tsv/missing/spearman_rho	True	
+third_cross_cohort_concordance_summary.tsv/missing/inference	True	
+required/third_fixed_examples_component_expression.tsv	True	
+exists/third_fixed_examples_component_expression.tsv	True	
+third_fixed_examples_component_expression.tsv/no_infinities	True	
+third_fixed_examples_component_expression.tsv/missing/sender	True	
+third_fixed_examples_component_expression.tsv/missing/receiver	True	
+third_fixed_examples_component_expression.tsv/missing/ligand	True	
+third_fixed_examples_component_expression.tsv/missing/receptor	True	
+third_fixed_examples_component_expression.tsv/missing/component_role	True	
+third_fixed_examples_component_expression.tsv/missing/cell_type	True	
+third_fixed_examples_component_expression.tsv/missing/gene	True	
+third_fixed_examples_component_expression.tsv/missing/sample	True	
+third_fixed_examples_component_expression.tsv/missing/condition	True	
+third_fixed_examples_component_expression.tsv/missing/gene_in_submitted_features	True	
+third_fixed_examples_component_expression.tsv/missing/mean_logcp10k	True	
+third_fixed_examples_component_expression.tsv/missing/detection_fraction	True	
+required/third_fixed_examples_effects_eligibility.tsv	True	
+exists/third_fixed_examples_effects_eligibility.tsv	True	
+third_fixed_examples_effects_eligibility.tsv/no_infinities	True	
+third_fixed_examples_effects_eligibility.tsv/missing/sender	True	
+third_fixed_examples_effects_eligibility.tsv/missing/receiver	True	
+third_fixed_examples_effects_eligibility.tsv/missing/ligand	True	
+third_fixed_examples_effects_eligibility.tsv/missing/receptor	True	
+third_fixed_examples_effects_eligibility.tsv/missing/dataset	True	
+third_fixed_examples_effects_eligibility.tsv/missing/config	True	
+third_fixed_examples_effects_eligibility.tsv/missing/mean_control_score	True	
+third_fixed_examples_effects_eligibility.tsv/missing/mean_stroke_score	True	
+third_fixed_examples_effects_eligibility.tsv/missing/score_difference	True	
+third_fixed_examples_effects_eligibility.tsv/missing/eligible_05	True	
+third_fixed_examples_effects_eligibility.tsv/missing/eligible_10	True	
+third_fixed_examples_effects_eligibility.tsv/missing/eligible_20	True	
+required/third_fixed_examples_library_scores.tsv	True	
+exists/third_fixed_examples_library_scores.tsv	True	
+third_fixed_examples_library_scores.tsv/no_infinities	True	
+third_fixed_examples_library_scores.tsv/missing/sender	True	
+third_fixed_examples_library_scores.tsv/missing/receiver	True	
+third_fixed_examples_library_scores.tsv/missing/ligand	True	
+third_fixed_examples_library_scores.tsv/missing/receptor	True	
+third_fixed_examples_library_scores.tsv/missing/dataset	True	
+third_fixed_examples_library_scores.tsv/missing/sample	True	
+third_fixed_examples_library_scores.tsv/missing/condition	True	
+third_fixed_examples_library_scores.tsv/missing/score	True	
+third_fixed_examples_library_scores.tsv/missing/ligand_logexpr	True	
+third_fixed_examples_library_scores.tsv/missing/receptor_logexpr	True	
+third_fixed_examples_library_scores.tsv/missing/ligand_detection	True	
+third_fixed_examples_library_scores.tsv/missing/receptor_detection	True	
+third_fixed_examples_library_scores.tsv/missing/sample_both_detected_10	True	
+required/third_gene_feature_coverage.tsv.gz	True	
+exists/third_gene_feature_coverage.tsv.gz	True	
+third_gene_feature_coverage.tsv.gz/no_infinities	True	
+third_gene_feature_coverage.tsv.gz/missing/gene	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755192	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755194	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755196	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755210	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755212	True	
+third_gene_feature_coverage.tsv.gz/missing/GSM9755214	True	
+required/third_library_metadata.tsv	True	
+exists/third_library_metadata.tsv	True	
+third_library_metadata.tsv/no_infinities	True	
+third_library_metadata.tsv/missing/sample	True	
+third_library_metadata.tsv/missing/condition	True	
+third_library_metadata.tsv/missing/library_replicate	True	
+third_library_metadata.tsv/missing/n_independent_animals	True	
+third_library_metadata.tsv/missing/author_reported_biological_replicates_per_condition	True	
+third_library_metadata.tsv/missing/biological_replicate_source	True	
+third_library_metadata.tsv/missing/pooling_status	True	
+third_library_metadata.tsv/missing/time	True	
+third_library_metadata.tsv/missing/tissue	True	
+third_library_metadata.tsv/missing/assay	True	
+third_library_metadata.tsv/missing/publication_doi	True	
+third_library_metadata.tsv/missing/geo_url	True	
+historical_sorted_tests_retained	True	
+null_audit.json/complete	True	
+null_audit.json/recorded_checks	True	
+null_audit.json/recorded_check_count	True	
+null_audit.json/input_hash/repro_null_plan.md	True	
+null_audit.json/input_hash/literature\mouseconsensus.csv	True	
+null_audit.json/input_hash/processed\GSE174574\sample_cell_counts.tsv	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319987_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319987_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319988_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319988_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319989_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319989_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319990_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319990_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319991_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319991_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319992_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE174574\GSM5319992_fractions.tsv.gz	True	
+null_audit.json/input_hash/results\GSE174574\primary__communication_sample_scores.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319987.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319987.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319988.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319988.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319989.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319989.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319990.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319990.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319991.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319991.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319992.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\primary__GSM5319992.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\sample_cell_counts.tsv	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841720_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841720_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841721_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841721_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841722_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841722_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841723_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841723_fractions.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841724_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/processed\GSE245386\GSM7841724_fractions.tsv.gz	True	
+null_audit.json/input_hash/results\GSE245386\primary__communication_sample_scores.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841720.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841720.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841721.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841721.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841722.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841722.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841723.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841723.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841724.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\primary__GSM7841724.tsv.gz	True	
+null_audit.json/input_hash/results\GSE174574\primary__communication.tsv.gz	True	
+null_audit.json/input_hash/results\GSE245386\primary__communication.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\sample_cell_counts.tsv	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319987_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319987_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319988_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319988_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319989_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319989_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319990_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319990_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319991_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319991_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319992_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE174574\GSM5319992_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\results\GSE174574\reference_singlet__communication_sample_scores.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319987.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319987.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319988.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319988.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319989.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319989.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319990.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319990.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319991.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319991.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319992.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE174574\reference_singlet__GSM5319992.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\sample_cell_counts.tsv	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841720_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841720_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841721_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841721_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841722_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841722_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841723_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841723_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841724_mean_logcp10k.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\processed\GSE245386\GSM7841724_fractions.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\results\GSE245386\reference_singlet__communication_sample_scores.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841720.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841720.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841721.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841721.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841722.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841722.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841723.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841723.tsv.gz	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841724.json	True	
+null_audit.json/input_hash/revision_results\liana\GSE245386\reference_singlet__GSM7841724.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\results\GSE174574\reference_singlet__communication.tsv.gz	True	
+null_audit.json/input_hash/revision_analysis\results\GSE245386\reference_singlet__communication.tsv.gz	True	
+null_audit.json/script_hash	True	
+null/animal_unit	True	
+null/design	True	
+allocations/primary	True	
+allocations/primary/case_counts	True	
+allocations/reference_singlet	True	
+allocations/reference_singlet/case_counts	True	
+null/fixed_counts	True	
+null/fixed_keys_unique	True	
+null_fixed_common_animal_scores.tsv.gz/unique_sample_edge_rows	True	
+('primary', 'GSE174574', 'custom_score')/one_condition_per_animal	True	
+('primary', 'GSE174574', 'custom_score')/expected_animal_counts	True	
+('primary', 'GSE174574', 'custom_score')/common_finite_matrix	True	
+('primary', 'GSE174574', 'custom_score')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE174574', 'lr_means')/one_condition_per_animal	True	
+('primary', 'GSE174574', 'lr_means')/expected_animal_counts	True	
+('primary', 'GSE174574', 'lr_means')/common_finite_matrix	True	
+('primary', 'GSE174574', 'lr_means')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE174574', 'expr_prod')/one_condition_per_animal	True	
+('primary', 'GSE174574', 'expr_prod')/expected_animal_counts	True	
+('primary', 'GSE174574', 'expr_prod')/common_finite_matrix	True	
+('primary', 'GSE174574', 'expr_prod')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE174574', 'lrscore')/one_condition_per_animal	True	
+('primary', 'GSE174574', 'lrscore')/expected_animal_counts	True	
+('primary', 'GSE174574', 'lrscore')/common_finite_matrix	True	
+('primary', 'GSE174574', 'lrscore')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE174574', 'magnitude_priority')/one_condition_per_animal	True	
+('primary', 'GSE174574', 'magnitude_priority')/expected_animal_counts	True	
+('primary', 'GSE174574', 'magnitude_priority')/common_finite_matrix	True	
+('primary', 'GSE174574', 'magnitude_priority')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE245386', 'custom_score')/one_condition_per_animal	True	
+('primary', 'GSE245386', 'custom_score')/expected_animal_counts	True	
+('primary', 'GSE245386', 'custom_score')/common_finite_matrix	True	
+('primary', 'GSE245386', 'custom_score')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE245386', 'lr_means')/one_condition_per_animal	True	
+('primary', 'GSE245386', 'lr_means')/expected_animal_counts	True	
+('primary', 'GSE245386', 'lr_means')/common_finite_matrix	True	
+('primary', 'GSE245386', 'lr_means')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE245386', 'expr_prod')/one_condition_per_animal	True	
+('primary', 'GSE245386', 'expr_prod')/expected_animal_counts	True	
+('primary', 'GSE245386', 'expr_prod')/common_finite_matrix	True	
+('primary', 'GSE245386', 'expr_prod')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE245386', 'lrscore')/one_condition_per_animal	True	
+('primary', 'GSE245386', 'lrscore')/expected_animal_counts	True	
+('primary', 'GSE245386', 'lrscore')/common_finite_matrix	True	
+('primary', 'GSE245386', 'lrscore')/equal_animal_effect_reconstruction	True	
+('primary', 'GSE245386', 'magnitude_priority')/one_condition_per_animal	True	
+('primary', 'GSE245386', 'magnitude_priority')/expected_animal_counts	True	
+('primary', 'GSE245386', 'magnitude_priority')/common_finite_matrix	True	
+('primary', 'GSE245386', 'magnitude_priority')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE174574', 'custom_score')/one_condition_per_animal	True	
+('reference_singlet', 'GSE174574', 'custom_score')/expected_animal_counts	True	
+('reference_singlet', 'GSE174574', 'custom_score')/common_finite_matrix	True	
+('reference_singlet', 'GSE174574', 'custom_score')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE174574', 'lr_means')/one_condition_per_animal	True	
+('reference_singlet', 'GSE174574', 'lr_means')/expected_animal_counts	True	
+('reference_singlet', 'GSE174574', 'lr_means')/common_finite_matrix	True	
+('reference_singlet', 'GSE174574', 'lr_means')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE174574', 'expr_prod')/one_condition_per_animal	True	
+('reference_singlet', 'GSE174574', 'expr_prod')/expected_animal_counts	True	
+('reference_singlet', 'GSE174574', 'expr_prod')/common_finite_matrix	True	
+('reference_singlet', 'GSE174574', 'expr_prod')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE174574', 'lrscore')/one_condition_per_animal	True	
+('reference_singlet', 'GSE174574', 'lrscore')/expected_animal_counts	True	
+('reference_singlet', 'GSE174574', 'lrscore')/common_finite_matrix	True	
+('reference_singlet', 'GSE174574', 'lrscore')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE174574', 'magnitude_priority')/one_condition_per_animal	True	
+('reference_singlet', 'GSE174574', 'magnitude_priority')/expected_animal_counts	True	
+('reference_singlet', 'GSE174574', 'magnitude_priority')/common_finite_matrix	True	
+('reference_singlet', 'GSE174574', 'magnitude_priority')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE245386', 'custom_score')/one_condition_per_animal	True	
+('reference_singlet', 'GSE245386', 'custom_score')/expected_animal_counts	True	
+('reference_singlet', 'GSE245386', 'custom_score')/common_finite_matrix	True	
+('reference_singlet', 'GSE245386', 'custom_score')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE245386', 'lr_means')/one_condition_per_animal	True	
+('reference_singlet', 'GSE245386', 'lr_means')/expected_animal_counts	True	
+('reference_singlet', 'GSE245386', 'lr_means')/common_finite_matrix	True	
+('reference_singlet', 'GSE245386', 'lr_means')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE245386', 'expr_prod')/one_condition_per_animal	True	
+('reference_singlet', 'GSE245386', 'expr_prod')/expected_animal_counts	True	
+('reference_singlet', 'GSE245386', 'expr_prod')/common_finite_matrix	True	
+('reference_singlet', 'GSE245386', 'expr_prod')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE245386', 'lrscore')/one_condition_per_animal	True	
+('reference_singlet', 'GSE245386', 'lrscore')/expected_animal_counts	True	
+('reference_singlet', 'GSE245386', 'lrscore')/common_finite_matrix	True	
+('reference_singlet', 'GSE245386', 'lrscore')/equal_animal_effect_reconstruction	True	
+('reference_singlet', 'GSE245386', 'magnitude_priority')/one_condition_per_animal	True	
+('reference_singlet', 'GSE245386', 'magnitude_priority')/expected_animal_counts	True	
+('reference_singlet', 'GSE245386', 'magnitude_priority')/common_finite_matrix	True	
+('reference_singlet', 'GSE245386', 'magnitude_priority')/equal_animal_effect_reconstruction	True	
+A_fixed_common_metrics/size_and_label	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/full_distribution	True	
+A_fixed_common_metrics/tail_and_reference	True	
+A_fixed_common_metrics/independent_Holm	True	
+B_expression_minus_ranking/size_and_label	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/full_distribution	True	
+B_expression_minus_ranking/tail_and_reference	True	
+B_expression_minus_ranking/independent_Holm	True	
+C_exploratory_dynamic_gate/size_and_label	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/full_distribution	True	
+C_exploratory_dynamic_gate/tail_and_reference	True	
+C_exploratory_dynamic_gate/independent_Holm	True	
+null/exact_family_registry	True	
+null_conditional_audit.json/complete	True	
+null_conditional_audit.json/recorded_checks	True	
+null_conditional_audit.json/recorded_check_count	True	
+null_conditional_audit.json/input_hash/C:\Users\admin\Documents\Codex\2026-09-09\duo\work\repro_delivery\analysis\work\repro_conditional_null_plan.md	True	
+null_conditional_audit.json/input_hash/null_fixed_common_all_allocations.tsv.gz	True	
+null_conditional_audit.json/input_hash/null_fixed_common_summary.tsv	True	
+null_conditional_audit.json/input_hash/null_dynamic_gate_all_allocations.tsv.gz	True	
+null_conditional_audit.json/input_hash/null_dynamic_gate_summary.tsv	True	
+null_conditional_audit.json/script_hash	True	
+conditional/exploratory_status	True	
+conditional/72_rows	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+conditional/exact_subset	True	
+conditional/tail	True	
+rank_audit.json/complete	True	
+rank_audit.json/recorded_checks	True	
+rank_audit.json/recorded_check_count	True	
+rank_audit.json/input_hash/repro_rank_mechanism_plan.md	True	
+rank_audit.json/input_hash/C:\Users\admin\Documents\Codex\2026-09-09\duo\work\repro_delivery\analysis\outputs\reproducibility_v2\tables\null_fixed_common_animal_scores.tsv.gz	False	
+rank_diagnostic_raw_audit.json/complete	True	
+rank_diagnostic_raw_audit.json/full_22	True	
+rank_diagnostic_raw_audit.json/no_new_inference	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319987', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319987', 'primary')/complete	True	
+('GSE174574', 'GSM5319987', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319987', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319987', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319987', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319987', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319987', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319987', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319987', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319988', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319988', 'primary')/complete	True	
+('GSE174574', 'GSM5319988', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319988', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319988', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319988', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319988', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319988', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319988', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319988', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319989', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319989', 'primary')/complete	True	
+('GSE174574', 'GSM5319989', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319989', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319989', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319989', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319989', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319989', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319989', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319989', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319990', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319990', 'primary')/complete	True	
+('GSE174574', 'GSM5319990', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319990', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319990', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319990', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319990', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319990', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319990', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319990', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319991', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319991', 'primary')/complete	True	
+('GSE174574', 'GSM5319991', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319991', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319991', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319991', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319991', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319991', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319991', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319991', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319992', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319992', 'primary')/complete	True	
+('GSE174574', 'GSM5319992', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319992', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319992', 'primary')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319992', 'primary')/raw_prior_exact	True	
+('GSE174574', 'GSM5319992', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319992', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319992', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319992', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841720', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841720', 'primary')/complete	True	
+('GSE245386', 'GSM7841720', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841720', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841720', 'primary')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841720', 'primary')/raw_prior_exact	True	
+('GSE245386', 'GSM7841720', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841720', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841720', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841720', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841721', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841721', 'primary')/complete	True	
+('GSE245386', 'GSM7841721', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841721', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841721', 'primary')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841721', 'primary')/raw_prior_exact	True	
+('GSE245386', 'GSM7841721', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841721', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841721', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841721', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841722', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841722', 'primary')/complete	True	
+('GSE245386', 'GSM7841722', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841722', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841722', 'primary')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841722', 'primary')/raw_prior_exact	True	
+('GSE245386', 'GSM7841722', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841722', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841722', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841722', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841723', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841723', 'primary')/complete	True	
+('GSE245386', 'GSM7841723', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841723', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841723', 'primary')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841723', 'primary')/raw_prior_exact	True	
+('GSE245386', 'GSM7841723', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841723', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841723', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841723', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841724', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841724', 'primary')/complete	True	
+('GSE245386', 'GSM7841724', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841724', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841724', 'primary')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841724', 'primary')/raw_prior_exact	True	
+('GSE245386', 'GSM7841724', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841724', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841724', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841724', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/raw_prior_exact	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/raw_prior_exact	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/raw_prior_exact	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/raw_prior_exact	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/raw_prior_exact	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/raw_run_snapshot_hash	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/raw_prior_exact	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_raw_audit.json/primary/GSE174574	True	
+rank_diagnostic_raw_audit.json/primary/GSE245386	True	
+rank_diagnostic_raw_audit.json/reference_singlet/GSE174574	True	
+rank_diagnostic_raw_audit.json/reference_singlet/GSE245386	True	
+sorted_descriptive_audit.json/script_hash	True	
+sorted/no_new_significance	True	
+sorted/source_hash	True	
+sorted/units_and_intervals	True	
+sorted/historical_effects_preserved	True	
+third/descriptive_replication_status	True	
+third/aggregation_audits	True	
+third/library_unit	True	
+third/unique_library_edge	True	
+third/equal_library_effects	True	
+third/GSE174574/concordance	True	
+third/GSE245386/concordance	True	
+ambient/completed_status	True	
+ambient/matrix_audit_status	True	
+exists/ambient_selected_sources.tsv	True	
+ambient/11_selected_sources	True	
+ambient/GSM5319987/verified	True	
+ambient/GSM5319987/convergence_source_hashes	True	
+ambient/GSM5319987/selected_matrix_verified	True	
+ambient/GSM5319988/verified	True	
+ambient/GSM5319988/convergence_source_hashes	True	
+ambient/GSM5319988/selected_matrix_verified	True	
+ambient/GSM5319989/verified	True	
+ambient/GSM5319989/convergence_source_hashes	True	
+ambient/GSM5319989/selected_matrix_verified	True	
+ambient/GSM5319990/verified	True	
+ambient/GSM5319990/convergence_source_hashes	True	
+ambient/GSM5319990/selected_matrix_verified	True	
+ambient/GSM5319991/verified	True	
+ambient/GSM5319991/convergence_source_hashes	True	
+ambient/GSM5319991/selected_matrix_verified	True	
+ambient/GSM5319992/verified	True	
+ambient/GSM5319992/convergence_source_hashes	True	
+ambient/GSM5319992/selected_matrix_verified	True	
+ambient/GSM7841720/verified	True	
+ambient/GSM7841720/convergence_source_hashes	True	
+ambient/GSM7841720/selected_matrix_verified	True	
+ambient/GSM7841721/verified	True	
+ambient/GSM7841721/convergence_source_hashes	True	
+ambient/GSM7841721/selected_matrix_verified	True	
+ambient/GSM7841722/verified	True	
+ambient/GSM7841722/convergence_source_hashes	True	
+ambient/GSM7841722/selected_matrix_verified	True	
+ambient/GSM7841723/verified	True	
+ambient/GSM7841723/convergence_source_hashes	True	
+ambient/GSM7841723/selected_matrix_verified	True	
+ambient/GSM7841724/verified	True	
+ambient/GSM7841724/convergence_source_hashes	True	
+ambient/GSM7841724/selected_matrix_verified	True	
+ambient/descriptive	True	
+exists/ambient_coverage.tsv	True	
+ambient_coverage.tsv/no_infinities	True	
+exists/ambient_concordance_summary.tsv	True	
+ambient_concordance_summary.tsv/no_infinities	True	
+exists/ambient_fixed_examples.tsv	True	
+ambient_fixed_examples.tsv/no_infinities	True	
+exists/ambient_cross_cohort_effects.tsv.gz	True	
+ambient_cross_cohort_effects.tsv.gz/no_infinities	True	
+exists/ambient_markers_per_animal.tsv	True	
+ambient_markers_per_animal.tsv/no_infinities	True	
+rank_diagnostic_decontx_audit.json/complete	True	
+rank_diagnostic_decontx_audit.json/full_22	True	
+rank_diagnostic_decontx_audit.json/no_new_inference	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319987', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319987', 'primary')/complete	True	
+('GSE174574', 'GSM5319987', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319987', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319987', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319987', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319987', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319987', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319988', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319988', 'primary')/complete	True	
+('GSE174574', 'GSM5319988', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319988', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319988', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319988', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319988', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319988', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319989', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319989', 'primary')/complete	True	
+('GSE174574', 'GSM5319989', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319989', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319989', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319989', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319989', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319989', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319990', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319990', 'primary')/complete	True	
+('GSE174574', 'GSM5319990', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319990', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319990', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319990', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319990', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319990', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319991', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319991', 'primary')/complete	True	
+('GSE174574', 'GSM5319991', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319991', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319991', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319991', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319991', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319991', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319992', 'primary')/audit_matches_summary	True	
+('GSE174574', 'GSM5319992', 'primary')/complete	True	
+('GSE174574', 'GSM5319992', 'primary')/unaltered_package	True	
+('GSE174574', 'GSM5319992', 'primary')/native_reconstruction	True	
+('GSE174574', 'GSM5319992', 'primary')/full_network_sha256	True	
+('GSE174574', 'GSM5319992', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319992', 'primary')/target_sha256	True	
+('GSE174574', 'GSM5319992', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841720', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841720', 'primary')/complete	True	
+('GSE245386', 'GSM7841720', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841720', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841720', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841720', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841720', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841720', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841721', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841721', 'primary')/complete	True	
+('GSE245386', 'GSM7841721', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841721', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841721', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841721', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841721', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841721', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841722', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841722', 'primary')/complete	True	
+('GSE245386', 'GSM7841722', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841722', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841722', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841722', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841722', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841722', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841723', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841723', 'primary')/complete	True	
+('GSE245386', 'GSM7841723', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841723', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841723', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841723', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841723', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841723', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841724', 'primary')/audit_matches_summary	True	
+('GSE245386', 'GSM7841724', 'primary')/complete	True	
+('GSE245386', 'GSM7841724', 'primary')/unaltered_package	True	
+('GSE245386', 'GSM7841724', 'primary')/native_reconstruction	True	
+('GSE245386', 'GSM7841724', 'primary')/full_network_sha256	True	
+('GSE245386', 'GSM7841724', 'primary')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841724', 'primary')/target_sha256	True	
+('GSE245386', 'GSM7841724', 'primary')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319987', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319988', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319989', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319990', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319991', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/audit_matches_summary	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/complete	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/unaltered_package	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/native_reconstruction	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/full_network_sha256	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')/target_sha256	True	
+('GSE174574', 'GSM5319992', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841720', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841721', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841722', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841723', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/unique_library_config	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/audit_matches_summary	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/complete	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/unaltered_package	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/native_reconstruction	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/full_network_sha256	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')__full_network.tsv.gz/keys_finite	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')/target_sha256	True	
+('GSE245386', 'GSM7841724', 'reference_singlet')__target.tsv.gz/keys_finite	True	
+rank_diagnostic_decontx_audit.json/primary/GSE174574	True	
+rank_diagnostic_decontx_audit.json/primary/GSE245386	True	
+rank_diagnostic_decontx_audit.json/reference_singlet/GSE174574	True	
+rank_diagnostic_decontx_audit.json/reference_singlet/GSE245386	True	
+ambient/network_source_selection_matches_resolver	True	
+ambient_rank_matched_audit.json/complete	True	
+ambient/matched_no_new_inference	True	
+ambient/matched_script_hash	True	
+exists/ambient_rank_matched_candidate_keys.tsv	True	
+exists/ambient_rank_matched_animal_scores.tsv.gz	True	
+exists/ambient_rank_matched_effects.tsv.gz	True	
+exists/ambient_rank_matched_summary.tsv	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_animal_unit	True	
+ambient/matched_common_finite	True	
+ambient/matched_equal_animal_effects	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+ambient/matched_denominators	True	
+third_rank_diagnostic_audit.json/complete	True	
+third_rank_diagnostic_audit.json/script_hash	True	
+third_liana/descriptive	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+third_liana/target_hash	True	
+exists/third_rank_diagnostic_summary.tsv	True	
+summary.tsv/no_infinities	True	
+exists/third_rank_diagnostic_effects.tsv.gz	True	
+effects.tsv.gz/no_infinities	True	
+exists/third_rank_diagnostic_library_scores.tsv.gz	True	
+library_scores.tsv.gz/no_infinities	True	
+exists/third_rank_diagnostic_ties.tsv	True	
+ties.tsv/no_infinities	True	
+third_liana/six_target_files	True	
+third_liana/full_network_audit	True	
+third_liana/full_network_audit	True	
+third_liana/full_network_audit	True	
+third_liana/full_network_audit	True	
+third_liana/full_network_audit	True	
+third_liana/full_network_audit	True	

@@ -1,0 +1,25 @@
+    analysis            config             metric                   statistic randomized_cohort  observed  conditional_unadjusted_upper_tail_p  joint_exact_upper_tail_p
+fixed_common           primary       custom_score same_direction_all_fraction         GSE174574  0.802139                                 0.05                     0.010
+fixed_common           primary       custom_score                spearman_rho         GSE174574  0.725136                                 0.05                     0.005
+fixed_common           primary magnitude_priority same_direction_all_fraction         GSE174574  0.561497                                 0.20                     0.145
+fixed_common           primary magnitude_priority                spearman_rho         GSE174574  0.228237                                 0.10                     0.125
+fixed_common           primary       custom_score same_direction_all_fraction         GSE245386  0.802139                                 0.10                     0.010
+fixed_common           primary       custom_score                spearman_rho         GSE245386  0.725136                                 0.10                     0.005
+fixed_common           primary magnitude_priority same_direction_all_fraction         GSE245386  0.561497                                 0.30                     0.145
+fixed_common           primary magnitude_priority                spearman_rho         GSE245386  0.228237                                 0.30                     0.125
+fixed_common reference_singlet       custom_score same_direction_all_fraction         GSE174574  0.729885                                 0.05                     0.020
+fixed_common reference_singlet       custom_score                spearman_rho         GSE174574  0.694503                                 0.05                     0.005
+fixed_common reference_singlet magnitude_priority same_direction_all_fraction         GSE174574  0.545977                                 0.30                     0.225
+fixed_common reference_singlet magnitude_priority                spearman_rho         GSE174574  0.102453                                 0.30                     0.270
+fixed_common reference_singlet       custom_score same_direction_all_fraction         GSE245386  0.729885                                 0.20                     0.020
+fixed_common reference_singlet       custom_score                spearman_rho         GSE245386  0.694503                                 0.10                     0.005
+fixed_common reference_singlet magnitude_priority same_direction_all_fraction         GSE245386  0.545977                                 0.40                     0.225
+fixed_common reference_singlet magnitude_priority                spearman_rho         GSE245386  0.102453                                 0.40                     0.270
+dynamic_gate           primary       custom_score same_direction_all_fraction         GSE174574  0.798762                                 0.05                     0.005
+dynamic_gate           primary       custom_score                spearman_rho         GSE174574  0.742788                                 0.05                     0.005
+dynamic_gate           primary       custom_score same_direction_all_fraction         GSE245386  0.798762                                 0.10                     0.005
+dynamic_gate           primary       custom_score                spearman_rho         GSE245386  0.742788                                 0.10                     0.005
+dynamic_gate reference_singlet       custom_score same_direction_all_fraction         GSE174574  0.757669                                 0.05                     0.005
+dynamic_gate reference_singlet       custom_score                spearman_rho         GSE174574  0.703022                                 0.05                     0.005
+dynamic_gate reference_singlet       custom_score same_direction_all_fraction         GSE245386  0.757669                                 0.10                     0.005
+dynamic_gate reference_singlet       custom_score                spearman_rho         GSE245386  0.703022                                 0.10                     0.005

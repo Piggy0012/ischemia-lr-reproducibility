@@ -1,0 +1,25 @@
+{
+  "selected_samples": 1,
+  "completed_refits": 1,
+  "all_completed": true,
+  "all_refits_converged": true,
+  "comparisons": [
+    {
+      "dataset": "GSE174574",
+      "sample": "GSM5319992",
+      "default_last_iteration": 500,
+      "default_last_max_divergence": 0.004584,
+      "extended_last_iteration": 637,
+      "extended_last_max_divergence": 0.0009979,
+      "extended_converged": true,
+      "identical_inputs": true,
+      "default_median_contamination": 0.06315525319512841,
+      "extended_median_contamination": 0.0613947998261188,
+      "mean_absolute_contamination_change": 0.003271245756968422,
+      "max_absolute_contamination_change": 0.37541859745471595,
+      "count_matrix_l1_difference": 122966.72899615919,
+      "count_matrix_l1_divided_by_raw_total": 0.003564934485190986,
+      "largest_absolute_estimated_count_change": 394.92882398471124
+    }
+  ]
+}

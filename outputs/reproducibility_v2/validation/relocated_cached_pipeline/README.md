@@ -1,0 +1,5 @@
+# Relocated cached reconstruction evidence
+
+All 12 cached stages passed after relocation, followed by complete validation with no pending stages. All scientific table schemas, row/column order, missingness and values were preserved; protected input and historical-test hashes were unchanged. The analysis scripts and all data sources resolved inside the relocated stage. The existing original frozen Python environment was shared; this is a directory-relocation test, not a fresh-machine environment installation test.
+
+No large cell matrices, model fits, software installation, network access, or figure regeneration occurred. The complete local before-output duplicate remains in the recorded run directory; it is excluded from the release ZIP. Compact plans, logs, validations, source hashes, semantic comparison and explicit JSON metadata differences are retained here. The successful comparison includes floating-point values within the recorded strict tolerance; gzip container timestamps are not scientific changes.

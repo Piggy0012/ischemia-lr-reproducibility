@@ -1,0 +1,26 @@
+[
+  [
+    "Astrocyte",
+    "Endothelial",
+    "Spp1",
+    "Itga5_Itgb1"
+  ],
+  [
+    "Astrocyte",
+    "Endothelial",
+    "Timp3",
+    "Kdr"
+  ],
+  [
+    "Endothelial",
+    "Astrocyte",
+    "Ptn",
+    "Ptprz1"
+  ],
+  [
+    "Endothelial",
+    "Astrocyte",
+    "Plat",
+    "Lrp1"
+  ]
+]

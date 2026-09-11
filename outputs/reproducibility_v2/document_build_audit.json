@@ -1,0 +1,16 @@
+[
+  {
+    "language": "zh",
+    "docx": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\manuscript_zh.docx",
+    "references": 20,
+    "figures": 10,
+    "tables": 2
+  },
+  {
+    "language": "en",
+    "docx": "C:\\Users\\admin\\Documents\\Codex\\2026-09-09\\duo\\outputs\\reproducibility_v2\\manuscript_en.docx",
+    "references": 20,
+    "figures": 10,
+    "tables": 2
+  }
+]

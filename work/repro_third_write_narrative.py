@@ -1,0 +1,68 @@
+"""Write checked Figure 5 QA and manuscript text after the completed analysis."""
+from pathlib import Path
+import hashlib, json, sys
+import pandas as pd
+from pypdf import PdfReader
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT.parent/'outputs/reproducibility_v2'
+FIG=OUT/'figures'
+DATA=OUT/'figure_source_data'
+BASE='Figure5_third_cohort_transfer'
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+review=json.loads((DATA/'figure5_visual_review.json').read_text())
+assert review['passed'] and review['preview_sha256']==sha(FIG/(BASE+'.png'))
+pdf=PdfReader(FIG/(BASE+'.pdf'))
+fonts=[]
+for page in pdf.pages:
+    for name,ref in page['/Resources']['/Font'].items():
+        font=ref.get_object()
+        leaves=font.get('/DescendantFonts',[ref])
+        for child in leaves:
+            f=child.get_object()
+            descriptor=f.get('/FontDescriptor')
+            descriptor=descriptor.get_object() if descriptor else {}
+            streams=[k for k in ['/FontFile','/FontFile2','/FontFile3'] if k in descriptor]
+            fonts.append({'resource':str(name),'base_font':str(f.get('/BaseFont')),
+                'subtype':str(f.get('/Subtype')),'embedded_font_streams':streams,
+                'embedded_bytes':sum(len(descriptor[k].get_object().get_data()) for k in streams)})
+assert fonts and all(f['embedded_bytes']>0 and f['subtype']!='/Type3' for f in fonts)
+size=[float(pdf.pages[0].mediabox.width)/72,float(pdf.pages[0].mediabox.height)/72]
+assert abs(size[0]-7.2)<.001 and abs(size[1]-5.3)<.001
+skill=Path.home()/'.codex/skills/scipilot-figure-skill/scripts'
+checks={}
+if skill.exists():
+    sys.path.insert(0,str(skill))
+    from check_figure import check_figure
+    for ext in ['png','pdf','svg']:
+        issues,info=check_figure(str(FIG/(BASE+'.'+ext)),min_dpi=300,target_inches=(7.2,5.3))
+        assert not any(level=='FAIL' for level,_ in issues)
+        checks[ext]={'issues':issues,'info':info}
+qa={'status':'complete_after_actual_color_and_grayscale_review','size_inches':size,
+    'font':'Arial','minimum_font_size_pt':7,'raster_dpi':400,'checks':checks,
+    'pdf_font_descendant_inspection':fonts,
+    'pdf_font_warning_resolution':'The generic checker inspects Type0 wrappers; their CIDFontType2 descendants contain embedded FontFile2 streams, verified directly.',
+    'all_pdf_fonts_embedded':True,'no_type3_fonts':True,'visual_review':review,
+    'output_sha256':{ext:sha(FIG/(BASE+'.'+ext)) for ext in ['png','pdf','svg']},
+    'figure_script_sha256':sha(ROOT/'repro_third_figure.py')}
+(DATA/'figure5_qa.json').write_text(json.dumps(qa,indent=2,default=str),encoding='utf-8')
+d=pd.read_csv(OUT/'tables/third_rank_diagnostic_summary.tsv',sep='\t',float_precision='round_trip')
+d=d[d.universe=='all_three_cohorts_complete']
+assert len(d)==12 and set(d.n_candidates)=={99}
+old=pd.read_csv(OUT/'tables/third_rank_diagnostic_original_pair_on99.tsv',sep='\t',float_precision='round_trip')
+assert len(old)==6 and set(old.n_candidates)=={99}
+assert old.set_index('metric').loc['custom_score','n_same_direction']==80
+assert d[(d.baseline_dataset=='GSE174574') & (d.metric=='custom_score')].n_same_direction.iloc[0]==53
+assert d[(d.baseline_dataset=='GSE245386') & (d.metric=='custom_score')].n_same_direction.iloc[0]==58
+text={
+ 'status':'complete',
+ 'methods_zh':'在GSE332910的6个文库上，按原primary标记规则保留通过QC且每类至少30个核的背景细胞，逐文库运行LIANA 1.10.0完整细胞类型网络。归一化使用全部提交基因的原始UMI总量，采用与原队列相同的float32 log1p(CP10k)、mouseconsensus资源、10%检出阈值、100次内部置换及固定种子。所有归一化稀疏矩阵的存储值均为正；每类pseudobulk与独立分块聚合一致。每个原生magnitude rank先从完整网络精确重建，随后在同一完整网络内，对每个不同的magnitude分数列仅进行一次排名，并对这些排名实施RRA聚合，得到明确标注的unique-column实现诊断。比较使用在全部17个文库、全部相关LIANA分数上均完整的相同99条目标候选，并在这一集合内计算custom、lr_means、expr_prod、lrscore、原生及诊断优先级的缺血减Sham效应；排序始终在各文库完整网络上完成后再取目标子集。另计算原两队列在相同99条候选上的参照。数值TSV以round_trip精度读取，全部比较为描述性；第三队列仅使用raw/primary版本，未作参考支持或去污染版本扩展。',
+ 'methods_en':'LIANA 1.10.0 was run separately on the six GSE332910 libraries using the original primary marker rule and QC-passing context classes with at least 30 nuclei. The analysis retained the original full-gene UMI denominator, float32 log1p(CP10k), mouseconsensus resource, 10% detection threshold, 100 internal permutations and fixed seed. Normalized sparse entries were strictly positive, and class pseudobulks matched independent stream aggregation. Native magnitude ranks were reconstructed from each complete cell-type network before ranking each distinct magnitude-score column once, then aggregating those ranks with RRA as an explicitly labeled implementation diagnostic. All six metrics were compared on the same 99 target candidates complete across all 17 libraries; ranks were calculated on full per-library networks before target restriction. The original cohort pair was also evaluated on these 99 candidates. Numerical TSVs were parsed with round-trip precision. These comparisons were descriptive and used only raw counts and primary selection for the third cohort, without reference-supported or decontaminated third-cohort versions.',
+ 'results_zh':'在全部17个文库共同完整的99条候选中，原两队列的custom效应有80/99同向（80.8%，ρ=0.767），原生优先级为65/99（65.7%，ρ=0.350），unique-column诊断为70/99（70.7%，ρ=0.571）。同一目标候选集合内，第三队列与原发现队列的custom、原生和诊断结果分别为53/99（53.5%，ρ=0.551）、48/99（48.5%，ρ=0.219）和52/99（52.5%，ρ=0.460）；与原外部队列分别为58/99（58.6%，ρ=0.576）、48/99（48.5%，ρ=0.287）和48/99（48.5%，ρ=0.392）。第三队列两组比较中，四种表达相关分数的ρ范围分别为0.514–0.720和0.512–0.659。诊断调整提高了优先级效应的相关性，但方向一致率仅小幅增加或保持不变。原发现相关比较中，原生与诊断优先级分别有3条和6条候选在至少一个队列中呈零效应；对原外部队列的两种优先级均无零效应。由此，方向一致率与效应相关性应分别报告；相同目标集合上的结果显示，表达效应的方向转移也随队列改变，而排序关系进一步受分数实现影响。',
+ 'results_en':'Among the same 99 target candidates complete across all 17 libraries, the original cohort pair showed 80/99 concordant custom effects (80.8%; rho=0.767), compared with 65/99 for native priority (65.7%; rho=0.350) and 70/99 for the unique-column diagnostic (70.7%; rho=0.571). Against the original discovery cohort, the third cohort yielded 53/99 for custom effects (53.5%; rho=0.551), 48/99 for native priority (48.5%; rho=0.219), and 52/99 for diagnostic priority (52.5%; rho=0.460). Against the original external cohort, the corresponding results were 58/99 (58.6%; rho=0.576), 48/99 (48.5%; rho=0.287), and 48/99 (48.5%; rho=0.392). Across the four expression-related scores, rho ranged from 0.514 to 0.720 and from 0.512 to 0.659 in the two third-cohort comparisons. The diagnostic increased priority-effect correlation, whereas direction agreement improved only slightly or remained unchanged. In comparisons involving the discovery cohort, three native and six diagnostic candidates had a zero disease effect in at least one cohort; neither priority metric had zero effects in the third-versus-external comparison. Direction agreement and effect correlation therefore capture distinct aspects of transfer. On a common target set, expression-direction transfer varied across cohorts, while priority relationships also depended on score implementation.',
+ 'caption_zh':'图5. 急性纹状体单核队列中的效应转移。A、B：GSE332910各文库按原primary规则指定的星形胶质核和内皮核数；每点一个文库，S1–S3与M1–M3对应Sham及24 h MCAO的提交重复。作者Table S1报告每组3个生物学重复和3个文库，逐文库用鼠数未说明。C、D：第三队列分别与GSE174574和GSE245386比较，采用全部17文库共同完整的相同99条目标候选；点表示custom、原生RRA及unique-column诊断RRA的缺血减Sham效应Spearman相关。标签给出同向非零效应数/全部99候选及至少一个队列中零效应的候选数；零效应定义为绝对组差不超过1e−12。各优先级在文库完整网络上计算后才提取目标候选。原两队列在相同99候选上的参照见补充表third_rank_diagnostic_original_pair_on99.tsv。第三队列仅采用raw/primary选择；图中估计均为描述性。',
+ 'caption_en':'Figure 5. Effect transfer to an acute striatal single-nucleus cohort. A,B: assigned astrocyte and endothelial nuclei in each GSE332910 library under the original primary rule. Each point denotes one library; S1–S3 and M1–M3 identify the submitted Sham and 24-h MCAO replicates. Source Table S1 reports three biological replicates and three libraries per group; mice per library were unspecified. C,D: third-cohort comparisons with GSE174574 and GSE245386 on the same 99 target candidates complete across all 17 libraries. Dots show Spearman correlation of MCAO-minus-Sham effects for custom coavailability, native RRA priority and the unique-column RRA diagnostic. Labels report concordant nonzero effects/all 99 candidates and candidates with a zero effect in either cohort (absolute effect <=1e-12). Priorities were computed on each full library network before target restriction. Original-pair comparisons on the same 99 candidates are provided in the supplementary table third_rank_diagnostic_original_pair_on99.tsv. The third cohort used raw counts and primary selection only; all estimates are descriptive.'
+}
+(ROOT/'repro_third_liana_narrative.json').write_text(json.dumps(text,ensure_ascii=False,indent=2),encoding='utf-8')
+md='\n\n'.join([text['caption_en'],text['caption_zh']])+'\n'
+(DATA/'figure5_captions_en_zh.md').write_text(md,encoding='utf-8')
+print('Complete narrative and Figure 5 QA written; embedded fonts:',fonts)

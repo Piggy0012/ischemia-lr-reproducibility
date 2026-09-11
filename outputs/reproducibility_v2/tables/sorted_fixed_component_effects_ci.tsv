@@ -1,0 +1,12 @@
+gene	cell_type	paired_log2_effect	ci_low	ci_high	n_paired_pools	previous_transcriptome_filter	n_positive_pairs	n_negative_pairs	interpretation
+Col4a1	Astrocyte	0.6980942110121363	-0.16065652911251305	1.5568449511367857	6	True	5	1	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Lrp1	Astrocyte	-0.0707301267963576	-0.5341096151084397	0.39264936151572455	6	True	2	4	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Ptprz1	Astrocyte	-0.34366473999407826	-0.8661746140632649	0.17884513407510844	6	True	2	4	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Spp1	Astrocyte	3.3764407168903197	0.6532917572107291	6.09958967656991	6	True	6	0	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Timp3	Astrocyte	-0.6856968898918371	-1.0959592527605484	-0.27543452702312576	6	True	0	6	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Itga3	Endothelial	0.705866956184594	-1.195365562559627	2.607099474928815	6	True	4	2	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Itga5	Endothelial	1.4857090254686547	-0.9422407730476148	3.913658823984924	6	True	5	1	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Itgb1	Endothelial	0.37457459532270043	0.0016205566773056512	0.7475286339680952	6	True	5	1	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Kdr	Endothelial	0.032586379867258174	-0.6662660588873066	0.731438818621823	6	True	4	2	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Plat	Endothelial	-0.04337519644721688	-0.808587122791089	0.7218367298966553	6	True	3	3	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval
+Ptn	Endothelial	-1.9321894450158135	-2.8743991020294146	-0.9899797880022121	6	True	0	6	Author-normalized expression; paired ipsilateral-minus-contralateral log2(x+1); pointwise t interval

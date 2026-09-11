@@ -1,0 +1,27 @@
+{
+  "sample": "GSM7841724",
+  "dataset": "GSE245386",
+  "shape": [
+    12322,
+    32245
+  ],
+  "all_positive_corrected_totals": true,
+  "corrected_source_selection": {
+    "selected_relative_directory": "repro_decontx/GSE245386/GSM7841724",
+    "default_converged": true,
+    "numerical_extension_selected": false,
+    "selected_converged": true,
+    "selected_max_iter": 500,
+    "selected_last_divergence": 0.0009651,
+    "selected_audit_sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3",
+    "default_audit_sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3"
+  },
+  "source_audit_sha256": "7e6d5145b7da210eb9442f162ac3e7d5f49926e9046f0a907fdafc36d38c65c3",
+  "script_sha256": "f5ed644e2d9ea3c4d117ab29f931fcabbf7c79631a3bfd877c37258333771706",
+  "count_provenance": "Fractional DecontX estimates; no DESeq2 on these estimates",
+  "normalization": "Corrected counts normalised by corrected total across all genes in the same cell",
+  "fixed_cell_selections": [
+    "primary",
+    "reference_singlet"
+  ]
+}

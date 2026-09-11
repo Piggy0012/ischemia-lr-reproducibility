@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE245386",
+  "config": "primary",
+  "cell_type": "Endothelial",
+  "n_samples": 5,
+  "samples_by_condition": {
+    "Sham": 3,
+    "MCAO": 2
+  },
+  "tested_genes": 15235,
+  "fdr05": 3131,
+  "fdr05_abslog2fc05": 2500,
+  "min_cells": 1860,
+  "n_cpus": 1,
+  "software": "PyDESeq2",
+  "replication_level": "exploratory: validation MCAO n=2"
+}

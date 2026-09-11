@@ -1,0 +1,5 @@
+# Relocated cached reconstruction evidence
+
+This initial relocated cached run completed every computation with no scientific table or protected-source change, but failed post-validation because the validator selected an outer /work/ path marker before the inner /outputs/ marker. The validator was corrected to choose the innermost archive-root marker; six root, relocated and relative path cases passed. This directory deliberately preserves the failed audit and is not evidence of a successful release.
+
+No large cell matrices, model fits, software installation, network access, or figure regeneration occurred. The complete local before-output duplicate remains in the recorded run directory; it is excluded from the release ZIP. Compact plans, logs, validations, source hashes, semantic comparison and explicit JSON metadata differences are retained here. The successful comparison includes floating-point values within the recorded strict tolerance; gzip container timestamps are not scientific changes.

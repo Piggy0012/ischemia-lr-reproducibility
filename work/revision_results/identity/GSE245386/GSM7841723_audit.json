@@ -1,0 +1,82 @@
+{
+  "dataset": "GSE245386",
+  "sample": "GSM7841723",
+  "n_qc": 9852,
+  "models": {
+    "whole_brain": {
+      "model": "Mouse_Whole_Brain.pkl",
+      "matched_features": 5594,
+      "model_features": 5596,
+      "compatibility": {
+        "checked_cells": 256,
+        "decision_max_abs_error": 0.0,
+        "labels_identical": true,
+        "probabilities_identical": true
+      },
+      "majority_voting": false,
+      "probability_note": "One-versus-rest sigmoid score, not a calibrated posterior or ground truth"
+    },
+    "cortex_hippocampus": {
+      "model": "Mouse_Isocortex_Hippocampus.pkl",
+      "matched_features": 3327,
+      "model_features": 3383,
+      "compatibility": {
+        "checked_cells": 256,
+        "decision_max_abs_error": 0.0,
+        "labels_identical": true,
+        "probabilities_identical": true
+      },
+      "majority_voting": false,
+      "probability_note": "One-versus-rest sigmoid score, not a calibrated posterior or ground truth"
+    }
+  },
+  "scrublet": {
+    "expected_doublet_rate": 0.05,
+    "sim_doublet_ratio": 2.0,
+    "n_prin_comps": 30,
+    "random_state": 20260910,
+    "threshold": 0.21385343127506487,
+    "n_simulated": 19704,
+    "n_predicted": 288,
+    "predicted_fraction": 0.029232643118148598,
+    "automatic_threshold": true,
+    "ambient_RNA_corrected": false
+  },
+  "rule_target_counts": {
+    "Unassigned": 2559,
+    "Endothelial": 1996,
+    "Microglia": 1724,
+    "Myeloid": 1113,
+    "Oligodendrocyte": 828,
+    "Pericyte": 444,
+    "Astrocyte": 288,
+    "Smooth_muscle": 287,
+    "Choroid": 117,
+    "Erythroid": 116,
+    "Neuron": 88,
+    "Ependymal": 80,
+    "Fibroblast": 67,
+    "Neutrophil": 65,
+    "OPC": 53,
+    "Lymphocyte": 27
+  },
+  "reference_target_counts": {
+    "Microglia": 4356,
+    "Endothelial": 2745,
+    "Oligodendrocyte": 877,
+    "Pericyte": 405,
+    "Smooth_muscle": 316,
+    "Astrocyte": 292,
+    "Macrophage": 220,
+    "Neuron/Other": 217,
+    "Dendritic": 93,
+    "Choroid": 88,
+    "Ependymal": 78,
+    "Fibroblast": 58,
+    "Monocytes": 50,
+    "Lymphocyte": 37,
+    "OPC": 10,
+    "Astroependymal": 7,
+    "ABC": 3
+  }
+}
